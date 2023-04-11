@@ -58,7 +58,17 @@ export default defineConfig({
           { text: "Integrated plan", link: "/integrated-plan" },
           { text: "Polkaswap", link: "/polkaswap" },
           { text: "XST", link: "/tba" },
-          { text: "SORAcard", link: "/tba" },
+          {
+            text: "SORAcard",
+            link: "/tba",
+            items: [
+              {
+                text: "Features",
+                link: "/tba",
+                items: [{ text: "Logout", link: "/SORAcard_logout" }],
+              },
+            ],
+          },
           {
             text: "SORA in your pocket",
             link: "/tba",
