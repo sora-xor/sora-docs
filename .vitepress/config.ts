@@ -12,7 +12,8 @@ export default defineConfig({
     ],
     logo: "https://raw.githubusercontent.com/sora-xor/sora-branding/84f3c35328f5f570a2ed2027ec5533e7cc25d151/SORA/SORA-logo/SVG%20(vector%20files%20for%20web)/04_SORA_main_logo_landscape.svg",
     editLink: {
-      pattern: "https://github.com/sora-xor/sora-docs/tree/master/src/:path",
+      pattern:
+        "https://github.com/sora-xor/sora-docs/tree/experiments/src/:path",
     },
     sidebar: [
       {
@@ -29,29 +30,29 @@ export default defineConfig({
               },
               {
                 text: "XOR",
-                link: "/api-examples",
+                link: "/xor",
               },
               {
                 text: "VAL",
-                link: "/api-examples",
+                link: "/val",
               },
               {
                 text: "PSWAP",
-                link: "/api-examples",
+                link: "/pswap",
               },
               {
                 text: "XST",
-                link: "/api-examples",
+                link: "/xst",
               },
               {
                 text: "TBCD",
-                link: "/api-examples",
+                link: "/tbcd",
               },
             ],
           },
-          { text: "SORA economy", link: "/tba" },
+          { text: "SORA economy", link: "/sora-economy" },
           { text: "Governance", link: "/governance" },
-          { text: "Academy", link: "/tba" },
+          // { text: "Academy", link: "/tba" },
         ],
       },
       {
@@ -89,7 +90,7 @@ export default defineConfig({
           },
           {
             text: "User guides",
-            link: "/tba",
+            link: "/markdown-examples",
           },
         ],
       },
@@ -104,15 +105,20 @@ export default defineConfig({
           { text: "Pallets", link: "/tba" },
         ],
       },
+      { text: "Changelog", link: "/changelog" },
     ],
 
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan You",
+      message: "sora.org",
+      // copyright: "Copyright © 2019-present Evan You",
+    },
+    search: {
+      provider: "local",
     },
   },
   srcDir: "./src",
+  lastUpdated: true,
 });

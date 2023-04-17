@@ -2,7 +2,7 @@
 
 🎉 The SORA Ecosystem Integrated Plan is live! This means that tracking development progress for the network is now better and more streamlined, as completion percentages for the different tracks and tasks are provided so that you have a better context of what is going on.
 
-[The SORA Integrated Plan](https://sora.org/plan)
+![](https://sora.org/plan)
 
 The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, and **Mobile/Other** tracks.
 

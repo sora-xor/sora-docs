@@ -11,8 +11,8 @@ hero:
   #     text: Getting started
   #     link: /markdown-examples
   #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
+  #     text: View on Github
+  #     link: https://github.com/sora-xor/sora-docs/
 
 features:
   - title: Getting Started
@@ -23,6 +23,7 @@ features:
     link: /integrated-plan
   - title: Participating in the SORA Economy
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /running-a-node
   - title: BUIDL
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /buidl

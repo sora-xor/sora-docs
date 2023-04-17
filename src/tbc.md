@@ -6,7 +6,7 @@ The [token bonding curve](https://medium.com/coinmonks/token-bonding-curves-expl
 
 A TBC is a smart contract that takes the input of a token and outputs a new token. This creates a plethora of possible variations to drive an exciting area of research, but in SORA we use a simple model where there are two linear functions: a **Buy-Price** Function and a **Sell-Price** Function.
 
-![Primary market is the TBC, the secondary is Polkaswap/Uniswap..](<.gitbook/assets/tbc (2).png>)
+![](<.gitbook/assets/tbc (2).png>)
 
 Put simply, **the token bonding curve is essentially an infinitely liquid, decentralized central bank.** At any time, you can buy newly minted XOR from the token bonding curve using specific **reserve assets**, or sell your XOR tokens (which are instantly burned) for one of those assets.
 
@@ -80,4 +80,4 @@ In addition, Parity is also developing a Polkadot <> Kusama bridge. DOT will als
 
 DOT and KSM tokens held in reserves by the token bonding curve will be used to make a bid for a subsequent parachain slot for the SORA ecosystem.
 
-\***\*[**Double rewards**](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) **will be given to users who buy XOR with KSM and DOT\*\*, as these two currencies are crucial for the SORA Network.
+[**Double rewards**](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) will be given to users who buy XOR with KSM and DOT, as these two currencies are crucial for the SORA Network.
