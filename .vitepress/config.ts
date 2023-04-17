@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "SORA docs",
+  title: "docs",
   description: "Guides, how-tos, architecture",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -10,7 +10,10 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Guide", link: "/introduction" },
     ],
-
+    logo: "https://raw.githubusercontent.com/sora-xor/sora-branding/84f3c35328f5f570a2ed2027ec5533e7cc25d151/SORA/SORA-logo/SVG%20(vector%20files%20for%20web)/04_SORA_main_logo_landscape.svg",
+    editLink: {
+      pattern: "https://github.com/sora-xor/sora-docs/tree/master/src/:path",
+    },
     sidebar: [
       {
         text: "Getting started",
@@ -106,6 +109,10 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2019-present Evan You",
+    },
   },
   srcDir: "./src",
 });
