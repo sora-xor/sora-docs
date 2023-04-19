@@ -1,11 +1,7 @@
 # SORA mobile app
 
-SORA Wallet is a unique application you can download on Android and iOS. It&#x20;
+SORA Wallet is a unique application you can download on Android and iOS.
 
-{% embed url="https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora" %}
-SORA on Play Store
-{% endembed %}
+https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora"
 
-{% embed url="https://apps.apple.com/us/app/sora-dae/id1457566711" %}
-SORA on Apple Store
-{% endembed %}
+"https://apps.apple.com/us/app/sora-dae/id1457566711"
