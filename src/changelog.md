@@ -8,6 +8,8 @@
 
 [Demeter]()
 
-[iOS](tba)
+[iOS]()
 
-[Android](tba)
+[Android]()
+
+**_TODO_** How can it be combined with the regular ecosystem updates?

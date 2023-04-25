@@ -4,7 +4,7 @@ The community envisions a New Economic World Order — one that is truly decentr
 
 SORA is an on-chain governance system based around the XOR token that allows producers to make proposals for funding and all token holders make decisions how to allocate XOR so that the best goods and services get created. People who create goods or services should accept XOR for them, thus building the SORA economy.
 
-::: info
+::: info ℹ️
 We believe that inflation is good only if tokens are minted for producing new goods or services
 :::
 
@@ -18,4 +18,4 @@ According to the General Quantity Theory of macroenomics, a currency could be in
 2. for speculation
 3. for production
 
-Inflating a currency for (1) and (2) leads to price increases and boom-bust economic cycles. Creating money for (3) production can lead to the economic growth at a predictable rate, advancing human development and technology. SORA tokenomics rely on a [token-bonding-curve.md](/tbc) that helps mitigate boom-bust valuations of most cryptocurrencies, and manages the challenges of not having an elastic supply of capital.
+Inflating a currency for (1) and (2) leads to price increases and boom-bust economic cycles. Creating money for (3) production can lead to the economic growth at a predictable rate, advancing human development and technology. SORA tokenomics rely on a [Token Bonding Curve](/tbc) that helps mitigate boom-bust valuations of most cryptocurrencies, and manages the challenges of not having an elastic supply of capital.
