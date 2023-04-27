@@ -62,7 +62,7 @@ Step 5. After your hash is found, use the `getApprovedRequests` RPC to get the a
 
 Step 6. Go to https://etherscan.io/address/0x313416870a4da6f12505a550b67bb73c8e21d5d3#writeContract and call `addEthNativeToken` with data from the previous step. Note, that v parameters in signatures should be increased by `27`. That is if you see `v: 0` and `v: 1`, these parameters should be passed as `[27, 28]`.
 
-## Adding a token to a whitelist ##
+# Adding a token to a whitelist
 
  If you want to be able to bridge your token in Polkaswap, and in order to move your token to Ethereum, it needs to be whitelisted. You can whitelist your token by following the instructions on [GitHub](https://github.com/sora-xor/polkaswap-token-whitelist-config).
 
