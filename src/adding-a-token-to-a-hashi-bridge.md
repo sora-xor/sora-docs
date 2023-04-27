@@ -7,7 +7,7 @@ Adding a token to the SORA HASHI bridge involves several steps;
 3. Registration of an ERC-20 token in Ethereum (and its mapping with a SORA asset)
 4. Adding a token to a whitelist
 
-## Registering a token within the SORA blockchain ##
+# Registering a token within the SORA blockchain
 
 Please refer to 
 
