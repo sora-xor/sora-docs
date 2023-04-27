@@ -25,7 +25,7 @@ Step 5. After your hash is found, use `getApprovedRequests` RPC to get the appro
 
 Step 6. Call `addEthSidechainToken` in the bridge's smart contract
 
-### Using remix ###
+### Using Remix ###
 
 Step 1. Copy the contract ABI from the Code section on etherscan
 
