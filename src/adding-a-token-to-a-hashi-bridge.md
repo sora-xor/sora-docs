@@ -7,7 +7,7 @@ Adding a token to the SORA HASHI bridge involves several steps;
 3. Registration of an ERC-20 token in Ethereum (and its mapping with a SORA asset)
 4. Adding a token to a whitelist
 
-## Registering a token within the SORA blockchain ##
+# Registering a token within the SORA blockchain
 
 Please refer to 
 
@@ -53,6 +53,7 @@ Step 5. Fill in the transaction data
 
 Step 6. Confirm
 
+
 ![](</.gitbook/assets/telegram-cloud-document-2-5418105586115946211.jpg>)
 
 ### Using Etherscan ###
@@ -86,7 +87,7 @@ Access https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602#w
 
 ![](</.gitbook/assets/1c74b050-8f76-4ec7-873e-a20ed18c9f4b.png>)
 
-## Adding a token to a whitelist ##
+# Adding a token to a whitelist
 
  If you want to be able to bridge your token in Polkaswap, and in order to move your token to Ethereum, it needs to be whitelisted. You can whitelist your token by following the instructions on [GitHub](https://github.com/sora-xor/polkaswap-token-whitelist-config).
 
