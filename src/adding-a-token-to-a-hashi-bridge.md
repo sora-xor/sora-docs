@@ -39,7 +39,7 @@ Step 5. Fill in the transaction data
 
 Step 6. Confirm
 
-### Using etherscan ###
+### Using Etherscan ###
 
 Access https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602#writeContract and fill in the fields with data from the previous step. Note, that v parameters in signatures should be increased by `27`. That is, if you see `v: 0` and `v: 1`, these parameters should be passed as `[27, 28]`.
 
