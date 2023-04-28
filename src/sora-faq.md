@@ -24,13 +24,13 @@ Yes, on [Polkaswap.io](https://polkaswap.io/#/swap) you can buy tokens using Moo
 
 ## What is an asset ID (address)?
 
-Asset ID (address) is a unique asset identifier on the SORA network (like a contract address in Ethereum).  You can see the token ID addresses available on the SORA Network [here](https://wiki.sora.org/polkaswap/tokens-id-addresses).
+Asset ID (address) is a unique asset identifier on the SORA network (like a contract address in Ethereum). You can see the token ID addresses available on the SORA Network [here](https://wiki.sora.org/polkaswap/tokens-id-addresses).
 
 ## How do Addresses Work on the SORA Network
 
 If you have used SORA Network or Polkaswap, you probably have noticed that generally addresses start with 5, but in Sorascan you have to input an address that starts with `cn`. So how does it work?
 
-The address format used in Substrate-based chains is [SS58](https://github.com/paritytech/substrate/wiki/External-Address-Format-\(SS58\)), and each chain can select its own prefix, generating different addresses. Here's an example:
+The address format used in Substrate-based chains is [SS58](<https://github.com/paritytech/substrate/wiki/External-Address-Format-(SS58)>), and each chain can select its own prefix, generating different addresses. Here's an example:
 
 Polkadot has prefix 0, and a certain derivation function makes it so that all Polkadot addresses start with 1.
 
@@ -66,12 +66,12 @@ When looking at the top holders on [Subscan](https://sora.subscan.io/account), s
 
 The validators are nodes that have been selected to produce blocks. Validators are a core part of the SORA network because they have to accept or reject blocks of transactions. The election of validators is made using [Phragmèn Method](https://wiki.polkadot.network/docs/en/learn-phragmen), the same used by Polkadot and Kusama. Considering that running a validator node requires effort, it won't go without reward. Those who run validator nodes will receive rewards in the form of VAL tokens, based on the amount of VAL burned on the last day.
 
-You can read more [here](../architecture/Consensus.md#how-validators-are-chosen).
+You can read more [here](/consensus).
 
 ## What is a nominator?
 
 A nominator is a normal user who publishes a list of trusted validator candidates and puts down an amount of XOR at stake to support them (the concept of staking). As long as a nominator supports validator candidates with good security practices, their staking is low-risk. Nominator rewards are in VAL and are based on the amount of VAL burnt during the day. You can read more about the VAL token and the staking rewards [here](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8).
 
-You can [read more here](../architecture/Consensus.md#how-validators-are-chosen) as well.
+You can [read more here](/consensus) as well.
 
 To learn how to stake your XOR, have a look at the dedicated tutorial.
