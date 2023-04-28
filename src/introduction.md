@@ -19,3 +19,27 @@ According to the General Quantity Theory of macroenomics, a currency could be in
 3. for production
 
 Inflating a currency for (1) and (2) leads to price increases and boom-bust economic cycles. Creating money for (3) production can lead to the economic growth at a predictable rate, advancing human development and technology. SORA tokenomics rely on a [Token Bonding Curve](/tbc) that helps mitigate boom-bust valuations of most cryptocurrencies, and manages the challenges of not having an elastic supply of capital.
+
+## The Case for XOR
+
+### Abstract
+
+XOR is a supranational currency that has its supply and primary market managed by a computer program that runs on a blockchain.
+XOR is not controlled by any country, company, or individual, and is thus
+a global economic system designed for the common good of humanity.
+To facilitate economic growth, money must be deployed in an economy
+to create new goods and services. Unlike other cryptocurrencies, such as
+Bitcoin, countries can make proposals to fund productive investments via
+XOR allocated from a fund, or from minting TBCD, which is convertible
+to XOR on the open market, all via an open governance process. This
+means that XOR does not act as a foreign currency that is outside the
+control of democratic governments, but rather can be integrated into the
+domestic economy wherever it is used, to fund nominal GDP growth.
+Furthermore, XOR is not a debt-based currency, so more egalitarian
+social outcomes can be realized, compared to contemporary economic
+systems, as economic growth is not inhibited to service an ever-growing
+debt. Thus using XOR as legal tender in countries for discharging debts,
+purchasing goods and services, and paying taxes, can lead to increased
+economic growth, because increased productive output can be funded.
+
+[Read the entire **SORA whitepaper** by Dr. Makoto Takemiya.](https://sora.org/pub/The-Case-for-XOR.pdf)
