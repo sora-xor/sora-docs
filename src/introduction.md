@@ -12,7 +12,7 @@ SORA mechanism is based on the **General Theory of macroeconomics**:
 
 <iframe width="100%" height="484" src="https://www.youtube.com/embed/KEfdlctvHH4" title="SORA Economic Forum — KEYNOTE: &#39;Disaggregated Quantity Theory of Credit&#39; by Professor Richard Werner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-According to the General Quantity Theory of macroenomics, a currency could be inflated in 3 ways:&#x20;
+According to the General Quantity Theory of macroenomics, a currency could be inflated in 3 ways;
 
 1. for consumption
 2. for speculation
