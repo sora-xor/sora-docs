@@ -9,7 +9,7 @@ Adding a token to the SORA HASHI bridge involves several steps;
 
 ## Registering a token within the SORA blockchain ##
 
-Please refer to 
+Please refer to [Registration](/register-an-asset.md)
 
 ## Registering a SORA asset on the bridge ##
 
