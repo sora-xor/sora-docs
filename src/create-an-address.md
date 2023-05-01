@@ -1,5 +1,6 @@
 # Account creation
 
+
 ::: tip
 
 We recommend using the SORA testnet for practice exercises. Here are the Testnet links:
@@ -40,6 +41,7 @@ Click the checkbox and move on to the next step.
 
 Enter an account name and password then proceed\
 \
+
 ![](<../.gitbook/assets/image (30).png>)
 
 The new account is now created\
@@ -60,13 +62,16 @@ Open [https://polkadot.js.org/apps/](https://polkadot.js.org/apps/) and then sel
 
 If you've already installed the Polkadot browser plugin, it will request authorization to sync data. You can do it, as it will make account management easier.\
 \
+
 ![](<../.gitbook/assets/image (2).png>)
 
 Open the [Accounts](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.stage.sora2.soramitsu.co.jp#/accounts) page
 
 If you allow the Polkadot browser plugin to sync, then your accounts will appear in the Polkadot.js app.
 
+
 ![](<../.gitbook/assets/Untitled (9) (1).png>)
+
 
 You can create a new account.
 
@@ -106,6 +111,7 @@ When you install the application you'll be able to create an account.
 
 There are two options: **Create account** and **Import account.** For this exercise tap on **Create account.**\
 \
+
 ![](<../.gitbook/assets/image (5).png>)\
 \
 ![](<../.gitbook/assets/image (17).png>)
@@ -114,7 +120,9 @@ There are two options: **Create account** and **Import account.** For this exerc
 
 Then enter an account name. It may be any string. Then tap continue.\
 \
+
 ![](<../.gitbook/assets/image (7).png>)
+
 
 The screen with the passphrase will be shown.
 
@@ -122,6 +130,7 @@ _**Save the passphrase in a secret place or remember it. The passphrase is the o
 
 You can confirm the mnemonic or skip the process. Just tap the words at the top of the screen in the right order. The tapped word will be shown on the bottom of the screen.\
 \
+
 ![](<../.gitbook/assets/image (12).png>)
 
 After that, input and confirm a PIN code of your choice. \
@@ -144,6 +153,7 @@ For example, my passphrase is
 
 You can restore the account in the Polkadot browser plugin. Click on ➕ sign and click on **Import account from pre-existing seed.** Then enter the passphrase and click **Next.**\
 \
+
 ![](<../.gitbook/assets/image (4).png>)\
 \
 ![](<../.gitbook/assets/image (14).png>)
@@ -177,3 +187,4 @@ As mentioned before, Substrate networks use different address prefixes for gener
 Just enter your address and click **Transfer**. You can specify the output type. By default, the Subscan tool will convert the address to all supported network formats.
 
 ![](<../.gitbook/assets/Untitled (22) (1).png>)
+
