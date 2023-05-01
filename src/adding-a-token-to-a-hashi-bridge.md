@@ -20,11 +20,11 @@ Step 1. Get the AssetId of the asset you want to add (e.g. `0x000268050a977248b6
 
 Step 2. Go to polkadot{.js} and call the `ethBridge.addAsset` extrinsic via a fast track motion (see the steps in ) with the asset id from the first step and network id `0` (for Ethereum).
 
-![](.gitbook/assets/56fb221f-642d-439f-beeb-af1182e62643 (1) (3).png)
+![](<.gitbook/assets/56fb221f-642d-439f-beeb-af1182e62643 (1) (3).png>)
 
 Step 3. Once the proposal goes through, acquire the bridge’s peers' signatures via the `ethBridge.getAccountRequests` RPC with your account as the first argument and status `ApprovalsReady`.
 
-![](.gitbook/assets/e76084e0-f516-4dad-acae-58b3e66753b3 (1).png)
+![](<.gitbook/assets/e76084e0-f516-4dad-acae-58b3e66753b3 (1).png>)
 
 Step 4. The RPC will return a bunch of hashes. These are off-chain request hashes, the last one should be `OutgoingAddAsset` request. To find out if the asset was added successfully, use the `getRequests` RPC.
 
@@ -80,7 +80,7 @@ Access https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602#w
 
 3. After the proposal is approved, acquire the bridge’s peers' signatures via the `ethBridge.getAccountRequests` RPC of the `cnTQ1kbv7PBNNQrEb1tZpmK7hZUUWqKBpWxmnxL4nczYfYfrh` account.
 
-![](.gitbook/assets/e76084e0-f516-4dad-acae-58b3e66753b3 (1).png)
+![](<.gitbook/assets/e76084e0-f516-4dad-acae-58b3e66753b3 (1).png>)
 
 4. The RPC will return a bunch of hashes. These are off-chain request hashes, one of them should be `OutgoingAddToken` request. To find out if the asset was added successfully, use the `getRequests` RPC.
 
