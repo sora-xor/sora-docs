@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop
+      - feature/dops-2414/fix_pages
 jobs:
   deploy:
     runs-on: ubuntu-latest
