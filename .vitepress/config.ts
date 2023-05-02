@@ -178,7 +178,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/sora-xor/sora-docs" },
     ],
     footer: {
       message: "sora.org",
@@ -187,6 +187,8 @@ export default defineConfig({
     search: {
       provider: "local",
     },
+    outline: "deep",
+    outlineTitle: "Page Contents",
   },
   srcDir: "./src",
   lastUpdated: true,
