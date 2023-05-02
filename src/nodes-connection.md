@@ -26,19 +26,19 @@ In the practice section, we'll be switching between different nodes.
 
 As aforementioned in the Theory section, it's really easy to switch between different nodes. You can find the button to switch between nodes in the header.
 
-![](../.gitbook/assets/Untitled.png)
+![](.gitbook/assets/Untitled.png)
 
 Click on this button.
 
-![](<../.gitbook/assets/Untitled (1) (11).png>)
+![](<.gitbook/assets/Untitled(1)(11).png>)
 
 You will then see the list of nodes that were predefined by the developers. If you'd like to add your own node, then create a pull request in the [Polkaswap GitHub repo.](https://github.com/sora-xor/polkaswap-exchange-web) If you'd like to switch nodes, then just click on the radio button near the node that you'd like to work with. The connection to the node will then be checked. If everything is fine, the node will be switched.
 
-![](<../.gitbook/assets/Untitled (2) (11).png>)
+![](<.gitbook/assets/Untitled(2)(11).png>)
 
 You can add a custom node that you'd like to use. To do that, click the **Add custom node** button. Enter a node name (_whichever name you like_) and address, then click **Add custom node**
 
-![](<../.gitbook/assets/Untitled (4) (9).png>)
+![](<.gitbook/assets/Untitled(4)(9).png>)
 
 If everything is fine, then you'll be working with a new node.
 
@@ -46,4 +46,4 @@ If everything is fine, then you'll be working with a new node.
 
 If you try to add a node from a different network, then you'll get an error. In the example below I tried to add a Mainnet node on the [Testnet](https://test.polkaswap.io/#/swap). **The application checks the genesis block hash before switching to the node.**
 
-![](<../.gitbook/assets/Untitled (3) (7).png>)
+![](<.gitbook/assets/Untitled(3)(7).png>)

@@ -10,11 +10,11 @@ You can make your token a part of SORA Network by simply adding it.
 
 3\. Go to [Polkaswap.io](https://polkaswap.io/) - "Account" - "Create Token":
 
-![](</.gitbook/assets/Screenshot from 2021-05-14 02-06-52.png>)
+![](</.gitbook/assets/Screenshotfrom2021-05-1402-06-52.png>)
 
 ..and fill in the details of your token:
 
-![](</.gitbook/assets/Screenshot from 2021-05-14 02-15-37.png>)
+![](</.gitbook/assets/Screenshotfrom2021-05-1402-15-37.png>)
 
 4\. Confirm the network fee and create the token.
 

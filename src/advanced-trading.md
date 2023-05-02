@@ -2,12 +2,12 @@
 
 ## Theory
 
-To Polkaswap means to exchange (swap) tokens on [Polkaswap](https://polkaswap.io/), Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.
+To Polkaswap means to exchange(swap) tokens on [Polkaswap](https://polkaswap.io/), Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.
 
 Polkaswap's technical design allows using different liquidity sources for trading. At the moment Polkaswap supports 2 liquidity sources:
 
 1. XYK Pool
-2. Token Bonding Curve (TBC)
+2. Token Bonding Curve(TBC)
 
 XYK Pools are managed by the community. Anyone is able to provide liquidity to any pool. Every pool has XOR as a base asset. For example, there are 2 pools: XOR-VAL, XOR-PSWAP. If I make a VAL-PSWAP exchange, then the swap routing will be the following: from VAL to XOR, from XOR to PSWAP.
 
@@ -36,23 +36,23 @@ In this practice section, we'll Swap tokens with advanced settings. Also, fees w
 
 It's really easy to switch between liquidity sources in Polkaswap. Just open the swap page and select the assets that you'd like to swap.
 
-![](</.gitbook/assets/Untitled (20).png>)
+![](</.gitbook/assets/Untitled(20).png>)
 
 On the top right corner, you can find the Market configuration. Click on the icon.
 
-![](</.gitbook/assets/Untitled (1) (3).png>)
+![](</.gitbook/assets/Untitled(1)(3).png>)
 
 By default, the **SMART** option is selected. It means that the Liquidity Router will find the best-priced liquidity source. You can also switch to **TBC**.
 
-![](</.gitbook/assets/Untitled (2) (13).png>)
+![](</.gitbook/assets/Untitled(2)(13).png>)
 
 Let's try to compare prices for purchasing XOR.
 
 ⚠️ **The price on the testnet is different from the price on the mainnet. The Practice exercise example was made on the testnet.**
 
-![](</.gitbook/assets/Untitled (3) (13).png>)
+![](</.gitbook/assets/Untitled(3)(13).png>)
 
-![](</.gitbook/assets/Untitled (4) (8).png>)
+![](</.gitbook/assets/Untitled(4)(8).png>)
 
 The price of XOR is different when buying from TBC or from XYK Pool.
 
@@ -78,11 +78,11 @@ Let's go through exchange parameters one by one:
 
 You can get the error saying "**Not enough liquidity**". It's important to understand what this means.
 
-![](</.gitbook/assets/Untitled (5) (3).png>)
+![](</.gitbook/assets/Untitled(5)(3).png>)
 
-![](</.gitbook/assets/Untitled (6) (3).png>)
+![](</.gitbook/assets/Untitled(6)(3).png>)
 
-Liquidity pools (XYK pools) are explained in the [video](https://www.youtube.com/watch?v=cizLhxSKrAc) on the Finematics Youtube channel. It's recommended to watch it in order to understand how Pools work in general.
+Liquidity pools(XYK pools) are explained in the [video](https://www.youtube.com/watch?v=cizLhxSKrAc) on the Finematics Youtube channel. It's recommended to watch it in order to understand how Pools work in general.
 
 If you get the "**Insufficient Liquidity**" error, it means that the XYK Pool doesn't have enough assets in order to process your transaction. You can make the swap amount smaller or wait until somebody provides additional liquidity to the pool.
 
