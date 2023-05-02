@@ -161,7 +161,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "BUILD",
+        text: "BUIDL",
         items: [
           { text: "Introduction", link: "/buidl" },
           {
