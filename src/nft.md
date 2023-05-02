@@ -91,7 +91,7 @@ This will open a preview of your NFT. From here you can do things like:
 
 * Sending the token to another address
 * Copying the token address
-* And other functions are explained below, such as [swapping the token](nfts.md#swapping-tokens), [adding liquidity](nfts.md#pooling-tokens), or bridging the token. (_Token Bridging functionality is still TBD_).
+* And other functions are explained below, such as [swapping the token](#swapping-tokens), [adding liquidity](#pooling-tokens), or bridging the token. (_Token Bridging functionality is still TBD_).
 * You can also **remove the asset** from your wallet by clicking on the circular icon next to the token name.
 
 ### Sending Tokens
@@ -110,7 +110,7 @@ Then, confirm the recipient address is correct one more time, confirm and sign t
 
 ### Pooling Tokens
 
-Although there is no NFT marketplace implementation on Polkaswap (_yet_), it is possible to pool NFT that you own, along with XOR. In order for a NFT to be pooled, it has to be **divisible**, so you can sell or buy only a fraction of it. Pooling NFT works like any other liquidity pool on Polkaswap, and [it also provides the same advantages](provide-liquidity#theory). The steps to pool your NFT are as follows:
+Although there is no NFT marketplace implementation on Polkaswap (_yet_), it is possible to pool NFT that you own, along with XOR. In order for a NFT to be pooled, it has to be **divisible**, so you can sell or buy only a fraction of it. Pooling NFT works like any other liquidity pool on Polkaswap, and [it also provides the same advantages](provide-liquidity.md#theory). The steps to pool your NFT are as follows:
 
 ![](<../.gitbook/assets/image (1) (1).png>)
 
@@ -130,7 +130,7 @@ Remember that you can pool more than one NFT at a time (_as many of the same tok
 
 ![](<../.gitbook/assets/Pool\_-\_Polkaswap (1).png>)
 
-You can either add liquidity or create a pair. When you create a pair with an NFT, the flow will be the same as [pooling an NFT directly](nfts.md#pooling-tokens). There is a step in common with adding liquidity to an existing pool, which is the initial token selection.
+You can either add liquidity or create a pair. When you create a pair with an NFT, the flow will be the same as [pooling an NFT directly](#pooling-tokens). There is a step in common with adding liquidity to an existing pool, which is the initial token selection.
 
 ![](<../.gitbook/assets/image (24).png>)
 
