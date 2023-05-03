@@ -164,9 +164,9 @@ export default defineConfig({
         ],
       },
       {
-        text: "BUIDL",
+        text: "Build",
         items: [
-          { text: "Introduction", link: "buidl" },
+          { text: "Introduction", link: "build" },
           {
             text: "Decentralised development process",
             link: "decentralised-development-process",
