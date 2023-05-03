@@ -7,10 +7,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Guide", link: "/introduction" },
+      { text: "Home", link: "/sora-docs" },
+      { text: "Guide", link: "/sora-docs/introduction" },
     ],
-    logo: ".gitbook/assets/Screenshot2023-05-03101506.png",
+    logo: "https://raw.githubusercontent.com/sora-xor/sora-branding/84f3c35328f5f570a2ed2027ec5533e7cc25d151/SORA/SORA-logo/SVG%20(vector%20files%20for%20web)/04_SORA_main_logo_landscape.svg",
     editLink: {
       pattern: "https://github.com/sora-xor/sora-docs/tree/develop/src/:path",
     },
@@ -18,103 +18,103 @@ export default defineConfig({
       {
         text: "Getting started",
         items: [
-          { text: "Introduction", link: "/introduction" },
+          { text: "Introduction", link: "/sora-docs/introduction" },
           {
             text: "Tokenomics",
-            link: "/tokenomics",
+            link: "/sora-docs/tokenomics",
             collapsed: true,
             items: [
               {
                 text: "Token Bonding Curve",
-                link: "/tbc",
+                link: "/sora-docs/tbc",
               },
               {
                 text: "XOR",
-                link: "/xor",
+                link: "/sora-docs/xor",
               },
               {
                 text: "VAL",
-                link: "/val",
+                link: "/sora-docs/val",
               },
               {
                 text: "PSWAP",
-                link: "/pswap",
+                link: "/sora-docs/pswap",
               },
               {
                 text: "XST",
-                link: "/xst",
+                link: "/sora-docs/xst",
               },
               {
                 text: "TBCD",
-                link: "/tbcd",
+                link: "/sora-docs/tbcd",
               },
             ],
           },
-          { text: "SORA economy", link: "/sora-economy" },
-          { text: "Governance", link: "/governance" },
-          { text: "SORA Academy", link: "/sora-academy" },
-          { text: "FAQ", link: "/sora-faq" },
-          { text: "Changelog", link: "/changelog" },
+          { text: "SORA economy", link: "/sora-docs/sora-economy" },
+          { text: "Governance", link: "/sora-docs/governance" },
+          { text: "SORA Academy", link: "/sora-docs/sora-academy" },
+          { text: "FAQ", link: "/sora-docs/sora-faq" },
+          { text: "Changelog", link: "/sora-docs/changelog" },
         ],
       },
       {
         text: "Ecosystem",
         items: [
-          { text: "Overview", link: "/tba" },
-          { text: "Integrated plan", link: "/integrated-plan" },
+          { text: "Overview", link: "/sora-docs/tba" },
+          { text: "Integrated plan", link: "/sora-docs/integrated-plan" },
           {
             text: "Polkaswap",
-            link: "/polkaswap",
+            link: "/sora-docs/polkaswap",
             collapsed: true,
             items: [
-              { text: "FAQ", link: "/polkaswap-faq" },
+              { text: "FAQ", link: "/sora-docs/polkaswap-faq" },
               {
                 text: "Memorandum and Terms of Services",
-                link: "/polkaswap-terms",
+                link: "/sora-docs/polkaswap-terms",
               },
               {
                 text: "Privacy policy",
-                link: "/polkaswap-privacy",
+                link: "/sora-docs/polkaswap-privacy",
               },
             ],
           },
-          { text: "XST", link: "/tba" },
-          { text: "SORAcard", link: "/tba" },
+          { text: "XST", link: "/sora-docs/tba" },
+          { text: "SORAcard", link: "/sora-docs/tba" },
           {
             text: "SORA in your pocket",
             collapsed: true,
             items: [
-              { text: "SORA Mobile", link: "/mobile" },
-              { text: "Fearless wallet", link: "/fearless" },
+              { text: "SORA Mobile", link: "/sora-docs/mobile" },
+              { text: "Fearless wallet", link: "/sora-docs/fearless" },
             ],
           },
-          { text: "Request features", link: "/rfp" },
+          { text: "Request features", link: "/sora-docs/rfp" },
         ],
       },
       {
         text: "Participating in SORA economy",
         items: [
-          { text: "Running a node", link: "/running-a-node" },
+          { text: "Running a node", link: "/sora-docs/running-a-node" },
           // { text: "Becoming a validator", link: "/tba" },
-          { text: "Create an address", link: "/create-an-address" },
+          { text: "Create an address", link: "/sora-docs/create-an-address" },
           {
             text: "Assets",
             collapsed: true,
             items: [
-              { text: "Transfer", link: "/transfer" },
-              { text: "Check supply", link: "/check-supply" },
-              { text: "Check balance", link: "/check-balance" },
-              { text: "Register an asset", link: "/register-an-asset" },
-              { text: "On-ramp", link: "/on-ramp" },
+              { text: "Transfer", link: "/sora-docs/transfer" },
+              { text: "Check supply", link: "/sora-docs/check-supply" },
+              { text: "Check balance", link: "/sora-docs/check-balance" },
+              { text: "Register an asset", link: "/sora-docs/register-an-asset" },
+              { text: "On-ramp", link: "/sora-docs/on-ramp" },
             ],
           },
           {
             text: "DEX",
             collapsed: true,
             items: [
-              { text: "Swap", link: "/swap" },
-              { text: "Provide liquidity", link: "/provide-liquidity" },
-              { text: "Advanced trading", link: "/advanced-trading" },
+              { text: "Swap", link: "/sora-docs/swap" },
+              { text: "Provide liquidity", link: "/sora-docs/provide-liquidity" },
+              { text: "Advanced trading", link: "/sora-docs/advanced-trading" },
             ],
           },
           {
@@ -123,7 +123,7 @@ export default defineConfig({
             items: [
               {
                 text: "Fast track public voting",
-                link: "/fast-track-public-voting",
+                link: "/sora-docs/fast-track-public-voting",
               },
             ],
           },
@@ -139,7 +139,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "Adding a token",
-                        link: "/adding-a-token-to-a-hashi-bridge",
+                        link: "/sora-docs/adding-a-token-to-a-hashi-bridge",
                       },
                       {
                         text: "Become a relayer",
@@ -154,25 +154,25 @@ export default defineConfig({
           },
           { text: "Referral system", link: "/referral" },
           { text: "Explore blocks", link: "/explore-blocks" },
-          { text: "NFT", link: "/nft" },
-          { text: "Identity", link: "/id" },
-          { text: "Rewards", link: "/rewards" },
-          { text: "Nodes connection", link: "/nodes-connection" },
+          { text: "NFT", link: "/sora-docs/nft" },
+          { text: "Identity", link: "/sora-docs/id" },
+          { text: "Rewards", link: "/sora-docs/rewards" },
+          { text: "Nodes connection", link: "/sora-docs/nodes-connection" },
         ],
       },
       {
         text: "BUIDL",
         items: [
-          { text: "Introduction", link: "/buidl" },
+          { text: "Introduction", link: "/sora-docs/buidl" },
           {
             text: "Decentralised development process",
-            link: "/decentralised-development-process",
+            link: "/sora-docs/decentralised-development-process",
           },
-          { text: "Pallets", link: "/pallets" },
-          { text: "Technical Stack", link: "/technical-stack" },
-          { text: "Consensus", link: "/consensus" },
-          { text: "Accounts", link: "/accounts" },
-          { text: "Useful links", link: "/useful-links" },
+          { text: "Pallets", link: "/sora-docs/pallets" },
+          { text: "Technical Stack", link: "/sora-docs/technical-stack" },
+          { text: "Consensus", link: "/sora-docs/consensus" },
+          { text: "Accounts", link: "/sora-docs/accounts" },
+          { text: "Useful links", link: "/sora-docs/useful-links" },
         ],
       },
     ],
