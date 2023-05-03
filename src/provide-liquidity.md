@@ -48,7 +48,7 @@ In the practice section, we'll create a liquidity pool, provide liquidity to the
 
 Creating a pool is really easy. Just open Polkaswap, then open the Pool section.
 
-![](</.gitbook/assets/Untitled (7) (5).png>)
+![](<.gitbook/assets/Untitled(7)(5).png>)
 
 There are 2 options:
 
@@ -57,21 +57,21 @@ There are 2 options:
 
 If you'd like to create a pool, you should click the **Create a pair** button. Select the tokens that should compose the trading pair. Keep in mind that all trading pairs in Polkaswap must contain XOR and another token. That's why the XOR token is preselected and can't be changed.
 
-![](</.gitbook/assets/Untitled (17).png>)
+![](<.gitbook/assets/Untitled(17).png>)
 
 Select the second token for the trading pair. Oooops! The trading pair for XOR-VAL is already created. It means that someone has already created a pool with this trading pair and provided the liquidity.
 
 You can provide liquidity to this pool as well.
 
-![](</.gitbook/assets/Untitled (1) (14).png>)
+![](<.gitbook/assets/Untitled(1)(14).png>)
 
 Let's select another token.
 
-![](</.gitbook/assets/Untitled (2) (10).png>)
+![](<.gitbook/assets/Untitled(2)(10).png>)
 
 Pay attention when you're the first liquidity provider. The ratio of tokens will set the price of this pool.
 
-![](</.gitbook/assets/Untitled (3) (9).png>)
+![](<.gitbook/assets/Untitled(3)(9).png>)
 
 Let's describe the parameters:
 
@@ -82,11 +82,11 @@ Let's describe the parameters:
 
 If everything is ok, confirm and sign the transaction.
 
-![](</.gitbook/assets/Untitled (4) (7).png>)
+![](<.gitbook/assets/Untitled(4)(7).png>)
 
 Now you can see your pool share on the Pool page
 
-![](</.gitbook/assets/Untitled (5) (8).png>)
+![](<.gitbook/assets/Untitled(5)(8).png>)
 
 ### Providing liquidity to an existing Liquidity pool
 
@@ -97,17 +97,17 @@ There are 2 options where you can add liquidity:
 1. If you already have a share in a specific pool, you can click **Add liquidity** on the pool details
 2. If you'd like to provide liquidity to a pool where you don't have a share, then click **Add liquidity** on the Pool page
 
-![](</.gitbook/assets/Untitled (6) (2).png>)
+![](<.gitbook/assets/Untitled(6)(2).png>)
 
 The next steps are pretty much the same. If you select the pool where you already have a share, then the token pair will be preselected, otherwise, you should select the tokens by yourself.
 
 Ok, the token pair is selected.
 
-![](</.gitbook/assets/Untitled (8) (1).png>)
+![](<.gitbook/assets/Untitled(8)(1).png>)
 
 Enter the amount of source asset or destination asset. Pay attention, if you enter the amount of a source asset, the amount of dest. asset will be calculated according to the pool math. If you enter the amount of dest. asset, the amount of source asset will be calculated according to the pool math as well.
 
-![](</.gitbook/assets/Untitled (9).png>)
+![](<.gitbook/assets/Untitled(9).png>)
 
 Let's describe the parameters:
 
@@ -118,11 +118,11 @@ Let's describe the parameters:
 
 If everything is ok, confirm and sign the transaction.
 
-![](</.gitbook/assets/Untitled (10).png>)
+![](<.gitbook/assets/Untitled(10).png>)
 
 Now you can see your share of the pool on the Pool page
 
-![](</.gitbook/assets/Untitled (11) (1).png>)
+![](<.gitbook/assets/Untitled(11)(1).png>)
 
 ### Removing liquidity from the pool
 
@@ -130,30 +130,30 @@ Now you can see your share of the pool on the Pool page
 
 Once you've provided the liquidity to the pool, you're also able to remove it (_get your tokens back_). Just open the Pool page, then open the pool details and click on **Remove liquidity.**
 
-![](</.gitbook/assets/Untitled (12) (3).png>)
+![](<.gitbook/assets/Untitled(12)(3).png>)
 
 You'll see a lot of options there, but don't worry!
 
-![](</.gitbook/assets/Untitled (13) (3).png>)
+![](<.gitbook/assets/Untitled(13)(3).png>)
 
 Enter the amount of source asset or dest asset to be removed. Pay attention, if you enter the amount of source asset, the amount of dest. asset will be calculated according to the pool math. If you enter the amount of dest. asset, the amount of source asset will be calculated according to the pool math as well.
 
 You can use the **Amount slider** to select the percentage of liquidity to be removed:
 
-![](/.gitbook/assets/remove-liquidity.gif)
+![](.gitbook/assets/remove-liquidity.gif)
 
 If you're ok with the given parameters, Confirm and sign the transaction.
 
-![](</.gitbook/assets/Untitled (14) (3).png>)
+![](<.gitbook/assets/Untitled(14)(3).png>)
 
 You can then check if your pool share was reduced
 
-![](</.gitbook/assets/Untitled (15) (2).png>)
+![](<.gitbook/assets/Untitled(15)(2).png>)
 
 ## Checking transactions
 
 You can find the transactions for providing and removing liquidity you have made in the block explorer. Open the list of transactions and filter it using the PoolXYK module parameter, and **deposit\_liquidity** call for providing liquidity or **withdraw\_liquidity** call for removing liquidity.
 
-![](</.gitbook/assets/Untitled (16) (2).png>)
+![](<.gitbook/assets/Untitled(16)(2).png>)
 
-![](</.gitbook/assets/Untitled (17) (1).png>)
+![](<.gitbook/assets/Untitled(17)(1).png>)

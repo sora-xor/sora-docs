@@ -33,31 +33,31 @@ Swapping tokens means exchanging from token A to token B. Polkaswap provides a u
 
 Open the **Swap** page.
 
-![](</.gitbook/assets/Untitled (23).png>)
+![](</.gitbook/assets/Untitled(23).png>)
 
 Then select the source asset (the asset you'd like to sell) and the destination asset (asset that you'd like to buy). Just click on the asset drop-down to select them.
 
-![](</.gitbook/assets/Untitled (1) (7).png>)
+![](</.gitbook/assets/Untitled(1)(7).png>)
 
 The assets from you wallet will be listed by default.
 
-![](</.gitbook/assets/Untitled (2) (9).png>)
+![](</.gitbook/assets/Untitled(2)(9).png>)
 
 You can find and add any asset by entering its ID or name in the search field. Whitelisted assets will be listed.
 
 If you'd like to add a token that isn't whitelisted, then open the **Custom** tab and enter the asset ID.
 
-![](</.gitbook/assets/Untitled (3) (10).png>)
+![](</.gitbook/assets/Untitled(3)(10).png>)
 
 Confirm that you understand the risk and proceed.
 
 Ok, Now that you have selected the source and destination assets, you can easily change the direction of the swap by clicking the arrow between the assets.
 
-![](</.gitbook/assets/Untitled (4) (2).png>)
+![](</.gitbook/assets/Untitled(4)(2).png>)
 
 To start the swap, enter the asset amount (source or destination).
 
-![](</.gitbook/assets/Untitled (5) (5).png>)
+![](</.gitbook/assets/Untitled(5)(5).png>)
 
 There are a few parameters that should be clarified:
 
@@ -67,9 +67,9 @@ There are a few parameters that should be clarified:
 
 If you're ready to make a swap, click **Swap** then check the details carefully and if everything is ok, confirm and sign the transaction.
 
-![](</.gitbook/assets/Untitled (6) (4).png>)
+![](</.gitbook/assets/Untitled(6)(4).png>)
 
 Finally, you can find the transaction in the **Activity** tab on the **Account** screen.
 
-![](</.gitbook/assets/Untitled (7) (1).png>)
+![](</.gitbook/assets/Untitled(7)(1).png>)
 

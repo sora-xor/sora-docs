@@ -6,13 +6,13 @@ The [token bonding curve](https://medium.com/coinmonks/token-bonding-curves-expl
 
 A TBC is a smart contract that takes the input of a token and outputs a new token. This creates a plethora of possible variations to drive an exciting area of research, but in SORA we use a simple model where there are two linear functions: a **Buy-Price** Function and a **Sell-Price** Function.
 
-![Primary market is the TBC, the secondary is Polkaswap/Uniswap..](<.gitbook/assets/tbc (2).png>)
+![Primary market is the TBC, the secondary is Polkaswap/Uniswap..](<.gitbook/assets/tbc(2).png>)
 
 Put simply, **the token bonding curve is essentially an infinitely liquid, decentralized central bank.** At any time, you can buy newly minted XOR from the token bonding curve using specific **reserve assets**, or sell your XOR tokens (which are instantly burned) for one of those assets.
 
 Furthermore, because the token bonding curve’s pricing functions slope upwards, the **price increases with the token supply.** Keep in mind that with a token bonding curve, **XOR price and supply are correlated**, and they move accordingly.
 
-<figure><img src=".gitbook/assets/xor-supply-correct (1).png" alt=""><figcaption><p>Price will increase when supply rises and vice versa</p></figcaption></figure>
+<figure><img src=".gitbook/assets/xor-supply-correct(1).png" alt=""><figcaption><p>Price will increase when supply rises and vice versa</p></figcaption></figure>
 
 Another important implication of this mechanism is that XOR price on the secondary market (Polkaswap, Uniswap, CEXs...) tends to be limited to a certain price range (illustrated as the red triangle in the diagram). In fact, if a user trades XOR outside that range, it creates an **arbitrage opportunity** to buy/sell XOR below/above the token bonding curves prices: **XOR volatility is thus reduced.**
 
@@ -29,7 +29,7 @@ Another important implication of this mechanism is that XOR price on the seconda
 * The current buy/sell-prices offered by the token bonding curve provide support & resistance levels, or a confidence range for the price of XOR in the market, with forward guidance.
 * 20% of the quantity bought from the buy function are reserved for different players in the SORA Network, as per the diagram:
 
-![](<.gitbook/assets/tbc (4).png>)
+![](<.gitbook/assets/tbc(4).png>)
 
 While the SORA economy is in its infant phase, the token bonding curve plays a crucial role in maintaining XOR's store-of-value property. The ability to set confidence ranges of token price movements lowers the psychological boundary towards accepting XOR for payments.
 
@@ -47,7 +47,7 @@ The Buy-Price Function has been set at 900$ at Soft launch, its equation is _y =
 
 The implication of this scenario is that the Sell-Price Function of the token bonding curve is not 20% lower than the Buy-Price Function (as it should be in the **ideal scenario)**, but it is lower. Infact, there is little liquidity in the reserves for you to sell your XOR tokens, and the price on Sell-Price Function may be low, compared to the secondary market price.
 
-![](<.gitbook/assets/tbc (1).png>)
+![](<.gitbook/assets/tbc(1).png>)
 
 The Actual Sell-Price Function increases as the reserves increase, approaching the Ideal Sell-Price Function, which is 20% lower than the Buy-Price Function.
 

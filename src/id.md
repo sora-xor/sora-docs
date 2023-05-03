@@ -13,8 +13,8 @@ Requirements:
 
 Go to the [Polkadot JS Apps pointing at the Sora Mainnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/accounts) account's tab:
 
-![Step 1: Click on the hamburger menu icon on the account you wish to register an identity to and select "Set on-chain identity"](<../.gitbook/assets/image (6).png>)
+![Step 1: Click on the hamburger menu icon on the account you wish to register an identity to and select "Set on-chain identity"](<.gitbook/assets/image(6).png>)
 
-![Step 2: Register your Identity and click on Set Identity when finished ](<../.gitbook/assets/image (15).png>)
+![Step 2: Register your Identity and click on Set Identity when finished ](<.gitbook/assets/image(15).png>)
 
 Please note that you will have to pay a small XOR transaction for the fee of signing, once it is completed your account should now show an identity!

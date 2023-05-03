@@ -6,7 +6,7 @@
 
 Click on **Developer** and then **RPC calls**
 
-![](/.gitbook/assets/1.PNG)
+![](.gitbook/assets/1.png)
 
 Select _*assets* → *freeBalance(accountid,assetid)* fill in *AssetID* and press *"Submit RPC call"*
 
@@ -14,9 +14,9 @@ Select _*assets* → *freeBalance(accountid,assetid)* fill in *AssetID* and pres
 For more Asset ID's check out the [Tokens subsection of the Polkaswap.io Explore](https://polkaswap.io/#/explore/tokens) page. You can find the core token Asset ID's in the [Check supply](check-supply.md) page.
 :::
 
-![](/.gitbook/assets/Cattura.PNG)
+![](.gitbook/assets/Cattura2.png)
 
-![](/.gitbook/assets/12.jpg)
+![](.gitbook/assets/12.jpg)
 
 This is the expected output. In this case, the VAL amount has been checked (look at AssetID)
 
