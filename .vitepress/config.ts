@@ -10,7 +10,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Guide", link: "/introduction" },
     ],
-    logo: "https://raw.githubusercontent.com/sora-xor/sora-branding/84f3c35328f5f570a2ed2027ec5533e7cc25d151/SORA/SORA-logo/SVG%20(vector%20files%20for%20web)/04_SORA_main_logo_landscape.svg",
+    logo: ".gitbook/assets/Screenshot2023-05-03101506.png",
     editLink: {
       pattern: "https://github.com/sora-xor/sora-docs/tree/develop/src/:path",
     },
