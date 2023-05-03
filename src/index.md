@@ -17,14 +17,14 @@ hero:
 features:
   - title: Getting Started
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /introduction
+    link: /sora-docs/introduction
   - title: Ecosystem
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /integrated-plan
+    link: /sora-docs/integrated-plan
   - title: Participating in the SORA Economy
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /running-a-node
-  - title: BUIDL
+    link: /sora-docs/running-a-node
+  - title: Build
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /buidl
+    link: /sora-docs/build
 ---

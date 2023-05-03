@@ -2,18 +2,21 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: "en-US",
   title: "docs",
+  base: "/sora-docs/",
   description: "Guides, how-tos, architecture",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/sora-docs" },
+      { text: "Home", link: "/sora-docs/" },
       { text: "Guide", link: "/sora-docs/introduction" },
     ],
     logo: "https://raw.githubusercontent.com/sora-xor/sora-branding/84f3c35328f5f570a2ed2027ec5533e7cc25d151/SORA/SORA-logo/SVG%20(vector%20files%20for%20web)/04_SORA_main_logo_landscape.svg",
     editLink: {
       pattern: "https://github.com/sora-xor/sora-docs/tree/develop/src/:path",
     },
+    siteTitle: false,
     sidebar: [
       {
         text: "Getting started",
@@ -192,4 +195,6 @@ export default defineConfig({
   },
   srcDir: "./src",
   lastUpdated: true,
+  ignoreDeadLinks: true,
+  cleanUrls: true
 });
