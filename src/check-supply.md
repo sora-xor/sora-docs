@@ -1,7 +1,7 @@
 # Check supply
 
-::: info ℹ
-**NOTE**: Please consider that you would see the **total supply** (this includes locked tokens and the circulating supply) of all tokens in the network and not only the **circulating** supply of the tokens.
+::: info
+Please consider that you would see the **total supply** (this includes locked tokens and the circulating supply) of all tokens in the network and not only the **circulating** supply of the tokens.
 :::
 
 The supply of XOR changes often because it is elastic, managed by the token bonding curve.
@@ -20,8 +20,7 @@ Click on "Developer" and then "RPC calls"
 
 2\) Select  **assets → totalSupply(assetId)** fill in *AssetID* and press **"Submit RPC call"**
 
-::: info ℹ
-Core asset ID's:
+::: details Core asset IDs
 
 | Token | ID |
 | ----------- | ----------- | 
@@ -35,7 +34,7 @@ ETH | 0x0200070000000000000000000000000000000000000000000000000000000000 |
 DAI | 0x0200060000000000000000000000000000000000000000000000000000000000 |
 
 
-For more Asset ID's check out the [Tokens subsection of the Polkaswap.io Explore](https://polkaswap.io/#/explore/tokens) page.
+For more Asset IDs check out the [Tokens subsection of the Polkaswap.io Explore](https://polkaswap.io/#/explore/tokens) page.
 :::
 
 ![](</.gitbook/assets/Screenshot2021-04-29at13.56.40.png>)

@@ -10,7 +10,7 @@ Click on **Developer** and then **RPC calls**
 
 Select _*assets* → *freeBalance(accountid,assetid)* fill in *AssetID* and press *"Submit RPC call"*
 
-::: info ℹ
+::: info
 For more Asset ID's check out the [Tokens subsection of the Polkaswap.io Explore](https://polkaswap.io/#/explore/tokens) page. You can find the core token Asset ID's in the [Check supply](check-supply.md) page.
 :::
 
@@ -34,4 +34,4 @@ m = / 1000
 
 **So, the shown amount is 80.434mXOR = 0.080434 VAL**
 
-**For more details on how to read this output,** [**take a look at this**](check-supply.md#how-to-read-the-results)**.**
+For more details on how to read this output, [take a look at this](check-supply.md#how-to-read-the-results).

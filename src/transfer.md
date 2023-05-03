@@ -10,7 +10,7 @@ Transferring is a transaction so the network fee must be paid. The fee is calcul
 
 ## Practice
 
-::: info ℹ
+::: tip
 We recommend using the SORA testnet for practice exercises. Here are the Testnet links:
 
 1. [Polkaswap test application](https://test.polkaswap.io/)
@@ -33,7 +33,7 @@ Enter your SORA address, select the token, and the number of tokens you need.
 
 Then click **Send testnet VAL (XOR, PSWAP).**
 
-::: info ℹ
+::: info
 _**Keep in mind that every transaction in SORA requires a fee in XOR. Transferring is a transaction so don't forget to request a few XORs from the faucet.**_
 :::
 

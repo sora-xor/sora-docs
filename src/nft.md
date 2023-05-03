@@ -91,7 +91,9 @@ This will open a preview of your NFT. From here you can do things like:
 
 * Sending the token to another address
 * Copying the token address
+
 <!-- * And other functions are explained below, such as [swapping the token](nfts.md#swapping-tokens), [adding liquidity](nfts.md#pooling-tokens), or bridging the token. (_Token Bridging functionality is still TBD_). -->
+
 * You can also **remove the asset** from your wallet by clicking on the circular icon next to the token name.
 
 ### Sending Tokens

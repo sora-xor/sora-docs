@@ -1,6 +1,6 @@
 # Adding a Token to the HASHI Bridge
 
-### _Here are the instructions to add your tokens to the Hashi bridge allowing them to be transferred between the SORA and Ethereum Networks._
+Here are the instructions to add your tokens to the Hashi bridge allowing them to be transferred between the SORA and Ethereum Networks.
 
 Adding a token to the SORA HASHI bridge involves several steps;
 
