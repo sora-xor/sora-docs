@@ -82,7 +82,10 @@ export default defineConfig({
             ],
           },
           { text: "XST", link: "tba" },
-          { text: "SORAcard", link: "tba" },
+          {
+            text: "SORAcard",
+            items: [{ text: "Logout", link: "soracard-logout" }],
+          },
           {
             text: "SORA in your pocket",
             collapsed: true,
@@ -196,5 +199,5 @@ export default defineConfig({
   srcDir: "./src",
   lastUpdated: true,
   ignoreDeadLinks: true,
-  cleanUrls: true
+  cleanUrls: true,
 });
