@@ -1,6 +1,9 @@
-# Rewards
+<!-- TODO: 
+- update image names in this topic 
+- check image alignment
+-->
 
-## Theory
+# Rewards
 
 Users are incentivised to provide liquidity, use the SORA network, and support the set of network validators. There are different reward types depending on the activity.
 
@@ -8,12 +11,12 @@ Users are incentivised to provide liquidity, use the SORA network, and support t
 
 Let's describe all the currently available rewards in detail:
 
-1. Rewards for **Market Makers**
-2. LP **Farming Bonus rewards**
-3. Rewards for **buying from the TBC**
-4. **LP fees**
-5. **Vesting VAL** for XOR erc-20 holders
-6. **VALidator rewards**
+- Rewards for **Market Makers**
+- LP **Farming Bonus rewards**
+- Rewards for **buying from the TBC**
+- **LP fees**
+- **Vesting VAL** for XOR erc-20 holders
+- **VALidator rewards**
 
 Here is a quick summary of every reward.
 
@@ -111,26 +114,31 @@ If PSWAP or VAL tokens are available then you'll be able to claim them.
 
 **Important**: when a nominator or the validator himself claims rewards, those are sent to all the accounts that have received a reward, so it is enough that one person claims for everyone. This may be the reason why you often don't see any reward on the website
 
-**1) Go to** [**polkadot.js**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking) **, click on "Network" and then "Staking".**&#x20;
-
-**Make sure you are connected to the SORA Network**, you should see the logoatthe top left.
+1. Go to [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), click on "Network" and then "Staking". Make sure you are connected to the SORA Network, you should see the logo at the top left.
 
 ![](<.gitbook/assets/Screenshot2021-04-29at13.09.35.png>)
 
-**2) Click on "Payouts".**
+2. Click on "Payouts":
 
-If there is a staking reward for you to claim, you should see them, as in the picture below
+    ![](<.gitbook/assets/Screenshot2021-04-29at13.21.28.png>)
 
-![](<.gitbook/assets/Screenshot2021-04-29at13.21.28.png>)
+    If there is a staking reward for you to claim, you should see them, as in the screenshot below:
+    
+    ![](<.gitbook/assets/3(2).jpg>)
 
-![](<.gitbook/assets/3(2).jpg>)
-
-**3) Click on "Payout" and then follow the proposed flow.**
-
-Once completed, sign with the extension as proposed
+3. Click on "Payout" and then follow the proposed flow.
 
 ![](.gitbook/assets/4.jpg)
 
-Please note that Polkadot.js supports only one asset for the network, that's why it shows XOR, but actually it's **VAL**.
+4. Once completed, sign with the extension as prompted.
+
+::: info
+Please note that Polkadot.js supports only one asset for the network, that's why it shows XOR. However, it is actually **VAL**.
+
+:::
+
+::: warning
 
 **Rewards expire** after 84 eras. On **SORA**, that's about 21 days.
+
+:::

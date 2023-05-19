@@ -1,6 +1,9 @@
-# Block Explorers
+<!-- TODO: 
+- update image names in this topic 
+- check image alignment
+-->
 
-## Theory
+# Block Explorers
 
 A **block explorer** is a tool that is used to view all blockchain transactions online. Specifically, to view all current and past **transactions** on the **blockchain**.
 
@@ -10,28 +13,26 @@ The SORA mainnet currently implements the [Subscan](https://sora.subscan.io/) bl
 
 You can find any information that you need on:
 
-1. Block details
-2. Transaction details
-3. Transaction events
-4. Account information
+- Block details
+- Transaction details
+- Transaction events
+- Account information
 
 ## Practice
 
-**Subscan**
+Subscan is only available for the SORA mainnet. This means that you will not be able to find transactions made on the testnet in Subscan.
 
-**Subscan is only available for the SORA mainnet. This means that you will not be able to find transactions made on the testnet in Subscan.**
+1. Open [mainnet Subscan](https://sora.subscan.io/):
 
-Open [mainnet Subscan ](https://sora.subscan.io/)
-
-![](<.gitbook/assets/Untitled(14)(1).png>)
+    ![](<.gitbook/assets/Untitled(14)(1).png>)
 
 Here you will see the main dashboard that contains:
 
-1. Search box. Use it to search via account, transaction, block id, or number.
-2. Network statistics
-3. XOR allocation
-4. List of latest blocks
-5. List of latest extrinsics
+- Search box. Use it to search via account, transaction, block id, or number.
+- Network statistics
+- XOR allocation
+- The list of latest blocks
+- The list of latest extrinsics
 
 #### How to find a transaction
 

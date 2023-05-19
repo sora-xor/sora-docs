@@ -1,27 +1,32 @@
-**XOR (天):**
+# XOR (天)
 
-- Network utility token used for transaction fees (gas)&#x20;
-- 50% of the fee is burnt the other 50% for validators&#x20;
-- Elastic supply, managed by a [token bonding curve](https://medium.com/sora-xor/sora-the-new-economic-order-3ec3f0327e5a)
-- Enables holders of a certain amount to become a citizen and a member of the [SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184dae384)
-- Used to add liquidity to pairs on [Polkaswap](https://polkaswap.io/)
-- Used to stake to become a validator or to[ nominate validators](https://wiki.sora.org/guides/how-to-nominate-validators-stake-your-xor) on the SORA network
-- More about [SORA tokenomics](https://medium.com/sora-xor/sora-the-new-economic-order-3ec3f0327e5a)
+XOR is the network utility token used for transaction fees (gas). 50% of the fee is burnt, while the other 50% is used for validators. XOR has elastic supply managed by a [token bonding curve](https://medium.com/sora-xor/sora-the-new-economic-order-3ec3f0327e5a).
 
-**XOR** token supply
+Holders of a certain amount of XOR become citizens and members of the [SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184dae384).
 
-- The XOR supply was 350,000 XOR until April 2021, when the SORA v2 network launched
-- The XOR supply is elastically managed by a [token bonding curve](https://wiki.sora.org/token-bonding-curve) smart contract with buy and sell price functions. This means that as the token supply increases, the price also increases, and vice versa. The price is regulated by the bonding curve, so no extreme fluctuations in the price will be exhibited, but rather a smooth growth or decline
+XOR is used:
+- to add liquidity to pairs on [Polkaswap](https://polkaswap.io/)
+- to become a validator or to [nominate validators](https://wiki.sora.org/guides/how-to-nominate-validators-stake-your-xor) on the SORA network through staking
 
-**XOR** distribution
+More about [SORA tokenomics](https://medium.com/sora-xor/sora-the-new-economic-order-3ec3f0327e5a).
 
-- Fair distribution. 350,000 XOR were just put on Uniswap and then people bought over time. XOR distribution can be tracked on [Etherscan](https://etherscan.io/token/0x40FD72257597aA14C7231A7B1aaa29Fce868F677#balances) and on [Sorascan](https://sorascan.com/sora-mainnet/account)
+## XOR Token Supply
 
-**Top holders:**
+The XOR supply is elastically managed by a [token bonding curve](https://wiki.sora.org/token-bonding-curve) smart contract with buy and sell price functions. This means that as the token supply increases, the price also increases, and vice versa. The price is regulated by the bonding curve, so no extreme fluctuations in the price will be exhibited, but rather a smooth growth or decline.
 
-When looking at the top holders on [Subscan](https://sora.subscan.io/account), several of those addresses are technical accounts supporting the whole network. Here is a table with the technical accounts holding XOR:
+When the SORA v2 network launched in April 2021, the XOR supply was 350,000 XOR.
 
-Additional addresses have been added corresponding to Polkaswap reward accounts. This list will be receiving ongoing updates to ensure accuracy.
+## XOR Token Distribution
+
+Fair distribution: when the SORA v2 network launched, 350,000 XOR were put on Uniswap, and then people bought more XOR over time.
+
+XOR distribution can be tracked on [Etherscan](https://etherscan.io/token/0x40FD72257597aA14C7231A7B1aaa29Fce868F677#balances) and on [Sorascan](https://sorascan.com/sora-mainnet/account).
+
+## XOR Top holders
+
+When looking at the top holders on [Subscan](https://sora.subscan.io/account), several of those addresses are technical accounts supporting the whole network.
+
+The table below lists the technical accounts holding XOR and additional addresses corresponding to Polkaswap reward accounts. This list will be receiving ongoing updates to ensure accuracy.
 
 | Address                                                                                                                                 | Role                                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
