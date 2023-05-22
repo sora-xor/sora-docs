@@ -86,7 +86,7 @@ Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz
 Uptime of 99.9%
 ```
 
-If you’re interested in helping secure the future of SORA and Polkaswap, and earning rewards in the process, read more [here](https://medium.com/sora-xor/how-to-run-a-sora-testnet-node-a4d42a9de1af).
+If you’re interested in helping secure the future of SORA and Polkaswap, and earning rewards in the process, read more about [running a SORA Mainnet node](./running-a-node.md).
 
 ## Rewards
 

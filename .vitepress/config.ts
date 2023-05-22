@@ -171,6 +171,10 @@ export default defineConfig({
             text: "Decentralised development process",
             link: "decentralised-development-process",
           },
+          {
+            text: "Social Insurance for Systematically Important Infrastructure",
+            link: "social-insurance",
+          },
           { text: "Pallets", link: "pallets" },
           { text: "Technical Stack", link: "technical-stack" },
           { text: "Consensus", link: "consensus" },
@@ -196,5 +200,5 @@ export default defineConfig({
   srcDir: "./src",
   lastUpdated: true,
   ignoreDeadLinks: true,
-  cleanUrls: true
+  cleanUrls: true,
 });
