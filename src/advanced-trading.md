@@ -86,7 +86,7 @@ Let's go through exchange parameters one by one:
 
 #### What Insufficient _liquidity_ means
 
-You can get the error saying "**Not enough liquidity**". It's important to understand what this means.
+It is possible to get an error saying "**Not enough liquidity**" and understanding what this means is important.
 
 <center><img src="/.gitbook/assets/advanced-trade-insufficient-liquidity-tbc.png" width="400"></center>
 
