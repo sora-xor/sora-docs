@@ -1,26 +1,26 @@
-# PSWAP token
+# PSWAP
 
-**PSWAP**:
+**PSWAP** is used to reward liquidity providers on [Polkaswap](https://polkaswap.io/).
 
-* Used to reward liquidity providers on [Polkaswap](https://polkaswap.io/)
-* Decreasing supply, with tokens burned with every token swap on Polkaswap
-* The 0.3% fee for every swap on the Polkaswap DEX is used to buy PSWAP tokens on Polkaswap, which are then burned. At first, 90% of burned PSWAP tokens are reminted to allocate to the liquidity providers, but with time this percentage will decrease to 35% after 5 years.
+PSWAP has **decreasing supply**, with tokens burned with every token swap on Polkaswap.
 
-**PSWAP** token supply
+The 0.3% fee for every swap on the Polkaswap DEX is used to buy PSWAP tokens on Polkaswap, which are then burned. At first, 90% of burned PSWAP tokens are reminted to allocate to the liquidity providers, but with time this percentage will decrease to 35% after 5 years.
+
+## PSWAP Token Supply
 
 * 10 billion max supply, decreasing with tokens burned
 * PSWAP is a free-floating token whose price is decided by the market
-* Current PSWAP circulating supply: \~36%, can be checked [here](https://mof.sora.org/qty/pswap)
+* Current PSWAP circulating supply: ~36%, can be checked [here](https://mof.sora.org/qty/pswap)
 
-**PSWAP** distribution
+## PSWAP Distribution
 
-* \~6% rewards at launch (sora farm game)
+* ~6% rewards at launch (sora farm game)
 * 25% [token bonding curve rewards](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) (vested)
 * 35% [liquidity rewards](https://medium.com/polkaswap/pswap-rewards-1-polkaswap-liquidity-reward-farming-3e045d71509) (vested)
-* \~4% [market making rewards](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa) (vested)
-* 30% initial release dev&#x20;
+* ~4% [market making rewards](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa) (vested)
+* 30% initial release dev
 
-## The PSWAP Token
+## PSWAP Token
 
 Polkaswap will have 0.3% trading fees per transaction, which is the same as other contemporary exchanges like Uniswap. Unlike transaction fee models on other exchanges, on Polkaswap, trading fees are used to buy back and burn PSWAP tokens and then new PSWAP tokens are minted to reward LPs. Newly minted PSWAP tokens to liquidity providers start at 90% of the amount of burned PSWAP tokens in a 24 hour time period, and will gradually decrease down to a constant at 35% of daily burned tokens after 5 years. The PSWAP token model is thus deflationary in nature, unlike almost all other contemporary reward structures, because the rewards are limited by the amount burned in transaction fees each day.
 

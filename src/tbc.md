@@ -1,14 +1,12 @@
 # Token Bonding Curve
 
-### Introduction
-
 The [token bonding curve](https://medium.com/coinmonks/token-bonding-curves-explained-7a9332198e0e) (TBC) manages the supply of tokens in a rational way, without the involvement of humans, to create a system that avoids the boom-bust problems of traditional economies, and the deflationary economics of many cryptocurrencies.
 
 A TBC is a smart contract that takes the input of a token and outputs a new token. This creates a plethora of possible variations to drive an exciting area of research, but in SORA we use a simple model where there are two linear functions: a **Buy-Price** Function and a **Sell-Price** Function.
 
 ![Primary market is the TBC, the secondary is Polkaswap/Uniswap..](<.gitbook/assets/tbc(2).png>)
 
-Put simply, **the token bonding curve is essentially an infinitely liquid, decentralized central bank.** At any time, you can buy newly minted XOR from the token bonding curve using specific **reserve assets**, or sell your XOR tokens (which are instantly burned) for one of those assets.
+Put simply, the token bonding curve is essentially an infinitely liquid, decentralized central bank. At any time, you can buy newly minted XOR from the token bonding curve using specific **reserve assets**, or sell your XOR tokens (which are instantly burned) for one of those assets.
 
 Furthermore, because the token bonding curve’s pricing functions slope upwards, the **price increases with the token supply.** Keep in mind that with a token bonding curve, **XOR price and supply are correlated**, and they move accordingly.
 
@@ -16,12 +14,10 @@ Furthermore, because the token bonding curve’s pricing functions slope upwards
 
 Another important implication of this mechanism is that XOR price on the secondary market (Polkaswap, Uniswap, CEXs...) tends to be limited to a certain price range (illustrated as the red triangle in the diagram). In fact, if a user trades XOR outside that range, it creates an **arbitrage opportunity** to buy/sell XOR below/above the token bonding curves prices: **XOR volatility is thus reduced.**
 
+## Why is the token bonding curve useful?
 
-
-### Why is the token bonding curve useful?
-
-* **Autonomous Management of Token Supply to Match Demand (Elastic Supply)** — The token bonding curve introduces and removes XOR from circulation to meet the demand of the market. This ensures sustainable economic growth and price stability of the token economy, as the system can adapt to the changing needs.
-* **Deep and Immediate Liquidity** — The bonding curve contract is the counterpart of the transaction and always holds enough buyback reserves (_read more about this below in the "Ideal and Actual Scenarios" paragraph_).
+* **Autonomous Management of Token Supply to Match Demand (Elastic Supply)**. The token bonding curve introduces and removes XOR from circulation to meet the demand of the market. This ensures sustainable economic growth and price stability of the token economy, as the system can adapt to the changing needs.
+* **Deep and Immediate Liquidity**. The bonding curve contract is the counterpart of the transaction and always holds enough buyback reserves (_read more about this below in the "Ideal and Actual Scenarios" paragraph_).
 * It mitigates influences of pump-and-dump/market-manipulation attacks
 * XOR's decentralized monetary policy offers protection from abuse by authorities and full transparency for users.
 * Primary market buy-back reserve limits the ability of governments or short-sellers to manipulate the market.
@@ -37,7 +33,7 @@ It is important to note that **the token bonding curve does not guarantee XOR's 
 
 
 
-### Ideal and Actual scenarios
+## Ideal and Actual scenarios
 
 Let's now focus on **reserves**, which play a crucial role in the TBC mechanism.
 
@@ -55,9 +51,7 @@ The Buy-Price Function is the same in both the Actual and Ideal scenarios.
 
 This is why building reserves after launch is crucial and **there is a special incentive program in PSWAP (25% of the total PSWAP supply) for users that buy newly-minted XOR on the TBC.** You can read the details [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
-
-
-### Selling in the Actual scenario
+## Selling in the Actual scenario
 
 Considering that the ideal reserves are a long-term goal, it is important to understand how selling in a token bonding curve that is not fully collateralized works.
 
@@ -74,9 +68,7 @@ In addition, there are extra fees when selling with low collateralization:
 
 These extra fees will be burned.
 
-
-
-### Token Bonding Curve and Parachain auctions
+## Token Bonding Curve and Parachain auctions
 
 In the future, the TBC will play a key role in securing a Parachain slot for the SORA network on Polkadot and Kusama.
 

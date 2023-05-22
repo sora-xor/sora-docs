@@ -1,7 +1,5 @@
 # Nodes connection
 
-## Theory
-
 SORA is a decentralized network. This means that anyone can run a node and send transactions to this node. Anyone is able to run a sync, archive or validator node. The Polkaswap application supports node selection features. To be precise: You can select a node in the Polkaswap user interface without any additional development. You can also specify a custom node, except the predefined application nodes.
 
 Related links:
@@ -28,26 +26,33 @@ In the practice section, we'll be switching between different nodes.
 
 #### Via Polkaswap
 
-As aforementioned in the Theory section, it's really easy to switch between different nodes. You can find the button to switch between nodes in the header.
+It's really easy to switch between different nodes. You can find the button to switch between nodes in the header.
 
-![](.gitbook/assets/Untitled.png)
+1. Click the switch button:
 
-Click on this button.
+    <center><img src="/.gitbook/assets/nodes-switch.png" width="400"></center>
 
-![](<.gitbook/assets/Untitled(1)(11).png>)
+    You will then see the list of nodes that were predefined by the developers.
 
-You will then see the list of nodes that were predefined by the developers. If you'd like to add your own node, then create a pull request in the [Polkaswap GitHub repo.](https://github.com/sora-xor/polkaswap-exchange-web) If you'd like to switch nodes, then just click on the radio button near the node that you'd like to work with. The connection to the node will then be checked. If everything is fine, the node will be switched.
+2. Either select a predefined node or add your own:
 
-![](<.gitbook/assets/Untitled(2)(11).png>)
+    <center><img src="/.gitbook/assets/nodes-select.png" width="400"></center>
 
-You can add a custom node that you'd like to use. To do that, click the **Add custom node** button. Enter a node name (_whichever name you like_) and address, then click **Add custom node**
+    ::: info
+    If you'd like to add your own node, create a pull request in the [Polkaswap GitHub repo.](https://github.com/sora-xor/polkaswap-exchange-web).
+    :::
 
-![](<.gitbook/assets/Untitled(4)(9).png>)
+    - If you'd like to switch nodes to one of the predefined ones, then just click on the radio button near the node that you'd like to work with. The connection to the node will then be checked. If everything is fine, the node will be switched.
 
-If everything is fine, then you'll be working with a new node.
+        <center><img src="/.gitbook/assets/nodes-select-predefined.png" width="400"></center>
+
+    - If you'd like to use a custom node, click the **Add custom node** button. Enter a node name (_whichever name you like_) and address, then click **Add custom node**:
+
+        <center><img src="/.gitbook/assets/nodes-select-custom.png" width="400"></center>
 
 #### Wrong Network Error
 
-If you try to add a node from a different network, then you'll get an error. In the example below I tried to add a Mainnet node on the [Testnet](https://test.polkaswap.io/#/swap). **The application checks the genesis block hash before switching to the node.**
+If you try to add a node from a different network, then you'll get an error. In the example below we tried to add a Mainnet node on the [Testnet](https://test.polkaswap.io/#/swap). **The application checks the genesis block hash before switching to the node.**
 
-![](<.gitbook/assets/Untitled(3)(7).png>)
+<center><img src="/.gitbook/assets/nodes-wrong-network-error.png" width="400"></center>
+

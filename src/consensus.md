@@ -1,18 +1,20 @@
 # Consensus
 
+<!--
+
 **Tutorials:**
 
-How to stake
+How to stake https://wiki.sora.org/guides/how-to-stake-your-xor
 
-How to claim staking rewards
+How to claim staking rewards https://wiki.sora.org/guides/staking/how-to-run-a-sora-mainnet-node#cb1c
 
-## Abstract
+-->
 
 The SORA network relies on a **NPoS (Nominated Proof-of-Stake)** mechanism in order to reach and maintain consensus over the chain status.
 
-There are two main actors: **validators** and **nominators.**&#x20;
+There are two main actors: **validators** and **nominators.**
 
-* **Validators** compete with each other to create new blocks and get rewards. In order to do so, a validator has to enter the validators set, which consists of the 69 validators with the highest stake (this may not always be the case, read about Phragmen to know more about validator selection methods).&#x20;
+* **Validators** compete with each other to create new blocks and get rewards. In order to do so, a validator has to enter the validators set, which consists of the 69 validators with the highest stake (this may not always be the case, read about Phragmen to know more about validator selection methods).
 * **Nominators** can increase the validators' stake by delegating their XOR tokens to them.
 
 ## Nominators
@@ -23,7 +25,7 @@ Nominators keep the SORA Network safe by delegating their XOR to trustworthy val
 
 You should pick validators carefully - if they do not behave properly, they will get slashed and you will lose XOR as well. However, if they follow the rules of the network, then there is no risk of slashing. Read more about slashing [here](https://support.polkadot.network/support/solutions/articles/65000110858-what-does-it-mean-to-get-slashed-).
 
-When you are nominating, your XOR can't be moved right away, rather, it needs to be unstaked first. This process takes 7 days.
+When you are nominating, your XOR can't be moved right away, rather, it needs to be unstaked first. This process takes seven days.
 
 ### Active Nominations
 
@@ -47,16 +49,17 @@ An important aspect to evaluate is the **validator's commission**. The commissio
 
 You should also take into consideration the validators' **stake**. This is the quantity of XOR the validator has put up at stake themselves. A high own stake amount can be considered as having more "skin in the game" and so the validators are confident about not being slashed. However, a validator not having a large amount of "own stake" is not automatically untrustworthy, as the validator could be nominating from a different address.
 
-### [Filtering](https://wiki.polkadot.network/docs/learn-nominator#filter-out-validators-with-undesirable-traits) Out Validators
+### Filtering Out Validators
 
-On the [Targets ](https://polkadot.js.org/apps/#/staking/targets)page, you can filter out validators that have traits that may indicate an issue with you nominating them. You can turn these filters off and on to help narrow down which validators you should nominate. It is important to note that none of these traits are necessarily "bad"; however, depending on your validator selection methodology, they may be characteristics that you would be interested in filtering out.
+On the [Targets ](https://polkadot.js.org/apps/#/staking/targets) page, you can [filter out](https://wiki.polkadot.network/docs/learn-nominator#filter-out-validators-with-undesirable-traits) validators that have traits that may indicate an issue with you nominating them. You can turn these filters off and on to help narrow down which validators you should nominate. It is important to note that none of these traits are necessarily "bad"; however, depending on your validator selection methodology, they may be characteristics that you would be interested in filtering out.
 
-* **Single from operator** - Do not show groups of validators run by a single operator.
-* **No 20%+ comm** - Do not show any validators with a commission of 20% or higher.
-* **No at capacity** - Do not show any validators who are currently operating [at capacity](https://wiki.polkadot.network/docs/glossary#capacity) (i.e., could potentially be oversubscribed).
-* **Recent payouts** - Only show validators that have recently caused a [payout to be issued](https://wiki.polkadot.network/docs/learn-simple-payouts). Note that anyone can cause a payout to occur; it does not have to be the operator of a validator.
-* **Only elected** - Only show validators that are currently in the active set (i.e., they have been elected to produce blocks this era).
-* **Only with an identity** - Only show validators that have set an [identity](https://wiki.polkadot.network/docs/learn-identity). Note that this identity does not have to be verified by a registrar for the validator to show up in the list.
+<!-- TODO: transform this into a table -->
+* **Single from operator**: Do not show groups of validators run by a single operator.
+* **No 20%+ comm**: Do not show any validators with a commission of 20% or higher.
+* **No at capacity**: Do not show any validators who are currently operating [at capacity](https://wiki.polkadot.network/docs/glossary#capacity) (i.e., could potentially be oversubscribed).
+* **Recent payouts**: Only show validators that have recently caused a [payout to be issued](https://wiki.polkadot.network/docs/learn-simple-payouts). Note that anyone can cause a payout to occur; it does not have to be the operator of a validator.
+* **Only elected**: Only show validators that are currently in the active set (i.e., they have been elected to produce blocks this era).
+* **Only with an identity**: Only show validators that have set an [identity](https://wiki.polkadot.network/docs/learn-identity). Note that this identity does not have to be verified by a registrar for the validator to show up in the list.
 
 ## Validators
 
@@ -66,9 +69,9 @@ Validators play a crucial role in the SORA network, as they secure and further d
 
 ### How Validators are chosen
 
-Not all those who register on the network to become validators will necessarily make blocks. If the competition is high and there are more than the maximum number of possible active validators for one epoch, then those validators with the most XOR will most likely participate in the actual validation. In this case, the de-facto minimum stake for an active validator will increase automatically.&#x20;
+Not all those who register on the network to become validators will necessarily make blocks. If the competition is high and there are more than the maximum number of possible active validators for one epoch, then those validators with the most XOR will most likely participate in the actual validation. In this case, the de-facto minimum stake for an active validator will increase automatically.
 
-Validators are selected using Polkadot’s[ Phragmen Method](https://wiki.polkadot.network/docs/en/learn-phragmen#where-is-the-phragm%C3%A9n-method-used-in-polkadot). 
+Validators are selected using Polkadot’s [Phragmen Method](https://wiki.polkadot.network/docs/en/learn-phragmen#where-is-the-phragm%C3%A9n-method-used-in-polkadot). 
 
 ### Become a SORA validator
 
@@ -83,13 +86,13 @@ Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz
 Uptime of 99.9%
 ```
 
-**If you’re interested in helping secure the future of SORA and Polkaswap, and earning rewards in the process, read more** [**here**](https://medium.com/sora-xor/how-to-run-a-sora-testnet-node-a4d42a9de1af)
+If you’re interested in helping secure the future of SORA and Polkaswap, and earning rewards in the process, read more about [running a SORA Mainnet node](./running-a-node.md).
 
 ## Rewards
 
-Your hard work won’t go without a reward. Those who run validator nodes or nominate will receive rewards in the form of  [**VAL** ](https://medium.com/sora-xor/sora-validator-reward-token-val-c96a8afb8541)tokens.
+Your hard work won’t go without a reward. Those who run validator nodes or nominate will receive rewards in the form of [**VAL**](https://medium.com/sora-xor/sora-validator-reward-token-val-c96a8afb8541) tokens.
 Rewards are not fixed but depend on the number of transactions on the SORA network and the usage of the Token Bonding Curve.
 In fact, half of all the fees on SORA Network and 1% of what is bought on the TBC is used to buy back VAL on Polkaswap and burn them. Then every day a percentage of the burned VAL is reminted and given to validators and nominators. This percentage was 90% at TGE and will linearly go down to flatline after 5 years.
 
-**The higher the number of transactions on the SORA Network, the higher the rewards for nominators and validators.**
+The higher the number of transactions on the SORA Network, the higher the rewards for nominators and validators.
 

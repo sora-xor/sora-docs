@@ -18,7 +18,7 @@ Liquidity pools on Polkaswap work much like other DEXs.  Fees are paid in XOR; t
 
 ## How does Polkaswap differ from other DEXs, like Uniswap?
 
-Polkaswap has worked to resolve some of the issues with Ethereum based DEXs. Built on Substrate, Polkaswap offers lower transaction costs and faster transactions. Polkaswap also offers swaps across Ethereum, Polkadot and Kusama networks, and more bridges are in development. In addition, with its liquidity aggregation technology, Polkaswap will allow trades against multiple liquidity sources under a custom liquidity aggregation algorithm. The liquidity aggregator algorithm can aggregate liquidity from various sources. Liquidity sources can be in the form of AMM DEXs, order books, or any other algorithm. Ultimately, this helps ensure users find the best value for their swaps.&#x20;
+Polkaswap has worked to resolve some of the issues with Ethereum based DEXs. Built on Substrate, Polkaswap offers lower transaction costs and faster transactions. Polkaswap also offers swaps across Ethereum, Polkadot and Kusama networks, and more bridges are in development. In addition, with its liquidity aggregation technology, Polkaswap will allow trades against multiple liquidity sources under a custom liquidity aggregation algorithm. The liquidity aggregator algorithm can aggregate liquidity from various sources. Liquidity sources can be in the form of AMM DEXs, order books, or any other algorithm. Ultimately, this helps ensure users find the best value for their swaps.
 
 ## Which is the difference between SMART and TBC functions on Polkaswap?
 
@@ -26,7 +26,7 @@ When clicking on Swap on the menu bar you can choose between SMART and TBC funct
 
 ![](/.gitbook/assets/catt.jpg)
 
-Using TBC your trade will be executed in the [token bonding curve](https://wiki.sora.org/token-bonding-curve). The SORA token bonding curve acts as the decentralized, on-chain manager of the XOR token. It works by taking in reserve assets and minting new XOR, or conversely, de-minting XOR and releasing reserve assets. This solution often reduces slippage for large trades, as the token bonding curve increases the liquidity of the XOR token. In addition, there is a special incentive when a user buys newly minted XOR in the token bonding curve; rewards are in PSWAP. You can read the full article about this reward [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8). &#x20;
+Using TBC your trade will be executed in the [token bonding curve](https://wiki.sora.org/token-bonding-curve). The SORA token bonding curve acts as the decentralized, on-chain manager of the XOR token. It works by taking in reserve assets and minting new XOR, or conversely, de-minting XOR and releasing reserve assets. This solution often reduces slippage for large trades, as the token bonding curve increases the liquidity of the XOR token. In addition, there is a special incentive when a user buys newly minted XOR in the token bonding curve; rewards are in PSWAP. You can read the full article about this reward [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8). 
 
 Prices on the token bonding curve and in the pools may be different, in which case you can use the SMART function to trade at the best possible price. Note that the SMART function does not consider PSWAP rewards in its calculations.
 
@@ -46,7 +46,7 @@ Ultimately, the goal is to secure a slot on Polkadot too. The strategy is to bui
 
 ## Do I need XOR to trade in Polkaswap?
 
-**No. Users can trade on Polkaswap without having XOR**; fees will be subtracted from the receiving amount. **This only works when swapping to XOR**.
+No. You can trade on Polkaswap without having XOR. However, it is only possible if you are swapping **to** XOR. The fees will be subtracted from the receiving amount.
 
 ## Are there incentives for liquidity providers on Polkaswap?
 
@@ -70,14 +70,17 @@ Keep in mind that the impermanent loss effects are mitigated by the 0.3% fees pa
 
 ## How can I earn PSWAP tokens?
 
-There are 3 main ways to earn PSWAP:
+Liquidity pools in Polkaswap work much like other DEXs. Fees are paid in XOR; they are automatically converted in PSWAP and then burned. A percentage of the burned amount is then re-minted and given to liquidity providers.
 
-Liquidity pools in Polkaswap work much like other DEXs.  Fees are paid in XOR; they are automatically converted in PSWAP and then burned. A percentage of the burned amount is then re-minted and given to liquidity providers.
+There are three main ways to earn PSWAP:
 
-* The first way to earn PSWAP tokens is to be one of the liquidity providers on Polkaswap after launch About 25,000 PSWAP will be allocated daily to liquidity providers on Polkaswap, and after a vesting period, users will be able to claim them. To read the full article on the first incentive program, have a look [here](https://medium.com/polkaswap/pswap-rewards-1-polkaswap-liquidity-reward-farming-3e045d71509).
-* The second way to earn PSWAP is to buy XOR with ETH, DAI, DOT, or KSM from the token bonding curve. Buying XOR with ETH, DAI, DOT, or KSM would help grow the SORA ecosystem, collateralize the bonding curve, and in the case of DOT and KSM, help SORA secure parachain slots for the Polkadot and Kusama chains respectively. 2.5 billion PSWAP tokens have been allocated as rewards for XOR buyers.\
-  If you’re interested in the math behind the token bonding curve, read the details [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
-* The third way to earn PSWAP tokens is from market making rebates on Polkaswap. 4 million PSWAP (200,000 per month) will be reserved proportionally for market makers that have at least 500,000 transactions with an average of at least 1 XOR in each transaction. You can read the details [here](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa).
+1. The first way to earn PSWAP tokens is to be one of the liquidity providers on Polkaswap after launch About 25,000 PSWAP will be allocated daily to liquidity providers on Polkaswap, and after a vesting period, users will be able to claim them. To read the full article on the first incentive program, have a look [here](https://medium.com/polkaswap/pswap-rewards-1-polkaswap-liquidity-reward-farming-3e045d71509).
+
+2. The second way to earn PSWAP is to buy XOR with ETH, DAI, DOT, or KSM from the token bonding curve. Buying XOR with ETH, DAI, DOT, or KSM would help grow the SORA ecosystem, collateralize the bonding curve, and in the case of DOT and KSM, help SORA secure parachain slots for the Polkadot and Kusama chains respectively. 2.5 billion PSWAP tokens have been allocated as rewards for XOR buyers.
+   
+   If you’re interested in the math behind the token bonding curve, read the details [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
+
+3. The third way to earn PSWAP tokens is from market making rebates on Polkaswap. 4 million PSWAP (200,000 per month) will be reserved proportionally for market makers that have at least 500,000 transactions with an average of at least 1 XOR in each transaction. You can read the details [here](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa).
 
 ## I transferred tokens directly to a pair contract (or a token contract), is there any way I can get them back?
 
@@ -90,4 +93,5 @@ Fearless Wallet is built for seamless integration with Polkaswap. Fearless Walle
 **SORA Network secured a parachain slot on Kusama Network on February 6th, 2022.**
 
 There are no more auctions planned in the coming months. Soon, KSM tokens will be available on Polkaswap and users can support future auctions using them to buy newly minted XOR from the [token bonding curve](https://wiki.sora.org/token-bonding-curve). By doing so the reserves of the token bonding curve will be increased, which will then be used to make a bid in subsequent auctions. Furthermore, there is a special reward in PSWAP when buying with DOT and KSM, this reward is higher when there are fewer reserves, and will decrease as they accumulate. You can read the full article about the incentive program [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
+
 **Update: The SORA Kusama parachain lease was renewed on March 16th, 2023**
