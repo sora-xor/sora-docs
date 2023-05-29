@@ -81,7 +81,7 @@ export default defineConfig({
               },
             ],
           },
-          { text: "XST", link: "tba" },
+          { text: "XST", link: "xst-platform" },
           { text: "SORAcard", link: "tba" },
           {
             text: "SORA in your pocket",
