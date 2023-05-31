@@ -115,9 +115,15 @@ export default defineConfig({
             text: "DEX",
             collapsed: true,
             items: [
-              { text: "Swap", link: "swap" },
-              { text: "Provide liquidity", link: "/provide-liquidity" },
-              { text: "Advanced trading", link: "advanced-trading" },
+              {
+                text: "Pool XYK",
+                items: [
+                  { text: "Swap", link: "swap" },
+                  { text: "Provide liquidity", link: "/provide-liquidity" },
+                  { text: "Advanced trading", link: "advanced-trading" },
+                ],
+              },
+              { text: "Order books", link: "orderbooks" },
             ],
           },
           {
