@@ -140,6 +140,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "HASHI",
+                    link: "hashi",
                     items: [
                       {
                         text: "Adding a token",
