@@ -172,7 +172,7 @@ This tutorial will walk you through the process of creating a new order book for
 ![](./assets/createOrderBook.png)
 _An order book is being created for the XOR-DAI trading pair, with XOR as the base asset. This selection is based on the chosen dexId, which is set to 0._
 
-3. Check that Order book was created. Open `Chainstate` calls -> Choose `orderBook.orderBooks` -> Switch off include option switch -> Run the query.
+3. Verify that the Order book was created. Open `Chainstate` calls -> Choose `orderBook.orderBooks` -> Switch off include option switch -> Run the query.
 
 ![](./assets/orderBookCreated.png)
 _The provided image showcases the successful creation of an order book for the specified trading pair._
@@ -186,7 +186,7 @@ In this tutorial, you will discover how to delete an existing order book. We wil
 
 <!-- TODO. add the image -->
 
-3. Check that Order book was created. Open `Chainstate` calls -> Choose `orderBook.orderBooks` -> Switch off include option switch -> Run the query. A deleted order book should be missing.
+3. Check that the Order book was created. Open `Chainstate` calls -> Choose `orderBook.orderBooks` -> Switch off include option switch -> Run the query. A deleted order book should be missing.
 
 ### Updating an Order Book
 
@@ -218,7 +218,7 @@ Side: Bid
 Lifespan: Current timestamp + 30 days
 ```
 
-3. Check that Limit order was opened. Open `Chainstate` calls -> Choose `orderBook.orderBooks` -> Switch off include option switch -> Run the query.
+3. Check that the Limit order was opened. Open `Chainstate` calls -> Choose `orderBook.orderBooks` -> Switch off include option switch -> Run the query.
 
 ![](./assets/createdLimitOrderQuery.png)
 _The provided image showcases the query to check the result of the limit order being created._
@@ -235,7 +235,7 @@ If you need to cancel a previously placed limit order, this tutorial will demons
 
 <!-- TODO. Finish, when implemented -->
 
-3. Check that Limit order was cancelled. Open `Chainstate` calls -> Choose `orderBook.orderBooks` -> Switch off include option switch -> Run the query.
+3. Check that the Limit order was cancelled. Open `Chainstate` calls -> Choose `orderBook.orderBooks` -> Switch off include option switch -> Run the query.
 
 <!-- TODO. Finish, when implemented -->
 
@@ -243,6 +243,6 @@ _The image provided demonstrates the successful cancellation of the limit order.
 
 ## References
 
-If you are proficient in RUST and Substrate, we invite you to explore our codebase dedicated to order books. By following this link https://github.com/sora-xor/sora2-network/tree/master/pallets/order-book, you will gain access to the source code, allowing you to delve deeper into the implementation details and functionalities of order books within our system.
+If you are proficient in RUST and Substrate, we invite you to explore our codebase dedicated to order books. By following [this link](https://github.com/sora-xor/sora2-network/tree/master/pallets/order-book), you will have access to the source code, allowing you to delve deeper into the implementation details and functionalities of order books within SORA.
 
-For more transparency on the development of order books, we recommend exploring our corresponding GitHub milestone - https://github.com/sora-xor/sora2-network/milestone/4. This will provide you with additional insights into the progress and advancements in order book implementation.
+For more transparency on the development of order books, we recommend exploring the corresponding [GitHub milestone](https://github.com/sora-xor/sora2-network/milestone/4). This will provide you with additional insights into the progress and advancements in order book implementation.
