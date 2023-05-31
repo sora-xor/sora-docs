@@ -156,7 +156,7 @@ Order Book operations
 
 ### Permissions
 
-See https://github.com/sora-xor/sora2-network/issues/400
+See this [GH issue for more information](https://github.com/sora-xor/sora2-network/issues/400)
 
 ## Step-by-step instructions
 
