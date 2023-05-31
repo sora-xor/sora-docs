@@ -160,7 +160,7 @@ See this [GH issue for more information](https://github.com/sora-xor/sora2-netwo
 
 ## Step-by-step instructions
 
-In this section, you will learn how to perform various operations related to order books on SORA blockchain in `polkadot.js` strating with `Developer` -> `Extrinsics` tab. Whether you want to create a new order book, delete an existing one, update its details, change the status, place a limit order, or cancel a limit order, this guide will provide you with clear and concise instructions:
+In this section, you will learn how to perform various operations related to order books on the SORA blockchain in `polkadot.js` (or dotapps.io) starting in the `Developer` -> `Extrinsics` tab. Whether you want to create a new order book, delete an existing one, update its details, change the status, place a limit order, or cancel a limit order, this guide will provide you with clear and concise instructions:
 
 ### Creating an Order Book
 
