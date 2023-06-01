@@ -10,7 +10,7 @@ If you are new to order books and want to understand their basic mechanisms, we 
 
 ## Use-case
 
-An order book is a fundamental component of a decentralized exchange (DEX) that facilitates trading between buyers and sellers in a transparent and efficient manner. It serves as a virtual ledger that records all the buy and sell orders placed by participants in the market.
+An order book is a fundamental component of a decentralized exchange (DEX) that facilitates trading digital assets between buyers and sellers in a transparent and efficient manner. It serves as a virtual meta ledger that records all the buy and sell orders placed by participants in the market.
 
 In a traditional centralized exchange, the exchange operator manages the order book, matching buy and sell orders to execute trades. However, in a decentralized exchange, the order book is maintained on a blockchain, allowing participants to interact directly with each other without the need for intermediaries.
 
@@ -23,7 +23,7 @@ By leveraging the power of blockchain technology, order books on decentralized e
 - **More trading options**: Traders will have access to various trading mechanisms, including market orders, limit orders, stop orders, and more. This can lead to more sophisticated trading strategies and better risk management.
 - **Alternative market for NFT trading**: NFTs can have their own order book, where users can place buy and sell orders. While it may not be the optimal mechanism for NFT trading due to their uniqueness and the need for customized volume and price steps (auction models or peer-to-peer mechanisms where buyers and sellers can directly negotiate the price of NFTs are traditionally considered more suitable), the order book mechanism can be more relevant for NFT trading compared to Pool XYK.
 - **Other benefits inherited from DEX characteristics**:
-  - _Permissionless accessibility_: DEXs allow anyone to participate in trading without a centralized intermediary. This promotes financial inclusion and provides access to a global user base, regardless of geographical location.
+  - _Permissionless accessibility_: DEXs allow anyone to participate in trading digital assets without a centralized intermediary. This promotes financial inclusion and provides access to a global user base, regardless of geographical location.
   - _Enhanced ownership and control_: All assets remain under the ownership and control of users.
   - _Transparency_: Users can verify authenticity, ownership history, and transaction data, fostering trust and reducing the risk of fraud or manipulation by a centralized intermediary.
   - _Decentralization benefits_: Reduced risks of hacks, downtime, or data breaches associated with centralized platforms.
