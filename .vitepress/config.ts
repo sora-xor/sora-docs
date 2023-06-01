@@ -100,6 +100,7 @@ export default defineConfig({
           { text: "Running a node", link: "running-a-node" },
           // { text: "Becoming a validator", link: "/tba" },
           { text: "Create an address", link: "create-an-address" },
+          { text: "Social recovery", link: "social-recovery" },
           {
             text: "Assets",
             collapsed: true,
