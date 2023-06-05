@@ -1,8 +1,3 @@
-<!-- TODO: 
-- update image names in this topic 
-- check image alignment
--->
-
 # Registration
 
 ## Via Polkaswap
@@ -15,11 +10,11 @@ You can make your token a part of SORA Network by simply adding it.
 
 3. Go to [Polkaswap.io](https://polkaswap.io/) > "Account" > "Create Token":
 
-    ![](</.gitbook/assets/Screenshotfrom2021-05-1402-06-52.png>)
+    ![](</.gitbook/assets/register-asset-create-token.png>)
 
 4. Fill in the details of your token:
 
-    ![](</.gitbook/assets/Screenshotfrom2021-05-1402-15-37.png>)
+    <center><img src="/.gitbook/assets/register-asset-create-token-fill-in.png" width="400"></center>
 
 5. Confirm the network fee and create the token.
 
