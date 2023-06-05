@@ -197,24 +197,17 @@ sequenceDiagram
 
 ## Quote/swap amount calculation process
 ### Notation
-$S_f$ - Fee ratio associated with the selected synthetic asset
-
-$S_o$ - Rate of the oracle symbol associated with the selected synthetic asset
-
-$B_p^b$ - Reference buy price of the base synthetic asset in reference asset units
-
-$B_p^s$ - Reference sell price of the base synthetic asset in reference asset units
-
-$\overline{R_p^b}$ - Reference buy price of the reference asset in XOR units
-
-$\overline{R_p^s}$ - Reference sell price of the reference asset in XOR units
-
-$O$ - output amount
-
-$I$ - input amount
-
-$F_{XOR}$ - fee amount in XOR
-<!-- ![](<.gitbook/assets/xst-notation.svg>) -->
+|      Notation      |                                Description                                |
+| ------------------ | ------------------------------------------------------------------------- |
+| $S_f$              | Fee ratio associated with the selected synthetic asset                    |
+| $S_o$              | Rate of the oracle symbol associated with the selected synthetic asset    |
+| $B_p^b$            | Reference buy price of the base synthetic asset in reference asset units  |
+| $B_p^s$            | Reference sell price of the base synthetic asset in reference asset units |
+| $\overline{R_p^b}$ | Reference buy price of the reference asset in XOR units                   |
+| $\overline{R_p^s}$ | Reference sell price of the reference asset in XOR units                  |
+| $O$                | Output amount                                                             |
+| $I$                | Input amount                                                              |
+| $F_{XOR}$          | Fee (in XOR)                                                              |
 ### PriceTools price calculation
 Before delving into how quote and swap amounts are calculated, it's crucial to understand how the price of a synthetic base asset is calculated in reference units.
 
