@@ -132,6 +132,7 @@ export default defineConfig({
           },
           {
             text: "Interoperability",
+            link: "interoperability",
             collapsed: true,
             items: [
               {
@@ -139,6 +140,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "HASHI",
+                    link: "hashi",
                     items: [
                       {
                         text: "Adding a token",
@@ -149,10 +151,15 @@ export default defineConfig({
                       },
                     ],
                   },
-                  { text: "Trustless" },
                 ],
               },
-              { text: "Substrate", items: [{ text: "Become a relayer" }] },
+              {
+                text: "Substrate",
+                link: "substrate-bridge",
+                items: [
+                  // { text: "Become a relayer" },
+                ],
+              },
             ],
           },
           { text: "Referral system", link: "/referral" },
