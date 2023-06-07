@@ -28,7 +28,7 @@ JS](https://polkadot.js.org/docs/api/start/types.extend) and [polkadot.js mirror
 
 - Running [Polkadot Apps locally](https://github.com/polkadot-js/apps)
 
-- The [Rust cli client](https://github.com/paritytech/substrate-subxt)
+- The [Rust CLI client](https://github.com/paritytech/substrate-subxt)
 
 - The [JS cli client](https://github.com/paritytech/substrate-cli-tools)
 
