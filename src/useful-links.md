@@ -46,7 +46,7 @@ Some links to getting started using Substrate;
 
 - [Subsrate technical chat on Element](https://app.element.io/#/room/#substrate-technical:matrix.org)
 
-3. [Substrate recipes](https://substrate.dev/recipes/)
+- [Substrate recipes](https://substrate.dev/recipes/)
 
 4. [Spinning up a localtestnet from scratch](https://substrate.dev/cumulus-workshop/#/)
 
