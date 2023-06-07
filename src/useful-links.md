@@ -50,6 +50,6 @@ Some links to getting started using Substrate;
 
 - [Spinning up a localtestnet from scratch](https://substrate.dev/cumulus-workshop/#/)
 
-5. [Benchmark documentation](https://www.shawntabrizi.com/substrate-graph-benchmarks/docs/#/)
+- [Benchmark documentation](https://www.shawntabrizi.com/substrate-graph-benchmarks/docs/#/)
 
 6. [Substrate development](https://substrate.dev/recipes/runtime-printing.html#printing-from-the-runtime)
