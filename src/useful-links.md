@@ -1,80 +1,55 @@
-# SORA Ecosystem
+# Useful Links
+Here are some links to articles covering the SORA philosphy, as well
+as technical resources explaining Polkadot and Substrate. 
+This section will be constantly updated. 
 
-https://wiki.sora.org/master
+## SORA Ecosystem
 
-https://medium.com/sora-xor/sora-the-new-economic-order-3ec3f0327e5a
+- An explanation on the [SORA Economic System](https://medium.com/sora-xor/sora-the-new-economic-order-3ec3f0327e5a)
 
-https://medium.com/sora-xor/many-worlds-one-economy-1ce709d4fb42
+- The SORA vision of [Many Worlds, One Economy](https://medium.com/sora-xor/many-worlds-one-economy-1ce709d4fb42)
 
-https://www.forbes.com/sites/tatianakoffman/2021/11/23/the-rise-of-decentralized-money-on-polkadotnew-algorithmic-stablecoin-launches-on-sora/?sh=722c2e6f31bc
+- A Forbes article covering [the launch of XSTUSD](https://www.forbes.com/sites/tatianakoffman/2021/11/23/the-rise-of-decentralized-money-on-polkadotnew-algorithmic-stablecoin-launches-on-sora/?sh=722c2e6f31bc)
 
-https://wiki.sora.org/polkaswap/what-is-polkaswap
+- A Forbes article covering [the launch of Polkaswap](https://www.forbes.com/sites/tatianakoffman/2021/04/27/the-rise-of-decentralized-exchanges-on-polkadot/?sh=39acc5e58169)
 
-https://www.forbes.com/sites/tatianakoffman/2021/04/27/the-rise-of-decentralized-exchanges-on-polkadot/?sh=39acc5e58169
 
-https://polkaswap.io/#/swap
+## Polkadot
 
-https://wiki.sora.org/sora-academy/accounts-in-sora
+- An explainer on [What is Polkadot?](https://wiki.polkadot.network/docs/getting-started)
 
-https://drive.google.com/file/d/1FWxZJs_a-ZghmSrgI31t7hEyLL8QUH2H/view?usp=sharing
+- An explainer on [what are Parachains](https://wiki.polkadot.network/docs/learn-parachains)
 
-https://medium.com/sora-article-translations
+### Polkadot Client
+- [polkadot.js documentation](https://polkadot.js.org/docs/)
 
-https://www.notion.so/Engineering-Wiki-a84d681ac67c44c5a924c786a34bd246
+- [Polkadot.js mirroring new types from Rust to
+JS](https://polkadot.js.org/docs/api/start/types.extend) and [polkadot.js mirroring new rpc’s from Rust to JS](https://polkadot.js.org/docs/api/start/rpc.custom)
 
-# Polkadot
+- Running [Polkadot Apps locally](https://github.com/polkadot-js/apps)
 
-What is Polkadot ?: https://wiki.polkadot.network/docs/getting-started
+- The [Rust CLI client](https://github.com/paritytech/substrate-subxt)
 
-Parachains: https://wiki.polkadot.network/docs/learn-parachains
+- The [JS CLI client](https://github.com/paritytech/substrate-cli-tools)
 
-# Substrate
+- [Decode Substrate](https://github.com/paritytech/desub)
 
-Getting started
-On Windows - https://substrate.dev/docs/en/knowledgebase/getting-started/windows-users
+## Substrate
 
-Unix based systems - https://substrate.dev/docs/en/knowledgebase/getting-started/#manual-installation
+Some links to getting started using Substrate; 
+- On [Windows](https://substrate.dev/docs/en/knowledgebase/getting-started/windows-users)
 
-General substrate knowledge
-Substrate docs root - https://substrate.dev/docs/en/
+- On [Unix based systems]( https://substrate.dev/docs/en/knowledgebase/getting-started/#manual-installation)
 
-Subsrate technical chat (register to write) - https://app.element.io/#/room/#substrate-technical:matrix.org
+General Substrate knowledge:
+- [Substrate docs](https://substrate.dev/docs/en/)
 
-Substrate recipes - https://substrate.dev/recipes/
+- [Subsrate technical chat on Element](https://app.element.io/#/room/#substrate-technical:matrix.org)
 
-Localtestnet from scratch - https://substrate.dev/cumulus-workshop/#/
+- [Substrate recipes](https://substrate.dev/recipes/)
 
-list of all official knowledge-based chats - Official Polkadot/Kusama knowledge bases and chats
+- [Spinning up a localtestnet from scratch](https://substrate.dev/cumulus-workshop/#/)
 
-Benchmark documentation https://www.shawntabrizi.com/substrate-graph-benchmarks/docs/#/
+- [Benchmark documentation](https://www.shawntabrizi.com/substrate-graph-benchmarks/docs/#/)
 
-Substrate development https://substrate.dev/recipes/runtime-printing.html#printing-from-the-runtime
-
-Blogs with useful substrate explanations
-https://www.shawntabrizi.com/blog/
-
-https://woss.io/#/ - seems to be down at the moment of writing
-
-Client
-polkadot.js documentation root - https://polkadot.js.org/docs/
-
-polkadot.js mirroring new types from Rust to JS - https://polkadot.js.org/docs/api/start/types.extend
-
-polkadot.js mirroring new rpc’s from Rust to JS - https://polkadot.js.org/docs/api/start/rpc.custom
-
-Quick connect to node with UI - https://polkadot.js.org/apps/
-
-Polkadot Apps to run locally - https://github.com/polkadot-js/apps
-
-Rust cli client - https://github.com/paritytech/substrate-subxt
-
-JS cli client - https://github.com/paritytech/substrate-cli-tools
-
-Decode Substrate - https://github.com/paritytech/desub
-
-Other substrate projects
-Acala - https://github.com/AcalaNetwork/Acala
-
-Acala client library - https://github.com/AcalaNetwork/acala.js
-
-Moonbeam - https://github.com/PureStake/moonbeam
+- [Substrate development](https://substrate.dev/recipes/runtime-printing.html#printing-from-the-runtime)
