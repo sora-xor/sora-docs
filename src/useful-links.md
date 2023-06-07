@@ -52,4 +52,4 @@ Some links to getting started using Substrate;
 
 - [Benchmark documentation](https://www.shawntabrizi.com/substrate-graph-benchmarks/docs/#/)
 
-6. [Substrate development](https://substrate.dev/recipes/runtime-printing.html#printing-from-the-runtime)
+- [Substrate development](https://substrate.dev/recipes/runtime-printing.html#printing-from-the-runtime)
