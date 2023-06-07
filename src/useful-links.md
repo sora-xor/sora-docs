@@ -48,7 +48,7 @@ Some links to getting started using Substrate;
 
 - [Substrate recipes](https://substrate.dev/recipes/)
 
-4. [Spinning up a localtestnet from scratch](https://substrate.dev/cumulus-workshop/#/)
+- [Spinning up a localtestnet from scratch](https://substrate.dev/cumulus-workshop/#/)
 
 5. [Benchmark documentation](https://www.shawntabrizi.com/substrate-graph-benchmarks/docs/#/)
 
