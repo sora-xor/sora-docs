@@ -44,7 +44,7 @@ Some links to getting started using Substrate;
 - General Substrate knowledge
 - [Substrate docs](https://substrate.dev/docs/en/)
 
-2. [Subsrate technical chat on Element](https://app.element.io/#/room/#substrate-technical:matrix.org)
+- [Subsrate technical chat on Element](https://app.element.io/#/room/#substrate-technical:matrix.org)
 
 3. [Substrate recipes](https://substrate.dev/recipes/)
 
