@@ -30,7 +30,7 @@ JS](https://polkadot.js.org/docs/api/start/types.extend) and [polkadot.js mirror
 
 - The [Rust CLI client](https://github.com/paritytech/substrate-subxt)
 
-- The [JS cli client](https://github.com/paritytech/substrate-cli-tools)
+- The [JS CLI client](https://github.com/paritytech/substrate-cli-tools)
 
 - [Decode Substrate](https://github.com/paritytech/desub)
 
