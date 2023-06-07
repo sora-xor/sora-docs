@@ -42,7 +42,7 @@ Some links to getting started using Substrate;
 -  On [Unix based systems]( https://substrate.dev/docs/en/knowledgebase/getting-started/#manual-installation)
 
 - General Substrate knowledge
-1. [Substrate docs](https://substrate.dev/docs/en/)
+- [Substrate docs](https://substrate.dev/docs/en/)
 
 2. [Subsrate technical chat on Element](https://app.element.io/#/room/#substrate-technical:matrix.org)
 
