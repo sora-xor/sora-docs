@@ -37,7 +37,7 @@ JS](https://polkadot.js.org/docs/api/start/types.extend) and [polkadot.js mirror
 ## Substrate
 
 Some links to getting started using Substrate; 
-1. On [Windows](https://substrate.dev/docs/en/knowledgebase/getting-started/windows-users)
+- On [Windows](https://substrate.dev/docs/en/knowledgebase/getting-started/windows-users)
 
 2. On [Unix based systems]( https://substrate.dev/docs/en/knowledgebase/getting-started/#manual-installation)
 
