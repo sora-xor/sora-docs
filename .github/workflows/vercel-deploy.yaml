@@ -20,6 +20,6 @@ jobs:
         with:
           vercel-token: ${{ secrets.SORA_TEAM_VERCEL }}
           vercel-org-id: ${{secrets.ORG_ID }}
-          vercel-project-id: ${{secrets.PROJECT_ID} }
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
           working-directory: ./
           vercel-args: '--prod'
