@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "SORA docs"
-  text: "Guides, how-tos, architecture"
-  tagline: New World Economic Order
+  name: "Welcome to the new SORA Wiki"
+  tagline: "Your essential hub for understanding the SORA network, its architecture, how-to guides, and exploring comprehensive resources"
   # actions:
   #   - theme: brand
   #     text: Getting started
@@ -16,15 +15,15 @@ hero:
 
 features:
   - title: Getting Started
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Explore the expansive world of SORA, a unique on-chain governance system powered by the XOR token, designed to facilitate funding and resource allocation proposals. 
     link: introduction
   - title: Ecosystem
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Dive into an overview of the integrated plan, familiarize yourself with SORA ecosystem components, and learn how to request features to customize your experience.
     link: integrated-plan
   - title: Participating in the SORA Economy
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Take an active role in the SORA economy by learning to create an address, running a node, participating in governance, DeFi, and more.
     link: running-a-node
   - title: Build
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: SORA builders' hub is your gateway to understanding the decentralized development process, pallets, technical stack, consensus, and accounts to get you up to speed and be part of the SORA's movement.
     link: build
 ---
