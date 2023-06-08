@@ -19,7 +19,7 @@ jobs:
       - uses: amondnet/vercel-action@225d234cfe5340ca1f9a6cd158338126b5b6845f
         with:
           vercel-token: ${{ secrets.SORA_TEAM_VERCEL }}
-          vercel-org-id: ${{ secrets.ORG_ID}}
-          vercel-project-id: ${{ secrets.PROJECT_ID}}
+          vercel-org-id: ${{secrets.ORG_ID }}
+          vercel-project-id: ${{secrets.PROJECT_ID} }
           working-directory: ./
           vercel-args: '--prod'
