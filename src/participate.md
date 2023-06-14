@@ -1,6 +1,6 @@
 # Participate in SORA Economy
 
-In this section you will find guidance on how to:
+In this section you will find all the information you need to:
 
 - [run a SORA Mainnet node](running-a-node.md)
 - [create an account](create-an-address.md)
