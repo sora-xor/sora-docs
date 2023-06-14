@@ -19,7 +19,7 @@ By leveraging the power of blockchain technology, order books on decentralized e
 - **Better price understanding**: Buyers and sellers will be able to see actual offers, enabling them to make more informed decisions about the true market value of assets. This can lead to more efficient trading.
 - **Improved liquidity**: Buyers and sellers will have greater control over the prices at which they trade. This helps attract more market participants, leading to increased liquidity and a more dynamic market.
 - **Additional liquidity source for the Liquidity Proxy**: Traders will have an alternative option to use the Liquidity Proxy, which can positively impact trading outcomes.
-**Reduced slippage**: In XYK markets, large trades can cause significant price changes due to the trade size impacting the market price. With order books, traders can place limit orders at the desired price, reducing the risk of slippage.
+- **Reduced slippage**: In XYK markets, large trades can cause significant price changes due to the trade size impacting the market price. With order books, traders can place limit orders at the desired price, reducing the risk of slippage.
 - **More trading options**: Traders will have access to various trading mechanisms, including market orders, limit orders, stop orders, and more. This can lead to more sophisticated trading strategies and better risk management.
 - **Alternative market for NFT trading**: NFTs can have their own order book, where users can place buy and sell orders. While it may not be the optimal mechanism for NFT trading due to their uniqueness and the need for customized volume and price steps (auction models or peer-to-peer mechanisms where buyers and sellers can directly negotiate the price of NFTs are traditionally considered more suitable), the order book mechanism can be more relevant for NFT trading compared to Pool XYK.
 - **Other benefits inherited from DEX characteristics**:
@@ -160,7 +160,13 @@ See this [GH issue for more information](https://github.com/sora-xor/sora2-netwo
 
 ## Step-by-step instructions
 
-In this section, you will learn how to perform various operations related to order books on the SORA blockchain in `polkadot.js` (or dotapps.io) starting in the `Developer` -> `Extrinsics` tab. Whether you want to create a new order book, delete an existing one, update its details, change the status, place a limit order, or cancel a limit order, this guide will provide you with clear and concise instructions:
+In this section, you will learn how to perform various operations related to order books on the SORA blockchain in `polkadot.js` (or dotapps.io) starting in the `Developer` -> `Extrinsics` tab. Whether you want to create a new order book, delete an existing one, update its details, change the status, place a limit order, or cancel a limit order, this guide will provide you with clear and concise instructions.
+
+::: warning
+
+Please note that during the execution, there may be certain conditions that prevent the execution of specific transactions. In such cases, you will encounter errors with self-explanatory names. For a comprehensive list of all the errors, you can refer to the [codebase](https://github.com/sora-xor/sora2-network/blob/7de5fb694ee3b7ef1b315d13ba61c5eb25e26cb2/pallets/order-book/src/lib.rs#L267).
+
+:::
 
 ### Creating an Order Book
 
