@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: "Getting Started", link: "introduction" },
       { text: "Ecosystem", link: "integrated-plan" },
-      { text: "SORA Economy", link: "running-a-node" },
+      { text: "SORA Economy", link: "participate" },
       { text: "Build", link: "build" },
     ],
     logo: "https://raw.githubusercontent.com/sora-xor/sora-branding/84f3c35328f5f570a2ed2027ec5533e7cc25d151/SORA/SORA-logo/SVG%20(vector%20files%20for%20web)/04_SORA_main_logo_landscape.svg",
@@ -99,6 +99,7 @@ export default defineConfig({
       {
         text: "Participating in SORA economy",
         items: [
+          { text: "Overview", link: "participate"},
           { text: "Running a node", link: "running-a-node" },
           // { text: "Becoming a validator", link: "/tba" },
           { text: "Create an address", link: "create-an-address" },
@@ -163,6 +164,7 @@ export default defineConfig({
           { text: "Identity", link: "id" },
           { text: "Rewards", link: "rewards" },
           { text: "Nodes connection", link: "nodes-connection" },
+          { text: "Staking in Fearless Wallet", link: "stake-in-fearless-wallet"},
         ],
       },
       {
