@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Welcome to the new SORA Wiki"
+  name: "Welcome to the SORA Wiki"
   tagline: "Your essential hub for understanding the SORA network, its architecture, how-to guides, and exploring comprehensive resources"
   # actions:
   #   - theme: brand
