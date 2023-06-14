@@ -21,7 +21,7 @@ Follow these steps to set up an identity:
 
 3. Register your Identity and click on "Set Identity" when finished.
 
-  <center><img src="/.gitbook/assets/id-register-id.png" width="400"></center>
+    <center><img src="/.gitbook/assets/id-register-id.png" width="400"></center>
 
     ::: info
 
