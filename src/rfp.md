@@ -87,7 +87,7 @@ After creating an RFP using this new process, you can follow it’s
 progress in the issue section, where other users and developers will
 be able to discuss implementations and progress conveniently and
 easily, as well as mark the proposal as complete once it has been
-successfully worked on!
+successfully worked on! Test
 
 ![](</.gitbook/assets/rfp-4.png>)
 
