@@ -1,4 +1,4 @@
-# User story
+# User Story
 
 As a <ins>SORA Card user</ins> I want to <ins>log out of my current SORA Card account</ins> so that <ins>I can remove data from my fiat account on the crypto wallet if I fancy</ins>.
 

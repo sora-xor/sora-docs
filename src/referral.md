@@ -39,7 +39,7 @@ First of all, XOR should be bonded in order to pay fees for setting up the refer
 
     <center><img src="/.gitbook/assets/bond-share-referrals.png" width="400"></center>
 
-### Check referrals and rewards
+### Check Referrals and Rewards
 
 If someone joins SORA using your referral link you’ll get this information on the referral screen:
 

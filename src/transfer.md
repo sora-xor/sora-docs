@@ -19,7 +19,7 @@ We recommend using the SORA testnet for practice exercises. Here are the Testnet
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RdJ6yFFl06k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### Getting test tokens
+### Getting Test Tokens
 
 You can practice with transfers using test tokens in the SORA testnet.
 
@@ -37,7 +37,7 @@ You can practice with transfers using test tokens in the SORA testnet.
 Keep in mind that every transaction in SORA requires a fee in XOR. Transferring is a transaction so don't forget to request a few XORs from the faucet.
 :::
 
-### Send tokens
+### Send Tokens
 
 #### Via Polkaswap
 
@@ -71,7 +71,7 @@ You can then find your transaction on the Activity tab:
 
 :::
 
-#### Via mobile application
+#### Via Mobile Application
 
 The SORA mobile application provides a good UX for sending and receiving tokens.
 
@@ -107,7 +107,7 @@ Tap on the transaction in history to view the details:
 
 :::
 
-#### Sending tokens using a QR code
+#### Sending Tokens Using a QR Code
 
 Using QR code reduces the number of mistakes and simplifies the process of entering addresses and tokens. Token information and address are encoded within the QR code, and the application decodes it.
 
@@ -120,7 +120,7 @@ Using QR code reduces the number of mistakes and simplifies the process of enter
 <!-- Probably not needed <center><img src=".gitbook/assets/Screenshot_20210915-101737_Soralution.jpg" width="400"></center> -->
 <center><img src=".gitbook/assets/transfer-mobile-qr-enter-amount.jpg" width="400"></center>
 
-#### Receiving tokens using a QR code
+#### Receiving Tokens Using a QR Code
 
 If you'd like to get tokens using a QR code:
 

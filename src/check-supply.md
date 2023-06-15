@@ -1,4 +1,4 @@
-# Check supply
+# Check Supply
 
 ::: info
 Please consider that you would see the **total supply** (this includes locked tokens and the circulating supply) of all tokens in the network and not only the **circulating** supply of the tokens.

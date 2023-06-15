@@ -21,7 +21,7 @@ export default defineConfig({
     siteTitle: false,
     sidebar: [
       {
-        text: "Getting started",
+        text: "Getting Started",
         items: [
           { text: "Introduction", link: "introduction" },
           {
@@ -66,7 +66,7 @@ export default defineConfig({
         text: "Ecosystem",
         items: [
           { text: "Overview", link: "tba" },
-          { text: "Integrated plan", link: "integrated-plan" },
+          { text: "Integrated Plan", link: "integrated-plan" },
           {
             text: "Polkaswap",
             link: "polkaswap",
@@ -78,7 +78,7 @@ export default defineConfig({
                 link: "polkaswap-terms",
               },
               {
-                text: "Privacy policy",
+                text: "Privacy Policy",
                 link: "polkaswap-privacy",
               },
             ],
@@ -86,31 +86,31 @@ export default defineConfig({
           { text: "XST", link: "tba" },
           { text: "SORAcard", link: "tba" },
           {
-            text: "SORA in your pocket",
+            text: "SORA in Your Pocket",
             collapsed: true,
             items: [
               { text: "SORA Mobile", link: "mobile" },
-              { text: "Fearless wallet", link: "fearless" },
+              { text: "Fearless Wallet", link: "fearless" },
             ],
           },
-          { text: "Request features", link: "rfp" },
+          { text: "Request Features", link: "rfp" },
         ],
       },
       {
-        text: "Participating in SORA economy",
+        text: "Participate in SORA Economy",
         items: [
           { text: "Overview", link: "participate"},
-          { text: "Running a node", link: "running-a-node" },
+          { text: "Running a Node", link: "running-a-node" },
           // { text: "Becoming a validator", link: "/tba" },
-          { text: "Create an address", link: "create-an-address" },
+          { text: "Create an Address", link: "create-an-address" },
           {
             text: "Assets",
             collapsed: true,
             items: [
               { text: "Transfer", link: "transfer" },
-              { text: "Check supply", link: "check-supply" },
-              { text: "Check balance", link: "check-balance" },
-              { text: "Register an asset", link: "register-an-asset" },
+              { text: "Check Supply", link: "check-supply" },
+              { text: "Check Balance", link: "check-balance" },
+              { text: "Register an Asset", link: "register-an-asset" },
               { text: "On-ramp", link: "on-ramp" },
             ],
           },
@@ -119,16 +119,16 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: "Swap", link: "swap" },
-              { text: "Provide liquidity", link: "/provide-liquidity" },
-              { text: "Advanced trading", link: "advanced-trading" },
+              { text: "Provide Liquidity", link: "/provide-liquidity" },
+              { text: "Advanced Trading", link: "advanced-trading" },
             ],
           },
           {
-            text: "Participating in governance",
+            text: "Participating in Governance",
             collapsed: true,
             items: [
               {
-                text: "Fast track public voting",
+                text: "Fast Track Public Voting",
                 link: "fast-track-public-voting",
               },
             ],
@@ -144,26 +144,26 @@ export default defineConfig({
                     text: "HASHI",
                     items: [
                       {
-                        text: "Adding a token",
+                        text: "Adding a Token",
                         link: "adding-a-token-to-a-hashi-bridge",
                       },
                       {
-                        text: "Become a relayer",
+                        text: "Become a Relayer",
                       },
                     ],
                   },
                   { text: "Trustless" },
                 ],
               },
-              { text: "Substrate", items: [{ text: "Become a relayer" }] },
+              { text: "Substrate", items: [{ text: "Become a Relayer" }] },
             ],
           },
-          { text: "Referral system", link: "/referral" },
-          { text: "Explore blocks", link: "/explore-blocks" },
+          { text: "Referral System", link: "/referral" },
+          { text: "Explore Blocks", link: "/explore-blocks" },
           { text: "NFT", link: "nft" },
           { text: "Identity", link: "id" },
           { text: "Rewards", link: "rewards" },
-          { text: "Nodes connection", link: "nodes-connection" },
+          { text: "Nodes Connection", link: "nodes-connection" },
           { text: "Staking in Fearless Wallet", link: "stake-in-fearless-wallet"},
         ],
       },
@@ -172,7 +172,7 @@ export default defineConfig({
         items: [
           { text: "Introduction", link: "build" },
           {
-            text: "Decentralised development process",
+            text: "Decentralised Development Process",
             link: "decentralised-development-process",
           },
           {
@@ -183,7 +183,7 @@ export default defineConfig({
           { text: "Technical Stack", link: "technical-stack" },
           { text: "Consensus", link: "consensus" },
           { text: "Accounts", link: "accounts" },
-          { text: "Useful links", link: "useful-links" },
+          { text: "Useful Links", link: "useful-links" },
         ],
       },
     ],

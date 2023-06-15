@@ -1,6 +1,6 @@
-# Check user balances
+# Check User Balances
 
-### Via Polkadot.js UI
+## Via Polkadot.js UI
 
 1. Go to [SORA polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc).
 
