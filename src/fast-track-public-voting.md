@@ -1,4 +1,4 @@
-# Fast track public voting
+# Fast Track Public Voting
 
 To specify public voting duration you’ll need to communicate with the SORA Council and SORA Technical Committee.
 

@@ -33,7 +33,7 @@ It is important to note that **the token bonding curve does not guarantee XOR's 
 
 
 
-## Ideal and Actual scenarios
+## Ideal and Actual Scenarios
 
 Let's now focus on **reserves**, which play a crucial role in the TBC mechanism.
 
@@ -51,7 +51,7 @@ The Buy-Price Function is the same in both the Actual and Ideal scenarios.
 
 This is why building reserves after launch is crucial and **there is a special incentive program in PSWAP (25% of the total PSWAP supply) for users that buy newly-minted XOR on the TBC.** You can read the details [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
-## Selling in the Actual scenario
+## Selling in the Actual Scenario
 
 Considering that the ideal reserves are a long-term goal, it is important to understand how selling in a token bonding curve that is not fully collateralized works.
 
@@ -68,7 +68,7 @@ In addition, there are extra fees when selling with low collateralization:
 
 These extra fees will be burned.
 
-## Token Bonding Curve and Parachain auctions
+## Token Bonding Curve and Parachain Auctions
 
 In the future, the TBC will play a key role in securing a Parachain slot for the SORA network on Polkadot and Kusama.
 

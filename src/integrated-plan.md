@@ -39,7 +39,7 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 - **Fearless Wallet integration**: This integration will be available once the SORA network upgrades to Substrate 4. With this, it will be possible to have SORA network tokens available within the Fearless Wallet interface. This means that you will be able to access SORA fearlessly along with other Dotsama ecosystem tokens.
 - **Fearless Wallet Desktop**: Along with a desktop UI to fearlessly access your assets, there will also be a dApp signer that will serve as a fresh and intuitive alternative to the current Polkadot ecosystem extension.
 
-## Mobile/ Other
+## Mobile/Other
 
 **Mobile/other** considers other interfaces, like the mobile apps.
 

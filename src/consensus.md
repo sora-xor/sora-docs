@@ -31,7 +31,7 @@ When you are nominating, your XOR can't be moved right away, rather, it needs to
 
 As previously said, nominators have to select elected validators. Nominators can select up to 16 different validators, but only one of them is required to join the validators set. If more than one of the selected validators joins the active set, only one will be actually supported by your stake.
 
-### How to select Validators effectively
+### How to Select Validators Effectively
 
 To provide some high quality validators on the network as a common good, the SORA Parliament maintains the following list of validators:
 
@@ -67,13 +67,13 @@ The validators are nodes that have been selected to produce blocks. Validators a
 
 Validators play a crucial role in the SORA network, as they secure and further decentralize the whole system. Hosting a validator node is fairly straightforward - but it does have technical requirements that must be carefully considered.
 
-### How Validators are chosen
+### How Validators are Chosen
 
 Not all those who register on the network to become validators will necessarily make blocks. If the competition is high and there are more than the maximum number of possible active validators for one epoch, then those validators with the most XOR will most likely participate in the actual validation. In this case, the de-facto minimum stake for an active validator will increase automatically.
 
 Validators are selected using Polkadot’s [Phragmen Method](https://wiki.polkadot.network/docs/en/learn-phragmen#where-is-the-phragm%C3%A9n-method-used-in-polkadot). 
 
-### Become a SORA validator
+### Become a SORA Validator
 
 The SORA network is completely decentralized, and relies on community members to run nodes. Validator nodes will be responsible for making blocks in the network. To help ensure the success of Polkaswap, we require community support in running validator nodes on the SORA network. Here’s what you’ll need to get started:
 
