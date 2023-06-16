@@ -4,7 +4,7 @@ SORA allows you to store profile information in order to identify and discover p
 
 A tutorial is provided below on how to set up an identity for yourself.
 
-## Register an identity
+## Register an Identity
 
 Requirements:
 

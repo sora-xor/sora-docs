@@ -3,7 +3,7 @@
 - check image alignment
 -->
 
-# Liquidity operations
+# Liquidity Operations
 
 To Polkaswap means to exchange (_swap_) tokens on [Polkaswap](https://polkaswap.io/), Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.
 
@@ -47,7 +47,7 @@ We recommend using the SORA testnet for practice exercises. Here are the Testnet
 
 In the practice section, we'll create a liquidity pool, provide liquidity to the existing pool and remove the liquidity.
 
-### Creating a new Liquidity pool
+### Creating a New Liquidity Pool
 
 #### Via Polkaswap
 
@@ -95,7 +95,7 @@ Now you can see your pool share on the Pool page:
 
 ![](<.gitbook/assets/Untitled(5)(8).png>)
 
-### Providing liquidity to an existing Liquidity pool
+### Providing Liquidity to an Existing Liquidity Pool
 
 #### Via Polkaswap
 
@@ -135,7 +135,7 @@ Now you can see your share of the pool on the Pool page
 
 ![](<.gitbook/assets/Untitled(11)(1).png>)
 
-### Removing liquidity from the pool
+### Removing Liquidity from the Pool
 
 #### Via Polkaswap
 
@@ -167,7 +167,7 @@ You can then check if your pool share was reduced
 
 ![](<.gitbook/assets/Untitled(15)(2).png>)
 
-## Checking transactions
+## Checking Transactions
 
 You can find the transactions for providing and removing liquidity you have made in the block explorer. Open the list of transactions and filter it using the PoolXYK module parameter and **deposit_liquidity** call for providing liquidity or **withdraw_liquidity** call for removing liquidity.
 

@@ -6,7 +6,7 @@ Similar to the flow used to nominate [Polkadot](https://polkadot.network/) and [
 
 Please let us know if you have any issues with this feature on our [Support Channel](https://t.me/fearlesshappiness) or would like to suggest more fearless improvements in our [Telegram Community](https://t.me/fearlesswallet).
 
-## Nominate SORA network validators
+## Nominate SORA Network Validators
 
 Here is a quick guide to SORA network staking on Fearless Wallet:
 
@@ -44,7 +44,7 @@ Here is a quick guide to SORA network staking on Fearless Wallet:
     
     <center><img src="/.gitbook/assets/staking-confirm.jpg" width="400"></center>
 
-## Change stakes made through dotapps.io
+## Change Stakes Made Through dotapps.io
 
 But what if you were already nominating validators through dotapps.io? No worries, if you are using the same account, your validators will appear automatically, and you will be able to increase, decrease or remove your stake. Let’s add another XOR to RingRound.
 

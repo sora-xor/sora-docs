@@ -3,7 +3,7 @@
 - fix wrong images
 -->
 
-# Account creation
+# Account Creation
 
 Here we provide you with instruction on account creation:
 
@@ -27,7 +27,7 @@ In the practice exercise, an account should be created in 3 different ways. Whic
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RdJ6yFFl06k" title="SORA account creation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-## Via polkadot.js browser plugin
+## Via polkadot.js Browser Plugin
 
 Use a Chrome or Firefox browser.
 
@@ -67,7 +67,7 @@ Use a Chrome or Firefox browser.
 ![](<.gitbook/assets/image(9).png>)
 -->
 
-## Via polkadot.js app UI
+## Via polkadot.js App UI
 
 1. Open [https://polkadot.js.org/apps/](https://polkadot.js.org/apps/) and then select SORA network. Use this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.stage.sora2.soramitsu.co.jp#/explorer) for the testnet.
 
@@ -107,7 +107,7 @@ Now you have two accounts. One was injected from the Polkadot browser plugin and
 
 ![](<.gitbook/assets/create-address-app-view-accounts.png>)
 
-## Via SORA mobile application
+## Via SORA Mobile Application
 
 The SORA mobile application allows users to interact with the SORA network using mobile devices. These are the links to the applications:
 
