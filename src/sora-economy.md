@@ -115,35 +115,3 @@ While the SORA economy is in its infant phase, the token bonding curve plays a c
 ## Towards a New Tomorrow
 
 One of the reasons decentralized P2P economic systems haven't been more widely adopted and lack sophistication is not having access to an elastic supply of capital via a central bank or mutual savings bank. By decentralizing the concept of a central bank, blockchain networks can finally create and allocate capital to fund worthwhile producers as well as needed infrastructure and public goods. With its interoperable technology, SORA can become the decentralized central bank for the world of blockchains, financing the creation of new and exciting applications.
-
----
-
-## FAQs
-
-- **I have SORA v1 Network XOR, what will happen to my v1 XOR?**
-    - We propose that all v1 XOR will be converted in VAL, a new token. The conversion ratio and the specific of this conversion will be explained in detail in a [future article](https://medium.com/sora-xor/sora-v2-implementation-1febd3260b87). V1 XOR won't affect the v2 XOR token supply or network, but v1 Network XOR token holders will receive value and self-deterministic governance.  A good way to think of the relationship is as similar to Kusama and Polkadot, whereby one group of users is more experimental and dynamic than the other (however in this case, we foresee both groups using the same physical network).
-    
-- **I have some tokens in my SORA app wallet. Do I need to hold it?**
-    - Yes, you should keep your SORA app wallet safe and do not lose your passphrase! These tokens will be converted into VAL
-    
-- **How are SORA v2 Network XOR created?**
-    - Within the mainnet, the creation of XOR will require a corresponding backing in the value of  mainnet XOR at the time of creation using acceptable "hard currencies." Currently it is expected that suitable hard currencies will be: BTC, ETH, USDT, USDC, TUSD, DOT, KSM, DAI. Additionally, the 350k ERC-20 XOR tokens will be the initial supply of SORA v2 Network XOR.
-
-- **How can community members signal their acceptance of this proposal for SORA v2?**
-    - Members wishing to support the summarized proposal will be able to do so in the [SORA app](https://sora.org/#rec207563121), in the coming weeks, via a Yes or No referendum using the SORA votes. More information, including a Constitution for the SORA v2 Network will be released later.
-    
-- **Will projects in SORA v1 that were voted in receive XOR? Will voters who voted on the projects receive XOR?**
-    - Some projects have commitments for distributing v1 XOR, so they will receive some limited distribution. When the distribution takes place, users who voted on the projects will receive a random distribution totaling 1% of the distributed amount.
-    
-- **How can I propose a project for SORA? When can I do it? What's the process?**
-    - The process will be explained after the SORA v2 Network launch.
-    
-- **What is PSWAP, and how will it impact SORA?**
-    - [Polkaswap](https://medium.com/@polkaswap/introducing-polkaswap-6f1db4003747) is a liquidity aggregator cross chain AMM (Automated Market Making) DEX built on the Sora Network. Polkaswap will have it's own token, PSWAP, to incentivize liquidity providers. Gas fees on Polkaswap will be paid in XOR and like ETH in Uniswap, liquidity will also be provided in XOR. XOR is a useful token for liquidity provision on Polkaswap because it is not affected by rapid price changes (minimizing impermanent loss), highly liquid (because of the token bonding curve market maker), and neutral between other Polkadot ecosystem projects, but uses DOT and KSM as reserves.
-    
-- **Will other projects be built on SORA Network?**
-    - The SORA Network will work to be an efficient, effective and permissionless network for a myriad of applications. Initially many of these projects will likely be Decentralized Finance "DeFi" oriented, but over time we expect many other projects to emerge, both physical and digital.
-
-- **Can I run a SORA node? How many XOR do I need? When can I run?**
-    - Yes, you can run a validator on the SORA v2 Network. It will be a system similar to nominated proof-of-stake where validators must stake an amount of XOR and then be nominated by others. The specific numbers and whether this will be fixed-rate or auction-based are still being decided and will be explained in-depth in a future article.
-

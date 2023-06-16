@@ -7,13 +7,11 @@
   
 ## Decentralized Development at its Best
 
-SORA is a truly decentralized movement, run by the community and for the community. Everyone is encouraged to actively participate in the development and constant improvement of the network. An example of this is the [RFP development process](https://medium.com/sora-xor/sora-polkaswap-decentralized-development-process-6df207d7518a), a program that allows users to submit requests for new features and subsequently proposals themselves to add new functions and to the network. Some successful proposals include the [XSTUSD stablecoin](https://github.com/sora-xor/rfps/blob/master/open_rfps/XST(USD)%20RFP) and the [Referral Program](https://github.com/sora-xor/rfps/blob/master/open_rfps/Referral%20Program%20Proposal) that will soon be released into production.
-
 The SORA Builders Programme is now launching to take the power of decentralization even further, and aid the community to make all their great ideas and suggestions to improve the network a reality. 
 
 ## The Two Modalities of the SORA Builders Programme
 
-The SORA Builders Programme is an extension of the [SORA RFP program](https://medium.com/sora-xor/sora-polkaswap-decentralized-development-process-6df207d7518a) (see also [How to RFP](https://medium.com/sora-xor/how-to-rfp-proposing-new-functionalities-to-polkaswap-and-the-sora-network-4af099b15f75)). The SORA Builders Programme branches out into two modalities, **New Project (Incubation)** and **Existing Project (Port).** As the names imply, this programme will support the implementation and development of new projects, as well as porting existing apps onto the SORA network. 
+The SORA Builders Programme is an extension of the [SORA RFP program](rfp.md). The SORA Builders Programme branches out into two modalities, **New Project (Incubation)** and **Existing Project (Port).** As the names imply, this programme will support the implementation and development of new projects, as well as porting existing apps onto the SORA network. 
 
 Both new projects and ports can receive compensation in the form of XOR, as well as development support from the SORA community. Because effectively time and development effort are not free, and in order to uphold the community standards, not everyone who applies will be accepted by the programme.
 
@@ -58,7 +56,7 @@ governance does not limit the use of the network to the desires of one
 entity, but rather, it empowers users and community members to improve
 the network as much as they want through the implementation of
 programs like [**RPF
-submissions**](https://medium.com/sora-xor/how-to-rfp-proposing-new-functionalities-to-polkaswap-and-the-sora-network-4af099b15f75)
+submissions**](rfp.md)
 and the **SORA Builders Programme**. Progress from both these
 initiatives will be reported in the fortnightly **Ecosystem Updates**
 and all the submissions, as well as RFP and merged implementations,
@@ -68,4 +66,4 @@ full transparency and decentralized practices are always upheld.
 
 
 
-For more information, read the articles *[SORA Decentralized Development Process](https://medium.com/sora-xor/sora-polkaswap-decentralized-development-process-6df207d7518a)*, [*How to RFP*](https://medium.com/sora-xor/how-to-rfp-proposing-new-functionalities-to-polkaswap-and-the-sora-network-4af099b15f75), and [*Social Insurance for Systematically Important Infrastructure*](https://medium.com/sora-xor/social-insurance-for-systematically-important-infrastructure-18a63ef711ca). To stay in the loop with the latest implementations of the SORA network and Polkaswap, make sure to follow the Ecosystem updates, and finally, to get a taste of what is to come, watch the **[SORA Development Public Request for Proposal (RFP) Process** Github Repo](https://github.com/sora-xor/rfps)!
+For more information, read the articles *[SORA Decentralized Development Process](https://medium.com/sora-xor/sora-polkaswap-decentralized-development-process-6df207d7518a)*, [*How to RFP*](https://medium.com/sora-xor/how-to-rfp-proposing-new-functionalities-to-polkaswap-and-the-sora-network-4af099b15f75), and [*Social Insurance for Systematically Important Infrastructure*](https://medium.com/sora-xor/social-insurance-for-systematically-important-infrastructure-18a63ef711ca). To stay in the loop with the latest implementations of the SORA network and Polkaswap, make sure to follow the Ecosystem updates, and finally, to get a taste of what is to come, watch the **[SORA Development Public Request for Proposal (RFP) Process Github Repo](https://github.com/sora-xor/rfps)**!
