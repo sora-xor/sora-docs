@@ -1,7 +1,7 @@
 plugins:
   - markdown
   - html
-  - "@typescript-eslint"
+  - "@babel-eslint"
 
 "rules": {
   "no-console": "warn",
