@@ -1,14 +1,7 @@
----
-head:
-  - - link
-    - rel: stylesheet
-      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
----
-
 # SORA: The New Economic Order
 - SORA v2 tokenomic model is proposed that uses a token bonding curve with an increasing price function. This means that as the token supply increases, the price also increases.
 - Reserves held by the token bonding curve will provide liquidity for XOR.
-- A new, staking reward token called VAL is proposed.
+- A new, staking reward token, tentatively called VAL is proposed.
 - ERC-20 XOR trading on Ethereum will be the initial supply of v2 XOR. ERC-20 XOR holders will also receive airdropped VAL.
 - SORA v1 tokens are proposed to be converted into VAL.
 
@@ -20,7 +13,7 @@ To realize this system, we are proposing SORA: The New Economic Order. This is a
 
 ## SORAnomics
 
-The key thesis of the SORA economic system is that **for cryptoeconomic systems to be able to compete with contemporary centralized economic systems, there needs to be a rational economic model**. To create a rational economic model, we did a survey of various economic theories, starting our journey in 2017. Over the course of this time we also employed an economist ([Yokei Yamaguchi](https://www.vollgeld-initiative.ch/fa/img/Vertiefung_deutsch/P2P-PM-System_WP__Japan_Futures_Research_Center.pdf)) to work with us in 2018, and he helped us with several key parts of the model.
+The key thesis of the SORA economic system is that **for cryptoeconomic systems to be able to compete with contemporary, centralized economic systems, there needs to be a rational economic model**. To create a rational economic model, we did a survey of various economic theories, starting our journey in 2017. Over the course of this time we also employed an economist ([Yokei Yamaguchi](https://www.vollgeld-initiative.ch/fa/img/Vertiefung_deutsch/P2P-PM-System_WP__Japan_Futures_Research_Center.pdf)) to work with us in 2018, and he helped us with several key parts of the model.
 
 The conclusions were that there is a large amount of empirical evidence that suggests that **it is the change in the allocation of money in an economy that is a necessary and sufficient determinant of growth**. This was shown by Richard Werner in his [disaggregated quantity theory of money](https://eprints.soton.ac.uk/36569/), where he disaggregated Fisher's [equation of exchange](https://en.wikipedia.org/wiki/Equation_of_exchange) (MV = PY; a good way to think about this is also that MV equals nominal GDP viewed from the perspective of buyers, whereas PY equates to nominal GDP viewed from the perspective of producers/sellers) into *real* (*R*) and *financial* (*F*) transactions:
 
@@ -44,7 +37,17 @@ Where:
 
 *Q* := quantity demanded
 
-It is helpful to think of the above equations as a dynamical system, such that if the quantity of money, *M*,  changes on the left-hand side of the equation, there must be some change on the right-hand side to balance out this change (this is because *V* is typically fairly stable in large economies). **For transactions in the real economy, this means that new money put into circulation is balanced out by new goods and services that consume this new purchasing power.** However, for financial transactions, there are no new goods or services being created with the new money put into circulation, so this causes a rise in asset prices to compensate (which is not what you want in your economic system). Additionally, it is also important to understand the importance of expanding M for the production of new goods and services. As [Shimomura wrote about extensively](https://www.jstage.jst.go.jp/article/economics1950/11/3-4/11_3-4_1/_article/-char/ja/) and Kurihara distilled to a simple, [linear programming model](https://books.google.co.jp/books?id=RVtGAQAAQBAJ&pg=PA60&lpg=PA60&dq=Japan%E2%80%99s+Credit-Supported+Growth+and+Linear+Programming&source=bl&ots=dNNHw-QyMh&sig=ACfU3U0gv9WNMZbWJBlfDf7AL5PY7aZzTQ&hl=ja&sa=X&ved=2ahUKEwjV8rf2qfHoAhUQx4sBHf2cBaEQ6AEwAHoECAwQKw#v=onepage&q=Japan%E2%80%99s%20Credit-Supported%20Growth%20and%20Linear%20Programming&f=false), expanding the quantity of money for new goods and services expands the economic output because latent resources (especially human resources) are mobilized, and existing resources are upgraded by the creation of new capital for production.
+It is helpful to think of the above equations as a dynamical system,
+such that if the quantity of money, *M*,  changes on the left-hand
+side of the equation, there must be some change on the right-hand side
+to balance out this change (this is because *V* is typically fairly
+stable in large economies). **For transactions in the real economy,
+this means that new money put into circulation is balanced out by new
+goods and services that consume this new purchasing power.** 
+However, for financial transactions, there are no new goods or
+services being created with the new money put into circulation, so
+this causes a rise in asset prices to compensate (which is not what you want in your economic system). 
+Additionally, it is also important to understand the importance of expanding M for the production of new goods and services. As [Shimomura wrote about extensively](https://www.jstage.jst.go.jp/article/economics1950/11/3-4/11_3-4_1/_article/-char/ja/) and Kurihara distilled to a simple, [linear programming model](https://books.google.co.jp/books?id=RVtGAQAAQBAJ&pg=PA60&lpg=PA60&dq=Japan%E2%80%99s+Credit-Supported+Growth+and+Linear+Programming&source=bl&ots=dNNHw-QyMh&sig=ACfU3U0gv9WNMZbWJBlfDf7AL5PY7aZzTQ&hl=ja&sa=X&ved=2ahUKEwjV8rf2qfHoAhUQx4sBHf2cBaEQ6AEwAHoECAwQKw#v=onepage&q=Japan%E2%80%99s%20Credit-Supported%20Growth%20and%20Linear%20Programming&f=false), expanding the quantity of money for new goods and services expands the economic output because latent resources (especially human resources) are mobilized, and existing resources are upgraded by the creation of new capital for production.
 
 **What all this means is that for SORA to become a successful decentralized economy, we must create new tokens explicitly for creating new goods (like [wine](https://www.drinknoir.com)) or services (like [a really awesome DEX](https://polkaswap.io)).** While this has always been our goal, in v1 of the SORA economy there was the problem with liquidity, so that bootstrapping the economic system was slow and a new model was needed in order to have guarantees (or *[forward guidance](https://www.federalreserve.gov/faqs/what-is-forward-guidance-how-is-it-used-in-the-federal-reserve-monetary-policy.htm)*) about the liquidity and price of XOR so that projects could use the token successfully.
 
@@ -87,14 +90,14 @@ A new [SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184da
 
 Because **the token bonding curve is essentially an infinitely liquid, decentralized central bank**, the price cannot go above or below the buy and sell functions, respectively. This is especially true because the SORA primary market maker will be built into Polkaswap and executed automatically when within range. Furthermore, because the token bonding curve's pricing functions slope upwards, the **price increases with the token supply**. This gives the following properties:
 
-- **Autonomous Management of Token Supply to Match Demand (Elastic Supply)**: The token bonding curve introduces and removes XOR from circulation to meet the demand of the market. This ensures sustainable economic growth and price stability of the token economy, as the system can adapt to the changing needs.
-- **Deterministic Price Calculation**: The buy and sell prices of tokens in the primary market increase and decrease with changes in the supply of token. It is therefore **NOT** a fixed exchange rate system. The buy-price function starting price will be determined closer to the v2 launch and increase by $0.01 for each 5000 XOR sold, even if this is not final and may change before launch.
-- **Continuous Price Dynamics**: Given that the price of token N is inferior to token N+1 and superior to token N-1, calculating the number of tokens minted for a given amount of buy or sell orders requires integral calculus.
-- **Deep and Immediate Liquidity**: The bonding curve contract is the counterpart of the transaction and always holds enough buyback reserves (if investors want to sell tokens back at the current sell-price).
+- **Autonomous Management of Token Supply to Match Demand (Elastic Supply)** - The token bonding curve introduces and removes XOR from circulation to meet the demand of the market. This ensures sustainable economic growth and price stability of the token economy, as the system can adapt to the changing needs.
+- **Deterministic Price Calculation** - The buy and sell prices of tokens in the primary market increase and decrease with changes in the supply of token. It is therefore **NOT** a fixed exchange rate system. The buy-price function starting price will be determined closer to the v2 launch and increase by $0.01 for each 5000 XOR sold, even if this is not final and may change before launch.
+- **Continuous Price Dynamics** - Given that the price of token N is inferior to token N+1 and superior to token N-1, calculating the number of tokens minted for a given amount of buy or sell orders requires integral calculus.
+- **Deep and Immediate Liquidity** - The bonding curve contract is the counterpart of the transaction and always holds enough buyback reserves (if investors want to sell tokens back at the current sell-price).
 
 Features specific to the SORA token bonding curve-based economic design:
 
-- **Separation of primary & secondary markets:** Primary market: issuance/withdrawal, Secondary market: exchange rates, arbitrage trading.
+- **Separation of primary & secondary markets:** Primary market - issuance/withdrawal, Secondary market - exchange rates, arbitrage trading.
 - **Mitigate influences of pump-and-dump/market-manipulation attacks** while the token is in its nascency and its economy constitutes only a fraction of the world nominal GDP (US $88 Trillion as of 2019).
 - The token bonding curve naturally rewards early buyers of XOR, **encouraging word of mouth marketing.**
 - The decentralized monetary policy of XOR offers **protection from abuse by authorities and full transparency for users.**
