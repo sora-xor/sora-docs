@@ -1,8 +1,1 @@
-plugins:
-  - markdown
-  - html
-
-"rules": {
-  "no-console": "warn",
-  "no-unused-vars": "warn"
-}
+{"parser": "babel-eslint"}
