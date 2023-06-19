@@ -1,3 +1,10 @@
+---
+head:
+  - - link
+    - rel: stylesheet
+      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
+---
+
 # SORA: The New Economic Order
 - SORA v2 tokenomic model is proposed that uses a token bonding curve with an increasing price function. This means that as the token supply increases, the price also increases.
 - Reserves held by the token bonding curve will provide liquidity for XOR.
@@ -17,15 +24,13 @@ The key thesis of the SORA economic system is that **for cryptoeconomic systems 
 
 The conclusions were that there is a large amount of empirical evidence that suggests that **it is the change in the allocation of money in an economy that is a necessary and sufficient determinant of growth**. This was shown by Richard Werner in his [disaggregated quantity theory of money](https://eprints.soton.ac.uk/36569/), where he disaggregated Fisher's [equation of exchange](https://en.wikipedia.org/wiki/Equation_of_exchange) (MV = PY; a good way to think about this is also that MV equals nominal GDP viewed from the perspective of buyers, whereas PY equates to nominal GDP viewed from the perspective of producers/sellers) into *real* (*R*) and *financial* (*F*) transactions:
 
-<!-- $$
+$$
 V_R\Delta M_R = \Delta(P_RY)
-$$-->
-![](/.gitbook/assets/quantity-money-theory.png)
+$$
 
-<!-- $$
+$$
 V_F\Delta M_F = \Delta(P_FQ_F)
-$$ -->
-![](/.gitbook/assets/quantity-money-theory2.png)
+$$
 
 Where:
 
