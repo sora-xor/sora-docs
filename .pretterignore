@@ -1,0 +1,4 @@
+.vitepress/dist
+.vitepress/cache
+/src/snippets
+/src/example_code
