@@ -9,6 +9,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "prettier-markdown": "^0.1.8",
     "vercel": "^30.2.1"
   }
 }
