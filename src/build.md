@@ -47,7 +47,7 @@ Builders Telegram channel](https://t.me/sorabuilders) in telegram.
   support provided will be over. You can still reach out to the tech
   team for any support required. 
   
-Additionally, if your proejct qualifies and you chose to sign up for Social Insurance for [Systemically Important Infrastructure
+Additionally, if your project qualifies and you chose to sign up for Social Insurance for [Systemically Important Infrastructure
   ](social-insurance.md), the governance of your app will be delegated to the SORA Parliament. 
 
 
