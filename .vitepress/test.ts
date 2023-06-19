@@ -4,9 +4,9 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: "en-US",
   title: "docs",
-  base: "/sora-docs/",
+        base: "/sora-docs/",
   description: "Guides, how-tos, architecture",
-  themeConfig: {
+          themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Getting Started", link: "introduction" },
@@ -18,7 +18,7 @@ export default defineConfig({
     editLink: {
       pattern: "https://github.com/sora-xor/sora-docs/tree/develop/src/:path",
     },
-    siteTitle: false,
+            siteTitle: false,
     sidebar: [
       {
         text: "Getting Started",
@@ -34,7 +34,7 @@ export default defineConfig({
                 link: "tbc",
               },
               {
-                text: "XOR",
+                          text: "XOR",
                 link: "xor",
               },
               {
@@ -55,7 +55,7 @@ export default defineConfig({
               },
             ],
           },
-          { text: "SORA Economy", link: "sora-economy" },
+                              { text: "SORA Economy", link: "sora-economy" },
           { text: "SORA Governance", link: "sora-governance" },
           { text: "SORA Academy", link: "sora-academy" },
           { text: "FAQ", link: "sora-faq" },
@@ -76,14 +76,14 @@ export default defineConfig({
               {
                 text: "Memorandum and Terms of Services",
                 link: "polkaswap-terms",
-              },
+                                  },
               {
                 text: "Privacy Policy",
                 link: "polkaswap-privacy",
               },
             ],
           },
-          { text: "XST", link: "tba" },
+                              { text: "XST", link: "tba" },
           { text: "SORAcard", link: "tba" },
           {
             text: "SORA in Your Pocket",
@@ -97,9 +97,8 @@ export default defineConfig({
         ],
       },
       {
-        text: "Participate in SORA Economy",
-        items: [
-          { text: "Overview", link: "participate"},
+                        text: "Participate in SORA Economy",
+        items: [{ text: "Overview", link: "participate"},
           { text: "Running a Node", link: "running-a-node" },
           // { text: "Becoming a validator", link: "/tba" },
           { text: "Create an Address", link: "create-an-address" },
