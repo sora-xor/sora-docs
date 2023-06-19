@@ -87,10 +87,10 @@ A new [SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184da
 
 Because **the token bonding curve is essentially an infinitely liquid, decentralized central bank**, the price cannot go above or below the buy and sell functions, respectively. This is especially true because the SORA primary market maker will be built into Polkaswap and executed automatically when within range. Furthermore, because the token bonding curve's pricing functions slope upwards, the **price increases with the token supply**. This gives the following properties:
 
-- **Autonomous Management of Token Supply to Match Demand (Elastic Supply)** - The token bonding curve introduces and removes XOR from circulation to meet the demand of the market. This ensures sustainable economic growth and price stability of the token economy, as the system can adapt to the changing needs.
-- **Deterministic Price Calculation** - The buy and sell prices of tokens in the primary market increase and decrease with changes in the supply of token. It is therefore **NOT** a fixed exchange rate system. The buy-price function starting price will be determined closer to the v2 launch and increase by $0.01 for each 5000 XOR sold, even if this is not final and may change before launch.
-- **Continuous Price Dynamics** - Given that the price of token N is inferior to token N+1 and superior to token N-1, calculating the number of tokens minted for a given amount of buy or sell orders requires integral calculus.
-- **Deep and Immediate Liquidity** - The bonding curve contract is the counterpart of the transaction and always holds enough buyback reserves (if investors want to sell tokens back at the current sell-price).
+- **Autonomous Management of Token Supply to Match Demand (Elastic Supply)**: The token bonding curve introduces and removes XOR from circulation to meet the demand of the market. This ensures sustainable economic growth and price stability of the token economy, as the system can adapt to the changing needs.
+- **Deterministic Price Calculation**: The buy and sell prices of tokens in the primary market increase and decrease with changes in the supply of token. It is therefore **NOT** a fixed exchange rate system. The buy-price function starting price will be determined closer to the v2 launch and increase by $0.01 for each 5000 XOR sold, even if this is not final and may change before launch.
+- **Continuous Price Dynamics**: Given that the price of token N is inferior to token N+1 and superior to token N-1, calculating the number of tokens minted for a given amount of buy or sell orders requires integral calculus.
+- **Deep and Immediate Liquidity**: The bonding curve contract is the counterpart of the transaction and always holds enough buyback reserves (if investors want to sell tokens back at the current sell-price).
 
 Features specific to the SORA token bonding curve-based economic design:
 
