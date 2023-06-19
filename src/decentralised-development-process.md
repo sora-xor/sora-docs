@@ -19,11 +19,3 @@ It is easy to ask *wot* and *wen* when it comes to development, but *putting you
 **The fate of the SORA network lies in the hands of its users!** SORA governance does not limit the use of the network to the desires of one entity, but rather, it empowers users and community members to improve the network as much as they want through the implementation of programs like **RFP submissions** and the **SORA Builders Programme**. Progress from both these initiatives will be reported in the fortnightly **Ecosystem Updates**, and all the submissions, as well as RFP and merged implementations, are publicly accessible in the [SORA RFP Github Repository](https://github.com/sora-xor/rfps) which ensures that full transparency and decentralized practices are always upheld.
 
 *For more information, read the articles SORA Decentralized Development Process, How to RFP, and [Social Insurance for Systematically Important Infrastructure](https://medium.com/sora-xor/social-insurance-for-systematically-important-infrastructure-18a63ef711ca). To stay in the loop with the latest implementations of the SORA network and Polkaswap, make sure to follow the Ecosystem updates, and finally, to get a taste of what is to come, watch the [SORA Development Public Request for Proposal (RFP) Process Github Repo!](https://github.com/sora-xor/rfps)*
-
-
-TODO move all the contents from 
-- [x] https://medium.com/sora-xor/sora-builders-programme-979bea8831ed,  
-- [ ]https://medium.com/sora-xor/sora-builders-programme-979bea8831ed (this is repeated) and 
-- [ ] add the details from https://soramitsu.atlassian.net/wiki/spaces/SB/pages/3728408610/Processes 
-
-
