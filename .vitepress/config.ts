@@ -184,7 +184,23 @@ export default defineConfig({
           { text: "Technical Stack", link: "technical-stack" },
           { text: "Consensus", link: "consensus" },
           { text: "Accounts", link: "accounts" },
-          { text: "Useful Links", link: "useful-links" },
+        ],
+      },
+      {
+        text: 'Learn More',
+        items: [
+          {
+            text: 'Useful Links',
+            link: 'useful-links',
+          },
+          {
+            text: 'Community Blogs',
+            link: 'blogs',
+          },
+          {
+            text: 'Contribution Guidelines',
+            link: 'contribute'
+          }
         ],
       },
     ],
