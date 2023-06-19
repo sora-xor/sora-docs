@@ -1,7 +1,7 @@
 name: Pull Request CI
 on:
   pull_request:
-    branches: [main]
+    branches: [develop]
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -10,13 +10,18 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
 
       # --- Install with caching
       # https://github.com/pnpm/action-setup#use-cache-to-reduce-installation-time
 
-      - name: Install npm
-        run: npm isntall
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: |
+          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - uses: actions/cache@v3
         name: Setup pnpm cache
