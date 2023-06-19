@@ -2,5 +2,5 @@
   "semi": true,
   "singleQuote": true,
   "tabWidth": 2,
-  "plugins": ["prettier-plugin-markdown"]
+  "plugins": ["prettier-markdown"]
 }
