@@ -94,7 +94,7 @@ Because **the token bonding curve is essentially an infinitely liquid, decentral
 
 Features specific to the SORA token bonding curve-based economic design:
 
-- **Separation of primary & secondary markets:** Primary market - issuance/withdrawal, Secondary market - exchange rates, arbitrage trading.
+- **Separation of primary & secondary markets:** Primary market: issuance/withdrawal, Secondary market: exchange rates, arbitrage trading.
 - **Mitigate influences of pump-and-dump/market-manipulation attacks** while the token is in its nascency and its economy constitutes only a fraction of the world nominal GDP (US $88 Trillion as of 2019).
 - The token bonding curve naturally rewards early buyers of XOR, **encouraging word of mouth marketing.**
 - The decentralized monetary policy of XOR offers **protection from abuse by authorities and full transparency for users.**
