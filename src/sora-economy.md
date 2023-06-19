@@ -8,7 +8,7 @@ head:
 # SORA: The New Economic Order
 - SORA v2 tokenomic model is proposed that uses a token bonding curve with an increasing price function. This means that as the token supply increases, the price also increases.
 - Reserves held by the token bonding curve will provide liquidity for XOR.
-- A new, staking reward token, tentatively called VAL is proposed.
+- A new, staking reward token called VAL is proposed.
 - ERC-20 XOR trading on Ethereum will be the initial supply of v2 XOR. ERC-20 XOR holders will also receive airdropped VAL.
 - SORA v1 tokens are proposed to be converted into VAL.
 
