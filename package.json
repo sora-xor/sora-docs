@@ -23,7 +23,7 @@
     "format": "prettier-eslint --include-dot-files \"**/*.{js,ts,mts,vue,json}\"",
     "format:check": "pnpm format --list-different",
     "format:fix": "pnpm format --write",
-    "lint": "eslint .js,.ts,.mts,.vue,md . .vitepress",
+    "lint": "eslint --ext .js,.ts,.css . .vitepress --ext .ts,.md .",
     "get-snippets": "pnpm cli get-snippets"
   },
   "dependencies": {
