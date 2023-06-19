@@ -1,4 +1,0 @@
-plugins:
-  - markdown
-  - html
-  - "@typescript-eslint"
