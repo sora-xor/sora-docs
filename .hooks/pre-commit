@@ -1,7 +1,10 @@
 #!/bin/sh
 
-git diff --name-only --cached --diff-filter=ACM | grep '\.md' | xargs ./node_modules/.bin/prettier --write
+# Run Prettier on staged files
+git diff --name-only --cached --diff-filter=ACM | grep '\.md$' | xargs ./node_modules/.bin/prettier --write
 
+# Add changes to the commit
 git add .
 
+# Continue with the commit
 exec git commit -m "Run Prettier on staged files"
