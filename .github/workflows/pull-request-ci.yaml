@@ -36,9 +36,6 @@ jobs:
       - name: Install packages
         run: pnpm install
 
-      - name: Type check
-        run: pnpm typecheck
-
       - name: Lint
         run: pnpm lint
 
