@@ -6,7 +6,6 @@
     "@types/markdown-it": "^12.2.3",
     "@types/node": "^18.15.11",
     "@types/yargs": "^17.0.24",
-    "babel-eslint": "^10.1.0",
     "eslint": "^8.37.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-markdown": "^3.0.0",
@@ -27,6 +26,7 @@
     "get-snippets": "pnpm cli get-snippets"
   },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "pnpm": "^8.6.2",
     "vercel": "^30.2.1"
   }
