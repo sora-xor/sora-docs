@@ -15,7 +15,8 @@ The SORA Builders Programme is an extension of the [SORA RFP program](rfp.md). T
 
 Both new projects and ports can receive compensation in the form of XOR, as well as development support from the SORA community. Because effectively time and development effort are not free, and in order to uphold the community standards, not everyone who applies will be accepted by the programme.
 
-It is also important to mention that depending on the value added by the project, it may also qualify for [Social Insurance](https://medium.com/sora-xor/social-insurance-for-systematically-important-infrastructure-18a63ef711ca), however, there will be required due diligence and the project will have to prove systematic importance to the community.
+It is also important to mention that depending on the value added by the project, it may also qualify for  [Systemically Important Infrastructure
+  ](social-insurance.md), however, there will be required due diligence and the project will have to prove systematic importance to the community.
 
 It is easy to ask *wot* and *wen* when it comes to development, but *putting your RFP where your complaints are* is not that simple to do. The community has no limitation to what is proposed, however, *[spam](https://youtu.be/duFierM1yDg)*, *CEX requests*, and other off-topic requests will not be considered.
 
