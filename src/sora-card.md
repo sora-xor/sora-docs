@@ -64,7 +64,6 @@ To name a few:
 - Card top-up with your own and 3rd party debit/credit card
 - Online payments
 - Foreign Exchange
-- And more.
 
 In the coming weeks you will learn more about SORA Card’s competitive fees and usage limits, as well as everything else you need to know for a successful application to the unique self-custodial crypto debit card.
 
