@@ -11,7 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Getting Started", link: "introduction" },
-      { text: "Ecosystem", link: "integrated-plan" },
+      { text: "Ecosystem", link: "ecosystem" },
       { text: "SORA Economy", link: "participate" },
       { text: "Build", link: "build" },
     ],
