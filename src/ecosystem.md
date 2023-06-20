@@ -9,7 +9,7 @@ program.
 
 ## What You Will Find in This Section
 
-The SORA Integrated Plan as well as it's current milestones are hosted
+The SORA Integrated Plan as well as its current milestones are hosted
 here. You will also find information on
 [Polkaswap](https://polkaswap.io/), such as the [Memorandum and
 T&C's](polkaswap-terms.md) and the [Polkaswap privacy policy](polkaswap-privacy.md).
