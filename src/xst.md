@@ -1,4 +1,5 @@
 # XST
+
 - SORA Synthetics are tokens pegged to value indices, backed by XOR
 - The first SORA Synthetic Asset is the DAI-pegged XSTUSD
 - SORA Synthetic XST assets for other major stores of value will be available in the future, once oracles are integrated into the SORA network
@@ -8,16 +9,15 @@
 
 ## Fisher's Compensated Dollar
 
-**XOR SynThetics**, hereafter, **XST**, are synthetic assets pegged to an index of value and backed by XOR, but, *what is a synthetic asset or stablecoin to begin with?*
+**XOR SynThetics**, hereafter, **XST**, are synthetic assets pegged to an index of value and backed by XOR, but, _what is a synthetic asset or stablecoin to begin with?_
 
 Long before cryptocurrencies (or even digital computers) existed, [back in 1912](https://dspace.gipe.ac.in/xmlui/bitstream/handle/10973/26798/GIPE-093010.pdf?sequence=3&isAllowed=y), the American economist [Irving Fisher](https://en.wikipedia.org/wiki/Irving_Fisher) questioned the instability in the purchasing power of the gold-backed US dollar, explaining:
 
-> “*We now have a dollar of fixed weight (25.8 grains), but varying purchasing power. Under the plan proposed, we should have a dollar of fixed purchasing power, but varying weight*.” This would come to be the groundwork for the "compensated" dollar.
-> 
+> “_We now have a dollar of fixed weight (25.8 grains), but varying purchasing power. Under the plan proposed, we should have a dollar of fixed purchasing power, but varying weight_.” This would come to be the groundwork for the "compensated" dollar.
 
-In other words, because gold was highly volatile in purchasing power, instead of keeping the dollar fixed to a certain amount of gold, [Fisher proposed](https://www.richmondfed.org/~/media/richmondfedorg/publications/research/economic_quarterly/1993/summer/pdf/patinkin.pdf) that the dollar be backed by varying amounts of gold, but pegged to a basket of goods (an index). However, at the time, Fisher's ideas were not adopted due to operational and harmonization issues of the economy of that period. 
+In other words, because gold was highly volatile in purchasing power, instead of keeping the dollar fixed to a certain amount of gold, [Fisher proposed](https://www.richmondfed.org/~/media/richmondfedorg/publications/research/economic_quarterly/1993/summer/pdf/patinkin.pdf) that the dollar be backed by varying amounts of gold, but pegged to a basket of goods (an index). However, at the time, Fisher's ideas were not adopted due to operational and harmonization issues of the economy of that period.
 
-With the advent of cryptoeconomic systems on blockchains, the "compensated" dollar principles, Fisher's groundwork, could finally be translated into the realm of cryptoeconomics and given new life as part of a cryptoeconomic system: "a blockchain-based token can be created as a derivative of another one, targeted at holding a stable unit of value". SORA synthetics implements this concept and *in a way, you could say that Irving Fisher is the father of SORA Synthetics*.
+With the advent of cryptoeconomic systems on blockchains, the "compensated" dollar principles, Fisher's groundwork, could finally be translated into the realm of cryptoeconomics and given new life as part of a cryptoeconomic system: "a blockchain-based token can be created as a derivative of another one, targeted at holding a stable unit of value". SORA synthetics implements this concept and _in a way, you could say that Irving Fisher is the father of SORA Synthetics_.
 
 ### Stablecoins and Synthetic Assets Today
 
@@ -40,13 +40,13 @@ XST helps to solve the problem of XOR liquidity by creating synthetic assets bac
 
 ### Non-Collateralized Stability
 
-In the case of XST assets, as they are backed by XOR, XOR can be algorithmically minted or deminted (burned) to provide the full value for the XST assets upon demand. The XST Primary Market Maker that mints/demints XST assets and XOR is built in as a liquidity source into Polkaswap's liquidity aggregator, so buyers/sellers will always get the full value in XOR for their XST assets, and the price will never deviate (lower or higher) from the asset price. Therefore, XST is not subject to price slippage or a lack of liquidity. This works, for example, in the case of XSTUSD, because a single XSTUSD is a claim for $1 USD *worth of XOR*, and **not a claim for actual $USD itself**.
+In the case of XST assets, as they are backed by XOR, XOR can be algorithmically minted or deminted (burned) to provide the full value for the XST assets upon demand. The XST Primary Market Maker that mints/demints XST assets and XOR is built in as a liquidity source into Polkaswap's liquidity aggregator, so buyers/sellers will always get the full value in XOR for their XST assets, and the price will never deviate (lower or higher) from the asset price. Therefore, XST is not subject to price slippage or a lack of liquidity. This works, for example, in the case of XSTUSD, because a single XSTUSD is a claim for $1 USD _worth of XOR_, and **not a claim for actual $USD itself**.
 
-With normal stablecoins (*specifically fiat-backed*), the adjustment of collateral value and the value of the issued stablecoins is not automatic. This is due to price changes in the collaterals, and it is therefore necessary to overcollateralize. With stable tokens like DAI, for example, you have to lock up 130% of the value in ETH to mint new DAI, and your vault gets liquidated if you go under the required collateral level. 
+With normal stablecoins (_specifically fiat-backed_), the adjustment of collateral value and the value of the issued stablecoins is not automatic. This is due to price changes in the collaterals, and it is therefore necessary to overcollateralize. With stable tokens like DAI, for example, you have to lock up 130% of the value in ETH to mint new DAI, and your vault gets liquidated if you go under the required collateral level.
 
 XST does not require overcollateralization and users of XST assets do not risk liquidation. This is because new XOR can always be minted to provide the full value of an XST asset upon exchange back into XOR.
 
-Normally, algorithmic stablecoins derive their value from smart contracts linked to oracles that determine current prices, however, XSTUSD's value is currently derived from the price of XOR-DAI, although (*Spoiler alert*) SORAcles are currently under development.
+Normally, algorithmic stablecoins derive their value from smart contracts linked to oracles that determine current prices, however, XSTUSD's value is currently derived from the price of XOR-DAI, although (_Spoiler alert_) SORAcles are currently under development.
 
 ## How Will This Be Implemented?
 
@@ -57,25 +57,25 @@ ongoing. The implementation scenario includes whitelisting XSTUSD on
 Polkaswap and subsequently setting up a liquidity source, as mentioned
 before, where the price users pay would never deviate from the price
 of XOR-DAI.
- ![](/.gitbook/assets/xst-buy-sell.png)
- 
- Some more interesting details available from the [XSTUSD RFP](https://github.com/sora-xor/rfps/pull/8/files) mention: "If the XSTUSD-XOR price goes lower than DAI-XOR, then when the user is buying, new XOR will be minted and used to fill the order (similar to the token bonding curve). When buying XSTUSD with XOR, then new XSTUSD can be minted/deminted when filling the orders, in order to maintain the peg." Before you ask wen, there is no concrete answer *...for now.*
+![](/.gitbook/assets/xst-buy-sell.png)
 
-XST implementation is just the beginning and, as was hinted earlier, *SORAcles* are also in the development pipeline which will ensure that a variety of XST assets can be implemented for many different indices of value. Another interesting implementation tied to this is the [SORA Social Insurance](social-insurance.md).
+Some more interesting details available from the [XSTUSD RFP](https://github.com/sora-xor/rfps/pull/8/files) mention: "If the XSTUSD-XOR price goes lower than DAI-XOR, then when the user is buying, new XOR will be minted and used to fill the order (similar to the token bonding curve). When buying XSTUSD with XOR, then new XSTUSD can be minted/deminted when filling the orders, in order to maintain the peg." Before you ask wen, there is no concrete answer _...for now._
+
+XST implementation is just the beginning and, as was hinted earlier, _SORAcles_ are also in the development pipeline which will ensure that a variety of XST assets can be implemented for many different indices of value. Another interesting implementation tied to this is the [SORA Social Insurance](social-insurance.md).
 
 In the meantime, you can find XSTUSD on [Polkaswap](https://polkaswap.io/). The XST asset id is `0x0200080000000000000000000000000000000000000000000000000000000000`
 
 You can swap XOR to XSTUSD and vice-versa.
 
- ![](/.gitbook/assets/xstusd-demo1.png)
+![](/.gitbook/assets/xstusd-demo1.png)
 
 After you click on SWAP, you will receive a confirmation message with
 the transaction details. Click CONFIRM and sign the transaction with
 the Polkadot.js browser extension in the popup window.
 
- ![](/.gitbook/assets/xstusd-demo2.png)
- 
- Finally, if you're interested in how the SORA RFP system works, take a look at this complete guide on [Proposing New Functionalities to Polkaswap and the SORA Network](rfp.md)
+![](/.gitbook/assets/xstusd-demo2.png)
+
+Finally, if you're interested in how the SORA RFP system works, take a look at this complete guide on [Proposing New Functionalities to Polkaswap and the SORA Network](rfp.md)
 
 ---
 
