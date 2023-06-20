@@ -57,7 +57,7 @@ On top of the unique features mentioned before, SORA Card has all the features o
 To name a few:
 
 - Domestic and international cash withdrawal
-- Payments at +90 million merchants globally
+- Payments at 90+ million merchants globally
 - SEPA transfers
 - SWIFT transactions
 - Apple Pay & Google Pay compatibility
