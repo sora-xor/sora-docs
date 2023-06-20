@@ -1,8 +1,6 @@
 # Identity
 
-SORA allows you to store profile information in order to identify and discover people across the network. It is convenient for users to use the identity and registrar feature.
-
-A tutorial is provided below on how to set up an identity for yourself.
+SORA allows you to store profile information in order to identify and discover people across the network. It is convenient for users to use the identity and registrar feature. A tutorial is provided below on how to set up an identity for yourself.
 
 ## Register an Identity
 
@@ -30,3 +28,40 @@ Follow these steps to set up an identity:
    :::
 
 Once the transaction is completed your account will show an identity!
+
+## Request Identity Judgment
+
+Once you have finished following all the steps outlined in the [Register an identity](/id.md#register-an-identity) section, you can request an additional verification to obtain a prominent green checkmark next to your account name. This verification serves as an indication that you are a recognized and verified user, allowing others to easily identify and trust your account.
+
+1. Request judgement from a registrar.
+
+On polkadot.js, under the Developer tab, click Extrinsics -> Using the account you wish to be verified, select `Identity` and `requestJudgement` -> Under `regIndex`, place `1` (`reg_index` = `0` is no longer active) -> Registrar `1` has a fee of 1 `XOR` -> Submit the transaction.
+
+<center><img src="/.gitbook/assets/requestJudgement.png" width="600"></center>
+
+2. Donate to Community Marketing Funds address
+
+Donate a minimum of 1 `XOR` per account requesting judgement to the Community Marketing Funds address.
+This is a community base wallet which funds are used for marketing SORA: `cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`
+
+3. Contact the registrar
+
+Direct contact with the registrar is required - the contact info is in their identity:
+
+- Reg_Index 1 is `SPICY`
+
+- Telegram Username: https://t.me/SpicyHotWings
+
+- Twitter: @mishokanaria
+
+- Riot: @spicyhotwings:matrix.org
+
+4 Verify your identity
+
+You will need to prove that the information on-chain is legitimate. Each registrar will have their own set of procedures to verify your identity and values, and only once you've satisfied their requirements will the process continue.
+
+::: info
+
+Changing even a single field's value after you've been verified will un-verify your account and you will need to start the judgement process anew. However, you can still change fields while the judgement is going on - it's up to the registrar to keep an eye on the changes.
+
+:::
