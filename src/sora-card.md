@@ -66,4 +66,4 @@ To name a few:
 - Foreign Exchange
 - And more.
 
-For more information, visit [soracard.com](https://soracard.com/)
+For more information, visit [soracard.com](https://soracard.com/).
