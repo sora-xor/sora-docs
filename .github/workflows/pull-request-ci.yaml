@@ -17,6 +17,9 @@ jobs:
           # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
           persist-credentials: false
 
+    - name: Install npm v8
+      run: npm i -g npm@8
+
       - name: Prettify code
         uses: creyD/prettier_action@v4.2
         with:
