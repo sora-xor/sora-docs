@@ -19,11 +19,11 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
 2. Go to [polkadot{.js}](http://polkadot.js.org/) and call the `ethBridge.addAsset` extrinsic via a fast track motion (see the steps in [Fast track public voting](fast-track-public-voting.md)) with the asset id from the first step and network id `0` (for Ethereum).
 
-    ![](<.gitbook/assets/hashi-call-extrinsic.png>)
+   ![](.gitbook/assets/hashi-call-extrinsic.png)
 
 3. Once the proposal goes through, acquire the bridge’s peers' signatures via the `ethBridge.getAccountRequests` RPC with your account as the first argument and status `ApprovalsReady`.
 
-    ![](<.gitbook/assets/hashi-acquire-signatures.png>)
+   ![](.gitbook/assets/hashi-acquire-signatures.png)
 
 4. The RPC will return a bunch of hashes. These are off-chain request hashes, the last one should be `OutgoingAddAsset` request. To find out if the asset was added successfully, use the `getRequests` RPC.
 
@@ -35,29 +35,27 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
 1. Copy the contract ABI from the Code section on Etherscan:
 
-    ![](.gitbook/assets/hashi-copy-the-contract-abi.jpg)
+   ![](.gitbook/assets/hashi-copy-the-contract-abi.jpg)
 
 2. Create a file with ABI on https://remix.ethereum.org:
 
-    ![](.gitbook/assets/hashi-create-file-with-abi.jpg)
+   ![](.gitbook/assets/hashi-create-file-with-abi.jpg)
 
 3. Choose Metamask as a provider:
 
-    <center><img src="/.gitbook/assets/hashi-choose-metamask.jpg" width="400"></center>
+<center><img src="/.gitbook/assets/hashi-choose-metamask.jpg" width="400"></center>
 
 4. Copy the contract address in the "At Address" field and click on the At Address button
 
-    <center><img src="/.gitbook/assets/hashi-copy-address.jpg" width="400"></center>
+<center><img src="/.gitbook/assets/hashi-copy-address.jpg" width="400"></center>
 
 5. Fill in the transaction data:
 
-    <center><img src="/.gitbook/assets/hashi-fill-in-data.jpg" width="400"></center>
-
+<center><img src="/.gitbook/assets/hashi-fill-in-data.jpg" width="400"></center>
 
 6. Confirm the transaction:
 
-    <center><img src="/.gitbook/assets/hashi-confirm-transaction.jpg" width="400"></center>
-
+<center><img src="/.gitbook/assets/hashi-confirm-transaction.jpg" width="400"></center>
 
 ### Using Etherscan
 
@@ -77,11 +75,11 @@ Access https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602#w
 
 2. Create a proposal (see the steps in [Fast track public voting](fast-track-public-voting.md)) to call the `ethBridge.addSidechainToken` extrinsic with arguments from the first step.
 
-    ![](.gitbook/assets/hashi-create-proposal.png)
+   ![](.gitbook/assets/hashi-create-proposal.png)
 
 3. After the proposal is approved, acquire the bridge’s peers' signatures via the `ethBridge.getAccountRequests` RPC of the `cnTQ1kbv7PBNNQrEb1tZpmK7hZUUWqKBpWxmnxL4nczYfYfrh` account.
 
-    ![](<.gitbook/assets/hashi-acquire-signatures.png>)
+   ![](.gitbook/assets/hashi-acquire-signatures.png)
 
 4. The RPC will return a bunch of hashes. These are off-chain request hashes, one of them should be `OutgoingAddToken` request. To find out if the asset was added successfully, use the `getRequests` RPC.
 
@@ -89,7 +87,7 @@ Access https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602#w
 
 6. Go to https://etherscan.io/address/0x313416870a4da6f12505a550b67bb73c8e21d5d3#writeContract and call `addEthNativeToken` with data from the previous step. Note, that v parameters in signatures should be increased by `27`. That is if you see `v: 0` and `v: 1`, these parameters should be passed as `[27, 28]`.
 
-    ![](.gitbook/assets/hashi-add-contract.png)
+   ![](.gitbook/assets/hashi-add-contract.png)
 
 ## Adding a token to a whitelist
 

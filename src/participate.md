@@ -16,5 +16,6 @@ In this section you will find all the information you need to:
 - [switch between nodes](nodes-connection.md)
 
 You will also find information on how the following works:
+
 - [rewards](rewards.md)
 - [referral system](referral.md)

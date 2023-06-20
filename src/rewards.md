@@ -1,5 +1,5 @@
-<!-- TODO: 
-- update image names in this topic 
+<!-- TODO:
+- update image names in this topic
 - check image alignment
 -->
 
@@ -67,7 +67,7 @@ VALidator rewards should be claimed using the Polkadot js apps user interface.
 Related articles:
 
 - [Polkaswap Rewards](https://medium.com/polkaswap/pswap-rules-everything-around-me-three-pathways-to-polkaswap-rewards-63842caf88c0)
-- [SORA VALidator Rewards](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8?source=search\_popover-------------------------------------)
+- [SORA VALidator Rewards](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8?source=search_popover-------------------------------------)
 - [How to nominate Validators (stake your XOR)](https://wiki.sora.org/guides/how-to-nominate-validators-stake-your-xor)
 - [How to Run a SORA Testnet Node](https://medium.com/sora-xor/how-to-run-a-sora-testnet-node-a4d42a9de1af)
 - [How to claim nominators and validators rewards](https://wiki.sora.org/guides/how-to-claim-staking-rewards)
@@ -116,15 +116,15 @@ If PSWAP or VAL tokens are available then you'll be able to claim them.
 
 1. Go to [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), click on "Network" and then "Staking". Make sure you are connected to the SORA Network, you should see the logo at the top left.
 
-![](<.gitbook/assets/Screenshot2021-04-29at13.09.35.png>)
+![](.gitbook/assets/Screenshot2021-04-29at13.09.35.png)
 
 2. Click on "Payouts":
 
-    ![](<.gitbook/assets/Screenshot2021-04-29at13.21.28.png>)
+   ![](.gitbook/assets/Screenshot2021-04-29at13.21.28.png)
 
-    If there is a staking reward for you to claim, you should see them, as in the screenshot below:
-    
-    ![](<.gitbook/assets/3(2).jpg>)
+   If there is a staking reward for you to claim, you should see them, as in the screenshot below:
+
+   ![](<.gitbook/assets/3(2).jpg>)
 
 3. Click on "Payout" and then follow the proposed flow.
 

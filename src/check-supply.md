@@ -14,40 +14,38 @@ To check the number of tokens on the SORA Network, follow this procedure:
 
 2. Click on "Developer" and then "RPC calls":
 
-    ![](</.gitbook/assets/check-supply-rpc-calls.png>)
+   ![](/.gitbook/assets/check-supply-rpc-calls.png)
 
-3. Select  **assets → totalSupply(assetId)**. 
-4. Fill in *AssetID* and press **"Submit RPC call"**.
+3. Select **assets → totalSupply(assetId)**.
+4. Fill in _AssetID_ and press **"Submit RPC call"**.
 
-    ::: details Core asset IDs
+   ::: details Core asset IDs
 
-    | Token | ID |
-    | ----------- | ----------- | 
-    XOR | 0x0200000000000000000000000000000000000000000000000000000000000000 |
-    TBCD | 0x02000a0000000000000000000000000000000000000000000000000000000000 |
-    |VAL | 0x0200040000000000000000000000000000000000000000000000000000000000 |
-    PSWAP | 0x0200050000000000000000000000000000000000000000000000000000000000 |
-    XST | 0x0200090000000000000000000000000000000000000000000000000000000000 |
-    XSTUSD | 0x0200080000000000000000000000000000000000000000000000000000000000 |
-    ETH | 0x0200070000000000000000000000000000000000000000000000000000000000 |
-    DAI | 0x0200060000000000000000000000000000000000000000000000000000000000 |
+   | Token  | ID                                                                 |
+   | ------ | ------------------------------------------------------------------ |
+   | XOR    | 0x0200000000000000000000000000000000000000000000000000000000000000 |
+   | TBCD   | 0x02000a0000000000000000000000000000000000000000000000000000000000 |
+   | VAL    | 0x0200040000000000000000000000000000000000000000000000000000000000 |
+   | PSWAP  | 0x0200050000000000000000000000000000000000000000000000000000000000 |
+   | XST    | 0x0200090000000000000000000000000000000000000000000000000000000000 |
+   | XSTUSD | 0x0200080000000000000000000000000000000000000000000000000000000000 |
+   | ETH    | 0x0200070000000000000000000000000000000000000000000000000000000000 |
+   | DAI    | 0x0200060000000000000000000000000000000000000000000000000000000000 |
 
+   For more Asset IDs check out the [Tokens subsection of the Polkaswap.io Explore](https://polkaswap.io/#/explore/tokens) page.
+   :::
 
-    For more Asset IDs check out the [Tokens subsection of the Polkaswap.io Explore](https://polkaswap.io/#/explore/tokens) page.
-    :::
+   ![](/.gitbook/assets/check-supply-fill-in-asset-id.png)
 
-    ![](</.gitbook/assets/check-supply-fill-in-asset-id.png>)
+   The results are shown for XOR:
 
-    The results are shown for XOR:
+   353.0005 kXOR = 353 000.5 XOR (including XOR on the Ethereum network)
 
-    353.0005 kXOR = 353 000.5 XOR (including XOR on the Ethereum network)
-
-    <center><img src="/.gitbook/assets/check-supply-xor-output.png" width="400"></center>
+   <center><img src="/.gitbook/assets/check-supply-xor-output.png" width="400"></center>
 
 ### How to Read the Results
 
 In the output, as you see in the picture above, you'll get the amount of the queried asset. Unfortunately, Polkadot.js only supports one asset for the network, XOR. This why it shows the supply in XOR. However, it is actually the asset that you queried: either PSWAP, VAL, ETH, or DAI.
-
 
 The letter before XOR means that the number is multiplied by the following amount:
 
@@ -62,25 +60,24 @@ The letter before XOR means that the number is multiplied by the following amoun
 
 For example, a request for the current PSWAP supply shows:
 
-3.5105 BXOR =  3,510,500,000 PSWAP (600M is circulating and the rest is locked in the technical accounts)
+3.5105 BXOR = 3,510,500,000 PSWAP (600M is circulating and the rest is locked in the technical accounts)
 
-![](</.gitbook/assets/check-supply-pswap-example.png>)
+![](/.gitbook/assets/check-supply-pswap-example.png)
 
 #### VAL Supply Example
 
 70.5077 MXOR = 70,507,700 VAL (VAL on Ethereum is included)
 
-![](</.gitbook/assets/check-supply-val-example.png>)
+![](/.gitbook/assets/check-supply-val-example.png)
 
 #### ETH Supply Example
 
 1.7188 kXOR = 1718.8 ETH (ETH on the SORA Network)
 
-![](</.gitbook/assets/check-supply-eth-example.png>)
+![](/.gitbook/assets/check-supply-eth-example.png)
 
 #### DAI Supply Example
 
 1.1827 MXOR = 1,182,700 DAI (DAI on the SORA Network)
 
-![](</.gitbook/assets/check-supply-dai-example.png>)
-
+![](/.gitbook/assets/check-supply-dai-example.png)
