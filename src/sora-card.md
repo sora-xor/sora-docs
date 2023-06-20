@@ -49,7 +49,7 @@ As well as connecting all Substrate networks to the Ethereum Network and other E
 Adding a Bitcoin bridge, as well as other bridges in the future such as the ones connecting the SORA Kusama and upcoming SORA Polkadot parachains, the SORA community envisions all your assets in one place, realised in a decentralized and self-custodial fashion, which is acceptable within regulatory frameworks.
 Next to bridging crypto economies and fiat currency economies, we are also working hard to bridge multiple fiat currency economies.
 
-You can expect the EUR-based debit card service soon, followed by a GBP and USD debit card implementation. Furthermore, another +20 local currencies will be available within the wallet in the upcoming months. This will allow for an optimal user experience for non-EU/non-US/non-UK residents to bridge their local finances to the crypto/EUR/USD/GBP economies.
+You can expect the EUR-based debit card service soon, followed by a GBP and USD debit card implementation. Furthermore, another 20+ local currencies will be available within the wallet in the upcoming months. This will allow for an optimal user experience for non-EU/non-US/non-UK residents to bridge their local finances to the crypto/EUR/USD/GBP economies.
 
 ## All the banking features you can expect
 
