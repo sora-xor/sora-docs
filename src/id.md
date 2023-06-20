@@ -42,7 +42,7 @@ On polkadot.js, under the Developer tab, click Extrinsics -> Using the account y
 2. Donate to Community Marketing Funds address.
 
 Donate a minimum of 1 `XOR` per account requesting judgement to the Community Marketing Funds address (`cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`).
-The funds from this community wallet are used for SORA marketing. 
+The funds from this community wallet are used for SORA marketing.
 
 3. Contact the registrar directly. You can find their contact info in their profile.
 
