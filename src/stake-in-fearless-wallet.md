@@ -12,37 +12,37 @@ Here is a quick guide to SORA network staking on Fearless Wallet:
 
 1. With XOR in hand, navigate to the Staking section of your wallet. Tap on the network selector under the Staking header and choose SORA Mainnet.
 
-    <center><img src="/.gitbook/assets/staking-choose-sora-mainnet.jpg" width="400"></center>
+<center><img src="/.gitbook/assets/staking-choose-sora-mainnet.jpg" width="400"></center>
 
 2. Provide the staking amount and select your preferred reward output. No matter which option you choose, you will obtain the same result since rewards for staking are paid out in VAL tokens.
-   
-    <center><img src="/.gitbook/assets/staking-enter-amount.jpg" width="400"></center>
-   
-    ::: info
-   
-    Please note that in our upcoming release, we will be removing the 'Restake' option for a more streamlined user experience.
 
-    :::
+   <center><img src="/.gitbook/assets/staking-enter-amount.jpg" width="400"></center>
 
-    The reward process is automated, meaning you will receive your earnings automatically once your nominator distributes them. 
+   ::: info
+
+   Please note that in our upcoming release, we will be removing the 'Restake' option for a more streamlined user experience.
+
+   :::
+
+   The reward process is automated, meaning you will receive your earnings automatically once your nominator distributes them.
 
 3. As with other networks available for Fearless staking, you can select suggested validators or choose your own if you have a trusted validator that you are already familiar with.
-   
-    <center><img src="/.gitbook/assets/staking-select-validator.jpg" width="400"></center>
 
-    You will also see within the Fearless staking UI if your nominated validator is no longer in the active validator set. 
+   <center><img src="/.gitbook/assets/staking-select-validator.jpg" width="400"></center>
 
-    <center><img src="/.gitbook/assets/staking-select-validator-manually.jpg" width="400"></center>
-    
-    <center><img src="/.gitbook/assets/staking-selected-validators.jpg" width="400"></center>
+   You will also see within the Fearless staking UI if your nominated validator is no longer in the active validator set.
 
-    In this case, we have chosen a custom validator, RingRound. After selecting it from the list, it will be added to your list; remember, you can nominate/select up to 24 validators.
+   <center><img src="/.gitbook/assets/staking-select-validator-manually.jpg" width="400"></center>
+
+   <center><img src="/.gitbook/assets/staking-selected-validators.jpg" width="400"></center>
+
+   In this case, we have chosen a custom validator, RingRound. After selecting it from the list, it will be added to your list; remember, you can nominate/select up to 24 validators.
 
 4. After confirming the network fees and verifying that all the details are correct, tap confirm, and you will be successfully nominating SORA network validators!
 
-    <center><img src="/.gitbook/assets/staking-confirmation-check.jpg" width="400"></center>
-    
-    <center><img src="/.gitbook/assets/staking-confirm.jpg" width="400"></center>
+   <center><img src="/.gitbook/assets/staking-confirmation-check.jpg" width="400"></center>
+
+   <center><img src="/.gitbook/assets/staking-confirm.jpg" width="400"></center>
 
 ## Change Stakes Made Through dotapps.io
 
@@ -50,19 +50,18 @@ But what if you were already nominating validators through dotapps.io? No worrie
 
 1. After navigating to the staking view and selecting the validator (step 3 in the instruction above), you will find the following options:
 
-    <center><img src="/.gitbook/assets/staking-options.jpg" width="400"></center>
+<center><img src="/.gitbook/assets/staking-options.jpg" width="400"></center>
 
 2. Tap on ‘Stake more’ as we want to add more XOR to the selected validator.
 
 3. Enter the amount you want to stake:
 
-    <center><img src="/.gitbook/assets/staking-add-more-enter-amount.jpg" width="400"></center>
+<center><img src="/.gitbook/assets/staking-add-more-enter-amount.jpg" width="400"></center>
 
-4. You will then receive a confirmation message to verify the new stake and the network fees. 
+4. You will then receive a confirmation message to verify the new stake and the network fees.
 
-    <center><img src="/.gitbook/assets/staking-add-more-check.jpg" width="400"></center>
-    
-    <center><img src="/.gitbook/assets/staking-add-more-confirm.jpg" width="400"></center>
+   <center><img src="/.gitbook/assets/staking-add-more-check.jpg" width="400"></center>
 
-    As you can see, the network fees to increase or decrease your stake are much lower than those to start staking, so consider this when allocating funds. Tap confirm, and that’s it! You have just increased your stake!
+   <center><img src="/.gitbook/assets/staking-add-more-confirm.jpg" width="400"></center>
 
+   As you can see, the network fees to increase or decrease your stake are much lower than those to start staking, so consider this when allocating funds. Tap confirm, and that’s it! You have just increased your stake!

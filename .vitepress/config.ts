@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import markdownItKatex from "markdown-it-katex";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -183,7 +184,23 @@ export default defineConfig({
           { text: "Technical Stack", link: "technical-stack" },
           { text: "Consensus", link: "consensus" },
           { text: "Accounts", link: "accounts" },
-          { text: "Useful Links", link: "useful-links" },
+        ],
+      },
+      {
+        text: 'Learn More',
+        items: [
+          {
+            text: 'Useful Links',
+            link: 'useful-links',
+          },
+          {
+            text: 'Community Blogs',
+            link: 'blogs',
+          },
+          {
+            text: 'Contribution Guidelines',
+            link: 'contribute'
+          }
         ],
       },
     ],
@@ -205,4 +222,9 @@ export default defineConfig({
   lastUpdated: true,
   ignoreDeadLinks: true,
   cleanUrls: true,
+  markdown: {
+    config: (md) => {
+      md.use(markdownItKatex);
+    },
+  },
 });

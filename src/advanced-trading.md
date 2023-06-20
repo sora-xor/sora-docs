@@ -24,7 +24,7 @@ We recommend using the SORA testnet for practice exercises. Here are the Testnet
 2. [Polkadot js SORA testnet application](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.stage.sora2.soramitsu.co.jp#/explorer)
 3. [Android testnet application](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora.communitytesting&hl=en&gl=US)
 4. [iOS testnet application](https://testflight.apple.com/join/670hF438)
-:::
+   :::
 
 In this practice section, we'll swap tokens with advanced settings and explain how the fees work.
 
@@ -37,7 +37,7 @@ To switch between liquidity sources in Polkaswap, follow these steps.
 1. Open the swap page and select the assets that you'd like to swap.
 
 2. In the top right corner, you can find the Market configuration. Click on the icon:
-   
+
   <center><img src="/.gitbook/assets/advanced-trading-smart.png" width="400"></center>
 
 3. Choose the market algorithm: **SMART** or **TBC**.
@@ -70,19 +70,19 @@ Let's go through exchange parameters one by one:
 
 **TBC parameters:**
 
-* *VAL PER XOR*: The price of 1 XOR in VAL.
-* *XOR PER VAL*: The price of 1 VAL in XOR.
-* *Minimum Received*: The minimum number of destination assets that you'll get after the swap
-* *Liquidity provider fee*: The fee that liquidity provider will take. In this case, it's a TBC.
-* _Network fee_: SORA fee for processing the transaction (gas).
+- _VAL PER XOR_: The price of 1 XOR in VAL.
+- _XOR PER VAL_: The price of 1 VAL in XOR.
+- _Minimum Received_: The minimum number of destination assets that you'll get after the swap
+- _Liquidity provider fee_: The fee that liquidity provider will take. In this case, it's a TBC.
+- _Network fee_: SORA fee for processing the transaction (gas).
 
 **XYK Pool parameters:**
 
-* *VAL PER XOR*: The price of 1 XOR in VAL.
-* *XOR PER VAL*: The price of 1 VAL in XOR.
-* *Minimum Received*: The minimum number of destination assets that you'll get after the swap.
-* *Liquidity provider fee*: The fee that liquidity provider will take. In this case, it's an XYK Pool.
-* *Network fee*: SORA fee for processing the transaction (gas).
+- _VAL PER XOR_: The price of 1 XOR in VAL.
+- _XOR PER VAL_: The price of 1 VAL in XOR.
+- _Minimum Received_: The minimum number of destination assets that you'll get after the swap.
+- _Liquidity provider fee_: The fee that liquidity provider will take. In this case, it's an XYK Pool.
+- _Network fee_: SORA fee for processing the transaction (gas).
 
 #### What Insufficient _liquidity_ means
 
