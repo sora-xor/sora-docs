@@ -35,10 +35,11 @@ Once you have finished following all the steps outlined in the [Register an iden
 
 1. Request judgement from a registrar.
 
-On polkadot.js, under the Developer tab; 
-- click Extrinsics -> Using the account you wish to be verified, 
-- select `Identity` and `requestJudgement` -> Under `regIndex`, 
-- place `1` (`reg_index` = `0` is no longer active) -> Registrar `1` has a fee of 1 `XOR` -> 
+On polkadot.js, under the Developer tab;
+
+- click Extrinsics -> Using the account you wish to be verified,
+- select `Identity` and `requestJudgement` -> Under `regIndex`,
+- place `1` (`reg_index` = `0` is no longer active) -> Registrar `1` has a fee of 1 `XOR` ->
 - Submit the transaction.
 
 <center><img src="/.gitbook/assets/requestJudgement.png" width="600"></center>
@@ -50,13 +51,11 @@ The funds from this community wallet are used for SORA marketing.
 
 3. Contact the registrar directly. You can find their contact info in their profile.
 
-- Reg_Index 1 is `SPICY`
-
-- Telegram Username: https://t.me/SpicyHotWings
-
-- Twitter: @mishokanaria
-
-- Riot: @spicyhotwings:matrix.org
+| Social media/messaging platform | Identifier                 |
+| ------------------------------- | -------------------------- |
+| Telegram                        | https://t.me/SpicyHotWings |
+| Twitter                         | @mishokanaria              |
+| Riot                            | @spicyhotwings:matrix.org  |
 
 4. Verify your identity.
 
