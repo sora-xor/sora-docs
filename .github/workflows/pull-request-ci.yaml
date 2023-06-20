@@ -2,7 +2,7 @@ name: Pull Request CI
 
 on:
   pull_request:
-    branches: [feauture/dops-2539/md_formatter]
+    branches: [develop]
 
 jobs:
   prettier:
