@@ -25,7 +25,7 @@ Because DEXs allow users to trade directly from their wallets by interacting wit
 
 On the other hand, centralized exchanges (CEXs) are managed by a centralized organization such as a bank or exchange (e.g. Binance), that are involved in financial services looking to make a profit, and they can also become insolvent and lose all customer funds. High regulation of centralized exchanges often makes them harder to onboard, as many questions and personal information must be acquired before users can trade.
 
-SORA Card strives to offer the ease-of-use and self-custodial empowerment that users of Polkaswap and the SORA network expect, with links to the global financial system that traditionally were the purview of centralized exchanges.
+SORA Card strives to offer the ease-of-use and self-custodial empowerment that users of Polkaswap and the SORA network expect, with links to the global financial systems that traditionally were the purview of centralized exchanges.
 
 ## How does SORA Card ensure the highest privacy and security standards?
 
