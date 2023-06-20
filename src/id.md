@@ -39,14 +39,12 @@ On polkadot.js, under the Developer tab, click Extrinsics -> Using the account y
 
 <center><img src="/.gitbook/assets/requestJudgement.png" width="600"></center>
 
-2. Donate to Community Marketing Funds address
+2. Donate to Community Marketing Funds address.
 
-Donate a minimum of 1 `XOR` per account requesting judgement to the Community Marketing Funds address.
-This is a community base wallet which funds are used for marketing SORA: `cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`
+Donate a minimum of 1 `XOR` per account requesting judgement to the Community Marketing Funds address (`cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`).
+The funds from this community wallet are used for SORA marketing. 
 
-3. Contact the registrar
-
-Direct contact with the registrar is required - the contact info is in their identity:
+3. Contact the registrar directly. You can find their contact info in their profile.
 
 - Reg_Index 1 is `SPICY`
 
@@ -56,12 +54,12 @@ Direct contact with the registrar is required - the contact info is in their ide
 
 - Riot: @spicyhotwings:matrix.org
 
-4 Verify your identity
+4. Verify your identity.
 
 You will need to prove that the information on-chain is legitimate. Each registrar will have their own set of procedures to verify your identity and values, and only once you've satisfied their requirements will the process continue.
 
 ::: info
 
-Changing even a single field's value after you've been verified will un-verify your account and you will need to start the judgement process anew. However, you can still change fields while the judgement is going on - it's up to the registrar to keep an eye on the changes.
+You can freely change any values during the judgement process until you are verified. However, changing the value of even a single field after you've been verified will un-verify your account and you will need to start the judgement process anew.
 
 :::
