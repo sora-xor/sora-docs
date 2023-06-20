@@ -1,10 +1,11 @@
 # SORA Card
+
 ## Key features of SORA Card
 
 SORA Card differentiates itself from other crypto cards and wallets by being a unique self-custodial crypto wallet with a DEX in the same app as your IBAN and debit card, while ensuring the highest privacy and security standards. SORA Card is specifically designed for the interoperable future by bridging multiple EVM based ecosystems and Polkadot’s Substrate networks into one solution.
 All of this will be made possible while it has the standard features you can expect from a debit card and banking wallet.
- 
-*Now, what does all of this mean?*
+
+_Now, what does all of this mean?_
 
 ### What is a self-custodial wallet?
 
@@ -42,9 +43,9 @@ Another distinct privacy feature of the SORA Card is the way that transaction da
 
 ## Designed for the interoperable future
 
-A final distinctive feature of SORA Card is that it brings multiple ecosystems and economies together, and allows you to transact between them in one application. 
+A final distinctive feature of SORA Card is that it brings multiple ecosystems and economies together, and allows you to transact between them in one application.
 It has always been Polkaswap’s intention to be the Decentralized Exchange for the interoperable future.
-As well as connecting all Substrate networks to the Ethereum Network and other EVM compatible networks, like Binance Smart Chain, Energy Web Chain, OKC Network, and Klaytn, the SORA Card will soon bridge the gap between these crypto currency economies and fiat currency economies. 
+As well as connecting all Substrate networks to the Ethereum Network and other EVM compatible networks, like Binance Smart Chain, Energy Web Chain, OKC Network, and Klaytn, the SORA Card will soon bridge the gap between these crypto currency economies and fiat currency economies.
 Adding a Bitcoin bridge, as well as other bridges in the future such as the ones connecting the SORA Kusama and upcoming SORA Polkadot parachains, the SORA community envisions all your assets in one place, realised in a decentralized and self-custodial fashion, which is acceptable within regulatory frameworks.
 Next to bridging crypto economies and fiat currency economies, we are also working hard to bridge multiple fiat currency economies.
 
@@ -54,11 +55,12 @@ You can expect the EUR-based debit card service soon, followed by a GBP and USD 
 
 On top of the unique features mentioned before, SORA Card has all the features one has come to expect from a banking wallet and debit card.
 To name a few:
-- Domestic and international cash withdrawal 
+
+- Domestic and international cash withdrawal
 - Payments at +90 million merchants globally
 - SEPA transfers
 - SWIFT transactions
-- Apple Pay & Google Pay compatibility 
+- Apple Pay & Google Pay compatibility
 - Card top-up with your own and 3rd party debit/credit card
 - Online payments
 - Foreign Exchange
