@@ -1,7 +1,8 @@
 # Useful Links
+
 Here are some links to articles covering the SORA philosphy, as well
-as technical resources explaining Polkadot and Substrate. 
-This section will be constantly updated. 
+as technical resources explaining Polkadot and Substrate.
+This section will be constantly updated.
 
 ## SORA Ecosystem
 
@@ -13,7 +14,6 @@ This section will be constantly updated.
 
 - A Forbes article covering [the launch of Polkaswap](https://www.forbes.com/sites/tatianakoffman/2021/04/27/the-rise-of-decentralized-exchanges-on-polkadot/?sh=39acc5e58169)
 
-
 ## Polkadot
 
 - An explainer on [What is Polkadot?](https://wiki.polkadot.network/docs/getting-started)
@@ -21,10 +21,11 @@ This section will be constantly updated.
 - An explainer on [what are Parachains](https://wiki.polkadot.network/docs/learn-parachains)
 
 ### Polkadot Client
+
 - [polkadot.js documentation](https://polkadot.js.org/docs/)
 
 - [Polkadot.js mirroring new types from Rust to
-JS](https://polkadot.js.org/docs/api/start/types.extend) and [polkadot.js mirroring new rpc’s from Rust to JS](https://polkadot.js.org/docs/api/start/rpc.custom)
+  JS](https://polkadot.js.org/docs/api/start/types.extend) and [polkadot.js mirroring new rpc’s from Rust to JS](https://polkadot.js.org/docs/api/start/rpc.custom)
 
 - Running [Polkadot Apps locally](https://github.com/polkadot-js/apps)
 
@@ -36,12 +37,14 @@ JS](https://polkadot.js.org/docs/api/start/types.extend) and [polkadot.js mirror
 
 ## Substrate
 
-Some links to getting started using Substrate; 
+Some links to getting started using Substrate;
+
 - On [Windows](https://substrate.dev/docs/en/knowledgebase/getting-started/windows-users)
 
-- On [Unix based systems]( https://substrate.dev/docs/en/knowledgebase/getting-started/#manual-installation)
+- On [Unix based systems](https://substrate.dev/docs/en/knowledgebase/getting-started/#manual-installation)
 
 General Substrate knowledge:
+
 - [Substrate docs](https://substrate.dev/docs/en/)
 
 - [Subsrate technical chat on Element](https://app.element.io/#/room/#substrate-technical:matrix.org)

@@ -5,6 +5,7 @@ XOR is the network utility token used for transaction fees (gas). 50% of the fee
 Holders of a certain amount of XOR become citizens and members of the [SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184dae384).
 
 XOR is used:
+
 - to add liquidity to pairs on [Polkaswap](https://polkaswap.io/)
 - to become a validator or to [nominate validators](https://wiki.sora.org/guides/how-to-nominate-validators-stake-your-xor) on the SORA network through staking
 

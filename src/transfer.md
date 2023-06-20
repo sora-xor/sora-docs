@@ -15,7 +15,7 @@ We recommend using the SORA testnet for practice exercises. Here are the Testnet
 2. [Polkadot js SORA testnet application](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.stage.sora2.soramitsu.co.jp#/explorer)
 3. [Android testnet application](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora.communitytesting&hl=en&gl=US)
 4. [iOS testnet application](https://testflight.apple.com/join/670hF438)
-:::
+   :::
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RdJ6yFFl06k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -25,11 +25,11 @@ You can practice with transfers using test tokens in the SORA testnet.
 
 1. Open the [faucet](https://testfaucet.polkaswap.io/)
 
-    <center><img src=".gitbook/assets/transfer-open-faucet.png" width="400"></center>
+<center><img src=".gitbook/assets/transfer-open-faucet.png" width="400"></center>
 
 2. Enter your SORA address, select the token, and the number of tokens you need.
 
-    <center><img src=".gitbook/assets/transfer-request-testnet-tokens.png" width="400"></center>
+<center><img src=".gitbook/assets/transfer-request-testnet-tokens.png" width="400"></center>
 
 3. Click **Send testnet VAL (XOR, PSWAP).**
 
@@ -41,27 +41,27 @@ Keep in mind that every transaction in SORA requires a fee in XOR. Transferring 
 
 #### Via Polkaswap
 
-The Polkaswap web application has a wallet that you can use for sending tokens. 
+The Polkaswap web application has a wallet that you can use for sending tokens.
 
 1. Open the **Account** section and click on send icon (an arrow near the asset)
 
-    <center><img src=".gitbook/assets/transfer-click-send.png" width="400"></center>
+<center><img src=".gitbook/assets/transfer-click-send.png" width="400"></center>
 
 2. Enter the recipient address and amount of tokens that you'd like to send
 
-    <center><img src=".gitbook/assets/transfer-enter-address.png" width="400"></center>
+   <center><img src=".gitbook/assets/transfer-enter-address.png" width="400"></center>
 
-    If you enter an address that does not start with `cn`, then you'll see a notification about address conversion. <!-- (as mentioned in the Account prefix section of [Accounts in SORA](/accounts-in-sora.md#converting-the-address-format)). -->
+   If you enter an address that does not start with `cn`, then you'll see a notification about address conversion. <!-- (as mentioned in the Account prefix section of [Accounts in SORA](/accounts-in-sora.md#converting-the-address-format)). -->
 
-    <center><img src=".gitbook/assets/transfer-notification.png" width="400"></center>
+   <center><img src=".gitbook/assets/transfer-notification.png" width="400"></center>
 
 3. Click Send and confirm the transaction.
 
-    <center><img src=".gitbook/assets/transfer-confirm-transaction.png" width="400"></center>
+<center><img src=".gitbook/assets/transfer-confirm-transaction.png" width="400"></center>
 
 4. After the transaction confirmation from the Polkadot.js extension appears, enter your password and confirm the transaction:
 
-    <center><img src=".gitbook/assets/transfer-confirmation-enter-password.png" width="400"></center>
+<center><img src=".gitbook/assets/transfer-confirmation-enter-password.png" width="400"></center>
 
 ::: tip
 
@@ -77,23 +77,23 @@ The SORA mobile application provides a good UX for sending and receiving tokens.
 
 1. Open the wallet screen and tap the send icon in the top right corner.
 
-    <center><img src=".gitbook/assets/transfer-mobile-open-wallet.jpg" width="400"></center>
+<center><img src=".gitbook/assets/transfer-mobile-open-wallet.jpg" width="400"></center>
 
 2. Select the token to sent:
 
-    <center><img src=".gitbook/assets/transfer-mobile-select-token.jpg" width="400"></center>
+<center><img src=".gitbook/assets/transfer-mobile-select-token.jpg" width="400"></center>
 
 3. Enter the recipient's address:
-   
-    <center><img src=".gitbook/assets/transfer-mobile-enter-recipient.jpg" width="400"></center>
+
+<center><img src=".gitbook/assets/transfer-mobile-enter-recipient.jpg" width="400"></center>
 
 4. Enter the amount of tokens to send:
 
-    <center><img src=".gitbook/assets/transfer-mobile-enter-amount-zero.jpg" width="400"> <img src=".gitbook/assets/transfer-mobile-enter-amount-entered.jpg" width="400"></center>
+<center><img src=".gitbook/assets/transfer-mobile-enter-amount-zero.jpg" width="400"> <img src=".gitbook/assets/transfer-mobile-enter-amount-entered.jpg" width="400"></center>
 
 5. Confirm the transaction:
 
-    <center><img src=".gitbook/assets/transfer-mobile-confirm.jpg" width="400"></center>
+<center><img src=".gitbook/assets/transfer-mobile-confirm.jpg" width="400"></center>
 
 You'll be redirected to the Wallet screen:
 
@@ -113,7 +113,7 @@ Using QR code reduces the number of mistakes and simplifies the process of enter
 
 1. Tap on the Scan icon on the top right corner and allow access to the camera.
 
-    <center><img src=".gitbook/assets/transfer-mobile-qr-open.jpg" width="400"></center>
+<center><img src=".gitbook/assets/transfer-mobile-qr-open.jpg" width="400"></center>
 
 2. Scan the QR code and then enter the amount of tokens that you'd like to send.
 
@@ -126,12 +126,12 @@ If you'd like to get tokens using a QR code:
 
 1. Tap the QR icon on the top right corner of the wallet screen:
 
-    <center><img src=".gitbook/assets/transfer-mobile-qr-receive.jpg" width="400"></center>
+<center><img src=".gitbook/assets/transfer-mobile-qr-receive.jpg" width="400"></center>
 
 2. Select the asset:
 
-    <center><img src=".gitbook/assets/transfer-mobile-qr-receive-select-asset.jpg" width="400"></center>
+<center><img src=".gitbook/assets/transfer-mobile-qr-receive-select-asset.jpg" width="400"></center>
 
 3. Share the generated QR using the share icon or by copying the image:
 
-    <center><img src=".gitbook/assets/transfer-mobile-qr-share-qr.jpg" width="400"></center>
+<center><img src=".gitbook/assets/transfer-mobile-qr-share-qr.jpg" width="400"></center>

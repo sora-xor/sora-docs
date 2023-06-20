@@ -1,4 +1,4 @@
-# VAL (≚**)
+# VAL (≚\*\*)
 
 VAL is used to reward validators on the SORA Network.
 

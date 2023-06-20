@@ -8,17 +8,17 @@ The 0.3% fee for every swap on the Polkaswap DEX is used to buy PSWAP tokens on 
 
 ## PSWAP Token Supply
 
-* 10 billion max supply, decreasing with tokens burned
-* PSWAP is a free-floating token whose price is decided by the market
-* Current PSWAP circulating supply: ~36%, can be checked [here](https://mof.sora.org/qty/pswap)
+- 10 billion max supply, decreasing with tokens burned
+- PSWAP is a free-floating token whose price is decided by the market
+- Current PSWAP circulating supply: ~36%, can be checked [here](https://mof.sora.org/qty/pswap)
 
 ## PSWAP Distribution
 
-* ~6% rewards at launch (sora farm game)
-* 25% [token bonding curve rewards](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) (vested)
-* 35% [liquidity rewards](https://medium.com/polkaswap/pswap-rewards-1-polkaswap-liquidity-reward-farming-3e045d71509) (vested)
-* ~4% [market making rewards](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa) (vested)
-* 30% initial release dev
+- ~6% rewards at launch (sora farm game)
+- 25% [token bonding curve rewards](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) (vested)
+- 35% [liquidity rewards](https://medium.com/polkaswap/pswap-rewards-1-polkaswap-liquidity-reward-farming-3e045d71509) (vested)
+- ~4% [market making rewards](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa) (vested)
+- 30% initial release dev
 
 ## PSWAP Token
 

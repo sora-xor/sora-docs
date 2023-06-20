@@ -10,7 +10,7 @@ Create the preimage for the root call you’d like to perform:
 2. Press “Submit preimage“.
 3. Choose the root call you’d like to perform:
 
-    <figure><img src="/.gitbook/assets/public-voting-submit-preimage.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/public-voting-submit-preimage.png" alt=""><figcaption></figcaption></figure>
 
 4. Copy the preimage hash.
 5. Submit the preimage.
@@ -37,7 +37,7 @@ Communicate with the SORA council to vote for the Council motion.
 1. After the council has voted for the council motion, wait for the external proposal to reach the end of the external proposal queue.
 2. Press “Close“ at the council motion and perform the `council.close` call:
 
-    <figure><img src="/.gitbook/assets/public-voting-close-council-motion.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/public-voting-close-council-motion.png" alt=""><figcaption></figcaption></figure>
 
 You should see the external proposal in the “Governance“ tab:
 

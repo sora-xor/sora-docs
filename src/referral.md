@@ -25,19 +25,19 @@ First of all, XOR should be bonded in order to pay fees for setting up the refer
 
 1. Open the **Rewards** section and click **Referral Program.** Initially, you have 0 XOR bonded and 0 Referrals.
 
-    <center><img src="/.gitbook/assets/bond-open-referral.png" width="400"></center>
+<center><img src="/.gitbook/assets/bond-open-referral.png" width="400"></center>
 
 2. Click to **XOR Bonded** and then on **Bond more**:
 
-    <center><img src="/.gitbook/assets/bond-choose-bond-more.png" width="400"></center>
+<center><img src="/.gitbook/assets/bond-choose-bond-more.png" width="400"></center>
 
 3. Enter the amount to bond. You can enter any amount, but keep in mind that it should be more than 0.0007 XOR in order to pay a fee for the referral.
 
-    <center><img src="/.gitbook/assets/bond-enter-amount.png" width="400"></center>
+<center><img src="/.gitbook/assets/bond-enter-amount.png" width="400"></center>
 
 4. Now you will see XOR bonded, as well as the link that you can share with your referrals. Copy the link and send it to your friends. When they join the network, you’ll see them in the referrals list.
 
-    <center><img src="/.gitbook/assets/bond-share-referrals.png" width="400"></center>
+<center><img src="/.gitbook/assets/bond-share-referrals.png" width="400"></center>
 
 ### Check Referrals and Rewards
 
