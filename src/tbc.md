@@ -16,22 +16,20 @@ Another important implication of this mechanism is that XOR price on the seconda
 
 ## Why is the token bonding curve useful?
 
-* **Autonomous Management of Token Supply to Match Demand (Elastic Supply)**. The token bonding curve introduces and removes XOR from circulation to meet the demand of the market. This ensures sustainable economic growth and price stability of the token economy, as the system can adapt to the changing needs.
-* **Deep and Immediate Liquidity**. The bonding curve contract is the counterpart of the transaction and always holds enough buyback reserves (_read more about this below in the "Ideal and Actual Scenarios" paragraph_).
-* It mitigates influences of pump-and-dump/market-manipulation attacks
-* XOR's decentralized monetary policy offers protection from abuse by authorities and full transparency for users.
-* Primary market buy-back reserve limits the ability of governments or short-sellers to manipulate the market.
-* The SORA v2 monetary system is neither debt-based nor debt-driven, and new tokens are always allocated under democratic supervision, which works to eliminate the unsustainable boom-bust cycles in contemporary economic systems.
-* The current buy/sell-prices offered by the token bonding curve provide support & resistance levels, or a confidence range for the price of XOR in the market, with forward guidance.
-* 20% of the quantity bought from the buy function are reserved for different players in the SORA Network, as per the diagram:
+- **Autonomous Management of Token Supply to Match Demand (Elastic Supply)**. The token bonding curve introduces and removes XOR from circulation to meet the demand of the market. This ensures sustainable economic growth and price stability of the token economy, as the system can adapt to the changing needs.
+- **Deep and Immediate Liquidity**. The bonding curve contract is the counterpart of the transaction and always holds enough buyback reserves (_read more about this below in the "Ideal and Actual Scenarios" paragraph_).
+- It mitigates influences of pump-and-dump/market-manipulation attacks
+- XOR's decentralized monetary policy offers protection from abuse by authorities and full transparency for users.
+- Primary market buy-back reserve limits the ability of governments or short-sellers to manipulate the market.
+- The SORA v2 monetary system is neither debt-based nor debt-driven, and new tokens are always allocated under democratic supervision, which works to eliminate the unsustainable boom-bust cycles in contemporary economic systems.
+- The current buy/sell-prices offered by the token bonding curve provide support & resistance levels, or a confidence range for the price of XOR in the market, with forward guidance.
+- 20% of the quantity bought from the buy function are reserved for different players in the SORA Network, as per the diagram:
 
 ![](<.gitbook/assets/tbc(4).png>)
 
 While the SORA economy is in its infant phase, the token bonding curve plays a crucial role in maintaining XOR's store-of-value property. The ability to set confidence ranges of token price movements lowers the psychological boundary towards accepting XOR for payments.
 
-It is important to note that **the token bonding curve does not guarantee XOR's price stability,** but rather a measure of [forward-guided](https://www.ecb.europa.eu/explainers/tell-me/html/what-is-forward\_guidance.en.html) price predictability.
-
-
+It is important to note that **the token bonding curve does not guarantee XOR's price stability,** but rather a measure of [forward-guided](https://www.ecb.europa.eu/explainers/tell-me/html/what-is-forward_guidance.en.html) price predictability.
 
 ## Ideal and Actual Scenarios
 
@@ -61,10 +59,10 @@ As you can see, the price behaves differently in the actual scenario, where user
 
 In addition, there are extra fees when selling with low collateralization:
 
-* under 30% collateralized: +1% fee
-* under 20% collateralized: +3% fee
-* under 10% collateralized: +6% fee
-* under 5% collateralized: +9% fee
+- under 30% collateralized: +1% fee
+- under 20% collateralized: +3% fee
+- under 10% collateralized: +6% fee
+- under 5% collateralized: +9% fee
 
 These extra fees will be burned.
 
@@ -72,7 +70,7 @@ These extra fees will be burned.
 
 In the future, the TBC will play a key role in securing a Parachain slot for the SORA network on Polkadot and Kusama.
 
-At first, SORA will join Kusama as a Parachain through a Crowdloan, as mentioned [here](https://medium.com/sora-xor/the-sora-network-kusama-parachain-auction-5a6fe3a5f35f?source=user\_profile---------0-------------------------------).
+At first, SORA will join Kusama as a Parachain through a Crowdloan, as mentioned [here](https://medium.com/sora-xor/the-sora-network-kusama-parachain-auction-5a6fe3a5f35f?source=user_profile---------0-------------------------------).
 
 This will bring KSM to the SORA network (and Polkaswap), so users will be able to use KSM as a reserve asset in the TBC, and that KSM can be used to secure the slot for the following year.
 

@@ -10,11 +10,11 @@ You can make your token a part of SORA Network by simply adding it.
 
 3. Go to [Polkaswap.io](https://polkaswap.io/) > "Account" > "Create Token":
 
-    ![](</.gitbook/assets/register-asset-create-token.png>)
+   ![](/.gitbook/assets/register-asset-create-token.png)
 
 4. Fill in the details of your token:
 
-    <center><img src="/.gitbook/assets/register-asset-create-token-fill-in.png" width="400"></center>
+<center><img src="/.gitbook/assets/register-asset-create-token-fill-in.png" width="400"></center>
 
 5. Confirm the network fee and create the token.
 
@@ -24,4 +24,3 @@ will automatically be allowed to be transferred through the HASHI
 bridge. To add your token to the HASHI bridge, please, check out
 [Adding a Token to the HASHI Bridge](adding-a-token-to-a-hashi-bridge.md).
 :::
-

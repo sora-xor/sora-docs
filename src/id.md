@@ -8,8 +8,8 @@ A tutorial is provided below on how to set up an identity for yourself.
 
 Requirements:
 
-* SORA account
-* ~0.005 XOR to pay the fee
+- SORA account
+- ~0.005 XOR to pay the fee
 
 Follow these steps to set up an identity:
 
@@ -21,12 +21,12 @@ Follow these steps to set up an identity:
 
 3. Register your Identity and click on "Set Identity" when finished.
 
-    <center><img src="/.gitbook/assets/id-register-id.png" width="400"></center>
+   <center><img src="/.gitbook/assets/id-register-id.png" width="400"></center>
 
-    ::: info
+   ::: info
 
-    Please note that you will have to pay a small XOR transaction fee for signing.
+   Please note that you will have to pay a small XOR transaction fee for signing.
 
-    :::
+   :::
 
 Once the transaction is completed your account will show an identity!

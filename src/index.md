@@ -15,7 +15,7 @@ hero:
 
 features:
   - title: Getting Started
-    details: Explore the expansive world of SORA, a unique on-chain governance system powered by the XOR token, designed to facilitate funding and resource allocation proposals. 
+    details: Explore the expansive world of SORA, a unique on-chain governance system powered by the XOR token, designed to facilitate funding and resource allocation proposals.
     link: introduction
   - title: Ecosystem
     details: Dive into an overview of the integrated plan, familiarize yourself with SORA ecosystem components, and learn how to request features to customize your experience.
