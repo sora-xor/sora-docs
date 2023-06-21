@@ -1,6 +1,5 @@
 import { defineConfig } from "vitepress";
 import markdownItKatex from "markdown-it-katex";
-import { redirectPlugin } from 'vuepress-plugin-redirect';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -228,11 +227,7 @@ export default defineConfig({
       md.use(markdownItKatex);
     },
   },
-  plugins: [
-    redirectPlugin({
-      config: {
-        '/guides/': '/$1',
-      },
-    }),
-  ],
+  rewrites: {
+    '^/guides/(.*)$': '/$1'
+  },
 });
