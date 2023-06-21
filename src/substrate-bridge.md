@@ -60,6 +60,8 @@ You can read about the Federated Bridge in [Interoparibility](./interoperability
 
 ### SORA parachain
 
+<!-- TODO note that the Parachain itself does not hold any assets. Its main function is to route messages back and forth between different chains. -->
+
 The SORA Parachain serves as a blockchain gateway, allowing seamless integration between SORA and any relay chain ecosystem. It facilitates automatic token registration and transfers, eliminating the need for users to send tokens via extrinsics on the SORA Parachain. By design, the SORA Parachain eliminates the requirement for additional transaction signing. The Parachain maintains a comprehensive record of tokens that can be transferred, with registration information stored in the XCMApp pallet. This information includes the mapping between SORA Mainnet AssetId and XCM Multilocation for each token.
 
 ### Relay chain
@@ -110,7 +112,17 @@ The Federated Bridge in SORA relies on the following pallets:
 
 - **The Relayer**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-network/tree/master/relayer)). The Relayer is a separate service and not a pallet. It plays a crucial role in the Federated Bridge, passing through messages and holding private keys for signatures, similar to the Beefy bridge implementation.
 
-## Performing a Cross-Chain Transfer
+## Guides
+
+<!-- TODO include the information that the execution of XCM transfers and the handling of incoming messages will vary between different chains. Each supported chain should have its own dedicated reference in the documentation, specifically detailing the implementation in client applications. This reference should specify the exact version of the XCM message being used, as well as the junctions utilized and populated. -->
+
+<!-- TODO come up with the warning message. Only specific XCM messages for/from the corresponding networks have been tested and utilized in the client applications. When constructing your own messages, exercise caution - there is a possibility that one's funds could be permanently lost. -->
+
+<!-- TODO reference the test cases: https://app.qase.io/project/PSS?previewMode=side&suite=36 -->
+
+### Transfers
+
+#### SORA mainnet -> Relaychain / Other Prachain
 
 To execute a cross-chain token transfer, a registration process is required beforehand. Token registration involves using the root extrinsics `substrateBridgeApp.registerSidechainAsset` and `substrateBridgeApp.registerThischainAsset`. For instance, to register a native token on the Rococo network, the following procedure is followed:
 
@@ -133,3 +145,27 @@ To specify a parachain as the transfer destination, the following request needs 
 ![Image: Example of indicating a parachain as the transfer target](./assets/transfer-to-parachain.png)
 
 By following these steps, cross-chain transfers can be successfully executed, allowing for seamless movement of tokens between different chains within the network.
+
+### How to track the status of the transfer?
+
+#### Other Parachain -> SORA mainnet
+
+Example extrinsic: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.karura-node-1.c2.dev.sora2.soramitsu.co.jp#/extrinsics/decode/0x3600008000407a10f35a00000000000000000000010102006d1f0100e6cacc509b47920b3fe9329224df74640cd6861d40132633aae46c168ab73e4d00
+
+##### Karura dev -> SORA mainnet dev
+
+1. Karura: After executing the extrinsic mentioned above, the xcmpQueue.XcmpMessageSent event is emitted.
+
+![](./assets/xcmMessageSent.png)
+
+2. After a certain period of time and upon successful arrival of the message to the SORA Parachain, the `xcmpQueue.Success` event is emitted. This event will have the same message hash as shown in the example from (1). As a result, it will be possible to find `substrateBridgeOutboundChannel.MessageAccepted` from the same extrinsic. The event will contain the nonce of the message, which will be passed to the mainnet.
+
+![](./assets/fundsReceivedOnParachain.png)
+
+3. The Parachain routes the message to the mainnet. Once it arrives, the `substrateDispatch.MessageDispatched` event with the same nonce as in (2) is emitted.
+
+![](./assets/xcmMessageDispatchedOnMainnet.png)
+
+<!-- TODO add a transfer guide to a different direction -->
+
+<!-- TODO add transaction fail cases -->
