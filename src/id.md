@@ -51,11 +51,11 @@ The funds from this community wallet are used for SORA marketing.
 
 3. Contact the registrar directly. You can find their contact info in their profile.
 
-| Social media/messaging platform | Identifier                 |
-| ------------------------------- | -------------------------- |
-| Telegram                        | https://t.me/SpicyHotWings |
-| Twitter                         | @mishokanaria              |
-| Riot                            | @spicyhotwings:matrix.org  |
+  | Social media/messaging platform | Identifier                 |
+  | ------------------------------- | -------------------------- |
+  | Telegram                        | https://t.me/SpicyHotWings |
+  | Twitter                         | @mishokanaria              |
+  | Riot                            | @spicyhotwings:matrix.org  |
 
 4. Verify your identity.
 
