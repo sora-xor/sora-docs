@@ -24,7 +24,7 @@ With the advent of cryptoeconomic systems on blockchains, the "compensated" doll
 Currently, there are five different types of stablecoins, or pegged assets:
 
 - **Fiat-Backed Stablecoins (or Tokenized Fiat):** These stablecoins are backed by and pegged to dollars (or other fiat currency), their value remains tied to the price of the pegged currency. For example, [USDC](https://www.circle.com/en/usdc).
-- **Crypto-Backed Stablecoins (or On-Chain Collateralized Stablecoins):** These are backed by other crypto assets. For example [DAI](https://makerdao.com/en/).
+- **Crypto-Backed Stablecoins (or On-Chain Collateralized Stablecoins):** These are backed by other crypto assets. For example, [DAI](https://makerdao.com/en/).
 - **Precious Metal-Backed Stablecoins (or Off-Chain Collateralized
   Stablecoins):** Like gold-standard fiat, these stablecoins use gold and other metals to back their value. For example [Tether Gold](https://gold.tether.to/).
 - **Algorithmic Stablecoins:** These stablecoins use algorithms to back their value, there are some variants that can be pegged to fiat values, depending on the algorithm used. For example [AMPL](https://www.ampleforth.org/).
