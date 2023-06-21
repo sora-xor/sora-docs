@@ -4,7 +4,7 @@
 - VAL fully diluted supply will be 100,000,000. Only 33,900,000 VAL are currently circulating and the supply is capped until SORA v2 network launch.
 - The VAL token contract is also available on [Etherscan](https://etherscan.io/token/0xe88f8313e61a97cec1871ee37fbbe2a8bf3ed1e4).
 
-- VAL has [Decreasing supply](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8) over time, with tokens burned at every SORA v2 network transaction
+- VAL has [Decreasing supply](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8) over time, with tokens burned at every SORA v2 network transaction.
 - Elastic rewards to validators and stake nominators are given in VAL, as a percentage of the daily burned VAL
 - Holders receive a part of the XOR created by the token bonding curve
   to provide liquidity on Polkaswap. VAL holders can group together
