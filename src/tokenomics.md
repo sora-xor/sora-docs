@@ -10,14 +10,14 @@ through [SORA governance](sora-governance.md).
 
 - The [Token Bonding Curve (TBC)](tbc.md) is the smart contract that
   manages the supply of XOR in a rational way, without the involvment
-  of humans
-- [XOR](xor.md) is the network utility token used for transaction fees (gas)
+  of humans.
+- [XOR](xor.md) is the network utility token used for transaction fees (gas).
 - [VAL](val.md) is the token awarded to validators for securing the
-  SORA network
+  SORA network.
 - [PSWAP](pswap.md) is the LP reward token for liquidity providers on
   [Polkaswap](https://polkaswap.io/) and is burnt with every transaction.
 - [XST](xst.md) is the underlying asset for the creation of SORA
-  Synthetics
+  Synthetics.
 - The [Token Bonding Curve Dollar (TBCD)](tbcd.md) is an algorithmic,
   non-synthetic stablecoin that has its value maintained by the SORA
   token bonding curve.
