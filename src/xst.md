@@ -46,7 +46,7 @@ With normal stablecoins (_specifically fiat-backed_), the adjustment of collater
 
 XST does not require overcollateralization and users of XST assets do not risk liquidation. This is because new XOR can always be minted to provide the full value of an XST asset upon exchange back into XOR.
 
-Normally, algorithmic stablecoins derive their value from smart contracts linked to oracles that determine current prices, however, XSTUSD's value is currently derived from the price of XOR-DAI, although (_Spoiler alert_) SORAcles are currently under development.
+Normally, algorithmic stablecoins derive their value from smart contracts linked to oracles that determine current prices. However, XSTUSD's value is currently derived from the price of XOR-DAI, although (_Spoiler alert_) SORAcles are currently under development.
 
 ## How Will This Be Implemented?
 
