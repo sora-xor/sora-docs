@@ -57,7 +57,7 @@ TBCD is a great example showcasing the possibilities of the SORA token bonding c
 
 While not operating at the official token bonding curve price, TBCD
 still acts as a form of “training wheels” for the SORA economy, where
-the token bonding curve can be activated and build up some assets,
+the token bonding curve can be activated and used to build up some assets,
 selling XOR via a primary market at a premium to the free-floating
 secondary market.
 
