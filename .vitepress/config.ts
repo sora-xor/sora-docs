@@ -2,11 +2,6 @@ import { defineConfig } from "vitepress";
 import markdownItKatex from "markdown-it-katex";
 import { redirectPlugin } from 'vuepress-plugin-redirect';
 
-
-require('@babel/register')({
-  extensions: ['.js', '.ts'],
-});
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "en-US",
