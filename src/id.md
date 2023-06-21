@@ -51,18 +51,18 @@ The funds from this community wallet are used for SORA marketing.
 
 3. Contact the registrar directly. You can find their contact info in their profile.
 
-  | Social media/messaging platform | Identifier                 |
-  | ------------------------------- | -------------------------- |
-  | Telegram                        | https://t.me/SpicyHotWings |
-  | Twitter                         | @mishokanaria              |
-  | Riot                            | @spicyhotwings:matrix.org  |
+| Social media/messaging platform | Identifier                 |
+| ------------------------------- | -------------------------- |
+| Telegram                        | https://t.me/SpicyHotWings |
+| Twitter                         | @mishokanaria              |
+| Riot                            | @spicyhotwings:matrix.org  |
 
 4. Verify your identity.
 
-  You will need to prove that the information on-chain is legitimate. Each registrar will have their own set of procedures to verify your identity and values, and only once you've satisfied their requirements will the process continue.
+You will need to prove that the information on-chain is legitimate. Each registrar will have their own set of procedures to verify your identity and values, and only once you've satisfied their requirements will the process continue.
 
-  ::: info
+::: info
 
-  You can freely change any values during the judgement process until you are verified. However, changing the value of even a single field after you've been verified will un-verify your account and you will need to start the judgement process anew.
+You can freely change any values during the judgement process until you are verified. However, changing the value of even a single field after you've been verified will un-verify your account and you will need to start the judgement process anew.
 
-  :::
+:::
