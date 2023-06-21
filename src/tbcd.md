@@ -38,7 +38,7 @@ $600, this means that TBCD will have little utility if XOR costs $600,
 while the secondary market price is so much lower (currently it is
 $3).
 To make TBCD useful, instead of using the ~$600 price point, it will
-be able to buy XOR from the TBC at the current market price + $1. This
+be possible to buy XOR from the TBC at the current market price plus $1. This
 is still higher than the market price, which will incentivize people
 to avoid dumping TBCD for XOR when the XOR price is low (because they
 won’t get a full $1 of value). For example, if XOR is $3 then TBCD
