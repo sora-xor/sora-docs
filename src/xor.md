@@ -5,6 +5,7 @@ XOR is the network utility token used for transaction fees (gas). 50% of the fee
 Holders of a certain amount of XOR become citizens and members of the [SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184dae384).
 
 XOR is used:
+
 - to add liquidity to pairs on [Polkaswap](https://polkaswap.io/)
 - to become a validator or to [nominate validators](https://wiki.sora.org/guides/how-to-nominate-validators-stake-your-xor) on the SORA network through staking
 
@@ -22,7 +23,7 @@ Fair distribution: when the SORA v2 network launched, 350,000 XOR were put on Un
 
 XOR distribution can be tracked on [Etherscan](https://etherscan.io/token/0x40FD72257597aA14C7231A7B1aaa29Fce868F677#balances) and on [Sorascan](https://sorascan.com/sora-mainnet/account).
 
-## XOR Top holders
+## XOR Top Holders
 
 When looking at the top holders on [Subscan](https://sora.subscan.io/account), several of those addresses are technical accounts supporting the whole network.
 

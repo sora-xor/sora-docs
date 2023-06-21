@@ -1,9 +1,9 @@
-<!-- TODO: 
-- update image names in this topic 
+<!-- TODO:
+- update image names in this topic
 - check image alignment
 -->
 
-# Liquidity operations
+# Liquidity Operations
 
 To Polkaswap means to exchange (_swap_) tokens on [Polkaswap](https://polkaswap.io/), Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.
 
@@ -43,11 +43,11 @@ We recommend using the SORA testnet for practice exercises. Here are the Testnet
 2. [Polkadot js SORA testnet application](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.stage.sora2.soramitsu.co.jp#/explorer)
 3. [Android testnet application](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora.communitytesting&hl=en&gl=US)
 4. [iOS testnet application](https://testflight.apple.com/join/670hF438)
-:::
+   :::
 
 In the practice section, we'll create a liquidity pool, provide liquidity to the existing pool and remove the liquidity.
 
-### Creating a new Liquidity pool
+### Creating a New Liquidity Pool
 
 #### Via Polkaswap
 
@@ -55,47 +55,47 @@ To create a pool:
 
 1. Open Polkaswap, then open the Pool section.
 
-    ![](<.gitbook/assets/Untitled(7)(5).png>)
+   ![](<.gitbook/assets/Untitled(7)(5).png>)
 
 2. Click the **Create a pair** button.
 3. Select the tokens that should compose the trading pair. Keep in mind that all trading pairs in Polkaswap must contain XOR and another token. That's why the XOR token is preselected and can't be changed.
 
-    ![](<.gitbook/assets/Untitled(17).png>)
+   ![](<.gitbook/assets/Untitled(17).png>)
 
 4. Select the second token for the trading pair.
-   
-    ![](<.gitbook/assets/Untitled(1)(14).png>)
 
-    Oooops! The trading pair for XOR-VAL is already created. It means that someone has already created a pool with this trading pair and provided the liquidity.
+   ![](<.gitbook/assets/Untitled(1)(14).png>)
 
-    Let's select another token.
+   Oooops! The trading pair for XOR-VAL is already created. It means that someone has already created a pool with this trading pair and provided the liquidity.
 
-    ![](<.gitbook/assets/Untitled(2)(10).png>)
+   Let's select another token.
 
-    ::: info
-    Pay attention when you're the first liquidity provider. The ratio of tokens will set the price of this pool.
-    :::
+   ![](<.gitbook/assets/Untitled(2)(10).png>)
+
+   ::: info
+   Pay attention when you're the first liquidity provider. The ratio of tokens will set the price of this pool.
+   :::
 
 5. Enter the deposit amounts for each token:
 
-    ![](<.gitbook/assets/Untitled(3)(9).png>)
+   ![](<.gitbook/assets/Untitled(3)(9).png>)
 
-    Let's describe the parameters:
+   Let's describe the parameters:
 
-    - **XOR per SAT** is the price of XOR in SAT tokens if a user will trade using this pool
-    - **SAT per XOR** is the price of SAT in XOR tokens if a user will trade using this pool
-    - **Network fee** is the fee for processing the transaction
-    - **Share of Pool** is the percentage of your tokens in the pool
+   - **XOR per SAT** is the price of XOR in SAT tokens if a user will trade using this pool
+   - **SAT per XOR** is the price of SAT in XOR tokens if a user will trade using this pool
+   - **Network fee** is the fee for processing the transaction
+   - **Share of Pool** is the percentage of your tokens in the pool
 
 6. If everything is ok, confirm and sign the transaction.
 
-    ![](<.gitbook/assets/Untitled(4)(7).png>)
+   ![](<.gitbook/assets/Untitled(4)(7).png>)
 
 Now you can see your pool share on the Pool page:
 
 ![](<.gitbook/assets/Untitled(5)(8).png>)
 
-### Providing liquidity to an existing Liquidity pool
+### Providing Liquidity to an Existing Liquidity Pool
 
 #### Via Polkaswap
 
@@ -110,32 +110,32 @@ The next steps are pretty much the same. If you select the pool where you alread
 
 1. Select the token pair.
 
-    ![](<.gitbook/assets/Untitled(8)(1).png>)
+   ![](<.gitbook/assets/Untitled(8)(1).png>)
 
 2. Enter the amount of source asset or destination asset.
 
-    ::: info
-    If you enter the amount of a source asset, the amount of destination asset will be calculated according to the pool math. If you enter the amount of destination asset, the amount of source asset will be calculated according to the pool math as well.
-    :::
+   ::: info
+   If you enter the amount of a source asset, the amount of destination asset will be calculated according to the pool math. If you enter the amount of destination asset, the amount of source asset will be calculated according to the pool math as well.
+   :::
 
-    ![](<.gitbook/assets/Untitled(9).png>)
+   ![](<.gitbook/assets/Untitled(9).png>)
 
-    Let's describe the parameters:
+   Let's describe the parameters:
 
-    - **XOR per VAL** is the price of XOR in VAL tokens if a user will trade using this pool
-    - **VAL per XOR** is the price of VAL in XOR tokens if a user will trade using this pool
-    - **Network fee** - the fee for processing the transaction
-    - **Share of Pool** - the percentage of your tokens in the pool
+   - **XOR per VAL** is the price of XOR in VAL tokens if a user will trade using this pool
+   - **VAL per XOR** is the price of VAL in XOR tokens if a user will trade using this pool
+   - **Network fee** - the fee for processing the transaction
+   - **Share of Pool** - the percentage of your tokens in the pool
 
 3. If everything is ok, confirm and sign the transaction.
 
-    ![](<.gitbook/assets/Untitled(10).png>)
+   ![](<.gitbook/assets/Untitled(10).png>)
 
 Now you can see your share of the pool on the Pool page
 
 ![](<.gitbook/assets/Untitled(11)(1).png>)
 
-### Removing liquidity from the pool
+### Removing Liquidity from the Pool
 
 #### Via Polkaswap
 
@@ -143,31 +143,31 @@ Once you've provided the liquidity to the pool, you're also able to remove it (_
 
 1. Open the Pool page, then open the pool details and click on **Remove liquidity.**
 
-    ![](<.gitbook/assets/Untitled(12)(3).png>)
+   ![](<.gitbook/assets/Untitled(12)(3).png>)
 
-    You'll see a lot of options there, but don't worry!
+   You'll see a lot of options there, but don't worry!
 
-    ![](<.gitbook/assets/Untitled(13)(3).png>)
+   ![](<.gitbook/assets/Untitled(13)(3).png>)
 
 2. Enter the amount of source asset or destination asset to be removed.
-   
-    ::: info
-    Pay attention, if you enter the amount of source asset, the amount of destination asset will be calculated according to the pool math. If you enter the amount of destination asset, the amount of source asset will be calculated according to the pool math as well.
-    :::
 
-    You can use the **Amount slider** to select the percentage of liquidity to be removed:
+   ::: info
+   Pay attention, if you enter the amount of source asset, the amount of destination asset will be calculated according to the pool math. If you enter the amount of destination asset, the amount of source asset will be calculated according to the pool math as well.
+   :::
 
-    ![](.gitbook/assets/remove-liquidity.gif)
+   You can use the **Amount slider** to select the percentage of liquidity to be removed:
+
+   ![](.gitbook/assets/remove-liquidity.gif)
 
 3. If you're ok with the given parameters, confirm and sign the transaction.
 
-    ![](<.gitbook/assets/Untitled(14)(3).png>)
+   ![](<.gitbook/assets/Untitled(14)(3).png>)
 
 You can then check if your pool share was reduced
 
 ![](<.gitbook/assets/Untitled(15)(2).png>)
 
-## Checking transactions
+## Checking Transactions
 
 You can find the transactions for providing and removing liquidity you have made in the block explorer. Open the list of transactions and filter it using the PoolXYK module parameter and **deposit_liquidity** call for providing liquidity or **withdraw_liquidity** call for removing liquidity.
 

@@ -16,7 +16,6 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 - **XOR as Legal Tender in Sri Lanka**: The SORA community reached out to the people of Sri Lanka to propose the use of XOR as legal tender in their country and are continuing to work with people there to push the proposal forward.
 - **SORA IBAN**: As a way of bridging the gap between traditional banking services and SORA, this is a system to implement a bank account powered by SORA technology; the [Polkaswap.io](http://polkaswap.io) interface will then have many of the services offered by traditional banks, all in a nice, self-custodial interface.
 - **SORA card**: Similar to the SORA IBAN, the SORA card will allow users to make transactions using XOR in existing POS infrastructure everywhere in the world!
-- **JP Games**: For more information on [JP Games and SORA please refer to this article](https://medium.com/sora-xor/sora-xor-could-be-the-official-native-token-of-the-pegasus-world-kit-4ac45fd7cc32).
 
 ## Backend
 
@@ -39,7 +38,7 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 - **Fearless Wallet integration**: This integration will be available once the SORA network upgrades to Substrate 4. With this, it will be possible to have SORA network tokens available within the Fearless Wallet interface. This means that you will be able to access SORA fearlessly along with other Dotsama ecosystem tokens.
 - **Fearless Wallet Desktop**: Along with a desktop UI to fearlessly access your assets, there will also be a dApp signer that will serve as a fresh and intuitive alternative to the current Polkadot ecosystem extension.
 
-## Mobile/ Other
+## Mobile/Other
 
 **Mobile/other** considers other interfaces, like the mobile apps.
 

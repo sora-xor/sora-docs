@@ -1,25 +1,25 @@
-# Check user balances
+# Check User Balances
 
-### Via Polkadot.js UI
+## Via Polkadot.js UI
 
 1. Go to [SORA polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc).
 
 2. Click on **Developer** and then **RPC calls**
 
-    ![](.gitbook/assets/check-balance-rpc-calls.jpg)
+   ![](.gitbook/assets/check-balance-rpc-calls.jpg)
 
-3. Select _*assets* → *freeBalance(accountid,assetid)*. 
+3. Select \__assets_ → _freeBalance(accountid,assetid)_.
 
-    ![](.gitbook/assets/check-balance-select.png)
+   ![](.gitbook/assets/check-balance-select.png)
 
-4. Fill in *AssetID* and press *"Submit RPC call"*.
+4. Fill in _AssetID_ and press _"Submit RPC call"_.
 
-    ::: info
+   ::: info
 
-    For more Asset IDs check out the [Tokens subsection of the Polkaswap.io Explore](https://polkaswap.io/#/explore/tokens) page. You can find the core token Asset IDs in the [Check supply](check-supply.md) page.
-    :::
+   For more Asset IDs check out the [Tokens subsection of the Polkaswap.io Explore](https://polkaswap.io/#/explore/tokens) page. You can find the core token Asset IDs in the [Check supply](check-supply.md) page.
+   :::
 
-    ![](.gitbook/assets/check-balance-fill-in-asset-id.jpg)
+   ![](.gitbook/assets/check-balance-fill-in-asset-id.jpg)
 
 This is the expected output. In this case, the VAL amount has been checked (look at AssetID)
 
