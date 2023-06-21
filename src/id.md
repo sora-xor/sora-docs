@@ -33,16 +33,16 @@ Once the transaction is completed your account will show an identity!
 
 Once you have finished following all the steps outlined in the [Register an identity](/id.md#register-an-identity) section, you can request an additional verification to obtain a prominent green checkmark next to your account name. This verification serves as an indication that you are a recognized and verified user, allowing others to easily identify and trust your account.
 
-1. Request judgement from a registrar.
+1. Request judgement from a registrar on polkadot.js.
 
-On polkadot.js, under the Developer tab;
+  Using the account you wish to verify, go under the Developer tab and follow these steps:
 
-- click Extrinsics -> Using the account you wish to be verified,
-- select `Identity` and `requestJudgement` -> Under `regIndex`,
-- place `1` (`reg_index` = `0` is no longer active) -> Registrar `1` has a fee of 1 `XOR` ->
-- Submit the transaction.
+  - Click Extrinsics.
+  - Select `Identity` and `requestJudgement`.
+  - Under `regIndex`, place `1` (`reg_index` = `0` is no longer active). Registrar `1` has a fee of 1 `XOR`.
+  - Submit the transaction.
 
-<center><img src="/.gitbook/assets/requestJudgement.png" width="600"></center>
+  <center><img src="/.gitbook/assets/requestJudgement.png" width="600"></center>
 
 2. Donate to Community Marketing Funds address.
 
