@@ -75,7 +75,7 @@ the Polkadot.js browser extension in the popup window.
 
 ![](/.gitbook/assets/xstusd-demo2.png)
 
-Finally, if you're interested in how the SORA RFP system works, take a look at this complete guide on [Proposing New Functionalities to Polkaswap and the SORA Network](rfp.md)
+Finally, if you're interested in how the SORA RFP system works, take a look at this complete guide on [Proposing New Functionalities to Polkaswap and the SORA Network](rfp.md).
 
 ---
 
