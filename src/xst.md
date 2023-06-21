@@ -59,7 +59,7 @@ before, where the price users pay would never deviate from the price
 of XOR-DAI.
 ![](/.gitbook/assets/xst-buy-sell.png)
 
-Some more interesting details available from the [XSTUSD RFP](https://github.com/sora-xor/rfps/pull/8/files) mention: "If the XSTUSD-XOR price goes lower than DAI-XOR, then when the user is buying, new XOR will be minted and used to fill the order (similar to the token bonding curve). When buying XSTUSD with XOR, then new XSTUSD can be minted/deminted when filling the orders, in order to maintain the peg." Before you ask wen, there is no concrete answer _...for now._
+Some more interesting details available from the [XSTUSD RFP](https://github.com/sora-xor/rfps/pull/8/files) mention: "If the XSTUSD-XOR price goes lower than DAI-XOR, then when the user is buying, new XOR will be minted and used to fill the order (similar to the token bonding curve). When buying XSTUSD with XOR, then new XSTUSD can be minted/deminted when filling the orders, in order to maintain the peg." Before you ask when, there is no concrete answer _...for now._
 
 XST implementation is just the beginning and, as was hinted earlier, _SORAcles_ are also in the development pipeline which will ensure that a variety of XST assets can be implemented for many different indices of value. Another interesting implementation tied to this is the [SORA Social Insurance](social-insurance.md).
 
