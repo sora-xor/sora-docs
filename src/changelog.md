@@ -1,15 +1,29 @@
-[SORA mainnet](https://github.com/sora-xor/sora2-network/releases)
+# SORA Network Development Changelog
+The SORA network and SORA builders are contantly working to improve
+the network and add more features and stability. In this page you will
+find changelogs for each SORA release, including SORA Blockchain, SORA
+mobile wallet and [Builders Programme
+participants](sora-builders.md).
 
-[SORA parachain](https://github.com/sora-xor/sora2-parachain/releases)
+## SORA Blockchain
+- [SORA mainnet](https://github.com/sora-xor/sora2-network/releases)
 
-[Polkaswap](https://github.com/sora-xor/polkaswap-exchange-web/releases)
+- [SORA parachain](https://github.com/sora-xor/sora2-parachain/releases)
 
-[ADAR]()
+## SORA Mobile
 
-[Demeter]()
+- [iOS]()
 
-[iOS]()
+- [Android]()
 
-[Android]()
+## Polkaswap
+- [Polkaswap](https://github.com/sora-xor/polkaswap-exchange-web/releases)
 
-**_TODO_** How can it be combined with the regular ecosystem updates?
+## SORA Builders
+
+- [ADAR]()
+
+- [Demeter]()
+
+- [Fearless Wallet]()
+

@@ -94,7 +94,7 @@ export default defineConfig({
               { text: "Fearless Wallet", link: "fearless" },
             ],
           },
-          { text: "Request Features", link: "rfp" },
+	 { text: "Request Features", link: "rfp" } 
         ],
       },
       {
@@ -173,8 +173,8 @@ export default defineConfig({
         items: [
           { text: "Introduction", link: "build" },
           {
-            text: "Decentralised Development Process",
-            link: "decentralised-development-process",
+            text: "SORA Builders Programme",
+            link: "sora-builders",
           },
           {
             text: "Social Insurance for Systematically Important Infrastructure",
