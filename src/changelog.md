@@ -1,7 +1,7 @@
 # SORA Network Development Changelog
 
 The SORA network and SORA builders are constantly working to improve
-the network and add more features and stability. In this page you will
+the network and add more features and stability. On this page you will
 find changelogs for each SORA release, including SORA Blockchain, SORA
 mobile wallet and [Builders Programme
 participants](sora-builders.md).
