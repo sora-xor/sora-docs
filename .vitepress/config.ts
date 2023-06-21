@@ -2,15 +2,6 @@ import { defineConfig } from "vitepress";
 import markdownItKatex from "markdown-it-katex";
 import { redirectPlugin } from 'vuepress-plugin-redirect';
 
-
-
-module.exports = {
-  ssr: {
-    noExternal: ['vuepress-plugin-redirect']
-  },
-  esm: true
-}
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "en-US",
@@ -236,6 +227,9 @@ export default defineConfig({
     config: (md) => {
       md.use(markdownItKatex);
     },
+  },
+  ssr: {
+    noExternal: ['vuepress-plugin-redirect']
   },
   plugins: [
     redirectPlugin({
