@@ -35,19 +35,19 @@ Once you have finished following all the steps outlined in the [Register an iden
 
 1. Request judgement from a registrar on polkadot.js.
 
-  Using the account you wish to verify, go under the Developer tab and follow these steps:
+Using the account you wish to verify, go under the Developer tab and follow these steps:
 
-  - Click Extrinsics.
-  - Select `Identity` and `requestJudgement`.
-  - Under `regIndex`, place `1` (`reg_index` = `0` is no longer active). Registrar `1` has a fee of 1 `XOR`.
-  - Submit the transaction.
+- Click Extrinsics.
+- Select `Identity` and `requestJudgement`.
+- Under `regIndex`, place `1` (`reg_index` = `0` is no longer active). Registrar `1` has a fee of 1 `XOR`.
+- Submit the transaction.
 
   <center><img src="/.gitbook/assets/requestJudgement.png" width="600"></center>
 
 2. Donate to Community Marketing Funds address.
 
-  Donate a minimum of 1 `XOR` per account requesting judgement to the Community Marketing Funds address (`cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`).
-  The funds from this community wallet are used for SORA marketing.
+Donate a minimum of 1 `XOR` per account requesting judgement to the Community Marketing Funds address (`cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`).
+The funds from this community wallet are used for SORA marketing.
 
 3. Contact the registrar directly. You can find their contact info in their profile.
 
