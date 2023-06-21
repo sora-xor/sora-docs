@@ -21,7 +21,7 @@ With the advent of cryptoeconomic systems on blockchains, the "compensated" doll
 
 ### Stablecoins and Synthetic Assets Today
 
-Currently, there are 5 different types of stablecoins/pegged assets:
+Currently, there are five different types of stablecoins, or pegged assets:
 
 - **Fiat-Backed Stablecoins (or Tokenized Fiat):** These stablecoins are backed by and pegged to dollars (or other fiat currency), their value remains tied to the price of the pegged currency. For example, [USDC](https://www.circle.com/en/usdc).
 - **Crypto-Backed Stablecoins (or On-Chain Collateralized Stablecoins):** These are backed by other crypto assets. For example [DAI](https://makerdao.com/en/).
