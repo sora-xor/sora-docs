@@ -11,7 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Getting Started", link: "introduction" },
-      { text: "Ecosystem", link: "integrated-plan" },
+      { text: "Ecosystem", link: "ecosystem" },
       { text: "SORA Economy", link: "participate" },
       { text: "Build", link: "build" },
     ],
@@ -66,7 +66,7 @@ export default defineConfig({
       {
         text: "Ecosystem",
         items: [
-          { text: "Overview", link: "tba" },
+          { text: "Overview", link: "ecosystem" },
           { text: "Integrated Plan", link: "integrated-plan" },
           {
             text: "Polkaswap",
@@ -84,8 +84,8 @@ export default defineConfig({
               },
             ],
           },
-          { text: "XST", link: "tba" },
-          { text: "SORAcard", link: "tba" },
+          { text: "XST", link: "xst" },
+          { text: "SORAcard", link: "sora-card" },
           {
             text: "SORA in Your Pocket",
             collapsed: true,
