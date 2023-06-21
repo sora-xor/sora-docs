@@ -4,7 +4,7 @@ In this section you will find all the information on SORA
 tokenomics. Starting with the Token Bonding curve, each subsection
 will cover the main [SORA economy](sora-economy.md) tokens. It is
 important to remember that the [XOR](xor.md) token does not follow
-conventional tokenomics of limited supply, instead, it's supply is
+conventional tokenomics of limited supply, instead, its supply is
 elastic, tied to the [Token Bonding Curve (TBC)](tbc.md) and managed
 through [SORA governance](sora-governance.md).
 
