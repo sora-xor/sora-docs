@@ -1,4 +1,4 @@
-# Decentralized Development Process
+# SORA Builders Programme
 
 ### Decentralized Development at its Best
 

@@ -19,7 +19,7 @@ features:
     link: introduction
   - title: Ecosystem
     details: Dive into an overview of the integrated plan, familiarize yourself with SORA ecosystem components, and learn how to request features to customize your experience.
-    link: integrated-plan
+    link: ecosystem
   - title: Participating in the SORA Economy
     details: Take an active role in the SORA economy by learning to create an address, running a node, participating in governance, DeFi, and more.
     link: running-a-node
