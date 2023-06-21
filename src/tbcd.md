@@ -41,7 +41,7 @@ To make TBCD useful, instead of using the ~$600 price point, it will
 be possible to buy XOR from the TBC at the current market price plus $1. This
 is still higher than the market price, which will incentivize people
 to avoid dumping TBCD for XOR when the XOR price is low (because they
-won’t get a full $1 of value). For example, if XOR is $3 then TBCD
+won’t get a full $1 of value). For example, if XOR is $3, then TBCD
 holders can buy XOR from the token bonding curve for a 33% premium,
 which is not very appealing, but if XOR is at $100, then TBCD holders
 can buy XOR for just $101, which is a negligible premium.
