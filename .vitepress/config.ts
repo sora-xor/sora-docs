@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import markdownItKatex from "markdown-it-katex";
-import { redirectPlugin } from 'vuepress-plugin-redirect';
+//import { redirectPlugin } from 'vuepress-plugin-redirect';
+import redirects from './redirects';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -231,11 +232,19 @@ export default defineConfig({
   ssr: {
     noExternal: ['vuepress-plugin-redirect']
   },
+  // plugins: [
+  //   redirectPlugin({
+  //     config: {
+  //       '/guides/': '/$1',
+  //     },
+  //   }),
+  // ],
   plugins: [
-    redirectPlugin({
-      config: {
-        '/guides/': '/$1',
+    [
+      'vuepress-plugin-redirect',
+      {
+        from: redirects,
       },
-    }),
+    ],
   ],
 });
