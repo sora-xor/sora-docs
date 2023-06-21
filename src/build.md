@@ -65,4 +65,4 @@ are publicly accessible in the **[SORA RFP Github
 Repository](https://github.com/sora-xor/rfps)** which ensures that
 full transparency and decentralized practices are always upheld.
 
-For more information, read the articles _[SORA Decentralized Development Process](decentralised-development-process.md)_, [_How to RFP_](rfp.md), and [_Social Insurance for Systematically Important Infrastructure_](social-insurance.md). To stay in the loop with the latest implementations of the SORA network and Polkaswap, make sure to follow the Ecosystem updates, and finally, to get a taste of what is to come, watch the **[SORA Development Public Request for Proposal (RFP) Process Github Repo](https://github.com/sora-xor/rfps)**!
+For more information, read the articles [_How to RFP_](rfp.md), and [_Social Insurance for Systematically Important Infrastructure_](social-insurance.md). To stay in the loop with the latest implementations of the SORA network and Polkaswap, make sure to follow the Ecosystem updates, and finally, to get a taste of what is to come, watch the **[SORA Development Public Request for Proposal (RFP) Process Github Repo](https://github.com/sora-xor/rfps)**!
