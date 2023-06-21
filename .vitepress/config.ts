@@ -84,7 +84,6 @@ export default defineConfig({
               },
             ],
           },
-          { text: "XST", link: "xst" },
           { text: "SORAcard", link: "sora-card" },
           {
             text: "SORA in Your Pocket",
@@ -98,7 +97,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "Participate in SORA Economy",
+        text: "Participate in the SORA Economy",
         items: [
           { text: "Overview", link: "participate"},
           { text: "Running a Node", link: "running-a-node" },
