@@ -71,7 +71,7 @@ You can swap XOR to XSTUSD and vice-versa.
 
 After you click on SWAP, you will receive a confirmation message with
 the transaction details. Click CONFIRM and sign the transaction with
-the Polkadot.js browser extension in the popup window.
+the Polkadot.js browser extension in the pop-up window.
 
 ![](/.gitbook/assets/xstusd-demo2.png)
 
