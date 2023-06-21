@@ -30,13 +30,13 @@ TBCD can only be created and allocated by on-chain governance, which
 means that XOR token holders decide the supply. In this way, TBCD can
 contribute to the productive economy of SORA because builders can be
 funded in TBCD, which can lead to more uses for SORA ecosystem
-tokens. 
+tokens.
 XOR is not diluted in purchasing power, because any minting of XOR is done only by giving TBCD to the token bonding curve, so TBCD becomes an asset that balances out any XOR put into circulation; in fact, the token bonding curve over-collateralizes, since there is a 20% margin between buy and sell, and part of that margin is XOR that goes into funds that are not currently distributed and put into circulation.
 
 Because the SORA token is going to target a price point of around
 $600, this means that TBCD will have little utility if XOR costs $600,
 while the secondary market price is so much lower (currently it is
-$3). 
+$3).
 To make TBCD useful, instead of using the ~$600 price point, it will
 be able to buy XOR from the TBC at the current market price + $1. This
 is still higher than the market price, which will incentivize people
@@ -44,7 +44,7 @@ to avoid dumping TBCD for XOR when the XOR price is low (because they
 won’t get a full $1 of value). For example, if XOR is $3 then TBCD
 holders can buy XOR from the token bonding curve for a 33% premium,
 which is not very appealing, but if XOR is at $100, then TBCD holders
-can buy XOR for just $101, which is a negligible premium. 
+can buy XOR for just $101, which is a negligible premium.
 Eventually the premium can go away entirely, when XOR is at the nominal token bonding curve price.
 
 As with other token bonding curve reserve assets, the sell price of
@@ -62,4 +62,3 @@ selling XOR via a primary market at a premium to the free-floating
 secondary market.
 
 Overall, TBCD is an innovative stablecoin that uses the SORA token bonding curve to maintain its price stability. This is a great development for the cryptocurrency market, as it provides users with a reliable stablecoin that’s backed by the U.S. dollar. Furthermore, the SORA token bonding curve helps increase the liquidity of TBCD, making it easier for users to buy and sell the token.
-
