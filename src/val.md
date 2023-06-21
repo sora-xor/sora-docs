@@ -9,7 +9,7 @@
 - Holders receive a part of the XOR created by the token bonding curve
   to provide liquidity on Polkaswap. VAL holders can group together
   into DAOs to pool their liquidity and vote to provide liquidity to
-  trading pairs on Polkaswap and receive PSWAP tokens as a reward
+  trading pairs on Polkaswap and receive PSWAP tokens as a reward.
 
   VAL is the validator reward token for the SORA Network, used to reward those that stake XOR as part of the Nominated Proof-of-Stake consensus algorithm. [As described](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8), VAL is a deflationary token that gets burned with each transaction on the SORA network. A portion of the burned tokens is then re-minted and distributed to validators and stake nominators, in accordance with the reward rules.
 
