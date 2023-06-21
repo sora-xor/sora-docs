@@ -228,6 +228,7 @@ export default defineConfig({
     },
   },
   rewrites: {
-    '^/guides/(.*)$': '/$1'
+    '^/guides/(.*)$': '/$1',
+    '^/introduction/(.*)$': 'participate'
   },
 });
