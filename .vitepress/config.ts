@@ -173,8 +173,8 @@ export default defineConfig({
         items: [
           { text: "Introduction", link: "build" },
           {
-            text: "Decentralised Development Process",
-            link: "decentralised-development-process",
+            text: "SORA Builders Programme",
+            link: "sora-builders",
           },
           {
             text: "Social Insurance for Systematically Important Infrastructure",
