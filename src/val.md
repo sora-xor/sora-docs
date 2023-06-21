@@ -11,7 +11,7 @@
   into DAOs to pool their liquidity and vote to provide liquidity to
   trading pairs on Polkaswap and receive PSWAP tokens as a reward.
 
-  VAL is the validator reward token for the SORA Network, used to reward those that stake XOR as part of the Nominated Proof-of-Stake consensus algorithm. [As described](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8), VAL is a deflationary token that gets burned with each transaction on the SORA network. A portion of the burned tokens is then re-minted and distributed to validators and stake nominators, in accordance with the reward rules.
+VAL is the validator reward token for the SORA Network, used to reward those that stake XOR as part of the Nominated Proof-of-Stake consensus algorithm. [As described](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8), VAL is a deflationary token that gets burned with each transaction on the SORA network. A portion of the burned tokens is then re-minted and distributed to validators and stake nominators, in accordance with the reward rules.
 
 > [VAL tokens were formerly v1 XOR tokens](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8), but were turned into VAL with new tokenomics, through [community governance](https://medium.com/sora-xor/sora-v2-implementation-1febd3260b87). VAL is a multichain token that lives on the SORA v1 Network and on Ethereum, with a trustless bridge—_HASHI_—that spans the two networks.
 
