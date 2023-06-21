@@ -17,7 +17,7 @@ Long before cryptocurrencies (or even digital computers) existed, [back in 1912]
 
 In other words, because gold was highly volatile in purchasing power, instead of keeping the dollar fixed to a certain amount of gold, [Fisher proposed](https://www.richmondfed.org/~/media/richmondfedorg/publications/research/economic_quarterly/1993/summer/pdf/patinkin.pdf) that the dollar be backed by varying amounts of gold, but pegged to a basket of goods (an index). However, at the time, Fisher's ideas were not adopted due to operational and harmonization issues of the economy of that period.
 
-With the advent of cryptoeconomic systems on blockchains, the "compensated" dollar principles, Fisher's groundwork, could finally be translated into the realm of cryptoeconomics and given new life as part of a cryptoeconomic system: "a blockchain-based token can be created as a derivative of another one, targeted at holding a stable unit of value". SORA synthetics implements this concept and _in a way, you could say that Irving Fisher is the father of SORA Synthetics_.
+With the advent of cryptoeconomic systems on blockchains, the "compensated" dollar principles, Fisher's groundwork, could finally be translated into the realm of cryptoeconomics and given new life as part of a cryptoeconomic system: "a blockchain-based token can be created as a derivative of another one, targeted at holding a stable unit of value". SORA synthetics implement this concept and _in a way, you could say that Irving Fisher is the father of SORA Synthetics_.
 
 ### Stablecoins and Synthetic Assets Today
 
