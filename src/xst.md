@@ -32,7 +32,7 @@ Currently, there are 5 different types of stablecoins/pegged assets:
 
 XST is an algorithmic stablecoin for the SORA ecosystem, initially proposed in 2018, based on the ideas of Irving Fisher's compensated dollar. However, instead of being backed by gold, XST assets are backed by XOR.
 
-# What Makes SORA XST Different?
+## What Makes SORA XST Different?
 
 Now that stablecoins and synthetic assets have been defined and classified, you might be wondering what makes XST stand out from the rest?
 
