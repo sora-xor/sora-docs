@@ -3,7 +3,9 @@ import markdownItKatex from "markdown-it-katex";
 import { redirectPlugin } from 'vuepress-plugin-redirect';
 
 
-require = require('esm')(module);
+require('@babel/register')({
+  extensions: ['.js', '.ts'],
+});
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
