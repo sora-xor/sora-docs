@@ -94,7 +94,7 @@ export default defineConfig({
               { text: "Fearless Wallet", link: "fearless" },
             ],
           },
-	 { text: "Request Features", link: "rfp" } 
+          { text: "Request Features", link: "rfp" },
         ],
       },
       {
