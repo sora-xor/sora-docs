@@ -1,7 +1,9 @@
 import { defineConfig } from "vitepress";
 import markdownItKatex from "markdown-it-katex";
-//import { redirectPlugin } from 'vuepress-plugin-redirect';
-import redirects from './redirects';
+import { redirectPlugin } from 'vuepress-plugin-redirect';
+
+
+require = require('esm')(module);
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -229,22 +231,11 @@ export default defineConfig({
       md.use(markdownItKatex);
     },
   },
-  ssr: {
-    noExternal: ['vuepress-plugin-redirect']
-  },
-  // plugins: [
-  //   redirectPlugin({
-  //     config: {
-  //       '/guides/': '/$1',
-  //     },
-  //   }),
-  // ],
   plugins: [
-    [
-      'vuepress-plugin-redirect',
-      {
-        from: redirects,
+    redirectPlugin({
+      config: {
+        '/guides/': '/$1',
       },
-    ],
+    }),
   ],
 });
