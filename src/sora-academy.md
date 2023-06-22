@@ -4,7 +4,7 @@ Thanks to blockchain technology, finance has become more inclusive and
 less centralized, sparking a sector known as Decentralized Finance,
 and with access to a crypto asset wallet, people can participate in
 activities such as swapping tokens (exchanges), liquidity provision,
-NFT Markets, and more. The SORA Academy is the best way to get you started in DeFi on the SORA network
+NFT Markets, and more. The SORA Academy is the best way to get you started in DeFi on the SORA network.
 
 ## Decentralization and Finance
 
