@@ -12,7 +12,7 @@ When you participate in any financial activity nowadays, such as investing in st
 
 It used to be that the difference between purchasing a token and stock was that you could buy a fraction of a token, for example buying and owning €1000 of BTC, while a whole BTC token costs €36,771.31 (when this article was written), but you could only buy a whole stock. As aforementioned, there are services that fractionalize stocks now, so this is no longer the case.
 The big difference between centralized and decentralized
-finance, however, is that in a decentralized platform, you own your
+finance, however, is that in a decentralized platform you own your
 keys.
 
 This means that all the requirements you need are a wallet and some tokens. If you were to do these activities through a centralized finance crypto platform, you would need to provide personal identification for a process known as KYC (know your customer), which is required for the platform to comply with anti-money laundering (AML) policies.
