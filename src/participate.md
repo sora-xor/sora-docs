@@ -1,9 +1,7 @@
 # Participate in SORA Economy
 
-After the in-depth introduction to SORA and its economic principles
-available in the [SORA Economy](sora-economy.md) section, here you
-will find practical information to take part in the SORA economic system in technical and
-practical aspects.
+After the [in-depth introduction](sora-economy.md) to SORA and its economic principles,
+here you will find some practical and technical information to help you take part in the SORA economic system.
 
 ## Practical
 
