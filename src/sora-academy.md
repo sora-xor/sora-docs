@@ -31,7 +31,7 @@ Great, now you know what a blockchain is and how to interact with it, so let’s
 When you participate in any financial activity nowadays, such as investing in stocks or bonds, there are several hurdles you must jump through in order to begin trading, your identity must be verified and you must open an account with an intermediary service to trade. Albeit, some of those services provide the option to pool with other users and buy fractions of stocks, instead of the whole stock, as was the norm up until these services were developed.
 
 It used to be that the difference between purchasing a token and stock was that you could buy a fraction of a token, for example buying and owning €1000 of BTC, while a whole BTC token costs €36,771.31 (when this article was written), but you could only buy a whole stock. As aforementioned, there are services that fractionalize stocks now, so this is no longer the case.
-The big difference between Centralized finance and Decentralized
+The big difference between centralized and decentralized
 finance, however, is that in a decentralized platform, you own your
 keys.
 
