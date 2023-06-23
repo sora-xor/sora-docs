@@ -9,7 +9,7 @@ Polkaswap's technical design allows using different liquidity sources for tradin
 
 XYK Pools are managed by the community. Anyone is able to provide liquidity to any pool. Every pool has XOR as a base asset. For example, there are two pools: XOR-VAL, XOR-PSWAP. If you make a VAL-PSWAP exchange, then the swap routing will be the following: from VAL to XOR, from XOR to PSWAP.
 
-The TBC is described in detail in this [article](https://wiki.sora.org/token-bonding-curve). You can buy and sell XOR using the TBC, and initial collateral assets are USDT, VAL, PSWAP.
+The TBC is described in detail [here](tbc.md). You can buy and sell XOR using the TBC, and initial collateral assets are USDT, VAL, PSWAP.
 
 When you make a swap with the default settings, the Liquidity Proxy algorithm selects the liquidity pool with the best price. However, buying XOR from the TBC is rewarded with PSWAP. The liquidity source might change in the swap settings, which makes trading more flexible.
 

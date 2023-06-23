@@ -1,5 +1,7 @@
 # SORA Builders Programme
 
+![](/.gitbook/assets/sorabuilderseu.png)
+
 ### Decentralized Development at its Best
 
 SORA is a truly decentralized movement, run by the community and for the community. Everyone is encouraged to actively participate in the development and constant improvement of the network. An example of this is the [RFP development process](/rfp.md), a program that allows users to submit requests for new features, and subsequently, proposals themselves to add new functions and to the network. Some successful merged proposals include the [XSTUSD stablecoin](https://github.com/sora-xor/rfps/blob/master/closed_rfps/XSTUSD.md) and the [Referral Program](https://github.com/sora-xor/rfps/blob/master/closed_rfps/ReferralProgramProposal.md).
