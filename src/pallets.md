@@ -2,7 +2,7 @@
 
 In the context of SORA, pallets play a crucial role in the development of the network and its associated applications. SORA is a decentralized autonomous economy (DAE) built on the [Substrate](https://substrate.io/) framework, and it utilizes Substrate's [pallets](https://docs.substrate.io/learn/welcome-to-substrate/) to implement its specific functionalities and features.
 
-By leveraging Substrate's pallets, SORA can customize its blockchain [runtime](https://docs.substrate.io/learn/runtime-development/) to meet its unique requirements and design principles. The pallets enable SORA to incorporate key functionalities such as token management, decentralized governance, bridges to other networks, liquidity provision, and more.
+By leveraging Substrate's pallets, SORA can customize its blockchain [runtime](https://docs.substrate.io/learn/runtime-development/) to meet its unique requirements and design principles. These pallets enable SORA to incorporate key functions such as token management, decentralized governance, bridges to other networks, liquidity provision, and more.
 
 Developers working on SORA can refer to the Substrate documentation to understand the underlying concepts and usage of pallets. This knowledge will aid them in effectively utilizing the pallets within the SORA ecosystem, customizing them to fit the unique requirements of SORA.
 
