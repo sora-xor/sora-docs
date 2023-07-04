@@ -5,7 +5,6 @@ import markdownItKatex from "markdown-it-katex";
 export default defineConfig({
   lang: "en-US",
   title: "docs",
-  base: "/sora-docs/",
   description: "Guides, how-tos, architecture",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -105,6 +104,7 @@ export default defineConfig({
           { text: "Create an Address", link: "create-an-address" },
           {
             text: "Assets",
+            link: "assets",
             collapsed: true,
             items: [
               { text: "Transfer", link: "transfer" },
@@ -141,10 +141,12 @@ export default defineConfig({
           },
           {
             text: "Interoperability",
+            link: "interoperability",
             collapsed: true,
             items: [
               {
                 text: "EVM",
+                link: "evm",
                 items: [
                   {
                     text: "HASHI",
