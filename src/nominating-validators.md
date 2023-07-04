@@ -16,7 +16,7 @@ To provide some high quality validators on the network as a common good, the SOR
 
 To nominate a Validator successfully on the SORA network, you need:
 
-- The [Polkadot.js extension](https://polkadot.js.org/extension/) installed on your browser, with an account created and some XOR 
+- The [Polkadot.js extension](https://polkadot.js.org/extension/) installed on your browser, with an account created and some XOR
 
 NOTE: Staking rewards **expire** after 84 eras. On **SORA**, that's about 21 days.
 
