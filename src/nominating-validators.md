@@ -18,17 +18,15 @@ To nominate a Validator successfully on the SORA network, you need:
 
 - The [Polkadot.js extension](https://polkadot.js.org/extension/) installed on your browser, with an account created and some XOR
 
-NOTE: Staking rewards **expire** after 84 eras. On **SORA**, that's about 21 days.
+::: info 
+Staking rewards **expire** after 84 eras. On **SORA**, that's about 21 days.
+:::
 
 1. Go to SORA[ polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), click on "Network" and then "Staking". **Make sure you are connected to the SORA Network**, you should see the logo at the top left.
 
 ![](.gitbook/assets/polkadotjs-staking-tab.png)
 
-2. Next, you will need to create a new Nominator Stash
-
-Click on "Account Sections" and then "Nominator", as shown in the pictures below.
-
-Make sure to read the information displayed carefully.
+2. Next, you will need to create a new Nominator Stash. Click on "Account Sections" and then "Nominator", as shown in the pictures below. Make sure to read the information displayed carefully.
 
 ![](.gitbook/assets/polkadotjs-account-actions.png)
 
@@ -40,11 +38,11 @@ Make sure to read the information displayed carefully.
 
 Think of the stash as your cold wallet and the controller as your hot wallet.
 
-Funding operations are controlled by the stash and any other non-funding actions by the controller itself. This operation increases the security of your funds.
+Funding operations are controlled by the stash, while non-funding actions are managed by the controller itself. Having the stash and the controller accounts makes your funds more secure.
 
 You can read more [here](https://www.holdpolkadot.com/post/stash-account-controller-account-on-polkadot-and-kusama).
 
-4. Set the amount you want to stake and click on "Next"
+4. Set the amount you want to stake and click "Next".
 
 5. The next step is to choose the Validators you want to nominate.
 
