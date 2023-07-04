@@ -124,6 +124,7 @@ export default defineConfig({
               { text: "Advanced Trading", link: "advanced-trading" },
               { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
               { text: "Send & Receive", link: "polkaswap-send-and-receive" },
+              { text: "Staking", link: "polkaswap-staking" },
             ],
           },
           {
