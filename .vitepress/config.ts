@@ -127,6 +127,7 @@ export default defineConfig({
               { text: "Staking", link: "polkaswap-staking" },
               { text: "Explore", link: "polkaswap-explore" },
               { text: "Statistics", link: "polkaswap-statistics" },
+              { text: "Other Features", link: "polkaswap-other-features" },
             ],
           },
           {
