@@ -15,5 +15,5 @@
 ![](.gitbook/assets/select-an-account.png)
 
 6. Once the connection is complete, you will be able to see your account balance and manage your funds on Polkaswap.
-Congratulations, you have successfully connected your wallet! Now you can stake, provide liquidity, trade, and much more with style and freedom on Polkaswap!
-Remember to always do your own research before making any financial decisions.
+   Congratulations, you have successfully connected your wallet! Now you can stake, provide liquidity, trade, and much more with style and freedom on Polkaswap!
+   Remember to always do your own research before making any financial decisions.
