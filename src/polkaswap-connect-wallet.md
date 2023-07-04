@@ -9,7 +9,7 @@
 ![](.gitbook/assets/choose-wallet-to-connect.png)
 
 3. Select the wallet extension installed on your browser. For example, if you are using Fearless Wallet, click on the Fearless Wallet option.
-4. A pop-up window will appear from your selected wallet extension, asking you to confirm the connection to Polkaswap. Click "Allow" or "Confirm" to proceed.
+4. A pop-up window will appear from your selected wallet extension, asking you to confirm the connection to Polkaswap. Click "Confirm" to proceed.
 5. After the connection has been established, you will see a list of your available accounts displayed on the Polkaswap page. Choose the account you want to use and click on it.
 
 ![](.gitbook/assets/select-an-account.png)
