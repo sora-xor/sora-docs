@@ -122,6 +122,8 @@ export default defineConfig({
               { text: "Swap", link: "swap" },
               { text: "Provide Liquidity", link: "/provide-liquidity" },
               { text: "Advanced Trading", link: "advanced-trading" },
+              { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
+              { text: "Send & Receive", link: "polkaswap-send-and-receive" },
             ],
           },
           {
