@@ -4,7 +4,7 @@ SORA allows you to store profile information in order to identify and discover p
 
 ## Via PolkadotJS UI
 
-## Register an Identity
+### Register an Identity
 
 Requirements:
 
