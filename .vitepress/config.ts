@@ -153,7 +153,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "Adding a Token",
-                        link: "adding-a-token-to-a-hashi-bridge",
+                        link: "adding-tokens-to-hashi-bridge",
                       },
                       {
                         text: "Become a Relayer",
