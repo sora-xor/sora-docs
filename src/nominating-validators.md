@@ -60,7 +60,7 @@ It is important to nominate trustworthy and reliable validators. Validators and 
 
 ![](.gitbook/assets/polkadotjs-setup-nominator-step2.png)
 
-6. When you have selected the validators, click on "Bond & Nominate", "Sign and Submit" and then sign the transaction with Polkadot.js extension, as shown in the pictures below
+6. When you have selected the validators, click on "Bond & Nominate", "Sign and Submit" and then sign the transaction with Polkadot.js extension, as shown in the pictures below:
 
 ![](.gitbook/assets/polkadotjs-bond-and-nomintate-extrinsic.png)
 
