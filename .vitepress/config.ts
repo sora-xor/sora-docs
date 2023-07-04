@@ -98,12 +98,13 @@ export default defineConfig({
       {
         text: "Participate in the SORA Economy",
         items: [
-          { text: "Overview", link: "participate"},
+          { text: "Overview", link: "participate" },
           { text: "Running a Node", link: "running-a-node" },
           // { text: "Becoming a validator", link: "/tba" },
           { text: "Create an Address", link: "create-an-address" },
           {
             text: "Assets",
+            link: "assets",
             collapsed: true,
             items: [
               { text: "Transfer", link: "transfer" },
@@ -134,10 +135,12 @@ export default defineConfig({
           },
           {
             text: "Interoperability",
+            link: "interoperability",
             collapsed: true,
             items: [
               {
                 text: "EVM",
+                link: "evm",
                 items: [
                   {
                     text: "HASHI",
@@ -163,7 +166,10 @@ export default defineConfig({
           { text: "Identity", link: "id" },
           { text: "Rewards", link: "rewards" },
           { text: "Nodes Connection", link: "nodes-connection" },
-          { text: "Staking in Fearless Wallet", link: "stake-in-fearless-wallet"},
+          {
+            text: "Staking in Fearless Wallet",
+            link: "stake-in-fearless-wallet",
+          },
         ],
       },
       {
@@ -185,20 +191,20 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Learn More',
+        text: "Learn More",
         items: [
           {
-            text: 'Useful Links',
-            link: 'useful-links',
+            text: "Useful Links",
+            link: "useful-links",
           },
           {
-            text: 'Community Blogs',
-            link: 'blogs',
+            text: "Community Blogs",
+            link: "blogs",
           },
           {
-            text: 'Contribution Guidelines',
-            link: 'contribute'
-          }
+            text: "Contribution Guidelines",
+            link: "contribute",
+          },
         ],
       },
     ],
