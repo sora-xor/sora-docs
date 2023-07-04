@@ -99,7 +99,7 @@ export default defineConfig({
       {
         text: "Participate in the SORA Economy",
         items: [
-          { text: "Overview", link: "participate"},
+          { text: "Overview", link: "participate" },
           { text: "Running a Node", link: "running-a-node" },
           // { text: "Becoming a validator", link: "/tba" },
           { text: "Create an Address", link: "create-an-address" },
@@ -115,12 +115,18 @@ export default defineConfig({
             ],
           },
           {
-            text: "DEX",
+            text: "Polkaswap",
             collapsed: true,
             items: [
               { text: "Swap", link: "swap" },
               { text: "Provide Liquidity", link: "/provide-liquidity" },
               { text: "Advanced Trading", link: "advanced-trading" },
+              { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
+              { text: "Send & Receive", link: "polkaswap-send-and-receive" },
+              { text: "Staking", link: "polkaswap-staking" },
+              { text: "Explore", link: "polkaswap-explore" },
+              { text: "Statistics", link: "polkaswap-statistics" },
+              { text: "Other Features", link: "polkaswap-other-features" },
             ],
           },
           {
@@ -164,7 +170,11 @@ export default defineConfig({
           { text: "Identity", link: "id" },
           { text: "Rewards", link: "rewards" },
           { text: "Nodes Connection", link: "nodes-connection" },
-          { text: "Staking in Fearless Wallet", link: "stake-in-fearless-wallet"},
+          {
+            text: "Staking in Fearless Wallet",
+            link: "stake-in-fearless-wallet",
+          },
+          { text: "Nominating Validators", link: "nominating-validators" },
         ],
       },
       {
@@ -186,20 +196,20 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Learn More',
+        text: "Learn More",
         items: [
           {
-            text: 'Useful Links',
-            link: 'useful-links',
+            text: "Useful Links",
+            link: "useful-links",
           },
           {
-            text: 'Community Blogs',
-            link: 'blogs',
+            text: "Community Blogs",
+            link: "blogs",
           },
           {
-            text: 'Contribution Guidelines',
-            link: 'contribute'
-          }
+            text: "Contribution Guidelines",
+            link: "contribute",
+          },
         ],
       },
     ],
