@@ -1,5 +1,7 @@
 # Explore
 
+## Via Polkaswap
+
 The ["Explore" page](https://polkaswap.io/#/explore/demeter/farming) in Polkaswap.io is designed to help users discover and participate in decentralized finance activities such as pooling and staking, as well as discover information on the tokens currently available. It has several tabs that provide access to different sections of the platform. Here is a breakdown of each tab:
 
 - [Farming:](https://polkaswap.io/#/explore/demeter/farming) This tab displays a list of available farming opportunities on Polkaswap. Users can stake their LP tokens in the designated pools to earn rewards in the form of PSWAP tokens.
