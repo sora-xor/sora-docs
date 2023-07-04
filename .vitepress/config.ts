@@ -126,6 +126,7 @@ export default defineConfig({
               { text: "Send & Receive", link: "polkaswap-send-and-receive" },
               { text: "Staking", link: "polkaswap-staking" },
               { text: "Explore", link: "polkaswap-explore" },
+              { text: "Statistics", link: "polkaswap-statistics" },
             ],
           },
           {
