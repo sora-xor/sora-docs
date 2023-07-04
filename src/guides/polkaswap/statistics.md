@@ -1,1 +1,1 @@
-This page was moved to [Statistics](../../polkaswap-statistics)
+This page was moved to [Statistics](../../polkaswap-statistics).

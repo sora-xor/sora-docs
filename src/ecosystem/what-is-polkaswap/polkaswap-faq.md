@@ -1,1 +1,1 @@
-The page was moved to [Polkaswap FAQ](../../polkaswap-faq)
+The page was moved to [Polkaswap FAQ](../../polkaswap-faq).

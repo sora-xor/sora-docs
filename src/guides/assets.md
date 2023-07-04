@@ -1,1 +1,1 @@
-This page was moved to [Assets](../assets)
+This page was moved to [Assets](../assets).

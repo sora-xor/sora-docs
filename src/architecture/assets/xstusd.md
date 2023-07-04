@@ -1,1 +1,1 @@
-This page was moved to [XST](../../xst)
+This page was moved to [XST](../../xst).

@@ -1,1 +1,1 @@
-This page was moved to [Liquidity Operations](../../provide-liquidity)
+This page was moved to [Liquidity Operations](../../provide-liquidity).

@@ -1,1 +1,1 @@
-This page was moved to [NFTs](../nft)
+This page was moved to [NFTs](../nft).

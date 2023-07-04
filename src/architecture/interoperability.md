@@ -1,1 +1,1 @@
-This page was moved to [Interoperability](../interoperability)
+This page was moved to [Interoperability](../interoperability).

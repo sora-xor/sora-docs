@@ -1,1 +1,1 @@
-This page was moved to [Polkaswap Staking](../../polkaswap-staking)
+This page was moved to [Polkaswap Staking](../../polkaswap-staking).

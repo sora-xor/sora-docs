@@ -1,1 +1,1 @@
-This page was moved to [Fearless Wallet](../fearless)
+This page was moved to [Fearless Wallet](../fearless).

@@ -1,1 +1,1 @@
-This page was moved to [Polkaswap](../polkaswap)
+This page was moved to [Polkaswap](../polkaswap).

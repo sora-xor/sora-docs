@@ -1,1 +1,1 @@
-This page was moved to [Transfer](../transfer)
+This page was moved to [Transfer](../transfer).

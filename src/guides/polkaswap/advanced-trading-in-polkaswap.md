@@ -1,1 +1,1 @@
-This page was moved to [Advanced Trading](../../advanced-trading)
+This page was moved to [Advanced Trading](../../advanced-trading).

@@ -1,1 +1,1 @@
-This page was moved to [Rewards](../../rewards)
+This page was moved to [Rewards](../../rewards).

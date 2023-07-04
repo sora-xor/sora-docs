@@ -1,1 +1,1 @@
-This page was more to [SORA mobile](../mobile)
+This page was more to [SORA mobile](../mobile).

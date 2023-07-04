@@ -1,1 +1,1 @@
-The page was moved to [PSWAP](../../pswap)
+The page was moved to [PSWAP](../../pswap).

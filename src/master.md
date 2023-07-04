@@ -1,1 +1,1 @@
-This page was moved to [Introduction](/introduction)
+This page was moved to [Introduction](/introduction).

@@ -1,1 +1,1 @@
-This page was moved to [Identity](../id)
+This page was moved to [Identity](../id).

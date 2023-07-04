@@ -1,1 +1,1 @@
-The page was moved to [Block Explorers](../explore-blocks)
+The page was moved to [Block Explorers](../explore-blocks).
