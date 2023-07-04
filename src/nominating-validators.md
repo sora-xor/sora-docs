@@ -54,7 +54,7 @@ From a Nominator's perspective, you only need to nominate at least one of the Va
 
 ::: info Disclaimer
 
-It is important to nominate trustworthy and reliable validators. Validators and their Nominators' stake can be slashed, which is a punishment for failing to follow the protocol. You can read more about Slashing\* [here](https://w3f-research.readthedocs.io/en/latest/polkadot/slashing/amounts.html)
+It is important to nominate trustworthy and reliable validators. Validators and their Nominators' stake can be slashed, which is a punishment for failing to follow the protocol. You can read more about Slashing\* [here](https://w3f-research.readthedocs.io/en/latest/polkadot/slashing/amounts.html).
 
 :::
 
