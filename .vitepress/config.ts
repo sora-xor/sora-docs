@@ -175,6 +175,7 @@ export default defineConfig({
             text: "Staking in Fearless Wallet",
             link: "stake-in-fearless-wallet",
           },
+          { text: "Nominating Validators", link: "nominating-validators" },
         ],
       },
       {
