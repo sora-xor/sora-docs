@@ -115,12 +115,18 @@ export default defineConfig({
             ],
           },
           {
-            text: "DEX",
+            text: "Polkaswap",
             collapsed: true,
             items: [
               { text: "Swap", link: "swap" },
               { text: "Provide Liquidity", link: "/provide-liquidity" },
               { text: "Advanced Trading", link: "advanced-trading" },
+              { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
+              { text: "Send & Receive", link: "polkaswap-send-and-receive" },
+              { text: "Staking", link: "polkaswap-staking" },
+              { text: "Explore", link: "polkaswap-explore" },
+              { text: "Statistics", link: "polkaswap-statistics" },
+              { text: "Other Features", link: "polkaswap-other-features" },
             ],
           },
           {
@@ -170,6 +176,7 @@ export default defineConfig({
             text: "Staking in Fearless Wallet",
             link: "stake-in-fearless-wallet",
           },
+          { text: "Nominating Validators", link: "nominating-validators" },
         ],
       },
       {
