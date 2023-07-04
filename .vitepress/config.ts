@@ -116,7 +116,7 @@ export default defineConfig({
             ],
           },
           {
-            text: "DEX",
+            text: "Polkaswap",
             collapsed: true,
             items: [
               { text: "Swap", link: "swap" },
@@ -125,6 +125,7 @@ export default defineConfig({
               { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
               { text: "Send & Receive", link: "polkaswap-send-and-receive" },
               { text: "Staking", link: "polkaswap-staking" },
+              { text: "Explore", link: "polkaswap-explore" },
             ],
           },
           {
