@@ -8,4 +8,4 @@ Key metrics such as TVL (Total Value Locked) and overall trading Volume are disp
 
 ![](.gitbook/assets/polkaswap-statistics-fees-and-supply.png)
 
-The ["Statistics" page](https://polkaswap.io/#/stats) is a valuable tool for anyone looking to track the performance of Polkaswap.
+The ["Statistics" page](https://polkaswap.io/#/stats) is a valuable tool for anyone looking to track the performance of the tokens on Polkaswap.

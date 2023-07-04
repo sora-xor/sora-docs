@@ -1,6 +1,6 @@
 # Nominating Validators
 
-Nominating validators is an important part of the SORA ecosystem as it helps to secure and decentralize the network. While you can nominate any validator, you should do research to make sure the validators you nominate are high quality and won't attack the network. If validators cause harm to the network, you will lose money as a nominator!
+Nominating validators is an important part of the SORA ecosystem as it helps to secure and decentralize the network. While you can nominate any validator, you should do your own research to make sure the validators you nominate are high quality and won't attack the network. If validators cause harm to the network, you will lose money as a nominator!
 
 To provide some high quality validators on the network as a common good, the SORA Parliament maintains the following list of validators:
 
@@ -16,7 +16,7 @@ To provide some high quality validators on the network as a common good, the SOR
 
 To nominate a Validator successfully on the SORA network, you need:
 
-- [Polkadot.js extension](https://polkadot.js.org/extension/) installed on your browser, with an account created and some XOR (for details, please see the first tutorial of this section)
+- The [Polkadot.js extension](https://polkadot.js.org/extension/) installed on your browser, with an account created and some XOR 
 
 NOTE: Staking rewards **expire** after 84 eras. On **SORA**, that's about 21 days.
 
@@ -48,11 +48,11 @@ You can read more [here](https://www.holdpolkadot.com/post/stash-account-control
 
 5. The next step is to choose the Validators you want to nominate.
 
-SORA Network uses [Phragmèn Method](https://wiki.polkadot.network/docs/en/learn-phragmen) to select Validators.
+SORA Network uses the [Phragmèn Method](https://wiki.polkadot.network/docs/en/learn-phragmen) to select Validators.
 
 During each era, Validators are chosen using the Phragmen Method, and those who nominated them will receive a reward (a stake reward).
 
-From a Nominator's perspective, you only need to nominate at least one of the Validators who is actually elected during each era. This explains why you can nominate more than one candidate at the same time, up to 16
+From a Nominator's perspective, you only need to nominate at least one of the Validators who is actually elected during each era. This explains why you can nominate more than one candidate at the same time, with a maximum of 16 validators per nominator account.
 
 **Disclaimer:** it is important to nominate trustworthy and reliable validators. Validators and their Nominators' stake can be slashed, which is a punishment for failing to follow the protocol. You can read more about Slashing\* [here](https://w3f-research.readthedocs.io/en/latest/polkadot/slashing/amounts.html)
 
