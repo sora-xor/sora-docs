@@ -11,6 +11,8 @@ head:
 
 # Advanced Trading
 
+## Theory
+
 To Polkaswap means to exchange (swap) tokens on [Polkaswap](https://polkaswap.io/), Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.
 
 Polkaswap's technical design allows using different liquidity sources for trading. At the moment Polkaswap supports two liquidity sources:
@@ -95,7 +97,7 @@ Let's go through exchange parameters one by one:
 - _Liquidity provider fee_: The fee that liquidity provider will take. In this case, it's an XYK Pool.
 - _Network fee_: SORA fee for processing the transaction (gas).
 
-#### What Insufficient _liquidity_ means
+**What Insufficient _liquidity_ means**
 
 It is possible to get an error saying "**Not enough liquidity**" and understanding what this means is important.
 

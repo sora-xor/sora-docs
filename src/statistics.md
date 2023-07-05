@@ -11,6 +11,8 @@ head:
 
 # Statistics
 
+## Via Polkaswap
+
 The ["Statistics" page](https://polkaswap.io/#/stats) provides important information about the transactions, accounts, fees, and token supply on Polkaswap.io. It includes charts and data for different timeframes, allowing users to analyze the platform's performance over time.
 
 ![](.gitbook/assets/polkaswap-statistics.png)

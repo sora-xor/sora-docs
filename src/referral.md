@@ -28,9 +28,11 @@ We recommend using the SORA testnet for practice exercises. Here are the Testnet
 
 :::
 
+### Via Polkaswap
+
 In the practice section, we'll create a referral link and get rewards.
 
-### Bond XOR
+#### Bond XOR
 
 First of all, XOR should be bonded in order to pay fees for setting up the referrals.
 
@@ -50,7 +52,7 @@ First of all, XOR should be bonded in order to pay fees for setting up the refer
 
 <center><img src="/.gitbook/assets/bond-share-referrals.png" width="400"></center>
 
-### Check Referrals and Rewards
+#### Check Referrals and Rewards
 
 If someone joins SORA using your referral link you’ll get this information on the referral screen:
 

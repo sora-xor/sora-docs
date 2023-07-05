@@ -11,6 +11,8 @@ head:
 
 # Swaps
 
+## Theory
+
 To Polkaswap means to exchange (swap) tokens on [Polkaswap](https://polkaswap.io/). Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.
 
 There are 3 main use cases for Polkaswap:
@@ -33,9 +35,7 @@ We recommend using the SORA testnet for practice exercises. Here are the Testnet
    :::
    In the practice section we'll Swap tokens. Providing and Removing the liquidity will be explained in subsequent articles.
 
-### Swap
-
-#### Via Polkaswap
+### Via Polkaswap
 
 Swapping tokens means exchanging from token A to token B. Polkaswap provides a user friendly interface for swapping tokens.
 

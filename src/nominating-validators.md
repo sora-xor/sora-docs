@@ -25,6 +25,8 @@ To provide some high quality validators on the network as a common good, the SOR
 - cnRrijYYHb4fWPuF9MraEvm8nvfztYDxcAZfKfN2AyKLBn81A
 - cnUDwD4nPorodyd3inwThA2yBt2dFuHTfnvKowH6dirk47Qqr
 
+## Via PolkadotJS UI
+
 To nominate a Validator successfully on the SORA network, you need:
 
 - The [Polkadot.js extension](https://polkadot.js.org/extension/) installed on your browser, with an account created and some XOR

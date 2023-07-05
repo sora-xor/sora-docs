@@ -11,6 +11,8 @@ head:
 
 # Staking
 
+## Via Polkaswap
+
 1. Navigate to the ["Staking" page](https://polkaswap.io/#/staking/demeter/) on Polkaswap.
 
 ![](.gitbook/assets/polkaswap-staking-tab.png)

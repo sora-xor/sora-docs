@@ -22,6 +22,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Getting Started",
+        collapsed: true,
         items: [
           { text: "Introduction", link: "introduction" },
           {
@@ -64,6 +65,7 @@ export default defineConfig({
       },
       {
         text: "Ecosystem",
+        collapsed: true,
         items: [
           { text: "Overview", link: "ecosystem" },
           { text: "Integrated Plan", link: "integrated-plan" },
@@ -97,36 +99,55 @@ export default defineConfig({
       },
       {
         text: "Participate in the SORA Economy",
+        collapsed: true,
         items: [
           { text: "Overview", link: "participate" },
-          { text: "Running a Node", link: "running-a-node" },
-          // { text: "Becoming a validator", link: "/tba" },
           { text: "Create an Address", link: "create-an-address" },
+          { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
           {
-            text: "Assets",
-            link: "assets",
-            collapsed: true,
-            items: [
-              { text: "Transfer", link: "transfer" },
-              { text: "Check Supply", link: "check-supply" },
-              { text: "Check Balance", link: "check-balance" },
-              { text: "Register an Asset", link: "register-an-asset" },
-              { text: "On-ramp", link: "on-ramp" },
-            ],
+            text: "Send & Receive",
+            link: "send-and-receive",
           },
           {
-            text: "Polkaswap",
+            text: "Explore the Ecosystem",
+            items: [
+              { text: "Check Supply", link: "check-supply" },
+              { text: "Explore", link: "explore" },
+              { text: "View Statistics", link: "statistics" },
+              { text: "Explore Blocks", link: "explore-blocks" },
+            ],
+          },
+          { text: "Transfer Assets", link: "transfer" },
+          { text: "Check Balance", link: "check-balance" },
+          { text: "Register an Asset", link: "register-an-asset" },
+          { text: "On-ramp", link: "on-ramp" },
+          {
+            text: "Staking",
+            items: [
+              { text: "Demeter Staking", link: "demeter-staking" },
+              {
+                text: "Staking in Fearless Wallet",
+                link: "stake-in-fearless-wallet",
+              },
+              { text: "Nominating Validators", link: "nominating-validators" },
+            ],
+          },
+
+          {
+            text: "DEX",
             collapsed: true,
             items: [
               { text: "Swap", link: "swap" },
-              { text: "Provide Liquidity", link: "/provide-liquidity" },
+              {
+                text: "Provide Liquidity to XYK Pools",
+                link: "provide-liquidity-to-xyk-pools",
+              },
               { text: "Advanced Trading", link: "advanced-trading" },
-              { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
-              { text: "Send & Receive", link: "polkaswap-send-and-receive" },
-              { text: "Staking", link: "polkaswap-staking" },
-              { text: "Explore", link: "polkaswap-explore" },
-              { text: "Statistics", link: "polkaswap-statistics" },
-              { text: "Other Features", link: "polkaswap-other-features" },
+
+              {
+                text: "Other Polkaswap Features",
+                link: "polkaswap-other-features",
+              },
             ],
           },
           {
@@ -167,20 +188,16 @@ export default defineConfig({
             ],
           },
           { text: "Referral System", link: "/referral" },
-          { text: "Explore Blocks", link: "/explore-blocks" },
           { text: "NFT", link: "nft" },
           { text: "Identity", link: "id" },
           { text: "Rewards", link: "rewards" },
           { text: "Nodes Connection", link: "nodes-connection" },
-          {
-            text: "Staking in Fearless Wallet",
-            link: "stake-in-fearless-wallet",
-          },
-          { text: "Nominating Validators", link: "nominating-validators" },
+          { text: "Running a Node", link: "running-a-node" },
         ],
       },
       {
         text: "Build",
+        collapsed: true,
         items: [
           { text: "Introduction", link: "build" },
           {
@@ -199,6 +216,7 @@ export default defineConfig({
       },
       {
         text: "Learn More",
+        collapsed: true,
         items: [
           {
             text: "Useful Links",

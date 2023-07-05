@@ -1,5 +1,7 @@
 # On-ramp
 
+## Via Polkaswap
+
 Before getting started, make sure that:
 
 - [**Metamask**](https://metamask.io/download.html) is installed in your browser with the Ethereum account that you wish to be using for MoonPay ready and connected, as tokens will be sent first to Ethereum, then to SORA using the HASHI bridge.

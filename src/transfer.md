@@ -107,7 +107,7 @@ Tap on the transaction in history to view the details:
 
 :::
 
-#### Sending Tokens Using a QR Code
+##### Sending Tokens Using a QR Code
 
 Using QR code reduces the number of mistakes and simplifies the process of entering addresses and tokens. Token information and address are encoded within the QR code, and the application decodes it.
 

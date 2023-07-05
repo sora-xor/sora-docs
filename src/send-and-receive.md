@@ -13,6 +13,8 @@ head:
 
 ## Send crypto
 
+### Via Polkaswap
+
 1. Go to the [Account tab](https://polkaswap.io/#/wallet) on Polkaswap.
 
 ![](.gitbook/assets/account-tab.png)
@@ -34,6 +36,8 @@ head:
 Done! Your transaction is now complete!
 
 ## Receive crypto
+
+### Via Polkaswap
 
 1. Go to the [Account tab](https://polkaswap.io/#/wallet) on Polkaswap.
 
