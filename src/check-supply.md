@@ -3,7 +3,7 @@
 ## Via Polkaswap
 
 ::: info
-Please consider that you would see the **total supply** (this includes locked tokens and the circulating supply) of all tokens in the network and not only the **circulating** supply of the tokens.
+Please be aware that you would see the **total supply** (this includes locked tokens and the circulating supply) of all tokens in the network and not only the **circulating** supply of the tokens.
 :::
 
 - The supply of XOR changes often because it is elastic, managed by the [token bonding curve](tbc.md).

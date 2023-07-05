@@ -30,7 +30,7 @@ You should see the council motion in the “Governance > Council“ tab:
 
 <figure><img src="/.gitbook/assets/public-voting-view-council-motion.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3**: Ask SORA Council to Vote
+**Step 3**: Ask the SORA Council to Vote
 
 Communicate with the SORA council to vote for the Council motion.
 
@@ -58,7 +58,7 @@ You should see the technical committee motion in the “Governance / Tech. comm.
 
 <figure><img src="/.gitbook/assets/public-voting-create-technical-committee-motion.png" alt=""><figcaption></figcaption></figure>
 
-**Step 6**: Ask SORA Technical Committee to Vote
+**Step 6**: Ask the SORA Technical Committee to Vote
 
 Communicate with the SORA Technical committee to vote for the motion in the “Governance / Tech. comm. / Proposals“ tab.
 

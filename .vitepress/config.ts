@@ -109,7 +109,7 @@ export default defineConfig({
             link: "send-and-receive",
           },
           {
-            text: "Explore Ecosystem",
+            text: "Explore the Ecosystem",
             items: [
               { text: "Check Supply", link: "check-supply" },
               { text: "Explore", link: "explore" },
