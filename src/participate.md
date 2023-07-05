@@ -20,6 +20,6 @@ here you will find some practical and technical information to help you take par
 - How to [run a SORA Mainnet node](running-a-node.md) and [register an identity](id.md)
 - How to [participate in governance](fast-track-public-voting.md)
 - How to [explore blocks](explore-blocks.md)
-- How to [add a token to the HASHI bridge](adding-a-token-to-a-hashi-bridge.md)
+- How to [add a token to the HASHI bridge](adding-tokens-to-hashi-bridge.md)
 - How to [switch between nodes](nodes-connection.md) in case of an
   unstable connection
