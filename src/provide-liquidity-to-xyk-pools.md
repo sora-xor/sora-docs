@@ -5,6 +5,10 @@
 
 # Liquidity Operations
 
+Everything about pool XYK liquidity provision in SORA.
+
+## Theory
+
 To Polkaswap means to exchange (_swap_) tokens on [Polkaswap](https://polkaswap.io/), Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.
 
 XYK Pools are managed by the community. Anyone can provide liquidity to any pool. Liquidity pools (XYK pools) are explained in this [video](https://www.youtube.com/watch?v=cizLhxSKrAc) on the Finemtaics YouTube channel. It's recommended to watch it in order to understand how Pools work in general.

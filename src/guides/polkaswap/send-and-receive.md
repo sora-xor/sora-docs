@@ -1,1 +1,1 @@
-The page was moved to [Connect Wallet](../../polkaswap-send-and-receive).
+The page was moved to [Connect Wallet](../../send-and-receive).

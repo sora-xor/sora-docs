@@ -2,7 +2,9 @@
 
 To specify public voting duration, you’ll need to communicate with the SORA Council and SORA Technical Committee.
 
-## Step 1: Create the Preimage
+## Via PolkadotJS UI
+
+**Step 1**: Create the Preimage
 
 Create the preimage for the root call you’d like to perform:
 
@@ -15,7 +17,7 @@ Create the preimage for the root call you’d like to perform:
 4. Copy the preimage hash.
 5. Submit the preimage.
 
-## Step 2: Create a Council Motion
+**Step 2**: Create a Council Motion
 
 To create a council motion:
 
@@ -28,11 +30,11 @@ You should see the council motion in the “Governance > Council“ tab:
 
 <figure><img src="/.gitbook/assets/public-voting-view-council-motion.png" alt=""><figcaption></figcaption></figure>
 
-## Step 3: Ask SORA Council to Vote
+**Step 3**: Ask the SORA Council to Vote
 
 Communicate with the SORA council to vote for the Council motion.
 
-## Step 4: Close Council Motion
+**Step 4**: Close Council Motion
 
 1. After the council has voted for the council motion, wait for the external proposal to reach the end of the external proposal queue.
 2. Press “Close“ at the council motion and perform the `council.close` call:
@@ -43,7 +45,7 @@ You should see the external proposal in the “Governance“ tab:
 
 <figure><img src="/.gitbook/assets/public-voting-view-external-proposal.png" alt=""><figcaption></figcaption></figure>
 
-## Step 5: Create a Technical Committee Motion
+**Step 5**: Create a Technical Committee Motion
 
 To create a technical committee motion you need to use technical committee member’s account:
 
@@ -56,11 +58,11 @@ You should see the technical committee motion in the “Governance / Tech. comm.
 
 <figure><img src="/.gitbook/assets/public-voting-create-technical-committee-motion.png" alt=""><figcaption></figcaption></figure>
 
-## Step 6: Ask SORA Technical Committee to Vote
+**Step 6**: Ask the SORA Technical Committee to Vote
 
 Communicate with the SORA Technical committee to vote for the motion in the “Governance / Tech. comm. / Proposals“ tab.
 
-## Step 7: Close Technical Committee Motion
+**Step 7**: Close Technical Committee Motion
 
 When the Technical Committee has voted for the motion and you’re ready for a public referendum, press “Close“ on the Technical committee motion and perform the `technicalCommittee.close` call:
 
