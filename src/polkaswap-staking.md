@@ -1,3 +1,14 @@
+---
+title: "Staking on Polkaswap | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about staking on Polkaswap, the decentralized exchange of the Sora Network. Discover how staking works, the benefits of staking your assets, and the step-by-step process to participate in staking and earn rewards on Polkaswap."
+  - - meta
+    - name: keywords
+      content: "staking, Polkaswap, Sora Network, decentralized exchange, staking benefits, earn rewards"
+---
+
 # Staking
 
 1. Navigate to the ["Staking" page](https://polkaswap.io/#/staking/demeter/) on Polkaswap.

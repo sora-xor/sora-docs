@@ -1,3 +1,50 @@
+---
+title: Introduction to Sora - Decentralized Autonomous Economy | Sora Network
+head:
+  - - meta
+    - name: viewport
+      content: width=device-width, initial-scale=1.0
+  - - meta
+    - name: description
+      content: Get introduced to Sora - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the Sora Network, XOR token, and key features.
+  - - meta
+    - name: keywords
+      content: Sora, Sora Network, XOR token, decentralized autonomous economy, fair financial system, sustainable financial system, key features
+  - - meta
+    - name: author
+      content: Sora Network
+  - - meta
+    - property: og:title
+      content: Introduction to Sora - Decentralized Autonomous Economy | Sora Network
+  - - meta
+    - property: og:description
+      content: Get introduced to Sora - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the Sora Network, XOR token, and key features.
+  - - meta
+    - property: og:type
+      content: website
+  - - meta
+    - property: og:site_name
+      content: Sora Network
+  - - meta
+    - property: og:locale
+      content: en_US
+  - - meta
+    - name: twitter:card
+      content: summary
+  - - meta
+    - name: twitter:title
+      content: Introduction to Sora - Decentralized Autonomous Economy | Sora Network
+  - - meta
+    - name: twitter:description
+      content: Get introduced to Sora - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the Sora Network, XOR token, and key features.
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
+---
+
 # Introduction
 
 The community envisions a New Economic World Order, one that is truly decentralized and democratic. SORA is building to deliver financial inclusion for all without discrimination and providing a better method to manage day-to-day finances.

@@ -1,8 +1,51 @@
 ---
+title: "Sora Economy - Decentralized Economic System | Sora Network"
 head:
   - - link
     - rel: stylesheet
       href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Discover the Sora economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the Sora Network, XOR token, and economic mechanisms."
+  - - meta
+    - name: keywords
+      content: "Sora, Sora Network, XOR token, Sora economy, decentralized economic system, fairness, stability, inclusivity, economic mechanisms"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Sora Economy - Decentralized Economic System | Sora Network"
+  - - meta
+    - property: og:description
+      content: "Discover the Sora economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the Sora Network, XOR token, and economic mechanisms."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "Sora Network"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Sora Economy - Decentralized Economic System | Sora Network"
+  - - meta
+    - name: twitter:description
+      content: "Discover the Sora economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the Sora Network, XOR token, and economic mechanisms."
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
 ---
 
 # SORA: The New Economic Order

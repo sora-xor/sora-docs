@@ -1,3 +1,53 @@
+---
+title: "Sora Governance - Decentralized Governance for Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Explore Sora Governance - a decentralized governance system empowering participants to shape the future of the Sora Network. Learn about voting, proposals, and decision-making processes."
+  - - meta
+    - name: keywords
+      content: "Sora Governance, decentralized governance, Sora Network, voting, proposals, decision-making"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Sora Governance - Decentralized Governance for Sora Network | Sora Docs"
+  - - meta
+    - property: og:description
+      content: "Explore Sora Governance - a decentralized governance system empowering participants to shape the future of the Sora Network. Learn about voting, proposals, and decision-making processes."
+  - - meta
+    - property: og:url
+      content: "/sora-governance"
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "Sora Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Sora Governance - Decentralized Governance for Sora Network | Sora Docs"
+  - - meta
+    - name: twitter:description
+      content: "Explore Sora Governance - a decentralized governance system empowering participants to shape the future of the Sora Network. Learn about voting, proposals, and decision-making processes."
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
+---
+
 # SORA Governance
 
 SORA governance is still in development. The current version uses the standard [Polkadot governance implementation](https://wiki.polkadot.network/docs/maintain-guides-democracy).

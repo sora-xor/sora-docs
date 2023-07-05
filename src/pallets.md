@@ -1,3 +1,14 @@
+---
+title: "Sora Pallets | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore the Sora Pallets, which are modular components of the Sora Network's runtime system. Learn about the different pallets and their functionalities, including governance, staking, treasury, identity, and more. Discover how pallets enable the customization and extensibility of the Sora Network, allowing for the development of diverse blockchain applications."
+  - - meta
+    - name: keywords
+      content: "Sora Pallets, Sora Network, runtime system, modular components, governance, staking, treasury, identity, blockchain applications, customization, extensibility"
+---
+
 # Pallets
 
 In the context of SORA, pallets play a crucial role in the development of the network and its associated applications. SORA is a decentralized autonomous economy (DAE) built on the [Substrate](https://substrate.io/) framework, and it utilizes Substrate's [pallets](https://docs.substrate.io/learn/welcome-to-substrate/) to implement its specific functionalities and features.

@@ -1,3 +1,14 @@
+---
+title: "Sora ID | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about Sora ID, a decentralized digital identity solution on the Sora Network. Discover how Sora ID enables users to manage their digital identities securely, interact with decentralized applications, and engage in trustless transactions within the Sora ecosystem."
+  - - meta
+    - name: keywords
+      content: "Sora ID, digital identity, decentralized identity, Sora Network, decentralized applications, trustless transactions, Sora ecosystem"
+---
+
 # Identity
 
 SORA allows you to store profile information in order to identify and discover people across the network. It's convenient for users to use the identity and registrar features. A tutorial is provided below on how to set up an identity for yourself.

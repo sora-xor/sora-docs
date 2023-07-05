@@ -1,3 +1,14 @@
+---
+title: "Polkaswap Statistics and Metrics | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore the latest statistics and metrics of Polkaswap, the decentralized exchange on the Sora Network. Discover key data such as trading volumes, liquidity levels, price charts, and other insightful metrics that provide a comprehensive view of the activity and performance of Polkaswap."
+  - - meta
+    - name: keywords
+      content: "Polkaswap statistics, Sora Network, decentralized exchange, trading volumes, liquidity levels, price charts, metrics"
+---
+
 # Statistics
 
 The ["Statistics" page](https://polkaswap.io/#/stats) provides important information about the transactions, accounts, fees, and token supply on Polkaswap.io. It includes charts and data for different timeframes, allowing users to analyze the platform's performance over time.

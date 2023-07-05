@@ -1,3 +1,14 @@
+---
+title: "Advanced Trading on the Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore advanced trading strategies and features on the Sora Network's Polkaswap decentralized exchange. Learn about limit orders, stop-loss orders, and other advanced trading functionalities that enable you to optimize your trading activities and take advantage of market opportunities within the Sora ecosystem."
+  - - meta
+    - name: keywords
+      content: "advanced trading, Sora Network, Polkaswap, limit orders, stop-loss orders, trading functionalities, Sora ecosystem"
+---
+
 # Advanced Trading
 
 To Polkaswap means to exchange (swap) tokens on [Polkaswap](https://polkaswap.io/), Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.

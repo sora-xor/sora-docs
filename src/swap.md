@@ -1,3 +1,14 @@
+---
+title: "Swap on the Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn how to swap digital assets on the Sora Network using the Polkaswap decentralized exchange. Discover the benefits of swapping assets directly on-chain, the available trading pairs, and the process of executing a swap transaction securely and efficiently."
+  - - meta
+    - name: keywords
+      content: "swap, Sora Network, Polkaswap, decentralized exchange, trading pairs, on-chain swapping, swap transaction"
+---
+
 # Swaps
 
 To Polkaswap means to exchange (swap) tokens on [Polkaswap](https://polkaswap.io/). Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.

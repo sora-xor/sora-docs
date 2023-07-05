@@ -1,3 +1,35 @@
+---
+title: "Sora Integrated Plan - Roadmap for Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Discover the Integrated Plan of the Sora Network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the Sora ecosystem. Learn about upcoming features, advancements, and initiatives driving Sora's mission towards a decentralized and sustainable financial system."
+  - - meta
+    - name: keywords
+      content: "Integrated Plan, Sora Network roadmap, strategic vision, milestones, Sora ecosystem, decentralized financial system, sustainable financial system"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Sora Integrated Plan - Roadmap for Sora Network | Sora Docs"
+  - - meta
+    - property: og:description
+      content: "Discover the Integrated Plan of the Sora Network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the Sora ecosystem. Learn about upcoming features, advancements, and initiatives driving Sora's mission towards a decentralized and sustainable financial system."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "Sora Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+---
+
 # Integrated Plan
 
 🎉 The SORA Ecosystem Integrated Plan is live! This means that tracking development progress for the network is now better and more streamlined, as completion percentages for the different tracks and tasks are provided so that you have a better context of what is going on.

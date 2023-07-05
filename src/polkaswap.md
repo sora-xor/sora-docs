@@ -1,3 +1,41 @@
+---
+title: "Polkaswap - Decentralized Exchange on Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore Polkaswap - the decentralized exchange built on the Sora Network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
+  - - meta
+    - name: keywords
+      content: "Polkaswap, decentralized exchange, Sora Network, token swapping, liquidity provision, liquidity solutions"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Polkaswap - Decentralized Exchange on Sora Network | Sora Docs"
+  - - meta
+    - property: og:description
+      content: "Explore Polkaswap - the decentralized exchange built on the Sora Network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "Sora Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Polkaswap - Decentralized Exchange on Sora Network | Sora Docs"
+  - - meta
+    - name: twitter:description
+      content: "Explore Polkaswap - the decentralized exchange built on the Sora Network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
+---
+
 # Polkaswap
 
 Polkaswap is a next-generation, cross-chain liquidity aggregator DEX protocol for swapping tokens based on the Polkadot (and Kusama) network(s), Parachains, and blockchains connected via bridges. Through the development of bridge technologies, Polkaswap enables Ethereum-based tokens to be traded. This is done seamlessly, at high speed and low fees, while exchanging assets in a non-custodial manner on the SORA network.

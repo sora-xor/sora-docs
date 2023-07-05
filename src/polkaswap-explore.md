@@ -1,3 +1,14 @@
+---
+title: "Explore Polkaswap on the Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore the features and functionalities of Polkaswap, the decentralized exchange on the Sora Network. Discover the available trading pairs, liquidity pools, and advanced trading options. Learn how Polkaswap empowers users to trade and provide liquidity in a secure and efficient manner within the Sora ecosystem."
+  - - meta
+    - name: keywords
+      content: "explore Polkaswap, Sora Network, decentralized exchange, trading pairs, liquidity pools, advanced trading, Sora ecosystem"
+---
+
 # Explore
 
 The ["Explore" page](https://polkaswap.io/#/explore/demeter/farming) in Polkaswap.io is designed to help users discover and participate in decentralized finance activities such as pooling and staking, as well as discover information on the tokens currently available. It has several tabs that provide access to different sections of the platform. Here is a breakdown of each tab:

@@ -1,3 +1,14 @@
+---
+title: "Fast Track Public Voting | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about the Fast Track Public Voting process on the Sora Network. Discover how the community participates in voting for project proposals, and how fast-track voting enables rapid decision-making and funding allocation for valuable projects within the Sora ecosystem."
+  - - meta
+    - name: keywords
+      content: "Fast Track Public Voting, Sora Network, community voting, project proposals, decision-making, funding allocation, Sora ecosystem"
+---
+
 # Fast Track Public Voting
 
 To specify public voting duration, you’ll need to communicate with the SORA Council and SORA Technical Committee.

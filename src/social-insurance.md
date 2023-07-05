@@ -1,3 +1,14 @@
+---
+title: "Social Insurance on the Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about social insurance on the Sora Network and how it promotes social safety nets and risk-sharing within the Sora ecosystem. Discover how social insurance mechanisms work, their benefits, and how they contribute to building a more inclusive and sustainable financial system on the Sora Network."
+  - - meta
+    - name: keywords
+      content: "social insurance, Sora Network, social safety nets, risk-sharing, inclusive financial system, sustainable financial system, Sora ecosystem"
+---
+
 # Social Insurance for Systematically Important Infrastructure
 
 ## TL;DR

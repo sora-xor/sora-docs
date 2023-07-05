@@ -1,3 +1,14 @@
+---
+title: "Node Connections on the Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about node connections on the Sora Network and understand how nodes communicate and interact with each other. Discover the importance of node connections in maintaining network stability, security, and consensus, and explore the different types of node connections within the Sora ecosystem."
+  - - meta
+    - name: keywords
+      content: "node connections, Sora Network, node communication, network stability, network security, network consensus, Sora ecosystem"
+---
+
 # Nodes Connection
 
 SORA is a decentralized network. This means that anyone can run a node and send transactions to this node. Anyone is able to run a sync, archive or validator node. The Polkaswap application supports node selection features. To be precise: You can select a node in the Polkaswap user interface without any additional development. You can also specify a custom node, except the predefined application nodes.

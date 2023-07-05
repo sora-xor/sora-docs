@@ -1,3 +1,14 @@
+---
+title: "Nominating Validators | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn how to nominate validators on the Sora Network and participate in the consensus mechanism. Discover the process of selecting and nominating validators, understand their role in securing the network, and actively contribute to the decentralized governance of the Sora ecosystem."
+  - - meta
+    - name: keywords
+      content: "nominating validators, Sora Network, consensus mechanism, select validators, nominate validators, network security, decentralized governance, Sora ecosystem"
+---
+
 # Nominating Validators
 
 Nominating validators is an important part of the SORA ecosystem as it helps to secure and decentralize the network. While you can nominate any validator, you should do your own research to make sure the validators you nominate are high quality and won't attack the network. If validators cause harm to the network, you will lose money as a nominator!

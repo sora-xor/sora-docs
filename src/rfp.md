@@ -1,3 +1,23 @@
+---
+title: "Request for Proposals (RFP) in Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about the Request for Proposals (RFP) process in the Sora Network. Discover how the RFP system enables community members to propose and contribute to the development of the Sora ecosystem by submitting project proposals and collaborating with the Sora team."
+  - - meta
+    - name: keywords
+      content: "Request for Proposals, RFP process, Sora Network, community proposals, project collaboration, Sora ecosystem development"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Request for Proposals (RFP) in Sora Network | Sora Docs"
+  - - meta
+    - property: og:description
+      content: "Learn about the Request for Proposals (RFP) process in the Sora Network. Discover how the RFP system enables community members to propose and contribute to the development of the Sora ecosystem by submitting project proposals and collaborating with the Sora team."
+---
+
 # How To RFP, Proposing New Functionalities to Polkaswap and the SORA Network
 
 ### TL;DR

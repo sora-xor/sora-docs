@@ -1,3 +1,47 @@
+---
+title: "Sora Ecosystem - Decentralized Economic System | Sora Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Explore the Sora Ecosystem - a decentralized economic system comprising the Sora Network, Polkaswap, XOR token, and more. Learn about the interconnected components and innovative features driving Sora's vision for a fair and sustainable financial system."
+  - - meta
+    - name: keywords
+      content: "Sora Ecosystem, Sora Network, Polkaswap, XOR token, decentralized economic system, fair financial system, sustainable financial system"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Sora Ecosystem - Decentralized Economic System | Sora Docs"
+  - - meta
+    - property: og:description
+      content: "Explore the Sora Ecosystem - a decentralized economic system comprising the Sora Network, Polkaswap, XOR token, and more. Learn about the interconnected components and innovative features driving Sora's vision for a fair and sustainable financial system."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "Sora Docs"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Sora Ecosystem - Decentralized Economic System | Sora Docs"
+  - - meta
+    - name: twitter:description
+      content: "Explore the Sora Ecosystem - a decentralized economic system comprising the Sora Network, Polkaswap, XOR token, and more. Learn about the interconnected components and innovative features driving Sora's vision for a fair and sustainable financial system."
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
+---
+
 # The SORA Ecosystem
 
 SORA is a community-first network within the Substrate ecosystem. As

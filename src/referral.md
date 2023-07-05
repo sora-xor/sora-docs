@@ -1,3 +1,14 @@
+---
+title: "Sora Referral Program | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about the Sora Referral Program and how you can earn rewards by referring new users to the Sora Network. Discover the benefits of participating in the referral program, the referral process, and the rewards you can earn for helping grow the Sora ecosystem."
+  - - meta
+    - name: keywords
+      content: "Sora Referral Program, Sora Network, referral rewards, referral process, user referrals, Sora ecosystem"
+---
+
 # Referral System
 
 The referral system motivates users to involve new users in the SORA economy. When you invite people, you are the **referrer**. As a referrer, you’ll get 10% of your referral’s network fees. One referrer can have as many referrals as they like. Each referral can have only one referrer.

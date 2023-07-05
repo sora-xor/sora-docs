@@ -1,3 +1,14 @@
+---
+title: "Build on the Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Discover how to build on the Sora Network and leverage its infrastructure to develop decentralized applications (dApps). Learn about the tools, resources, and documentation available to developers, and explore the opportunities for innovation and collaboration within the Sora ecosystem."
+  - - meta
+    - name: keywords
+      content: "build on Sora Network, decentralized applications, dApps, infrastructure, developers, tools, resources, documentation, Sora ecosystem"
+---
+
 # Build on SORA
 
 The SORA network is actively seeking new builders to take advantage of the cutting edge technology and governance available on the network.

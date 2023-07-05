@@ -1,3 +1,50 @@
+---
+title: "Sora FAQ - Frequently Asked Questions about Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Find answers to frequently asked questions (FAQ) about Sora - a decentralized economic system built on the Sora Network. Get insights on XOR token, staking, governance, and more."
+  - - meta
+    - name: keywords
+      content: "Sora FAQ, frequently asked questions, Sora Network, XOR token, staking, governance"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Sora FAQ - Frequently Asked Questions about Sora Network | Sora Docs"
+  - - meta
+    - property: og:description
+      content: "Find answers to frequently asked questions (FAQ) about Sora - a decentralized economic system built on the Sora Network. Get insights on XOR token, staking, governance, and more."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "Sora Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Sora FAQ - Frequently Asked Questions about Sora Network | Sora Docs"
+  - - meta
+    - name: twitter:description
+      content: "Find answers to frequently asked questions (FAQ) about Sora - a decentralized economic system built on the Sora Network. Get insights on XOR token, staking, governance, and more."
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
+---
+
 # SORA FAQ
 
 ## What is SORA built on?

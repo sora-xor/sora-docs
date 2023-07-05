@@ -1,3 +1,50 @@
+---
+title: "Sora Academy - Empowering Education for Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Discover the Sora Academy - an educational resource providing in-depth knowledge about the Sora Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with Sora Academy."
+  - - meta
+    - name: keywords
+      content: "Sora Academy, Sora Network, decentralized finance, blockchain technology, education, learning"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Sora Academy - Empowering Education for Sora Network | Sora Docs"
+  - - meta
+    - property: og:description
+      content: "Discover the Sora Academy - an educational resource providing in-depth knowledge about the Sora Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with Sora Academy."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "Sora Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Sora Academy - Empowering Education for Sora Network | Sora Docs"
+  - - meta
+    - name: twitter:description
+      content: "Discover the Sora Academy - an educational resource providing in-depth knowledge about the Sora Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with Sora Academy."
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
+---
+
 # SORA Academy
 
 Thanks to blockchain technology, finance has become more inclusive and

@@ -1,3 +1,50 @@
+---
+title: "Sora Changelog - Latest Updates and Releases for Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Stay updated with the latest changes and updates in Sora Network. Explore the Sora Changelog for a comprehensive list of releases, improvements, and new features implemented in Sora's decentralized economic system."
+  - - meta
+    - name: keywords
+      content: "Sora Changelog, Sora Network updates, Sora releases, decentralized economic system, new features, improvements"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Sora Changelog - Latest Updates and Releases for Sora Network | Sora Docs"
+  - - meta
+    - property: og:description
+      content: "Stay updated with the latest changes and updates in Sora Network. Explore the Sora Changelog for a comprehensive list of releases, improvements, and new features implemented in Sora's decentralized economic system."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "Sora Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Sora Changelog - Latest Updates and Releases for Sora Network | Sora Docs"
+  - - meta
+    - name: twitter:description
+      content: "Stay updated with the latest changes and updates in Sora Network. Explore the Sora Changelog for a comprehensive list of releases, improvements, and new features implemented in Sora's decentralized economic system."
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
+---
+
 # SORA Network Development Changelog
 
 The SORA network and SORA builders are contantly working to improve

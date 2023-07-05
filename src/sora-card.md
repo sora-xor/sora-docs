@@ -1,3 +1,44 @@
+---
+title: "Sora Card - Versatile Payment Card | Sora Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Discover the Sora Card - a versatile payment card designed to provide users with seamless access to their digital assets. Learn about the features, benefits, and integration of the Sora Card within the Sora ecosystem, enabling secure and convenient transactions both online and offline."
+  - - meta
+    - name: keywords
+      content: "Sora Card, payment card, digital assets, Sora ecosystem, secure transactions, convenient transactions"
+  - - meta
+    - name: author
+      content: "Sora Network"
+  - - meta
+    - property: og:title
+      content: "Sora Card - Versatile Payment Card | Sora Docs"
+  - - meta
+    - property: og:description
+      content: "Discover the Sora Card - a versatile payment card designed to provide users with seamless access to their digital assets. Learn about the features, benefits, and integration of the Sora Card within the Sora ecosystem, enabling secure and convenient transactions both online and offline."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "Sora Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Sora Card - Versatile Payment Card | Sora Docs"
+  - - meta
+    - name: twitter:description
+      content: "Discover the Sora Card - a versatile payment card designed to provide users with seamless access to their digital assets. Learn about the features, benefits, and integration of the Sora Card within the Sora ecosystem, enabling secure and convenient transactions both online and offline."
+---
+
 # SORA Card
 
 ## Key features of SORA Card

@@ -1,3 +1,14 @@
+---
+title: "Useful Links for the Sora Network | Sora Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore a collection of useful links for the Sora Network, including official websites, community resources, developer tools, and more. Access important resources and stay connected with the Sora community by leveraging these curated links that provide valuable information and support for participants in the Sora ecosystem."
+  - - meta
+    - name: keywords
+      content: "useful links, Sora Network, official websites, community resources, developer tools, Sora community, Sora ecosystem"
+---
+
 # Useful Links
 
 Here are some links to articles covering the SORA philosphy, as well
