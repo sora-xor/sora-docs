@@ -13,7 +13,7 @@ Requirements:
 
 Follow these steps to set up an identity:
 
-1. Go to the [Polkadot JS Apps pointing at the Sora Mainnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/accounts) account's tab:
+1. Go to the [Polkadot JS Apps pointing at the Sora Mainnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.mof.sora.org#/accountss) account's tab:
 
 2. Click on the hamburger menu icon on the account you wish to register an identity for. Then select "Set on-chain identity":
 
