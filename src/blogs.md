@@ -1,5 +1,5 @@
 ---
-title: "Sora Network Blogs | Sora Docs"
+title: "SORA Network Blogs | SORA Docs"
 head:
   - - meta
     - name: description
