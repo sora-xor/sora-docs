@@ -128,7 +128,7 @@ Using QR code reduces the number of mistakes and simplifies the process of enter
 
 2. Scan the QR code and then enter the amount of tokens that you'd like to send.
 
-<!-- Probably not needed <center><img src=".gitbook/assets/Screenshot_20210915-101737_SORAlution.jpg" width="400"></center> -->
+<!-- Probably not needed <center><img src=".gitbook/assets/Screenshot_20210915-101737_Soralution.jpg" width="400"></center> -->
 <center><img src=".gitbook/assets/transfer-mobile-qr-enter-amount.jpg" width="400"></center>
 
 #### Receiving Tokens Using a QR Code
