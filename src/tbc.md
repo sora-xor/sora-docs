@@ -3,10 +3,10 @@ title: TBC Token | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about TBC (Token Bonding Curve), a unique token model on the SORA network. Discover the features, mechanics, and benefits of TBC, including its continuous token issuance and bonding curve mechanism. Explore how TBC fosters liquidity, stability, and community participation within the SORA ecosystem.
+      content: Learn about the TBC (Token Bonding Curve), a unique token model on the SORA network. Discover the features, mechanics, and benefits of the TBC, including its continuous token issuance and bonding curve mechanism. Explore how the TBC fosters liquidity, stability, and community participation within the SORA ecosystem.
   - - meta
     - name: keywords
-      content: TBC token, Token Bonding Curve, SORA network, continuous token issuance, bonding curve mechanism, liquidity, stability, community participation, SORA ecosystem
+      content: Token Bonding Curve, SORA network, continuous token issuance, bonding curve mechanism, liquidity, stability, community participation, SORA ecosystem
 ---
 
 # Token Bonding Curve

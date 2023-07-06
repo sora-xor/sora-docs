@@ -17,7 +17,7 @@ Similar to the flow used to nominate [Polkadot](https://polkadot.network/) and [
 
 Please let us know if you have any issues with this feature on our [Support Channel](https://t.me/fearlesshappiness) or would like to suggest more fearless improvements in our [Telegram Community](https://t.me/fearlesswallet).
 
-## Nominate SORA network Validators
+## Nominate SORA Network Validators
 
 Here is a quick guide to SORA network staking on Fearless Wallet:
 

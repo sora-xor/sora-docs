@@ -6,7 +6,7 @@ head:
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Stay updated with the latest changes and updates in SORA network. Explore the SORA Changelog for a comprehensive list of releases, improvements, and new features implemented in SORA's decentralized economic system."
+      content: "Stay updated with the latest changes and updates in the SORA network. Explore the SORA Changelog for a comprehensive list of releases, improvements, and new features implemented in SORA's decentralized economic system."
   - - meta
     - name: keywords
       content: "SORA Changelog, SORA network updates, SORA releases, decentralized economic system, new features, improvements"
@@ -15,10 +15,10 @@ head:
       content: "SORA network"
   - - meta
     - property: og:title
-      content: "SORA Changelog - Latest Updates and Releases for SORA network | SORA Docs"
+      content: "SORA Changelog - Latest Updates and Releases for the SORA network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Stay updated with the latest changes and updates in SORA network. Explore the SORA Changelog for a comprehensive list of releases, improvements, and new features implemented in SORA's decentralized economic system."
+      content: "Stay updated with the latest changes and updates in the SORA network. Explore the SORA Changelog for a comprehensive list of releases, improvements, and new features implemented in SORA's decentralized economic system."
   - - meta
     - property: og:type
       content: "website"
@@ -33,10 +33,10 @@ head:
       content: "summary"
   - - meta
     - name: twitter:title
-      content: "SORA Changelog - Latest Updates and Releases for SORA network | SORA Docs"
+      content: "SORA Changelog - Latest Updates and Releases for the SORA network | SORA Docs"
   - - meta
     - name: twitter:description
-      content: "Stay updated with the latest changes and updates in SORA network. Explore the SORA Changelog for a comprehensive list of releases, improvements, and new features implemented in SORA's decentralized economic system."
+      content: "Stay updated with the latest changes and updates in the SORA network. Explore the SORA Changelog for a comprehensive list of releases, improvements, and new features implemented in SORA's decentralized economic system."
   - - meta
     - name: twitter:site
       content: "@sora_xor"

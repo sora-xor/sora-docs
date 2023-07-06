@@ -3,7 +3,7 @@ title: PSWAP Token | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about PSWAP, the utility token of Polkaswap, the decentralized exchange on the SORA network. Discover the features, use cases, and benefits of PSWAP within the Polkaswap ecosystem. Explore its role in governance, fee discounts, liquidity mining, and other activities, and understand how PSWAP enhances the functionality and incentivizes participation in Polkaswap.
+      content: Learn about PSWAP, the utility token of Polkaswap, the decentralized exchange on the SORA network. Discover the features, use cases, and benefits of PSWAP within the Polkaswap ecosystem. Explore its role in governance, fee discounts, liquidity provision, and other activities, and understand how PSWAP enhances functionality and incentivizes participation in Polkaswap.
   - - meta
     - name: keywords
       content: PSWAP token, Polkaswap, SORA network, governance, fee discounts, liquidity mining, Polkaswap ecosystem, token functionality, participation incentives
@@ -41,4 +41,4 @@ Additionally, special rewards to strategic purchasers of XOR during the special 
 
 **Example:** Let's assume that buyback and burn from transaction fees for a day resulted in 10,000 PSWAP being burned. If the daily reward is 80%, then 8,000 new PSWAP tokens are given out proportionally across all liquidity providers and 1,000 PSWAP tokens are given to the SORA Parliament and 1,000 PSWAP are distributed between the participants of the bonus strategic programs
 
-Since more PSWAP tokens are always burned than minted, PSWAP tokens are deflationary by nature. 600,000,000+ PSWAP tokens were created in the genesis event. PSWAP future token value is not dependent on the effort of the Polkaswap or SORAmitsu team. In the future new PSWAP tokens may be minted by governance decisions of the SORA Parliament.
+Since more PSWAP tokens are always burned than minted, PSWAP tokens are deflationary by nature. 600,000,000+ PSWAP tokens were created in the genesis event. PSWAP future token value is not dependent on the effort of the Polkaswap or the SORAMITSU team. In the future new PSWAP tokens may be minted by governance decisions of the SORA Parliament.
