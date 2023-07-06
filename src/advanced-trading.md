@@ -6,7 +6,7 @@ head:
       content: "Explore advanced trading strategies and features on the SORA network's Polkaswap decentralized exchange. Learn about limit orders, stop-loss orders, and other advanced trading functionalities that enable you to optimize your trading activities and take advantage of market opportunities within the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "advanced trading, Sora Network, Polkaswap, limit orders, stop-loss orders, trading functionalities, Sora ecosystem"
+      content: "advanced trading, SORA network, Polkaswap, limit orders, stop-loss orders, trading functionalities, SORA ecosystem"
 ---
 
 # Advanced Trading
