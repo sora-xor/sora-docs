@@ -3,7 +3,7 @@ title: "Advanced Trading on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Explore advanced trading strategies and features on the Sora Network's Polkaswap decentralized exchange. Learn about limit orders, stop-loss orders, and other advanced trading functionalities that enable you to optimize your trading activities and take advantage of market opportunities within the Sora ecosystem."
+      content: "Explore advanced trading strategies and features on the SORA network's Polkaswap decentralized exchange. Learn about limit orders, stop-loss orders, and other advanced trading functionalities that enable you to optimize your trading activities and take advantage of market opportunities within the SORA ecosystem."
   - - meta
     - name: keywords
       content: "advanced trading, Sora Network, Polkaswap, limit orders, stop-loss orders, trading functionalities, Sora ecosystem"
