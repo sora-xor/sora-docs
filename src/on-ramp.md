@@ -22,8 +22,6 @@ Follow these steps to get started:
 
     <center><img src="/.gitbook/assets/on-ramp-select-tokens.png" width="400"></center>
 
-   ![](<.gitbook/assets/foto2(1).png>)
-
 3. On the next screen, the Metamask extension will pop up a request for you to select an account (_if you have multiple Metamask wallets_). Once you confirm, [MoonPay](https://www.moonpay.com/) will automatically connect your Metamask account address.
 
    - If everything is ok, click **Continue**.
@@ -54,11 +52,9 @@ Follow these steps to get started:
 
 6. Wait for the transaction to be processed. You may close the window (and browser) safely at any time and come back to it later. You will also be notified via email by [MoonPay](https://www.moonpay.com/) once the transaction is completed or if there are any issues.
 
-    <center><img src="/.gitbook/assets/on-ramp-transaction-processing.png" width="400"></center>
+   <center><img src="/.gitbook/assets/on-ramp-transaction-processing.png" width="400"></center>
 
-   ![](.gitbook/assets/foto5.png)
-
-    <center><img src="/.gitbook/assets/on-ramp-tokens-purchased.png" width="400"></center>
+   <center><img src="/.gitbook/assets/on-ramp-tokens-purchased.png" width="400"></center>
 
 7. Once the tokens have been received in your Ethereum account (that is also actively connected to the Polkaswap site), the modal window to start the HASHI bridge transaction will appear automatically.
 

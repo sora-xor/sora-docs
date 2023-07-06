@@ -70,13 +70,9 @@ To create a pool:
 
    ![](.gitbook/assets/provide-liquidity-token-pair-already-exists.png)
 
-   ![](<.gitbook/assets/Untitled(1)(14).png>)
-
    Oooops! The trading pair for XOR-VAL is already created. It means that someone has already created a pool with this trading pair and provided the liquidity.
 
    ![](.gitbook/assets/provide-liquidity-create-new-pair.png)
-
-   ![](<.gitbook/assets/Untitled(2)(10).png>)
 
    ::: info
    Pay attention when you're the first liquidity provider. The ratio of tokens will set the price of this pool.

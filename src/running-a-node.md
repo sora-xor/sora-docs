@@ -291,7 +291,7 @@ Now your node should sync!
 
 7. Finally, wait for the next Era.
 
-   ![](/.gitbook/assets/6running-node-wait-for-next-era.png)
+   ![](/.gitbook/assets/running-node-wait-for-next-era.png)
 
 When the next Era starts, your validator will be added.
 
