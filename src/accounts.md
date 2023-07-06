@@ -1,5 +1,5 @@
 ---
-title: "Accounts on the Sora Network | Sora Docs"
+title: "Accounts on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
