@@ -6,25 +6,25 @@ head:
       content: width=device-width, initial-scale=1.0
   - - meta
     - name: description
-      content: Get introduced to SORA - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the SORA Network, XOR token, and key features.
+      content: Get introduced to SORA - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the SORA network, XOR token, and key features.
   - - meta
     - name: keywords
-      content: SORA, SORA Network, XOR token, decentralized autonomous economy, fair financial system, sustainable financial system, key features
+      content: SORA, SORA network, XOR token, decentralized autonomous economy, fair financial system, sustainable financial system, key features
   - - meta
     - name: author
-      content: SORA Network
+      content: SORA network
   - - meta
     - property: og:title
-      content: Introduction to SORA - Decentralized Autonomous Economy | SORA Network
+      content: Introduction to SORA - Decentralized Autonomous Economy | SORA network
   - - meta
     - property: og:description
-      content: Get introduced to SORA - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the SORA Network, XOR token, and key features.
+      content: Get introduced to SORA - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the SORA network, XOR token, and key features.
   - - meta
     - property: og:type
       content: website
   - - meta
     - property: og:site_name
-      content: SORA Network
+      content: SORA network
   - - meta
     - property: og:locale
       content: en_US
@@ -33,10 +33,10 @@ head:
       content: summary
   - - meta
     - name: twitter:title
-      content: Introduction to SORA - Decentralized Autonomous Economy | SORA Network
+      content: Introduction to SORA - Decentralized Autonomous Economy | SORA network
   - - meta
     - name: twitter:description
-      content: Get introduced to SORA - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the SORA Network, XOR token, and key features.
+      content: Get introduced to SORA - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the SORA network, XOR token, and key features.
   - - meta
     - name: twitter:site
       content: "@sora_xor"

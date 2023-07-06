@@ -3,10 +3,10 @@ title: "Participate in the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn how to participate in the SORA Network and contribute to its development. Discover the various ways to get involved, such as staking, voting, proposing projects, and engaging in the SORA community."
+      content: "Learn how to participate in the SORA network and contribute to its development. Discover the various ways to get involved, such as staking, voting, proposing projects, and engaging in the SORA community."
   - - meta
     - name: keywords
-      content: "participate in SORA Network, contribute to development, staking, voting, project proposals, SORA community"
+      content: "participate in SORA network, contribute to development, staking, voting, project proposals, SORA community"
 ---
 
 # Participate in SORA Economy

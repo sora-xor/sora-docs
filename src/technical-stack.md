@@ -3,10 +3,10 @@ title: "SORA Technical Stack | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Discover the technical stack of the SORA Network, which comprises the underlying technologies and frameworks used in its development. Learn about the programming languages, frameworks, protocols, and tools that power the SORA Network and enable its secure, scalable, and efficient operation."
+      content: "Discover the technical stack of the SORA network, which comprises the underlying technologies and frameworks used in its development. Learn about the programming languages, frameworks, protocols, and tools that power the SORA network and enable its secure, scalable, and efficient operation."
   - - meta
     - name: keywords
-      content: "SORA Technical Stack, SORA Network, programming languages, frameworks, protocols, tools, secure, scalable, efficient"
+      content: "SORA Technical Stack, SORA network, programming languages, frameworks, protocols, tools, secure, scalable, efficient"
 ---
 
 # SORA Technical Stack

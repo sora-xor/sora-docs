@@ -3,10 +3,10 @@ title: SORA XOR Token | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about XOR, the native token of the SORA Network. Discover the features, use cases, and benefits of XOR within the SORA ecosystem. Explore its role in governance, staking, liquidity providing, and other activities, and understand how XOR powers the decentralized economy and incentivizes active participation in the SORA Network.
+      content: Learn about XOR, the native token of the SORA network. Discover the features, use cases, and benefits of XOR within the SORA ecosystem. Explore its role in governance, staking, liquidity providing, and other activities, and understand how XOR powers the decentralized economy and incentivizes active participation in the SORA network.
   - - meta
     - name: keywords
-      content: SORA XOR token, native token, SORA Network, governance, staking, liquidity providing, decentralized economy, SORA ecosystem
+      content: SORA XOR token, native token, SORA network, governance, staking, liquidity providing, decentralized economy, SORA ecosystem
 ---
 
 # XOR (天)

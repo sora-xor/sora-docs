@@ -3,22 +3,22 @@ title: "Request for Proposals (RFP) in SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn about the Request for Proposals (RFP) process in the SORA Network. Discover how the RFP system enables community members to propose and contribute to the development of the SORA ecosystem by submitting project proposals and collaborating with the SORA team."
+      content: "Learn about the Request for Proposals (RFP) process in the SORA network. Discover how the RFP system enables community members to propose and contribute to the development of the SORA ecosystem by submitting project proposals and collaborating with the SORA team."
   - - meta
     - name: keywords
-      content: "Request for Proposals, RFP process, SORA Network, community proposals, project collaboration, SORA ecosystem development"
+      content: "Request for Proposals, RFP process, SORA network, community proposals, project collaboration, SORA ecosystem development"
   - - meta
     - name: author
-      content: "SORA Network"
+      content: "SORA network"
   - - meta
     - property: og:title
-      content: "Request for Proposals (RFP) in SORA Network | SORA Docs"
+      content: "Request for Proposals (RFP) in SORA network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Learn about the Request for Proposals (RFP) process in the SORA Network. Discover how the RFP system enables community members to propose and contribute to the development of the SORA ecosystem by submitting project proposals and collaborating with the SORA team."
+      content: "Learn about the Request for Proposals (RFP) process in the SORA network. Discover how the RFP system enables community members to propose and contribute to the development of the SORA ecosystem by submitting project proposals and collaborating with the SORA team."
 ---
 
-# How To RFP, Proposing New Functionalities to Polkaswap and the SORA Network
+# How To RFP, Proposing New Functionalities to Polkaswap and the SORA network
 
 ### TL;DR
 

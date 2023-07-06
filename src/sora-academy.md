@@ -6,19 +6,19 @@ head:
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
+      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
   - - meta
     - name: keywords
-      content: "SORA Academy, SORA Network, decentralized finance, blockchain technology, education, learning"
+      content: "SORA Academy, SORA network, decentralized finance, blockchain technology, education, learning"
   - - meta
     - name: author
-      content: "SORA Network"
+      content: "SORA network"
   - - meta
     - property: og:title
-      content: "SORA Academy - Empowering Education for SORA Network | SORA Docs"
+      content: "SORA Academy - Empowering Education for SORA network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
+      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
   - - meta
     - property: og:type
       content: "website"
@@ -33,10 +33,10 @@ head:
       content: "summary"
   - - meta
     - name: twitter:title
-      content: "SORA Academy - Empowering Education for SORA Network | SORA Docs"
+      content: "SORA Academy - Empowering Education for SORA network | SORA Docs"
   - - meta
     - name: twitter:description
-      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
+      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
   - - meta
     - name: twitter:site
       content: "@sora_xor"

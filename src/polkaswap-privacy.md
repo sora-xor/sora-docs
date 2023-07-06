@@ -3,10 +3,10 @@ title: Polkaswap Privacy | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about the privacy features and considerations on Polkaswap, the decentralized exchange on the SORA Network. Discover how Polkaswap prioritizes user privacy, safeguards personal information, and ensures secure transactions within the SORA ecosystem. Explore the privacy-enhancing measures implemented on Polkaswap to provide a safe and confidential trading experience.
+      content: Learn about the privacy features and considerations on Polkaswap, the decentralized exchange on the SORA network. Discover how Polkaswap prioritizes user privacy, safeguards personal information, and ensures secure transactions within the SORA ecosystem. Explore the privacy-enhancing measures implemented on Polkaswap to provide a safe and confidential trading experience.
   - - meta
     - name: keywords
-      content: Polkaswap privacy, SORA Network, decentralized exchange, user privacy, personal information, secure transactions, privacy-enhancing measures, SORA ecosystem
+      content: Polkaswap privacy, SORA network, decentralized exchange, user privacy, personal information, secure transactions, privacy-enhancing measures, SORA ecosystem
 ---
 
 # Privacy Policy

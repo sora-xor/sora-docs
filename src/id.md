@@ -3,10 +3,10 @@ title: "SORA ID | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn about SORA ID, a decentralized digital identity solution on the SORA Network. Discover how SORA ID enables users to manage their digital identities securely, interact with decentralized applications, and engage in trustless transactions within the SORA ecosystem."
+      content: "Learn about SORA ID, a decentralized digital identity solution on the SORA network. Discover how SORA ID enables users to manage their digital identities securely, interact with decentralized applications, and engage in trustless transactions within the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "SORA ID, digital identity, decentralized identity, SORA Network, decentralized applications, trustless transactions, SORA ecosystem"
+      content: "SORA ID, digital identity, decentralized identity, SORA network, decentralized applications, trustless transactions, SORA ecosystem"
 ---
 
 # Identity

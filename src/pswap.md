@@ -3,10 +3,10 @@ title: PSWAP Token | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about PSWAP, the utility token of Polkaswap, the decentralized exchange on the SORA Network. Discover the features, use cases, and benefits of PSWAP within the Polkaswap ecosystem. Explore its role in governance, fee discounts, liquidity mining, and other activities, and understand how PSWAP enhances the functionality and incentivizes participation in Polkaswap.
+      content: Learn about PSWAP, the utility token of Polkaswap, the decentralized exchange on the SORA network. Discover the features, use cases, and benefits of PSWAP within the Polkaswap ecosystem. Explore its role in governance, fee discounts, liquidity mining, and other activities, and understand how PSWAP enhances the functionality and incentivizes participation in Polkaswap.
   - - meta
     - name: keywords
-      content: PSWAP token, Polkaswap, SORA Network, governance, fee discounts, liquidity mining, Polkaswap ecosystem, token functionality, participation incentives
+      content: PSWAP token, Polkaswap, SORA network, governance, fee discounts, liquidity mining, Polkaswap ecosystem, token functionality, participation incentives
 ---
 
 # PSWAP

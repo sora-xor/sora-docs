@@ -3,10 +3,10 @@ title: "Other Features of Polkaswap | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Discover the other features and functionalities of Polkaswap, the decentralized exchange on the SORA Network. Explore features such as limit orders, stop-loss orders, governance participation, and more. Learn how these additional features enhance the trading experience and provide users with advanced tools and opportunities within the Polkaswap ecosystem."
+      content: "Discover the other features and functionalities of Polkaswap, the decentralized exchange on the SORA network. Explore features such as limit orders, stop-loss orders, governance participation, and more. Learn how these additional features enhance the trading experience and provide users with advanced tools and opportunities within the Polkaswap ecosystem."
   - - meta
     - name: keywords
-      content: "Polkaswap other features, SORA Network, decentralized exchange, limit orders, stop-loss orders, governance participation, advanced tools, Polkaswap ecosystem"
+      content: "Polkaswap other features, SORA network, decentralized exchange, limit orders, stop-loss orders, governance participation, advanced tools, Polkaswap ecosystem"
 ---
 
 # Other Features

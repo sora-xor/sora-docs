@@ -3,10 +3,10 @@ title: "Stake in Fearless Wallet | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn how to stake your assets in Fearless Wallet, the official mobile wallet for the SORA Network. Discover the step-by-step process to delegate your assets, earn staking rewards, and actively participate in the SORA ecosystem using Fearless Wallet."
+      content: "Learn how to stake your assets in Fearless Wallet, the official mobile wallet for the SORA network. Discover the step-by-step process to delegate your assets, earn staking rewards, and actively participate in the SORA ecosystem using Fearless Wallet."
   - - meta
     - name: keywords
-      content: "stake in Fearless Wallet, SORA Network, mobile wallet, delegate assets, staking rewards, SORA ecosystem"
+      content: "stake in Fearless Wallet, SORA network, mobile wallet, delegate assets, staking rewards, SORA ecosystem"
 ---
 
 # Staking in Fearless Wallet
@@ -17,7 +17,7 @@ Similar to the flow used to nominate [Polkadot](https://polkadot.network/) and [
 
 Please let us know if you have any issues with this feature on our [Support Channel](https://t.me/fearlesshappiness) or would like to suggest more fearless improvements in our [Telegram Community](https://t.me/fearlesswallet).
 
-## Nominate SORA Network Validators
+## Nominate SORA network Validators
 
 Here is a quick guide to SORA network staking on Fearless Wallet:
 

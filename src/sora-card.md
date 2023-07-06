@@ -12,7 +12,7 @@ head:
       content: "SORA Card, payment card, digital assets, SORA ecosystem, secure transactions, convenient transactions"
   - - meta
     - name: author
-      content: "SORA Network"
+      content: "SORA network"
   - - meta
     - property: og:title
       content: "SORA Card - Versatile Payment Card | SORA Docs"
@@ -86,7 +86,7 @@ Another distinct privacy feature of the SORA Card is the way that transaction da
 
 A final distinctive feature of SORA Card is that it brings multiple ecosystems and economies together, and allows you to transact between them in one application.
 It has always been Polkaswap’s intention to be the Decentralized Exchange for the interoperable future.
-As well as connecting all Substrate networks to the Ethereum Network and other EVM compatible networks, like Binance Smart Chain, Energy Web Chain, OKC Network, and Klaytn, the SORA Card will soon bridge the gap between these crypto currency economies and fiat currency economies.
+As well as connecting all Substrate networks to the Ethereum network and other EVM compatible networks, like Binance Smart Chain, Energy Web Chain, OKC network, and Klaytn, the SORA Card will soon bridge the gap between these crypto currency economies and fiat currency economies.
 Adding a Bitcoin bridge, as well as other bridges in the future such as the ones connecting the SORA Kusama and upcoming SORA Polkadot parachains, the SORA community envisions all your assets in one place, realised in a decentralized and self-custodial fashion, which is acceptable within regulatory frameworks.
 Next to bridging crypto economies and fiat currency economies, we are also working hard to bridge multiple fiat currency economies.
 

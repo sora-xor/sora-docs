@@ -3,10 +3,10 @@ title: "Nominating Validators | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn how to nominate validators on the SORA Network and participate in the consensus mechanism. Discover the process of selecting and nominating validators, understand their role in securing the network, and actively contribute to the decentralized governance of the SORA ecosystem."
+      content: "Learn how to nominate validators on the SORA network and participate in the consensus mechanism. Discover the process of selecting and nominating validators, understand their role in securing the network, and actively contribute to the decentralized governance of the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "nominating validators, SORA Network, consensus mechanism, select validators, nominate validators, network security, decentralized governance, SORA ecosystem"
+      content: "nominating validators, SORA network, consensus mechanism, select validators, nominate validators, network security, decentralized governance, SORA ecosystem"
 ---
 
 # Nominating Validators
@@ -35,7 +35,7 @@ To nominate a Validator successfully on the SORA network, you need:
 Staking rewards **expire** after 84 eras. On **SORA**, that's about 21 days.
 :::
 
-1. Go to SORA[ polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), click on "Network" and then "Staking". **Make sure you are connected to the SORA Network**, you should see the logo at the top left.
+1. Go to SORA[ polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), click on "Network" and then "Staking". **Make sure you are connected to the SORA network**, you should see the logo at the top left.
 
 ![](.gitbook/assets/polkadotjs-staking-tab.png)
 
@@ -59,7 +59,7 @@ You can read more [here](https://www.holdpolkadot.com/post/stash-account-control
 
 5. The next step is to choose the Validators you want to nominate.
 
-SORA Network uses the [Phragmèn Method](https://wiki.polkadot.network/docs/en/learn-phragmen) to select Validators.
+SORA network uses the [Phragmèn Method](https://wiki.polkadot.network/docs/en/learn-phragmen) to select Validators.
 
 During each era, Validators are chosen using the Phragmen Method, and those who nominated them will receive a reward (a stake reward).
 

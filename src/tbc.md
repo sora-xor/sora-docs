@@ -3,10 +3,10 @@ title: TBC Token | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about TBC (Token Bonding Curve), a unique token model on the SORA Network. Discover the features, mechanics, and benefits of TBC, including its continuous token issuance and bonding curve mechanism. Explore how TBC fosters liquidity, stability, and community participation within the SORA ecosystem.
+      content: Learn about TBC (Token Bonding Curve), a unique token model on the SORA network. Discover the features, mechanics, and benefits of TBC, including its continuous token issuance and bonding curve mechanism. Explore how TBC fosters liquidity, stability, and community participation within the SORA ecosystem.
   - - meta
     - name: keywords
-      content: TBC token, Token Bonding Curve, SORA Network, continuous token issuance, bonding curve mechanism, liquidity, stability, community participation, SORA ecosystem
+      content: TBC token, Token Bonding Curve, SORA network, continuous token issuance, bonding curve mechanism, liquidity, stability, community participation, SORA ecosystem
 ---
 
 # Token Bonding Curve
@@ -34,7 +34,7 @@ Another important implication of this mechanism is that XOR price on the seconda
 - Primary market buy-back reserve limits the ability of governments or short-sellers to manipulate the market.
 - The SORA v2 monetary system is neither debt-based nor debt-driven, and new tokens are always allocated under democratic supervision, which works to eliminate the unsustainable boom-bust cycles in contemporary economic systems.
 - The current buy/sell-prices offered by the token bonding curve provide support & resistance levels, or a confidence range for the price of XOR in the market, with forward guidance.
-- 20% of the quantity bought from the buy function are reserved for different players in the SORA Network, as per the diagram:
+- 20% of the quantity bought from the buy function are reserved for different players in the SORA network, as per the diagram:
 
 ![](<.gitbook/assets/tbc(4).png>)
 
@@ -89,4 +89,4 @@ In addition, Parity is also developing a Polkadot <> Kusama bridge. DOT will als
 
 DOT and KSM tokens held in reserves by the token bonding curve will be used to make a bid for a subsequent parachain slot for the SORA ecosystem.
 
-[**Double rewards**](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) **will be given to users who buy XOR with KSM and DOT**, as these two currencies are crucial for the SORA Network.
+[**Double rewards**](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) **will be given to users who buy XOR with KSM and DOT**, as these two currencies are crucial for the SORA network.

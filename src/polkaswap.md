@@ -3,19 +3,19 @@ title: "Polkaswap - Decentralized Exchange on SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Explore Polkaswap - the decentralized exchange built on the SORA Network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
+      content: "Explore Polkaswap - the decentralized exchange built on the SORA network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
   - - meta
     - name: keywords
-      content: "Polkaswap, decentralized exchange, SORA Network, token swapping, liquidity provision, liquidity solutions"
+      content: "Polkaswap, decentralized exchange, SORA network, token swapping, liquidity provision, liquidity solutions"
   - - meta
     - name: author
-      content: "SORA Network"
+      content: "SORA network"
   - - meta
     - property: og:title
-      content: "Polkaswap - Decentralized Exchange on SORA Network | SORA Docs"
+      content: "Polkaswap - Decentralized Exchange on SORA network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Explore Polkaswap - the decentralized exchange built on the SORA Network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
+      content: "Explore Polkaswap - the decentralized exchange built on the SORA network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
   - - meta
     - property: og:type
       content: "website"
@@ -30,10 +30,10 @@ head:
       content: "summary"
   - - meta
     - name: twitter:title
-      content: "Polkaswap - Decentralized Exchange on SORA Network | SORA Docs"
+      content: "Polkaswap - Decentralized Exchange on SORA network | SORA Docs"
   - - meta
     - name: twitter:description
-      content: "Explore Polkaswap - the decentralized exchange built on the SORA Network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
+      content: "Explore Polkaswap - the decentralized exchange built on the SORA network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
 ---
 
 # Polkaswap

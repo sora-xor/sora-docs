@@ -3,10 +3,10 @@ title: "SORA Referral Program | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn about the SORA Referral Program and how you can earn rewards by referring new users to the SORA Network. Discover the benefits of participating in the referral program, the referral process, and the rewards you can earn for helping grow the SORA ecosystem."
+      content: "Learn about the SORA Referral Program and how you can earn rewards by referring new users to the SORA network. Discover the benefits of participating in the referral program, the referral process, and the rewards you can earn for helping grow the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "SORA Referral Program, SORA Network, referral rewards, referral process, user referrals, SORA ecosystem"
+      content: "SORA Referral Program, SORA network, referral rewards, referral process, user referrals, SORA ecosystem"
 ---
 
 # Referral System

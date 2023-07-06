@@ -9,25 +9,25 @@ head:
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Discover the SORA economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the SORA Network, XOR token, and economic mechanisms."
+      content: "Discover the SORA economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the SORA network, XOR token, and economic mechanisms."
   - - meta
     - name: keywords
-      content: "SORA, SORA Network, XOR token, SORA economy, decentralized economic system, fairness, stability, inclusivity, economic mechanisms"
+      content: "SORA, SORA network, XOR token, SORA economy, decentralized economic system, fairness, stability, inclusivity, economic mechanisms"
   - - meta
     - name: author
-      content: "SORA Network"
+      content: "SORA network"
   - - meta
     - property: og:title
-      content: "SORA Economy - Decentralized Economic System | SORA Network"
+      content: "SORA Economy - Decentralized Economic System | SORA network"
   - - meta
     - property: og:description
-      content: "Discover the SORA economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the SORA Network, XOR token, and economic mechanisms."
+      content: "Discover the SORA economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the SORA network, XOR token, and economic mechanisms."
   - - meta
     - property: og:type
       content: "website"
   - - meta
     - property: og:site_name
-      content: "SORA Network"
+      content: "SORA network"
   - - meta
     - property: og:locale
       content: "en_US"
@@ -36,10 +36,10 @@ head:
       content: "summary"
   - - meta
     - name: twitter:title
-      content: "SORA Economy - Decentralized Economic System | SORA Network"
+      content: "SORA Economy - Decentralized Economic System | SORA network"
   - - meta
     - name: twitter:description
-      content: "Discover the SORA economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the SORA Network, XOR token, and economic mechanisms."
+      content: "Discover the SORA economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the SORA network, XOR token, and economic mechanisms."
   - - meta
     - name: twitter:site
       content: "@sora_xor"
@@ -58,9 +58,9 @@ head:
 
 ## Background
 
-On October 17, 2019, the [SORA](https://sora.org) v1 Network launched, issuing approximately 1,618,033,988 XOR. In March of 2020, approximately 350,000 XOR were moved from the SORA v1 Network to the Ethereum Network and [trading was started on Uniswap](http://sora.exchange). The goal of the initial launch on Uniswap was to perform preliminary price discovery and build the SORA community by incorporating users of the Ethereum network. However, our technology has improved, giving us the possibility to shape a new and more ambitious type of crypto ecosystem. Whereas our medium-term goal remains generating value for our community, our analysis of the SORA economy has **led us to embrace the long-term goal of realizing a supranational world economic system**.
+On October 17, 2019, the [SORA](https://sora.org) v1 network launched, issuing approximately 1,618,033,988 XOR. In March of 2020, approximately 350,000 XOR were moved from the SORA v1 network to the Ethereum network and [trading was started on Uniswap](http://sora.exchange). The goal of the initial launch on Uniswap was to perform preliminary price discovery and build the SORA community by incorporating users of the Ethereum network. However, our technology has improved, giving us the possibility to shape a new and more ambitious type of crypto ecosystem. Whereas our medium-term goal remains generating value for our community, our analysis of the SORA economy has **led us to embrace the long-term goal of realizing a supranational world economic system**.
 
-To realize this system, we are proposing SORA: The New Economic Order. This is a profound and significant upgrade to the SORA Network and the SORA tokenomics. The [upgrade was voted on](https://medium.com/sora-xor/sora-new-economic-order-tokenomics-referendum-31581e8b649) and [ratified by the SORA community](https://medium.com/sora-xor/sora-v2-implementation-1febd3260b87). We feel that this is a system that can add value to humanity and we strongly support its adoption.
+To realize this system, we are proposing SORA: The New Economic Order. This is a profound and significant upgrade to the SORA network and the SORA tokenomics. The [upgrade was voted on](https://medium.com/sora-xor/sora-new-economic-order-tokenomics-referendum-31581e8b649) and [ratified by the SORA community](https://medium.com/sora-xor/sora-v2-implementation-1febd3260b87). We feel that this is a system that can add value to humanity and we strongly support its adoption.
 
 ## SORAnomics
 

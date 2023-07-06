@@ -6,19 +6,19 @@ head:
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Discover the Integrated Plan of the SORA Network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
+      content: "Discover the Integrated Plan of the SORA network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
   - - meta
     - name: keywords
-      content: "Integrated Plan, SORA Network roadmap, strategic vision, milestones, SORA ecosystem, decentralized financial system, sustainable financial system"
+      content: "Integrated Plan, SORA network roadmap, strategic vision, milestones, SORA ecosystem, decentralized financial system, sustainable financial system"
   - - meta
     - name: author
-      content: "SORA Network"
+      content: "SORA network"
   - - meta
     - property: og:title
-      content: "SORA Integrated Plan - Roadmap for SORA Network | SORA Docs"
+      content: "SORA Integrated Plan - Roadmap for SORA network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Discover the Integrated Plan of the SORA Network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
+      content: "Discover the Integrated Plan of the SORA network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
   - - meta
     - property: og:type
       content: "website"
@@ -57,8 +57,8 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 - **Substrate 4**: The SORA network has to update to Substrate 4 to ensure full compatibility with the Dotsama network. This means that once this upgrade is up and running, the SORA network will be available in Dotsama wallets such as [Fearless Wallet](https://fearlesswallet.io/).
 - **Beefy Proofs**: Beefy proofs are used to prove the finality of transactions in blocks and will be optimised for the SORA network to allow efficient and secure trustless bridging between networks. For more information on [Beefy proofs, take a look at this documentation](https://github.com/paritytech/grandpa-bridge-gadget/blob/master/docs/beefy.md).
 - **Trustless Multi-EVM Bridge**: Bridges are an important infrastructure component requested by the community. This iteration of SORA network bridges will be an improvement on the existing one which will bring compatibility to multiple EVM networks. It is important that this bridge is efficient, safe and trustless. Therefore there is much work to be done to ensure a solid foundation.
-- **SORA v3 Network Launch**: One of the longer-term milestones of the Integrated plan, all of the previous milestones must be completed to unlock the secret that will lead to the implementation of the SORA v3 Network. This iteration will contain the VAL DAO structures, the SORA Parliament, and new infrastructure like the SORA Block Explorer and a Bitcoin Bridge.
-- **SORAcles**: Although this functionality was proposed earlier in development, it’s implementation has been pushed to the SORA v3 Network to ensure that they are safe, accurate and reliable. SORAcle implementation will be the gateway to alternative XST assets.
+- **SORA v3 network Launch**: One of the longer-term milestones of the Integrated plan, all of the previous milestones must be completed to unlock the secret that will lead to the implementation of the SORA v3 network. This iteration will contain the VAL DAO structures, the SORA Parliament, and new infrastructure like the SORA Block Explorer and a Bitcoin Bridge.
+- **SORAcles**: Although this functionality was proposed earlier in development, it’s implementation has been pushed to the SORA v3 network to ensure that they are safe, accurate and reliable. SORAcle implementation will be the gateway to alternative XST assets.
 - **XST Base Pairs**: XSTUSD-base pools for Polkaswap are XYK pools on Polkaswap that use XSTUSD instead of XOR as a base pair, in order to limit impermanent loss. If successful, they can be launched on the testnet shortly and then head to production.
 
 ## Web
@@ -77,7 +77,7 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 - **Polkaswap Pooling**: The stylish experience of pooling in Polkaswap will be in the palm of your hand, for access wherever you are.
 - **Referrals**: The popular Polkaswap referral system will now be available in the SORA mobile wallet’s Polkaswap section. You will be able to generate and share referral codes wherever you are!
 - **Multiple accounts**: The possibility to have more than one account in your mobile wallet is a highly requested function. Switching between multiple accounts on your SORA wallet interface will be available soon.
-- **SORA Network Fearless Wallet**: This point seems to appear across several tracks. Once the Substrate 4 upgrade is completed, the SORA Network will be available in Fearless Wallet along with other Dotsama ecosystem parachains.𒉡𒉎𒋼
+- **SORA network Fearless Wallet**: This point seems to appear across several tracks. Once the Substrate 4 upgrade is completed, the SORA network will be available in Fearless Wallet along with other Dotsama ecosystem parachains.𒉡𒉎𒋼
 - **Demeter Mobile integration**: The Demeter farming platform has been integrated to Polkaswap, the next natural step is for Demeter Farming to be available whenever and wherever, through the SORA wallet app.
 - **SORA Typeface expansion**: This should be under the business category, but it isn’t yet. Many Worlds, Many Languages, One Typography. You can find the current [SORA Typeface here](https://fonts.google.com/specimen/SORA).
 

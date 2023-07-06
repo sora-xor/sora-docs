@@ -3,10 +3,10 @@ title: "Rewards on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Discover the rewards program on the SORA Network and learn how you can earn rewards for participating in various activities within the SORA ecosystem. Explore the different types of rewards, including staking rewards, liquidity rewards, and referral rewards, and maximize your earnings in the SORA Network."
+      content: "Discover the rewards program on the SORA network and learn how you can earn rewards for participating in various activities within the SORA ecosystem. Explore the different types of rewards, including staking rewards, liquidity rewards, and referral rewards, and maximize your earnings in the SORA network."
   - - meta
     - name: keywords
-      content: "rewards, SORA Network, staking rewards, liquidity rewards, referral rewards, SORA ecosystem, earnings"
+      content: "rewards, SORA network, staking rewards, liquidity rewards, referral rewards, SORA ecosystem, earnings"
 ---
 
 <!-- TODO:
@@ -125,7 +125,7 @@ If PSWAP or VAL tokens are available then you'll be able to claim them.
 
 **Important**: when a nominator or the validator himself claims rewards, those are sent to all the accounts that have received a reward, so it is enough that one person claims for everyone. This may be the reason why you often don't see any reward on the website
 
-1. Go to [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), click on "Network" and then "Staking". Make sure you are connected to the SORA Network, you should see the logo at the top left.
+1. Go to [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), click on "Network" and then "Staking". Make sure you are connected to the SORA network, you should see the logo at the top left.
 
 ![](.gitbook/assets/Screenshot2021-04-29at13.09.35.png)
 

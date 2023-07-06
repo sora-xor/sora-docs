@@ -3,10 +3,10 @@ title: "Running a Node on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn how to run a node on the SORA Network and become an active participant in the network's infrastructure. Discover the requirements, setup process, and benefits of running a node to support the decentralization and security of the SORA Network."
+      content: "Learn how to run a node on the SORA network and become an active participant in the network's infrastructure. Discover the requirements, setup process, and benefits of running a node to support the decentralization and security of the SORA network."
   - - meta
     - name: keywords
-      content: "running a node, SORA Network, node setup, network infrastructure, decentralization, network security"
+      content: "running a node, SORA network, node setup, network infrastructure, decentralization, network security"
 ---
 
 # How to Run a SORA Mainnet Node

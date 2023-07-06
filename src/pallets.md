@@ -3,10 +3,10 @@ title: "SORA Pallets | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Explore the SORA Pallets, which are modular components of the SORA Network's runtime system. Learn about the different pallets and their functionalities, including governance, staking, treasury, identity, and more. Discover how pallets enable the customization and extensibility of the SORA Network, allowing for the development of diverse blockchain applications."
+      content: "Explore the SORA Pallets, which are modular components of the SORA network's runtime system. Learn about the different pallets and their functionalities, including governance, staking, treasury, identity, and more. Discover how pallets enable the customization and extensibility of the SORA network, allowing for the development of diverse blockchain applications."
   - - meta
     - name: keywords
-      content: "SORA Pallets, SORA Network, runtime system, modular components, governance, staking, treasury, identity, blockchain applications, customization, extensibility"
+      content: "SORA Pallets, SORA network, runtime system, modular components, governance, staking, treasury, identity, blockchain applications, customization, extensibility"
 ---
 
 # Pallets

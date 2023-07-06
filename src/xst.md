@@ -3,10 +3,10 @@ title: SORA XST Token | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about XST, the stablecoin of the SORA Network. Discover the features, use cases, and benefits of XST within the SORA ecosystem. Explore its role as a stable and reliable digital asset, enabling efficient value transfer, reducing volatility, and supporting various financial applications within the SORA Network.
+      content: Learn about XST, the stablecoin of the SORA network. Discover the features, use cases, and benefits of XST within the SORA ecosystem. Explore its role as a stable and reliable digital asset, enabling efficient value transfer, reducing volatility, and supporting various financial applications within the SORA network.
   - - meta
     - name: keywords
-      content: SORA XST token, stablecoin, SORA Network, digital asset, value transfer, volatility reduction, financial applications, SORA ecosystem
+      content: SORA XST token, stablecoin, SORA network, digital asset, value transfer, volatility reduction, financial applications, SORA ecosystem
 ---
 
 # XST
@@ -86,7 +86,7 @@ the Polkadot.js browser extension in the popup window.
 
 ![](/.gitbook/assets/xstusd-demo2.png)
 
-Finally, if you're interested in how the SORA RFP system works, take a look at this complete guide on [Proposing New Functionalities to Polkaswap and the SORA Network](rfp.md).
+Finally, if you're interested in how the SORA RFP system works, take a look at this complete guide on [Proposing New Functionalities to Polkaswap and the SORA network](rfp.md).
 
 ---
 

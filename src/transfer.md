@@ -3,10 +3,10 @@ title: SORA Transfer | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn how to transfer assets on the SORA Network. Discover the various methods and tools available for transferring digital assets securely and efficiently within the SORA ecosystem. Explore the transfer process, including sending and receiving assets, transaction fees, and best practices for ensuring smooth and reliable asset transfers on the SORA Network.
+      content: Learn how to transfer assets on the SORA network. Discover the various methods and tools available for transferring digital assets securely and efficiently within the SORA ecosystem. Explore the transfer process, including sending and receiving assets, transaction fees, and best practices for ensuring smooth and reliable asset transfers on the SORA network.
   - - meta
     - name: keywords
-      content: SORA Transfer, SORA Network, asset transfer, digital assets, secure transfer, transaction fees, sending assets, receiving assets, asset transfer process, SORA ecosystem
+      content: SORA Transfer, SORA network, asset transfer, digital assets, secure transfer, transaction fees, sending assets, receiving assets, asset transfer process, SORA ecosystem
 ---
 
 # Transfer
