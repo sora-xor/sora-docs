@@ -1,5 +1,5 @@
 ---
-title: "Build on the Sora Network | Sora Docs"
+title: "Build on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
