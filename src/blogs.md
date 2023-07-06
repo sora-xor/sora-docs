@@ -6,7 +6,7 @@ head:
       content: "Explore the latest blogs and articles related to the SORA Network. Stay up-to-date with the latest developments, updates, and insights into the SORA ecosystem. Discover informative and engaging content covering various topics, including blockchain technology, decentralized finance, governance, and more."
   - - meta
     - name: keywords
-      content: "Sora Network blogs, Sora Network articles, blockchain technology, decentralized finance, governance, Sora ecosystem"
+      content: "SORA network blogs, Sora Network articles, blockchain technology, decentralized finance, governance, SORA ecosystem"
 ---
 
 # Community Blogs
