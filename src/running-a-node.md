@@ -103,7 +103,7 @@ cd sora2
 
 And grant access to the folder
 
-`` chown 10000:10000 `pwd ``
+``chown 10000:10000 `pwd``
 
 On macOS you might need to use **instead**:
 
