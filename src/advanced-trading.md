@@ -1,5 +1,7 @@
 # Advanced Trading
 
+## Theory
+
 To Polkaswap means to exchange (swap) tokens on [Polkaswap](https://polkaswap.io/), Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens, Polkaswap removes trusted intermediaries and provides the opportunity for faster trading, and Polkaswap also combines multiple liquidity sources under a common liquidity aggregation algorithm, operating completely on-chain, in a trustless and decentralized way.
 
 Polkaswap's technical design allows using different liquidity sources for trading. At the moment Polkaswap supports two liquidity sources:
@@ -9,7 +11,7 @@ Polkaswap's technical design allows using different liquidity sources for tradin
 
 XYK Pools are managed by the community. Anyone is able to provide liquidity to any pool. Every pool has XOR as a base asset. For example, there are two pools: XOR-VAL, XOR-PSWAP. If you make a VAL-PSWAP exchange, then the swap routing will be the following: from VAL to XOR, from XOR to PSWAP.
 
-The TBC is described in detail in this [article](https://wiki.sora.org/token-bonding-curve). You can buy and sell XOR using the TBC, and initial collateral assets are USDT, VAL, PSWAP.
+The TBC is described in detail [here](tbc.md). You can buy and sell XOR using the TBC, and initial collateral assets are USDT, VAL, PSWAP.
 
 When you make a swap with the default settings, the Liquidity Proxy algorithm selects the liquidity pool with the best price. However, buying XOR from the TBC is rewarded with PSWAP. The liquidity source might change in the swap settings, which makes trading more flexible.
 
@@ -84,7 +86,7 @@ Let's go through exchange parameters one by one:
 - _Liquidity provider fee_: The fee that liquidity provider will take. In this case, it's an XYK Pool.
 - _Network fee_: SORA fee for processing the transaction (gas).
 
-#### What Insufficient _liquidity_ means
+**What Insufficient _liquidity_ means**
 
 It is possible to get an error saying "**Not enough liquidity**" and understanding what this means is important.
 

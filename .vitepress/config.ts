@@ -5,7 +5,6 @@ import markdownItKatex from "markdown-it-katex";
 export default defineConfig({
   lang: "en-US",
   title: "docs",
-  base: "/sora-docs/",
   description: "Guides, how-tos, architecture",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -23,6 +22,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Getting Started",
+        collapsed: true,
         items: [
           { text: "Introduction", link: "introduction" },
           {
@@ -65,6 +65,7 @@ export default defineConfig({
       },
       {
         text: "Ecosystem",
+        collapsed: true,
         items: [
           { text: "Overview", link: "ecosystem" },
           { text: "Integrated Plan", link: "integrated-plan" },
@@ -98,29 +99,55 @@ export default defineConfig({
       },
       {
         text: "Participate in the SORA Economy",
+        collapsed: true,
         items: [
-          { text: "Overview", link: "participate"},
-          { text: "Running a Node", link: "running-a-node" },
-          // { text: "Becoming a validator", link: "/tba" },
+          { text: "Overview", link: "participate" },
           { text: "Create an Address", link: "create-an-address" },
+          { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
           {
-            text: "Assets",
-            collapsed: true,
+            text: "Send & Receive",
+            link: "send-and-receive",
+          },
+          {
+            text: "Explore the Ecosystem",
             items: [
-              { text: "Transfer", link: "transfer" },
               { text: "Check Supply", link: "check-supply" },
-              { text: "Check Balance", link: "check-balance" },
-              { text: "Register an Asset", link: "register-an-asset" },
-              { text: "On-ramp", link: "on-ramp" },
+              { text: "Explore", link: "explore" },
+              { text: "View Statistics", link: "statistics" },
+              { text: "Explore Blocks", link: "explore-blocks" },
             ],
           },
+          { text: "Transfer Assets", link: "transfer" },
+          { text: "Check Balance", link: "check-balance" },
+          { text: "Register an Asset", link: "register-an-asset" },
+          { text: "On-ramp", link: "on-ramp" },
+          {
+            text: "Staking",
+            items: [
+              { text: "Demeter Staking", link: "demeter-staking" },
+              {
+                text: "Staking in Fearless Wallet",
+                link: "stake-in-fearless-wallet",
+              },
+              { text: "Nominating Validators", link: "nominating-validators" },
+            ],
+          },
+
           {
             text: "DEX",
             collapsed: true,
             items: [
               { text: "Swap", link: "swap" },
-              { text: "Provide Liquidity", link: "/provide-liquidity" },
+              {
+                text: "Provide Liquidity to XYK Pools",
+                link: "provide-liquidity-to-xyk-pools",
+              },
               { text: "Advanced Trading", link: "advanced-trading" },
+
+              {
+                text: "Other Polkaswap Features",
+                link: "polkaswap-other-features",
+              },
             ],
           },
           {
@@ -140,6 +167,7 @@ export default defineConfig({
             items: [
               {
                 text: "EVM",
+                link: "evm",
                 items: [
                   {
                     text: "HASHI",
@@ -147,7 +175,7 @@ export default defineConfig({
                     items: [
                       {
                         text: "Adding a Token",
-                        link: "adding-a-token-to-a-hashi-bridge",
+                        link: "adding-tokens-to-hashi-bridge",
                       },
                       {
                         text: "Become a Relayer",
@@ -167,16 +195,16 @@ export default defineConfig({
             ],
           },
           { text: "Referral System", link: "/referral" },
-          { text: "Explore Blocks", link: "/explore-blocks" },
           { text: "NFT", link: "nft" },
           { text: "Identity", link: "id" },
           { text: "Rewards", link: "rewards" },
           { text: "Nodes Connection", link: "nodes-connection" },
-          { text: "Staking in Fearless Wallet", link: "stake-in-fearless-wallet"},
+          { text: "Running a Node", link: "running-a-node" },
         ],
       },
       {
         text: "Build",
+        collapsed: true,
         items: [
           { text: "Introduction", link: "build" },
           {
@@ -194,20 +222,21 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Learn More',
+        text: "Learn More",
+        collapsed: true,
         items: [
           {
-            text: 'Useful Links',
-            link: 'useful-links',
+            text: "Useful Links",
+            link: "useful-links",
           },
           {
-            text: 'Community Blogs',
-            link: 'blogs',
+            text: "Community Blogs",
+            link: "blogs",
           },
           {
-            text: 'Contribution Guidelines',
-            link: 'contribute'
-          }
+            text: "Contribution Guidelines",
+            link: "contribute",
+          },
         ],
       },
     ],

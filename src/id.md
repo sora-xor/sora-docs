@@ -2,7 +2,9 @@
 
 SORA allows you to store profile information in order to identify and discover people across the network. It's convenient for users to use the identity and registrar features. A tutorial is provided below on how to set up an identity for yourself.
 
-## Register an Identity
+## Via PolkadotJS UI
+
+### Register an Identity
 
 Requirements:
 

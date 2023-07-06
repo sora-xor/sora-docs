@@ -22,5 +22,5 @@ You can make your token a part of SORA Network by simply adding it.
 Please note that adding token to SORA network does not mean that it
 will automatically be allowed to be transferred through the HASHI
 bridge. To add your token to the HASHI bridge, please, check out
-[Adding a Token to the HASHI Bridge](adding-a-token-to-a-hashi-bridge.md).
+[Adding a Token to the HASHI Bridge](adding-tokens-to-hashi-bridge.md).
 :::
