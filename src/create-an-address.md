@@ -62,9 +62,7 @@ Use a Chrome or Firefox browser.
 
    Great job! Now you have an address with the `cn` prefix
 
-<!-- wrong image
-![](<.gitbook/assets/image(9).png>)
--->
+   ![](.gitbook/assets/create-address-cn-prefix.png)
 
 ## Via polkadot.js App UI
 
@@ -72,9 +70,7 @@ Use a Chrome or Firefox browser.
 
    If you've already installed the Polkadot browser plugin, it will request authorization to sync data. You can do it, as it will make account management easier.
 
-<!-- wrong image
-![](<.gitbook/assets/image(2).png>)
--->
+   ![](.gitbook/assets/create-address-app-authorize.png)
 
 2. Open the [Accounts](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.stage.sora2.soramitsu.co.jp#/accounts) page.
 
@@ -90,7 +86,7 @@ Use a Chrome or Firefox browser.
 
 4. Save the mnemonic phrase, **make sure to keep it safe, and don't share it**. Confirm that you've saved the mnemonic and click Next.
 
-   ![](.gitbook/assets/ccreate-address-app-mnemonic.png)
+   ![](.gitbook/assets/create-address-app-mnemonic.png)
 
 5. Enter a name and a password for the account, then click Next.
 
@@ -118,47 +114,37 @@ You can use these **testnet** applications to practice:
 
 When you install the application you'll be able to create an account.
 
-There are two options: **Create account** and **Import account.** For this exercise tap on **Create account.**
+1. Open the app. There are two options: **Create account** and **Import account**:
 
-<!-- wrong image
-![](<.gitbook/assets/image(5).png>)
--->
+   ![](.gitbook/assets/create-address-sora-options.png)
 
-<!-- wrong image
-![](<.gitbook/assets/image(17).png>)
--->
+2. For this exercise, tap on **Create account**:
 
-Then enter an account name. It may be any string. Then tap continue.
+   ![](.gitbook/assets/create-address-sora-create.png)
 
-<!-- wrong image
-![](<.gitbook/assets/image(7).png>)
--->
+3. Enter an account name. It may be any string. Then tap continue.
 
-The screen with the passphrase will be shown.
+   ![](.gitbook/assets/create-address-sora-enter-name.png)
 
-::: tip
+4. The screen with the passphrase will be shown. Save the passphrase in a secret place or remember it.
 
-Save the passphrase in a secret place or remember it. The passphrase is the only way to recover the account in case of changing the mobile phone, logging out of the application, or other emergency cases.
+   ::: tip
 
-:::
+   The passphrase is the only way to recover the account in case of changing the mobile phone, logging out of the application, or other emergency cases.
 
-You can confirm the mnemonic or skip the process. Just tap the words at the top of the screen in the right order. The tapped word will be shown on the bottom of the screen.
+   :::
 
-<!--
-![](<.gitbook/assets/image(12).png>)
--->
+   You can confirm the mnemonic or skip the process. Just tap the words at the top of the screen in the right order. The tapped word will be shown on the bottom of the screen.
 
-After that, input and confirm a PIN code of your choice.
+   ![](.gitbook/assets/create-address-sora-confirm-mnemonic.png)
 
-<!-- wrong image
-![](<.gitbook/assets/image(16).png>)
--->
+5. Enter and confirm a PIN code of your choice.
 
-You can also allow the application to use biometry auth. And finally, you'll get access to the wallet.
+   ![](.gitbook/assets/create-address-sora-enter-pin.png)
 
-<!-- image doesn't exist
-![](<.gitbook/assets/image(15).png>)
--->
+6. You can also allow the application to use biometry auth. And finally, you'll get access to the wallet.
+
+   ![](.gitbook/assets/create-address-sora-biometry-auth.png)
 
 #### Restoring account from mnemonic in different applications
 
@@ -168,45 +154,41 @@ For example, my passphrase is
 
 `chicken worth gaze device proof frost adjust toe elite obvious rapid club`
 
-You can restore the account in the Polkadot browser plugin. Click on ➕ sign and click on **Import account from pre-existing seed.** Then enter the passphrase and click **Next.**
+You can restore the account in the Polkadot browser plugin.
 
-<!-- wrong image
-![](<.gitbook/assets/image(4).png>)
--->
+1. Click on ➕ sign and click on **Import account from pre-existing seed**:
 
-<!-- wrong image
-![](<.gitbook/assets/image(14).png>)
--->
+   ![](.gitbook/assets/restore-account-import.png)
 
-Then enter the account name and set up a password and proceed. Great, you've just restored your account!
+2. Then enter the passphrase and click **Next**:
 
-<!-- image doesn't exist
-![](<.gitbook/assets/image(6).png>)
--->
+   ![](.gitbook/assets/restore-account-enter-mnemonic.png)
 
-![](<.gitbook/assets/Untitled(20)(2).png>)
+3. Then enter the account name and set up a password and proceed.
 
-The process is the same for the mobile application. Open the mobile application and tap on **Import account.** Enter the account name and passphrase.
+   ![](.gitbook/assets/restore-account-setup.png)
 
-<!-- wrong image
-![](<.gitbook/assets/image(13).png>)
--->
+Great, you've just restored your account!
 
-<!-- probably wrong image
-![](<.gitbook/assets/image(10).png>)
--->
+![](.gitbook/assets/restore-account-restored.png)
 
-Then set up and confirm a PIN code.
+The process is the same for the mobile application:
 
-<!-- wrong image
-![](.gitbook/assets/image.png)
--->
+1. Open the mobile application and tap on **Import account.**
 
-After that, you'll get access to the account.
+   ![](.gitbook/assets/restore-account-sora-import.png)
 
-<!-- image doesn't exist
-![](<.gitbook/assets/image(8).png>)
--->
+2. Enter the account name and passphrase.
+
+   ![](.gitbook/assets/restore-account-sora-enter-mnemonic.png)
+
+3. Then set up and confirm a PIN code.
+
+   ![](.gitbook/assets/restore-account-sora-enter-pin.png)
+
+4. After that, you'll get access to the account.
+
+   ![](.gitbook/assets/restore-account-biometry-auth.png)
 
 #### Converting the address format
 

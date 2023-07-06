@@ -24,7 +24,7 @@ Polkaswap has worked to resolve some of the issues with Ethereum based DEXs. Bui
 
 When clicking on Swap on the menu bar you can choose between SMART and TBC functions on Polkaswap, as shown in the picture below.
 
-![](/.gitbook/assets/catt.jpg)
+![](/.gitbook/assets/faq-choose-smart-or-tbc-for-swap.jpg)
 
 Using TBC your trade will be executed in the [token bonding curve](https://wiki.sora.org/token-bonding-curve). The SORA token bonding curve acts as the decentralized, on-chain manager of the XOR token. It works by taking in reserve assets and minting new XOR, or conversely, de-minting XOR and releasing reserve assets. This solution often reduces slippage for large trades, as the token bonding curve increases the liquidity of the XOR token. In addition, there is a special incentive when a user buys newly minted XOR in the token bonding curve; rewards are in PSWAP. You can read the full article about this reward [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
