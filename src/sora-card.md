@@ -9,7 +9,7 @@ head:
       content: "Discover the SORA Card - a versatile payment card designed to provide users with seamless access to their digital assets. Learn about the features, benefits, and integration of the SORA Card within the SORA ecosystem, enabling secure and convenient transactions both online and offline."
   - - meta
     - name: keywords
-      content: "SORA Card, payment card, digital assets, SORA ecosystem, secure transactions, convenient transactions"
+      content: "SORA Card, payment card, digital assets, secure transactions, convenient transactions"
   - - meta
     - name: author
       content: "SORA network"

@@ -6,7 +6,7 @@ head:
       content: Learn about XST, the stablecoin of the SORA network. Discover the features, use cases, and benefits of XST within the SORA ecosystem. Explore its role as a stable and reliable digital asset, enabling efficient value transfer, reducing volatility, and supporting various financial applications within the SORA network.
   - - meta
     - name: keywords
-      content: SORA XST token, stablecoin, SORA network, digital asset, value transfer, volatility reduction, financial applications, SORA ecosystem
+      content: SORA XST token, stablecoin, SORA network, digital asset, value transfer, volatility reduction, financial applications
 ---
 
 # XST

@@ -6,7 +6,7 @@ head:
       content: "Discover the rewards program on the SORA network and learn how you can earn rewards for participating in various activities within the SORA ecosystem. Explore the different types of rewards, including staking rewards, liquidity rewards, and referral rewards, and maximize your earnings in the SORA network."
   - - meta
     - name: keywords
-      content: "rewards, SORA network, staking rewards, liquidity rewards, referral rewards, SORA ecosystem, earnings"
+      content: "rewards, SORA network, staking rewards, liquidity rewards, referral rewards, earnings"
 ---
 
 <!-- TODO:

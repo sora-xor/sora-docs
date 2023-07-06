@@ -6,7 +6,7 @@ head:
       content: "Explore blocks on the SORA network and delve into the details of the blockchain's transaction history. Discover the latest blocks, block height, transactions, and other key information that provides insights into the functioning and activity of the SORA network."
   - - meta
     - name: keywords
-      content: "explore blocks, SORA network, blockchain, transaction history, block height, transactions, SORA ecosystem"
+      content: "explore blocks, SORA network, blockchain, transaction history, block height, transactions"
 ---
 
 # Block Explorers

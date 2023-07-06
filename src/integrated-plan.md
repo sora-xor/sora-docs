@@ -9,7 +9,7 @@ head:
       content: "Discover the Integrated Plan of the SORA network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
   - - meta
     - name: keywords
-      content: "Integrated Plan, SORA network roadmap, strategic vision, milestones, SORA ecosystem, decentralized financial system, sustainable financial system"
+      content: "Integrated Plan, SORA network roadmap, strategic vision, milestones, decentralized financial system, sustainable financial system"
   - - meta
     - name: author
       content: "SORA network"

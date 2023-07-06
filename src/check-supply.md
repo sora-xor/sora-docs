@@ -6,7 +6,7 @@ head:
       content: Learn how to check the token supply on the SORA network and get insights into the circulating supply and total supply of assets. Discover the tools, interfaces, and resources available to check the supply of tokens on the SORA network and stay informed about the available token quantities within the SORA ecosystem.
   - - meta
     - name: keywords
-      content: check supply, SORA network, token supply, circulating supply, total supply, assets, tools, interfaces, SORA ecosystem
+      content: check supply, SORA network, token supply, circulating supply, total supply, assets, tools, interfaces
 ---
 
 # Check Supply

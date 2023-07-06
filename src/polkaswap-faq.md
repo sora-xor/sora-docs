@@ -6,7 +6,7 @@ head:
       content: Find answers to frequently asked questions (FAQ) about Polkaswap, the decentralized exchange on the SORA network. Explore common inquiries about trading, liquidity providing, token swapping, fees, and more. Get the information you need to enhance your understanding and maximize your experience on Polkaswap within the SORA ecosystem.
   - - meta
     - name: keywords
-      content: Polkaswap FAQ, SORA network, decentralized exchange, trading, liquidity providing, token swapping, fees, SORA ecosystem
+      content: Polkaswap FAQ, SORA network, decentralized exchange, trading, liquidity providing, token swapping, fees
 ---
 
 # FAQ

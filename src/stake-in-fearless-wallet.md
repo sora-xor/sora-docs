@@ -6,7 +6,7 @@ head:
       content: "Learn how to stake your assets in Fearless Wallet, the official mobile wallet for the SORA network. Discover the step-by-step process to delegate your assets, earn staking rewards, and actively participate in the SORA ecosystem using Fearless Wallet."
   - - meta
     - name: keywords
-      content: "stake in Fearless Wallet, SORA network, mobile wallet, delegate assets, staking rewards, SORA ecosystem"
+      content: "stake in Fearless Wallet, SORA network, mobile wallet, delegate assets, staking rewards"
 ---
 
 # Staking in Fearless Wallet

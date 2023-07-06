@@ -6,7 +6,7 @@ head:
       content: "Learn how to nominate validators on the SORA network and participate in the consensus mechanism. Discover the process of selecting and nominating validators, understand their role in securing the network, and actively contribute to the decentralized governance of the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "nominating validators, SORA network, consensus mechanism, select validators, nominate validators, network security, decentralized governance, SORA ecosystem"
+      content: "nominating validators, SORA network, consensus mechanism, select validators, nominate validators, network security, decentralized governance"
 ---
 
 # Nominating Validators

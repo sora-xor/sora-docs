@@ -6,7 +6,7 @@ head:
       content: "Learn about the Request for Proposals (RFP) process in the SORA network. Discover how the RFP system enables community members to propose and contribute to the development of the SORA ecosystem by submitting project proposals and collaborating with the SORA team."
   - - meta
     - name: keywords
-      content: "Request for Proposals, RFP process, SORA network, community proposals, project collaboration, SORA ecosystem development"
+      content: "Request for Proposals, RFP process, SORA network, community proposals, project collaboration development"
   - - meta
     - name: author
       content: "SORA network"

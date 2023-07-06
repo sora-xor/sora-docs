@@ -6,7 +6,7 @@ head:
       content: "Learn how to create an address on the SORA network and start interacting with the SORA ecosystem. Discover the steps to generate a new address, the importance of address security, and how to use your address for various activities within the SORA network."
   - - meta
     - name: keywords
-      content: "create an address, SORA network, address generation, address security, SORA ecosystem"
+      content: "create an address, SORA network, address generation, address security"
 ---
 
 <!-- TODO:
