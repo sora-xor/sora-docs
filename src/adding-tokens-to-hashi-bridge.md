@@ -1,12 +1,12 @@
 ---
-title: Adding Tokens to Hashi Bridge | Sora Docs
+title: Adding Tokens to Hashi Bridge | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn how to add tokens to the Hashi Bridge on the Sora Network. Discover the step-by-step process of listing new tokens on the bridge, including the requirements, procedures, and considerations for adding tokens. Explore the benefits of bridging assets and enabling interoperability between different blockchain networks through the Hashi Bridge.
+      content: Learn how to add tokens to the Hashi Bridge on the SORA Network. Discover the step-by-step process of listing new tokens on the bridge, including the requirements, procedures, and considerations for adding tokens. Explore the benefits of bridging assets and enabling interoperability between different blockchain networks through the Hashi Bridge.
   - - meta
     - name: keywords
-      content: adding tokens, Hashi Bridge, Sora Network, listing tokens, requirements, procedures, asset bridging, interoperability, blockchain networks
+      content: adding tokens, Hashi Bridge, SORA Network, listing tokens, requirements, procedures, asset bridging, interoperability, blockchain networks
 ---
 
 # Adding a Token to the HASHI Bridge

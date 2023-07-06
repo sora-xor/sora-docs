@@ -1,12 +1,12 @@
 ---
-title: "Fast Track Public Voting | Sora Docs"
+title: "Fast Track Public Voting | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn about the Fast Track Public Voting process on the Sora Network. Discover how the community participates in voting for project proposals, and how fast-track voting enables rapid decision-making and funding allocation for valuable projects within the Sora ecosystem."
+      content: "Learn about the Fast Track Public Voting process on the SORA Network. Discover how the community participates in voting for project proposals, and how fast-track voting enables rapid decision-making and funding allocation for valuable projects within the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "Fast Track Public Voting, Sora Network, community voting, project proposals, decision-making, funding allocation, Sora ecosystem"
+      content: "Fast Track Public Voting, SORA Network, community voting, project proposals, decision-making, funding allocation, SORA ecosystem"
 ---
 
 # Fast Track Public Voting

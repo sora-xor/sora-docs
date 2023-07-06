@@ -1,30 +1,30 @@
 ---
-title: "Sora Integrated Plan - Roadmap for Sora Network | Sora Docs"
+title: "SORA Integrated Plan - Roadmap for SORA Network | SORA Docs"
 head:
   - - meta
     - name: viewport
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Discover the Integrated Plan of the Sora Network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the Sora ecosystem. Learn about upcoming features, advancements, and initiatives driving Sora's mission towards a decentralized and sustainable financial system."
+      content: "Discover the Integrated Plan of the SORA Network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
   - - meta
     - name: keywords
-      content: "Integrated Plan, Sora Network roadmap, strategic vision, milestones, Sora ecosystem, decentralized financial system, sustainable financial system"
+      content: "Integrated Plan, SORA Network roadmap, strategic vision, milestones, SORA ecosystem, decentralized financial system, sustainable financial system"
   - - meta
     - name: author
-      content: "Sora Network"
+      content: "SORA Network"
   - - meta
     - property: og:title
-      content: "Sora Integrated Plan - Roadmap for Sora Network | Sora Docs"
+      content: "SORA Integrated Plan - Roadmap for SORA Network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Discover the Integrated Plan of the Sora Network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the Sora ecosystem. Learn about upcoming features, advancements, and initiatives driving Sora's mission towards a decentralized and sustainable financial system."
+      content: "Discover the Integrated Plan of the SORA Network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
   - - meta
     - property: og:type
       content: "website"
   - - meta
     - property: og:site_name
-      content: "Sora Docs"
+      content: "SORA Docs"
   - - meta
     - property: og:locale
       content: "en_US"
@@ -79,7 +79,7 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 - **Multiple accounts**: The possibility to have more than one account in your mobile wallet is a highly requested function. Switching between multiple accounts on your SORA wallet interface will be available soon.
 - **SORA Network Fearless Wallet**: This point seems to appear across several tracks. Once the Substrate 4 upgrade is completed, the SORA Network will be available in Fearless Wallet along with other Dotsama ecosystem parachains.𒉡𒉎𒋼
 - **Demeter Mobile integration**: The Demeter farming platform has been integrated to Polkaswap, the next natural step is for Demeter Farming to be available whenever and wherever, through the SORA wallet app.
-- **SORA Typeface expansion**: This should be under the business category, but it isn’t yet. Many Worlds, Many Languages, One Typography. You can find the current [SORA Typeface here](https://fonts.google.com/specimen/Sora).
+- **SORA Typeface expansion**: This should be under the business category, but it isn’t yet. Many Worlds, Many Languages, One Typography. You can find the current [SORA Typeface here](https://fonts.google.com/specimen/SORA).
 
 ### Further Details
 

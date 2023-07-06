@@ -1,12 +1,12 @@
 ---
-title: Sora Validators | Sora Docs
+title: SORA Validators | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about validators on the Sora Network and their role in securing the network, validating transactions, and maintaining consensus. Discover the requirements and responsibilities of validators, explore the process of becoming a validator, and understand the importance of validator nodes in the decentralized governance of the Sora ecosystem.
+      content: Learn about validators on the SORA Network and their role in securing the network, validating transactions, and maintaining consensus. Discover the requirements and responsibilities of validators, explore the process of becoming a validator, and understand the importance of validator nodes in the decentralized governance of the SORA ecosystem.
   - - meta
     - name: keywords
-      content: Sora Validators, Sora Network, network security, transaction validation, consensus, validator requirements, becoming a validator, decentralized governance, Sora ecosystem
+      content: SORA Validators, SORA Network, network security, transaction validation, consensus, validator requirements, becoming a validator, decentralized governance, SORA ecosystem
 ---
 
 # VAL (≚)

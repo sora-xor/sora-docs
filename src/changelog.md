@@ -1,30 +1,30 @@
 ---
-title: "Sora Changelog - Latest Updates and Releases for Sora Network | Sora Docs"
+title: "SORA Changelog - Latest Updates and Releases for SORA Network | SORA Docs"
 head:
   - - meta
     - name: viewport
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Stay updated with the latest changes and updates in Sora Network. Explore the Sora Changelog for a comprehensive list of releases, improvements, and new features implemented in Sora's decentralized economic system."
+      content: "Stay updated with the latest changes and updates in SORA Network. Explore the SORA Changelog for a comprehensive list of releases, improvements, and new features implemented in SORA's decentralized economic system."
   - - meta
     - name: keywords
-      content: "Sora Changelog, Sora Network updates, Sora releases, decentralized economic system, new features, improvements"
+      content: "SORA Changelog, SORA Network updates, SORA releases, decentralized economic system, new features, improvements"
   - - meta
     - name: author
-      content: "Sora Network"
+      content: "SORA Network"
   - - meta
     - property: og:title
-      content: "Sora Changelog - Latest Updates and Releases for Sora Network | Sora Docs"
+      content: "SORA Changelog - Latest Updates and Releases for SORA Network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Stay updated with the latest changes and updates in Sora Network. Explore the Sora Changelog for a comprehensive list of releases, improvements, and new features implemented in Sora's decentralized economic system."
+      content: "Stay updated with the latest changes and updates in SORA Network. Explore the SORA Changelog for a comprehensive list of releases, improvements, and new features implemented in SORA's decentralized economic system."
   - - meta
     - property: og:type
       content: "website"
   - - meta
     - property: og:site_name
-      content: "Sora Docs"
+      content: "SORA Docs"
   - - meta
     - property: og:locale
       content: "en_US"
@@ -33,10 +33,10 @@ head:
       content: "summary"
   - - meta
     - name: twitter:title
-      content: "Sora Changelog - Latest Updates and Releases for Sora Network | Sora Docs"
+      content: "SORA Changelog - Latest Updates and Releases for SORA Network | SORA Docs"
   - - meta
     - name: twitter:description
-      content: "Stay updated with the latest changes and updates in Sora Network. Explore the Sora Changelog for a comprehensive list of releases, improvements, and new features implemented in Sora's decentralized economic system."
+      content: "Stay updated with the latest changes and updates in SORA Network. Explore the SORA Changelog for a comprehensive list of releases, improvements, and new features implemented in SORA's decentralized economic system."
   - - meta
     - name: twitter:site
       content: "@sora_xor"

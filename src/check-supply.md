@@ -1,12 +1,12 @@
 ---
-title: Check Supply on the Sora Network | Sora Docs
+title: Check Supply on the SORA Network | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn how to check the token supply on the Sora Network and get insights into the circulating supply and total supply of assets. Discover the tools, interfaces, and resources available to check the supply of tokens on the Sora Network and stay informed about the available token quantities within the Sora ecosystem.
+      content: Learn how to check the token supply on the SORA Network and get insights into the circulating supply and total supply of assets. Discover the tools, interfaces, and resources available to check the supply of tokens on the SORA Network and stay informed about the available token quantities within the SORA ecosystem.
   - - meta
     - name: keywords
-      content: check supply, Sora Network, token supply, circulating supply, total supply, assets, tools, interfaces, Sora ecosystem
+      content: check supply, SORA Network, token supply, circulating supply, total supply, assets, tools, interfaces, SORA ecosystem
 ---
 
 # Check Supply

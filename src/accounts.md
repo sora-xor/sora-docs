@@ -1,12 +1,12 @@
 ---
-title: "Accounts on the Sora Network | Sora Docs"
+title: "Accounts on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn about accounts on the Sora Network and how they enable users to interact with the network and manage their assets. Explore the different types of accounts, such as user accounts and system accounts, and understand how they are used for transactions, staking, governance, and other activities within the Sora ecosystem."
+      content: "Learn about accounts on the SORA Network and how they enable users to interact with the network and manage their assets. Explore the different types of accounts, such as user accounts and system accounts, and understand how they are used for transactions, staking, governance, and other activities within the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "accounts, Sora Network, user accounts, system accounts, asset management, transactions, staking, governance, Sora ecosystem"
+      content: "accounts, SORA Network, user accounts, system accounts, asset management, transactions, staking, governance, SORA ecosystem"
 ---
 
 # Accounts

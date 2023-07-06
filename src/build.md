@@ -1,12 +1,12 @@
 ---
-title: "Build on the Sora Network | Sora Docs"
+title: "Build on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Discover how to build on the Sora Network and leverage its infrastructure to develop decentralized applications (dApps). Learn about the tools, resources, and documentation available to developers, and explore the opportunities for innovation and collaboration within the Sora ecosystem."
+      content: "Discover how to build on the SORA Network and leverage its infrastructure to develop decentralized applications (dApps). Learn about the tools, resources, and documentation available to developers, and explore the opportunities for innovation and collaboration within the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "build on Sora Network, decentralized applications, dApps, infrastructure, developers, tools, resources, documentation, Sora ecosystem"
+      content: "build on SORA Network, decentralized applications, dApps, infrastructure, developers, tools, resources, documentation, SORA ecosystem"
 ---
 
 # Build on SORA

@@ -1,12 +1,12 @@
 ---
-title: "Rewards on the Sora Network | Sora Docs"
+title: "Rewards on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Discover the rewards program on the Sora Network and learn how you can earn rewards for participating in various activities within the Sora ecosystem. Explore the different types of rewards, including staking rewards, liquidity rewards, and referral rewards, and maximize your earnings in the Sora Network."
+      content: "Discover the rewards program on the SORA Network and learn how you can earn rewards for participating in various activities within the SORA ecosystem. Explore the different types of rewards, including staking rewards, liquidity rewards, and referral rewards, and maximize your earnings in the SORA Network."
   - - meta
     - name: keywords
-      content: "rewards, Sora Network, staking rewards, liquidity rewards, referral rewards, Sora ecosystem, earnings"
+      content: "rewards, SORA Network, staking rewards, liquidity rewards, referral rewards, SORA ecosystem, earnings"
 ---
 
 <!-- TODO:

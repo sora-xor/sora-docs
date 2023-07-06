@@ -1,12 +1,12 @@
 ---
-title: "Sora ID | Sora Docs"
+title: "SORA ID | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn about Sora ID, a decentralized digital identity solution on the Sora Network. Discover how Sora ID enables users to manage their digital identities securely, interact with decentralized applications, and engage in trustless transactions within the Sora ecosystem."
+      content: "Learn about SORA ID, a decentralized digital identity solution on the SORA Network. Discover how SORA ID enables users to manage their digital identities securely, interact with decentralized applications, and engage in trustless transactions within the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "Sora ID, digital identity, decentralized identity, Sora Network, decentralized applications, trustless transactions, Sora ecosystem"
+      content: "SORA ID, digital identity, decentralized identity, SORA Network, decentralized applications, trustless transactions, SORA ecosystem"
 ---
 
 # Identity
@@ -24,7 +24,7 @@ Requirements:
 
 Follow these steps to set up an identity:
 
-1. Go to the [Polkadot JS Apps pointing at the Sora Mainnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/accounts) account's tab:
+1. Go to the [Polkadot JS Apps pointing at the SORA Mainnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/accounts) account's tab:
 
 2. Click on the hamburger menu icon on the account you wish to register an identity for. Then select "Set on-chain identity":
 

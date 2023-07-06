@@ -1,12 +1,12 @@
 ---
-title: Polkaswap Terms of Service | Sora Docs
+title: Polkaswap Terms of Service | SORA Docs
 head:
   - - meta
     - name: description
-      content: Review the terms of service for Polkaswap, the decentralized exchange on the Sora Network. Understand the terms and conditions that govern the use of Polkaswap, including user responsibilities, limitations, disclaimers, and more. Familiarize yourself with the terms to ensure a compliant and secure experience while trading on Polkaswap within the Sora ecosystem.
+      content: Review the terms of service for Polkaswap, the decentralized exchange on the SORA Network. Understand the terms and conditions that govern the use of Polkaswap, including user responsibilities, limitations, disclaimers, and more. Familiarize yourself with the terms to ensure a compliant and secure experience while trading on Polkaswap within the SORA ecosystem.
   - - meta
     - name: keywords
-      content: Polkaswap terms of service, Sora Network, decentralized exchange, user responsibilities, limitations, disclaimers, compliant experience, Sora ecosystem
+      content: Polkaswap terms of service, SORA Network, decentralized exchange, user responsibilities, limitations, disclaimers, compliant experience, SORA ecosystem
 ---
 
 # Memorandum and Terms of Services

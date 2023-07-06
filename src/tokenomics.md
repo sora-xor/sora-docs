@@ -1,30 +1,30 @@
 ---
-title: Sora Tokenomics - Decentralized Economic System | Sora Network
+title: SORA Tokenomics - Decentralized Economic System | SORA Network
 head:
   - - meta
     - name: viewport
       content: width=device-width, initial-scale=1.0
   - - meta
     - name: description
-      content: Learn about the tokenomics of Sora (XOR) - a decentralized economic system built on the Sora Network. Explore XOR token distribution, utility, and incentives.
+      content: Learn about the tokenomics of SORA (XOR) - a decentralized economic system built on the SORA Network. Explore XOR token distribution, utility, and incentives.
   - - meta
     - name: keywords
-      content: Sora, XOR, tokenomics, decentralized economic system, Sora Network, token distribution, utility, incentives
+      content: SORA, XOR, tokenomics, decentralized economic system, SORA Network, token distribution, utility, incentives
   - - meta
     - name: author
-      content: Sora Network
+      content: SORA Network
   - - meta
     - property: og:title
-      content: Sora Tokenomics - Decentralized Economic System | Sora Network
+      content: SORA Tokenomics - Decentralized Economic System | SORA Network
   - - meta
     - property: og:description
-      content: Learn about the tokenomics of Sora (XOR) - a decentralized economic system built on the Sora Network. Explore XOR token distribution, utility, and incentives.
+      content: Learn about the tokenomics of SORA (XOR) - a decentralized economic system built on the SORA Network. Explore XOR token distribution, utility, and incentives.
   - - meta
     - property: og:type
       content: website
   - - meta
     - property: og:site_name
-      content: Sora Network
+      content: SORA Network
   - - meta
     - property: og:locale
       content: en_US
@@ -33,10 +33,10 @@ head:
       content: summary
   - - meta
     - name: twitter:title
-      content: Sora Tokenomics - Decentralized Economic System | Sora Network
+      content: SORA Tokenomics - Decentralized Economic System | SORA Network
   - - meta
     - name: twitter:description
-      content: Learn about the tokenomics of Sora (XOR) - a decentralized economic system built on the Sora Network. Explore XOR token distribution, utility, and incentives.
+      content: Learn about the tokenomics of SORA (XOR) - a decentralized economic system built on the SORA Network. Explore XOR token distribution, utility, and incentives.
   - - meta
     - name: twitter:site
       content: "@sora_xor"

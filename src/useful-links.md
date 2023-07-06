@@ -1,12 +1,12 @@
 ---
-title: "Useful Links for the Sora Network | Sora Docs"
+title: "Useful Links for the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Explore a collection of useful links for the Sora Network, including official websites, community resources, developer tools, and more. Access important resources and stay connected with the Sora community by leveraging these curated links that provide valuable information and support for participants in the Sora ecosystem."
+      content: "Explore a collection of useful links for the SORA Network, including official websites, community resources, developer tools, and more. Access important resources and stay connected with the SORA community by leveraging these curated links that provide valuable information and support for participants in the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "useful links, Sora Network, official websites, community resources, developer tools, Sora community, Sora ecosystem"
+      content: "useful links, SORA Network, official websites, community resources, developer tools, SORA community, SORA ecosystem"
 ---
 
 # Useful Links

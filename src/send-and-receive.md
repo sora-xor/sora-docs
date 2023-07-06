@@ -1,12 +1,12 @@
 ---
-title: "Send and Receive Assets on Polkaswap | Sora Docs"
+title: "Send and Receive Assets on Polkaswap | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn how to send and receive assets on Polkaswap, the decentralized exchange of the Sora Network. Discover the step-by-step process to transfer assets securely between wallets, explore the available options for asset selection and transaction fees, and ensure smooth and efficient asset transfers on Polkaswap."
+      content: "Learn how to send and receive assets on Polkaswap, the decentralized exchange of the SORA Network. Discover the step-by-step process to transfer assets securely between wallets, explore the available options for asset selection and transaction fees, and ensure smooth and efficient asset transfers on Polkaswap."
   - - meta
     - name: keywords
-      content: "send assets, receive assets, Polkaswap, Sora Network, decentralized exchange, asset transfers, transaction fees"
+      content: "send assets, receive assets, Polkaswap, SORA Network, decentralized exchange, asset transfers, transaction fees"
 ---
 
 # Send & Receive

@@ -1,12 +1,12 @@
 ---
-title: Sora XOR Token | Sora Docs
+title: SORA XOR Token | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about XOR, the native token of the Sora Network. Discover the features, use cases, and benefits of XOR within the Sora ecosystem. Explore its role in governance, staking, liquidity providing, and other activities, and understand how XOR powers the decentralized economy and incentivizes active participation in the Sora Network.
+      content: Learn about XOR, the native token of the SORA Network. Discover the features, use cases, and benefits of XOR within the SORA ecosystem. Explore its role in governance, staking, liquidity providing, and other activities, and understand how XOR powers the decentralized economy and incentivizes active participation in the SORA Network.
   - - meta
     - name: keywords
-      content: Sora XOR token, native token, Sora Network, governance, staking, liquidity providing, decentralized economy, Sora ecosystem
+      content: SORA XOR token, native token, SORA Network, governance, staking, liquidity providing, decentralized economy, SORA ecosystem
 ---
 
 # XOR (天)
@@ -32,7 +32,7 @@ When the SORA v2 network launched in April 2021, the XOR supply was 350,000 XOR.
 
 Fair distribution: when the SORA v2 network launched, 350,000 XOR were put on Uniswap, and then people bought more XOR over time.
 
-XOR distribution can be tracked on [Etherscan](https://etherscan.io/token/0x40FD72257597aA14C7231A7B1aaa29Fce868F677#balances) and on [Sorascan](https://sorascan.com/sora-mainnet/account).
+XOR distribution can be tracked on [Etherscan](https://etherscan.io/token/0x40FD72257597aA14C7231A7B1aaa29Fce868F677#balances) and on [SORAscan](https://sorascan.com/sora-mainnet/account).
 
 ## XOR Top Holders
 

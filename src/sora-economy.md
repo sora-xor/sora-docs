@@ -1,5 +1,5 @@
 ---
-title: "Sora Economy - Decentralized Economic System | Sora Network"
+title: "SORA Economy - Decentralized Economic System | SORA Network"
 head:
   - - link
     - rel: stylesheet
@@ -9,25 +9,25 @@ head:
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Discover the Sora economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the Sora Network, XOR token, and economic mechanisms."
+      content: "Discover the SORA economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the SORA Network, XOR token, and economic mechanisms."
   - - meta
     - name: keywords
-      content: "Sora, Sora Network, XOR token, Sora economy, decentralized economic system, fairness, stability, inclusivity, economic mechanisms"
+      content: "SORA, SORA Network, XOR token, SORA economy, decentralized economic system, fairness, stability, inclusivity, economic mechanisms"
   - - meta
     - name: author
-      content: "Sora Network"
+      content: "SORA Network"
   - - meta
     - property: og:title
-      content: "Sora Economy - Decentralized Economic System | Sora Network"
+      content: "SORA Economy - Decentralized Economic System | SORA Network"
   - - meta
     - property: og:description
-      content: "Discover the Sora economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the Sora Network, XOR token, and economic mechanisms."
+      content: "Discover the SORA economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the SORA Network, XOR token, and economic mechanisms."
   - - meta
     - property: og:type
       content: "website"
   - - meta
     - property: og:site_name
-      content: "Sora Network"
+      content: "SORA Network"
   - - meta
     - property: og:locale
       content: "en_US"
@@ -36,10 +36,10 @@ head:
       content: "summary"
   - - meta
     - name: twitter:title
-      content: "Sora Economy - Decentralized Economic System | Sora Network"
+      content: "SORA Economy - Decentralized Economic System | SORA Network"
   - - meta
     - name: twitter:description
-      content: "Discover the Sora economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the Sora Network, XOR token, and economic mechanisms."
+      content: "Discover the SORA economy - a decentralized economic system designed to promote fairness, stability, and inclusivity. Learn about the SORA Network, XOR token, and economic mechanisms."
   - - meta
     - name: twitter:site
       content: "@sora_xor"
@@ -58,7 +58,7 @@ head:
 
 ## Background
 
-On October 17, 2019, the [SORA](https://sora.org) v1 Network launched, issuing approximately 1,618,033,988 XOR. In March of 2020, approximately 350,000 XOR were moved from the SORA v1 Network to the Ethereum Network and [trading was started on Uniswap](http://sora.exchange). The goal of the initial launch on Uniswap was to perform preliminary price discovery and build the Sora community by incorporating users of the Ethereum network. However, our technology has improved, giving us the possibility to shape a new and more ambitious type of crypto ecosystem. Whereas our medium-term goal remains generating value for our community, our analysis of the SORA economy has **led us to embrace the long-term goal of realizing a supranational world economic system**.
+On October 17, 2019, the [SORA](https://sora.org) v1 Network launched, issuing approximately 1,618,033,988 XOR. In March of 2020, approximately 350,000 XOR were moved from the SORA v1 Network to the Ethereum Network and [trading was started on Uniswap](http://sora.exchange). The goal of the initial launch on Uniswap was to perform preliminary price discovery and build the SORA community by incorporating users of the Ethereum network. However, our technology has improved, giving us the possibility to shape a new and more ambitious type of crypto ecosystem. Whereas our medium-term goal remains generating value for our community, our analysis of the SORA economy has **led us to embrace the long-term goal of realizing a supranational world economic system**.
 
 To realize this system, we are proposing SORA: The New Economic Order. This is a profound and significant upgrade to the SORA Network and the SORA tokenomics. The [upgrade was voted on](https://medium.com/sora-xor/sora-new-economic-order-tokenomics-referendum-31581e8b649) and [ratified by the SORA community](https://medium.com/sora-xor/sora-v2-implementation-1febd3260b87). We feel that this is a system that can add value to humanity and we strongly support its adoption.
 
@@ -153,7 +153,7 @@ Features specific to the SORA token bonding curve-based economic design:
 - The token bonding curve naturally rewards early buyers of XOR, **encouraging word of mouth marketing.**
 - The decentralized monetary policy of XOR offers **protection from abuse by authorities and full transparency for users.**
 - Primary market buy-back reserve puts a limit on ability of governments or short-sellers to manipulate the market.
-- The overall incentive mechanism works to **align interests of all stakeholders,** and help **sustain continuous development of the Sora Ecosystem as a global decentralized autonomous economic organization.**
+- The overall incentive mechanism works to **align interests of all stakeholders,** and help **sustain continuous development of the SORA Ecosystem as a global decentralized autonomous economic organization.**
 - The SORA v2 monetary system is neither debt-based nor debt-driven, and new tokens are always allocated under democratic supervision, which works to **eliminate the unsustainable boom-bust cycles in contemporary economic systems**.
 
 Bid/ask prices in the secondary market are bounded in a dynamic price range imposed by the token bonding curve. Therefore, the current buy/sell-prices offered by the token bonding curve provide support & resistance levels, or the confidence range of XOR in the market, with forward guidance.

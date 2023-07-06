@@ -1,12 +1,12 @@
 ---
-title: "Consensus Mechanism on the Sora Network | Sora Docs"
+title: "Consensus Mechanism on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn about the consensus mechanism on the Sora Network and how it ensures agreement and consistency among network participants. Explore the different consensus algorithms employed by the Sora Network, such as Proof of Stake (PoS), and understand how they contribute to the security and decentralization of the network."
+      content: "Learn about the consensus mechanism on the SORA Network and how it ensures agreement and consistency among network participants. Explore the different consensus algorithms employed by the SORA Network, such as Proof of Stake (PoS), and understand how they contribute to the security and decentralization of the network."
   - - meta
     - name: keywords
-      content: "consensus mechanism, Sora Network, agreement, consistency, consensus algorithms, Proof of Stake, PoS, security, decentralization"
+      content: "consensus mechanism, SORA Network, agreement, consistency, consensus algorithms, Proof of Stake, PoS, security, decentralization"
 ---
 
 # Consensus

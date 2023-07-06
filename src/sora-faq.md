@@ -1,30 +1,30 @@
 ---
-title: "Sora FAQ - Frequently Asked Questions about Sora Network | Sora Docs"
+title: "SORA FAQ - Frequently Asked Questions about SORA Network | SORA Docs"
 head:
   - - meta
     - name: viewport
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Find answers to frequently asked questions (FAQ) about Sora - a decentralized economic system built on the Sora Network. Get insights on XOR token, staking, governance, and more."
+      content: "Find answers to frequently asked questions (FAQ) about SORA - a decentralized economic system built on the SORA Network. Get insights on XOR token, staking, governance, and more."
   - - meta
     - name: keywords
-      content: "Sora FAQ, frequently asked questions, Sora Network, XOR token, staking, governance"
+      content: "SORA FAQ, frequently asked questions, SORA Network, XOR token, staking, governance"
   - - meta
     - name: author
-      content: "Sora Network"
+      content: "SORA Network"
   - - meta
     - property: og:title
-      content: "Sora FAQ - Frequently Asked Questions about Sora Network | Sora Docs"
+      content: "SORA FAQ - Frequently Asked Questions about SORA Network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Find answers to frequently asked questions (FAQ) about Sora - a decentralized economic system built on the Sora Network. Get insights on XOR token, staking, governance, and more."
+      content: "Find answers to frequently asked questions (FAQ) about SORA - a decentralized economic system built on the SORA Network. Get insights on XOR token, staking, governance, and more."
   - - meta
     - property: og:type
       content: "website"
   - - meta
     - property: og:site_name
-      content: "Sora Docs"
+      content: "SORA Docs"
   - - meta
     - property: og:locale
       content: "en_US"
@@ -33,10 +33,10 @@ head:
       content: "summary"
   - - meta
     - name: twitter:title
-      content: "Sora FAQ - Frequently Asked Questions about Sora Network | Sora Docs"
+      content: "SORA FAQ - Frequently Asked Questions about SORA Network | SORA Docs"
   - - meta
     - name: twitter:description
-      content: "Find answers to frequently asked questions (FAQ) about Sora - a decentralized economic system built on the Sora Network. Get insights on XOR token, staking, governance, and more."
+      content: "Find answers to frequently asked questions (FAQ) about SORA - a decentralized economic system built on the SORA Network. Get insights on XOR token, staking, governance, and more."
   - - meta
     - name: twitter:site
       content: "@sora_xor"
@@ -75,7 +75,7 @@ Asset ID (address) is a unique asset identifier on the SORA network (like a cont
 
 ## How do Addresses Work on the SORA Network
 
-If you have used SORA Network or Polkaswap, you probably have noticed that generally addresses start with 5, but in Sorascan you have to input an address that starts with `cn`. So how does it work?
+If you have used SORA Network or Polkaswap, you probably have noticed that generally addresses start with 5, but in SORAscan you have to input an address that starts with `cn`. So how does it work?
 
 The address format used in Substrate-based chains is [SS58](<https://github.com/paritytech/substrate/wiki/External-Address-Format-(SS58)>), and each chain can select its own prefix, generating different addresses. Here's an example:
 

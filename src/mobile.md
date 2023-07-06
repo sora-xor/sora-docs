@@ -1,12 +1,12 @@
 ---
-title: Sora Mobile Applications | Sora Docs
+title: SORA Mobile Applications | SORA Docs
 head:
   - - meta
     - name: description
-      content: Explore the Sora mobile applications for iOS and Android devices. Discover the features and functionalities of the Sora mobile app, including wallet management, asset tracking, transaction history, and more. Download the Sora mobile app and access the Sora ecosystem on the go, empowering you to manage your digital assets anytime, anywhere.
+      content: Explore the SORA mobile applications for iOS and Android devices. Discover the features and functionalities of the SORA mobile app, including wallet management, asset tracking, transaction history, and more. Download the SORA mobile app and access the SORA ecosystem on the go, empowering you to manage your digital assets anytime, anywhere.
   - - meta
     - name: keywords
-      content: Sora mobile applications, Sora mobile app, iOS app, Android app, wallet management, asset tracking, transaction history, Sora ecosystem, digital assets
+      content: SORA mobile applications, SORA mobile app, iOS app, Android app, wallet management, asset tracking, transaction history, SORA ecosystem, digital assets
 ---
 
 # SORA Mobile App

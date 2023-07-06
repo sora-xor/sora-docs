@@ -1,12 +1,12 @@
 ---
-title: Sora Transfer | Sora Docs
+title: SORA Transfer | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn how to transfer assets on the Sora Network. Discover the various methods and tools available for transferring digital assets securely and efficiently within the Sora ecosystem. Explore the transfer process, including sending and receiving assets, transaction fees, and best practices for ensuring smooth and reliable asset transfers on the Sora Network.
+      content: Learn how to transfer assets on the SORA Network. Discover the various methods and tools available for transferring digital assets securely and efficiently within the SORA ecosystem. Explore the transfer process, including sending and receiving assets, transaction fees, and best practices for ensuring smooth and reliable asset transfers on the SORA Network.
   - - meta
     - name: keywords
-      content: Sora Transfer, Sora Network, asset transfer, digital assets, secure transfer, transaction fees, sending assets, receiving assets, asset transfer process, Sora ecosystem
+      content: SORA Transfer, SORA Network, asset transfer, digital assets, secure transfer, transaction fees, sending assets, receiving assets, asset transfer process, SORA ecosystem
 ---
 
 # Transfer
@@ -128,7 +128,7 @@ Using QR code reduces the number of mistakes and simplifies the process of enter
 
 2. Scan the QR code and then enter the amount of tokens that you'd like to send.
 
-<!-- Probably not needed <center><img src=".gitbook/assets/Screenshot_20210915-101737_Soralution.jpg" width="400"></center> -->
+<!-- Probably not needed <center><img src=".gitbook/assets/Screenshot_20210915-101737_SORAlution.jpg" width="400"></center> -->
 <center><img src=".gitbook/assets/transfer-mobile-qr-enter-amount.jpg" width="400"></center>
 
 #### Receiving Tokens Using a QR Code

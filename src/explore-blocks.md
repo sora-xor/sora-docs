@@ -1,12 +1,12 @@
 ---
-title: "Explore Blocks on the Sora Network | Sora Docs"
+title: "Explore Blocks on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Explore blocks on the Sora Network and delve into the details of the blockchain's transaction history. Discover the latest blocks, block height, transactions, and other key information that provides insights into the functioning and activity of the Sora Network."
+      content: "Explore blocks on the SORA Network and delve into the details of the blockchain's transaction history. Discover the latest blocks, block height, transactions, and other key information that provides insights into the functioning and activity of the SORA Network."
   - - meta
     - name: keywords
-      content: "explore blocks, Sora Network, blockchain, transaction history, block height, transactions, Sora ecosystem"
+      content: "explore blocks, SORA Network, blockchain, transaction history, block height, transactions, SORA ecosystem"
 ---
 
 # Block Explorers

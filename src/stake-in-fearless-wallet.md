@@ -1,12 +1,12 @@
 ---
-title: "Stake in Fearless Wallet | Sora Docs"
+title: "Stake in Fearless Wallet | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn how to stake your assets in Fearless Wallet, the official mobile wallet for the Sora Network. Discover the step-by-step process to delegate your assets, earn staking rewards, and actively participate in the Sora ecosystem using Fearless Wallet."
+      content: "Learn how to stake your assets in Fearless Wallet, the official mobile wallet for the SORA Network. Discover the step-by-step process to delegate your assets, earn staking rewards, and actively participate in the SORA ecosystem using Fearless Wallet."
   - - meta
     - name: keywords
-      content: "stake in Fearless Wallet, Sora Network, mobile wallet, delegate assets, staking rewards, Sora ecosystem"
+      content: "stake in Fearless Wallet, SORA Network, mobile wallet, delegate assets, staking rewards, SORA ecosystem"
 ---
 
 # Staking in Fearless Wallet

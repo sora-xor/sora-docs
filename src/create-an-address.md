@@ -1,12 +1,12 @@
 ---
-title: "Create an Address on the Sora Network | Sora Docs"
+title: "Create an Address on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn how to create an address on the Sora Network and start interacting with the Sora ecosystem. Discover the steps to generate a new address, the importance of address security, and how to use your address for various activities within the Sora Network."
+      content: "Learn how to create an address on the SORA Network and start interacting with the SORA ecosystem. Discover the steps to generate a new address, the importance of address security, and how to use your address for various activities within the SORA Network."
   - - meta
     - name: keywords
-      content: "create an address, Sora Network, address generation, address security, Sora ecosystem"
+      content: "create an address, SORA Network, address generation, address security, SORA ecosystem"
 ---
 
 <!-- TODO:

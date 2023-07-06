@@ -1,12 +1,12 @@
 ---
-title: "Node Connections on the Sora Network | Sora Docs"
+title: "Node Connections on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn about node connections on the Sora Network and understand how nodes communicate and interact with each other. Discover the importance of node connections in maintaining network stability, security, and consensus, and explore the different types of node connections within the Sora ecosystem."
+      content: "Learn about node connections on the SORA Network and understand how nodes communicate and interact with each other. Discover the importance of node connections in maintaining network stability, security, and consensus, and explore the different types of node connections within the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "node connections, Sora Network, node communication, network stability, network security, network consensus, Sora ecosystem"
+      content: "node connections, SORA Network, node communication, network stability, network security, network consensus, SORA ecosystem"
 ---
 
 # Nodes Connection

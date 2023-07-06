@@ -1,24 +1,24 @@
 ---
-title: "Sora Governance - Decentralized Governance for Sora Network | Sora Docs"
+title: "SORA Governance - Decentralized Governance for SORA Network | SORA Docs"
 head:
   - - meta
     - name: viewport
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Explore Sora Governance - a decentralized governance system empowering participants to shape the future of the Sora Network. Learn about voting, proposals, and decision-making processes."
+      content: "Explore SORA Governance - a decentralized governance system empowering participants to shape the future of the SORA Network. Learn about voting, proposals, and decision-making processes."
   - - meta
     - name: keywords
-      content: "Sora Governance, decentralized governance, Sora Network, voting, proposals, decision-making"
+      content: "SORA Governance, decentralized governance, SORA Network, voting, proposals, decision-making"
   - - meta
     - name: author
-      content: "Sora Network"
+      content: "SORA Network"
   - - meta
     - property: og:title
-      content: "Sora Governance - Decentralized Governance for Sora Network | Sora Docs"
+      content: "SORA Governance - Decentralized Governance for SORA Network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Explore Sora Governance - a decentralized governance system empowering participants to shape the future of the Sora Network. Learn about voting, proposals, and decision-making processes."
+      content: "Explore SORA Governance - a decentralized governance system empowering participants to shape the future of the SORA Network. Learn about voting, proposals, and decision-making processes."
   - - meta
     - property: og:url
       content: "/sora-governance"
@@ -27,7 +27,7 @@ head:
       content: "website"
   - - meta
     - property: og:site_name
-      content: "Sora Docs"
+      content: "SORA Docs"
   - - meta
     - property: og:locale
       content: "en_US"
@@ -36,10 +36,10 @@ head:
       content: "summary"
   - - meta
     - name: twitter:title
-      content: "Sora Governance - Decentralized Governance for Sora Network | Sora Docs"
+      content: "SORA Governance - Decentralized Governance for SORA Network | SORA Docs"
   - - meta
     - name: twitter:description
-      content: "Explore Sora Governance - a decentralized governance system empowering participants to shape the future of the Sora Network. Learn about voting, proposals, and decision-making processes."
+      content: "Explore SORA Governance - a decentralized governance system empowering participants to shape the future of the SORA Network. Learn about voting, proposals, and decision-making processes."
   - - meta
     - name: twitter:site
       content: "@sora_xor"

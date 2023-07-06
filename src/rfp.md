@@ -1,21 +1,21 @@
 ---
-title: "Request for Proposals (RFP) in Sora Network | Sora Docs"
+title: "Request for Proposals (RFP) in SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn about the Request for Proposals (RFP) process in the Sora Network. Discover how the RFP system enables community members to propose and contribute to the development of the Sora ecosystem by submitting project proposals and collaborating with the Sora team."
+      content: "Learn about the Request for Proposals (RFP) process in the SORA Network. Discover how the RFP system enables community members to propose and contribute to the development of the SORA ecosystem by submitting project proposals and collaborating with the SORA team."
   - - meta
     - name: keywords
-      content: "Request for Proposals, RFP process, Sora Network, community proposals, project collaboration, Sora ecosystem development"
+      content: "Request for Proposals, RFP process, SORA Network, community proposals, project collaboration, SORA ecosystem development"
   - - meta
     - name: author
-      content: "Sora Network"
+      content: "SORA Network"
   - - meta
     - property: og:title
-      content: "Request for Proposals (RFP) in Sora Network | Sora Docs"
+      content: "Request for Proposals (RFP) in SORA Network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Learn about the Request for Proposals (RFP) process in the Sora Network. Discover how the RFP system enables community members to propose and contribute to the development of the Sora ecosystem by submitting project proposals and collaborating with the Sora team."
+      content: "Learn about the Request for Proposals (RFP) process in the SORA Network. Discover how the RFP system enables community members to propose and contribute to the development of the SORA ecosystem by submitting project proposals and collaborating with the SORA team."
 ---
 
 # How To RFP, Proposing New Functionalities to Polkaswap and the SORA Network

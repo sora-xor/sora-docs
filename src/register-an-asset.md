@@ -1,12 +1,12 @@
 ---
-title: Register an Asset on the Sora Network | Sora Docs
+title: Register an Asset on the SORA Network | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn how to register an asset on the Sora Network. Discover the process of listing and registering new digital assets within the Sora ecosystem. Explore the requirements, procedures, and considerations for asset registration, and understand the benefits of having your asset registered on the Sora Network.
+      content: Learn how to register an asset on the SORA Network. Discover the process of listing and registering new digital assets within the SORA ecosystem. Explore the requirements, procedures, and considerations for asset registration, and understand the benefits of having your asset registered on the SORA Network.
   - - meta
     - name: keywords
-      content: register an asset, Sora Network, digital assets, asset registration, listing assets, requirements, procedures, Sora ecosystem
+      content: register an asset, SORA Network, digital assets, asset registration, listing assets, requirements, procedures, SORA ecosystem
 ---
 
 # Registration

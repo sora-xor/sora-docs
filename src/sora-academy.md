@@ -1,30 +1,30 @@
 ---
-title: "Sora Academy - Empowering Education for Sora Network | Sora Docs"
+title: "SORA Academy - Empowering Education for SORA Network | SORA Docs"
 head:
   - - meta
     - name: viewport
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Discover the Sora Academy - an educational resource providing in-depth knowledge about the Sora Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with Sora Academy."
+      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
   - - meta
     - name: keywords
-      content: "Sora Academy, Sora Network, decentralized finance, blockchain technology, education, learning"
+      content: "SORA Academy, SORA Network, decentralized finance, blockchain technology, education, learning"
   - - meta
     - name: author
-      content: "Sora Network"
+      content: "SORA Network"
   - - meta
     - property: og:title
-      content: "Sora Academy - Empowering Education for Sora Network | Sora Docs"
+      content: "SORA Academy - Empowering Education for SORA Network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Discover the Sora Academy - an educational resource providing in-depth knowledge about the Sora Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with Sora Academy."
+      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
   - - meta
     - property: og:type
       content: "website"
   - - meta
     - property: og:site_name
-      content: "Sora Docs"
+      content: "SORA Docs"
   - - meta
     - property: og:locale
       content: "en_US"
@@ -33,10 +33,10 @@ head:
       content: "summary"
   - - meta
     - name: twitter:title
-      content: "Sora Academy - Empowering Education for Sora Network | Sora Docs"
+      content: "SORA Academy - Empowering Education for SORA Network | SORA Docs"
   - - meta
     - name: twitter:description
-      content: "Discover the Sora Academy - an educational resource providing in-depth knowledge about the Sora Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with Sora Academy."
+      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA Network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
   - - meta
     - name: twitter:site
       content: "@sora_xor"

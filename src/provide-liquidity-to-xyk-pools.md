@@ -1,12 +1,12 @@
 ---
-title: "Provide Liquidity on the Sora Network | Sora Docs"
+title: "Provide Liquidity on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn how to provide liquidity on the Sora Network and participate in the liquidity pools of Polkaswap. Discover the benefits of liquidity provision, the process of adding liquidity to pools, and how to earn rewards for your contributions to the Sora ecosystem."
+      content: "Learn how to provide liquidity on the SORA Network and participate in the liquidity pools of Polkaswap. Discover the benefits of liquidity provision, the process of adding liquidity to pools, and how to earn rewards for your contributions to the SORA ecosystem."
   - - meta
     - name: keywords
-      content: "provide liquidity, Sora Network, Polkaswap, liquidity pools, adding liquidity, liquidity rewards, Sora ecosystem"
+      content: "provide liquidity, SORA Network, Polkaswap, liquidity pools, adding liquidity, liquidity rewards, SORA ecosystem"
 ---
 
 <!-- TODO:
