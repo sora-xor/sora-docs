@@ -12,7 +12,7 @@ Follow these steps to get started:
 
 1. Click the **BUY TOKENS** button to open the [MoonPay](https://www.moonpay.com/) purchase menu:
 
-   ![](.gitbook/assets/foto1.png)
+    <center><img src="/.gitbook/assets/on-ramp-buy-tokens.png" width="400"></center>
 
 2. Select the **Currency** and **Amount**, then click **Continue.**
 
@@ -20,7 +20,7 @@ Follow these steps to get started:
 
    Currently you can only buy DAI and ETH.
 
-   :::
+    <center><img src="/.gitbook/assets/on-ramp-select-tokens.png" width="400"></center>
 
    ![](<.gitbook/assets/foto2(1).png>)
 
@@ -29,7 +29,7 @@ Follow these steps to get started:
    - If everything is ok, click **Continue**.
    - If the address is not the one you would like to be using, change the account in Metamask to the one you wish to be using.
 
-   ![](.gitbook/assets/foto3.png)
+    <center><img src="/.gitbook/assets/on-ramp-enter-address.png" width="400"></center>
 
 4. Go through the **KYC** process.
 
@@ -50,45 +50,41 @@ Follow these steps to get started:
 
    :::
 
-   ![](.gitbook/assets/foto4.png)
+    <center><img src="/.gitbook/assets/on-ramp-enter-card-details.png" width="400"></center>
 
 6. Wait for the transaction to be processed. You may close the window (and browser) safely at any time and come back to it later. You will also be notified via email by [MoonPay](https://www.moonpay.com/) once the transaction is completed or if there are any issues.
 
-   ::: info
-   Processing may take a few minutes _or a few hours_.
-   :::
+    <center><img src="/.gitbook/assets/on-ramp-transaction-processing.png" width="400"></center>
 
    ![](.gitbook/assets/foto5.png)
 
-   If you don't close the window, you will be automatically taken to the next steps once the transaction is processed:
-
-   ![](.gitbook/assets/foto6.png)
+    <center><img src="/.gitbook/assets/on-ramp-tokens-purchased.png" width="400"></center>
 
 7. Once the tokens have been received in your Ethereum account (that is also actively connected to the Polkaswap site), the modal window to start the HASHI bridge transaction will appear automatically.
 
-   ![](<.gitbook/assets/foto7(1).png>)
+    <center><img src="/.gitbook/assets/on-ramp-brigde.png" width="400"></center>
 
 8. Click **START BRIDGE** to move the tokens from Ethereum to SORA. Alternatively, you can close this window and begin the process at a later time (_closing this window will not affect the transfer, you can still reach the transaction any time in Purchase History and start the bridge from there_).
 
-   ![](.gitbook/assets/foto8.png)
+    <center><img src="/.gitbook/assets/on-ramp-transaction-history.png" width="400"></center>
 
 9. Click **PURCHASE HISTORY** to review your transaction. You can click and view each transaction in detail, new and old, as well as start the bridge for any of the transactions that are ready and waiting.
 
-   ![](.gitbook/assets/foto9.png)
+    <center><img src="/.gitbook/assets/on-ramp-start-bridge.png" width="400"></center>
 
 10. When you are ready to transfer your funds to the SORA network, click **START BRIDGE** and then follow the usual steps for the HASHI bridge to move tokens from Ethereum to SORA.
 
 11. Confirm the Ethereum network transaction:
 
-    ![](.gitbook/assets/foto10.png)
+    <center><img src="/.gitbook/assets/on-ramp-confirm-transaction.png" width="400"></center>
 
 12. Once the **Ethereum network transaction** has been processed, wait for the **SORA network transaction** to finish. This step takes longer as it is waiting for 30 block confirmations, hold on tight!
 
-    ![](.gitbook/assets/foto11.png)
+    <center><img src="/.gitbook/assets/on-ramp-wait-to-process.png" width="400"></center>
 
     The little wait is worth it though, as once this is done you’ve successfully bought crypto _with Style and Freedom_ directly from within Polkaswap using a credit card. _Woohoo!_
 
-    ![](<.gitbook/assets/foto12(1).png>)
+    <center><img src="/.gitbook/assets/on-ramp-bridge-successful.png" width="400"></center>
 
 ::: tip
 
