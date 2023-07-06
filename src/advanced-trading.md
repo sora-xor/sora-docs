@@ -1,5 +1,5 @@
 ---
-title: "Advanced Trading on the Sora Network | Sora Docs"
+title: "Advanced Trading on the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
