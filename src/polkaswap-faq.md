@@ -1,3 +1,14 @@
+---
+title: Polkaswap FAQ | Sora Docs
+head:
+  - - meta
+    - name: description
+      content: Find answers to frequently asked questions (FAQ) about Polkaswap, the decentralized exchange on the Sora Network. Explore common inquiries about trading, liquidity providing, token swapping, fees, and more. Get the information you need to enhance your understanding and maximize your experience on Polkaswap within the Sora ecosystem.
+  - - meta
+    - name: keywords
+      content: Polkaswap FAQ, Sora Network, decentralized exchange, trading, liquidity providing, token swapping, fees, Sora ecosystem
+---
+
 # FAQ
 
 ## What is the difference between a centralized exchange (CEX) and a decentralized exchange (DEX)?

@@ -1,3 +1,14 @@
+---
+title: Sora XST Token | Sora Docs
+head:
+  - - meta
+    - name: description
+      content: Learn about XST, the stablecoin of the Sora Network. Discover the features, use cases, and benefits of XST within the Sora ecosystem. Explore its role as a stable and reliable digital asset, enabling efficient value transfer, reducing volatility, and supporting various financial applications within the Sora Network.
+  - - meta
+    - name: keywords
+      content: Sora XST token, stablecoin, Sora Network, digital asset, value transfer, volatility reduction, financial applications, Sora ecosystem
+---
+
 # XST
 
 SORA Synthetics are tokens pegged to value indices, backed by XOR,

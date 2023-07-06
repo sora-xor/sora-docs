@@ -1,3 +1,14 @@
+---
+title: Sora Transfer | Sora Docs
+head:
+  - - meta
+    - name: description
+      content: Learn how to transfer assets on the Sora Network. Discover the various methods and tools available for transferring digital assets securely and efficiently within the Sora ecosystem. Explore the transfer process, including sending and receiving assets, transaction fees, and best practices for ensuring smooth and reliable asset transfers on the Sora Network.
+  - - meta
+    - name: keywords
+      content: Sora Transfer, Sora Network, asset transfer, digital assets, secure transfer, transaction fees, sending assets, receiving assets, asset transfer process, Sora ecosystem
+---
+
 # Transfer
 
 Transfers are used to send tokens from one account to another. You can make transfers using Polkadot.js apps, Polkaswap, and the SORA mobile application.

@@ -1,3 +1,14 @@
+---
+title: Sora On-Ramp | Sora Docs
+head:
+  - - meta
+    - name: description
+      content: Learn about the Sora On-Ramp, a feature that enables users to easily convert fiat currencies into digital assets within the Sora ecosystem. Discover the supported fiat on-ramp options, the conversion process, and the benefits of using the Sora On-Ramp for seamless entry into the world of digital assets.
+  - - meta
+    - name: keywords
+      content: Sora On-Ramp, fiat on-ramp, digital assets, fiat currency conversion, conversion process, seamless entry, Sora ecosystem
+---
+
 # On-ramp
 
 ## Via Polkaswap

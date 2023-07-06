@@ -1,3 +1,14 @@
+---
+title: Sora Validators | Sora Docs
+head:
+  - - meta
+    - name: description
+      content: Learn about validators on the Sora Network and their role in securing the network, validating transactions, and maintaining consensus. Discover the requirements and responsibilities of validators, explore the process of becoming a validator, and understand the importance of validator nodes in the decentralized governance of the Sora ecosystem.
+  - - meta
+    - name: keywords
+      content: Sora Validators, Sora Network, network security, transaction validation, consensus, validator requirements, becoming a validator, decentralized governance, Sora ecosystem
+---
+
 # VAL (≚)
 
 - VAL is a new token used to reward SORA network validators that secure the network, created by [community governance](https://medium.com/sora-xor/sora-v2-implementation-1febd3260b87); all contracts and executable code were released in a disabled form and could not be used until activation by a community member (by insertion of cryptographic proof of the referendum); now it is fully activated.

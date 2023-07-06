@@ -1,3 +1,14 @@
+---
+title: Check Balance on the Sora Network | Sora Docs
+head:
+  - - meta
+    - name: description
+      content: Learn how to check your balance on the Sora Network and view your asset holdings. Discover the different methods and tools available to check your balance, including wallets, block explorers, and other Sora Network interfaces. Stay informed about your asset balances and track your holdings within the Sora ecosystem.
+  - - meta
+    - name: keywords
+      content: check balance, Sora Network, asset holdings, wallets, block explorers, Sora Network interfaces, asset balances, Sora ecosystem
+---
+
 # Check User Balances
 
 ## Via Polkadot.js UI
