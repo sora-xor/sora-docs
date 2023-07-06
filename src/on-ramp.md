@@ -12,7 +12,7 @@ Follow these steps to get started:
 
 1. Click the **BUY TOKENS** button to open the [MoonPay](https://www.moonpay.com/) purchase menu:
 
-    <center><img src="/.gitbook/assets/on-ramp-buy-tokens.png" width="400"></center>
+<center><img src="/.gitbook/assets/on-ramp-buy-tokens.png" width="400"></center>
 
 2. Select the **Currency** and **Amount**, then click **Continue.**
 
@@ -62,15 +62,15 @@ Follow these steps to get started:
 
 7. Once the tokens have been received in your Ethereum account (that is also actively connected to the Polkaswap site), the modal window to start the HASHI bridge transaction will appear automatically.
 
-    <center><img src="/.gitbook/assets/on-ramp-brigde.png" width="400"></center>
+<center><img src="/.gitbook/assets/on-ramp-brigde.png" width="400"></center>
 
 8. Click **START BRIDGE** to move the tokens from Ethereum to SORA. Alternatively, you can close this window and begin the process at a later time (_closing this window will not affect the transfer, you can still reach the transaction any time in Purchase History and start the bridge from there_).
 
-    <center><img src="/.gitbook/assets/on-ramp-transaction-history.png" width="400"></center>
+<center><img src="/.gitbook/assets/on-ramp-transaction-history.png" width="400"></center>
 
 9. Click **PURCHASE HISTORY** to review your transaction. You can click and view each transaction in detail, new and old, as well as start the bridge for any of the transactions that are ready and waiting.
 
-    <center><img src="/.gitbook/assets/on-ramp-start-bridge.png" width="400"></center>
+<center><img src="/.gitbook/assets/on-ramp-start-bridge.png" width="400"></center>
 
 10. When you are ready to transfer your funds to the SORA network, click **START BRIDGE** and then follow the usual steps for the HASHI bridge to move tokens from Ethereum to SORA.
 

@@ -1,21 +1,21 @@
 # How to Run a SORA Mainnet Node
 
-## TL;DR 
+## TL;DR
 
-* Anyone can run a node on the SORA mainnet
-* There are two types of nodes:
-  * **Syncing** nodes that just receive and relay data
-  * **Validating** nodes that make the blocks
+- Anyone can run a node on the SORA mainnet
+- There are two types of nodes:
+  - **Syncing** nodes that just receive and relay data
+  - **Validating** nodes that make the blocks
 
 ## Prerequisites
 
 You will need:
 
-* A machine with Linux, Windows, or macOS
-* [Docker](https://docs.docker.com/get-docker/) (preferably the latest version). Follow the installation guide for your operating system.
-* At least 8GB RAM, preferably 16GB RAM. For production, you will need 64GB RAM.
-* 300GB free space (preferably SSD, with the ability to expand)
-* Intel(R) Core(TM) i7–7700K CPU @ 4.20GHz (alternatively, a 4-Core processor with a frequency of 2.2 GHz)
+- A machine with Linux, Windows, or macOS
+- [Docker](https://docs.docker.com/get-docker/) (preferably the latest version). Follow the installation guide for your operating system.
+- At least 8GB RAM, preferably 16GB RAM. For production, you will need 64GB RAM.
+- 300GB free space (preferably SSD, with the ability to expand)
+- Intel(R) Core(TM) i7–7700K CPU @ 4.20GHz (alternatively, a 4-Core processor with a frequency of 2.2 GHz)
 
 To check that Docker is installed, run the `docker --version` command in terminal. You will get an output like this:
 
@@ -56,6 +56,7 @@ Share images, automate workflows, and more with a free Docker ID:
 For more examples and ideas, visit:
 <https://docs.docker.com/get-started/>
 ```
+
 :::
 
 If something went wrong, please visit the [Docker documentation](https://docs.docker.com/). You can also download Docker from here:
@@ -72,7 +73,7 @@ You should use the latest SORA Node version in order to run a
 node. You can see the latest build number here, and find the last
 version with the`x.y.z` format.
 
-![](</.gitbook/assets/running-node-version-tag.png>)
+![](/.gitbook/assets/running-node-version-tag.png)
 
 Use this version number for further `docker` commands in this guide. The number of the version will be marked as **`<version>`** in the commands. Please note that you would need to enter the version number **without the brackets**.
 
@@ -105,6 +106,7 @@ Use this version number for further `docker` commands in this guide. The number 
    ```bash
    sudo chown <username>:1000
    ```
+
    :::
 
 4. Run the docker image (don’t forget to insert your version below!)
@@ -129,11 +131,11 @@ Use this version number for further `docker` commands in this guide. The number 
 
 3. Check access to the created folder:
 
-   ![](</.gitbook/assets/running-node-check-access-to-folder.png>)
+   ![](/.gitbook/assets/running-node-check-access-to-folder.png)
 
    All checkboxes should be activated for the user:
 
-   ![](</.gitbook/assets/running-node-check-checkboxes.png>)
+   ![](/.gitbook/assets/running-node-check-checkboxes.png)
 
 4. Run the docker command:
 
@@ -143,7 +145,7 @@ Use this version number for further `docker` commands in this guide. The number 
 
 5. Now you can connect to your node with [polkadot.js apps](https://polkadot.js.org/apps/#/explorer). Select Local node and click Switch.
 
-   ![](</.gitbook/assets/running-node-connect-custom.png>)
+   ![](/.gitbook/assets/running-node-connect-custom.png)
 
 Now your node should sync!
 
@@ -176,6 +178,7 @@ Now your node should sync!
    ```bash
    sudo chown <username>:1000
    ```
+
    :::
 
 4. Run the Docker command:
@@ -204,11 +207,11 @@ Now your node should sync!
 
 3. Check the access to the folder:
 
-   ![](</.gitbook/assets/running-node-check-access-to-folder.png>)
+   ![](/.gitbook/assets/running-node-check-access-to-folder.png)
 
    All checkboxes should be activated for the user:
 
-   ![](</.gitbook/assets/running-node-check-checkboxes.png>)
+   ![](/.gitbook/assets/running-node-check-checkboxes.png)
 
 4. Run the Docker command
 
@@ -222,27 +225,27 @@ Now your node should sync!
 
 1. Open [polkadot.js apps](https://polkadot.js.org/apps/#/explorer) and switch to your local node.
 
-   ![](</.gitbook/assets/running-node-via-polkadot-switch-to-local.png>)
+   ![](/.gitbook/assets/running-node-via-polkadot-switch-to-local.png)
 
-2. In the Development section, select Local Node *(ws://127.0.0.1:9944)* and click *Switch*.
+2. In the Development section, select Local Node _(ws://127.0.0.1:9944)_ and click _Switch_.
 
-   ![](</.gitbook/assets/running-node-via-polkadot-select-local.png>)
+   ![](/.gitbook/assets/running-node-via-polkadot-select-local.png)
 
-   Now you’re able to see the screen with your node information. *(Once your node has fully synced)*
+   Now you’re able to see the screen with your node information. _(Once your node has fully synced)_
 
-   ![](</.gitbook/assets/running-node-via-polkadot-view-info.png>)
+   ![](/.gitbook/assets/running-node-via-polkadot-view-info.png)
 
-3. Navigate to *Developer* → *RPC calls*:
+3. Navigate to _Developer_ → _RPC calls_:
 
-   ![](</.gitbook/assets/running-node-via-polkadot-navigate-to-rpc-calls.png>)
+   ![](/.gitbook/assets/running-node-via-polkadot-navigate-to-rpc-calls.png)
 
-4. Select *author* → *rotateKeys()*:
+4. Select _author_ → _rotateKeys()_:
 
-   ![](</.gitbook/assets/running-node-via-polkadot-select-rotatekeys.png>)
+   ![](/.gitbook/assets/running-node-via-polkadot-select-rotatekeys.png)
 
-5. Click the *Submit RPC call* button:
+5. Click the _Submit RPC call_ button:
 
-   ![](</.gitbook/assets/running-node-via-polkadot-submit-rpc.png>)
+   ![](/.gitbook/assets/running-node-via-polkadot-submit-rpc.png)
 
 6. Copy the session key from the output. You wll need the key later.
 
@@ -254,9 +257,7 @@ Now your node should sync!
    curl -H “Content-Type: application/json” -d ‘{“id”:1, “jsonrpc”:”2.0", “method”: “author_rotateKeys”, “params”:[]}’ http://localhost:9933
    ```
 
-
    The output will contain the session key:
-
 
    ```json
    {“jsonrpc”:”2.0",”result”:”0x5e977ddcc0c69a6aed067052d5bd8f6bd365fae03562fd447d434e9814ac415d7c9ffe722364922bda314e44654f5c0cdc00d152470d5433f12cb73d078061863ac769d5f17b5460f042d221edf0099d2ce4c23edbe96ac943452cc4d3ad6d72”,”id”:1}
@@ -266,48 +267,48 @@ Now your node should sync!
 
 ## Adding a Validator
 
-1. First, you should go to Accounts and already have an account connected. Navigate to Network → Staking → Account actions, and click *Validator*:
+1. First, you should go to Accounts and already have an account connected. Navigate to Network → Staking → Account actions, and click _Validator_:
 
-   ![](</.gitbook/assets/running-node-add-validator.png>)
+   ![](/.gitbook/assets/running-node-add-validator.png)
 
 2. Select stash and controller account. It’s recommended to use different accounts for stash and controller. (In the example we are using PAVEL (EXTENSION))
 
 3. Set the bonded value:
 
-   ![](</.gitbook/assets/running-node-set-bonded-value.png>)
+   ![](/.gitbook/assets/running-node-set-bonded-value.png)
 
 4. Set the session key (the result of rotateKeys call) and reward commission:
 
-   ![](</.gitbook/assets/running-node-set-key-reward-commission.png>)
+   ![](/.gitbook/assets/running-node-set-key-reward-commission.png)
 
 5. Sign the transaction.
 
-   ![](</.gitbook/assets/running-node-sign-transaction.png>)
+   ![](/.gitbook/assets/running-node-sign-transaction.png)
 
 6. Make sure that you have been added to the stashes:
 
-   ![](</.gitbook/assets/running-node-check-stashes.png>)
+   ![](/.gitbook/assets/running-node-check-stashes.png)
 
 7. Finally, wait for the next Era.
 
-   ![](</.gitbook/assets/6running-node-wait-for-next-era.png>)
+   ![](/.gitbook/assets/6running-node-wait-for-next-era.png)
 
 When the next Era starts, your validator will be added.
 
 ## Get Payouts
 
-1. Open *Staking* → *Payouts*. If your validator participates in the consensus, then you’ll be able to get payouts after the Era.
+1. Open _Staking_ → _Payouts_. If your validator participates in the consensus, then you’ll be able to get payouts after the Era.
 
    Polkadot.js apps always display XOR, because they don’t support multi
    assets. There should be said VAL on the screenshot below.
 
-   ![](</.gitbook/assets/running-node-get-payouts.png>)
+   ![](/.gitbook/assets/running-node-get-payouts.png)
 
 2. Click the Payout all button and sign the transaction
 
-   ![](</.gitbook/assets/running-node-payout-all.png>)
+   ![](/.gitbook/assets/running-node-payout-all.png)
 
-   ![](</.gitbook/assets/running-node-get-payouts-sign.png>)
+   ![](/.gitbook/assets/running-node-get-payouts-sign.png)
 
 Make sure to pay attention as the reward will be shared among Validator and Nominators according the Stake.
 
@@ -350,6 +351,7 @@ You can change the name of your node by editing the parameter value of:
    ```bash
    sudo chown <username>:1000
    ```
+
    :::
 
 4. Run the Docker command
@@ -374,13 +376,13 @@ You can change the name of your node by editing the parameter value of:
 
 3. Check the access to the folder
 
-   ![](</.gitbook/assets/running-node-check-access-to-folder.png>)
+   ![](/.gitbook/assets/running-node-check-access-to-folder.png)
 
    All checkboxes should be activated for the user
 
-   ![](</.gitbook/assets/running-node-check-checkboxes.png>)
+   ![](/.gitbook/assets/running-node-check-checkboxes.png)
 
-5. Run the Docker command:
+4. Run the Docker command:
 
    ```bash
    docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v sora2-node:/chain -u 0 sora2/substrate:1.9.0 --name sora2-my-node --chain main --base-path /chain --unsafe-ws-external --pruning archive --unsafe-rpc-external --wasm-execution compiled
@@ -398,7 +400,7 @@ The node will take some time to sync. The output in logs should look like this:
 
 You can connect to your own node with Polkadot.js apps. [Open Polkadot.js apps](https://polkadot.js.org/apps/) and navigate to the Development section in the network selector.
 
-![](</.gitbook/assets/running-node-connect.png>)
+![](/.gitbook/assets/running-node-connect.png)
 
 If you’re running a node on your local machine then select Local Node and click Switch. Otherwise, enter your custom endpoint and save.
 

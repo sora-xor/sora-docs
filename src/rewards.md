@@ -1,4 +1,4 @@
-<!-- TODO: 
+<!-- TODO:
 - check image alignment
 -->
 
@@ -6,7 +6,7 @@
 
 Users are incentivised to provide liquidity, use the SORA network, and support the set of network validators. There are different reward types depending on the activity.
 
-![](<.gitbook/assets/rewards-types.png>)
+![](.gitbook/assets/rewards-types.png)
 
 Let's describe all the currently available rewards in detail:
 
@@ -93,17 +93,17 @@ In the practice section, we'll teach you to claim tokens using Polkaswap and Pol
 
 You can claim **Rewards for Market Makers**, **LP Fees**, **LP Farming Bonus rewards**, and **Rewards for buying from TBC** using [Polkaswap.io](http://polkaswap.io) with your SORA account. Just open the **Rewards** section.
 
-![](<.gitbook/assets/rewards-polkaswap-claim.png>)
+![](.gitbook/assets/rewards-polkaswap-claim.png)
 
 If you have any rewards, they will be displayed with the reason why you are receiving the rewards. Select the rewards that you'd like to claim (_there might be more than one of them_), confirm, and then sign the transaction.
 
-![](<.gitbook/assets/rewards-polkaswap-claimed-successfully.png>)
+![](.gitbook/assets/rewards-polkaswap-claimed-successfully.png)
 
 #### Claiming VAL for XOR erc-20 holders
 
 If you'd like to claim vested VAL, because you had XOR erc-20 when the snapshot was made, then you should connect the Ethereum account where you held the XOR erc-20 tokens. Use the [Metamask](https://metamask.io/download.html) browser plugin to do this, then click **Connect Ethereum account.**
 
-![](<.gitbook/assets/rewards-connect-ethereum-account.png>)
+![](.gitbook/assets/rewards-connect-ethereum-account.png)
 
 If PSWAP or VAL tokens are available then you'll be able to claim them.
 
@@ -115,15 +115,15 @@ If PSWAP or VAL tokens are available then you'll be able to claim them.
 
 1. Go to [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), click on "Network" and then "Staking". Make sure you are connected to the SORA Network, you should see the logo at the top left.
 
-![](<.gitbook/assets/rewards-view-staking.png>)
+![](.gitbook/assets/rewards-view-staking.png)
 
 2. Click on "Payouts":
 
-    ![](<.gitbook/assets/rewards-view-payouts.png>)
+   ![](.gitbook/assets/rewards-view-payouts.png)
 
-    If there is a staking reward for you to claim, you should see them, as in the screenshot below:
-    
-    ![](<.gitbook/assets/rewards-view-staking-reward.jpg>)
+   If there is a staking reward for you to claim, you should see them, as in the screenshot below:
+
+   ![](.gitbook/assets/rewards-view-staking-reward.jpg)
 
 3. Click on "Payout" and then follow the proposed flow.
 

@@ -68,17 +68,17 @@ We hope this sounds interesting and to motivate you further to submit a request 
 ![](/.gitbook/assets/rfp-1.png)
 
 3. Fill in all the fields as you would when submitting an RFP, each
-field will now have hints as to what to add, in case you get stuck in
-any of the steps!
+   field will now have hints as to what to add, in case you get stuck in
+   any of the steps!
 
 ![](/.gitbook/assets/rfp-2.png)
 
 4. Once you are done filling in the fields, hit **Submit new issue** and then stay tuned for any comments or concerns that may be raised!
 
 5. As a community member who is attentively watching the proposals
-being made and is interested in the network development and
-improvement, you can provide your feedback, ask questions and leave
-comments directly under the issue.
+   being made and is interested in the network development and
+   improvement, you can provide your feedback, ask questions and leave
+   comments directly under the issue.
 
 ![](/.gitbook/assets/rfp-3.png)
 
