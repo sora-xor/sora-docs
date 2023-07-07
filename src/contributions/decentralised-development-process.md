@@ -1,1 +1,1 @@
-This page was moved to [Buidl](../../build).
+This page was moved to [Buidl](../build).

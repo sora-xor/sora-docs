@@ -8,7 +8,7 @@ here you will find some practical and technical information to help you take par
 - [How to create an account in SORA](create-an-address.md)
 - [How to transfer](transfer.md) and [register](register-an-asset.md) assets
 - How to check [supply](check-supply.md) and [balance](check-balance.md)
-- How to [swap tokens](swap.md), [provide liquidity](provide-liquidity.md)
+- How to [swap tokens](swap.md), [provide liquidity](provide-liquidity-to-xyk-pools.md)
   and [trade](advanced-trading.md) on Polkaswap
 - How to [work with NFTs](nft.md) in the SORA network
 - How to [stake XOR in Fearless Wallet](stake-in-fearless-wallet.md)
