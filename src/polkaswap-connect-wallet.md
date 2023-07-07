@@ -1,3 +1,14 @@
+---
+title: "Connect Your Wallet to Polkaswap | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn how to connect your wallet to Polkaswap on the SORA network. Discover the supported wallet options, such as MetaMask and Polkadot.js, and follow the step-by-step instructions to establish a secure connection and start trading and providing liquidity on Polkaswap."
+  - - meta
+    - name: keywords
+      content: "connect wallet, Polkaswap, SORA network, MetaMask, Polkadot.js, secure connection, trading, liquidity"
+---
+
 # Connect Wallet
 
 1. Go to [Polkaswap.io](https://polkaswap.io) and click on the "Connect account" button at the top of the page.

@@ -1,3 +1,14 @@
+---
+title: "SORA Builders Program | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about the SORA Builders Program and how it supports developers in building decentralized applications (dApps) on the SORA network. Discover the benefits of joining the program, the resources and support available, and the opportunities for collaboration and recognition within the SORA ecosystem."
+  - - meta
+    - name: keywords
+      content: "SORA Builders Program, developers, decentralized applications, dApps, SORA network, resources, support, collaboration"
+---
+
 # SORA Builders Programme
 
 ![](/.gitbook/assets/sorabuilderseu.png)

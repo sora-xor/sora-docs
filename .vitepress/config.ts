@@ -6,6 +6,7 @@ export default defineConfig({
   lang: "en-US",
   title: "docs",
   description: "Guides, how-tos, architecture",
+  head: [["meta", { name: "keywords", content: "SORA ecosystem" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

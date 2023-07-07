@@ -1,3 +1,14 @@
+---
+title: "Useful Links in the SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore a collection of useful links for the SORA network, including community-led websites, community resources, developer tools, and more. Access important resources and stay connected with the SORA community by leveraging these curated links that provide valuable information and support for participants in the SORA ecosystem."
+  - - meta
+    - name: keywords
+      content: "useful links, SORA network, official websites, community resources, developer tools, SORA community"
+---
+
 # Useful Links
 
 Here are some links to articles covering the SORA philosphy, as well

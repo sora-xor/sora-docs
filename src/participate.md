@@ -1,3 +1,14 @@
+---
+title: "Participate in the SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn how to participate in the SORA network and contribute to its development. Discover the various ways to get involved, such as staking, voting, proposing projects, and engaging in the SORA community."
+  - - meta
+    - name: keywords
+      content: "participate in SORA network, contribute to development, staking, voting, project proposals, SORA community"
+---
+
 # Participate in SORA Economy
 
 After the [in-depth introduction](sora-economy.md) to SORA and its economic principles,
@@ -21,5 +32,4 @@ here you will find some practical and technical information to help you take par
 - How to [participate in governance](fast-track-public-voting.md)
 - How to [explore blocks](explore-blocks.md)
 - How to [add a token to the HASHI bridge](adding-tokens-to-hashi-bridge.md)
-- How to [switch between nodes](nodes-connection.md) in case of an
-  unstable connection
+- How to [switch between nodes](nodes-connection.md) in case of an unstable connection
