@@ -9,7 +9,7 @@ head:
       content: "Explore the SORA ecosystem - a decentralized economic system comprising the SORA network, Polkaswap, XOR token, and more. Learn about the interconnected components and innovative features driving SORA's vision for a fair and sustainable financial system."
   - - meta
     - name: keywords
-      content: "SORA Ecosystem, SORA network, Polkaswap, XOR token, decentralized economic system, fair financial system, sustainable financial system"
+      content: "SORA ecosystem, SORA network, Polkaswap, XOR token, decentralized economic system, fair financial system, sustainable financial system"
   - - meta
     - name: author
       content: "SORA network"

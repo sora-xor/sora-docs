@@ -77,7 +77,7 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 - **Polkaswap Pooling**: The stylish experience of pooling in Polkaswap will be in the palm of your hand, for access wherever you are.
 - **Referrals**: The popular Polkaswap referral system will now be available in the SORA mobile wallet’s Polkaswap section. You will be able to generate and share referral codes wherever you are!
 - **Multiple accounts**: The possibility to have more than one account in your mobile wallet is a highly requested function. Switching between multiple accounts on your SORA wallet interface will be available soon.
-- **SORA network Fearless Wallet**: This point seems to appear across several tracks. Once the Substrate 4 upgrade is completed, the SORA network will be available in Fearless Wallet along with other Dotsama ecosystem parachains.𒉡𒉎𒋼
+- **SORA network within Fearless Wallet**: This point seems to appear across several tracks. Once the Substrate 4 upgrade is completed, the SORA network will be available in Fearless Wallet along with other Dotsama ecosystem parachains.𒉡𒉎𒋼
 - **Demeter Mobile integration**: The Demeter farming platform has been integrated to Polkaswap, the next natural step is for Demeter Farming to be available whenever and wherever, through the SORA wallet app.
 - **SORA Typeface expansion**: This should be under the business category, but it isn’t yet. Many Worlds, Many Languages, One Typography. You can find the current [SORA Typeface here](https://fonts.google.com/specimen/SORA).
 

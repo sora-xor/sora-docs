@@ -1,9 +1,9 @@
 ---
-title: TBCD Token | SORA Docs
+title: Token Bonding Curve Dollar (TBCD) | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about TBCD, the bridge token between the Ethereum network and the SORA network. Discover the features, use cases, and benefits of TBCD, which enables seamless asset transfer and interoperability between the two networks. Explore how TBCD facilitates cross-chain transactions, provides liquidity, and supports decentralized finance (DeFi) activities within the SORA ecosystem.
+      content: Learn about the Token Bonding Curve Dollar, the algorithmic, non-synthetic stablecoin that has its value maintained by the SORA token bonding curve. Explore how TBCD helps to build up the reserves of the SORA token bonding curve, while also being used to fund the creation of new goods and services within the SORA ecosystem.
   - - meta
     - name: keywords
       content: TBCD token, bridge token, Ethereum network, SORA network, asset transfer, interoperability, cross-chain transactions, liquidity, decentralized finance, DeFi

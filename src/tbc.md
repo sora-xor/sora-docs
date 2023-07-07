@@ -1,5 +1,5 @@
 ---
-title: TBC Token | SORA Docs
+title: SORA Token Bonding Curve (TBC) | SORA Docs
 head:
   - - meta
     - name: description

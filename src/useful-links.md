@@ -1,5 +1,5 @@
 ---
-title: "Useful Links for the SORA Network | SORA Docs"
+title: "Useful Links in the SORA Network | SORA Docs"
 head:
   - - meta
     - name: description
