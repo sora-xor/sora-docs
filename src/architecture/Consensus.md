@@ -1,1 +1,1 @@
-This page was moved to [Consensus](../../consensus).
+This page was moved to [Consensus](../consensus).
