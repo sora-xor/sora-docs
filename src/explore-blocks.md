@@ -1,3 +1,14 @@
+---
+title: "Explore Blocks on the SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore blocks on the SORA network and delve into the details of the blockchain's transaction history. Discover the latest blocks, block height, transactions, and other key information that provides insights into the functioning and activity of the SORA network."
+  - - meta
+    - name: keywords
+      content: "explore blocks, SORA network, blockchain, transaction history, block height, transactions"
+---
+
 # Block Explorers
 
 A **block explorer** is a tool that is used to view all blockchain transactions online. Specifically, to view all current and past **transactions** on the **blockchain**.

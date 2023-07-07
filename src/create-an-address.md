@@ -1,3 +1,14 @@
+---
+title: "Create an Address on the SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn how to create an address on the SORA network and start interacting with the SORA ecosystem. Discover the steps to generate a new address, the importance of address security, and how to use your address for various activities within the SORA network."
+  - - meta
+    - name: keywords
+      content: "create an address, SORA network, address generation, address security"
+---
+
 <!-- TODO:
 - find missing images
 - fix wrong images
@@ -56,7 +67,7 @@ Use a Chrome or Firefox browser.
 
    <center><img src="/.gitbook/assets/create-address-browser-account-created.png" width="400"></center>
 
-6. Now you should change the address format so that it begins with `cn`. Open Settings and select Displayed Address format. It should be SORA Network.
+6. Now you should change the address format so that it begins with `cn`. Open Settings and select Displayed Address format. It should be SORA network.
 
    <center><img src="/.gitbook/assets/create-address-browser-change-to-sora-network.png" width="400"></center>
 

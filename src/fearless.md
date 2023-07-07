@@ -1,5 +1,42 @@
 ---
-description: A wallet for the DeFi ecosystem in Kusama and Polkadot
+title: "Fearless - Secure Wallet for SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Explore Fearless - the secure and user-friendly wallet for the SORA network. Discover the features, functionality, and benefits of Fearless, including easy account management, secure storage of digital assets, and seamless interaction with the SORA ecosystem."
+  - - meta
+    - name: keywords
+      content: "Fearless wallet, SORA network, secure wallet, user-friendly wallet, account management, digital asset storage"
+  - - meta
+    - name: author
+      content: "SORA network"
+  - - meta
+    - property: og:title
+      content: "Fearless - Secure Wallet for SORA network | SORA Docs"
+  - - meta
+    - property: og:description
+      content: "Explore Fearless - the secure and user-friendly wallet for the SORA network. Discover the features, functionality, and benefits of Fearless, including easy account management, secure storage of digital assets, and seamless interaction with the SORA ecosystem."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "SORA Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Fearless - Secure Wallet for SORA network | SORA Docs"
+  - - meta
+    - name: twitter:description
+      content: "Explore Fearless - the secure and user-friendly wallet for the SORA network. Discover the features, functionality, and benefits of Fearless, including easy account management, secure storage of digital assets, and seamless interaction with the SORA ecosystem."
 ---
 
 # Fearless Wallet
