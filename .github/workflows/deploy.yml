@@ -3,7 +3,7 @@ on:
   workflow_dispatch: {}
   push:
     branches:
-      - develop
+      - duty/fix_pages_view
 jobs:
   deploy:
     runs-on: ubuntu-latest
