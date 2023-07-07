@@ -1,12 +1,12 @@
 ---
-title: "SORA Integrated Plan - Roadmap for SORA Network | SORA Docs"
+title: "SORA Integrated Plan - Roadmap for the SORA Network | SORA Docs"
 head:
   - - meta
     - name: viewport
       content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
-      content: "Discover the Integrated Plan of the SORA network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
+      content: "Discover the SORA network's Integrated Plan - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
   - - meta
     - name: keywords
       content: "Integrated Plan, SORA network roadmap, strategic vision, milestones, decentralized financial system, sustainable financial system"
@@ -18,7 +18,7 @@ head:
       content: "SORA Integrated Plan - Roadmap for SORA network | SORA Docs"
   - - meta
     - property: og:description
-      content: "Discover the Integrated Plan of the SORA network - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
+      content: "Discover the SORA network's Integrated Plan - a comprehensive roadmap outlining the strategic vision, goals, and milestones for the development and growth of the SORA ecosystem. Learn about upcoming features, advancements, and initiatives driving SORA's mission towards a decentralized and sustainable financial system."
   - - meta
     - property: og:type
       content: "website"
