@@ -171,6 +171,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "HASHI",
+                    link: "hashi",
                     items: [
                       {
                         text: "Adding a Token",
@@ -181,10 +182,16 @@ export default defineConfig({
                       },
                     ],
                   },
-                  { text: "Trustless" },
                 ],
               },
-              { text: "Substrate", items: [{ text: "Become a Relayer" }] },
+              {
+                text: "Substrate",
+                link: "substrate-bridge",
+                items: [
+                  // { text: "Become a relayer" },
+                ],
+              },
+
             ],
           },
           { text: "Referral System", link: "/referral" },
