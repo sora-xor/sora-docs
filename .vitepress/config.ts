@@ -5,6 +5,7 @@ import markdownItKatex from "markdown-it-katex";
 export default defineConfig({
   lang: "en-US",
   title: "docs",
+  base: "/sora-docs/",
   description: "Guides, how-tos, architecture",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
