@@ -131,7 +131,7 @@ And that is it! You can double-check your token supply and you will see **the NF
 
 ### Pooling Tokens
 
-Although there is no NFT marketplace implementation on Polkaswap (_yet_), it is possible to pool NFT that you own, along with XOR. In order for a NFT to be pooled, it has to be **divisible**, so you can sell or buy only a fraction of it. Pooling NFT works like any other liquidity pool on Polkaswap, and [it also provides the same advantages](provide-liquidity). The steps to pool your NFT are as follows:
+Although there is no NFT marketplace implementation on Polkaswap (_yet_), it is possible to pool NFT that you own, along with XOR. In order for a NFT to be pooled, it has to be **divisible**, so you can sell or buy only a fraction of it. Pooling NFT works like any other liquidity pool on Polkaswap, and [it also provides the same advantages](provide-liquidity-to-xyk-pools). The steps to pool your NFT are as follows:
 
 1. From the NFT preview within your wallet, click on the 💧 icon.
 

@@ -250,8 +250,8 @@ export default defineConfig({
   },
   srcDir: "./src",
   lastUpdated: true,
-  ignoreDeadLinks: true,
   cleanUrls: true,
+  ignoreDeadLinks: [/^https?:\/\/localhost/],
   markdown: {
     config: (md) => {
       md.use(markdownItKatex);
