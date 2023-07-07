@@ -1,14 +1,61 @@
+---
+title: "SORA FAQ - Frequently Asked Questions about SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Find answers to frequently asked questions (FAQ) about SORA - a decentralized economic system built on the SORA network. Get insights on XOR token, staking, governance, and more."
+  - - meta
+    - name: keywords
+      content: "SORA FAQ, frequently asked questions, SORA network, XOR token, staking, governance"
+  - - meta
+    - name: author
+      content: "SORA network"
+  - - meta
+    - property: og:title
+      content: "SORA FAQ - Frequently Asked Questions about SORA network | SORA Docs"
+  - - meta
+    - property: og:description
+      content: "Find answers to frequently asked questions (FAQ) about SORA - a decentralized economic system built on the SORA network. Get insights on XOR token, staking, governance, and more."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "SORA Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "SORA FAQ - Frequently Asked Questions about SORA network | SORA Docs"
+  - - meta
+    - name: twitter:description
+      content: "Find answers to frequently asked questions (FAQ) about SORA - a decentralized economic system built on the SORA network. Get insights on XOR token, staking, governance, and more."
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
+---
+
 # SORA FAQ
 
 ## What is SORA built on?
 
-The SORA Network ([Polkaswap](https://polkaswap.io/) included) is built with [Substrate](https://www.parity.io/substrate), a framework for creating cryptocurrencies and other decentralized systems, that scales more efficiently than Ethereum, allowing for lower fees. Polkadot is built with Substrate, therefore projects built with Substrate can run natively on Polkadot as Parachains.
+The SORA network ([Polkaswap](https://polkaswap.io/) included) is built with [Substrate](https://www.parity.io/substrate), a framework for creating cryptocurrencies and other decentralized systems, that scales more efficiently than Ethereum, allowing for lower fees. Polkadot is built with Substrate, therefore projects built with Substrate can run natively on Polkadot as Parachains.
 
 ## How can I support SORA in the parachain auctions?
 
 SORA won the 24th Kusama parachain auction for the 25th lease (February 22nd, 2022 - Jan 31st, 2023) on the 6th of February, 2022. The details can be found [here](https://wiki.sora.org/sora-kusama-parachain-crowdloan).
 
-After the slot on the Kusama Network is secured, users can support the funding of the auctions in the following years by buying XOR with DOT and KSM from the token bonding curve. By doing so, you'll increase the reserves of the token bonding curve and they will be used to make a bid in the auctions. Furthermore, there is a special reward in PSWAP when buying with DOT and KSM, this reward is higher when there are fewer reserves, and will decrease as they accumulate. You can read the full article about the incentive program [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
+After the slot on the Kusama network is secured, users can support the funding of the auctions in the following years by buying XOR with DOT and KSM from the token bonding curve. By doing so, you'll increase the reserves of the token bonding curve and they will be used to make a bid in the auctions. Furthermore, there is a special reward in PSWAP when buying with DOT and KSM, this reward is higher when there are fewer reserves, and will decrease as they accumulate. You can read the full article about the incentive program [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
 In the coming months, there are no more auctions planned. Shortly, KSM tokens will be available on Polkaswap and users can support future auctions using them to buy newly minted XOR from the [token bonding curve](https://wiki.sora.org/token-bonding-curve). By doing so, you'll increase the reserves of the token bonding curve, which will be used to place a bid in the auctions. Furthermore, there is a special reward in PSWAP when buying with DOT and KSM, this reward is higher when there are fewer reserves, and will decrease as they accumulate. You can read the full article about the incentive program
 
@@ -24,11 +71,11 @@ Yes, on [Polkaswap.io](https://polkaswap.io/#/swap) you can buy tokens using Moo
 
 ## What is an asset ID (address)?
 
-Asset ID (address) is a unique asset identifier on the SORA network (like a contract address in Ethereum). You can see the token ID addresses available on the SORA Network [here](https://wiki.sora.org/polkaswap/tokens-id-addresses).
+Asset ID (address) is a unique asset identifier on the SORA network (like a contract address in Ethereum). You can see the token ID addresses available on the SORA network [here](https://wiki.sora.org/polkaswap/tokens-id-addresses).
 
-## How do Addresses Work on the SORA Network
+## How do Addresses Work on the SORA network
 
-If you have used SORA Network or Polkaswap, you probably have noticed that generally addresses start with 5, but in Sorascan you have to input an address that starts with `cn`. So how does it work?
+If you have used SORA network or Polkaswap, you probably have noticed that generally addresses start with 5, but in SORAscan you have to input an address that starts with `cn`. So how does it work?
 
 The address format used in Substrate-based chains is [SS58](<https://github.com/paritytech/substrate/wiki/External-Address-Format-(SS58)>), and each chain can select its own prefix, generating different addresses. Here's an example:
 

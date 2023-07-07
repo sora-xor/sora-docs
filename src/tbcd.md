@@ -1,3 +1,14 @@
+---
+title: Token Bonding Curve Dollar (TBCD) | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Learn about the Token Bonding Curve Dollar, the algorithmic, non-synthetic stablecoin that has its value maintained by the SORA token bonding curve. Explore how TBCD helps to build up the reserves of the SORA token bonding curve, while also being used to fund the creation of new goods and services within the SORA ecosystem.
+  - - meta
+    - name: keywords
+      content: TBCD token, bridge token, Ethereum network, SORA network, asset transfer, interoperability, cross-chain transactions, liquidity, decentralized finance, DeFi
+---
+
 # Token Bonding Curve Dollar (TBCD)
 
 - Token Bonding Curve Dollars (TBCD) is a new proposed, algorithmic, non-synthetic stablecoin that has its value maintained by the SORA token bonding curve

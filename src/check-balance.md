@@ -1,3 +1,14 @@
+---
+title: Check Balance on the SORA Network | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Learn how to check your balance on the SORA network and view your asset holdings. Discover the different methods and tools available to check your balance, including wallets, block explorers, and other SORA network interfaces. Stay informed about your asset balances and track your holdings within the SORA ecosystem.
+  - - meta
+    - name: keywords
+      content: check balance, SORA network, asset holdings, wallets, block explorers, SORA network interfaces, asset balances
+---
+
 # Check User Balances
 
 ## Via Polkadot.js UI

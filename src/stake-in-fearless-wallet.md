@@ -1,3 +1,14 @@
+---
+title: "Stake in Fearless Wallet | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn how to stake your assets in Fearless Wallet, the official mobile wallet for the SORA network. Discover the step-by-step process to delegate your assets, earn staking rewards, and actively participate in the SORA ecosystem using Fearless Wallet."
+  - - meta
+    - name: keywords
+      content: "stake in Fearless Wallet, SORA network, mobile wallet, delegate assets, staking rewards"
+---
+
 # Staking in Fearless Wallet
 
 Thanks to [Fearless Wallet](https://fearlesswallet.io/), managing your validators has become much easier. You no longer need to access Dotapps.io to validate transactions on the SORA network or nominate your favorite validators.

@@ -1,8 +1,19 @@
+---
+title: Register an Asset on the SORA Network | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Learn how to register an asset on the SORA network. Discover the process of listing and registering new digital assets within the SORA ecosystem. Explore the requirements, procedures, and considerations for asset registration, and understand the benefits of having your asset registered on the SORA network.
+  - - meta
+    - name: keywords
+      content: register an asset, SORA network, digital assets, asset registration, listing assets, requirements, procedures
+---
+
 # Registration
 
 ## Via Polkaswap
 
-You can make your token a part of SORA Network by simply adding it.
+You can make your token a part of SORA network by simply adding it.
 
 1. First, you need to have a [Substrate-compatible account](https://wiki.polkadot.network/docs/en/learn-accounts) and add it to [Polkadot.js extension](https://polkadot.js.org/extension/) in your browser.
 

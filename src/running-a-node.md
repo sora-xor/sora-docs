@@ -1,3 +1,14 @@
+---
+title: "Running a Node on the SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn how to run a node on the SORA network and become an active participant in the network's infrastructure. Discover the requirements, setup process, and benefits of running a node to support the decentralization and security of the SORA network."
+  - - meta
+    - name: keywords
+      content: "running a node, SORA network, node setup, network infrastructure, decentralization, network security"
+---
+
 # How to Run a SORA Mainnet Node
 
 ## TL;DR
@@ -408,7 +419,7 @@ If you’re running a node on your local machine then select Local Node and clic
 
 Q: **I’m getting an error starting the node**.
 
-A: _Double check if you have entered the command and flags correctly and that there are no typos. If that does not work,\_ l_ocate your Sora2 folder, erase its contents, pull the docker image and try running the node again._
+A: _Double check if you have entered the command and flags correctly and that there are no typos. If that does not work,\_ locate your sora2 folder, erase its contents, pull the docker image and try running the node again._
 
 Q: **I don’t have XOR for initial staking**.
 
