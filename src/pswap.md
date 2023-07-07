@@ -37,7 +37,7 @@ Polkaswap will have 0.3% trading fees per transaction, which is the same as othe
 
 Additionally, special rewards to strategic purchasers of XOR during the special XOR purchase period, rewards to liquidity providers during the initial liquidity tsunami period and market makers rewards are also distributed as a fraction of the daily burn (shown as the shaded **Strategy Bonus Vesting** region in the figure below). This gives guarantees that a sudden supply of tokens will not immediately flood the market and gives clear guidance about the supply of tokens in circulation.
 
-<figure><img src=".gitbook/assets/strategic-bonus-vesting-updated(1)(2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/strategic-bonus-vesting-updated.png" alt=""><figcaption></figcaption></figure>
 
 **Example:** Let's assume that buyback and burn from transaction fees for a day resulted in 10,000 PSWAP being burned. If the daily reward is 80%, then 8,000 new PSWAP tokens are given out proportionally across all liquidity providers and 1,000 PSWAP tokens are given to the SORA Parliament and 1,000 PSWAP are distributed between the participants of the bonus strategic programs
 

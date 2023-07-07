@@ -10,7 +10,6 @@ head:
 ---
 
 <!-- TODO:
-- update image names in this topic
 - check image alignment
 -->
 
@@ -18,7 +17,7 @@ head:
 
 Users are incentivised to provide liquidity, use the SORA network, and support the set of network validators. There are different reward types depending on the activity.
 
-![](<.gitbook/assets/Untitled(18).png>)
+![](.gitbook/assets/rewards-types.png)
 
 Let's describe all the currently available rewards in detail:
 
@@ -33,7 +32,7 @@ Here is a quick summary of every reward.
 
 #### Rewards for Market Makers
 
-Polkaswap is distributing an amount of PSWAP proportional to trade volume to market makers who conductatleast 500 transactions per month, with a per-transaction amount of 1 XOR or more (_excluding transaction costs_).
+Polkaswap is distributing an amount of PSWAP proportional to trade volume to market makers who conduct at least 500 transactions per month, with a per-transaction amount of 1 XOR or more (_excluding transaction costs_).
 
 #### LP Farming Bonus rewards
 
@@ -41,9 +40,9 @@ Polkaswap users will earn PSWAP tokens for providing liquidity in any XOR-paired
 
 #### Rewards for buying from the TBC
 
-A token bonding curve is a smart contract that takes one token as an input and outputs another, using a mathematical formula. A token bonding curve can automatically issue, sell, and buy tokensatprices that are determined by the mathematical functions used.
+A token bonding curve is a smart contract that takes one token as an input and outputs another, using a mathematical formula. A token bonding curve can automatically issue, sell, and buy tokens at prices that are determined by the mathematical functions used.
 
-The PSWAP rewards to be earned are calculated exponentially as a function of current reserves: the lower the reservesata given time, the greater your rewards for helping boost them.
+The PSWAP rewards to be earned are calculated exponentially as a function of current reserves: the lower the reserves at a given time, the greater your rewards for helping boost them.
 
 #### LP Fees
 
@@ -59,9 +58,9 @@ VAL is vested per day to each XOR from the snapshot, from a remaining portion of
 
 **Rewards can't be claimed instantly.** Vesting speed depends on the amount of PSWAP burned from Polkaswap usage fees. PSWAP are vested with **Strategic Bonus Vesting**, where the vested amount is a percentage of the daily amount of PSWAP burned in transaction fees, as shown in the figure below.
 
-As you can see,atlaunch the % of burned PSWAP which is allocated as Strategic Bonus Vesting is 0%, and it increases linearly in 5 years to 55%, and then it will stay constant. The other burned PSWAP is reserved for the SORA Parliament (10%) and as a reward for Liquidity Providers. This reward is similar to the one you get from providing liquidity on Uniswap, namely the 0.3% on every trade.
+As you can see, at launch the % of burned PSWAP which is allocated as Strategic Bonus Vesting is 0%, and it increases linearly in 5 years to 55%, and then it will stay constant. The other burned PSWAP is reserved for the SORA Parliament (10%) and as a reward for Liquidity Providers. This reward is similar to the one you get from providing liquidity on Uniswap, namely the 0.3% on every trade.
 
-<figure><img src=".gitbook/assets/strategic-bonus-vesting-updated(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/strategic-bonus-vesting-updated.png" alt=""><figcaption></figcaption></figure>
 
 An example that can be useful to clarify:
 
@@ -105,17 +104,17 @@ In the practice section, we'll teach you to claim tokens using Polkaswap and Pol
 
 You can claim **Rewards for Market Makers**, **LP Fees**, **LP Farming Bonus rewards**, and **Rewards for buying from TBC** using [Polkaswap.io](http://polkaswap.io) with your SORA account. Just open the **Rewards** section.
 
-![](<.gitbook/assets/Untitled(7).png>)
+![](.gitbook/assets/rewards-polkaswap-claim.png)
 
 If you have any rewards, they will be displayed with the reason why you are receiving the rewards. Select the rewards that you'd like to claim (_there might be more than one of them_), confirm, and then sign the transaction.
 
-![](<.gitbook/assets/Untitled(1)(2).png>)
+![](.gitbook/assets/rewards-polkaswap-claimed-successfully.png)
 
 #### Claiming VAL for XOR erc-20 holders
 
 If you'd like to claim vested VAL, because you had XOR erc-20 when the snapshot was made, then you should connect the Ethereum account where you held the XOR erc-20 tokens. Use the [Metamask](https://metamask.io/download.html) browser plugin to do this, then click **Connect Ethereum account.**
 
-![](<.gitbook/assets/Untitled(2).png>)
+![](.gitbook/assets/rewards-connect-ethereum-account.png)
 
 If PSWAP or VAL tokens are available then you'll be able to claim them.
 
@@ -127,19 +126,19 @@ If PSWAP or VAL tokens are available then you'll be able to claim them.
 
 1. Go to [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), click on "Network" and then "Staking". Make sure you are connected to the SORA network, you should see the logo at the top left.
 
-![](.gitbook/assets/Screenshot2021-04-29at13.09.35.png)
+![](.gitbook/assets/rewards-view-staking.png)
 
 2. Click on "Payouts":
 
-   ![](.gitbook/assets/Screenshot2021-04-29at13.21.28.png)
+   ![](.gitbook/assets/rewards-view-payouts.png)
 
    If there is a staking reward for you to claim, you should see them, as in the screenshot below:
 
-   ![](<.gitbook/assets/3(2).jpg>)
+   ![](.gitbook/assets/rewards-view-staking-reward.jpg)
 
 3. Click on "Payout" and then follow the proposed flow.
 
-![](.gitbook/assets/4.jpg)
+![](.gitbook/assets/rewards-click-payout.jpg)
 
 4. Once completed, sign with the extension as prompted.
 
