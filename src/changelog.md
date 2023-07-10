@@ -61,9 +61,9 @@ participants](sora-builders.md).
 
 ## SORA Mobile
 
-- [iOS](changelog.md)
+- [iOS](https://github.com/sora-xor/sora-ios/releases)
 
-- [Android](changelog.md)
+- [Android](https://github.com/sora-xor/sora-android/releases)
 
 ## Polkaswap
 
@@ -71,8 +71,9 @@ participants](sora-builders.md).
 
 ## SORA Builders
 
-- [ADAR](changelog.md)
+- [ADAR](https://github.com/soramitsu/adar/releases)
 
-- [Demeter](changelog.md)
-
-- [Fearless Wallet](changelog.md)
+- Fearless Wallet
+  - [Android](https://github.com/soramitsu/fearless-Android/releases)
+  - [iOS](https://github.com/soramitsu/fearless-iOS/releases)
+  - [Web](https://github.com/soramitsu/fearless-wallet-web/releases)
