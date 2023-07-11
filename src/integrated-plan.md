@@ -47,7 +47,7 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 - **Demeter XSTUSD Reward**: Attractive incentives for farming on the Demeter platform through high APR and rewards in XSTUSD.
 - **XOR as Legal Tender in Sri Lanka**: The SORA community reached out to the people of Sri Lanka to propose the use of XOR as legal tender in their country and are continuing to work with people there to push the proposal forward.
 - **SORA IBAN**: As a way of bridging the gap between traditional banking services and SORA, this is a system to implement a bank account powered by SORA technology; the [Polkaswap.io](http://polkaswap.io) interface will then have many of the services offered by traditional banks, all in a nice, self-custodial interface.
-- **SORA card**: Similar to the SORA IBAN, the SORA card will allow users to top up their fiat accounts using XOR, which they can use in tradfi infrastructure.
+- **SORA card**: Similar to the SORA IBAN, the SORA card will allow users to top up their fiat accounts using XOR, which they can use in traditional finance infrastructure.
 
 ## Backend
 
