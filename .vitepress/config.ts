@@ -181,6 +181,10 @@ export default defineConfig({
                       {
                         text: "Become a Relayer",
                       },
+		       {
+                        text: "Fixing a Stuck Transaction",
+                        link: "unstuck-bridge-tx",
+                      },
                     ],
                   },
                   { text: "Trustless" },
