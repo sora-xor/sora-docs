@@ -55,7 +55,7 @@ Check if your transaction is actually stuck or just pending.
 4. Ensure your account is selected underneath, click on "include option" and choose "Pending", then Submit RPC call
   ![](/.gitbook/assets/unstucktx-include-option.png)
 
-If your result contains any transaction hashes, these ARE still pending and may take some time to go through. **If your result looks as below and produces no hashes then your SORA bridge transaction has been approved and you should continue through the guide to unstuck your transaction.**
+If your result contains any transaction hashes, these ARE still pending and may take some time to go through. **If your result looks as below and produces no hashes, then your SORA bridge transaction has been approved and you should continue through the guide to unstuck your transaction.**
 ![](/.gitbook/assets/unstucktx-approved-continue.png)
 
 ### Step 2
