@@ -275,19 +275,20 @@ Below is our example proof from STEP 3 entered into the code, note how the quote
 
 ##### PSWAP & CERES
 
-- Open https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602
-- Click “Contract”
-- Click “Write Contract”
-- Click “Connect Web 3” (ensure you have your eth address and a green circle shown after connection)
-- Click “receiveBySidechainAssetID”
+1. Open https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602
+2. Click “Contract”
+3. Click “Write Contract”
+4. Click “Connect Web 3”
+5. Ensure you have your eth address and a green circle shown after connection
+6. Click “receiveBySidechainAssetID”
 
 ![](/.gitbook/assets/unstucktx-receive-sidechain-asset.png)
 
-Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data. (note: sideChainassetid = token address)
+7. Enter your proof data into the fields as below, this is using our example proof from Step 3. This is how you must paste in your data. (note: sideChainassetid = token address)
 
 ![](/.gitbook/assets/unstucktx-sidechain-input.png)
 
-Click write, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your PSWAP should arrive in your wallet, please remember to add the token address to your wallet if necessary.
+8. Click "write", this should bring up your metamask for you to confirm. Remember if the gas price is over the top (hundreds of dollars), then some of the data is wrong. Once confirmed your PSWAP should arrive in your wallet. Please remember to add the token address to your wallet if necessary.
 
 ##### All Other ERC-20 Tokens (e.g. ETH, DAI, UNI etc.)
 
