@@ -11,6 +11,4 @@ head:
 
 # On-ramp
 
-## Via Polkaswap
-
 <!-- @include: /snippets/on-ramp-polkaswap.md -->

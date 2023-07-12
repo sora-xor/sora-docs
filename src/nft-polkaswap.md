@@ -13,6 +13,4 @@ head:
 
 <!-- @include: /snippets/nft-theory.md -->
 
-## Via Polkswap
-
 <!-- @include: /snippets/nft-polkaswap.md -->
