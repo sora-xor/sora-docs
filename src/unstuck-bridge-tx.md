@@ -1,12 +1,12 @@
 ---
-title: "tba"
+title: "How to Unstuck SORA-ETHEREUM Transactions | Troubleshooting Guide"
 head:
   - - meta
     - name: description
-      content: "tba."
+      content: "Learn how to resolve stuck transactions between the SORA Network and Ethereum. Follow this step-by-step guide to resolve stuck or failed SORA-ETHEREUM transactions. Learn how to check the status of your bridge transaction, retrieve the transaction hash, gather the necessary data to unstuck the transaction, and manually call your Ethereum transaction to receive your tokens."
   - - meta
     - name: keywords
-      content: "tba"
+      content: "SORA-ETHEREUM transactions, Sora>ETH bridge, Ethereum transaction, unstuck transactions, metamask, cross-chain transfers, troubleshooting, SORA Network, Ethereum, bridge transaction status, transaction hash, unstuck transaction, troubleshooting guide"
 ---
 
 # How to Unstuck SORA→ETHEREUM Transactions
@@ -18,7 +18,7 @@ This guide is written by the community member "Frasier Man" and reviewed by the 
 ### Use This Guide If:
 
 - Your SORA bridge transaction is stuck on pending or has failed.
-- The "retry" command on the bridge UI is not working/not available.
+- The "retry" command on the [bridge UI](https://polkaswap.io/#/bridge/) is not working/not available.
 - Your funds have left your SORA account and not arrived in your Ethereum account after some time.
 
 :::info
@@ -29,7 +29,7 @@ been entered incorrectly, double check your input.
 
 ## Overview of the Steps in this Guide
 
-- [Step 1](#step-1) Check if your bridge transaction is actually stuck or is just pending.
+- [Step 1](#Step-1) Check if your bridge transaction is actually stuck or is just pending.
 
 - [Step 2](#step-2) Find the transaction hash for your stuck transaction.
 
