@@ -1,1 +1,1 @@
-<!-- @include: ./explore.md -->
+<!-- @include: ./../CONTRIBUTING.md -->
