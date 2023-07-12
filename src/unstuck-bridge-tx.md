@@ -8,7 +8,6 @@ head:
     - name: keywords
       content: "SORA-ETHEREUM transactions, Sora>ETH bridge, Ethereum transaction, unstuck transactions, metamask, cross-chain transfers, troubleshooting, SORA Network, Ethereum, bridge transaction status, transaction hash, unstuck transaction, troubleshooting guide"
 ---
-
 # How to Unstuck SORA→ETHEREUM Transactions
 
 ::: info
@@ -40,6 +39,7 @@ been entered incorrectly, double check your input.
 **NOTE: [Step 4](#step-4) is slightly different for each token so make sure to
 follow the correct subsection.**
 
+
 ### Step 1
 
 Check if your transaction is actually stuck or just pending.
@@ -47,23 +47,23 @@ Check if your transaction is actually stuck or just pending.
 - Connect to Polkadot.js apps: [https://polkadot.js.org/apps/rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc)
 
 - Click "Developer", then Select "RPC calls"
-  ![](/.gitbook/assets/unstucktx1.png)
+![](/.gitbook/assets/unstucktx-rpc-call.png)
 
 - Click “author”, then Select “Ethbridge” (by default “getAccountRequests(accountId, statusFilter)” should be selected, if not, select it.
-  ![](/.gitbook/assets/unstucktx2.png)
+![](/.gitbook/assets/unstucktx-ethbridge.png)
 
 - Ensure your account is selected underneath, click on "include option" and choose "Pending", then Submit RPC call
-  ![](/.gitbook/assets/unstucktx3.png)
+![](/.gitbook/assets/unstucktx-include-option.png)
 
 If your result contains any transaction hashes, these ARE still pending and may take some time to go through. **If your result looks as below and produces no hashes then your SORA bridge transaction has been approved and you should continue through the guide to unstuck your transaction.**
-![](/.gitbook/assets/unstucktx4.png)
+![](/.gitbook/assets/unstucktx-approved-continue.png)
 
 ### Step 2
 
 Find the transaction hash of your approved (but stuck) transaction.
 
 - If continuing from step 1 your RPC call only needs slight adjusting, click on “include option” but this time select “Approvals Ready”, Then Submit RPC Call
-  ![](/.gitbook/assets/unstucktx5.png)
+![](/.gitbook/assets/unstucktx-approvals-ready.png)
 
 The result is a list of all SORA bridge transactions that have been
 approved on the SORA side. Your latest bridge transaction is the last
@@ -75,7 +75,7 @@ to the top of the list until you find your stuck transaction.
 
 `0x57533dc46a5d257b6dj0nhagb0f8s4dfedfl6cpppcoaidu99dd0sdc4def4g6b`
 
-![](/.gitbook/assets/unstucktx6.png)
+![](/.gitbook/assets/unstucktx-stuck-tx.png)
 
 ### Step 3
 
@@ -83,14 +83,14 @@ Use your transaction hash to get the required data (proof) for step 4.
 
 - Continuing from step 2, click on “get**Account**Requests(accountId, statusFilter)” and change it to “get**Approved**Requests(requestHashes, networkId)
 
-![](/.gitbook/assets/unstucktx7.png)
+![](/.gitbook/assets/unstucktx-get-approved-requests.png)
 
 - Click on “Add item”
 - Paste in your Approved transaction hash from step 2 instead of 0x000…
 - Click “Include Option” and leave the network id as 0
 - Submit the RPC Call
 
-![](/.gitbook/assets/unstucktx8.png)
+![](/.gitbook/assets/unstucktx-add-approved-request.png)
 
 The result is your “Proof”, it contains all the data needed for step
 4, below is an **example** of a proof, you only need the data colour
@@ -132,8 +132,8 @@ s: 0x79b1e77bb20663953981d267fbc01d53f9cc3x34s63aa7h3f4385l04td9be9c43,
 r: 0xcc9fcee0fd50bfa29ekb10ldlkjh3tdef02f9beb74a1v295ac0c5x01253f8f8f,
 
 s: 0xkafvd79ffa27g10h928jb88066e8252dec3d58fb6ebf0862c6839d880f858a8f,
-
-v:
+	
+v: 
 ```
 
 **You will be copying and pasting data from your proof. The first time you do this, it's easier if you first copy and paste the whole proof into a notepad, and edit the results as follows, ready to use into step 4.**
@@ -169,7 +169,7 @@ This can be copied and pasted as it is, no commas or spaces.
 ==The following (R, S and V) have two numbers, the top number and the
 bottom number, they must be put into an array, this means putting the
 data into squared brackets, separated with a comma, top number first
-and bottom number second.==
+and bottom number second.== 
 
 - R
 
@@ -184,9 +184,9 @@ Same as R but use the top “S” and bottom “S”
 `[0x79b1e77bb20663953981d267fbc01d53f9cc3x34s63aa7h3f4385l04td9be9c43,0xkafvd79ffa27g10h928jb88066e8252dec3d58fb6ebf0862c6839d880f858a8f]`
 
 - V
-  The format of V must also be put into an array, there are two
-  versions, one is for unstucking XOR and the other is for all other
-  tokens. **For all tokens except XOR**
+The format of V must also be put into an array, there are two
+versions, one is for unstucking XOR and the other is for all other
+tokens. **For all tokens except XOR**
 
 If your `v = 0` then you must put `27` into the array
 
@@ -233,7 +233,6 @@ Using the data from your proof to call the ethereum transaction
 There are four different methods depending on the token you are
 unstucking, skip to the correct method and have your proof data ready
 to paste.
-
 - [XOR](#xor)
 - [VAL](#val)
 - [PSWAP & CERES](#pswap-ceres)
@@ -248,11 +247,11 @@ to paste.
 
 Below is the sample data you will see when opening the link, please note you may have to scroll right to see the whole of the code, the green words (e.g. // Token address) are to let you know which data to paste in.
 
-![](/.gitbook/assets/unstucktx9.png)
+![](/.gitbook/assets/unstucktx-link-sample-data.png)
 
 Below is our example proof from STEP 3 entered into the code, note how the quote characters must be left in place. This is how you must paste in your data.
 
-![](/.gitbook/assets/unstucktx10.png)
+![](/.gitbook/assets/unstucktx-paste-data-example.png)
 
 - Click run, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your XOR should arrive in your wallet, please remember to add the token address to your wallet if necessary.
 
@@ -264,11 +263,11 @@ Below is our example proof from STEP 3 entered into the code, note how the quote
 - Click “Connect Web 3” (ensure you have your eth address and a green circle shown after connection)
 - Click “mintTokensByPeers”
 
-![](/.gitbook/assets/unstucktx11.png)
+![](/.gitbook/assets/unstucktx-mint-tokens-peers.png)
 
 Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data. (note: beneficiary = to)
 
-![](/.gitbook/assets/unstucktx12.png)
+![](/.gitbook/assets/unstucktx-proof-input.png)
 
 Click write, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your VAL should arrive in your wallet, please remember to add the token address to your wallet if necessary.
 
@@ -280,11 +279,11 @@ Click write, this should bring up your metamask for you to confirm. Remember if 
 - Click “Connect Web 3” (ensure you have your eth address and a green circle shown after connection)
 - Click “receiveBySidechainAssetID”
 
-![](/.gitbook/assets/unstucktx13.png)
+![](/.gitbook/assets/unstucktx-receive-sidechain-asset.png)
 
 Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data. (note: sideChainassetid = token address)
 
-![](/.gitbook/assets/unstucktx14.png)
+![](/.gitbook/assets/unstucktx-sidechain-input.png)
 
 Click write, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your PSWAP should arrive in your wallet, please remember to add the token address to your wallet if necessary.
 
@@ -296,10 +295,11 @@ Click write, this should bring up your metamask for you to confirm. Remember if 
 - Click “Connect Web 3” (ensure you have your eth address and a green circle after connection)
 - Click “receiveByEthereumAssetAddress”
 
-![](/.gitbook/assets/unstucktx15.png)
+![](/.gitbook/assets/unstucktx-eth-asset-address.png)
 
 Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data.
 
-![](/.gitbook/assets/unstucktx16.png)
+![](/.gitbook/assets/unstucktx-eth-asset-proof.png)
 
 Click write, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your tokens should arrive in your wallet, please remember to add the token address to your wallet if necessary.
+

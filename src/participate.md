@@ -9,7 +9,7 @@ head:
       content: "participate in SORA network, contribute to development, staking, voting, project proposals, SORA community"
 ---
 
-# Participate in SORA Economy
+# Participate in the SORA Economy
 
 After the [in-depth introduction](sora-economy.md) to SORA and its economic principles,
 here you will find some practical and technical information to help you take part in the SORA economic system.
