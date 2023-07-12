@@ -44,15 +44,15 @@ follow the correct subsection.**
 
 Check if your transaction is actually stuck or just pending.
 
-- Connect to Polkadot.js apps: [https://polkadot.js.org/apps/rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc)
+1. Connect to Polkadot.js app: [https://polkadot.js.org/apps/rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc)
 
-- Click "Developer", then Select "RPC calls"
+2. Click "Developer", then Select "RPC calls":
   ![](/.gitbook/assets/unstucktx-rpc-call.png)
 
-- Click “author”, then Select “Ethbridge” (by default “getAccountRequests(accountId, statusFilter)” should be selected, if not, select it.
+3. Click “author”, then Select “Ethbridge”. By default “getAccountRequests(accountId, statusFilter)” should be selected, if not, select it.
   ![](/.gitbook/assets/unstucktx-ethbridge.png)
 
-- Ensure your account is selected underneath, click on "include option" and choose "Pending", then Submit RPC call
+4. Ensure your account is selected underneath, click on "include option" and choose "Pending", then Submit RPC call
   ![](/.gitbook/assets/unstucktx-include-option.png)
 
 If your result contains any transaction hashes, these ARE still pending and may take some time to go through. **If your result looks as below and produces no hashes then your SORA bridge transaction has been approved and you should continue through the guide to unstuck your transaction.**
