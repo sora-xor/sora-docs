@@ -26,7 +26,9 @@ Step 3. Get the data needed to unstuck the transaction (getting your proof).
 
 Step 4. Use your proof to manually call your Ethereum transaction to receive your tokens.
 
-**NOTE: Step 4 is slightly different for each token so make sure to follow the correct section in Step 4.**
+::: info
+Step 4 is slightly different for each token so make sure to follow the correct section in Step 4.
+:::
 
 #### Step 1
 
