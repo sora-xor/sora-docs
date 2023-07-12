@@ -47,13 +47,13 @@ Check if your transaction is actually stuck or just pending.
 1. Connect to Polkadot.js app: [https://polkadot.js.org/apps/rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc)
 
 2. Click "Developer", then Select "RPC calls":
-  ![](/.gitbook/assets/unstucktx-rpc-call.png)
+   ![](/.gitbook/assets/unstucktx-rpc-call.png)
 
 3. Click “author”, then Select “Ethbridge”. By default “getAccountRequests(accountId, statusFilter)” should be selected, if not, select it.
-  ![](/.gitbook/assets/unstucktx-ethbridge.png)
+   ![](/.gitbook/assets/unstucktx-ethbridge.png)
 
 4. Ensure your account is selected underneath, click on "include option" and choose "Pending", then Submit RPC call
-  ![](/.gitbook/assets/unstucktx-include-option.png)
+   ![](/.gitbook/assets/unstucktx-include-option.png)
 
 If your result contains any transaction hashes, these ARE still pending and may take some time to go through. **If your result looks as below and produces no hashes, then your SORA bridge transaction has been approved and you should continue through the guide to unstuck your transaction.**
 ![](/.gitbook/assets/unstucktx-approved-continue.png)
@@ -241,7 +241,7 @@ to paste.
 
 ##### XOR
 
-1. Open https://web3playground.io/QmfPMVGCCSHYtk5Z6DYYzv5hZ1SDakpB3bwA5w9rDTPB9A. 
+1. Open https://web3playground.io/QmfPMVGCCSHYtk5Z6DYYzv5hZ1SDakpB3bwA5w9rDTPB9A.
 2. Your metamask will prompt you to connect, please ensure the correct wallet is selected.
 3. Enter your proof data into the top fields within the code. Note that for XOR you must only paste in the data itself, leave out the array brackets and commas as they are already in place in the code.
 4. There is an example proof already on the page, you must only replace the data, leaving the quotation marks in place.
@@ -261,7 +261,7 @@ Below is our example proof from STEP 3 entered into the code, note how the quote
 1. Open https://etherscan.io/address/0xd1eeb2f30016fffd746233ee12c486e7ca8efef1
 2. Click “Contract”
 3. Click “Write as Proxy”
-4. Click “Connect Web 3”. 
+4. Click “Connect Web 3”.
 5. Ensure you have your eth address and a green circle shown after connection.
 6. Click “mintTokensByPeers”
 
