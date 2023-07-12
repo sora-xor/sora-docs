@@ -241,10 +241,10 @@ to paste.
 
 ##### XOR
 
-- Open https://web3playground.io/QmfPMVGCCSHYtk5Z6DYYzv5hZ1SDakpB3bwA5w9rDTPB9A
-- Your metamask will prompt you to connect, please ensure the correct wallet is selected.
-- Input your proof data into the top fields within the code. NOTE: for XOR you must only paste in the data itself, leave out the array brackets and commas as they are already in place in the code.
-- There is an example proof already on the page, you must only replace the data, leaving the quotation marks in place.
+1. Open https://web3playground.io/QmfPMVGCCSHYtk5Z6DYYzv5hZ1SDakpB3bwA5w9rDTPB9A. 
+2. Your metamask will prompt you to connect, please ensure the correct wallet is selected.
+3. Enter your proof data into the top fields within the code. Note that for XOR you must only paste in the data itself, leave out the array brackets and commas as they are already in place in the code.
+4. There is an example proof already on the page, you must only replace the data, leaving the quotation marks in place.
 
 Below is the sample data you will see when opening the link, please note you may have to scroll right to see the whole of the code, the green words (e.g. // Token address) are to let you know which data to paste in.
 
@@ -254,7 +254,7 @@ Below is our example proof from STEP 3 entered into the code, note how the quote
 
 ![](/.gitbook/assets/unstucktx-paste-data-example.png)
 
-- Click run, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your XOR should arrive in your wallet, please remember to add the token address to your wallet if necessary.
+5. Click run, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (hundreds of dollars), then some of the data is wrong. Once confirmed your XOR should arrive in your wallet. Please remember to add the token address to your wallet if necessary.
 
 ##### VAL
 
