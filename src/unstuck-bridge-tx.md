@@ -1,3 +1,13 @@
+---
+title: "tba"
+head:
+  - - meta
+    - name: description
+      content: "tba."
+  - - meta
+    - name: keywords
+      content: "tba"
+---
 # How to Unstuck SORA→ETHEREUM Transactions
 
 ::: info
@@ -16,44 +26,44 @@ transaction fee, DO NOT CONFIRM THE TRANSACTION. It means data has
 been entered incorrectly, double check your input.
 :::
 
-### Overview of the Steps in this Guide
+## Overview of the Steps in this Guide
 
-Step 1. Check if your bridge transaction is actually stuck or is just pending.
+- [Step 1](#step-1) Check if your bridge transaction is actually stuck or is just pending.
 
-Step 2. Find the transaction hash for your stuck transaction.
+- [Step 2](#step-2) Find the transaction hash for your stuck transaction.
 
-Step 3. Get the data needed to unstuck the transaction (getting your proof).
+- [Step 3](#step-3) Get the data needed to unstuck the transaction (getting your proof).
 
-Step 4. Use your proof to manually call your Ethereum transaction to receive your tokens.
+- [Step 4](#step-4) Use your proof to manually call your Ethereum transaction to receive your tokens.
 
-::: info
-Step 4 is slightly different for each token so make sure to follow the correct section in Step 4.
-:::
+**NOTE: [Step 4](#step-4) is slightly different for each token so make sure to
+follow the correct subsection.**
 
-#### Step 1
+
+### Step 1
 
 Check if your transaction is actually stuck or just pending.
 
 - Connect to Polkadot.js apps: [https://polkadot.js.org/apps/rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc)
 
 - Click "Developer", then Select "RPC calls"
-  ![](/.gitbook/assets/unstucktx1.png)
+![](/.gitbook/assets/unstucktx1.png)
 
 - Click “author”, then Select “Ethbridge” (by default “getAccountRequests(accountId, statusFilter)” should be selected, if not, select it.
-  ![](/.gitbook/assets/unstucktx2.png)
+![](/.gitbook/assets/unstucktx2.png)
 
 - Ensure your account is selected underneath, click on "include option" and choose "Pending", then Submit RPC call
-  ![](/.gitbook/assets/unstucktx3.png)
+![](/.gitbook/assets/unstucktx3.png)
 
 If your result contains any transaction hashes, these ARE still pending and may take some time to go through. **If your result looks as below and produces no hashes then your SORA bridge transaction has been approved and you should continue through the guide to unstuck your transaction.**
 ![](/.gitbook/assets/unstucktx4.png)
 
-#### Step 2
+### Step 2
 
 Find the transaction hash of your approved (but stuck) transaction.
 
 - If continuing from step 1 your RPC call only needs slight adjusting, click on “include option” but this time select “Approvals Ready”, Then Submit RPC Call
-  ![](/.gitbook/assets/unstucktx5.png)
+![](/.gitbook/assets/unstucktx5.png)
 
 The result is a list of all SORA bridge transactions that have been
 approved on the SORA side. Your latest bridge transaction is the last
@@ -67,7 +77,7 @@ to the top of the list until you find your stuck transaction.
 
 ![](/.gitbook/assets/unstucktx6.png)
 
-#### Step 3
+### Step 3
 
 Use your transaction hash to get the required data (proof) for step 4.
 
@@ -122,8 +132,8 @@ s: 0x79b1e77bb20663953981d267fbc01d53f9cc3x34s63aa7h3f4385l04td9be9c43,
 r: 0xcc9fcee0fd50bfa29ekb10ldlkjh3tdef02f9beb74a1v295ac0c5x01253f8f8f,
 
 s: 0xkafvd79ffa27g10h928jb88066e8252dec3d58fb6ebf0862c6839d880f858a8f,
-
-v:
+	
+v: 
 ```
 
 **You will be copying and pasting data from your proof. The first time you do this, it's easier if you first copy and paste the whole proof into a notepad, and edit the results as follows, ready to use into step 4.**
@@ -159,7 +169,7 @@ This can be copied and pasted as it is, no commas or spaces.
 ==The following (R, S and V) have two numbers, the top number and the
 bottom number, they must be put into an array, this means putting the
 data into squared brackets, separated with a comma, top number first
-and bottom number second.==
+and bottom number second.== 
 
 - R
 
@@ -174,9 +184,9 @@ Same as R but use the top “S” and bottom “S”
 `[0x79b1e77bb20663953981d267fbc01d53f9cc3x34s63aa7h3f4385l04td9be9c43,0xkafvd79ffa27g10h928jb88066e8252dec3d58fb6ebf0862c6839d880f858a8f]`
 
 - V
-  The format of V must also be put into an array, there are two
-  versions, one is for unstucking XOR and the other is for all other
-  tokens. **For all tokens except XOR**
+The format of V must also be put into an array, there are two
+versions, one is for unstucking XOR and the other is for all other
+tokens. **For all tokens except XOR**
 
 If your `v = 0` then you must put `27` into the array
 
@@ -216,11 +226,17 @@ You now have everything you need for step 4, from our example proof we have the 
 [27,28] (for all tokens except XOR) or [0x1b,0x1c] (for XOR)
 ```
 
-#### Step 4
+### Step 4
 
 Using the data from your proof to call the ethereum transaction
 
-There are four different methods depending on the token you are unstucking, skip to the correct method and have your proof data ready to paste.
+There are four different methods depending on the token you are
+unstucking, skip to the correct method and have your proof data ready
+to paste.
+- [XOR](#xor)
+- [VAL](#val)
+- [PSWAP & CERES](#pswap-ceres)
+- [All other ERC-20 tokens](#all-other-erc-20-tokens-e-g-eth-dai-uni-etc)
 
 ##### XOR
 
@@ -286,3 +302,4 @@ Enter your proof data into the fields as below, this is using our example proof 
 ![](/.gitbook/assets/unstucktx16.png)
 
 Click write, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your tokens should arrive in your wallet, please remember to add the token address to your wallet if necessary.
+
