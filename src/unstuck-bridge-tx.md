@@ -12,7 +12,7 @@ head:
 # How to Unstuck SORA→ETHEREUM Transactions
 
 ::: info
-This guide is written by the community member "Frasier Man" and reviewed by the SORA team. If you want thank Fraiser man, please donate to: `5D4pKyFNRjU8yoYKgiH1UqrjzayjCkttt82HsAdwQ6FTsQyv`
+This guide is written by the community member "Frasier Man" and reviewed by the SORA team. If you want to thank Fraiser man, please donate to: `5D4pKyFNRjU8yoYKgiH1UqrjzayjCkttt82HsAdwQ6FTsQyv`
 :::
 
 ### Use This Guide If:
