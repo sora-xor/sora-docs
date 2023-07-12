@@ -62,16 +62,16 @@ If your result contains any transaction hashes, these ARE still pending and may 
 
 Find the transaction hash of your approved (but stuck) transaction.
 
-- If continuing from step 1 your RPC call only needs slight adjusting, click on “include option” but this time select “Approvals Ready”, Then Submit RPC Call
+1. If continuing from step 1, your RPC call only needs slight adjusting. Click on “include option” but this time select “Approvals Ready”, then Submit RPC Call
   ![](/.gitbook/assets/unstucktx-approvals-ready.png)
 
 The result is a list of all SORA bridge transactions that have been
 approved on the SORA side. Your latest bridge transaction is the last
-one (scroll down if necessary), if you have made more SORA>ETH bridge
+one (scroll down if necessary). If you have made more SORA>ETH bridge
 transactions after the stuck one, you will need to go from the bottom
 to the top of the list until you find your stuck transaction.
 
-- Copy your “stuck” transaction hash, it will look like this:
+2. Copy your “stuck” transaction hash, it will look like this:
 
 `0x57533dc46a5d257b6dj0nhagb0f8s4dfedfl6cpppcoaidu99dd0sdc4def4g6b`
 
