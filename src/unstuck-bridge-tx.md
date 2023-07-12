@@ -258,19 +258,20 @@ Below is our example proof from STEP 3 entered into the code, note how the quote
 
 ##### VAL
 
-- Open https://etherscan.io/address/0xd1eeb2f30016fffd746233ee12c486e7ca8efef1
-- Click “Contract”
-- Click “Write as Proxy”
-- Click “Connect Web 3” (ensure you have your eth address and a green circle shown after connection)
-- Click “mintTokensByPeers”
+1. Open https://etherscan.io/address/0xd1eeb2f30016fffd746233ee12c486e7ca8efef1
+2. Click “Contract”
+3. Click “Write as Proxy”
+4. Click “Connect Web 3”. 
+5. Ensure you have your eth address and a green circle shown after connection.
+6. Click “mintTokensByPeers”
 
 ![](/.gitbook/assets/unstucktx-mint-tokens-peers.png)
 
-Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data. (note: beneficiary = to)
+7. Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data. (note: beneficiary = to)
 
 ![](/.gitbook/assets/unstucktx-proof-input.png)
 
-Click write, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your VAL should arrive in your wallet, please remember to add the token address to your wallet if necessary.
+8. Click "write", this should bring up your metamask for you to confirm. Remember if the gas price is over the top (hundreds of dollars), then some of the data is wrong. Once confirmed your VAL should arrive in your wallet. Please remember to add the token address to your wallet if necessary.
 
 ##### PSWAP & CERES
 
