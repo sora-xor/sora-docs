@@ -31,8 +31,10 @@ This guide is written by the community member "Frasier Man" and reviewed by the 
 
 - [Step 4](#step-4) Use your proof to manually call your Ethereum transaction to receive your tokens.
 
-**NOTE: [Step 4](#step-4) is slightly different for each token so make sure to
+::: info
+[Step 4](#step-4) is slightly different for each token so make sure to
 follow the correct subsection.**
+:::
 
 :::info
 If at the end of Step 4, Ethereum asks you for a LARGE
