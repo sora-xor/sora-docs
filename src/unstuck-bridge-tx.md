@@ -12,7 +12,7 @@ head:
 # How to Unstuck SORA→ETHEREUM Transactions
 
 ::: info
-This guide is written by the community member "Frasier Man" and reviewed by the SORA team. If you want thank Fraiser man, please donate to: `5D4pKyFNRjU8yoYKgiH1UqrjzayjCkttt82HsAdwQ6FTsQyv`
+This guide is written by the community member "Frasier Man" and reviewed by the SORA team. If you want to thank Fraiser man, please donate to: `5D4pKyFNRjU8yoYKgiH1UqrjzayjCkttt82HsAdwQ6FTsQyv`
 :::
 
 ### When to Use This Guide:
@@ -31,8 +31,10 @@ This guide is written by the community member "Frasier Man" and reviewed by the 
 
 - [Step 4](#step-4) Use your proof to manually call your Ethereum transaction to receive your tokens.
 
-**NOTE: [Step 4](#step-4) is slightly different for each token so make sure to
+::: info
+[Step 4](#step-4) is slightly different for each token so make sure to
 follow the correct subsection.**
+:::
 
 :::info
 If at the end of Step 4, Ethereum asks you for a LARGE
@@ -44,34 +46,34 @@ been entered incorrectly, double check your input.
 
 Check if your transaction is actually stuck or just pending.
 
-- Connect to Polkadot.js apps: [https://polkadot.js.org/apps/rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc)
+1. Connect to Polkadot.js app: [https://polkadot.js.org/apps/rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc)
 
-- Click "Developer", then Select "RPC calls"
+2. Click "Developer", then Select "RPC calls":
   ![](/.gitbook/assets/unstucktx-rpc-call.png)
 
-- Click “author”, then Select “Ethbridge” (by default “getAccountRequests(accountId, statusFilter)” should be selected, if not, select it.
+3. Click “author”, then Select “Ethbridge”. By default “getAccountRequests(accountId, statusFilter)” should be selected, if not, select it.
   ![](/.gitbook/assets/unstucktx-ethbridge.png)
 
-- Ensure your account is selected underneath, click on "include option" and choose "Pending", then Submit RPC call
+4. Ensure your account is selected underneath, click on "include option" and choose "Pending", then Submit RPC call
   ![](/.gitbook/assets/unstucktx-include-option.png)
 
-If your result contains any transaction hashes, these ARE still pending and may take some time to go through. **If your result looks as below and produces no hashes then your SORA bridge transaction has been approved and you should continue through the guide to unstuck your transaction.**
+If your result contains any transaction hashes, these ARE still pending and may take some time to go through. **If your result looks as below and produces no hashes, then your SORA bridge transaction has been approved and you should continue through the guide to unstuck your transaction.**
 ![](/.gitbook/assets/unstucktx-approved-continue.png)
 
 ### Step 2
 
 Find the transaction hash of your approved (but stuck) transaction.
 
-- If continuing from step 1 your RPC call only needs slight adjusting, click on “include option” but this time select “Approvals Ready”, Then Submit RPC Call
+1. If continuing from step 1, your RPC call only needs slight adjusting. Click on “include option” but this time select “Approvals Ready”, then Submit RPC Call
   ![](/.gitbook/assets/unstucktx-approvals-ready.png)
 
 The result is a list of all SORA bridge transactions that have been
 approved on the SORA side. Your latest bridge transaction is the last
-one (scroll down if necessary), if you have made more SORA>ETH bridge
+one (scroll down if necessary). If you have made more SORA>ETH bridge
 transactions after the stuck one, you will need to go from the bottom
 to the top of the list until you find your stuck transaction.
 
-- Copy your “stuck” transaction hash, it will look like this:
+2. Copy your “stuck” transaction hash, it will look like this:
 
 `0x57533dc46a5d257b6dj0nhagb0f8s4dfedfl6cpppcoaidu99dd0sdc4def4g6b`
 
@@ -81,22 +83,21 @@ to the top of the list until you find your stuck transaction.
 
 Use your transaction hash to get the required data (proof) for step 4.
 
-- Continuing from step 2, click on “get**Account**Requests(accountId, statusFilter)” and change it to “get**Approved**Requests(requestHashes, networkId)
+1. Continuing from step 2, click on “get**Account**Requests(accountId, statusFilter)” and change it to “get**Approved**Requests(requestHashes, networkId)
 
 ![](/.gitbook/assets/unstucktx-get-approved-requests.png)
 
-- Click on “Add item”
-- Paste in your Approved transaction hash from step 2 instead of 0x000…
-- Click “Include Option” and leave the network id as 0
-- Submit the RPC Call
+2. Click on “Add item”.
+3. Paste in your Approved transaction hash from step 2 instead of 0x000…
+4. Click “Include Option” and leave the network id as 0.
+5. Submit the RPC Call:
 
 ![](/.gitbook/assets/unstucktx-add-approved-request.png)
 
-The result is your “Proof”, it contains all the data needed for step
-4, below is an **example** of a proof, you only need the data colour
-highlighted in this example, the rest can be ignored, underneath this
-example are instructions on how yo should prepare **your** data for the next step.
 
+The result is your “Proof”, it contains all the data needed for step 4.
+
+::: details Expand to see an example of proof
 ```
 Transfer: {
 
@@ -135,8 +136,13 @@ s: 0xkafvd79ffa27g10h928jb88066e8252dec3d58fb6ebf0862c6839d880f858a8f,
 
 v:
 ```
+:::
 
-**You will be copying and pasting data from your proof. The first time you do this, it's easier if you first copy and paste the whole proof into a notepad, and edit the results as follows, ready to use into step 4.**
+Here's the guide on how yuo should prepare **your** data for the next step.
+
+::: tip
+You will be copying and pasting data from your proof. The first time you do this, it's easier if you first copy and paste the whole proof into a notepad, and edit the results as described below, ready to use into step 4.
+:::
 
 | Field            | Description                                                                                                                                                                                                                      | Example                                                              |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -187,7 +193,7 @@ You now have everything you need for step 4, from our example proof we have the 
 
 ### Step 4
 
-Using the data from your proof to call the ethereum transaction
+Use the data from your proof to call the ethereum transaction.
 
 There are four different methods depending on the token you are
 unstucking, skip to the correct method and have your proof data ready
@@ -200,10 +206,10 @@ to paste.
 
 ##### XOR
 
-- Open https://web3playground.io/QmfPMVGCCSHYtk5Z6DYYzv5hZ1SDakpB3bwA5w9rDTPB9A
-- Your metamask will prompt you to connect, please ensure the correct wallet is selected.
-- Input your proof data into the top fields within the code. NOTE: for XOR you must only paste in the data itself, leave out the array brackets and commas as they are already in place in the code.
-- There is an example proof already on the page, you must only replace the data, leaving the quotation marks in place.
+1. Open https://web3playground.io/QmfPMVGCCSHYtk5Z6DYYzv5hZ1SDakpB3bwA5w9rDTPB9A. 
+2. Your metamask will prompt you to connect, please ensure the correct wallet is selected.
+3. Enter your proof data into the top fields within the code. Note that for XOR you must only paste in the data itself, leave out the array brackets and commas as they are already in place in the code.
+4. There is an example proof already on the page, you must only replace the data, leaving the quotation marks in place.
 
 Below is the sample data you will see when opening the link, please note you may have to scroll right to see the whole of the code, the green words (e.g. // Token address) are to let you know which data to paste in.
 
@@ -213,55 +219,58 @@ Below is our example proof from STEP 3 entered into the code, note how the quote
 
 ![](/.gitbook/assets/unstucktx-paste-data-example.png)
 
-- Click run, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your XOR should arrive in your wallet, please remember to add the token address to your wallet if necessary.
+5. Click run, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (hundreds of dollars), then some of the data is wrong. Once confirmed your XOR should arrive in your wallet. Please remember to add the token address to your wallet if necessary.
 
 ##### VAL
 
-- Open https://etherscan.io/address/0xd1eeb2f30016fffd746233ee12c486e7ca8efef1
-- Click “Contract”
-- Click “Write as Proxy”
-- Click “Connect Web 3” (ensure you have your eth address and a green circle shown after connection)
-- Click “mintTokensByPeers”
+1. Open https://etherscan.io/address/0xd1eeb2f30016fffd746233ee12c486e7ca8efef1
+2. Click “Contract”
+3. Click “Write as Proxy”
+4. Click “Connect Web 3”. 
+5. Ensure you have your eth address and a green circle shown after connection.
+6. Click “mintTokensByPeers”
 
 ![](/.gitbook/assets/unstucktx-mint-tokens-peers.png)
 
-Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data. (note: beneficiary = to)
+7. Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data. (note: beneficiary = to)
 
 ![](/.gitbook/assets/unstucktx-proof-input.png)
 
-Click write, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your VAL should arrive in your wallet, please remember to add the token address to your wallet if necessary.
+8. Click "write", this should bring up your metamask for you to confirm. Remember if the gas price is over the top (hundreds of dollars), then some of the data is wrong. Once confirmed your VAL should arrive in your wallet. Please remember to add the token address to your wallet if necessary.
 
 ##### PSWAP & CERES
 
-- Open https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602
-- Click “Contract”
-- Click “Write Contract”
-- Click “Connect Web 3” (ensure you have your eth address and a green circle shown after connection)
-- Click “receiveBySidechainAssetID”
+1. Open https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602
+2. Click “Contract”
+3. Click “Write Contract”
+4. Click “Connect Web 3”
+5. Ensure you have your eth address and a green circle shown after connection
+6. Click “receiveBySidechainAssetID”
 
 ![](/.gitbook/assets/unstucktx-receive-sidechain-asset.png)
 
-Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data. (note: sideChainassetid = token address)
+7. Enter your proof data into the fields as below, this is using our example proof from Step 3. This is how you must paste in your data. (note: sideChainassetid = token address)
 
 ![](/.gitbook/assets/unstucktx-sidechain-input.png)
 
-Click write, this should bring up your metamask for you to confirm. Remember if the gas price is over the top (100s of $) then some of the data is wrong. Once confirmed your PSWAP should arrive in your wallet, please remember to add the token address to your wallet if necessary.
+8. Click "write", this should bring up your metamask for you to confirm. Remember if the gas price is over the top (hundreds of dollars), then some of the data is wrong. Once confirmed your PSWAP should arrive in your wallet. Please remember to add the token address to your wallet if necessary.
 
 ##### All Other ERC-20 Tokens (e.g. ETH, DAI, UNI etc.)
 
-- Open https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602
-- Click “Contract”
-- Click “Write Contract”
-- Click “Connect Web 3” (ensure you have your eth address and a green circle after connection)
-- Click “receiveByEthereumAssetAddress”
+1. Open https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602
+2. Click “Contract”
+3. Click “Write Contract”
+4. Click “Connect Web 3”
+5. Ensure you have your eth address and a green circle after connection
+6.  Click “receiveByEthereumAssetAddress”
 
 ![](/.gitbook/assets/unstucktx-eth-asset-address.png)
 
-Enter your proof data into the fields as below, this is using our example proof from Step 3, This is how you must paste in your data.
+7. Enter your proof data into the fields as below, this is using our example proof from Step 3. This is how you must paste in your data.
 
 ![](/.gitbook/assets/unstucktx-eth-asset-proof.png)
 
-Click write, this should bring up your metamask for you to confirm.
+8. Click "write", this should bring up your metamask for you to confirm.
 **Remember if the gas price is over the top (100s of $) then some of
 the data is wrong.**
-Once confirmed your tokens should arrive in your wallet, please remember to add the token address to your wallet if necessary.
+Once confirmed your tokens should arrive in your wallet. Please remember to add the token address to your wallet if necessary.
