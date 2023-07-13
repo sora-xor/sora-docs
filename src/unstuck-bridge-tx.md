@@ -83,16 +83,17 @@ to the top of the list until you find your stuck transaction.
 
 Use your transaction hash to get the required data (proof) for step 4.
 
-- Continuing from step 2, click on “get**Account**Requests(accountId, statusFilter)” and change it to “get**Approved**Requests(requestHashes, networkId)
+1. Continuing from step 2, click on “get**Account**Requests(accountId, statusFilter)” and change it to “get**Approved**Requests(requestHashes, networkId)
 
 ![](/.gitbook/assets/unstucktx-get-approved-requests.png)
 
-- Click on “Add item”
-- Paste in your Approved transaction hash from step 2 instead of 0x000…
-- Click “Include Option” and leave the network id as 0
-- Submit the RPC Call
+2. Click on “Add item”.
+3. Paste in your Approved transaction hash from step 2 instead of 0x000…
+4. Click “Include Option” and leave the network id as 0.
+5. Submit the RPC Call:
 
 ![](/.gitbook/assets/unstucktx-add-approved-request.png)
+
 
 The result is your “Proof”, it contains all the data needed for step
 4, below is an **example** of a proof, you only need the data colour
