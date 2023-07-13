@@ -8,6 +8,7 @@ head:
     - name: keywords
       content: "SORA-ETHEREUM transactions, Sora>ETH bridge, Ethereum transaction, unstuck transactions, metamask, cross-chain transfers, troubleshooting, SORA Network, Ethereum, bridge transaction status, transaction hash, unstuck transaction, troubleshooting guide"
 ---
+
 # How to Unstuck SORA→ETHEREUM Transactions
 
 ::: info
@@ -19,7 +20,6 @@ This guide is written by the community member "Frasier Man" and reviewed by the 
 - Your SORA bridge transaction is stuck on pending or has failed.
 - The "retry" command on the [bridge UI](https://polkaswap.io/#/bridge/) is not working/not available.
 - Your funds have left your SORA account and not arrived in your Ethereum account after some time.
-
 
 ## Overview of the Steps in this Guide
 
@@ -47,13 +47,13 @@ Check if your transaction is actually stuck or just pending.
 - Connect to Polkadot.js apps: [https://polkadot.js.org/apps/rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc)
 
 - Click "Developer", then Select "RPC calls"
-![](/.gitbook/assets/unstucktx-rpc-call.png)
+  ![](/.gitbook/assets/unstucktx-rpc-call.png)
 
 - Click “author”, then Select “Ethbridge” (by default “getAccountRequests(accountId, statusFilter)” should be selected, if not, select it.
-![](/.gitbook/assets/unstucktx-ethbridge.png)
+  ![](/.gitbook/assets/unstucktx-ethbridge.png)
 
 - Ensure your account is selected underneath, click on "include option" and choose "Pending", then Submit RPC call
-![](/.gitbook/assets/unstucktx-include-option.png)
+  ![](/.gitbook/assets/unstucktx-include-option.png)
 
 If your result contains any transaction hashes, these ARE still pending and may take some time to go through. **If your result looks as below and produces no hashes then your SORA bridge transaction has been approved and you should continue through the guide to unstuck your transaction.**
 ![](/.gitbook/assets/unstucktx-approved-continue.png)
@@ -63,7 +63,7 @@ If your result contains any transaction hashes, these ARE still pending and may 
 Find the transaction hash of your approved (but stuck) transaction.
 
 - If continuing from step 1 your RPC call only needs slight adjusting, click on “include option” but this time select “Approvals Ready”, Then Submit RPC Call
-![](/.gitbook/assets/unstucktx-approvals-ready.png)
+  ![](/.gitbook/assets/unstucktx-approvals-ready.png)
 
 The result is a list of all SORA bridge transactions that have been
 approved on the SORA side. Your latest bridge transaction is the last
@@ -132,24 +132,24 @@ s: 0x79b1e77bb20663953981d267fbc01d53f9cc3x34s63aa7h3f4385l04td9be9c43,
 r: 0xcc9fcee0fd50bfa29ekb10ldlkjh3tdef02f9beb74a1v295ac0c5x01253f8f8f,
 
 s: 0xkafvd79ffa27g10h928jb88066e8252dec3d58fb6ebf0862c6839d880f858a8f,
-	
-v: 
+
+v:
 ```
 
 **You will be copying and pasting data from your proof. The first time you do this, it's easier if you first copy and paste the whole proof into a notepad, and edit the results as follows, ready to use into step 4.**
 
-| Field | Description |Example |
-| ----------- | ----------- | ----------- |
-| Token Address | This can be copied and pasted as it is, no commas or spaces. | `0x6b175474e89094c44da98b954eedeac495271d0f` |
-| Amount | Copy and paste this number and delete all the commas. (this amount will reflect the amount you bridged but will be a much larger number, for example the amount in this example bridge was actually 30000) | `30000000000000000000000` |
-| To | This can be copied and pasted as it is, no commas or spaces. **NOTE - This is the Ethereum address that was connected to the bridge when the transaction was made, it must be the same address used when connecting in Step 4.** | `0xd7230339a4b355ae6d24a7378cc910o85l34k5nb`|
-| From | This can be copied and pasted as it is, no commas or spaces. | `0x6ef01fd3b42ed7a3fa0e7ca366d0a464dc71016d` |
-| Transaction Hash | This can be copied and pasted as it is, no commas or spaces. | `0x235517c869f0288ad8jjhag6f0de0jbkelf6ooi5ycct5g9d945d73d40d987y6b` |
+| Field            | Description                                                                                                                                                                                                                      | Example                                                              |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Token Address    | This can be copied and pasted as it is, no commas or spaces.                                                                                                                                                                     | `0x6b175474e89094c44da98b954eedeac495271d0f`                         |
+| Amount           | Copy and paste this number and delete all the commas. (this amount will reflect the amount you bridged but will be a much larger number, for example the amount in this example bridge was actually 30000)                       | `30000000000000000000000`                                            |
+| To               | This can be copied and pasted as it is, no commas or spaces. **NOTE - This is the Ethereum address that was connected to the bridge when the transaction was made, it must be the same address used when connecting in Step 4.** | `0xd7230339a4b355ae6d24a7378cc910o85l34k5nb`                         |
+| From             | This can be copied and pasted as it is, no commas or spaces.                                                                                                                                                                     | `0x6ef01fd3b42ed7a3fa0e7ca366d0a464dc71016d`                         |
+| Transaction Hash | This can be copied and pasted as it is, no commas or spaces.                                                                                                                                                                     | `0x235517c869f0288ad8jjhag6f0de0jbkelf6ooi5ycct5g9d945d73d40d987y6b` |
 
 ==The following (R, S and V) have two numbers, the top number and the
 bottom number, they must be put into an array, this means putting the
 data into squared brackets, separated with a comma, top number first
-and bottom number second.== 
+and bottom number second.==
 
 - R
 
@@ -164,9 +164,9 @@ Same as R but use the top “S” and bottom “S”
 `[0x79b1e77bb20663953981d267fbc01d53f9cc3x34s63aa7h3f4385l04td9be9c43,0xkafvd79ffa27g10h928jb88066e8252dec3d58fb6ebf0862c6839d880f858a8f]`
 
 - V
-The format of V must also be put into an array, there are two
-versions, one is for unstucking XOR and the other is for all other
-tokens. **For all tokens except XOR**
+  The format of V must also be put into an array, there are two
+  versions, one is for unstucking XOR and the other is for all other
+  tokens. **For all tokens except XOR**
 
 If your `v = 0` then you must put `27` into the array
 
@@ -213,6 +213,7 @@ Using the data from your proof to call the ethereum transaction
 There are four different methods depending on the token you are
 unstucking, skip to the correct method and have your proof data ready
 to paste.
+
 - [XOR](#xor)
 - [VAL](#val)
 - [PSWAP & CERES](#pswap-ceres)
@@ -281,8 +282,7 @@ Enter your proof data into the fields as below, this is using our example proof 
 
 ![](/.gitbook/assets/unstucktx-eth-asset-proof.png)
 
-Click write, this should bring up your metamask for you to confirm. 
+Click write, this should bring up your metamask for you to confirm.
 **Remember if the gas price is over the top (100s of $) then some of
-the data is wrong.** 
+the data is wrong.**
 Once confirmed your tokens should arrive in your wallet, please remember to add the token address to your wallet if necessary.
-
