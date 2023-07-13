@@ -146,15 +146,15 @@ v:
 | From             | This can be copied and pasted as it is, no commas or spaces.                                                                                                                                                                     | `0x6ef01fd3b42ed7a3fa0e7ca366d0a464dc71016d`                         |
 | Transaction Hash | This can be copied and pasted as it is, no commas or spaces.                                                                                                                                                                     | `0x235517c869f0288ad8jjhag6f0de0jbkelf6ooi5ycct5g9d945d73d40d987y6b` |
 
-**The following (R, S and V) have two numbers, the top number and the
+\*\*The following (R, S and V) have two numbers, the top number and the
 bottom number, they must be put into an array, this means putting the
 data into squared brackets, separated with a comma, top number first and bottom number second.==
 
--  R 
+- R
 
 Start with an open square bracket, then paste in the top “R”, then
 type a comma and paste in the bottom “R”, then end with a closed
-square bracket. 
+square bracket.
 
 `[0x7a42sefc5dh232j34g61d22c53b28cn9600f4jhggf70fdfeh83kb4l7d9s2bcea,0xcc9fcee0fd50bfa29ekb10ldlkjh3tdef02f9beb74a1v295ac0c5x01253f8f8f]`
 
