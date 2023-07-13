@@ -138,7 +138,6 @@ v:
 ```
 
 :::
-:::
 
 Here's the guide on how yuo should prepare **your** data for the next step.
 
