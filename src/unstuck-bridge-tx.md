@@ -95,11 +95,9 @@ Use your transaction hash to get the required data (proof) for step 4.
 ![](/.gitbook/assets/unstucktx-add-approved-request.png)
 
 
-The result is your “Proof”, it contains all the data needed for step
-4, below is an **example** of a proof, you only need the data colour
-highlighted in this example, the rest can be ignored, underneath this
-example are instructions on how yo should prepare **your** data for the next step.
+The result is your “Proof”, it contains all the data needed for step 4.
 
+::: details Expand to see an example of proof
 ```
 Transfer: {
 
