@@ -146,12 +146,22 @@ v:
 | From             | This can be copied and pasted as it is, no commas or spaces.                                                                                                                                                                     | `0x6ef01fd3b42ed7a3fa0e7ca366d0a464dc71016d`                         |
 | Transaction Hash | This can be copied and pasted as it is, no commas or spaces.                                                                                                                                                                     | `0x235517c869f0288ad8jjhag6f0de0jbkelf6ooi5ycct5g9d945d73d40d987y6b` |
 
+<<<<<<< HEAD
 \*\*The following (R, S and V) have two numbers, the top number and the
 bottom number, they must be put into an array, this means putting the
 data into squared brackets, separated with a comma, top number first and bottom number second.==
+=======
+**The following (R, S and V) have two numbers, the top number and the
+bottom number, they must be put into an array, this means putting the
+data into squared brackets, separated with a comma, top number first
+and bottom number second.** 
+>>>>>>> 5274f48 (table)
 
-- R
+| Field | Description |Example |
+| ----------- | ----------- | ----------- |
+| R | Start with an open square bracket, then paste in the top “R”, then type a comma and paste in the bottom “R”, then end with a closed square bracket. | `[0x7a42sefc5dh232j34g61d22c53b28cn9600f4jhggf70fdfeh83kb4l7d9s2bcea,0xcc9fcee0fd50bfa29ekb10ldlkjh3tdef02f9beb74a1v295ac0c5x01253f8f8f]` |
 
+<<<<<<< HEAD
 Start with an open square bracket, then paste in the top “R”, then
 type a comma and paste in the bottom “R”, then end with a closed
 square bracket.
@@ -189,6 +199,16 @@ If `v = 0` then you must put `0x1b` into the array, If `v = 1` then you must put
 For our example, top v is `0` and bottom v is `1` so our array would be
 
 `[0x1b,0x1c]`
+=======
+**Make sure there are no spaces in the array, double check after the
+comma that there is no space.**
+
+| Field | Description |Example |
+| ----------- | ----------- | ----------- |
+| S | Same as R but use the top “S” and bottom “S” | `[0x79b1e77bb20663953981d267fbc01d53f9cc3x34s63aa7h3f4385l04td9be9c43,0xkafvd79ffa27g10h928jb88066e8252dec3d58fb6ebf0862c6839d880f858a8f]` |
+| V | The format of V must also be put into an array, there are two versions, one is for unstucking XOR and the other is for all other tokens. **For all tokens except XOR** | If your `v = 0` then you must put `27` into the array If your`v = 1` then you must put `28` into the array. For our example, top v is`0` and bottom v is `1`so our array would be `[27,28]` |
+||For XOR| If `v = 0` then you must put `0x1b` into the array, If `v = 1` then you must put `0x1c` into the array. For our example, top v is `0` and bottom v is `1` so our array would be `[0x1b,0x1c]`|
+>>>>>>> 5274f48 (table)
 
 - Result from Proof
 
