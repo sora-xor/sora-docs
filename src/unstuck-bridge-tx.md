@@ -138,7 +138,11 @@ v:
 ```
 :::
 
-**You will be copying and pasting data from your proof. The first time you do this, it's easier if you first copy and paste the whole proof into a notepad, and edit the results as follows, ready to use into step 4.**
+Here's the guide on how yuo should prepare **your** data for the next step.
+
+::: tip
+You will be copying and pasting data from your proof. The first time you do this, it's easier if you first copy and paste the whole proof into a notepad, and edit the results as described below, ready to use into step 4.
+:::
 
 - Token Address
 
