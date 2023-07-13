@@ -11,6 +11,4 @@ head:
 
 # Registration
 
-## Via Polkaswap
-
 <!-- @include: /snippets/register-an-asset-polkaswap.md -->

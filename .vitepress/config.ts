@@ -198,6 +198,55 @@ export default defineConfig({
         ],
       },
       {
+        text: "Polkaswap",
+        collapsed: true,
+        items: [
+          { text: "Overview", link: "participate" },
+          { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
+          {
+            text: "Send & Receive",
+            link: "send-and-receive-polkaswap",
+          },
+          {
+            text: "Explore the Ecosystem",
+            items: [
+              { text: "Explore", link: "explore-polkaswap" },
+              { text: "View Statistics", link: "statistics-polkaswap" },
+            ],
+          },
+          { text: "Register an Asset", link: "register-an-asset-polkaswap" },
+          { text: "On-ramp", link: "on-ramp-polkaswap" },
+          {
+            text: "Staking",
+            items: [
+              { text: "Demeter Staking", link: "demeter-staking-polkaswap" },
+            ],
+          },
+
+          {
+            text: "DEX",
+            collapsed: true,
+            items: [
+              { text: "Swap", link: "swap-polkaswap" },
+              {
+                text: "Provide Liquidity to XYK Pools",
+                link: "provide-liquidity-to-xyk-pools-polkaswap",
+              },
+              { text: "Advanced Trading", link: "advanced-trading-polkaswap" },
+
+              {
+                text: "Other Polkaswap Features",
+                link: "polkaswap-other-features",
+              },
+            ],
+          },
+          { text: "Referral System", link: "referral-polkaswap" },
+          { text: "NFT", link: "nft-polkaswap" },
+          { text: "Rewards", link: "rewards-polkaswap" },
+          { text: "Nodes Connection", link: "nodes-connection-polkaswap" },
+        ],
+      },
+      {
         text: "Build",
         collapsed: true,
         items: [
@@ -252,7 +301,7 @@ export default defineConfig({
   srcDir: "./src",
   lastUpdated: true,
   cleanUrls: true,
-  ignoreDeadLinks: [/^https?:\/\/localhost/],
+  ignoreDeadLinks: [/^https?:\/\/localhost/, /snippets\//],
   markdown: {
     config: (md) => {
       md.use(markdownItKatex);
