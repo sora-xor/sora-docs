@@ -33,7 +33,7 @@ This guide is written by the community member "Frasier Man" and reviewed by the 
 
 ::: info
 [Step 4](#step-4) is slightly different for each token so make sure to
-follow the correct subsection.**
+follow the correct subsection.\*\*
 :::
 
 :::info
@@ -94,10 +94,10 @@ Use your transaction hash to get the required data (proof) for step 4.
 
 ![](/.gitbook/assets/unstucktx-add-approved-request.png)
 
-
 The result is your “Proof”, it contains all the data needed for step 4.
 
 ::: details Expand to see an example of proof
+
 ```
 Transfer: {
 
@@ -136,6 +136,7 @@ s: 0xkafvd79ffa27g10h928jb88066e8252dec3d58fb6ebf0862c6839d880f858a8f,
 
 v:
 ```
+
 :::
 
 Here's the guide on how yuo should prepare **your** data for the next step.
