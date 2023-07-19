@@ -45,8 +45,6 @@ head:
       content: "@sora_xor"
 ---
 
-# Contents ...
-
 # Tokenomics
 
 In this section you will find all the information on SORA

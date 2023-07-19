@@ -80,7 +80,7 @@ Having fiat-to-crypto payments on centralized exchanges has its advantages. Howe
 
 On [Polkaswap](https://polkaswap.io/), the solution until now was a fiat on-off ramp via MoonPay, which requires you to buy ETH at significant conversion fees, bridge the ETH from your Ethereum wallet (like MetaMask) to your SORA account, and pay the bridge fees on the Ethereum network, before it is accessible in your SORA Wallet. As you can tell, this leads to a suboptimal user experience. Regulation does not allow for fiat currencies (EUR, USD, etc.) to be directly available on decentralized exchanges, but the SORA Card approach of having a clear segregation between TradFi and DeFi wallets allows users to get the best of both the TradFi and DeFi worlds.
 
-Another distinct privacy feature of the SORA Card is the way that transaction data is made available - or rather unavailable to third parties. By default, a SORA Card user's transaction data is only available to the IBAN issuer and Mastercard. This data is not available to third parties like other banks nor to the public, allowing for discrete spending behavior.
+Another distinct privacy feature of the SORA Card is the way that transaction data is made available - or rather unavailable to third parties. By default, a SORA Card user's transaction data is only available to the IBAN issuer and Mastercard®. This data is not available to third parties like other banks nor to the public, allowing for discrete spending behavior.
 
 ## Designed for the interoperable future
 
@@ -108,3 +108,7 @@ To name a few:
 - And more.
 
 For more information, visit [soracard.com](https://soracard.com/).
+
+---
+
+**Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.**
