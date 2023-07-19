@@ -110,4 +110,5 @@ To name a few:
 For more information, visit [soracard.com](https://soracard.com/).
 
 ---
+
 **Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.**
