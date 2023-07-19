@@ -13,7 +13,7 @@ head:
 # EVM Interoperability
 
 The SORA network is connected to the Ethereum mainnet via the [HASHI
-Bridge.](https://polkaswap.io/#/bridge/) Although currently there is only one network supported (ETH),
+Bridge](https://polkaswap.io/#/bridge/). Although currently there is only one network supported (ETH),
 the HASHI bridge will also feature connectivity to multiple EVM-based
 networks, as well as Substrate networks.
 
