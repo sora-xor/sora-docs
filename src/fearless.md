@@ -52,3 +52,5 @@ In addition to sending and receiving KSM/DOT, the following features are also su
 - **Crowdloans**: Loan KSM and (in the future) DOT to projects so they can win their parachain auctions.
 
 - **Buying KSM/DOT**: Using RAMP and Moonpay, you can buy KSM/DOT with your credit card in just a few easy steps!
+
+### For more information and user guides visit the [Fearless Wallet Wiki](https://wiki.fearlesswallet.io/)
