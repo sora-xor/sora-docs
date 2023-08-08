@@ -87,13 +87,20 @@ export default defineConfig({
               },
             ],
           },
-          { text: "SORAcard", link: "sora-card" },
+          {
+	    text: "SORAcard",
+	    collapsed: true,
+	    items: [
+	      { text: "SORA Card Introduction", link: "sora-card" },
+	      { text: "SORA Card KYC Tutorial", link: "sora-card-kyc-tutorial" },
+	   ],    
+          },
           {
             text: "SORA in Your Pocket",
             collapsed: true,
             items: [
               { text: "SORA Mobile", link: "mobile" },
-              { text: "Fearless Wallet", link: "fearless" },
+              { text: "Fearless Wallet", link: "fearless" }, 
             ],
           },
           { text: "Request Features", link: "rfp" },
