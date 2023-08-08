@@ -34,15 +34,16 @@ There are two channels to apply for a SORA Card:
 
 1. On the [polkaswap.io](http://polkaswap.io/) dApp
 2. Through the SORA Wallet mobile app (available on [Google Play](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora&hl=en&gl=US&pli=1) and the [Apple App Store](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora&hl=en&gl=US&pli=1))
-- ***If you just downloaded SORA Wallet, store your seed phrase safely.***
+
+- **_If you just downloaded SORA Wallet, store your seed phrase safely._**
 
 And the three options to apply for SORA Card, along with the fees for each option, are:
 
 1. **If you already have more than €100 worth of XOR in your account, staked, or in a pool where you provide liquidity**: the application with your SORA address is free;
 2. **If you want to purchase XOR to have the €100 balance for a free order**, you can buy XOR worth up to €700 within the app with only soft KYC required (details below);
-3. **If you do not have €100 worth of XOR and don’t want to purchase it**, there will be a fee of €20 to apply for KYC and the SORA Card available in the second phase. This payment can be made with any debit/credit card*.
+3. **If you do not have €100 worth of XOR and don’t want to purchase it**, there will be a fee of €20 to apply for KYC and the SORA Card available in the second phase. This payment can be made with any debit/credit card\*.
 
-*You can use a credit/debit card from Mastercard®, Visa®, Discover®, Diners Club® or JCB® for the purchase.*
+_You can use a credit/debit card from Mastercard®, Visa®, Discover®, Diners Club® or JCB® for the purchase._
 
 ## 2. Prepare this documentation and the following personal data;
 
@@ -53,7 +54,7 @@ A. In case you already have €100 worth of XOR on the account, **continue to B*
 - Email address
 - Nationality
 
-*Unfortunately, you cannot access this service if your nationality is from [one of these countries](https://x1ex.com/en/countries). You can still purchase XOR via alternative ways.*
+_Unfortunately, you cannot access this service if your nationality is from [one of these countries](https://x1ex.com/en/countries). You can still purchase XOR via alternative ways._
 
 Current alternatives are: swapping on [polkaswap.io](http://polkaswap.io/) and Uniswap. As well as buying from [Gate.io](http://gate.io/) and then bridging to your SORA account on [Polkaswap.io](http://polkaswap.io/).
 
