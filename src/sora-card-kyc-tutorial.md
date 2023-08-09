@@ -12,7 +12,6 @@ head:
 
 # How to Sign Up for SORA Card, a Walkthrough
 
-
 Although signing up and undergoing KYC for SORA Card is straightforward, this article will help you resolve any questions you might have.
 
 ::: info
