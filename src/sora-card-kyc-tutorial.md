@@ -97,7 +97,7 @@ Input your email address and click the verification link received in your inbox.
 
 Every applicant has a credit of 2 KYC attempts included in the application. This applies to all applicants, including applicants with €100 worth of XOR on their SORA account and applicants who order SORA Card by paying €20.
 
-To avoid an extra cost of €3.80 per additional attempt, please ensure the following;
+To avoid an extra cost of €3.80 per additional attempt, please ensure the following:
 
 - Your identification document is valid and legible
 - Your selfie is clear and following the guidance provided
