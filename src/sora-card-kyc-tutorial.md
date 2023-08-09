@@ -68,7 +68,9 @@ B. To undergo **KYC for SORA Card,** you need to prepare the following documents
 - **Photo of your ID** document
 - **Photo of proof of address**: an official document (utility bill, bank statement, government statement or correspondence) that contains your full name and address and is not older than 3 months.
 - **Address of residency**
-- Unfortunately, you can not access the service if you reside in one of the [countries on this list](https://soracard.com/blacklist/).
+   ::: info
+   Unfortunately, you can not access the service if you reside in one of the [countries on this list](https://soracard.com/blacklist/).
+   :::
 - **A Selfie** will be taken during the KYC process.
 
 ## 3. Registration and KYC Flow
