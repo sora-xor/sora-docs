@@ -89,7 +89,7 @@ After verifying your phone number, input your full name as it appears on the off
 
 ![](/.gitbook/assets/sc-Enter-Name.png)
 
-Input your email address and click the magic link received in your inbox. After completing the verification, return to the app's KYC screen.
+Input your email address and click the verification link received in your inbox. After completing the verification, return to the app's KYC screen.
 
 ![](/.gitbook/assets/sc-Enter-Email.png)
 
