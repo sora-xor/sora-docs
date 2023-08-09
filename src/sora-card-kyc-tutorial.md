@@ -115,7 +115,8 @@ In any case, **the bank retains the right to the final decision over your applic
 
 When you see this screen, you have used up your complementary KYC attempts, and additional attempts come at €3.80 per attempt. Additional paid KYC will be available from a future release onward.
 
-If you have any issues or questions, you can contact our community support on [Telegram](https://t.me/SORAhappiness) or through the Support button in the app
+If you have any issues or questions, you can contact our community support on [Telegram](https://t.me/SORAhappiness) or through the Support button in the app.
+.
 
 ## Next steps
 
