@@ -43,9 +43,7 @@ And the three options to apply for SORA Card, along with the fees for each optio
 
 1. **If you already have more than €100 worth of XOR in your account, staked, or in a pool where you provide liquidity**: the application with your SORA address is free;
 2. **If you want to purchase XOR to have the €100 balance for a free order**, you can buy XOR worth up to €700 within the app with only soft KYC required (details below);
-3. **If you do not have €100 worth of XOR and don’t want to purchase it**, there will be a fee of €20 to apply for KYC and the SORA Card available in the second phase. This payment can be made with any debit/credit card\*.
-
-_You can use a credit/debit card from Mastercard®, Visa®, Discover®, Diners Club® or JCB® for the purchase._
+3. **If you do not have €100 worth of XOR and don’t want to purchase it**, there will be a fee of €20 to apply for KYC and the SORA Card available in the second phase. This payment can be made with any debit/credit card from Mastercard®, Visa®, Discover®, Diners Club® or JCB®.
 
 ## 2. Prepare this documentation and the following personal data;
 
