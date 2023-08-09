@@ -14,7 +14,9 @@ head:
 
 Although signing up and undergoing KYC for SORA Card is straightforward, this article will help you resolve any questions you might have.
 
-**Important to note that only EU residents are currently eligible to go through the KYC process. This will change shortly.**
+::: info
+Important to note that only EU residents are currently eligible to go through the KYC process. This will change shortly.
+:::
 
 This process only applies to consumer accounts.
 
