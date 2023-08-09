@@ -107,7 +107,7 @@ In any case, **the bank retains the right to the final decision over your applic
 
 ![](/.gitbook/assets/sc-KYC-Summary.png)
 
-When the verification of your application is successful, your IBAN will be enabled shortly (ETA 1 week), and your SORA Card will be sent to you once SORA Card Phase 2 is live. (you will be emailed about the status once the physical card shipment becomes available).
+When the verification of your application is successful, your IBAN will be enabled shortly (ETA 1 week), and your SORA Card will be sent to you once SORA Card Phase 2 is live. You will be emailed about the status once the physical card shipment becomes available.
 
 ![](/.gitbook/assets/sc-Verification-successful.png)
 
