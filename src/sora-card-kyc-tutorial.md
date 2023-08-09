@@ -35,7 +35,9 @@ There are two channels to apply for a SORA Card:
 1. On the [polkaswap.io](http://polkaswap.io/) dApp
 2. Through the SORA Wallet mobile app (available on [Google Play](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora&hl=en&gl=US&pli=1) and the [Apple App Store](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora&hl=en&gl=US&pli=1))
 
-- **_If you just downloaded SORA Wallet, store your seed phrase safely._**
+::: tip
+If you just downloaded SORA Wallet, store your seed phrase safely.
+:::
 
 And the three options to apply for SORA Card, along with the fees for each option, are:
 
