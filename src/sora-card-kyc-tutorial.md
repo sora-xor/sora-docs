@@ -55,9 +55,11 @@ A. In case you already have €100 worth of XOR on the account, **continue to B*
 - Email address
 - Nationality
 
-_Unfortunately, you cannot access this service if your nationality is from [one of these countries](https://x1ex.com/en/countries). You can still purchase XOR via alternative ways._
+::: info
+Unfortunately, you cannot access this service if you are from [one of these countries](https://x1ex.com/en/countries). You can still purchase XOR via alternative ways.
 
 Current alternatives are: swapping on [polkaswap.io](http://polkaswap.io/) and Uniswap. As well as buying from [Gate.io](http://gate.io/) and then bridging to your SORA account on [Polkaswap.io](http://polkaswap.io/).
+:::
 
 B. To undergo **KYC for SORA Card,** you need to prepare the following documents and information:
 
