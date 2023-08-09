@@ -10,7 +10,7 @@ head:
       content: SORA Card sign up, KYC process, SORA Card application channels, required documents for SORA Card, registration and KYC flow, SORA Wallet mobile app, XOR purchase, seamless sign up process
 ---
 
-# **How to Sign Up for SORA Card, a Walkthrough**
+# How to Sign Up for SORA Card, a Walkthrough
 
 **In this article, you will find a walkthrough to sign up for SORA Card and undergo the KYC process.**
 
