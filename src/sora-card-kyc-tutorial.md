@@ -125,4 +125,4 @@ If you have any issues or questions, you can contact our community support on [T
 
 The SORA Card team will continue to provide regular updates to upgrade and improve the product and user experience based on your feedback. Your IBAN will be enabled and activated shortly after your KYC has been approved. This will allow euro transactions, such as SEPA transfers, to and from your account.
 
-In the next major release, you will receive a virtual and physical card, and the crypto on/offramp to euro, as well as an exchange, will be enabled If you have any further questions or feedback, please reach out on the [main SORA](https://t.me/sora_xor) and [SORA Happiness](https://t.me/SORAhappiness) chats
+In the next major release, you will receive a virtual and physical card, and the crypto on/offramp to euro, as well as an exchange, will be enabled. If you have any further questions or feedback, please reach out on the [main SORA](https://t.me/sora_xor) and [SORA Happiness](https://t.me/SORAhappiness) chats.
