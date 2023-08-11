@@ -1,10 +1,48 @@
+---
+title: "Polkaswap - Decentralized Exchange on SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore Polkaswap - the decentralized exchange built on the SORA network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
+  - - meta
+    - name: keywords
+      content: "Polkaswap, decentralized exchange, SORA network, token swapping, liquidity provision, liquidity solutions"
+  - - meta
+    - name: author
+      content: "SORA network"
+  - - meta
+    - property: og:title
+      content: "Polkaswap - Decentralized Exchange on SORA network | SORA Docs"
+  - - meta
+    - property: og:description
+      content: "Explore Polkaswap - the decentralized exchange built on the SORA network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "SORA Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "Polkaswap - Decentralized Exchange on SORA network | SORA Docs"
+  - - meta
+    - name: twitter:description
+      content: "Explore Polkaswap - the decentralized exchange built on the SORA network. Discover the innovative features, liquidity solutions, and user-friendly interface that make Polkaswap a powerful platform for seamless token swapping and liquidity provision."
+---
+
 # Polkaswap
 
 Polkaswap is a next-generation, cross-chain liquidity aggregator DEX protocol for swapping tokens based on the Polkadot (and Kusama) network(s), Parachains, and blockchains connected via bridges. Through the development of bridge technologies, Polkaswap enables Ethereum-based tokens to be traded. This is done seamlessly, at high speed and low fees, while exchanging assets in a non-custodial manner on the SORA network.
 
 With its liquidity aggregation technology, Polkaswap has the possibility to trade against multiple liquidity sources under the liquidity aggregation algorithm. It is a solution that offers a huge potential for Polkaswap. The liquidity aggregator algorithm can aggregate liquidity from various sources. Liquidity sources can be in the form of AMM DEXs, order books, or any other algorithm. Because Polkaswap is an open-source project, adding more liquidity sources as a community will be possible by developing within the Polkaswap module. Polkaswap is designed to solve many of the critical problems with AMM DEXs currently that can't be solved on any other DEX. Polkaswap's unique liquidity infrastructure will greatly reduce the risks of impermanent loss and lead to less pair fragmentation than competing AMMs. Polkaswap will operate on a parachain, meaning it will be natively interoperable with the entire Polkadot and Kusama ecosystems, and with the addition of Ethereum and Bitcoin bridges, Polkaswap will be the first-ever cross-chain, fully decentralized exchange.
 
-## Why choose Polkaswap?
+## Why Choose Polkaswap?
 
 ### Own Your Information
 

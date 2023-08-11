@@ -1,3 +1,14 @@
+---
+title: "Explore Blocks on the SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Explore blocks on the SORA network and delve into the details of the blockchain's transaction history. Discover the latest blocks, block height, transactions, and other key information that provides insights into the functioning and activity of the SORA network."
+  - - meta
+    - name: keywords
+      content: "explore blocks, SORA network, blockchain, transaction history, block height, transactions"
+---
+
 # Block Explorers
 
 A **block explorer** is a tool that is used to view all blockchain transactions online. Specifically, to view all current and past **transactions** on the **blockchain**.
@@ -19,7 +30,7 @@ Subscan is only available for the SORA mainnet. This means that you will not be 
 
 Open [mainnet Subscan](https://sora.subscan.io/):
 
-![](<.gitbook/assets/explore-blocks-open-subscan.png>)
+![](.gitbook/assets/explore-blocks-open-subscan.png)
 
 Here you will see the main dashboard that contains:
 
@@ -33,30 +44,30 @@ Here you will see the main dashboard that contains:
 
 If you have the transaction hash or id you can find it using the search box. Just paste the transaction number into the search box and click Search.
 
-![](<.gitbook/assets/explore-blocks-search-transaction.png>)
+![](.gitbook/assets/explore-blocks-search-transaction.png)
 
 On the Transaction details screen you will see all the information about extrinsics including parameters and events.
 
-![](<.gitbook/assets/explore-blocks-show-details-extrinsics.png>)
+![](.gitbook/assets/explore-blocks-show-details-extrinsics.png)
 
 #### How to find an account
 
 If you have an account address then you can find it using the search box. Just paste or enter the account address into the search box and click Search.
 
-![](<.gitbook/assets/explore-blocks-search-account.png>)
+![](.gitbook/assets/explore-blocks-search-account.png)
 
 On the account details view, you can find information about the XOR balance, transfers and transactions that were made by the account.
 
-![](<.gitbook/assets/explore-blocks-show-account-details.png>)
+![](.gitbook/assets/explore-blocks-show-account-details.png)
 
 #### Transactions
 
 Transactions are the most important part of the block explorer. You can find all the transactions in Blockchain, then select Extrinsics from the drop-down menu.
 
-![](<.gitbook/assets/explore-blocks-show-extrinsics.png>)
+![](.gitbook/assets/explore-blocks-show-extrinsics.png)
 
 On the extrinsic list page you can find the extrinsic history.
 
-![](<.gitbook/assets/explore-blocks-extrinsic-history.png>)
+![](.gitbook/assets/explore-blocks-extrinsic-history.png)
 
 You can filter an extrinsic by date or block range, by account, module, and call. It is very useful for viewing account activity or the history of a specific operation.

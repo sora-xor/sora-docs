@@ -1,3 +1,14 @@
+---
+title: Polkaswap FAQ | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Find answers to frequently asked questions (FAQ) about Polkaswap, the decentralized exchange on the SORA network. Explore common inquiries about trading, liquidity providing, token swapping, fees, and more. Get the information you need to enhance your understanding and maximize your experience on Polkaswap within the SORA ecosystem.
+  - - meta
+    - name: keywords
+      content: Polkaswap FAQ, SORA network, decentralized exchange, trading, liquidity providing, token swapping, fees
+---
+
 # FAQ
 
 ## What is the difference between a centralized exchange (CEX) and a decentralized exchange (DEX)?
@@ -14,7 +25,7 @@ Liquidity providers can be anyone who is able to supply equal values of XOR and 
 
 ## How do liquidity pools work on Polkaswap?
 
-Liquidity pools on Polkaswap work much like other DEXs.  Fees are paid in XOR; they are automatically converted in PSWAP and then burned. A percentage of the burned amount is then re-minted and given to liquidity providers. PSWAP rewards start at launch at 100% of burned tokens and go to 35% over the course of five years.
+Liquidity pools on Polkaswap work much like other DEXs. Fees are paid in XOR; they are automatically converted in PSWAP and then burned. A percentage of the burned amount is then re-minted and given to liquidity providers. PSWAP rewards start at launch at 100% of burned tokens and go to 35% over the course of five years.
 
 ## How does Polkaswap differ from other DEXs, like Uniswap?
 
@@ -24,9 +35,9 @@ Polkaswap has worked to resolve some of the issues with Ethereum based DEXs. Bui
 
 When clicking on Swap on the menu bar you can choose between SMART and TBC functions on Polkaswap, as shown in the picture below.
 
-![](/.gitbook/assets/catt.jpg)
+![](/.gitbook/assets/faq-choose-smart-or-tbc-for-swap.jpg)
 
-Using TBC your trade will be executed in the [token bonding curve](https://wiki.sora.org/token-bonding-curve). The SORA token bonding curve acts as the decentralized, on-chain manager of the XOR token. It works by taking in reserve assets and minting new XOR, or conversely, de-minting XOR and releasing reserve assets. This solution often reduces slippage for large trades, as the token bonding curve increases the liquidity of the XOR token. In addition, there is a special incentive when a user buys newly minted XOR in the token bonding curve; rewards are in PSWAP. You can read the full article about this reward [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8). 
+Using TBC your trade will be executed in the [token bonding curve](https://wiki.sora.org/token-bonding-curve). The SORA token bonding curve acts as the decentralized, on-chain manager of the XOR token. It works by taking in reserve assets and minting new XOR, or conversely, de-minting XOR and releasing reserve assets. This solution often reduces slippage for large trades, as the token bonding curve increases the liquidity of the XOR token. In addition, there is a special incentive when a user buys newly minted XOR in the token bonding curve; rewards are in PSWAP. You can read the full article about this reward [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
 Prices on the token bonding curve and in the pools may be different, in which case you can use the SMART function to trade at the best possible price. Note that the SMART function does not consider PSWAP rewards in its calculations.
 
@@ -38,9 +49,9 @@ You can learn more about the liquidity providers reward [here](https://medium.co
 
 ## When can I trade DOT and KSM in Polkaswap?
 
-The SORA network launched its [crowdloan](https://wiki.sora.org/sora-kusama-parachain-crowdloan) in January 2022. Once the slot has been secured, some more time is needed to bring KSM and Parachains tokens to SORA Network and Polkaswap.
+The SORA network launched its [crowdloan](https://wiki.sora.org/sora-kusama-parachain-crowdloan) in January 2022. Once the slot has been secured, some more time is needed to bring KSM and Parachains tokens to SORA network and Polkaswap.
 
-Parity is currently developing a Polkadot <> Kusama bridge that will bring DOT to the Kusama Network (Parachains included).
+Parity is currently developing a Polkadot <> Kusama bridge that will bring DOT to the Kusama network (Parachains included).
 
 Ultimately, the goal is to secure a slot on Polkadot too. The strategy is to build reserves of both DOT and KSM using the unique functionalities of the [token bonding curve](https://wiki.sora.org/token-bonding-curve#token-bonding-curve-and-parachain-auctions).
 
@@ -77,7 +88,7 @@ There are three main ways to earn PSWAP:
 1. The first way to earn PSWAP tokens is to be one of the liquidity providers on Polkaswap after launch About 25,000 PSWAP will be allocated daily to liquidity providers on Polkaswap, and after a vesting period, users will be able to claim them. To read the full article on the first incentive program, have a look [here](https://medium.com/polkaswap/pswap-rewards-1-polkaswap-liquidity-reward-farming-3e045d71509).
 
 2. The second way to earn PSWAP is to buy XOR with ETH, DAI, DOT, or KSM from the token bonding curve. Buying XOR with ETH, DAI, DOT, or KSM would help grow the SORA ecosystem, collateralize the bonding curve, and in the case of DOT and KSM, help SORA secure parachain slots for the Polkadot and Kusama chains respectively. 2.5 billion PSWAP tokens have been allocated as rewards for XOR buyers.
-   
+
    If you’re interested in the math behind the token bonding curve, read the details [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
 3. The third way to earn PSWAP tokens is from market making rebates on Polkaswap. 4 million PSWAP (200,000 per month) will be reserved proportionally for market makers that have at least 500,000 transactions with an average of at least 1 XOR in each transaction. You can read the details [here](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa).
@@ -90,7 +101,7 @@ Those contracts have no owner, so all the funds sent there are lost forever.
 
 Fearless Wallet is built for seamless integration with Polkaswap. Fearless Wallet is a mobile app for Kusama and Polkadot networks, with native support on iOS and Android platforms. Learn more [here](http://fearlesswallet.io).
 
-**SORA Network secured a parachain slot on Kusama Network on February 6th, 2022.**
+**SORA network secured a parachain slot on Kusama network on February 6th, 2022.**
 
 There are no more auctions planned in the coming months. Soon, KSM tokens will be available on Polkaswap and users can support future auctions using them to buy newly minted XOR from the [token bonding curve](https://wiki.sora.org/token-bonding-curve). By doing so the reserves of the token bonding curve will be increased, which will then be used to make a bid in subsequent auctions. Furthermore, there is a special reward in PSWAP when buying with DOT and KSM, this reward is higher when there are fewer reserves, and will decrease as they accumulate. You can read the full article about the incentive program [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 

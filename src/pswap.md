@@ -1,3 +1,14 @@
+---
+title: PSWAP Token | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Learn about PSWAP, the utility token of Polkaswap, the decentralized exchange on the SORA network. Discover the features, use cases, and benefits of PSWAP within the Polkaswap ecosystem. Explore its role in governance, fee discounts, liquidity provision, and other activities, and understand how PSWAP enhances functionality and incentivizes participation in Polkaswap.
+  - - meta
+    - name: keywords
+      content: PSWAP token, Polkaswap, SORA network, governance, fee discounts, liquidity mining, Polkaswap ecosystem, token functionality, participation incentives
+---
+
 # PSWAP
 
 **PSWAP** is used to reward liquidity providers on [Polkaswap](https://polkaswap.io/).
@@ -8,17 +19,17 @@ The 0.3% fee for every swap on the Polkaswap DEX is used to buy PSWAP tokens on 
 
 ## PSWAP Token Supply
 
-* 10 billion max supply, decreasing with tokens burned
-* PSWAP is a free-floating token whose price is decided by the market
-* Current PSWAP circulating supply: ~36%, can be checked [here](https://mof.sora.org/qty/pswap)
+- 10 billion max supply, decreasing with tokens burned
+- PSWAP is a free-floating token whose price is decided by the market
+- Current PSWAP circulating supply: ~36%, can be checked [here](https://mof.sora.org/qty/pswap)
 
 ## PSWAP Distribution
 
-* ~6% rewards at launch (sora farm game)
-* 25% [token bonding curve rewards](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) (vested)
-* 35% [liquidity rewards](https://medium.com/polkaswap/pswap-rewards-1-polkaswap-liquidity-reward-farming-3e045d71509) (vested)
-* ~4% [market making rewards](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa) (vested)
-* 30% initial release dev
+- ~6% rewards at launch (sora farm game)
+- 25% [token bonding curve rewards](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) (vested)
+- 35% [liquidity rewards](https://medium.com/polkaswap/pswap-rewards-1-polkaswap-liquidity-reward-farming-3e045d71509) (vested)
+- ~4% [market making rewards](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa) (vested)
+- 30% initial release dev
 
 ## PSWAP Token
 
@@ -26,8 +37,8 @@ Polkaswap will have 0.3% trading fees per transaction, which is the same as othe
 
 Additionally, special rewards to strategic purchasers of XOR during the special XOR purchase period, rewards to liquidity providers during the initial liquidity tsunami period and market makers rewards are also distributed as a fraction of the daily burn (shown as the shaded **Strategy Bonus Vesting** region in the figure below). This gives guarantees that a sudden supply of tokens will not immediately flood the market and gives clear guidance about the supply of tokens in circulation.
 
-<figure><img src=".gitbook/assets/strategic-bonus-vesting-updated(1)(2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/strategic-bonus-vesting-updated.png" alt=""><figcaption></figcaption></figure>
 
 **Example:** Let's assume that buyback and burn from transaction fees for a day resulted in 10,000 PSWAP being burned. If the daily reward is 80%, then 8,000 new PSWAP tokens are given out proportionally across all liquidity providers and 1,000 PSWAP tokens are given to the SORA Parliament and 1,000 PSWAP are distributed between the participants of the bonus strategic programs
 
-Since more PSWAP tokens are always burned than minted, PSWAP tokens are deflationary by nature. 600,000,000+ PSWAP tokens were created in the genesis event. PSWAP future token value is not dependent on the effort of the Polkaswap or Soramitsu team. In the future new PSWAP tokens may be minted by governance decisions of the SORA Parliament.
+Since more PSWAP tokens are always burned than minted, PSWAP tokens are deflationary by nature. 600,000,000+ PSWAP tokens were created in the genesis event. PSWAP future token value is not dependent on the effort of the Polkaswap or the SORAMITSU team. In the future new PSWAP tokens may be minted by governance decisions of the SORA Parliament.

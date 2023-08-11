@@ -9,11 +9,14 @@ export default withMermaid(
     title: "docs",
     base: "/sora-docs/",
     description: "Guides, how-tos, architecture",
+    head: [["meta", { name: "keywords", content: "SORA ecosystem" }]],
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
-        { text: "Home", link: "/sora-docs/" },
-        { text: "Guide", link: "introduction" },
+        { text: "Getting Started", link: "introduction" },
+        { text: "Ecosystem", link: "ecosystem" },
+        { text: "SORA Economy", link: "participate" },
+        { text: "Build", link: "build" },
       ],
       logo: "https://raw.githubusercontent.com/sora-xor/sora-branding/84f3c35328f5f570a2ed2027ec5533e7cc25d151/SORA/SORA-logo/SVG%20(vector%20files%20for%20web)/04_SORA_main_logo_landscape.svg",
       editLink: {
@@ -22,7 +25,8 @@ export default withMermaid(
       siteTitle: false,
       sidebar: [
         {
-          text: "Getting started",
+          text: "Getting Started",
+          collapsed: true,
           items: [
             { text: "Introduction", link: "introduction" },
             {
@@ -65,9 +69,10 @@ export default withMermaid(
         },
         {
           text: "Ecosystem",
+          collapsed: true,
           items: [
-            { text: "Overview", link: "tba" },
-            { text: "Integrated plan", link: "integrated-plan" },
+            { text: "Overview", link: "ecosystem" },
+            { text: "Integrated Plan", link: "integrated-plan" },
             {
               text: "Polkaswap",
               link: "polkaswap",
@@ -79,100 +84,199 @@ export default withMermaid(
                   link: "polkaswap-terms",
                 },
                 {
-                  text: "Privacy policy",
+                  text: "Privacy Policy",
                   link: "polkaswap-privacy",
                 },
               ],
             },
-            { text: "XST", link: "xst-platform" },
-            { text: "SORAcard", link: "tba" },
             {
-              text: "SORA in your pocket",
+              text: "SORAcard",
+              collapsed: true,
+              items: [
+                { text: "SORA Card Introduction", link: "sora-card" },
+                {
+                  text: "SORA Card KYC Tutorial",
+                  link: "sora-card-kyc-tutorial",
+                },
+              ],
+            },
+            {
+              text: "SORA in Your Pocket",
               collapsed: true,
               items: [
                 { text: "SORA Mobile", link: "mobile" },
-                { text: "Fearless wallet", link: "fearless" },
+                { text: "Fearless Wallet", link: "fearless" },
               ],
             },
-            { text: "Request features", link: "rfp" },
+            { text: "Synthetics", link: "synthetics" },
+            { text: "Request Features", link: "rfp" },
           ],
         },
         {
-          text: "Participating in SORA economy",
+          text: "Participate in the SORA Economy",
+          collapsed: true,
           items: [
-            { text: "Running a node", link: "running-a-node" },
-            // { text: "Becoming a validator", link: "/tba" },
-            { text: "Create an address", link: "create-an-address" },
+            { text: "Overview", link: "participate" },
+            { text: "Create an Address", link: "create-an-address" },
+            { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
             {
-              text: "Assets",
-              collapsed: true,
+              text: "Send & Receive",
+              link: "send-and-receive",
+            },
+            {
+              text: "Explore the Ecosystem",
               items: [
-                { text: "Transfer", link: "transfer" },
-                { text: "Check supply", link: "check-supply" },
-                { text: "Check balance", link: "check-balance" },
-                { text: "Register an asset", link: "register-an-asset" },
-                { text: "On-ramp", link: "on-ramp" },
+                { text: "Check Supply", link: "check-supply" },
+                { text: "Explore", link: "explore" },
+                { text: "View Statistics", link: "statistics" },
+                { text: "Explore Blocks", link: "explore-blocks" },
               ],
             },
+            { text: "Transfer Assets", link: "transfer" },
+            { text: "Check Balance", link: "check-balance" },
+            { text: "Register an Asset", link: "register-an-asset" },
+            { text: "On-ramp", link: "on-ramp" },
+            {
+              text: "Staking",
+              items: [
+                { text: "Demeter Staking", link: "demeter-staking" },
+                {
+                  text: "Staking in Fearless Wallet",
+                  link: "stake-in-fearless-wallet",
+                },
+                {
+                  text: "Nominating Validators",
+                  link: "nominating-validators",
+                },
+              ],
+            },
+
             {
               text: "DEX",
               collapsed: true,
               items: [
                 { text: "Swap", link: "swap" },
-                { text: "Provide liquidity", link: "/provide-liquidity" },
-                { text: "Advanced trading", link: "advanced-trading" },
+                {
+                  text: "Provide Liquidity to XYK Pools",
+                  link: "provide-liquidity-to-xyk-pools",
+                },
+                { text: "Advanced Trading", link: "advanced-trading" },
+
+                {
+                  text: "Other Polkaswap Features",
+                  link: "polkaswap-other-features",
+                },
               ],
             },
             {
-              text: "Participating in governance",
+              text: "Participating in Governance",
               collapsed: true,
               items: [
                 {
-                  text: "Fast track public voting",
+                  text: "Fast Track Public Voting",
                   link: "fast-track-public-voting",
                 },
               ],
             },
             {
               text: "Interoperability",
+              link: "interoperability",
               collapsed: true,
               items: [
                 {
                   text: "EVM",
+                  link: "evm",
                   items: [
                     {
                       text: "HASHI",
                       items: [
                         {
-                          text: "Adding a token",
-                          link: "adding-a-token-to-a-hashi-bridge",
+                          text: "Adding a Token",
+                          link: "adding-tokens-to-hashi-bridge",
                         },
                         {
-                          text: "Become a relayer",
+                          text: "Become a Relayer",
+                        },
+                        {
+                          text: "Fixing a Stuck Transaction",
+                          link: "unstuck-bridge-tx",
                         },
                       ],
                     },
                     { text: "Trustless" },
                   ],
                 },
-                { text: "Substrate", items: [{ text: "Become a relayer" }] },
+                { text: "Substrate", items: [{ text: "Become a Relayer" }] },
               ],
             },
-            { text: "Referral system", link: "/referral" },
-            { text: "Explore blocks", link: "/explore-blocks" },
+            { text: "Referral System", link: "/referral" },
             { text: "NFT", link: "nft" },
             { text: "Identity", link: "id" },
             { text: "Rewards", link: "rewards" },
-            { text: "Nodes connection", link: "nodes-connection" },
+            { text: "Nodes Connection", link: "nodes-connection" },
+            { text: "Running a Node", link: "running-a-node" },
+          ],
+        },
+        {
+          text: "Polkaswap",
+          collapsed: true,
+          items: [
+            { text: "Overview", link: "participate" },
+            { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
+            {
+              text: "Send & Receive",
+              link: "send-and-receive-polkaswap",
+            },
+            {
+              text: "Explore the Ecosystem",
+              items: [
+                { text: "Explore", link: "explore-polkaswap" },
+                { text: "View Statistics", link: "statistics-polkaswap" },
+              ],
+            },
+            { text: "Register an Asset", link: "register-an-asset-polkaswap" },
+            { text: "On-ramp", link: "on-ramp-polkaswap" },
+            {
+              text: "Staking",
+              items: [
+                { text: "Demeter Staking", link: "demeter-staking-polkaswap" },
+              ],
+            },
+
+            {
+              text: "DEX",
+              collapsed: true,
+              items: [
+                { text: "Swap", link: "swap-polkaswap" },
+                {
+                  text: "Provide Liquidity to XYK Pools",
+                  link: "provide-liquidity-to-xyk-pools-polkaswap",
+                },
+                {
+                  text: "Advanced Trading",
+                  link: "advanced-trading-polkaswap",
+                },
+
+                {
+                  text: "Other Polkaswap Features",
+                  link: "polkaswap-other-features",
+                },
+              ],
+            },
+            { text: "Referral System", link: "referral-polkaswap" },
+            { text: "NFT", link: "nft-polkaswap" },
+            { text: "Rewards", link: "rewards-polkaswap" },
+            { text: "Nodes Connection", link: "nodes-connection-polkaswap" },
           ],
         },
         {
           text: "Build",
+          collapsed: true,
           items: [
             { text: "Introduction", link: "build" },
             {
-              text: "Decentralised development process",
-              link: "decentralised-development-process",
+              text: "SORA Builders Programme",
+              link: "sora-builders",
             },
             {
               text: "Social Insurance for Systematically Important Infrastructure",
@@ -182,7 +286,24 @@ export default withMermaid(
             { text: "Technical Stack", link: "technical-stack" },
             { text: "Consensus", link: "consensus" },
             { text: "Accounts", link: "accounts" },
-            { text: "Useful links", link: "useful-links" },
+          ],
+        },
+        {
+          text: "Learn More",
+          collapsed: true,
+          items: [
+            {
+              text: "Useful Links",
+              link: "useful-links",
+            },
+            {
+              text: "Community Blogs",
+              link: "blogs",
+            },
+            {
+              text: "Contribution Guidelines",
+              link: "contribute",
+            },
           ],
         },
       ],
@@ -202,15 +323,12 @@ export default withMermaid(
     },
     srcDir: "./src",
     lastUpdated: true,
-    ignoreDeadLinks: true,
     cleanUrls: true,
-    mermaid: {
-      theme: "default",
-    },
+    ignoreDeadLinks: [/^https?:\/\/localhost/, /snippets\//],
     markdown: {
       config: (md) => {
         md.use(markdownItKatex);
-      }
-    }
+      },
+    },
   })
 );

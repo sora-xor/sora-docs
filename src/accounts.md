@@ -1,3 +1,14 @@
+---
+title: "Accounts on the SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about accounts on the SORA network and how they enable users to interact with the network and manage their assets. Explore the different types of accounts, such as user accounts and system accounts, and understand how they are used for transactions, staking, governance, and other activities within the SORA ecosystem."
+  - - meta
+    - name: keywords
+      content: "accounts, SORA network, user accounts, system accounts, asset management, transactions, staking, governance"
+---
+
 # Accounts
 
 An account is one of the most important entities in the SORA network. If you have an account, you can make transactions in SORA.

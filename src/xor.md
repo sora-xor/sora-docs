@@ -1,3 +1,14 @@
+---
+title: SORA XOR Token | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Learn about XOR, the native token of the SORA network. Discover the features, use cases, and benefits of XOR within the SORA ecosystem. Explore its role in governance, staking, liquidity providing, and other activities, and understand how XOR powers the decentralized economy and incentivizes active participation in the SORA network.
+  - - meta
+    - name: keywords
+      content: SORA XOR token, native token, SORA network, governance, staking, liquidity providing, decentralized economy
+---
+
 # XOR (天)
 
 XOR is the network utility token used for transaction fees (gas). 50% of the fee is burnt, while the other 50% is used for validators. XOR has elastic supply managed by a [token bonding curve](https://medium.com/sora-xor/sora-the-new-economic-order-3ec3f0327e5a).
@@ -5,6 +16,7 @@ XOR is the network utility token used for transaction fees (gas). 50% of the fee
 Holders of a certain amount of XOR become citizens and members of the [SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184dae384).
 
 XOR is used:
+
 - to add liquidity to pairs on [Polkaswap](https://polkaswap.io/)
 - to become a validator or to [nominate validators](https://wiki.sora.org/guides/how-to-nominate-validators-stake-your-xor) on the SORA network through staking
 
@@ -20,9 +32,9 @@ When the SORA v2 network launched in April 2021, the XOR supply was 350,000 XOR.
 
 Fair distribution: when the SORA v2 network launched, 350,000 XOR were put on Uniswap, and then people bought more XOR over time.
 
-XOR distribution can be tracked on [Etherscan](https://etherscan.io/token/0x40FD72257597aA14C7231A7B1aaa29Fce868F677#balances) and on [Sorascan](https://sorascan.com/sora-mainnet/account).
+XOR distribution can be tracked on [Etherscan](https://etherscan.io/token/0x40FD72257597aA14C7231A7B1aaa29Fce868F677#balances) and on [SORAscan](https://sorascan.com/sora-mainnet/account).
 
-## XOR Top holders
+## XOR Top Holders
 
 When looking at the top holders on [Subscan](https://sora.subscan.io/account), several of those addresses are technical accounts supporting the whole network.
 

@@ -1,4 +1,12 @@
 :root {
     --vp-c-brand: #e23;
     --vp-c-brand-light: #e23;
-  }
+}
+
+:where(.vp-doc) :is(td) {
+  overflow-wrap: break-word;
+}
+
+:where(.vp-doc) :is(code) {
+    overflow-wrap: anywhere;
+}
