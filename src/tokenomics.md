@@ -63,7 +63,7 @@ through [SORA governance](sora-governance.md).
   SORA network.
 - [PSWAP](pswap.md) is the LP reward token for liquidity providers on
   [Polkaswap](https://polkaswap.io/) and is burnt with every transaction.
-- [XST](xst.md) is the *platform token* used as the collateral asset for the creation of SORA Synthetics.
+- [XST](xst.md) is the _platform token_ used as the collateral asset for the creation of SORA Synthetics.
 - The [Token Bonding Curve Dollar (TBCD)](tbcd.md) is an algorithmic,
   non-synthetic stablecoin that has its value maintained by the SORA
   token bonding curve.
