@@ -67,7 +67,7 @@ All citizens have an equal chance of being selected, have equal voting power, an
 
 ## Can I buy tokens with FIAT?
 
-Yes, on [Polkaswap.io](https://polkaswap.io/#/swap) you can buy tokens using Moonpay and X1. 
+Yes, on [Polkaswap.io](https://polkaswap.io/#/swap) you can buy tokens using Moonpay and X1.
 With X1 you can buy SORA-native XOR.
 On Moonpay, currently only ETH and DAI are available as tokens, you can read more about how to do so in this [tutorial](https://wiki.sora.org/guides/how-to-buy-tokens-using-moonpay-with-your-credit-card).
 
