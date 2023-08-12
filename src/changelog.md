@@ -57,7 +57,7 @@ participants](sora-builders.md).
 
 - [SORA mainnet](https://github.com/sora-xor/sora2-network/releases)
 
-- [SORA parachain](https://github.com/sora-xor/sora2-parachain/releases)
+- [SORA Kusama parachain](https://github.com/sora-xor/sora2-parachain/releases)
 
 ## SORA Mobile
 
