@@ -201,7 +201,10 @@ export default defineConfig({
                 text: "Substrate",
                 link: "substrate-bridge",
                 items: [
-                  // { text: "Become a relayer" },
+                  {
+                    text: "Establishing HRMP channel",
+                    link: "establishing-hrmp-channel",
+                  },
                 ],
               },
 
