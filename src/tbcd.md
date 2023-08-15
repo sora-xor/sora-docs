@@ -21,7 +21,7 @@ The SORA ecosystem has grown over the years and now there are many
 tokens and [eclectic](https://cerestoken.io)
 [builders](https://adar.com). With growth comes maturity, and SORA has
 recently been moving towards spinning out XSTUSD, a synthetic
-stablecoin, into the comprehensive [SORA synthetics (XST) ](xst.md) platform.
+stablecoin, into the comprehensive [SORA Synthetics (XST) ](xst.md) platform.
 
 However, many of the partners we engage with for institutional projects are not ready to price everything in XOR, the native token of the SORA network, yet. Instead, they need a token that is readily convertible to XOR on-demand, yet pegged to the USD.
 
