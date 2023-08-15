@@ -5,7 +5,9 @@ import markdownItKatex from "markdown-it-katex";
 export default defineConfig({
   lang: "en-US",
   title: "docs",
+  base: "/sora-docs/",
   description: "Guides, how-tos, architecture",
+  head: [["meta", { name: "keywords", content: "SORA ecosystem" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -85,13 +87,20 @@ export default defineConfig({
               },
             ],
           },
-          { text: "SORAcard", link: "sora-card" },
+          {
+	    text: "SORAcard",
+	    collapsed: true,
+	    items: [
+	      { text: "SORA Card Introduction", link: "sora-card" },
+	      { text: "SORA Card KYC Tutorial", link: "sora-card-kyc-tutorial" },
+	   ],    
+          },
           {
             text: "SORA in Your Pocket",
             collapsed: true,
             items: [
               { text: "SORA Mobile", link: "mobile" },
-              { text: "Fearless Wallet", link: "fearless" },
+              { text: "Fearless Wallet", link: "fearless" }, 
             ],
           },
           { text: "Request Features", link: "rfp" },
@@ -180,6 +189,10 @@ export default defineConfig({
                       {
                         text: "Become a Relayer",
                       },
+		       {
+                        text: "Fixing a Stuck Transaction",
+                        link: "unstuck-bridge-tx",
+                      },
                     ],
                   },
                 ],
@@ -200,6 +213,55 @@ export default defineConfig({
           { text: "Rewards", link: "rewards" },
           { text: "Nodes Connection", link: "nodes-connection" },
           { text: "Running a Node", link: "running-a-node" },
+        ],
+      },
+      {
+        text: "Polkaswap",
+        collapsed: true,
+        items: [
+          { text: "Overview", link: "participate" },
+          { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
+          {
+            text: "Send & Receive",
+            link: "send-and-receive-polkaswap",
+          },
+          {
+            text: "Explore the Ecosystem",
+            items: [
+              { text: "Explore", link: "explore-polkaswap" },
+              { text: "View Statistics", link: "statistics-polkaswap" },
+            ],
+          },
+          { text: "Register an Asset", link: "register-an-asset-polkaswap" },
+          { text: "On-ramp", link: "on-ramp-polkaswap" },
+          {
+            text: "Staking",
+            items: [
+              { text: "Demeter Staking", link: "demeter-staking-polkaswap" },
+            ],
+          },
+
+          {
+            text: "DEX",
+            collapsed: true,
+            items: [
+              { text: "Swap", link: "swap-polkaswap" },
+              {
+                text: "Provide Liquidity to XYK Pools",
+                link: "provide-liquidity-to-xyk-pools-polkaswap",
+              },
+              { text: "Advanced Trading", link: "advanced-trading-polkaswap" },
+
+              {
+                text: "Other Polkaswap Features",
+                link: "polkaswap-other-features",
+              },
+            ],
+          },
+          { text: "Referral System", link: "referral-polkaswap" },
+          { text: "NFT", link: "nft-polkaswap" },
+          { text: "Rewards", link: "rewards-polkaswap" },
+          { text: "Nodes Connection", link: "nodes-connection-polkaswap" },
         ],
       },
       {
@@ -256,8 +318,8 @@ export default defineConfig({
   },
   srcDir: "./src",
   lastUpdated: true,
-  ignoreDeadLinks: true,
   cleanUrls: true,
+  ignoreDeadLinks: [/^https?:\/\/localhost/, /snippets\//],
   markdown: {
     config: (md) => {
       md.use(markdownItKatex);

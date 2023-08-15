@@ -1,3 +1,14 @@
+---
+title: Polkaswap FAQ | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Find answers to frequently asked questions (FAQ) about Polkaswap, the decentralized exchange on the SORA network. Explore common inquiries about trading, liquidity providing, token swapping, fees, and more. Get the information you need to enhance your understanding and maximize your experience on Polkaswap within the SORA ecosystem.
+  - - meta
+    - name: keywords
+      content: Polkaswap FAQ, SORA network, decentralized exchange, trading, liquidity providing, token swapping, fees
+---
+
 # FAQ
 
 ## What is the difference between a centralized exchange (CEX) and a decentralized exchange (DEX)?
@@ -24,7 +35,7 @@ Polkaswap has worked to resolve some of the issues with Ethereum based DEXs. Bui
 
 When clicking on Swap on the menu bar you can choose between SMART and TBC functions on Polkaswap, as shown in the picture below.
 
-![](/.gitbook/assets/catt.jpg)
+![](/.gitbook/assets/faq-choose-smart-or-tbc-for-swap.jpg)
 
 Using TBC your trade will be executed in the [token bonding curve](https://wiki.sora.org/token-bonding-curve). The SORA token bonding curve acts as the decentralized, on-chain manager of the XOR token. It works by taking in reserve assets and minting new XOR, or conversely, de-minting XOR and releasing reserve assets. This solution often reduces slippage for large trades, as the token bonding curve increases the liquidity of the XOR token. In addition, there is a special incentive when a user buys newly minted XOR in the token bonding curve; rewards are in PSWAP. You can read the full article about this reward [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
@@ -38,9 +49,9 @@ You can learn more about the liquidity providers reward [here](https://medium.co
 
 ## When can I trade DOT and KSM in Polkaswap?
 
-The SORA network launched its [crowdloan](https://wiki.sora.org/sora-kusama-parachain-crowdloan) in January 2022. Once the slot has been secured, some more time is needed to bring KSM and Parachains tokens to SORA Network and Polkaswap.
+The SORA network launched its [crowdloan](https://wiki.sora.org/sora-kusama-parachain-crowdloan) in January 2022. Once the slot has been secured, some more time is needed to bring KSM and Parachains tokens to SORA network and Polkaswap.
 
-Parity is currently developing a Polkadot <> Kusama bridge that will bring DOT to the Kusama Network (Parachains included).
+Parity is currently developing a Polkadot <> Kusama bridge that will bring DOT to the Kusama network (Parachains included).
 
 Ultimately, the goal is to secure a slot on Polkadot too. The strategy is to build reserves of both DOT and KSM using the unique functionalities of the [token bonding curve](https://wiki.sora.org/token-bonding-curve#token-bonding-curve-and-parachain-auctions).
 
@@ -90,7 +101,7 @@ Those contracts have no owner, so all the funds sent there are lost forever.
 
 Fearless Wallet is built for seamless integration with Polkaswap. Fearless Wallet is a mobile app for Kusama and Polkadot networks, with native support on iOS and Android platforms. Learn more [here](http://fearlesswallet.io).
 
-**SORA Network secured a parachain slot on Kusama Network on February 6th, 2022.**
+**SORA network secured a parachain slot on Kusama network on February 6th, 2022.**
 
 There are no more auctions planned in the coming months. Soon, KSM tokens will be available on Polkaswap and users can support future auctions using them to buy newly minted XOR from the [token bonding curve](https://wiki.sora.org/token-bonding-curve). By doing so the reserves of the token bonding curve will be increased, which will then be used to make a bid in subsequent auctions. Furthermore, there is a special reward in PSWAP when buying with DOT and KSM, this reward is higher when there are fewer reserves, and will decrease as they accumulate. You can read the full article about the incentive program [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 

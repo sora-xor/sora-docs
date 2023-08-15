@@ -1,4 +1,24 @@
-# How To RFP, Proposing New Functionalities to Polkaswap and the SORA Network
+---
+title: "Request for Proposals (RFP) in SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about the Request for Proposals (RFP) process in the SORA network. Discover how the RFP system enables community members to propose and contribute to the development of the SORA ecosystem by submitting project proposals and collaborating with the SORA team."
+  - - meta
+    - name: keywords
+      content: "Request for Proposals, RFP process, SORA network, community proposals, project collaboration development"
+  - - meta
+    - name: author
+      content: "SORA network"
+  - - meta
+    - property: og:title
+      content: "Request for Proposals (RFP) in SORA network | SORA Docs"
+  - - meta
+    - property: og:description
+      content: "Learn about the Request for Proposals (RFP) process in the SORA network. Discover how the RFP system enables community members to propose and contribute to the development of the SORA ecosystem by submitting project proposals and collaborating with the SORA team."
+---
+
+# How To RFP, Proposing New Functionalities to Polkaswap and the SORA network
 
 ### TL;DR
 
@@ -61,24 +81,24 @@ This means that instead of opening a PR, you can now [submit an issue](https://
 
 We hope this sounds interesting and to motivate you further to submit a request or comment on one, here is a quick walkthrough on how to do it;
 
-1- Navigate to [https://github.com/sora-xor/rfps/issues](https://github.com/sora-xor/rfps/issues)
+1. Navigate to [https://github.com/sora-xor/rfps/issues](https://github.com/sora-xor/rfps/issues)
 
-2- Start a **New issue**, then hit **Get started**.
+2. Start a **New issue**, then hit **Get started**.
 
 ![](/.gitbook/assets/rfp-1.png)
 
-3- Fill in all the fields as you would when submitting an RFP, each
-field will now have hints as to what to add, in case you get stuck in
-any of the steps!
+3. Fill in all the fields as you would when submitting an RFP, each
+   field will now have hints as to what to add, in case you get stuck in
+   any of the steps!
 
 ![](/.gitbook/assets/rfp-2.png)
 
-4- Once you are done filling in the fields, hit **Submit new issue** and then stay tuned for any comments or concerns that may be raised!
+4. Once you are done filling in the fields, hit **Submit new issue** and then stay tuned for any comments or concerns that may be raised!
 
-5- As a community member who is attentively watching the proposals
-being made and is interested in the network development and
-improvement, you can provide your feedback, ask questions and leave
-comments directly under the issue.
+5. As a community member who is attentively watching the proposals
+   being made and is interested in the network development and
+   improvement, you can provide your feedback, ask questions and leave
+   comments directly under the issue.
 
 ![](/.gitbook/assets/rfp-3.png)
 

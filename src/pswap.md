@@ -1,3 +1,14 @@
+---
+title: PSWAP Token | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Learn about PSWAP, the utility token of Polkaswap, the decentralized exchange on the SORA network. Discover the features, use cases, and benefits of PSWAP within the Polkaswap ecosystem. Explore its role in governance, fee discounts, liquidity provision, and other activities, and understand how PSWAP enhances functionality and incentivizes participation in Polkaswap.
+  - - meta
+    - name: keywords
+      content: PSWAP token, Polkaswap, SORA network, governance, fee discounts, liquidity mining, Polkaswap ecosystem, token functionality, participation incentives
+---
+
 # PSWAP
 
 **PSWAP** is used to reward liquidity providers on [Polkaswap](https://polkaswap.io/).
@@ -22,12 +33,12 @@ The 0.3% fee for every swap on the Polkaswap DEX is used to buy PSWAP tokens on 
 
 ## PSWAP Token
 
-Polkaswap will have 0.3% trading fees per transaction, which is the same as other contemporary exchanges like Uniswap. Unlike transaction fee models on other exchanges, on Polkaswap, trading fees are used to buy back and burn PSWAP tokens and then new PSWAP tokens are minted to reward LPs. Newly minted PSWAP tokens to liquidity providers start at 90% of the amount of burned PSWAP tokens in a 24 hour time period, and will gradually decrease down to a constant at 35% of daily burned tokens after 5 years. The PSWAP token model is thus deflationary in nature, unlike almost all other contemporary reward structures, because the rewards are limited by the amount burned in transaction fees each day.
+Polkaswap has 0.3% trading fees per transaction, which is the same as other contemporary exchanges like Uniswap. Unlike transaction fee models on other exchanges, on Polkaswap, trading fees are used to buy back and burn PSWAP tokens and then new PSWAP tokens are minted to reward LPs. Newly minted PSWAP tokens to liquidity providers start at 90% of the amount of burned PSWAP tokens in a 24 hour time period, and will gradually decrease down to a constant at 35% of daily burned tokens after 5 years. The PSWAP token model is thus deflationary in nature, unlike almost all other contemporary reward structures, because the rewards are limited by the amount burned in transaction fees each day.
 
 Additionally, special rewards to strategic purchasers of XOR during the special XOR purchase period, rewards to liquidity providers during the initial liquidity tsunami period and market makers rewards are also distributed as a fraction of the daily burn (shown as the shaded **Strategy Bonus Vesting** region in the figure below). This gives guarantees that a sudden supply of tokens will not immediately flood the market and gives clear guidance about the supply of tokens in circulation.
 
-<figure><img src=".gitbook/assets/strategic-bonus-vesting-updated(1)(2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/strategic-bonus-vesting-updated.png" alt=""><figcaption></figcaption></figure>
 
 **Example:** Let's assume that buyback and burn from transaction fees for a day resulted in 10,000 PSWAP being burned. If the daily reward is 80%, then 8,000 new PSWAP tokens are given out proportionally across all liquidity providers and 1,000 PSWAP tokens are given to the SORA Parliament and 1,000 PSWAP are distributed between the participants of the bonus strategic programs
 
-Since more PSWAP tokens are always burned than minted, PSWAP tokens are deflationary by nature. 600,000,000+ PSWAP tokens were created in the genesis event. PSWAP future token value is not dependent on the effort of the Polkaswap or Soramitsu team. In the future new PSWAP tokens may be minted by governance decisions of the SORA Parliament.
+Since more PSWAP tokens are always burned than minted, PSWAP tokens are deflationary by nature. 600,000,000+ PSWAP tokens were created in the genesis event. PSWAP future token value is not dependent on the effort of the Polkaswap or the SORAMITSU team. In the future new PSWAP tokens may be minted by governance decisions of the SORA Parliament.

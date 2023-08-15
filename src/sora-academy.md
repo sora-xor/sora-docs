@@ -1,3 +1,50 @@
+---
+title: "SORA Academy - Empowering Education for SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
+  - - meta
+    - name: keywords
+      content: "SORA Academy, SORA network, decentralized finance, blockchain technology, education, learning"
+  - - meta
+    - name: author
+      content: "SORA network"
+  - - meta
+    - property: og:title
+      content: "SORA Academy - Empowering Education for SORA network | SORA Docs"
+  - - meta
+    - property: og:description
+      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "SORA Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "SORA Academy - Empowering Education for SORA network | SORA Docs"
+  - - meta
+    - name: twitter:description
+      content: "Discover the SORA Academy - an educational resource providing in-depth knowledge about the SORA network, decentralized finance, blockchain technology, and more. Learn and empower yourself with SORA Academy."
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
+---
+
 # SORA Academy
 
 Thanks to blockchain technology, finance has become more inclusive and
@@ -66,7 +113,7 @@ Within the SORA network, there are also multiple ways to DeFi, on Polkaswap you 
 
 On the other hand, using [Fearless Wallet](https://fearlesswallet.io/), you can participate in Polkadot and Kusama network parachain auctions, also known as Crowdloans. In these crowdloans, you can contribute $KSM or $DOT for a project to secure a parachain. If the project wins the parachain, your contribution will be locked for the duration of the slot (usually 48 weeks), and you will receive rewards in the form of the project’s token (rewards vary per project), however, once the parachain lease is over, your initial contribution to the crowdloan will be returned to you. Similarly, if the project does not obtain the slot, your contribution is returned immediately.
 
-Thankfully, there is plenty of content to get you started with DeFi in the SORA network at the SORA Academy. There are articles with walkthroughs of the most important steps to get started with DeFi (and if something isn't covered, documentation on the topic can be requested). Some recommended reads for beginners are [how to open Accounts in SORA](create-an-address.md) and [how to make Transfers in SORA](transfer.md). Once you are comfortable with these initial steps and have an account ready, you can begin to use the DeFi functions of Polkaswap. There are lessons such as an [introduction to Polkaswap](polkaswap.md), which outlines the fundamentals of [Swapping tokens](swap.md), as well as [Liquidity in Polkaswap](provide-liquidity.md) which shows you how to participate in liquidity pools. Finally, there is also a guide on [Advanced Trading in Polkaswap](advanced-trading.md) once you are comfortable with the platform, and the more advanced content, regarding [Block explorers](explore-blocks.md) and how to review transactions on a blockchain.
+Thankfully, there is plenty of content to get you started with DeFi in the SORA network at the SORA Academy. There are articles with walkthroughs of the most important steps to get started with DeFi (and if something isn't covered, documentation on the topic can be requested). Some recommended reads for beginners are [how to open Accounts in SORA](create-an-address.md) and [how to make Transfers in SORA](transfer.md). Once you are comfortable with these initial steps and have an account ready, you can begin to use the DeFi functions of Polkaswap. There are lessons such as an [introduction to Polkaswap](polkaswap.md), which outlines the fundamentals of [Swapping tokens](swap.md), as well as [Liquidity in Polkaswap](provide-liquidity-to-xyk-pools) which shows you how to participate in liquidity pools. Finally, there is also a guide on [Advanced Trading in Polkaswap](advanced-trading.md) once you are comfortable with the platform, and the more advanced content, regarding [Block explorers](explore-blocks.md) and how to review transactions on a blockchain.
 
 The best part of DeFi on SORA is that you are also entitled to [rewards](rewards.md) for using platforms such as [Polkaswap](https://polkaswap.io/#/rewards) to provide liquidity or by making many transactions within a certain time frame! There is a detailed explanation on the Rewards in Polkaswap you can receive.
 

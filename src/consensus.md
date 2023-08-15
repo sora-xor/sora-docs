@@ -1,14 +1,15 @@
+---
+title: "Consensus Mechanism on the SORA Network | SORA Docs"
+head:
+  - - meta
+    - name: description
+      content: "Learn about the consensus mechanism on the SORA network and how it ensures agreement and consistency among network participants. Explore the different consensus algorithms employed by the SORA network, such as Proof of Stake (PoS), and understand how they contribute to the security and decentralization of the network."
+  - - meta
+    - name: keywords
+      content: "consensus mechanism, SORA network, agreement, consistency, consensus algorithms, Proof of Stake, PoS, security, decentralization"
+---
+
 # Consensus
-
-<!--
-
-**Tutorials:**
-
-How to stake https://wiki.sora.org/guides/how-to-stake-your-xor
-
-How to claim staking rewards https://wiki.sora.org/guides/staking/how-to-run-a-sora-mainnet-node#cb1c
-
--->
 
 The SORA network relies on a **NPoS (Nominated Proof-of-Stake)** mechanism in order to reach and maintain consensus over the chain status.
 
@@ -21,7 +22,7 @@ There are two main actors: **validators** and **nominators.**
 
 A nominator is a normal user who publishes a list of trusted validator candidates and puts down an amount of XOR at stake to support them with (the concept of staking). As long as a nominator supports validator candidates with good security practices, their staking is low-risk. Nominator rewards are in VAL, and are based on the amount of VAL burnt during the day. You can read more about the VAL token and the staking rewards [here](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8).
 
-Nominators keep the SORA Network safe by delegating their XOR to trustworthy validators.
+Nominators keep the SORA network safe by delegating their XOR to trustworthy validators.
 
 You should pick validators carefully - if they do not behave properly, they will get slashed and you will lose XOR as well. However, if they follow the rules of the network, then there is no risk of slashing. Read more about slashing [here](https://support.polkadot.network/support/solutions/articles/65000110858-what-does-it-mean-to-get-slashed-).
 
@@ -93,6 +94,6 @@ If you’re interested in helping secure the future of SORA and Polkaswap, and e
 
 Your hard work won’t go without a reward. Those who run validator nodes or nominate will receive rewards in the form of [**VAL**](https://medium.com/sora-xor/sora-validator-reward-token-val-c96a8afb8541) tokens.
 Rewards are not fixed but depend on the number of transactions on the SORA network and the usage of the Token Bonding Curve.
-In fact, half of all the fees on SORA Network and 1% of what is bought on the TBC is used to buy back VAL on Polkaswap and burn them. Then every day a percentage of the burned VAL is reminted and given to validators and nominators. This percentage was 90% at TGE and will linearly go down to flatline after 5 years.
+In fact, half of all the fees on SORA network and 1% of what is bought on the TBC is used to buy back VAL on Polkaswap and burn them. Then every day a percentage of the burned VAL is reminted and given to validators and nominators. This percentage was 90% at TGE and will linearly go down to flatline after 5 years.
 
-The higher the number of transactions on the SORA Network, the higher the rewards for nominators and validators.
+The higher the number of transactions on the SORA network, the higher the rewards for nominators and validators.

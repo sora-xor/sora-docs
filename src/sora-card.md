@@ -1,3 +1,44 @@
+---
+title: "SORA Card - Versatile Payment Card | SORA Docs"
+head:
+  - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
+    - name: description
+      content: "Discover the SORA Card - a versatile payment card designed to provide users with seamless access to their digital assets. Learn about the features, benefits, and integration of the SORA Card within the SORA ecosystem, enabling secure and convenient transactions both online and offline."
+  - - meta
+    - name: keywords
+      content: "SORA Card, payment card, digital assets, secure transactions, convenient transactions"
+  - - meta
+    - name: author
+      content: "SORA network"
+  - - meta
+    - property: og:title
+      content: "SORA Card - Versatile Payment Card | SORA Docs"
+  - - meta
+    - property: og:description
+      content: "Discover the SORA Card - a versatile payment card designed to provide users with seamless access to their digital assets. Learn about the features, benefits, and integration of the SORA Card within the SORA ecosystem, enabling secure and convenient transactions both online and offline."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "SORA Docs"
+  - - meta
+    - property: og:locale
+      content: "en_US"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "SORA Card - Versatile Payment Card | SORA Docs"
+  - - meta
+    - name: twitter:description
+      content: "Discover the SORA Card - a versatile payment card designed to provide users with seamless access to their digital assets. Learn about the features, benefits, and integration of the SORA Card within the SORA ecosystem, enabling secure and convenient transactions both online and offline."
+---
+
 # SORA Card
 
 ## Key features of SORA Card
@@ -39,13 +80,13 @@ Having fiat-to-crypto payments on centralized exchanges has its advantages. Howe
 
 On [Polkaswap](https://polkaswap.io/), the solution until now was a fiat on-off ramp via MoonPay, which requires you to buy ETH at significant conversion fees, bridge the ETH from your Ethereum wallet (like MetaMask) to your SORA account, and pay the bridge fees on the Ethereum network, before it is accessible in your SORA Wallet. As you can tell, this leads to a suboptimal user experience. Regulation does not allow for fiat currencies (EUR, USD, etc.) to be directly available on decentralized exchanges, but the SORA Card approach of having a clear segregation between TradFi and DeFi wallets allows users to get the best of both the TradFi and DeFi worlds.
 
-Another distinct privacy feature of the SORA Card is the way that transaction data is made available - or rather unavailable to third parties. By default, a SORA Card user's transaction data is only available to the IBAN issuer and Mastercard. This data is not available to third parties like other banks nor to the public, allowing for discrete spending behavior.
+Another distinct privacy feature of the SORA Card is the way that transaction data is made available - or rather unavailable to third parties. By default, a SORA Card user's transaction data is only available to the IBAN issuer and Mastercard®. This data is not available to third parties like other banks nor to the public, allowing for discrete spending behavior.
 
 ## Designed for the interoperable future
 
 A final distinctive feature of SORA Card is that it brings multiple ecosystems and economies together, and allows you to transact between them in one application.
 It has always been Polkaswap’s intention to be the Decentralized Exchange for the interoperable future.
-As well as connecting all Substrate networks to the Ethereum Network and other EVM compatible networks, like Binance Smart Chain, Energy Web Chain, OKC Network, and Klaytn, the SORA Card will soon bridge the gap between these crypto currency economies and fiat currency economies.
+As well as connecting all Substrate networks to the Ethereum network and other EVM compatible networks, like Binance Smart Chain, Energy Web Chain, OKC network, and Klaytn, the SORA Card will soon bridge the gap between these crypto currency economies and fiat currency economies.
 Adding a Bitcoin bridge, as well as other bridges in the future such as the ones connecting the SORA Kusama and upcoming SORA Polkadot parachains, the SORA community envisions all your assets in one place, realised in a decentralized and self-custodial fashion, which is acceptable within regulatory frameworks.
 Next to bridging crypto economies and fiat currency economies, we are also working hard to bridge multiple fiat currency economies.
 
@@ -67,3 +108,7 @@ To name a few:
 - And more.
 
 For more information, visit [soracard.com](https://soracard.com/).
+
+---
+
+**Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.**

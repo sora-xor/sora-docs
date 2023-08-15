@@ -1,3 +1,14 @@
+---
+title: Check Supply on the SORA Network | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Learn how to check the token supply on the SORA network and get insights into the circulating supply and total supply of assets. Discover the tools, interfaces, and resources available to check the supply of tokens on the SORA network and stay informed about the available token quantities within the SORA ecosystem.
+  - - meta
+    - name: keywords
+      content: check supply, SORA network, token supply, circulating supply, total supply, assets, tools, interfaces
+---
+
 # Check Supply
 
 ## Via Polkaswap
@@ -10,7 +21,7 @@ Please be aware that you would see the **total supply** (this includes locked to
 - The supply of VAL and PSWAP might also change because they are burnt with every transaction.
 - The circulating supply for PSWAP at the time of writing is about 600M PSWAP.
 
-To check the number of tokens on the SORA Network, follow this procedure:
+To check the number of tokens on the SORA network, follow this procedure:
 
 1. Go to [SORA polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc).
 
@@ -74,12 +85,12 @@ For example, a request for the current PSWAP supply shows:
 
 #### ETH Supply Example
 
-1.7188 kXOR = 1718.8 ETH (ETH on the SORA Network)
+1.7188 kXOR = 1718.8 ETH (ETH on the SORA network)
 
 ![](/.gitbook/assets/check-supply-eth-example.png)
 
 #### DAI Supply Example
 
-1.1827 MXOR = 1,182,700 DAI (DAI on the SORA Network)
+1.1827 MXOR = 1,182,700 DAI (DAI on the SORA network)
 
 ![](/.gitbook/assets/check-supply-dai-example.png)
