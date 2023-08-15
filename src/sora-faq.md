@@ -61,13 +61,15 @@ In the coming months, there are no more auctions planned. Shortly, KSM tokens wi
 
 ## How do I participate in the SORA Parliament?
 
-The Parliament is expected in late 2022. Though not decided, approximately 150 XOR are likely to be required for a citizenship bond. This bond can be slashed if the citizen is convicted by a Policy Jury of breaking rules. Through a sortition process, Parliament members will be chosen among citizens.
+There is currently no precise timeline for the implementation of the Parliament and, though not decided, approximately 150 XOR are likely to be required for a citizenship bond. This bond can be slashed if the citizen is convicted by a Policy Jury of breaking rules. Through a sortition process, Parliament members will be chosen among citizens.
 
 All citizens have an equal chance of being selected, have equal voting power, and have equal rewards for participation.
 
 ## Can I buy tokens with FIAT?
 
-Yes, on [Polkaswap.io](https://polkaswap.io/#/swap) you can buy tokens using Moonpay. Currently, only ETH and DAI are available as tokens, you can read more about how to do so in this [tutorial](https://wiki.sora.org/guides/how-to-buy-tokens-using-moonpay-with-your-credit-card).
+Yes, on [Polkaswap.io](https://polkaswap.io/#/swap) you can buy tokens using Moonpay and X1.
+With X1 you can buy SORA-native XOR.
+On Moonpay, currently only ETH and DAI are available as tokens, you can read more about how to do so in this [tutorial](https://wiki.sora.org/guides/how-to-buy-tokens-using-moonpay-with-your-credit-card).
 
 ## What is an asset ID (address)?
 
