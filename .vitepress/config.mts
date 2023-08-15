@@ -308,6 +308,10 @@ export default defineConfig({
     },
     outline: "deep",
     outlineTitle: "Page Contents",
+    docFooter: {
+      prev: false,
+      next: false
+    }
   },
   srcDir: "./src",
   lastUpdated: true,
