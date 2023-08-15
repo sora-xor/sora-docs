@@ -65,7 +65,7 @@ As a DeFi enthusiast, I want to participate in yield farming and liquidity provi
 
 XST is the collateral asset backing all the SORA synthetic assets. It is also a reserve currency of the SORA Token Bonding Curve, along with ETH, DAI, VAL, PSWAP, and TBCD.
 
-XST helps to solve the problem of XOR liquidity by creating synthetic assets backed by a variable amount of XST and pegged to a target index (e.g., a currency). The XST token is minted/deminted (burned) to always guarantee the value of the pegged index. For that reason, XST has been referred to as a *platform token* because it is the basis, or collateral, for all synthetic assets in SORA.
+XST helps to solve the problem of XOR liquidity by creating synthetic assets backed by a variable amount of XST and pegged to a target index (e.g., a currency). The XST token is minted/deminted (burned) to always guarantee the value of the pegged index. For that reason, XST has been referred to as a _platform token_ because it is the basis, or collateral, for all synthetic assets in SORA.
 
 XST does not require over-collateralization and users of synthetic assets do not risk liquidation. This is because new XST can always be minted to provide the full value of a synthetic asset upon exchange back into the XST platform token.
 
