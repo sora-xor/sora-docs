@@ -10,7 +10,7 @@ Remember that HRMP channels usually go in one direction. For two-way communicati
 
 This special code includes a `recipient` detail that tells relay chain which parachain you would like to connect to. This detail changes depending on what environment you are planning to establish the channel in. For Kusama, look at [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fksm-rpc.stakeworld.io#/parachains), and for Rococo, go to [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io#/parachains).
 
-::: info 
+::: info
 
 Combine this parachain id with the other info from the documentation, and you'll end up with something like this for Rococo: `0x3c00db070000e803000000900100`.
 
@@ -18,15 +18,15 @@ Combine this parachain id with the other info from the documentation, and you'll
 
 2. Within your parachain, compose an XCM message that notifies the relay chain about the intent to open a channel with SORA. Refer to the official documentation for an illustrative example of the XCM message.
 
-::: info 
+::: info
 
-It's important to acknowledge that if your implementation of HRMP channel logic differs from the standard `polkadotXcm.send` pallet, you should modify this step accordingly. 
+It's important to acknowledge that if your implementation of HRMP channel logic differs from the standard `polkadotXcm.send` pallet, you should modify this step accordingly.
 
 :::
 
 Once the extrinsic executes successfully, SORA needs to accept the channel establishment.
 
-3. Subsequently, the SORA team will accept the channel by incorporating the encoded call data of `hrmp.hrmpAcceptOpenChannel`. This data will feature your parachain's ID as a parameter and will be executed via the `xcmApp.sudoSendXCM` call. 
+3. Subsequently, the SORA team will accept the channel by incorporating the encoded call data of `hrmp.hrmpAcceptOpenChannel`. This data will feature your parachain's ID as a parameter and will be executed via the `xcmApp.sudoSendXCM` call.
 
 Upon successful execution, the HRMP establishment from your parachain to SORA is finalized.
 
