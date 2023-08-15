@@ -108,7 +108,7 @@ export default withMermaid(
                 { text: "Fearless Wallet", link: "fearless" },
               ],
             },
-            { text: "Synthetics", link: "synthetics" },
+            { text: "SORA Synthetics", link: "synthetics" },
             { text: "Request Features", link: "rfp" },
           ],
         },

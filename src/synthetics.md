@@ -6,9 +6,76 @@ head:
 # Add metatags
 ---
 
-# XST Platform
+# SORA Synthetics
 
-## Internal logic
+## What are synthetic assets ?
+
+Synthetic assets are assets pegged to an index using only on-chain collateral. [XSTUSD (SORA Synthetic USD) is a great example of a synthetic asset](https://www.forbes.com/sites/tatianakoffman/2021/11/23/the-rise-of-decentralized-money-on-polkadotnew-algorithmic-stablecoin-launches-on-sora/), as it is pegged to the value of the US Dollar, but currently backed by redeemability to XST, meaning that you can get the face value of XSTUSD given to you in newly minted XST.
+
+![XST_platformToken.png](.gitbook/assets/synthetics.png)
+
+Synthetic assets matter because assets that are fully collateralised on-chain, but are linked to off-chain indices, are incredibly powerful. Purely synthetic assets can be used to represent many types of value, such as, to track the shares of financial instruments and securities. Whether the index is a fiat currency like the USD, a commodity like XAU (gold), or a security like TSLA, having completely on-chain assets to represent these values allows a multitude of composable DeFi operations while being impossible to censor. The possible uses are truly endless, and are limited only by developers’ imaginations and reliable oracle data!
+
+SORA is receiving oraclised data to enable virtually any possible synthetic asset in the network. The implication of this is suddenly many new synthetic assets, similar to XSTUSD, could be created, if the community wants to build them. To power this, a specialised token has been created to be the collateral for synthetic assets in the SORA ecosystem: XST.
+
+## Why are people usually attracted by synthetic assets ?
+
+**Access to Global Markets**: Synthetic assets allow users to gain exposure to a wide range of traditional and digital assets from different global markets. Users can invest in assets that may otherwise be inaccessible due to geographical or regulatory limitations.
+
+**Financial Inclusion**: Synthetic assets can contribute to financial inclusion by providing individuals with limited access to traditional financial services an opportunity to participate in global markets and investment opportunities.
+
+**Lower Barriers to Entry**: Synthetic assets eliminate certain barriers to entry that exist in traditional financial markets. Users can start trading with lower capital requirements, fractional ownership options, and reduced transaction costs compared to traditional asset trading.
+
+**Trading Opportunities**: Synthetic assets provide users with additional trading opportunities, allowing them to capitalise on market trends, price differentials, or arbitrage opportunities. Users can engage in leveraged trading or explore complex trading strategies.
+
+**Diversification**: Synthetic assets enable users to diversify their investment portfolios by gaining exposure to a variety of asset classes, such as stocks, commodities, indices, or currencies.
+
+## **Typical users of synthetic assets**
+
+1. **Crypto Traders**: Because synthetic assets only reflect the face value of an index, they enable trading large amounts without impacting the market price of the underlying assets (e.g. Bitcoin).
+2. **International Investors**: Synthetic assets enable trading across multiple currencies from different countries, opening up new opportunities for international investments.
+3. **FX Traders**: Synthetic assets provide a unique opportunity for crypto traders to diversify their portfolios and take advantage of trading opportunities in the FX market, without the need for KYC regulations, reducing barriers to entry and increasing accessibility.
+4. **Risk-Averse Investors**: Synthetic assets offer potential risk reduction through portfolio diversification and reduced slippage and risk of impermanent loss. It also offers the possibility to hold your assets in a stable synthetic asset of your choice, for example if your local currency is subject to higher volatility.
+5. **Cost-Conscious Investors**: Trading synthetic assets doesn't incur interest charges, making it a cost-effective investment option.
+6. **Tax-Averse Investors**: Transacting with synthetic assets without incurring taxes provides significant financial benefits for tax-averse investors
+
+## **User stories**
+
+### User story 1: Trading synthetic assets for diversification
+
+As an investor, I want to trade synthetic assets on a decentralized exchange (DEX) so that I can diversify my portfolio and gain exposure to a wide range of assets without holding the underlying assets directly. I want to be able to trade various synthetic assets representing different cryptocurrencies, stocks, and commodities to reduce risk and maximize potential returns.
+
+### User story 2: Hedging against market volatility with synthetic assets
+
+As a trader, I need the ability to use synthetic assets on a DEX to hedge against market volatility. By trading synthetic derivatives that track the price movements of specific assets, I can protect my positions from potential losses and manage risk effectively, even during turbulent market conditions.
+
+### User story 3: Leveraging synthetic assets for speculative trading
+
+As a high-risk trader, I want to leverage synthetic assets on a DEX to amplify my potential profits from short-term price movements. By trading synthetic derivatives with leverage, I can magnify my gains without holding large amounts of collateral, allowing me to participate in speculative opportunities with increased financial flexibility.
+
+### User story 4: Accessing traditional assets on a DEX with synthetic assets
+
+As a crypto investor, I desire the ability to gain exposure to traditional assets like stocks, indices, and fiat currencies through synthetic assets on a DEX. This way, I can easily access and trade traditional markets in a decentralised way, directly from my cryptocurrency wallet, without the need to go through traditional financial intermediaries.
+
+### User story 5: Yield Farming and Liquidity Provision with synthetic assets
+
+As a DeFi enthusiast, I want to participate in yield farming and liquidity provision by using synthetic assets on a DEX. By supplying liquidity to synthetic asset pools, I can earn rewards and fees, helping to ensure the availability and stability of these assets for other traders and investors in the decentralized ecosystem.
+
+## How do SORA synthetic assets work ?
+
+XST is the collateral asset backing all the SORA synthetic assets. It is also a reserve currency of the SORA Token Bonding Curve, along with ETH, DAI, VAL, PSWAP, and TBCD.
+
+XST helps to solve the problem of XOR liquidity by creating synthetic assets backed by a variable amount of XST and pegged to a target index (e.g., a currency). The XST token is minted/deminted (burned) to always guarantee the value of the pegged index. For that reason, XST has been referred to as a *platform token* because it is the basis, or collateral, for all synthetic assets in SORA.
+
+XST does not require over-collateralization and users of synthetic assets do not risk liquidation. This is because new XST can always be minted to provide the full value of a synthetic asset upon exchange back into the XST platform token.
+
+In the case of synthetic assets, as they are backed by the XST platform token, XST can be algorithmically minted or deminted to provide the full value for the synthetic assets upon demand. The XST Primary Market Maker that mints/demints synthetic assets and the XST platform token are built-in as a liquidity source into Polkaswap’s liquidity aggregator, so buyers/sellers will always get the full value in XST platform tokens for their synthetic assets, and the price will never deviate (lower or higher) from the asset price. Therefore, synthetic assets are not subject to price slippage or a lack of liquidity. This works, for example, in the case of XSTUSD, because a single XSTUSD is a claim for $1 USD *worth of XST*, and **not a claim for the actual $USD itself**.
+
+## Ad Astra
+
+New synthetic assets can be linked to an oracle’s price feed via on-chain governance to create new synthetic assets (e.g., XSTXAU for a synthetic gold asset). The only limitation is getting the source of oracle data relayed to SORA.
+
+## Implementation
 
 ### Extrinsics
 
