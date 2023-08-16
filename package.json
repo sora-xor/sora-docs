@@ -9,7 +9,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vercel": "^30.2.1"
+    "vercel": "^31.3.1"
   },
   "type": "module"
 }
