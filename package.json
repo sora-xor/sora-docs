@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.75",
+    "vitepress": "^1.0.0-rc.4",
     "markdown-it-katex": "^2.0.3"
   },
   "scripts": {
