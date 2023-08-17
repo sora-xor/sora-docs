@@ -5,6 +5,6 @@
   ],
   "redirects": [
     { "source": "/sora-docs(.*)", "destination": "/$1", "statusCode": 301 },
-    { "source": "/$1", "destination": "/sora-docs/$1", "statusCode": 301 }
+    { "source": "/(.*)", "destination": "/sora-docs/$1", "statusCode": 301 }
   ]
 }
