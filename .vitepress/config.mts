@@ -58,7 +58,7 @@ export default defineConfig({
               },
             ],
           },
-          { text: "SORA Economy", link: "/sora-doc/sora-economy" },
+          { text: "SORA Economy", link: "sora-economy" },
           { text: "SORA Governance", link: "sora-governance" },
           { text: "SORA Academy", link: "sora-academy" },
           { text: "FAQ", link: "sora-faq" },
