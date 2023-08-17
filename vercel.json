@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/sora-docs/(.*)", "destination": "/(.*)" }
+    { "source": "/sora-docs/(.*)", "destination": "/$1/" }
   ]
 }
