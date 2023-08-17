@@ -1,6 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/sora-docs/(.*)", "destination": "/$1" }
-  ],
-  "status": 200
+  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
 }
