@@ -1,6 +1,18 @@
 {
+  "rules": [
+    {
+      "from": "/sora-docs/*",
+      "to": "{url}",
+      "status": 200
+    },
+    {
+      "from": "/*",
+      "to": "{url}",
+      "status": 200
+    }
+  ],
   "routes": [
     { "src": "/sora-docs/(.*)", "dest": "/$1", "status": 200 },
-    { "src": "/*", "dest": "/$1", "status": 200 }
+    { "src": "/$1", "dest": "/$1", "status": 200 }
   ]
 }
