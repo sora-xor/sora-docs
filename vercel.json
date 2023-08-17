@@ -1,5 +1,5 @@
 {
-  "routes": [
-    { "src": "/sora-docs/(.*)", "dest": "/$1" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
   ]
 }
