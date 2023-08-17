@@ -4,6 +4,7 @@
     { "source": "/sora-docs/$1", "destination": "/sora-docs/$1" }
   ],
   "routes": [
+    { "src": "/sora-docs(.*)", "dest": "/sora-docs/$1"},
     { "src": "/sora-docs(.*)", "dest": "/sora-docs/$1" }
   ]
 }
