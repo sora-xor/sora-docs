@@ -4,6 +4,7 @@
     { "source": "/sora-docs/$1", "destination": "/sora-docs/$1" }
   ],
   "redirects": [
-    { "source": "/sora-docs(.*)", "destination": "/$1", "statusCode": 301 }
+    { "source": "/sora-docs(.*)", "destination": "/$1", "statusCode": 301 },
+    { "source": "/sora-docs(.*)", "destination": "/sora-docs/$1", "statusCode": 301 }
   ]
 }
