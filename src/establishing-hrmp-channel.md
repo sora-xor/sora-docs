@@ -1,6 +1,6 @@
 # Establish HRMP channel
 
-To establish communication between your parachain and SORA, you'll need to create HRMP channels that act as bridges for messages. This guide will walk you through the process, using information from the official [Substrate documentation](https://docs.substrate.io/reference/how-to-guides/parachains/add-hrmp-channels/) but applied for SORA.
+To establish communication between your parachain and SORA, you must create HRMP channels that act as bridges for messages. This guide will walk you through the process using information from the official [Substrate documentation](https://docs.substrate.io/reference/how-to-guides/parachains/add-hrmp-channels/) but applied to SORA.
 
 Remember that HRMP channels usually go in one direction. For two-way communication, you'll need to set up another channel going the opposite way. Therefore, the following is split in to sub-sections:
 
@@ -8,7 +8,7 @@ Remember that HRMP channels usually go in one direction. For two-way communicati
 
 1. Obtain the encoded call data of the `hrmp.hrmpInitOpenChannel` extrinsic on the relay chain.
 
-This special code includes a `recipient` detail that tells relay chain which parachain you would like to connect to. This detail changes depending on what environment you are planning to establish the channel in. For Kusama, look at [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fksm-rpc.stakeworld.io#/parachains), and for Rococo, go to [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io#/parachains).
+This unique code includes a `recipient` detail telling the relay chain which parachain you want to connect to. This detail changes depending on what environment you are planning to establish the channel in. For Kusama, look at [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fksm-rpc.stakeworld.io#/parachains), and for Rococo, go to [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io#/parachains).
 
 ::: info
 
@@ -20,7 +20,7 @@ Combine this parachain id with the other info from the documentation, and you'll
 
 ::: info
 
-It's important to acknowledge that if your implementation of HRMP channel logic differs from the standard `polkadotXcm.send` pallet, you should modify this step accordingly.
+It is important to acknowledge that if your implementation of HRMP channel logic differs from the standard `polkadotXcm.send` pallet; you should modify this step accordingly.
 
 :::
 
@@ -28,7 +28,7 @@ Once the extrinsic executes successfully, SORA needs to accept the channel estab
 
 3. Subsequently, the SORA team will accept the channel by incorporating the encoded call data of `hrmp.hrmpAcceptOpenChannel`. This data will feature your parachain's ID as a parameter and will be executed via the `xcmApp.sudoSendXCM` call.
 
-Upon successful execution, the HRMP establishment from your parachain to SORA is finalized.
+Upon successful execution, (an) HRMP channel(s) will be established from your parachain to SORA.
 
 ## SORA to Your Parachain
 
