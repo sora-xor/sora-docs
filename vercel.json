@@ -1,14 +1,5 @@
 {
-  "rules": [
-    {
-      "from": "/sora-docs/*",
-      "to": "{url}",
-      "status": 200
-    },
-    {
-      "from": "/*",
-      "to": "{url}",
-      "status": 200
-    }
+  "rewrites": [
+    { "source": "/((.*))", "destination": "/$1" }
   ]
 }
