@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/sora-docs/(.*)", "destination": "/$1" },
     { "source": "/:path*", "destination": "/index.html" }
   ]
 }
