@@ -30,7 +30,6 @@ export default defineConfig({
           {
             text: "Tokenomics",
             link: "tokenomics",
-            collapsed: true,
             items: [
               {
                 text: "Token Bonding Curve",
@@ -74,7 +73,6 @@ export default defineConfig({
           {
             text: "Polkaswap",
             link: "polkaswap",
-            collapsed: true,
             items: [
               { text: "FAQ", link: "polkaswap-faq" },
               {
@@ -88,19 +86,20 @@ export default defineConfig({
             ],
           },
           {
-	    text: "SORAcard",
-	    collapsed: true,
-	    items: [
-	      { text: "SORA Card Introduction", link: "sora-card" },
-	      { text: "SORA Card KYC Tutorial", link: "sora-card-kyc-tutorial" },
-	   ],    
+            text: "SORAcard",
+            items: [
+              { text: "SORA Card Introduction", link: "sora-card" },
+              {
+                text: "SORA Card KYC Tutorial",
+                link: "sora-card-kyc-tutorial",
+              },
+            ],
           },
           {
             text: "SORA in Your Pocket",
-            collapsed: true,
             items: [
               { text: "SORA Mobile", link: "mobile" },
-              { text: "Fearless Wallet", link: "fearless" }, 
+              { text: "Fearless Wallet", link: "fearless" },
             ],
           },
           { text: "Request Features", link: "rfp" },
@@ -144,7 +143,6 @@ export default defineConfig({
 
           {
             text: "DEX",
-            collapsed: true,
             items: [
               { text: "Swap", link: "swap" },
               {
@@ -161,7 +159,6 @@ export default defineConfig({
           },
           {
             text: "Participating in Governance",
-            collapsed: true,
             items: [
               {
                 text: "Fast Track Public Voting",
@@ -172,7 +169,6 @@ export default defineConfig({
           {
             text: "Interoperability",
             link: "interoperability",
-            collapsed: true,
             items: [
               {
                 text: "EVM",
@@ -188,7 +184,7 @@ export default defineConfig({
                       {
                         text: "Become a Relayer",
                       },
-		       {
+                      {
                         text: "Fixing a Stuck Transaction",
                         link: "unstuck-bridge-tx",
                       },
@@ -236,7 +232,6 @@ export default defineConfig({
 
           {
             text: "DEX",
-            collapsed: true,
             items: [
               { text: "Swap", link: "swap-polkaswap" },
               {
