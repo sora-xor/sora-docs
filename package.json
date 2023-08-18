@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.75",
+    "vitepress": "^1.0.0-rc.4",
     "markdown-it-katex": "^2.0.3"
   },
   "scripts": {
@@ -9,6 +9,8 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vercel": "^30.2.1"
-  }
+    "vercel": "^31.3.1",
+    "react": "^18.2.0"
+  },
+  "type": "module"
 }
