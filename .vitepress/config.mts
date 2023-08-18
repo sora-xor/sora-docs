@@ -312,6 +312,7 @@ export default defineConfig({
   srcDir: "./src",
   lastUpdated: true,
   cleanUrls: true,
+  trailingSlash: true,
   ignoreDeadLinks: [/^https?:\/\/localhost/, /snippets\//],
   markdown: {
     config: (md) => {
