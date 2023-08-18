@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "(.*)", "destination": "/$1" }
+    { "source": "/sora-docs/(.*)", "destination": "/sora-docs/$1" }
   ]
 }
