@@ -48,14 +48,6 @@ head:
       content: "@sora_xor"
 ---
 
-# SORA: The New Economic Order
-
-- SORA v2 tokenomic model is proposed that uses a token bonding curve with an increasing price function. This means that as the token supply increases, the price also increases.
-- Reserves held by the token bonding curve will provide liquidity for XOR.
-- A new, staking reward token, tentatively called VAL is proposed.
-- ERC-20 XOR trading on Ethereum will be the initial supply of v2 XOR. ERC-20 XOR holders will also receive airdropped VAL.
-- SORA v1 tokens are proposed to be converted into VAL.
-
 ## Background
 
 On October 17, 2019, the [SORA](https://sora.org) v1 network launched, issuing approximately 1,618,033,988 XOR. In March of 2020, approximately 350,000 XOR were moved from the SORA v1 network to the Ethereum network and [trading was started on Uniswap](http://sora.exchange). The goal of the initial launch on Uniswap was to perform preliminary price discovery and build the SORA community by incorporating users of the Ethereum network. However, our technology has improved, giving us the possibility to shape a new and more ambitious type of crypto ecosystem. Whereas our medium-term goal remains generating value for our community, our analysis of the SORA economy has **led us to embrace the long-term goal of realizing a supranational world economic system**.
