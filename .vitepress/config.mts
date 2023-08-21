@@ -27,6 +27,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "Introduction", link: "introduction" },
+          { text: "SORA Economy", link: "sora-economy" },
           {
             text: "Tokenomics",
             link: "tokenomics",
@@ -57,7 +58,6 @@ export default defineConfig({
               },
             ],
           },
-          { text: "SORA Economy", link: "sora-economy" },
           { text: "SORA Governance", link: "sora-governance" },
           { text: "SORA Academy", link: "sora-academy" },
           { text: "FAQ", link: "sora-faq" },
@@ -102,6 +102,7 @@ export default defineConfig({
               { text: "Fearless Wallet", link: "fearless" },
             ],
           },
+          { text: "Consensus", link: "consensus" },
           { text: "Request Features", link: "rfp" },
         ],
       },
@@ -154,15 +155,6 @@ export default defineConfig({
               {
                 text: "Other Polkaswap Features",
                 link: "polkaswap-other-features",
-              },
-            ],
-          },
-          {
-            text: "Participating in Governance",
-            items: [
-              {
-                text: "Fast Track Public Voting",
-                link: "fast-track-public-voting",
               },
             ],
           },
@@ -267,7 +259,6 @@ export default defineConfig({
           },
           { text: "Pallets", link: "pallets" },
           { text: "Technical Stack", link: "technical-stack" },
-          { text: "Consensus", link: "consensus" },
           { text: "Accounts", link: "accounts" },
         ],
       },
@@ -303,6 +294,10 @@ export default defineConfig({
     },
     outline: "deep",
     outlineTitle: "Page Contents",
+    docFooter: {
+      prev: false,
+      next: false
+    }
   },
   srcDir: "./src",
   lastUpdated: true,

@@ -16,7 +16,7 @@ head:
 - Anyone can run a node on the SORA mainnet
 - There are two types of nodes:
   - **Syncing** nodes that just receive and relay data
-  - **Validating** nodes that make the blocks
+  - **Validating** nodes that make the blocks. Read more in [Consensus](./consensus).
 
 ## Prerequisites
 

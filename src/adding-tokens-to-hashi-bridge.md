@@ -28,7 +28,7 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
 1. Get the AssetId of the asset you want to add (e.g. `0x000268050a977248b641719592e7a0247ce4741839c83ec6aac6a865d3d0ba2c`).
 
-2. Go to [polkadot{.js}](http://polkadot.js.org/) and call the `ethBridge.addAsset` extrinsic via a fast track motion (see the steps in [Fast track public voting](fast-track-public-voting.md)) with the asset id from the first step and network id `0` (for Ethereum).
+2. Go to [polkadot{.js}](http://polkadot.js.org/) and call the `ethBridge.addAsset` extrinsic via a fast track motion with the asset id from the first step and network id `0` (for Ethereum).
 
    ![](.gitbook/assets/hashi-call-extrinsic.png)
 
@@ -84,7 +84,7 @@ Access https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602#w
    - Decimals (e.g. `6`)
    - Network id (e.g. `0` for Ethereum)
 
-2. Create a proposal (see the steps in [Fast track public voting](fast-track-public-voting.md)) to call the `ethBridge.addSidechainToken` extrinsic with arguments from the first step.
+2. Create a proposal to call the `ethBridge.addSidechainToken` extrinsic with arguments from the first step.
 
    ![](.gitbook/assets/hashi-create-proposal.png)
 
