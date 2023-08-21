@@ -104,42 +104,40 @@ Additionally, it is also important to understand the importance of expanding M f
 
 This is where the research of our economist Yamaguchi paid off again, as back in 2018, he suggested that we use a **token bonding curve** to autonomously manage the issuance and de-issuance of XOR in the economy. In other words, we found a way to manage the supply of tokens in a rational way, without involvement of humans, which will create a system that avoids the boom-bust problems of traditional economies and the deflationary economics of many cryptocurrencies.
 
-## Token Bondage
+## Token Bonding Curve
 
 A [token bonding curve](https://medium.com/coinmonks/token-bonding-curves-explained-7a9332198e0e) is a smart contract that takes as input some token and outputs a new token. There are a plethora of possible variations and this is an exciting area of research, but in SORA we use a simple model where there are two linear functions: a buy-price function and a sell-price function.
 
 ![](/.gitbook/assets/Tokenbondingcurve.png)
 
-XOR supply in the SORA mainnet will be backed by acceptable liquid cryptocurrencies, and each network transaction of XOR will require the burning of a small fee, the rate decided by the community (e.g., 0.01-0.10 USD equivalent). To buy XOR on the token bonding curve, one of the acceptable currencies must be used. After launch, we plan to include these tokens that you can use to buy XOR from the token bonding curve:
+XOR supply in the SORA mainnet is backed by acceptable liquid cryptocurrencies, and each network transaction of XOR requires the burning of a small fee, whose rate is decided by the community (e.g., 0.01-0.10 USD equivalent). To buy XOR on the token bonding curve, one of the acceptable currencies must be used. The tokens that you can use to buy XOR from the token bonding curve are:
 
-- DOT (at launch)
-- KSM (at launch)
-- BTC
+- DOT (once we get a Polkadot parachain and the Substrate bridge connected to it)
+- KSM (once we get the Substrate bridge connected to our Kusama parachain)
+- BTC (in the future)
 - ETH
-- USDT
-- USDC
-- TUSD
 - DAI
 - VAL
 - PSWAP
+- XST
+- TBCD
 
-The token bonding curve will be built directly into [Polkaswap.io](https://polkaswap.io) such that if the secondary market price of XOR is exceeded for one of the above trading pairs, the token bonding curve will automatically be executed so that new XOR will be put into circulation, 20% of the buying currency will be put into a pool to buy back and burn XOR, and 80% of the buying currency will go to reserves, held by the token bonding curve. As reserves are in multiple currencies, future releases of the system should provide for ways to balance between the currency reserves to provide liquidity in a variety of tokens. The close integration of the SORA economic model with Polkaswap will allow this process to be automated at some point in the future.
+The token bonding curve is built directly into [Polkaswap.io](https://polkaswap.io) such that if the secondary market price of XOR is exceeded for one of the above trading pairs, the token bonding curve will automatically be executed so that new XOR will be put into circulation, 20% of the buying currency will be put into a pool to buy back and burn XOR, and 80% of the buying currency will go to reserves, held by the token bonding curve. As reserves are in multiple currencies, future releases of the system should provide for ways to balance between the currency reserves to provide liquidity in a variety of tokens. The close integration of the SORA economic model with Polkaswap will allow this process to be automated at some point in the future.
 
-The buy-price function will start at a discount (accounting for the
+The buy-price function starts at a discount (accounting for the
 initial price of VAL on mainnet launch) to the Uniswap XOR price at
-launch (but don't panic if you have ERC-20 XOR now; there will be a
-new token, VAL, that will be airdropped to ERC-20 holders to make up
-for this, so keep reading!). The buy-price function uses an oracle to
+launch. The buy-price function uses an oracle to
 find out the current price that XOR should be w.r.t. a fiat
-currency. The sell-price function will, in turn, be 20% less than the
+currency. The sell-price function is, in turn, 20% less than the
 buy-price function. The 20% spread between the buy and sell functions
-will have different uses, that will be explained in detail in a future
+has different uses, that will be explained in detail in a future
 article.
+
 A new [SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184dae384) (multi-body sortition governance system), will provide a methodology for rationally allocating these XOR to create new goods and services in the SORA ecosystem, in accordance with the SORA economic model. All XOR that are created are given for free to the SORA Parliament, which then manages the token supply using the token bonding curve; specifically, the Financial Markets Authority, a standing body of the SORA Parliament will be the entity that buys and sells XOR via the primary market maker.
 
 ![](.gitbook/assets/xormarketmaker.png)
 
-Because **the token bonding curve is essentially an infinitely liquid, decentralized central bank**, the price cannot go above or below the buy and sell functions, respectively. This is especially true because the SORA primary market maker will be built into Polkaswap and executed automatically when within range. Furthermore, because the token bonding curve's pricing functions slope upwards, the **price increases with the token supply**. This gives the following properties:
+Because **the token bonding curve is essentially an infinitely liquid, decentralized central bank**, the price cannot go above or below the buy and sell functions, respectively. This is especially true because the SORA primary market maker is built into Polkaswap and executed automatically when within range. Furthermore, because the token bonding curve's pricing functions slope upwards, the **price increases with the token supply**. This gives the following properties:
 
 - **Autonomous Management of Token Supply to Match Demand (Elastic Supply)** - The token bonding curve introduces and removes XOR from circulation to meet the demand of the market. This ensures sustainable economic growth and price stability of the token economy, as the system can adapt to the changing needs.
 - **Deterministic Price Calculation** - The buy and sell prices of tokens in the primary market increase and decrease with changes in the supply of token. It is therefore **NOT** a fixed exchange rate system. The buy-price function starting price will be determined closer to the v2 launch and increase by $0.01 for each 5000 XOR sold, even if this is not final and may change before launch.

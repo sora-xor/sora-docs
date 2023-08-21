@@ -315,7 +315,7 @@ export default defineConfig({
   },
   srcDir: "./src",
   lastUpdated: true,
-  cleanUrls: true,
+  cleanUrls: false,
   ignoreDeadLinks: [/^https?:\/\/localhost/, /snippets\//],
   markdown: {
     config: (md) => {
