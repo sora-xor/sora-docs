@@ -27,6 +27,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "Introduction", link: "introduction" },
+          { text: "SORA Economy", link: "sora-economy" },
           {
             text: "Tokenomics",
             link: "tokenomics",
@@ -58,7 +59,6 @@ export default defineConfig({
               },
             ],
           },
-          { text: "SORA Economy", link: "sora-economy" },
           { text: "SORA Governance", link: "sora-governance" },
           { text: "SORA Academy", link: "sora-academy" },
           { text: "FAQ", link: "sora-faq" },
