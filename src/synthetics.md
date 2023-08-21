@@ -80,7 +80,11 @@ New synthetic assets can be linked to an oracle’s price feed via on-chain gove
 ### Extrinsics
 
 #### Enabling synthetic asset
-
+- **`XSTPool::enable_synthetic_asset`**: enable selected synhtetic asset for trading (sudo only).
+  Parameters:
+  - `asset_id`: A synthetic asset's id.
+  - `reference_symbol`: An oracle symbol depicting the price of the selected synthetic asset.
+  - `fee_ratio`: Fixed point number depicting the fee ratio paid during trading the chosen synthetic asset.
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -111,8 +115,8 @@ sequenceDiagram
 
     opt Trading pair (Base synthetic asset, Asset) does not exist
         X->>T: Register trading pair
-        X->>T: Enable XST as liquidity source for trading pair
     end
+    X->>T: Enable XST as liquidity source for trading pair
     X->>X: Insert new synthetic asset into EnabledSynthetics
     X->>X: Insert referenced symbol into EnabledSymbols
     X->>X: Deposit event SyntheticAssetEnabled
@@ -120,7 +124,12 @@ sequenceDiagram
 ```
 
 #### Registring new synthetic asset
-
+- **`XSTPool::register_synthetic_asset`**: register new asset and enable it for trading as synthetic (sudo only).
+  Parameters:
+  - `asset_symbol`: An asset's symbol.
+  - `asset_name`: An asset's name.
+  - `reference_symbol`: An oracle symbol depicting the price of the new synthetic asset.
+  - `fee_ratio`: Fixed point number depicting the fee ratio paid during trading the chosen synthetic asset.
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -137,7 +146,9 @@ sequenceDiagram
 ```
 
 #### Setting reference asset
-
+- **`XSTPool::set_reference_asset`**: set new asset id as the reference asset (sudo only).
+  Parameters:
+  - `reference_asset_id`: New reference asset id.
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -158,24 +169,50 @@ sequenceDiagram
 ```
 
 #### Disabling synthetic asset
-
+- **`XSTPool::disable_synthetic_asset`**: disable trading for selected synthetic asset (sudo only).
+  Parameters:
+  - `synthetic_asset`: Synthetic asset id for disabling.
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
     participant X as XST Platform
-
+    participant T as Trading pair
     S->>X: Disable synthetic asset
     break Synthetic asset id is not present in EnabledSynthetics
         X-->>S: Synthetic is not enabled
     end
-    X->>X: Remove synthetic asset id from EnabledSymbols
-    X->>X: Remove linked reference symbol from EnabledSymbols
+    X->>T: Disable XSTPool Liquidity Source <br/> for trading pair (Base synthetic asset, Synthetic asset)
+    break Trading pair does not exist
+        T-->>S: Trading pair doesnt exist
+    end
+    X->>X: Remove info about synthetic asset from EnabledSynthetics storage map
     X->>X: Deposit event SyntheticAssetDisabled
     X-->>S: Ok
 ```
 
-#### Setting synthetic asset fee
+#### Removing synthetic asset
+- **`XSTPool::remove_synthetic_asset`**: remove synthetic asset from XSTPool (sudo only).
+  Parameters:
+  - `synthetic_asset`: Synthetic asset id for removal.
+```mermaid
+sequenceDiagram
+    actor S as Sudo user
+    participant X as XST Platform
+    S->>X: Remove synthetic asset
+    break Synthetic asset id is not present in EnabledSynthetics
+        X-->>S: Synthetic is not enabled
+    end
+    X->>X: Remove info about synthetic asset from EnabledSynthetics storage map
+    X->>X: Remove info about synthetic asset from EnabledSymbols storage map
+    X->>X: Deposit event SyntheticAssetRemoved
+    X-->>S: Ok
+```
 
+#### Setting synthetic asset fee
+- **`XSTPool::set_synthetic_asset_fee`**: set new fee ratio for particular synthetic asset (sudo only).
+  Parameters:
+  - `synthetic_asset`: Synthetic asset id.
+  - `fee_ratio`: New fee ratio
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -191,7 +228,9 @@ sequenceDiagram
 ```
 
 #### Setting synthetic base asset floor price
-
+- **`XSTPool::set_synthetic_base_asset_floor_price`**: set the new floor price for base synthetic asset (sudo only).
+  Parameters:
+  - `floor_price`: New floor price.
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -221,10 +260,6 @@ sequenceDiagram
     Note over X: Quote amount calculation
     activate X
     X->>O: Get rate of oracle symbol linked to X
-    break Oracle symbol is outdated
-        O-->>X: Rate expired
-        X-->>L: Oracle Quote Error
-    end
     O-->>X: Symbol rate
     break An error occurred while calculating the price
         X-->>L: Price Calculation Failed
@@ -253,10 +288,6 @@ sequenceDiagram
     Note over X: Swap amount calculation
     activate X
     X->>O: Get rate of oracle symbol linked to X
-    break Oracle symbol is outdated
-        O-->>X: Rate expired
-        X-->>L: Oracle Quote Error
-    end
     O-->>X: Symbol rate
     break An error occurred while calculating the price
         X-->>L: Price Calculation Failed
@@ -275,6 +306,30 @@ sequenceDiagram
     end
     X-->>L: Asset X quote amount
 ```
+
+## Fallback mechanism
+The fallback mechanism in the XST Platform ensures the timely deactivation of outdated symbols.
+```mermaid
+sequenceDiagram
+    actor R as Relayer
+    participant B as Band
+    participant X as XST Platform
+    par
+        R ->> B: relay/force relay symbol
+        B ->> B: Removing relayed symbol <br/> from SymbolCheckBlock if present 
+        B ->> B: Symbol last update block number is updated
+        B ->> B: Adding relayed symbol <br/> to SymbolCheckBlock with key <br/> (current_block + 600 blocks ~ 1h, symbol)
+    and
+        B ->> B: Check symbols which are expiring at current block <br/> based on presence of symbols in <br/> SymbolCheckBlock with key prefix (current_block)
+        B ->> X: OnSymbolDisabledHook::disable_symbol(symbol) called for each obsolete symbol
+        X ->> X: Disable synthetic asset associated with the symbol
+        B ->> B: Symbol is removed from SymbolCheckBlock
+    end
+```
+
+## Base synthetic asset buy/sell limits
+To safeguard against potential manipulative activities at the onset of the synthetic platform, a trading cap is introduced on the base asset (XST). A cap of 10 million XST is set for both buying and selling of synthetic assets.
+Trades exceeding this threshold will prompt an error message.
 
 ## Quote/swap amount calculation process
 
