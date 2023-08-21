@@ -331,6 +331,32 @@ sequenceDiagram
 To safeguard against potential manipulative activities at the onset of the synthetic platform, a trading cap is introduced on the base asset (XST). A cap of 10 million XST is set for both buying and selling of synthetic assets.
 Trades exceeding this threshold will prompt an error message.
 
+## Dynamic fee mechanism
+
+### Notation
+| Notation    | Description                          |
+| ----------- | ------------------------------------ |
+| $\delta$    | Price feed deviation threshold       |
+| $P_i$       | Current epoch (i) oracle price       |
+| $\tau$      | Dynamic fee decay constant           |
+| $\mu$       | Minimum dynamic fee                  |
+| $\phi_t(i)$ | The current epoch’s  (i) dynamic fee |
+where epoch denotes the period of time between oracle updates.
+
+### Dynamic fee calculation
+To deter potential exploitative trading based on anticipated oracle price changes (namely frontrunning), we're implementing a dynamic fee, which is charged during any trade involving synthetic asset. This fee adjusts based on the percentage change in the oracle symbol price.
+
+Dynamic fee calculated as:
+
+$\phi_{D} ( i ) = \tau * \phi_{D} ( i-1 ) + max ( [P_{i} / P_{i-1} - 1  - 2 \delta- \mu], 0 )$
+
+$\phi_D(0) = 0$
+
+The parameter constants are stored inside the Band pallet.
+
+### How the fee is charged
+The dynamic fee is incorporated into $S_{f}$ term (which is defined in section **Quote/swap amount calculation process**). The $S_{f}$ is therefore defined as the sum of the dynamic fee ratio and a synthetic asset's base fee ratio, which is set via `XSTPool::set_synthetic_asset_fee`.
+
 ## Quote/swap amount calculation process
 
 ### Notation
