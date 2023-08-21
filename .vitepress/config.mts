@@ -160,16 +160,6 @@ export default defineConfig({
             ],
           },
           {
-            text: "Participating in Governance",
-            collapsed: true,
-            items: [
-              {
-                text: "Fast Track Public Voting",
-                link: "fast-track-public-voting",
-              },
-            ],
-          },
-          {
             text: "Interoperability",
             link: "interoperability",
             collapsed: true,
