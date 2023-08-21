@@ -1,1 +1,1 @@
-This page is no more accessible.
+This page is no longer accessible.
