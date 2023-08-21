@@ -32,8 +32,6 @@ When the SORA v2 network launched in April 2021, the XOR supply was 350,000 XOR.
 
 Fair distribution: when the SORA v2 network launched, 350,000 XOR were put on Uniswap, and then people bought more XOR over time.
 
-XOR distribution can be tracked on [Etherscan](https://etherscan.io/token/0x40FD72257597aA14C7231A7B1aaa29Fce868F677#balances) and on [Polkaswap](https://polkaswap.io/#/stats).
-
 ## XOR Top Holders
 
 When looking at the top holders on [Subscan](https://sora.subscan.io/account), several of those addresses are technical accounts supporting the whole network.
