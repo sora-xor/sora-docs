@@ -28,7 +28,7 @@ SORA is receiving oraclised data to enable virtually any possible synthetic asse
 
 - **Trading Opportunities**: Synthetic assets provide users with additional trading opportunities, allowing them to capitalise on market trends, price differentials, or arbitrage opportunities. Users can engage in leveraged trading or explore complex trading strategies.
 
-**Diversification**: Synthetic assets enable users to diversify their investment portfolios by gaining exposure to a variety of asset classes, such as stocks, commodities, indices, or currencies.
+- **Diversification**: Synthetic assets enable users to diversify their investment portfolios by gaining exposure to a variety of asset classes, such as stocks, commodities, indices, or currencies.
 
 ## **Typical users of synthetic assets**
 
