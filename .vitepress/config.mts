@@ -29,10 +29,10 @@ export default withMermaid(
           collapsed: true,
           items: [
             { text: "Introduction", link: "introduction" },
+            { text: "SORA Economy", link: "sora-economy" },
             {
               text: "Tokenomics",
               link: "tokenomics",
-              collapsed: true,
               items: [
                 {
                   text: "Token Bonding Curve",
@@ -60,7 +60,6 @@ export default withMermaid(
                 },
               ],
             },
-            { text: "SORA Economy", link: "sora-economy" },
             { text: "SORA Governance", link: "sora-governance" },
             { text: "SORA Academy", link: "sora-academy" },
             { text: "FAQ", link: "sora-faq" },
@@ -76,7 +75,6 @@ export default withMermaid(
             {
               text: "Polkaswap",
               link: "polkaswap",
-              collapsed: true,
               items: [
                 { text: "FAQ", link: "polkaswap-faq" },
                 {
@@ -91,7 +89,6 @@ export default withMermaid(
             },
             {
               text: "SORAcard",
-              collapsed: true,
               items: [
                 { text: "SORA Card Introduction", link: "sora-card" },
                 {
@@ -102,13 +99,13 @@ export default withMermaid(
             },
             {
               text: "SORA in Your Pocket",
-              collapsed: true,
               items: [
                 { text: "SORA Mobile", link: "mobile" },
                 { text: "Fearless Wallet", link: "fearless" },
               ],
             },
             { text: "SORA Synthetics", link: "synthetics" },
+            { text: "Consensus", link: "consensus" },
             { text: "Request Features", link: "rfp" },
           ],
         },
@@ -144,16 +141,12 @@ export default withMermaid(
                   text: "Staking in Fearless Wallet",
                   link: "stake-in-fearless-wallet",
                 },
-                {
-                  text: "Nominating Validators",
-                  link: "nominating-validators",
-                },
+                { text: "Nominating Validators", link: "nominating-validators" },
               ],
             },
-
+  
             {
               text: "DEX",
-              collapsed: true,
               items: [
                 { text: "Swap", link: "swap" },
                 {
@@ -161,7 +154,7 @@ export default withMermaid(
                   link: "provide-liquidity-to-xyk-pools",
                 },
                 { text: "Advanced Trading", link: "advanced-trading" },
-
+  
                 {
                   text: "Other Polkaswap Features",
                   link: "polkaswap-other-features",
@@ -169,19 +162,8 @@ export default withMermaid(
               ],
             },
             {
-              text: "Participating in Governance",
-              collapsed: true,
-              items: [
-                {
-                  text: "Fast Track Public Voting",
-                  link: "fast-track-public-voting",
-                },
-              ],
-            },
-            {
               text: "Interoperability",
               link: "interoperability",
-              collapsed: true,
               items: [
                 {
                   text: "EVM",
@@ -242,21 +224,17 @@ export default withMermaid(
                 { text: "Demeter Staking", link: "demeter-staking-polkaswap" },
               ],
             },
-
+  
             {
               text: "DEX",
-              collapsed: true,
               items: [
                 { text: "Swap", link: "swap-polkaswap" },
                 {
                   text: "Provide Liquidity to XYK Pools",
                   link: "provide-liquidity-to-xyk-pools-polkaswap",
                 },
-                {
-                  text: "Advanced Trading",
-                  link: "advanced-trading-polkaswap",
-                },
-
+                { text: "Advanced Trading", link: "advanced-trading-polkaswap" },
+  
                 {
                   text: "Other Polkaswap Features",
                   link: "polkaswap-other-features",
@@ -284,7 +262,6 @@ export default withMermaid(
             },
             { text: "Pallets", link: "pallets" },
             { text: "Technical Stack", link: "technical-stack" },
-            { text: "Consensus", link: "consensus" },
             { text: "Accounts", link: "accounts" },
           ],
         },
@@ -307,7 +284,7 @@ export default withMermaid(
           ],
         },
       ],
-
+  
       socialLinks: [
         { icon: "github", link: "https://github.com/sora-xor/sora-docs" },
       ],
@@ -320,10 +297,14 @@ export default withMermaid(
       },
       outline: "deep",
       outlineTitle: "Page Contents",
+      docFooter: {
+        prev: false,
+        next: false
+      }
     },
     srcDir: "./src",
     lastUpdated: true,
-    cleanUrls: true,
+    cleanUrls: false,
     ignoreDeadLinks: [/^https?:\/\/localhost/, /snippets\//],
     markdown: {
       config: (md) => {

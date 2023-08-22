@@ -47,7 +47,7 @@ XST is an algorithmic stablecoin for the SORA ecosystem, initially proposed in 2
 
 Now that stablecoins and synthetic assets have been defined and classified, you might be wondering what makes XST stand out from the rest?
 
-XST helps to solve the problem of XOR liquidity by creating synthetic assets backed by a variable amount of XST and pegged to a target index (e.g., a currency). XST is minted/deminted to always guarantee the value of the pegged index. The first index implemented is linked to the value of DAI and will be called XSTUSD.
+XST helps to solve the problem of XOR liquidity by creating synthetic assets backed by a variable amount of XST and pegged to a target index (e.g., a currency). XST is minted/deminted to always guarantee the value of the pegged index. The first index implemented is linked to the value of DAI and is called XSTUSD.
 
 ### Non-Collateralized Stability
 
@@ -59,7 +59,7 @@ SORA Synthetics do not require overcollateralization and users of SORA Synthetic
 
 Normally, algorithmic stablecoins derive their value from smart contracts linked to oracles that determine current prices, however, XSTUSD's value is currently derived from the price of XOR-DAI.
 
-## How Will This Be Implemented?
+## How Is It Implemented?
 
 XST implementation is quite an exciting topic, however, it isn't
 complete yet. The RFP proposing the implementation of XSTUSD has been
