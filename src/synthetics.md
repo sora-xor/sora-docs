@@ -75,16 +75,21 @@ In the case of synthetic assets, as they are backed by the XST platform token, X
 
 New synthetic assets can be linked to an oracle’s price feed via on-chain governance to create new synthetic assets (e.g., XSTXAU for a synthetic gold asset). The only limitation is getting the source of oracle data relayed to SORA.
 
-## Implementation
+## Base synthetic asset buy/sell limits
 
-### Extrinsics
+To safeguard against potential manipulative activities at the onset of the synthetic platform, a trading cap is introduced on the base asset (XST). A cap of 10 million XST is set for both buying and selling of synthetic assets.
+Trades exceeding this threshold will prompt an error message.
 
-#### Enabling synthetic asset
-- **`XSTPool::enable_synthetic_asset`**: enable selected synhtetic asset for trading (sudo only).
-  Parameters:
-  - `asset_id`: A synthetic asset's id.
-  - `reference_symbol`: An oracle symbol depicting the price of the selected synthetic asset.
-  - `fee_ratio`: Fixed point number depicting the fee ratio paid during trading the chosen synthetic asset.
+## Extrinsics
+
+<!-- TODO consider referencing the generated RUST documentation instead of describing all the extrinsic parameters here -->
+
+<!-- TODO Give thought to substituting the sequence diagrams with the activity diagrams -->
+
+### Enabling synthetic asset
+
+- **[`XSTPool::enable_synthetic_asset`](https://sora-xor.github.io/sora2-network/xst/pallet/struct.Pallet.html#method.enable_synthetic_asset)**
+
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -123,13 +128,10 @@ sequenceDiagram
     X-->>S: Ok
 ```
 
-#### Registring new synthetic asset
-- **`XSTPool::register_synthetic_asset`**: register new asset and enable it for trading as synthetic (sudo only).
-  Parameters:
-  - `asset_symbol`: An asset's symbol.
-  - `asset_name`: An asset's name.
-  - `reference_symbol`: An oracle symbol depicting the price of the new synthetic asset.
-  - `fee_ratio`: Fixed point number depicting the fee ratio paid during trading the chosen synthetic asset.
+### Registring new synthetic asset
+
+- **[`XSTPool::register_synthetic_asset`](https://sora-xor.github.io/sora2-network/xst/pallet/struct.Pallet.html#method.register_synthetic_asset)**
+
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -145,10 +147,10 @@ sequenceDiagram
     X-->>S: Ok
 ```
 
-#### Setting reference asset
-- **`XSTPool::set_reference_asset`**: set new asset id as the reference asset (sudo only).
-  Parameters:
-  - `reference_asset_id`: New reference asset id.
+### Setting reference asset
+
+- **[`XSTPool::set_reference_asset`](https://sora-xor.github.io/sora2-network/xst/pallet/struct.Pallet.html#method.set_reference_asset)**
+
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -168,10 +170,10 @@ sequenceDiagram
     X-->>S: Ok
 ```
 
-#### Disabling synthetic asset
-- **`XSTPool::disable_synthetic_asset`**: disable trading for selected synthetic asset (sudo only).
-  Parameters:
-  - `synthetic_asset`: Synthetic asset id for disabling.
+### Disabling synthetic asset
+
+- **[`XSTPool::disable_synthetic_asset`](https://sora-xor.github.io/sora2-network/xst/pallet/struct.Pallet.html#method.disable_synthetic_asset)**
+
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -190,10 +192,10 @@ sequenceDiagram
     X-->>S: Ok
 ```
 
-#### Removing synthetic asset
-- **`XSTPool::remove_synthetic_asset`**: remove synthetic asset from XSTPool (sudo only).
-  Parameters:
-  - `synthetic_asset`: Synthetic asset id for removal.
+### Removing synthetic asset
+
+- **[`XSTPool::remove_synthetic_asset`](https://sora-xor.github.io/sora2-network/xst/pallet/struct.Pallet.html#method.remove_synthetic_asset)**
+
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -208,11 +210,10 @@ sequenceDiagram
     X-->>S: Ok
 ```
 
-#### Setting synthetic asset fee
-- **`XSTPool::set_synthetic_asset_fee`**: set new fee ratio for particular synthetic asset (sudo only).
-  Parameters:
-  - `synthetic_asset`: Synthetic asset id.
-  - `fee_ratio`: New fee ratio
+### Setting synthetic asset fee
+
+- **[`XSTPool::set_synthetic_asset_fee`](https://sora-xor.github.io/sora2-network/xst/pallet/struct.Pallet.html#method.set_synthetic_asset_fee)**
+
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -227,10 +228,10 @@ sequenceDiagram
     X-->>S: Ok
 ```
 
-#### Setting synthetic base asset floor price
-- **`XSTPool::set_synthetic_base_asset_floor_price`**: set the new floor price for base synthetic asset (sudo only).
-  Parameters:
-  - `floor_price`: New floor price.
+### Setting synthetic base asset floor price
+
+- **[`XSTPool::set_synthetic_base_asset_floor_price`](https://sora-xor.github.io/sora2-network/xst/pallet/struct.Pallet.html#method.set_synthetic_base_asset_floor_price)**
+
 ```mermaid
 sequenceDiagram
     actor S as Sudo user
@@ -242,9 +243,9 @@ sequenceDiagram
     X-->>S: Ok
 ```
 
-### LiquiditySource trait implementation
+## LiquiditySource trait implementation
 
-#### Quoting synthetic asset
+### Quoting synthetic asset
 
 ```mermaid
 sequenceDiagram
@@ -271,7 +272,7 @@ sequenceDiagram
     X-->>L: Asset X quote amount
 ```
 
-#### Exchanging synthetic asset
+### Exchanging synthetic asset
 
 ```mermaid
 sequenceDiagram
@@ -308,7 +309,9 @@ sequenceDiagram
 ```
 
 ## Fallback mechanism
+
 The fallback mechanism in the XST Platform ensures the timely deactivation of outdated symbols.
+
 ```mermaid
 sequenceDiagram
     actor R as Relayer
@@ -316,7 +319,7 @@ sequenceDiagram
     participant X as XST Platform
     par
         R ->> B: relay/force relay symbol
-        B ->> B: Removing relayed symbol <br/> from SymbolCheckBlock if present 
+        B ->> B: Removing relayed symbol <br/> from SymbolCheckBlock if present
         B ->> B: Symbol last update block number is updated
         B ->> B: Adding relayed symbol <br/> to SymbolCheckBlock with key <br/> (current_block + 600 blocks ~ 1h, symbol)
     and
@@ -327,23 +330,22 @@ sequenceDiagram
     end
 ```
 
-## Base synthetic asset buy/sell limits
-To safeguard against potential manipulative activities at the onset of the synthetic platform, a trading cap is introduced on the base asset (XST). A cap of 10 million XST is set for both buying and selling of synthetic assets.
-Trades exceeding this threshold will prompt an error message.
-
 ## Dynamic fee mechanism
 
 ### Notation
-| Notation    | Description                          |
-| ----------- | ------------------------------------ |
-| $\delta$    | Price feed deviation threshold       |
-| $P_i$       | Current epoch (i) oracle price       |
-| $\tau$      | Dynamic fee decay constant           |
-| $\mu$       | Minimum dynamic fee                  |
-| $\phi_t(i)$ | The current epoch’s  (i) dynamic fee |
+
+| Notation    | Description                         |
+| ----------- | ----------------------------------- |
+| $\delta$    | Price feed deviation threshold      |
+| $P_i$       | Current epoch (i) oracle price      |
+| $\tau$      | Dynamic fee decay constant          |
+| $\mu$       | Minimum dynamic fee                 |
+| $\phi_t(i)$ | The current epoch’s (i) dynamic fee |
+
 where epoch denotes the period of time between oracle updates.
 
 ### Dynamic fee calculation
+
 To deter potential exploitative trading based on anticipated oracle price changes (namely frontrunning), we're implementing a dynamic fee, which is charged during any trade involving synthetic asset. This fee adjusts based on the percentage change in the oracle symbol price.
 
 Dynamic fee calculated as:
@@ -355,6 +357,7 @@ $\phi_D(0) = 0$
 The parameter constants are stored inside the Band pallet.
 
 ### How the fee is charged
+
 The dynamic fee is incorporated into $S_{f}$ term (which is defined in section **Quote/swap amount calculation process**). The $S_{f}$ is therefore defined as the sum of the dynamic fee ratio and a synthetic asset's base fee ratio, which is set via `XSTPool::set_synthetic_asset_fee`.
 
 ## Quote/swap amount calculation process
