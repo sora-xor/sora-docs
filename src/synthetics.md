@@ -1,5 +1,5 @@
 ---
-title: “SORA Synthetics Explained. How do SORA synthetic assets work" 
+title: “SORA Synthetics Explained. How do SORA synthetic assets work"
 head:
   - - meta
     - name: description
