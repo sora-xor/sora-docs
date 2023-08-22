@@ -24,7 +24,7 @@ SORA is receiving oraclised data to enable virtually any possible synthetic asse
 
 - **Financial Inclusion**: Synthetic assets can contribute to financial inclusion by providing individuals with limited access to traditional financial services an opportunity to participate in global markets and investment opportunities.
 
-**Lower Barriers to Entry**: Synthetic assets eliminate certain barriers to entry that exist in traditional financial markets. Users can start trading with lower capital requirements, fractional ownership options, and reduced transaction costs compared to traditional asset trading.
+- **Lower Barriers to Entry**: Synthetic assets eliminate certain barriers to entry that exist in traditional financial markets. Users can start trading with lower capital requirements, fractional ownership options, and reduced transaction costs compared to traditional asset trading.
 
 **Trading Opportunities**: Synthetic assets provide users with additional trading opportunities, allowing them to capitalise on market trends, price differentials, or arbitrage opportunities. Users can engage in leveraged trading or explore complex trading strategies.
 
