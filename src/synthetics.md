@@ -1,9 +1,15 @@
 ---
+title: “Sora Synthetics Explained. How do SORA synthetic assets work" 
 head:
+- - meta
+ - name: description
+ content: “Dive into Sora Synthetics Documentation - a Comprehensive Guide to Crafting and Managing Synthetic Tests. Elevate Your Application's Performance and Reliability. This guide offers a detailed walkthrough to design, implement, and monitor synthetic tests for optimal application performance. Explore code examples, strategies, and best practices to harness the full potential of SORA's synthetic monitoring capabilities"
+- - meta
+    - name: keywords
+	content: “SORA Synthetics, synthetic assets, application performance, code examples, dynamic fee mechanism, fallback mechanism, floor price, on-chain governance, trading cap, liquidity pools, fully collateralized, on-chain, off-chain indices, DeFi operations, censorship-resistant, oraclised data, XSTUSD, community, specialised token, collateral, SORA ecosystem, best practices, synthetic monitoring, Sora platform, performance optimization"
   - - link
     - rel: stylesheet
       href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
-# Add metatags
 ---
 
 # SORA Synthetics
