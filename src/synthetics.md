@@ -26,7 +26,7 @@ SORA is receiving oraclised data to enable virtually any possible synthetic asse
 
 - **Lower Barriers to Entry**: Synthetic assets eliminate certain barriers to entry that exist in traditional financial markets. Users can start trading with lower capital requirements, fractional ownership options, and reduced transaction costs compared to traditional asset trading.
 
-**Trading Opportunities**: Synthetic assets provide users with additional trading opportunities, allowing them to capitalise on market trends, price differentials, or arbitrage opportunities. Users can engage in leveraged trading or explore complex trading strategies.
+- **Trading Opportunities**: Synthetic assets provide users with additional trading opportunities, allowing them to capitalise on market trends, price differentials, or arbitrage opportunities. Users can engage in leveraged trading or explore complex trading strategies.
 
 **Diversification**: Synthetic assets enable users to diversify their investment portfolios by gaining exposure to a variety of asset classes, such as stocks, commodities, indices, or currencies.
 
