@@ -20,7 +20,7 @@ SORA is receiving oraclised data to enable virtually any possible synthetic asse
 
 ## Why are people usually attracted by synthetic assets ?
 
-**Access to Global Markets**: Synthetic assets allow users to gain exposure to a wide range of traditional and digital assets from different global markets. Users can invest in assets that may otherwise be inaccessible due to geographical or regulatory limitations.
+- **Access to Global Markets**: Synthetic assets allow users to gain exposure to a wide range of traditional and digital assets from different global markets. Users can invest in assets that may otherwise be inaccessible due to geographical or regulatory limitations.
 
 **Financial Inclusion**: Synthetic assets can contribute to financial inclusion by providing individuals with limited access to traditional financial services an opportunity to participate in global markets and investment opportunities.
 
