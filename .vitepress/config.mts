@@ -69,7 +69,8 @@ export default withMermaid(
         },
         {
           text: "Ecosystem",
-          collapsed: true,
+          collapsable: true,
+          collapsed: false,
           items: [
             { text: "Overview", link: "ecosystem" },
             { text: "Integrated Plan", link: "integrated-plan" },
@@ -112,7 +113,8 @@ export default withMermaid(
         },
         {
           text: "Participate in the SORA Economy",
-          collapsed: true,
+          collapsable: true,
+          collapsed: false,
           items: [
             { text: "Overview", link: "participate" },
             { text: "Create an Address", link: "create-an-address" },
@@ -202,7 +204,8 @@ export default withMermaid(
         },
         {
           text: "Polkaswap",
-          collapsed: true,
+          collapsable: true,
+          collapsed: false,
           items: [
             { text: "Overview", link: "participate" },
             { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
@@ -250,7 +253,8 @@ export default withMermaid(
         },
         {
           text: "Build",
-          collapsed: true,
+          collapsable: true,
+          collapsed: false,
           items: [
             { text: "Introduction", link: "build" },
             {
@@ -268,7 +272,8 @@ export default withMermaid(
         },
         {
           text: "Learn More",
-          collapsed: true,
+          collapsable: true,
+          collapsed: false,
           items: [
             {
               text: "Useful Links",
