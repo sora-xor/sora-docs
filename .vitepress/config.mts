@@ -26,7 +26,7 @@ export default withMermaid(
       sidebar: [
         {
           text: "Getting Started",
-          collapsable: ['tokenomics'],
+          collapsable: ['tokenomics', 'introduction'],
           collapsed: true,
           items: [
             { text: "Introduction", link: "introduction" },
