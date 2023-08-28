@@ -33,6 +33,8 @@ export default withMermaid(
             { text: "SORA Economy", link: "sora-economy" },
             {
               text: "Tokenomics",
+              collapsable: true,
+              collapsed: false,
               link: "tokenomics",
               items: [
                 {
