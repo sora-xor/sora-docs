@@ -91,7 +91,7 @@ export default withMermaid(
               ],
             },
             {
-              text: "SORAcard",
+              text: "SORA Card",
               items: [
                 { text: "SORA Card Introduction", link: "sora-card" },
                 {
