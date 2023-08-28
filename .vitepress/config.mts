@@ -27,6 +27,7 @@ export default withMermaid(
         {
           text: "Getting Started",
           collapsed: true,
+          collapsed: false
           items: [
             { text: "Introduction", link: "introduction" },
             { text: "SORA Economy", link: "sora-economy" },
