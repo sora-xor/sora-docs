@@ -9,7 +9,12 @@ export default withMermaid(
     title: "SORA Wiki",
     // base: "/sora-docs/",
     description: "Guides, how-tos, architecture",
-    head: [["meta", { name: "keywords", content: "SORA ecosystem" }]],
+    head: [
+      ["meta", { name: "keywords", content: "SORA ecosystem" }],
+      ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
+      ['link', { rel: 'icon', href: '/icon.svg', sizes: 'image/svg+xml' }],
+      ['link', { ref: 'apple-touch-icon', href: '/apple-touch-icon.png' }],    
+    ],
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
