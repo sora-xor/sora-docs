@@ -7,7 +7,7 @@ export default withMermaid(
   defineConfig({
     lang: "en-US",
     title: "docs",
-    //base: "/sora-docs/",
+    // base: "/sora-docs/",
     description: "Guides, how-tos, architecture",
     head: [["meta", { name: "keywords", content: "SORA ecosystem" }]],
     themeConfig: {
@@ -69,7 +69,6 @@ export default withMermaid(
         },
         {
           text: "Ecosystem",
-          collapsed: true,
           items: [
             { text: "Overview", link: "ecosystem" },
             { text: "Integrated Plan", link: "integrated-plan" },
@@ -112,7 +111,6 @@ export default withMermaid(
         },
         {
           text: "Participate in the SORA Economy",
-          collapsed: true,
           items: [
             { text: "Overview", link: "participate" },
             { text: "Create an Address", link: "create-an-address" },
@@ -202,7 +200,6 @@ export default withMermaid(
         },
         {
           text: "Polkaswap",
-          collapsed: true,
           items: [
             { text: "Overview", link: "participate" },
             { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
@@ -250,7 +247,6 @@ export default withMermaid(
         },
         {
           text: "Build",
-          collapsed: true,
           items: [
             { text: "Introduction", link: "build" },
             {
@@ -268,7 +264,6 @@ export default withMermaid(
         },
         {
           text: "Learn More",
-          collapsed: true,
           items: [
             {
               text: "Useful Links",
