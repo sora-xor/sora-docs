@@ -27,13 +27,12 @@ export default withMermaid(
         {
           text: "Getting Started",
           collapsable: true,
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: "Introduction", link: "introduction" },
             { text: "SORA Economy", link: "sora-economy" },
             {
               text: "Tokenomics",
-              collapsable: true,
               collapsed: true,
               link: "tokenomics",
               items: [
