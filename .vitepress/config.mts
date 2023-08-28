@@ -26,8 +26,8 @@ export default withMermaid(
       sidebar: [
         {
           text: "Getting Started",
-          collapsed: true,
-          collapsed: false
+          collapsable: true,
+          collapsed: false,
           items: [
             { text: "Introduction", link: "introduction" },
             { text: "SORA Economy", link: "sora-economy" },
