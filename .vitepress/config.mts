@@ -310,7 +310,7 @@ export default withMermaid(
     },
     srcDir: "./src",
     lastUpdated: true,
-    cleanUrls: true,
+    cleanUrls: false,
     ignoreDeadLinks: [/^https?:\/\/localhost/, /snippets\//],
     markdown: {
       config: (md) => {
