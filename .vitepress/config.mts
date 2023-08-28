@@ -310,7 +310,7 @@ export default withMermaid(
     },
     srcDir: "./src",
     lastUpdated: true,
-    cleanUrls: false,
+    cleanUrls: true,
     ignoreDeadLinks: [/^https?:\/\/localhost/, /snippets\//],
     markdown: {
       config: (md) => {
@@ -319,17 +319,3 @@ export default withMermaid(
     },
   })
 );
-
-export interface DocSidebar {
-  isOpen: Ref<boolean>
-  sidebar: ComputedRef<DefaultTheme.SidebarItem[]>
-  sidebarGroups: ComputedRef<DefaultTheme.SidebarItem[]>
-  hasSidebar: ComputedRef<boolean>
-  hasAside: ComputedRef<boolean>
-  leftAside: ComputedRef<boolean>
-  isSidebarEnabled: ComputedRef<boolean>
-  open: () => void
-  close: () => void
-  toggle: () => void
-}
-
