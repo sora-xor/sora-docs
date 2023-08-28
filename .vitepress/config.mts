@@ -26,7 +26,7 @@ export default withMermaid(
       sidebar: [
         {
           text: "Getting Started",
-          collapsable: ['*'],
+          collapsable: false,
           collapsed: true,
           items: [
             { text: "Introduction", link: "introduction" },
