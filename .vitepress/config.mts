@@ -6,9 +6,9 @@ import markdownItKatex from "markdown-it-katex";
 export default withMermaid(
   defineConfig({
     lang: "en-US",
-    title: "SORA Wiki",
+    title: "Welcome to the SORA Wiki",
     // base: "/sora-docs/",
-    description: "Guides, how-tos, architecture",
+    description: "Your Gateway to Knowledge about the SORA Network",
     head: [
       ["meta", { name: "keywords", content: "SORA ecosystem" }],
       ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],

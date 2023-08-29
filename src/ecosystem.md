@@ -44,6 +44,8 @@ head:
 
 # The SORA Ecosystem
 
+![](.gitbook/assets/SORA-Ecosystem.png)
+
 SORA is a community-first network within the Substrate ecosystem. As
 of writing, the SORA Kusama parachain is currently active, with the
 SORA Polkadot parachain coming soon.
