@@ -55,7 +55,7 @@ SORA is an on-chain governance system based around the XOR token that allows pro
 We believe that inflation is good only if tokens are minted for producing new goods or services.
 :::
 
-SORA mechanism is based on the **General Theory of macroeconomics**:
+SORA mechanism is based on the **General Quantity Theory (also known as the Disaggregated Quantity Theory of Credit/Money) of macroeconomics**:
 
 <iframe width="100%" height="484" src="https://www.youtube.com/embed/KEfdlctvHH4" title="SORA Economic Forum — KEYNOTE: &#39;Disaggregated Quantity Theory of Credit&#39; by Professor Richard Werner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
