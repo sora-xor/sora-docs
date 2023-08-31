@@ -15,8 +15,7 @@ SORA Synthetics are tokens pegged to value indices, backed by XST,
 the first SORA Synthetic asset is the DAI-pegged XSTUSD. SORA
 Synthetic XST assets for other major stores of value will be
 available soon as part of the SORA Synthetics update on Polkaswap. XST was [proposed as an
-RFP](https://github.com/sora-xor/rfps/pull/8/files) and is currently
-on the SORA testnet
+RFP](https://github.com/sora-xor/rfps/pull/8/files) and is currently live on the SORA network.
 
 ## Fisher's Compensated Dollar
 

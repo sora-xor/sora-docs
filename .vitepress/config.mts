@@ -6,10 +6,15 @@ import markdownItKatex from "markdown-it-katex";
 export default withMermaid(
   defineConfig({
     lang: "en-US",
-    title: "docs",
+    title: "Welcome to the SORA Wiki",
     // base: "/sora-docs/",
-    description: "Guides, how-tos, architecture",
-    head: [["meta", { name: "keywords", content: "SORA ecosystem" }]],
+    description: "Your Gateway to Knowledge about the SORA Network",
+    head: [
+      ["meta", { name: "keywords", content: "SORA ecosystem" }],
+      ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
+      ['link', { rel: 'icon', href: '/icon.svg', sizes: 'image/svg+xml' }],
+      ['link', { ref: 'apple-touch-icon', href: '/apple-touch-icon.png' }],    
+    ],
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
@@ -90,7 +95,7 @@ export default withMermaid(
               ],
             },
             {
-              text: "SORAcard",
+              text: "SORA Card",
               items: [
                 { text: "SORA Card Introduction", link: "sora-card" },
                 {
