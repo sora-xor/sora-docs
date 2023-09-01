@@ -79,14 +79,14 @@ export default withMermaid(
               text: "Polkaswap",
               link: "polkaswap",
               items: [
-                { text: "FAQ", link: "polkaswap-faq" },
+                { text: "FAQ", link: "polkaswap/polkaswap-faq" },
                 {
                   text: "Memorandum and Terms of Services",
-                  link: "polkaswap-terms",
+                  link: "polkaswap/terms",
                 },
                 {
                   text: "Privacy Policy",
-                  link: "polkaswap-privacy",
+                  link: "polkaswap/privacy",
                 },
               ],
             },
