@@ -58,7 +58,7 @@ program.
 The SORA Integrated Plan as well as its current milestones are hosted
 here. You will also find information on
 [Polkaswap](https://polkaswap.io/), such as the [Memorandum and
-T&C's](polkaswap-terms.md) and the [Polkaswap privacy policy](polkaswap-privacy.md).
+T&C's](polkaswap/terms) and the [Polkaswap privacy policy](polkaswap/privacy).
 
 Information on the [SORA Synthetics](xst.md) and [SORA Card](sora-card.md) are also available
 here. An important part of the SORA ecosystem are the wallets you can
