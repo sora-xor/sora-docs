@@ -45,6 +45,7 @@ head:
 # The SORA Ecosystem
 
 ![](.gitbook/assets/SORA-Ecosystem.png)
+
 <center><i>SORA Ecosystem Overview, including parachains and current SORA Builders</i> </center>
 
 SORA is a community-first network within the Substrate ecosystem. As
