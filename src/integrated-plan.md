@@ -36,7 +36,7 @@ head:
 
 ![](https://sora.org/plan)
 
-<center><i>The SORA integrated plan is available at [SORA.org/plan] (https://sora.org/plan)</i></center>
+<center><i>The SORA integrated plan is available at [SORA.org/plan](https://sora.org/plan)</i></center>
 
 The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, and **Mobile/Other** tracks.
 
