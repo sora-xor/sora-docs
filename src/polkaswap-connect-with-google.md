@@ -10,8 +10,9 @@ head:
 ---
 
 # Connect With Google
-Connecting to [Polkaswap.io ](https://polkaswap.io/#/wallet) has never been easier. Use a Google login to access your SORA account with style and freedom. 
-This feature is for people who are new at DeFi and blockchain accounts. 
+
+Connecting to [Polkaswap.io ](https://polkaswap.io/#/wallet) has never been easier. Use a Google login to access your SORA account with style and freedom.
+This feature is for people who are new at DeFi and blockchain accounts.
 **Never share your personal account information with anyone**.
 
 ![](.gitbook/assets/google-login-1.png)
@@ -20,7 +21,7 @@ This feature is for people who are new at DeFi and blockchain accounts.
 
 ![](.gitbook/assets/google-login-2.png)
 
-2. Click on Google and sign in with the existing account on your computer or create a new account. 
+2. Click on Google and sign in with the existing account on your computer or create a new account.
 
 ![](.gitbook/assets/google-login-3.png)
 
@@ -43,18 +44,18 @@ This feature is for people who are new at DeFi and blockchain accounts.
 7. Give your account a name and password, then confirm the password. You can also export a JSON file at this point. **If you toggle the JSON file for the account restoration option, Polkaswap will download your account’s JSON file to your computer or device.**
 
 ::: info
-You can use the JSON file to import an account on Polkaswap or another wallet. 
+You can use the JSON file to import an account on Polkaswap or another wallet.
 :::
 
 ![](.gitbook/assets/google-login-8.png)
 
-Success! You have created a SORA account to use on Polkaswap using Google! 
+Success! You have created a SORA account to use on Polkaswap using Google!
 
 ![](.gitbook/assets/google-importing-4.png)
 
 To access Polkaswap using this account, click on the account’s name, then input the account password you set in the last step.
 
-***You are now connected through Google with style and freedom!***
+**_You are now connected through Google with style and freedom!_**
 
 ## Importing an Existing Google Account
 
@@ -66,8 +67,8 @@ To access Polkaswap using this account, click on the account’s name, then inpu
 
 ![](.gitbook/assets/google-importing-2.png)
 
-3. Here you can drag and drop the JSON file for your account, and there are also tutorials to help you export your JSON file from [Fearless 
-Wallet](https://wiki.fearlesswallet.io/accounts/walkthrough/exporting-and-importing-a-wallet-using-a-json-file), [Polkadot JS](https://support.polkadot.network/support/solutions/articles/65000177677-how-to-export-your-json-backup-file), and [Subwallet.](https://docs.subwallet.app/extension-user-guide/export-and-backup-an-account)
+3. Here you can drag and drop the JSON file for your account, and there are also tutorials to help you export your JSON file from [Fearless
+   Wallet](https://wiki.fearlesswallet.io/accounts/walkthrough/exporting-and-importing-a-wallet-using-a-json-file), [Polkadot JS](https://support.polkadot.network/support/solutions/articles/65000177677-how-to-export-your-json-backup-file), and [Subwallet.](https://docs.subwallet.app/extension-user-guide/export-and-backup-an-account)
 
 ![](.gitbook/assets/google-importing-3.png)
 
@@ -89,10 +90,10 @@ After your Google account has been selected as the active account, your balances
 
 ![](.gitbook/assets/google-transaction-2.png)
 
-2. The Polkaswap interface will request your password to sign the transaction for your Google account, keeping it as safe as any dApp signer.  You can also set Polkaswap to remember your password for fifteen minutes in *[Substrate Style](create-an-address.md#via-polkadot-js-browser-plugin)*.
+2. The Polkaswap interface will request your password to sign the transaction for your Google account, keeping it as safe as any dApp signer. You can also set Polkaswap to remember your password for fifteen minutes in _[Substrate Style](create-an-address.md#via-polkadot-js-browser-plugin)_.
 
 ![](.gitbook/assets/google-transaction-3.png)
 
-The same will apply to liquidity provision transactions, both double (*pooling*) and single-sided (*staking*)—as well as Bridge transactions and claiming rewards. 
+The same will apply to liquidity provision transactions, both double (_pooling_) and single-sided (_staking_)—as well as Bridge transactions and claiming rewards.
 
 ### Read More: [Liquidity Operations on Polkaswap](https://wiki.sora.org/provide-liquidity-to-xyk-pools-polkaswap.html), [Swaps on Polkaswap](https://wiki.sora.org/swap-polkaswap.html)
