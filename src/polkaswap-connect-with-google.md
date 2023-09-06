@@ -12,7 +12,7 @@ head:
 # Connect With Google
 
 Connecting to [Polkaswap.io](https://polkaswap.io/#/wallet) has never been easier. Use a Google login to access your SORA account with style and freedom.
-This feature is for people who are new at DeFi and blockchain accounts.
+This feature would be of most interest to people who are new at DeFi and blockchain accounts.
 ::: warning
 Never share your personal account information with anyone.
 :::
