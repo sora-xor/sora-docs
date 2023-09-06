@@ -70,7 +70,7 @@ To access Polkaswap using this account, click on the account’s name, then inpu
 ![](.gitbook/assets/google-importing-2.png)
 
 3. Here you can drag and drop the JSON file for your account, and there are also tutorials to help you export your JSON file from [Fearless
-   Wallet](https://wiki.fearlesswallet.io/accounts/walkthrough/exporting-and-importing-a-wallet-using-a-json-file), [Polkadot JS](https://support.polkadot.network/support/solutions/articles/65000177677-how-to-export-your-json-backup-file), and [Subwallet.](https://docs.subwallet.app/extension-user-guide/export-and-backup-an-account)
+   Wallet](https://wiki.fearlesswallet.io/accounts/walkthrough/exporting-and-importing-a-wallet-using-a-json-file), [Polkadot JS](https://support.polkadot.network/support/solutions/articles/65000177677-how-to-export-your-json-backup-file), and [Subwallet](https://docs.subwallet.app/extension-user-guide/export-and-backup-an-account).
 
 ![](.gitbook/assets/google-importing-3.png)
 
