@@ -3,7 +3,7 @@ title: "Polkaswap Google Login Tutorial | Securely Connect Your Account"
 head:
   - - meta
     - name: description
-      content: "Learn how to securely connect your Polkaswap account with Google in this step-by-step tutorial. Follow our guide to create a new account, import an existing one using a JSON file, and make secure transactions with your Google account. Ensure the safety of your assets on Polkaswap while enjoying style and freedom in your transactions."
+      content: "Learn how to securely connect your Polkaswap account with a Google account in this step-by-step tutorial. Follow our guide to create a new account, import an existing one using a JSON file, and make secure transactions with your Google account. Ensure the safety of your assets on Polkaswap while enjoying style and freedom in your transactions."
   - - meta
     - name: keywords
       content: "Polkaswap Google login, Polkaswap account, Google account, Polkaswap tutorial, connect account, Google login tutorial, SORA account, import account, JSON file, transaction security"
