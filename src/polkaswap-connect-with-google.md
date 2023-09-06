@@ -96,4 +96,4 @@ After your Google account has been selected as the active account, your balances
 
 The same will apply to liquidity provision transactions, both double (_pooling_) and single-sided (_staking_)—as well as Bridge transactions and claiming rewards.
 
-### Read More: [Liquidity Operations on Polkaswap](https://wiki.sora.org/provide-liquidity-to-xyk-pools-polkaswap.html), [Swaps on Polkaswap](https://wiki.sora.org/swap-polkaswap.html)
+### Read More: [Liquidity Operations on Polkaswap](/provide-liquidity-to-xyk-pools-polkaswap), [Swaps on Polkaswap](/swap-polkaswap)
