@@ -19,7 +19,7 @@ Never share your personal account information with anyone.
 
 ![](.gitbook/assets/google-login-1.png)
 
-1. Navigate to the Account section in [Polkaswap.io ](https://polkaswap.io/#/wallet) and click the “Switch Account” button.
+1. Navigate to the Account section in [Polkaswap.io](https://polkaswap.io/#/wallet) and click the “Switch Account” button.
 
 ![](.gitbook/assets/google-login-2.png)
 
