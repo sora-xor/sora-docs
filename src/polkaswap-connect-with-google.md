@@ -39,7 +39,7 @@ Never share your personal account information with anyone.
 
 ![](.gitbook/assets/google-login-6.png)
 
-6. Confirm your passphrase to secure your account, or skip the process. (You can return to confirm your passphrase later.
+6. Confirm your passphrase to secure your account, or skip the process. You can return to confirm your passphrase later.
 
 ![](.gitbook/assets/google-login-7.png)
 
