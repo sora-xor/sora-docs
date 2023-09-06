@@ -18,7 +18,7 @@ head:
 ## Why Implement Token Bonding Curve Dollars (TBCD)
 
 The SORA ecosystem has grown over the years and now there are many
-tokens and [eclectic](https://cerestoken.io)  [builders](https://adar.com). With growth comes maturity, and SORA has
+tokens and [eclectic](https://cerestoken.io) [builders](https://adar.com). With growth comes maturity, and SORA has
 recently been moving towards spinning out XSTUSD, a synthetic
 stablecoin, into the comprehensive [SORA Synthetics (XST) ](xst.md) platform.
 
