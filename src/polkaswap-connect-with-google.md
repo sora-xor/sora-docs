@@ -27,7 +27,7 @@ Never share your personal account information with anyone.
 
 ![](.gitbook/assets/google-login-3.png)
 
-3. Allow [Polkaswap.io ](http://Polkaswap.io) access to your Google account, after allowing this permission, Polkaswap will use the keys to your account, safely stored within your Google Drive.
+3. Allow [Polkaswap.io](http://Polkaswap.io) access to your Google account, after allowing this permission, Polkaswap will use the keys to your account, safely stored within your Google Drive.
 
 ![](.gitbook/assets/google-login-4.png)
 
