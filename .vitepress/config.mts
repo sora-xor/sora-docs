@@ -204,8 +204,9 @@ export default withMermaid(
         {
           text: "Polkaswap",
           items: [
-            { text: "Overview", link: "participate" },
+            { text: "Overview", link: "polkaswap" },
             { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
+	     { text: "Connect with Google", link: "polkaswap-connect-with-google" },
             {
               text: "Send & Receive",
               link: "send-and-receive-polkaswap",

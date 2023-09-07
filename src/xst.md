@@ -98,3 +98,8 @@ J. M. Keynes, Irving Fisher, Harry G. Brown. The Purchasing Power of Money: Its 
 Patinkin, D. (n.d.). Irving Fisher and His Compensated Dollar Plan. 34.
 
 Takemiya, M. (2019). SORA: A Decentralized Autonomous Economy. 2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC). doi:10.1109/BLOC.2019.8751489
+
+## Learn More
+
+- [SORA Synthetics](/synthetics.md)
+- [SORA Economy](/sora-economy.md)

@@ -60,4 +60,11 @@ The SORA Parliament utilizes **Supranational Global Governance**. This method ha
 - **Isegoria**: the right of all citizens to speak and contribute
 - **Sortition**: randomly choosing groups of citizens to make decisions
 
-Check out [this Medium article](https://medium.com/sora-xor/the-sora-parliament-af8184dae384) to find more about the Parliament and the governance bodies.
+Check out [this Medium
+article](https://medium.com/sora-xor/the-sora-parliament-af8184dae384)
+to find more about the Parliament and the governance bodies.
+
+## Learn More
+
+- [XOR](/xor.md)
+- [Request Features on SORA](/rfp.md)
