@@ -310,5 +310,16 @@ export default withMermaid(
         md.use(markdownItKatex);
       },
     },
+    locales: {
+      root: {
+        label: 'English',
+        lang: 'en'
+      },
+      es: {
+        label: 'Español',
+        lang: 'es', // optional, will be added  as `lang` attribute on `html` tag
+        link: "es"
+      }
+    }
   })
 );
