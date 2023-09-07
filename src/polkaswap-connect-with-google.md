@@ -61,7 +61,7 @@ To access Polkaswap using this account, click on the account’s name, then inpu
 
 ## Importing an Existing Google Account
 
-1. With the JSON file of the account you want to import easy to reach, navigate to the Account section on Polkaswap and click the Switch account button.
+1. With the JSON file of the account you want to import at hand, navigate to the Account section on Polkaswap and click the Switch account button.
 
 ![](.gitbook/assets/google-importing-1.png)
 
