@@ -123,3 +123,8 @@ A nominator is a normal user who publishes a list of trusted validator candidate
 You can [read more here](/consensus) as well.
 
 To learn how to stake your XOR, have a look at the dedicated tutorial.
+
+## Learn More
+
+- [XOR](/xor.md)
+- [SORA Economy](/sora-economy.md)

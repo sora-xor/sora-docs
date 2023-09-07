@@ -34,3 +34,8 @@ VAL is the validator reward token for the SORA network, used to reward those tha
 - Former v1 XOR holders (in Q4 2020)
 - ERC-20 XOR holders as an airdrop (vested over time)
 - An investment vehicle for the SORA ecosystem
+
+## Learn More
+
+- [How to Run a SORA Mainnet Node](/running-a-node.md)
+- [Consensus on SORA](/consensus.md)

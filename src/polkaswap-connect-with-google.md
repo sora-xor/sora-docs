@@ -100,5 +100,5 @@ The same will apply to liquidity provision transactions, both double (_pooling_)
 
 ## Learn More
 
-- [Liquidity Operations on Polkaswap](/provide-liquidity-to-xyk-pools-polkaswap)
-- [Swaps on Polkaswap](/swap-polkaswap)
+- [Liquidity Operations on Polkaswap](/provide-liquidity-to-xyk-pools-polkaswap.md)
+- [Swaps on Polkaswap](/swap-polkaswap.md)

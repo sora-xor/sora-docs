@@ -90,3 +90,8 @@ In addition, Parity is also developing a Polkadot <> Kusama bridge. DOT will als
 DOT and KSM tokens held in reserves by the token bonding curve will be used to make a bid for a subsequent parachain slot for the SORA ecosystem.
 
 [**Double rewards**](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) **will be given to users who buy XOR with KSM and DOT**, as these two currencies are crucial for the SORA network.
+
+## Learn More
+
+- [SORA Economy](/sora-economy.md)
+- [XOR](/xor.md)

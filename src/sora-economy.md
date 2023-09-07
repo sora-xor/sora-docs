@@ -47,6 +47,7 @@ head:
     - name: twitter:creator
       content: "@sora_xor"
 ---
+# SORA Economy
 
 ## Background
 
@@ -159,3 +160,8 @@ While the SORA economy is in its infant phase, the token bonding curve plays a c
 ## Towards a New Tomorrow
 
 One of the reasons decentralized P2P economic systems haven't been more widely adopted and lack sophistication is not having access to an elastic supply of capital via a central bank or mutual savings bank. By decentralizing the concept of a central bank, blockchain networks can finally create and allocate capital to fund worthwhile producers as well as needed infrastructure and public goods. With its interoperable technology, SORA can become the decentralized central bank for the world of blockchains, financing the creation of new and exciting applications.
+
+## Learn More
+
+- [SORA Governance](/sora-governance.md)
+- [Token Bonding Curve](/tbc.md)

@@ -73,7 +73,13 @@ participants](sora-builders.md).
 
 - [ADAR](https://github.com/soramitsu/adar/releases)
 
-- Fearless Wallet
+- [Fearless Wallet](https://fearlesswallet.io/)
   - [Android](https://github.com/soramitsu/fearless-Android/releases)
   - [iOS](https://github.com/soramitsu/fearless-iOS/releases)
   - [Web](https://github.com/soramitsu/fearless-wallet-web/releases)
+
+## Learn More
+
+- [SORA Integrated Plan](/integrated-plan.md)
+- [Request Features on SORA](/rfp.md)
+
