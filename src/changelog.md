@@ -82,4 +82,3 @@ participants](sora-builders.md).
 
 - [SORA Integrated Plan](/integrated-plan.md)
 - [Request Features on SORA](/rfp.md)
-

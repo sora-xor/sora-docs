@@ -47,6 +47,7 @@ head:
     - name: twitter:creator
       content: "@sora_xor"
 ---
+
 # SORA Economy
 
 ## Background
