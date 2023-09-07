@@ -118,3 +118,8 @@ Thankfully, there is plenty of content to get you started with DeFi in the SORA 
 The best part of DeFi on SORA is that you are also entitled to [rewards](rewards.md) for using platforms such as [Polkaswap](https://polkaswap.io/#/rewards) to provide liquidity or by making many transactions within a certain time frame! There is a detailed explanation on the Rewards in Polkaswap you can receive.
 
 With all these resources, there is nothing left to do but [dive into DeFi!](https://polkaswap.io/#/swap) Make sure to always research projects that you are interested in (#DYOR), and if it sounds too good to be true, it usually is.
+
+## Learn More
+
+- [Create an Account on SORA](/create-an-address.md)
+- [Send and Receive an Asset](/send-and-receive.md)

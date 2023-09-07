@@ -89,3 +89,8 @@ purchasing goods and services, and paying taxes, can lead to increased
 economic growth, because increased productive output can be funded.
 
 [Read the entire **SORA whitepaper** by Dr. Makoto Takemiya.](https://sora.org/pub/The-Case-for-XOR.pdf)
+
+## Learn More
+
+- [SORA Economy](/sora-economy.md)
+- [SORA Tokenomics](/tokenomics.md)

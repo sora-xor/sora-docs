@@ -51,3 +51,8 @@ The table below lists the technical accounts holding XOR and additional addresse
 | cnTQ1kbv7PBNNQrEb1tZpmK7kr72qNfcUDvqPxUdw4h2A5axX                                                                                       | **Farming Rewards**                                                                                                                |
 | cnTQ1kbv7PBNNQrEb1tZpmK7iW5aLF24hi1k1H4t3L49TzhPe                                                                                       | **Pre-Launch PSWAP and VAL Reserve Account**                                                                                       |
 | cnTQ1kbv7PBNNQrEb1tZpmK7ftiv4yCCpUQy1J2y7Y54Taiaw                                                                                       | **PSWAP Distribution for Liquidity Providers**                                                                                     |
+
+## Learn More
+
+- [SORA Tokenomics](/tokenomics.md)
+- [VAL](/val.md)

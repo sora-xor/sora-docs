@@ -76,3 +76,8 @@ selling XOR via a primary market at a premium to the free-floating
 secondary market.
 
 Overall, TBCD is an innovative stablecoin that uses the SORA token bonding curve to maintain its price stability. This is a great development for the cryptocurrency market, as it provides users with a reliable stablecoin that’s backed by the U.S. dollar. Furthermore, the SORA token bonding curve helps increase the liquidity of TBCD, making it easier for users to buy and sell the token.
+
+## Learn More
+
+- [Token Bonding Curve](/tbc.md)
+- [SORA Governance](/sora-governance.md)
