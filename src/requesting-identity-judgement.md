@@ -10,9 +10,11 @@ head:
 ---
 
 # Requesting Identity Judgement
+
 ## TL;DR
-- You can set an on-chain identity to make it easier for others to recognize your address. 
-- As a Validator, it adds extra confidence to Nominators if they know your on-chain identity. 
+
+- You can set an on-chain identity to make it easier for others to recognize your address.
+- As a Validator, it adds extra confidence to Nominators if they know your on-chain identity.
 - This tutorial will help you set up an on-chain identity and request a judgement to your identity (as a trusted or verified entity on the SORA network)
 
 ## 1. Setting an On-Chain Identity
@@ -24,8 +26,7 @@ head:
 
 2. Add the details you wish to be public and click `Set identity`.
 
-![](.gitbook/assets/set-onchain-identity-2.png)
-3. A deposit of 0.01XOR is required.
+![](.gitbook/assets/set-onchain-identity-2.png) 3. A deposit of 0.01XOR is required.
 
 ## 2. Request Judgement from a Registrar
 
@@ -35,9 +36,9 @@ head:
 
 2. Using the account you wish to be verified, select `Identity` and
    `requestJudgement` then, under `regIndex`, place `1` (`reg_index 0` is no
-   longer active), and  under `maxFee` input `100`. The registrar fee is
+   longer active), and under `maxFee` input `100`. The registrar fee is
    100 XOR, excluding the transaction fee.
-   
+
 ![](.gitbook/assets/request-judgement-registrar-2.png)
 
 3. Submit the transaction.
@@ -45,7 +46,7 @@ head:
 ## 3. Donate to the Community Marketing Funds Address
 
 Donate a minimum of 5 XSTUSD per account requesting judgement to the
-Community Marketing Funds address. 
+Community Marketing Funds address.
 
 `cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`
 
@@ -55,11 +56,11 @@ This is a community base wallet which funds are used for marketing SORA.
 
 ## 4. Contact the Registrar
 
-- Direct contact with the registrar is required - the contact info is in their identity. 
-`Reg_Index 1` is `SPICY`.
-You can contact the registrar on:
+- Direct contact with the registrar is required - the contact info is in their identity.
+  `Reg_Index 1` is `SPICY`.
+  You can contact the registrar on:
 - Telegram - [SpicyHotWings ](https://t.me/SpicyHotWings)
-- Twitter -  [@mishokanaria](https://twitter.com/MishoKanaria)
+- Twitter - [@mishokanaria](https://twitter.com/MishoKanaria)
 - Riot (Matrix) - [spicyhotwings](https://matrix.to/#/@spicyhotwings:matrix.org)
 
 ## 5. Verify your Identity
