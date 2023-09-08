@@ -26,7 +26,9 @@ head:
 
 2. Add the details you wish to be public and click `Set identity`.
 
-![](.gitbook/assets/set-onchain-identity-2.png) 3. A deposit of 0.01XOR is required.
+![](.gitbook/assets/set-onchain-identity-2.png)
+
+3. Deposit 0.01XOR.
 
 ## 2. Request Judgement from a Registrar
 
