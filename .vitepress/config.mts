@@ -199,6 +199,7 @@ export default withMermaid(
             { text: "Rewards", link: "rewards" },
             { text: "Nodes Connection", link: "nodes-connection" },
             { text: "Running a Node", link: "running-a-node" },
+	    { text: "Requesting Identity Judgement", link: "requesting-identity-judgement" }
           ],
         },
         {
