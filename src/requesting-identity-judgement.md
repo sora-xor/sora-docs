@@ -19,7 +19,7 @@ head:
 
 ## 1. Setting an On-Chain Identity
 
-1.  To do this, click the 3 vertical dots next to your account on
+1. Click the 3 vertical dots next to your account on
     Polkadot.js and select `Set on-chain identity`.
 
 ![](.gitbook/assets/set-onchain-identity-1.png)
