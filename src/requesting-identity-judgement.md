@@ -61,6 +61,7 @@ The funds from this community base wallet are used for marketing SORA.
 Direct contact with the registrar is required. You can find the contact info is in their identity. For example, `Reg_Index 1` is `SPICY`.
 
 You can contact the registrar on:
+
 - Telegram: [SpicyHotWings](https://t.me/SpicyHotWings)
 - Twitter: [@mishokanaria](https://twitter.com/MishoKanaria)
 - Riot (Matrix): [spicyhotwings](https://matrix.to/#/@spicyhotwings:matrix.org)
