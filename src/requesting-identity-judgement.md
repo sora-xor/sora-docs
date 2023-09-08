@@ -53,7 +53,7 @@ Community Marketing Funds address:
 `cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`
 
 :::info
-This is a community base wallet which funds are used for marketing SORA.
+The funds from this community base wallet are used for marketing SORA.
 :::
 
 ## 4. Contact the Registrar
