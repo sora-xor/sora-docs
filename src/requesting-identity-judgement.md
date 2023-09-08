@@ -48,7 +48,7 @@ head:
 ## 3. Donate to the Community Marketing Funds Address
 
 Donate a minimum of 5 XSTUSD per account requesting judgement to the
-Community Marketing Funds address.
+Community Marketing Funds address:
 
 `cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`
 
