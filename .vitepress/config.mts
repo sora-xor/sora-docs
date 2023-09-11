@@ -195,11 +195,10 @@ export default withMermaid(
             },
             { text: "Referral System", link: "/referral" },
             { text: "NFT", link: "nft" },
-            { text: "Identity", link: "id" },
+            { text: "Requesting Identity Judgement", link: "id" },
             { text: "Rewards", link: "rewards" },
             { text: "Nodes Connection", link: "nodes-connection" },
             { text: "Running a Node", link: "running-a-node" },
-	    { text: "Requesting Identity Judgement", link: "requesting-identity-judgement" }
           ],
         },
         {
