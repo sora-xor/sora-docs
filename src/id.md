@@ -24,7 +24,7 @@ head:
 Requirements:
 
 - A SORA account (Follow the [Account Creation
-  tutorial](create-an-address.md) if you don't have one) 
+  tutorial](create-an-address.md) if you don't have one)
 - ~0.005 XOR to pay the fee
 
 Follow these steps to set up an identity:
@@ -39,11 +39,11 @@ Follow these steps to set up an identity:
 
    <center><img src="/.gitbook/assets/id-register-id.png" width="400"></center>
 
-   ::: info
+::: info
 
-   Please note that you will have to pay a small XOR transaction fee for signing.
+Please note that you will have to pay a small XOR transaction fee for signing.
 
-   :::
+:::
 
 Once the transaction is completed your account will show an identity!
 
