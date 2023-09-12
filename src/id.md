@@ -23,18 +23,19 @@ head:
 
 Requirements:
 
-- SORA account
+- A SORA account (Follow the [Account Creation
+  tutorial](create-an-address.md) if you don't have one) 
 - ~0.005 XOR to pay the fee
 
 Follow these steps to set up an identity:
 
-1. Go to the [Polkadot JS Apps pointing at the Sora Mainnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.mof.sora.org#/accountss) account's tab:
+#### 1. Go to the [Polkadot JS Apps pointing at the Sora Mainnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.mof.sora.org#/accountss) account's tab:
 
-2. Click on the hamburger menu icon on the account you wish to register an identity for. Then select "Set on-chain identity":
+#### 2. Click on the hamburger menu icon on the account you wish to register an identity for. Then select "Set on-chain identity":
 
   <center><img src="/.gitbook/assets/id-select-menu.png" width="400"></center>
 
-3. Register your Identity and click on "Set Identity" when finished.
+#### 3. Register your Identity and click on "Set Identity" when finished.
 
    <center><img src="/.gitbook/assets/id-register-id.png" width="400"></center>
 
