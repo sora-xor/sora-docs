@@ -11,7 +11,7 @@ head:
 
 # Build on SORA
 
-The SORA network is actively seeking new builders to take advantage of the cutting edge technology and governance available on the network.
+The SORA network is actively seeking new builders to take advantage of the cutting-edge technology and governance available on the network.
 
 ## Contents
 
