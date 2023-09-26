@@ -112,3 +112,8 @@ For more information, visit [soracard.com](https://soracard.com/).
 ---
 
 **Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.**
+
+## Learn More
+
+- [SORA Card KYC Tutorial](/sora-card-kyc-tutorial)
+- [SORA Mobile](/mobile)
