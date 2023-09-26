@@ -128,7 +128,7 @@ The SORA Card team will continue to provide regular updates to upgrade and impro
 
 In the next major release, you will receive a virtual and physical
 card, and the crypto on/offramp to euro as well as an exchange will
-be enabled. 
+be enabled.
 If you have any further questions or feedback, please reach
 out on the [main SORA](https://t.me/sora_xor), [SORA
 Card](https://t.me/soracardofficial) and [SORA
