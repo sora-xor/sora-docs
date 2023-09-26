@@ -56,3 +56,8 @@ In addition to sending and receiving KSM/DOT, the following features are also su
 ::: info
 For more information and user guides visit the [Fearless Wallet Wiki](https://wiki.fearlesswallet.io/).
 :::
+
+## Learn More
+
+- [SORA Academy](/sora-academy)
+- [SORA Mobile App](/mobile)

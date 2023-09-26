@@ -97,3 +97,8 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 It’s also important to remember that the integrated plan contains several **secrets** that will be unlocked when the time is right. Just like in civilization development, completing sections of the integrated plan unlocks others further down the pipeline. Some might even be secrets, so stay tuned to the [SORA Ecosystem Updates](https://medium.com/sora-xor) and [Polkaswap Updates](https://medium.com/@polkaswap) to track the progress!
 
 Although the different tracks are separated, they still remain interconnected in the “big picture,” so for example, Substate 4 implementation benefits the SORA Kusama Parachain as well as the SORA Fearless Wallet integration, and it is mentioned in several milestones across the current integrated plan.
+
+## Learn More
+
+- [SORA Economy](/sora-economy)
+- [SORA Network Development Changelog](/changelog)
