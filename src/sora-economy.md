@@ -48,13 +48,7 @@ head:
       content: "@sora_xor"
 ---
 
-# SORA: The New Economic Order
-
-- SORA v2 tokenomic model is proposed that uses a token bonding curve with an increasing price function. This means that as the token supply increases, the price also increases.
-- Reserves held by the token bonding curve will provide liquidity for XOR.
-- A new, staking reward token, tentatively called VAL is proposed.
-- ERC-20 XOR trading on Ethereum will be the initial supply of v2 XOR. ERC-20 XOR holders will also receive airdropped VAL.
-- SORA v1 tokens are proposed to be converted into VAL.
+# SORA Economy
 
 ## Background
 
@@ -124,14 +118,7 @@ XOR supply in the SORA mainnet is backed by acceptable liquid cryptocurrencies, 
 
 The token bonding curve is built directly into [Polkaswap.io](https://polkaswap.io) such that if the secondary market price of XOR is exceeded for one of the above trading pairs, the token bonding curve will automatically be executed so that new XOR will be put into circulation, 20% of the buying currency will be put into a pool to buy back and burn XOR, and 80% of the buying currency will go to reserves, held by the token bonding curve. As reserves are in multiple currencies, future releases of the system should provide for ways to balance between the currency reserves to provide liquidity in a variety of tokens. The close integration of the SORA economic model with Polkaswap will allow this process to be automated at some point in the future.
 
-The buy-price function starts at a discount (accounting for the
-initial price of VAL on mainnet launch) to the Uniswap XOR price at
-launch. The buy-price function uses an oracle to
-find out the current price that XOR should be w.r.t. a fiat
-currency. The sell-price function is, in turn, 20% less than the
-buy-price function. The 20% spread between the buy and sell functions
-has different uses, that will be explained in detail in a future
-article.
+The buy-price function starts at a discount (accounting for the initial price of VAL on mainnet launch) to the Uniswap XOR price at launch. The buy-price function uses an oracle to find out the current price that XOR should be w.r.t. a fiat currency. The sell-price function is, in turn, 20% less than the buy-price function. The 20% spread between the buy and sell functions has different uses, that explained in detail in a [SORA VALidator Rewards](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8) article.
 
 A new [SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184dae384) (multi-body sortition governance system), will provide a methodology for rationally allocating these XOR to create new goods and services in the SORA ecosystem, in accordance with the SORA economic model. All XOR that are created are given for free to the SORA Parliament, which then manages the token supply using the token bonding curve; specifically, the Financial Markets Authority, a standing body of the SORA Parliament will be the entity that buys and sells XOR via the primary market maker.
 
@@ -174,3 +161,8 @@ While the SORA economy is in its infant phase, the token bonding curve plays a c
 ## Towards a New Tomorrow
 
 One of the reasons decentralized P2P economic systems haven't been more widely adopted and lack sophistication is not having access to an elastic supply of capital via a central bank or mutual savings bank. By decentralizing the concept of a central bank, blockchain networks can finally create and allocate capital to fund worthwhile producers as well as needed infrastructure and public goods. With its interoperable technology, SORA can become the decentralized central bank for the world of blockchains, financing the creation of new and exciting applications.
+
+## Learn More
+
+- [SORA Governance](/sora-governance.md)
+- [Token Bonding Curve](/tbc.md)

@@ -15,8 +15,7 @@ SORA Synthetics are tokens pegged to value indices, backed by XST,
 the first SORA Synthetic asset is the DAI-pegged XSTUSD. SORA
 Synthetic XST assets for other major stores of value will be
 available soon as part of the SORA Synthetics update on Polkaswap. XST was [proposed as an
-RFP](https://github.com/sora-xor/rfps/pull/8/files) and is currently
-on the SORA testnet
+RFP](https://github.com/sora-xor/rfps/pull/8/files) and is currently live on the SORA network.
 
 ## Fisher's Compensated Dollar
 
@@ -47,7 +46,7 @@ XST is an algorithmic stablecoin for the SORA ecosystem, initially proposed in 2
 
 Now that stablecoins and synthetic assets have been defined and classified, you might be wondering what makes XST stand out from the rest?
 
-XST helps to solve the problem of XOR liquidity by creating synthetic assets backed by a variable amount of XST and pegged to a target index (e.g., a currency). XST is minted/deminted to always guarantee the value of the pegged index. The first index implemented is linked to the value of DAI and will be called XSTUSD.
+XST helps to solve the problem of XOR liquidity by creating synthetic assets backed by a variable amount of XST and pegged to a target index (e.g., a currency). XST is minted/deminted to always guarantee the value of the pegged index. The first index implemented is linked to the value of DAI and is called XSTUSD.
 
 ### Non-Collateralized Stability
 
@@ -59,7 +58,7 @@ SORA Synthetics do not require overcollateralization and users of SORA Synthetic
 
 Normally, algorithmic stablecoins derive their value from smart contracts linked to oracles that determine current prices, however, XSTUSD's value is currently derived from the price of XOR-DAI.
 
-## How Will This Be Implemented?
+## How Is It Implemented?
 
 XST implementation is quite an exciting topic, however, it isn't
 complete yet. The RFP proposing the implementation of XSTUSD has been
@@ -99,3 +98,8 @@ J. M. Keynes, Irving Fisher, Harry G. Brown. The Purchasing Power of Money: Its 
 Patinkin, D. (n.d.). Irving Fisher and His Compensated Dollar Plan. 34.
 
 Takemiya, M. (2019). SORA: A Decentralized Autonomous Economy. 2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC). doi:10.1109/BLOC.2019.8751489
+
+## Learn More
+
+- [SORA Synthetics](/synthetics.md)
+- [SORA Economy](/sora-economy.md)

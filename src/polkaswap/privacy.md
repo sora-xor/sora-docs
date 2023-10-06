@@ -11,7 +11,7 @@ head:
 
 # Privacy Policy
 
-**Disclaimer**: the Polkaswap website is maintained by the SORA community. Before continuing to use this website, please review the [Polkaswap FAQ](https://wiki.sora.org/polkaswap/polkaswap-faq) and documentation, which includes a detailed explanation on how Polkaswap works, as well as the [Polkaswap Memorandum and Terms of Services](https://wiki.sora.org/polkaswap/polkaswap-memorandum-and-terms-of-services.-privacy-policy.), and [Privacy Policy](https://wiki.sora.org/polkaswap/polkaswap-privacy-policy). These documents are crucial to a secure and positive user experience.
+<!-- @include: /disclaimer.md -->
 
 ## Polkaswap
 

@@ -97,3 +97,8 @@ Rewards are not fixed but depend on the number of transactions on the SORA netwo
 In fact, half of all the fees on SORA network and 1% of what is bought on the TBC is used to buy back VAL on Polkaswap and burn them. Then every day a percentage of the burned VAL is reminted and given to validators and nominators. This percentage was 90% at TGE and will linearly go down to flatline after 5 years.
 
 The higher the number of transactions on the SORA network, the higher the rewards for nominators and validators.
+
+## Learn More
+
+- [Nominating Validators](/nominating-validators)
+- [Running a Node](/running-a-node)

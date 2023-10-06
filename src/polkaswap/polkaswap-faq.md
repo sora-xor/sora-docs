@@ -106,3 +106,8 @@ Fearless Wallet is built for seamless integration with Polkaswap. Fearless Walle
 There are no more auctions planned in the coming months. Soon, KSM tokens will be available on Polkaswap and users can support future auctions using them to buy newly minted XOR from the [token bonding curve](https://wiki.sora.org/token-bonding-curve). By doing so the reserves of the token bonding curve will be increased, which will then be used to make a bid in subsequent auctions. Furthermore, there is a special reward in PSWAP when buying with DOT and KSM, this reward is higher when there are fewer reserves, and will decrease as they accumulate. You can read the full article about the incentive program [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
 **Update: The SORA Kusama parachain lease was renewed on March 16th, 2023**
+
+## Learn More
+
+- [Polkaswap Privacy Policy](/polkaswap/privacy)
+- [Polkaswap Terms and Conditions](/polkaswap/terms)

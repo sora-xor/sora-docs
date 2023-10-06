@@ -44,6 +44,10 @@ head:
 
 # The SORA Ecosystem
 
+![](.gitbook/assets/SORA-Ecosystem.png)
+
+<center><i>SORA Ecosystem Overview, including parachains and current SORA Builders</i> </center>
+
 SORA is a community-first network within the Substrate ecosystem. As
 of writing, the SORA Kusama parachain is currently active, with the
 SORA Polkadot parachain coming soon.
@@ -56,7 +60,7 @@ program.
 The SORA Integrated Plan as well as its current milestones are hosted
 here. You will also find information on
 [Polkaswap](https://polkaswap.io/), such as the [Memorandum and
-T&C's](polkaswap-terms.md) and the [Polkaswap privacy policy](polkaswap-privacy.md).
+T&C's](polkaswap/terms) and the [Polkaswap privacy policy](polkaswap/privacy).
 
 Information on the [SORA Synthetics](xst.md) and [SORA Card](sora-card.md) are also available
 here. An important part of the SORA ecosystem are the wallets you can
@@ -67,3 +71,8 @@ Wallets.
 Finally, in the Request Features section you will find the guide to
 contribute to SORA network development, as well as how to submit an
 [RFP](rfp.md) with a proposal for new features.
+
+## Learn More
+
+- [SORA Integrated Plan](/integrated-plan)
+- [Request Features on SORA](/rfp)
