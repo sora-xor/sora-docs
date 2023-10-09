@@ -2,7 +2,7 @@
 
 ## Main components
 
-SORA 2 interaction with Polkadot/Kusama and other relay chains is visualised in the following diagram:
+SORA interaction with Polkadot/Kusama and other relay chains is visualised in the following diagram:
 
 ![](./assets/substrate-bridge-components-svg.svg)
 
