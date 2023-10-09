@@ -91,7 +91,7 @@ Delving into the details of cross-chain transfers, you can consult the following
 
 ## Common Pallets
 
-There are several common pallets used in the SORA project, providing bridge functionality on both the parachain and Sora Mainnet sides:
+There are several common pallets used in the SORA project, providing bridge functionality on both the parachain and SORA mainnet sides:
 
 - **SubstrateDispatch**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-common/tree/develop/pallets/dispatch)). This pallet decodes and checks messages, performs runtime calls, and creates a bridge origin to execute **XCMApp** and **ParachainBridgeApp** extrinsics. Only the bridge origin can call these extrinsics.
 
