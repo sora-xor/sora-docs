@@ -34,4 +34,6 @@ Upon successful execution, (an) HRMP channel(s) will be established from your pa
 
 The steps here mirror those from the preceding sub-section. For steps (1) and (2) outlined earlier, SORA initiates an XCM message to propose channel establishment. Subsequently, it's your responsibility to encode `hrmp.hrmpAcceptOpenChannel` with SORA's parachain ID. For instance, in the case of Rococo, the encoded call data would be: `0x3c01db070000`. Execute an XCM message from your parachain in alignment with the [official guidelines](https://docs.substrate.io/reference/how-to-guides/parachains/add-hrmp-channels/), including the encoded call data containing SORA's parachain ID.
 
-Upon successful execution of this process, your parachain will be fully equipped to receive messages from the SORA parachain.
+Upon successful execution of this process, your parachain will be set up to receive messages from the SORA parachain.
+
+We will still need to register the assets to be transferred from one chain to another. On your parachain, you will need to register the SORA assets. On the SORA Mainnet, we will need to register your assets. 
