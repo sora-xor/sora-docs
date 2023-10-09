@@ -2,7 +2,7 @@
 
 ## Main components
 
-SORA 2 interaction with Polkadot/Kusama and other relay chains is visualised in the following diagram:
+SORA interaction with Polkadot/Kusama and other relay chains is visualised in the following diagram:
 
 ![](./assets/substrate-bridge-components-svg.svg)
 
@@ -54,11 +54,12 @@ A standalone network developed on top of the Substrate blockchain is the main ob
 
 ### Federated Bridge
 
-You can read about the Federated Bridge in [Interoparibility](./interoperability).
+You can read about the Federated Bridge in [Interoperability](./interoperability).
 
 ### SORA parachain
 
-The SORA Parachain serves as a blockchain gateway, allowing seamless integration between SORA and any relay chain ecosystem. It facilitates automatic token transfers, eliminating the need for users to send tokens via extrinsics on the SORA Parachain. By design, the SORA Parachain eliminates the requirement for additional transaction signing. The Parachain maintains a comprehensive record of tokens that can be transferred, with registration information stored in the XCMApp pallet. This information includes the mapping between SORA Mainnet AssetId and XCM Multilocation for each token.
+The SORA parachain serves as a blockchain gateway, allowing seamless integration between SORA and any relay chain ecosystem. It facilitates automatic token transfers, eliminating the need for users to send tokens via extrinsics on the SORA parachain.
+By design, the SORA parachain eliminates the requirement for additional transaction signing. The parachain maintains a comprehensive record of tokens that can be transferred, with registration information stored in the XCMApp pallet. This information includes the mapping between the SORA mainnet AssetId and XCM Multilocation for each token.
 
 ### Relay chain
 
@@ -70,11 +71,11 @@ The relay chain provides several important features, including cross-chain messa
 
 Parachains are specialized blockchains that connect to the relay chain. They can have their own consensus mechanisms, governance models, and specific functionality. They rely on the relay chain for security and the ability to interact with other parachains within the ecosystem. As the name suggests, the SORA parachain is also a parachain within this architecture.
 
-  ::: warning
+::: warning
 
-  The execution of XCM transfers and the handling of incoming messages will vary between different chains. Each connected parachain should have its own dedicated reference in the documentation, specifically detailing the implementation in client applications. This reference should specify the exact version of the XCM message being used, as well as the junctions utilized and populated.
+The execution of XCM transfers and the handling of incoming messages will vary between different chains. Each connected parachain should have its own dedicated reference in the documentation, specifically detailing the implementation in client applications. This reference should specify the exact version of the XCM message being used, as well as the junctions utilized and populated.
 
-  :::
+:::
 
 ## Flows
 
@@ -90,7 +91,7 @@ Delving into the details of cross-chain transfers, you can consult the following
 
 ## Common Pallets
 
-There are several common pallets used in the SORA project, providing bridge functionality on both the parachain and Sora Mainnet sides:
+There are several common pallets used in the SORA project, providing bridge functionality on both the parachain and SORA mainnet sides:
 
 - **SubstrateDispatch**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-common/tree/develop/pallets/dispatch)). This pallet decodes and checks messages, performs runtime calls, and creates a bridge origin to execute **XCMApp** and **ParachainBridgeApp** extrinsics. Only the bridge origin can call these extrinsics.
 
@@ -107,12 +108,11 @@ On the SORA Mainnet side, the following pallets are used:
 Root extrinsics: `finalizeAssetRegistration`, `registerThischainAsset`, `registerSidechainAsset`, `addAssetIdParaId`, `removeAssetIdParaId`, `mint`.
 Extrinsic to be called by user: `burn`.
 
-
 - **Assets**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-network/tree/master/pallets/assets)). This pallet implements assets on the SORA 2 Mainnet. It is used by **ParachainBridgeApp** to register, mint, and burn assets.
 
 ### SORA Parachain Components
 
-On the SORA Parachain side, the following components are used:
+On the SORA parachain side, the following components are used:
 
 - **XCMApp**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-parachain/tree/develop/pallets/xcm-app)). This pallet establishes the connection between the SORA 2 Mainnet and a relay chain/parachain. It maintains a mapping from the SORA 2 Mainnet AssetId (a 32-byte array) to a general XCM Multilocation. It enables the transfer of assets between SORA 2 Mainnet and a relay chain/parachain. Only the bridge origin can access the pallet's extrinsics. It utilizes **SubstrateBridgeOutboundChannel** to send messages through the bridge and is used by **SubstrateDispatch** to execute messages.
 
