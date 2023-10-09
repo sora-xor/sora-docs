@@ -8,7 +8,12 @@ The SORA blockchain serves as an ecosystem for robust DeFi projects like SORA's 
 
 As an initial step towards achieving this, we have developed the source code for the [Ethereum Bridge](./hashi). In addition to Ethereum, SORA aims to establish connections with various ecosystems. Being built on Substrate, it is advantageous to utilise the built-in cross-chain transfer capabilities to facilitate communication with projects running on the Polkadot and Kusama ecosystems. The [Substrate bridge](./substrate-bridge) was developed to achieve this.
 
-With multiple bridges already in operation, it becomes necessary to streamline the bridge interface to ensure consistent software components for cross-chain transfers across different heterogeneous blockchains. As a solution, the "Federated Bridge" was created to serve as the gateway between the SORA mainnet and the external world. The term "federated" is used because this bridge inherits certain features from a federated architecture.
+With multiple bridges already in operation, it becomes necessary to streamline the bridge interface to ensure consistent software components for cross-chain transfers across different heterogeneous blockchains. 
+As a solution, the HASHI bridge is aggregating several bridge technologies to serve as the gateway between the SORA mainnet and the external world. 
+
+The HASHI bridge currently comprises two bridges: the Federated EVM Bridge, and the Federated Substrate Bridge
+
+The term "federated" is used because this bridge inherits certain features from a federated architecture.
 
 The federated bridge follows the following workflow; The user initiates a transfer by calling an extrinsic. Upon detecting a new transaction on the source network, each peer signs it with their respective key and registers the signature on the source network. Subsequently, active peers add their signatures to the user's transaction. Once a sufficient number of signatures are gathered, the transaction is forwarded to the target network via relayers. The relayers sign the messages before transmitting them. As a result, only the owner of the peer's private key can initiate this process. The target blockchain then verifies the recipient's compliance with the signature authority based on the consensus mechanism. If the verification is successful, the tokens will be released to the designated transfer agent's address on the new network.
 
