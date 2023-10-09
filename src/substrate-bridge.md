@@ -54,7 +54,7 @@ A standalone network developed on top of the Substrate blockchain is the main ob
 
 ### Federated Bridge
 
-You can read about the Federated Bridge in [Interoparibility](./interoperability).
+You can read about the Federated Bridge in [Interoperability](./interoperability).
 
 ### SORA parachain
 
