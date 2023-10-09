@@ -112,7 +112,7 @@ Extrinsic to be called by user: `burn`.
 
 ### SORA Parachain Components
 
-On the SORA Parachain side, the following components are used:
+On the SORA parachain side, the following components are used:
 
 - **XCMApp**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-parachain/tree/develop/pallets/xcm-app)). This pallet establishes the connection between the SORA 2 Mainnet and a relay chain/parachain. It maintains a mapping from the SORA 2 Mainnet AssetId (a 32-byte array) to a general XCM Multilocation. It enables the transfer of assets between SORA 2 Mainnet and a relay chain/parachain. Only the bridge origin can access the pallet's extrinsics. It utilizes **SubstrateBridgeOutboundChannel** to send messages through the bridge and is used by **SubstrateDispatch** to execute messages.
 
