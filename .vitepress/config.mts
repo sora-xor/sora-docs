@@ -11,9 +11,9 @@ export default withMermaid(
     description: "Your Gateway to Knowledge about the SORA Network",
     head: [
       ["meta", { name: "keywords", content: "SORA ecosystem" }],
-      ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
-      ['link', { rel: 'icon', href: '/icon.svg', sizes: 'image/svg+xml' }],
-      ['link', { ref: 'apple-touch-icon', href: '/apple-touch-icon.png' }],    
+      ["link", { rel: "icon", href: "/favicon.ico", sizes: "any" }],
+      ["link", { rel: "icon", href: "/icon.svg", sizes: "image/svg+xml" }],
+      ["link", { ref: "apple-touch-icon", href: "/apple-touch-icon.png" }],
     ],
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
@@ -143,10 +143,13 @@ export default withMermaid(
                   text: "Staking in Fearless Wallet",
                   link: "stake-in-fearless-wallet",
                 },
-                { text: "Nominating Validators", link: "nominating-validators" },
+                {
+                  text: "Nominating Validators",
+                  link: "nominating-validators",
+                },
               ],
             },
-  
+
             {
               text: "DEX",
               items: [
@@ -156,7 +159,7 @@ export default withMermaid(
                   link: "provide-liquidity-to-xyk-pools",
                 },
                 { text: "Advanced Trading", link: "advanced-trading" },
-  
+
                 {
                   text: "Other Polkaswap Features",
                   link: "polkaswap-other-features",
@@ -178,10 +181,8 @@ export default withMermaid(
                           text: "Adding a Token",
                           link: "adding-tokens-to-hashi-bridge",
                         },
-                        // {
-                        //   text: "Become a Relayer",
-                        // },
-             {
+
+                        {
                           text: "Fixing a Stuck Transaction",
                           link: "unstuck-bridge-tx",
                         },
@@ -199,7 +200,6 @@ export default withMermaid(
                     },
                   ],
                 },
-  
               ],
             },
             { text: "Referral System", link: "/referral" },
@@ -215,7 +215,10 @@ export default withMermaid(
           items: [
             { text: "Overview", link: "polkaswap" },
             { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
-	     { text: "Connect with Google", link: "polkaswap-connect-with-google" },
+            {
+              text: "Connect with Google",
+              link: "polkaswap-connect-with-google",
+            },
             {
               text: "Send & Receive",
               link: "send-and-receive-polkaswap",
@@ -235,7 +238,7 @@ export default withMermaid(
                 { text: "Demeter Staking", link: "demeter-staking-polkaswap" },
               ],
             },
-  
+
             {
               text: "DEX",
               items: [
@@ -244,8 +247,11 @@ export default withMermaid(
                   text: "Provide Liquidity to XYK Pools",
                   link: "provide-liquidity-to-xyk-pools-polkaswap",
                 },
-                { text: "Advanced Trading", link: "advanced-trading-polkaswap" },
-  
+                {
+                  text: "Advanced Trading",
+                  link: "advanced-trading-polkaswap",
+                },
+
                 {
                   text: "Other Polkaswap Features",
                   link: "polkaswap-other-features",
@@ -293,7 +299,7 @@ export default withMermaid(
           ],
         },
       ],
-  
+
       socialLinks: [
         { icon: "github", link: "https://github.com/sora-xor/sora-docs" },
       ],
@@ -308,8 +314,8 @@ export default withMermaid(
       outlineTitle: "Page Contents",
       docFooter: {
         prev: false,
-        next: false
-      }
+        next: false,
+      },
     },
     srcDir: "./src",
     lastUpdated: true,
