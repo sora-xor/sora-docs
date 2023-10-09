@@ -1,6 +1,6 @@
 # Establish an HRMP channel
 
-To establish communication between your parachain and SORA, you must create HRMP channels that act as bridges for messages. This guide will walk you through the process using information from the official [Substrate documentation](https://docs.substrate.io/reference/how-to-guides/parachains/add-hrmp-channels/) but applied to SORA.
+To establish communication between your parachain and SORA, you must create HRMP channels that go through the Relay Chain to transfer messages between parachains.
 
 Remember that HRMP channels usually go in one direction. For two-way communication, you'll need to set up another channel going the opposite way. Therefore, the following is split in to sub-sections:
 
