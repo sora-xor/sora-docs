@@ -36,4 +36,4 @@ The steps here mirror those from the preceding sub-section. For steps (1) and (2
 
 Upon successful execution of this process, your parachain will be set up to receive messages from the SORA parachain.
 
-We will still need to register the assets to be transferred from one chain to another. On your parachain, you will need to register the SORA assets. On the SORA Mainnet, we will need to register your assets. 
+We will still need to register the assets to be transferred from one chain to another. On your parachain, you will need to register the SORA assets. On the SORA Mainnet, we will need to register your assets.
