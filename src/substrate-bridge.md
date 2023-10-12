@@ -88,7 +88,24 @@ Delving into the details of cross-chain transfers, you can consult the following
 
 ### Parachain to SORA
 
-![](./.gitbook/assets/FederatedBridgeFlowParachainToSora.png)
+```mermaid
+sequenceDiagram
+    actor A as Alice
+    participant P as Parachain
+    participant R as Relayer
+    participant S as SORA
+    
+    A ->> P: Send tokens via XCM¹
+    P ->> P: Add message to commitment
+    P ->> R: Prepare commitment
+    R ->> R: Sign commitment
+    R ->> P: Approve commitment
+    P ->> R: Get signatures
+    R ->> S: Submit commitment
+    S ->> A: Mint/Send tokens
+```
+
+_¹ The assets can originate from various sources, including other parachains or the Relay Chain, and the resulting action (reserve or burn) on the source chain is dependent on its specific implementation (typically initiated by calling either `xcmPallet.reserveTransferAssets` or `xTokens.transfer`). Ultimately, SORA parachain remains unaware of the final outcome, as it only receives an XCM message that will be subsequently relayed to the mainnet._
 
 ## Common Pallets
 
