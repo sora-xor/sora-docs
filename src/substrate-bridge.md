@@ -90,7 +90,7 @@ sequenceDiagram
     participant S as SORA
     participant R as Relayer
     participant P as Parachain
-    
+
     A ->> S: Call bridgeProxy.burn
     S ->> S: Burn (sidechain assets) / Reserve (thischain assets)¹
     S ->> S: Add message to commitment
@@ -112,7 +112,7 @@ sequenceDiagram
     participant P as Parachain
     participant R as Relayer
     participant S as SORA
-    
+
     A ->> P: Send tokens via XCM¹
     P ->> P: Add message to commitment
     P ->> R: Prepare commitment
