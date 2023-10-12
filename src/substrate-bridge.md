@@ -84,7 +84,25 @@ Delving into the details of cross-chain transfers, you can consult the following
 
 ### SORA to Parachain
 
-![](./.gitbook/assets/FederatedBridgeFlowSoraToParachain.png)
+```mermaid
+sequenceDiagram
+    actor A as Alice
+    participant S as SORA
+    participant R as Relayer
+    participant P as Parachain
+    
+    A ->> S: Call bridgeProxy.burn
+    S ->> S: Burn (sidechain assets) / Reserve (thischain assets)¹
+    S ->> S: Add message to commitment
+    S ->> R: Prepare commitment
+    R ->> R: Sign commitment
+    R ->> S: Approve commitment
+    S ->> R: Get signatures
+    R ->> P: Submit commitment
+    P ->> A: Send tokens via XCM
+```
+
+_¹ A sidechain asset (registered through [register_sidechain_asset](https://sora-xor.github.io/sora2-network/master/doc/substrate_gen/runtime/runtime_types/parachain_bridge_app/pallet/enum.Call.html#variant.register_sidechain_asset) ) will be burned. A SORA mainnet asset (registered via [register_thischain_asset](https://sora-xor.github.io/sora2-network/master/doc/substrate_gen/runtime/runtime_types/parachain_bridge_app/pallet/enum.Call.html#variant.register_thischain_asset)) will be reserved._
 
 ### Parachain to SORA
 
