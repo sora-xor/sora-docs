@@ -16,6 +16,7 @@ SORA interaction with Polkadot/Kusama and other relay chains is visualised in th
 skinparam component {
   BorderColor white
   BackgroundColor red
+  FontColor white
 }
 
 skinparam interface {
