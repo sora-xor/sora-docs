@@ -175,7 +175,6 @@ export default withMermaid(
                   items: [
                     {
                       text: "Ethereum",
-                      link: "ethereum-bridge",
                       items: [
                         {
                           text: "Adding a Token",
