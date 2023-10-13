@@ -203,7 +203,7 @@ To specify a parachain as the transfer destination, the following request needs 
 
 By following these steps, cross-chain transfers can be successfully executed, allowing for seamless movement of tokens between different chains within the network.
 
-### How to track the status of the transfer?
+### How to track the status of the transfer
 
 #### Other Parachain -> SORA mainnet
 
