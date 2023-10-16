@@ -211,7 +211,7 @@ Example extrinsic: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.karura-node-
 
 ##### Karura dev -> SORA mainnet dev example
 
-1. Karura: After executing the extrinsic mentioned above, the xcmpQueue.XcmpMessageSent event is emitted.
+1. Karura: After executing the extrinsic mentioned above, the `xcmpQueue.XcmpMessageSent` event is emitted.
 
 ![](./assets/xcmMessageSent.png)
 
