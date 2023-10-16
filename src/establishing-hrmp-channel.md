@@ -10,11 +10,7 @@ Remember that HRMP channels usually go in one direction. For two-way communicati
 
 This unique code includes a `recipient` detail telling the relay chain which parachain you want to connect to. The recipient changes depending on what environment you are planning to establish the channel in. For Kusama, look at [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fksm-rpc.stakeworld.io#/parachains), and for Rococo, go to [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io#/parachains).
 
-::: info
-
-Combine this parachain id with the other info from the documentation, and you'll end up with something like this for Rococo: `0x3c00db070000e803000000900100`.
-
-:::
+Combine this parachain id with the other info from the documentation. For example, for Rococo you'll have something like this: `0x3c00db070000e803000000900100`.
 
 2. Within your parachain, compose an XCM message that notifies the relay chain about the intent to open a channel with SORA. Refer to the [official documentation](https://docs.substrate.io/reference/how-to-guides/parachains/add-hrmp-channels/) for an illustrative example of the XCM message.
 
