@@ -1,6 +1,6 @@
-# Substrate bridge
+# Substrate Bridge
 
-## Main components
+## Main Components
 
 SORA interaction with Polkadot/Kusama and other relay chains is visualised in the following diagram:
 
@@ -49,7 +49,7 @@ XCM2 - OP
 
 Let's go through all the components mentioned in the figure:
 
-### SORA mainnet
+### SORA Mainnet
 
 A standalone network developed on top of the Substrate blockchain is the main object of this documentation. It has all the incoming and outgoing messages to other systems crossing the **Federated Bridge**, which is a central gateway to an external ecosystem.
 
@@ -57,7 +57,7 @@ A standalone network developed on top of the Substrate blockchain is the main ob
 
 You can read about the Federated Bridge in [Interoperability](./interoperability).
 
-### SORA parachain
+### SORA Parachain
 
 The SORA parachain serves as a blockchain gateway, allowing seamless integration between SORA and any relay chain ecosystem. It facilitates automatic token transfers, eliminating the need for users to send tokens via extrinsics on the SORA parachain.
 By design, the SORA parachain eliminates the requirement for additional transaction signing. The parachain maintains a comprehensive record of tokens that can be transferred, with registration information stored in the XCMApp pallet. This information includes the mapping between the SORA mainnet AssetId and XCM Multilocation for each token.
@@ -203,13 +203,13 @@ To specify a parachain as the transfer destination, the following request needs 
 
 By following these steps, cross-chain transfers can be successfully executed, allowing for seamless movement of tokens between different chains within the network.
 
-### How to track the status of the transfer
+### How to Track the Status of the Transfer
 
 #### Other Parachain -> SORA mainnet
 
 Example extrinsic: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.karura-node-1.c2.dev.sora2.soramitsu.co.jp#/extrinsics/decode/0x3600008000407a10f35a00000000000000000000010102006d1f0100e6cacc509b47920b3fe9329224df74640cd6861d40132633aae46c168ab73e4d00
 
-##### Karura dev -> SORA mainnet dev example
+##### Karura Dev -> SORA Mainnet Dev Example
 
 1. Karura: After executing the extrinsic mentioned above, the `xcmpQueue.XcmpMessageSent` event is emitted.
 
