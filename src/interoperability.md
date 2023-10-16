@@ -1,6 +1,6 @@
 # Interoperability
 
-This article is about the HASHI bridge - a decentralized two-way bridge connecting SORA and other blockchains (such as Ethereum and Polkadot). HASHI means bridge in Japanese, and it is the plumbing that links many different chains, like pipes connecting the world's assets. The initial version of this bridge was a significant component of the plans for the beta launch of the SORA network in Q1 2021.
+This article is about the HASHI bridge - a decentralized two-way bridge connecting SORA and other blockchains (such as Ethereum and Kusama). HASHI means bridge in Japanese, and it is the plumbing that links many different chains, like pipes connecting the world's assets. The initial version of this bridge was a significant component of the plans for the beta launch of the SORA network in Q1 2021.
 
 ## History
 
