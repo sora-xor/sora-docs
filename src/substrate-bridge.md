@@ -177,7 +177,7 @@ Root extrinsics: `initialize`, `addPeer`, `removePeer`.
 
 ::: warning
 
-Only specific XCM messages for/from the corresponding networks have been tested and utilised in the client applications, such as Polkaswap. When constructing your own messages, exercise caution - there is a possibility that your funds could be permanently lost.
+Only specific XCM messages for/from the corresponding networks have been tested and utilised in the client applications, such as Polkaswap. When constructing your own messages, exercise caution: there is a possibility that your funds could be permanently lost.
 
 :::
 
