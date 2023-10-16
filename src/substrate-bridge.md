@@ -193,7 +193,7 @@ Similarly, to register a native token from another blockchain as transferable th
 
 These extrinsics send messages to the SORA 2 Parachain, enabling the registration of asset mappings. Without this registration, tokens cannot be transferred through the parachain.
 
-Once the token is successfully registered, transfers can be initiated. To transfer a token to a relaychain, the extrinsic ParachainBridgeApp.burn is used. For instance, to transfer a ROC token to the Rococo relay chain, the following procedure is followed:
+Once the token is successfully registered, transfers can be initiated. To transfer a token to a relaychain, the extrinsic `ParachainBridgeApp.burn` is used. For instance, to transfer a ROC token to the Rococo relay chain, the following procedure is followed:
 
 ![Image: Example of transferring ROC to the Rococo relay chain](./assets/token-burn.png)
 
