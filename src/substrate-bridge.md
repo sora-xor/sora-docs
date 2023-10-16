@@ -129,30 +129,30 @@ _¹ The assets can originate from various sources, including other parachains or
 
 There are several common pallets used in the SORA project, providing bridge functionality on both the parachain and SORA mainnet sides:
 
-- **SubstrateDispatch**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-common/tree/develop/pallets/dispatch)). This pallet decodes and checks messages, performs runtime calls, and creates a bridge origin to execute **XCMApp** and **ParachainBridgeApp** extrinsics. Only the bridge origin can call these extrinsics.
+- **SubstrateDispatch**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/dispatch)). This pallet decodes and checks messages, performs runtime calls, and creates a bridge origin to execute **XCMApp** and **ParachainBridgeApp** extrinsics. Only the bridge origin can call these extrinsics.
 
-- **SubstrateBridgeInboundChannel**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-common/tree/develop/pallets/substrate-channel/src/inbound)). This pallet handles the submission of incoming messages. While submitting messages can be called from any account, a relayer is used for this function. It utilizes **BeefyLightClient** or **MultisigVerifier** for message verification and **SubstrateDispatch** for message calling.
+- **SubstrateBridgeInboundChannel**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/substrate-channel/src/inbound)). This pallet handles the submission of incoming messages. While submitting messages can be called from any account, a relayer is used for this function. It utilizes **BeefyLightClient** or **MultisigVerifier** for message verification and **SubstrateDispatch** for message calling.
 
-- **SubstrateBridgeOutboundChannel**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-common/tree/develop/pallets/substrate-channel/src/outbound)). This pallet is responsible for sending outgoing messages. It is used by the **ParachainBridgeApp** and **XCMApp** to send messages to other networks.
+- **SubstrateBridgeOutboundChannel**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/substrate-channel/src/outbound)). This pallet is responsible for sending outgoing messages. It is used by the **ParachainBridgeApp** and **XCMApp** to send messages to other networks.
 
 ### SORA Mainnet Pallets
 
 On the SORA Mainnet side, the following pallets are used:
 
-- **ParachainBridgeApp**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-common/tree/develop/pallets/parachain-app)). This pallet serves as the main entry point for clients to send assets through the bridge. It also sends messages to the parachain (**XCMApp**) to register assets. The bridge requires bonding of **ParachainBridgeApp** on the Mainnet and **XCMApp** on the Parachain. It utilizes SubstrateBridgeOutboundChannel to send messages through the bridge and is used by **SubstrateDispatch** to execute messages.
+- **ParachainBridgeApp**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/parachain-app)). This pallet serves as the main entry point for clients to send assets through the bridge. It also sends messages to the parachain (**XCMApp**) to register assets. The bridge requires bonding of **ParachainBridgeApp** on the Mainnet and **XCMApp** on the Parachain. It utilizes SubstrateBridgeOutboundChannel to send messages through the bridge and is used by **SubstrateDispatch** to execute messages.
 
 Root extrinsics: `finalizeAssetRegistration`, `registerThischainAsset`, `registerSidechainAsset`, `addAssetIdParaId`, `removeAssetIdParaId`, `mint`.
 Extrinsic to be called by user: `burn`.
 
-- **Assets**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-network/tree/master/pallets/assets)). This pallet implements assets on the SORA 2 Mainnet. It is used by **ParachainBridgeApp** to register, mint, and burn assets.
+- **Assets**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-network/tree/master/pallets/assets)). This pallet implements assets on the SORA 2 Mainnet. It is used by **ParachainBridgeApp** to register, mint, and burn assets.
 
 ### SORA Parachain Components
 
 On the SORA parachain side, the following components are used:
 
-- **XCMApp**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-parachain/tree/develop/pallets/xcm-app)). This pallet establishes the connection between the SORA 2 Mainnet and a relay chain/parachain. It maintains a mapping from the SORA 2 Mainnet AssetId (a 32-byte array) to a general XCM Multilocation. It enables the transfer of assets between SORA 2 Mainnet and a relay chain/parachain. Only the bridge origin can access the pallet's extrinsics. It utilizes **SubstrateBridgeOutboundChannel** to send messages through the bridge and is used by **SubstrateDispatch** to execute messages.
+- **XCMApp**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-parachain/tree/develop/pallets/xcm-app)). This pallet establishes the connection between the SORA 2 Mainnet and a relay chain/parachain. It maintains a mapping from the SORA 2 Mainnet AssetId (a 32-byte array) to a general XCM Multilocation. It enables the transfer of assets between SORA 2 Mainnet and a relay chain/parachain. Only the bridge origin can access the pallet's extrinsics. It utilizes **SubstrateBridgeOutboundChannel** to send messages through the bridge and is used by **SubstrateDispatch** to execute messages.
 
-- **XTokens**: Developed by the Open Web3 Stack ([GitHub link](https://github.com/open-web3-stack/open-runtime-module-library)). This component is used by **XCMApp** to send tokens to a relay chain/parachains.
+- **XTokens**: Developed by the Open Web3 Stack ([source code](https://github.com/open-web3-stack/open-runtime-module-library)). This component is used by **XCMApp** to send tokens to a relay chain/parachains.
 
 - **XCMExecutor**: Developed by Parity. While not a pallet, it is a crucial component for executing XCM Messages. It utilizes **XCMApp** as a transactor and AssetId converter.
 
@@ -160,16 +160,16 @@ On the SORA parachain side, the following components are used:
 
 The Federated Bridge in SORA relies on the following pallets:
 
-- **BridgeDataSigner**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-common/tree/develop/pallets/data-signer)). This pallet is responsible for signing bridge data.
+- **BridgeDataSigner**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/data-signer)). This pallet is responsible for signing bridge data.
 
 Root extrinsics: `registerNetwork`, `addPeer`, `removePeer`, `submit`.
 Messages: see [`BridgeCall` enum](https://github.com/sora-xor/sora2-common/blob/2f0aeec218e7646c295f371c4f553f4260e59eff/pallets/types/src/substrate.rs#L126)
 
-- **MultisigVerifier**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-common/tree/develop/pallets/multisig-verifier)). This pallet manages the verification of peers and ECDSA signatures. It utilizes BeefyLightClient for message verification and SubstrateDispatch for message calling.
+- **MultisigVerifier**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/multisig-verifier)). This pallet manages the verification of peers and ECDSA signatures. It utilizes BeefyLightClient for message verification and SubstrateDispatch for message calling.
 
 Root extrinsics: `initialize`, `addPeer`, `removePeer`.
 
-- **The Relayer**: Developed by SORAMITSU ([GitHub link](https://github.com/sora-xor/sora2-network/tree/master/relayer)). The Relayer is a separate service and not a pallet. It plays a crucial role in the Federated Bridge, passing through messages and holding private keys for signatures, similar to the Beefy bridge implementation.
+- **The Relayer**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-network/tree/master/relayer)). The Relayer is a separate service and not a pallet. It plays a crucial role in the Federated Bridge, passing through messages and holding private keys for signatures, similar to the Beefy bridge implementation.
 
 ## Guides
 
