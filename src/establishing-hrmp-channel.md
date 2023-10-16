@@ -8,7 +8,7 @@ Remember that HRMP channels usually go in one direction. For two-way communicati
 
 1. Obtain the encoded call data of the `hrmp.hrmpInitOpenChannel` extrinsic on the relay chain.
 
-This unique code includes a `recipient` detail telling the relay chain which parachain you want to connect to. This detail changes depending on what environment you are planning to establish the channel in. For Kusama, look at [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fksm-rpc.stakeworld.io#/parachains), and for Rococo, go to [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io#/parachains).
+This unique code includes a `recipient` detail telling the relay chain which parachain you want to connect to. The recipient changes depending on what environment you are planning to establish the channel in. For Kusama, look at [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fksm-rpc.stakeworld.io#/parachains), and for Rococo, go to [this list](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io#/parachains).
 
 ::: info
 
