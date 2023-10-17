@@ -40,7 +40,7 @@ Currently, there are 5 different types of stablecoins/pegged assets:
 - **Algorithmic Stablecoins:** These stablecoins use algorithms to back their value. There are some variants that can be pegged to fiat values, depending on the algorithm used. For example, [AMPL](https://www.ampleforth.org/).
 - **Synthetic assets:** These are tokens with value pegged to an oraclized asset. Purely synthetic assets can be used to track the shares of financial instruments and securities, and can represent many types of value. For example, [SYNTHETIX](https://synthetix.io/).
 
-XST is an algorithmic stablecoin for the SORA ecosystem, initially proposed in 2018, based on the ideas of Irving Fisher's compensated dollar. However, instead of being backed by gold, SORA Synthetics are backed by XST.
+XSTUSD is an algorithmic stablecoin for the SORA ecosystem, initially proposed in 2018, based on the ideas of Irving Fisher's compensated dollar. However, instead of being backed by gold, SORA Synthetics are backed by XST.
 
 ## What Makes SORA XST Different?
 
