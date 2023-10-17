@@ -25,7 +25,8 @@ Requirements:
 
 - A SORA account (Follow the [Account Creation
   tutorial](create-an-address.md) if you don't have one)
-- ~0.005 XOR to pay the fee
+- ~610 XOR to pay network and registrar fee
+- 5 XSTUSD as a donation to the community funds
 
 Follow these steps to set up an identity:
 
@@ -57,14 +58,14 @@ Using the account you wish to verify, go under the Developer tab and follow thes
 
 - Click Extrinsics.
 - Select `Identity` and `requestJudgement`.
-- Under `regIndex`, place `1` (`reg_index` = `0` is no longer active). Registrar `1` has a fee of 1 `XOR`.
+- Under `regIndex`, place `1` (`reg_index` = `0` is no longer active). Registrar `1` has a fee of 500 `XOR`.
 - Submit the transaction.
 
   <center><img src="/.gitbook/assets/requestJudgement.png" width="600"></center>
 
 ### 2. Donate to Community Marketing Funds address.
 
-Donate a minimum of 1 `XOR` per account requesting judgement to the Community Marketing Funds address (`cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`).
+Donate a minimum of 5 `XSTUSD` per account requesting judgement to the Community Marketing Funds address (`cnSN9X2HNU3uYjRbGvTwpgUdtVDuNk1g29XkcQNoNBQxgt1ii`).
 The funds from this community wallet are used for SORA marketing.
 
 ### 3. Contact the registrar directly. You can find their contact info in their profile.
