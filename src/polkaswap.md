@@ -57,3 +57,8 @@ Where it gets interesting is figuring out which pool will result in the best tra
 ### Have the Best Experience
 
 The latest generation of DEXs promise to enhance token access by bridging blockchains or aggregating liquidity from different exchanges. Polkaswap will offer both of these features. It’s built with Polkadot technology and integrates multiple blockchain bridges. This will allow users to trade ETH and ERC-20 tokens, DOT and KSM, BTC, BSC tokens, and anything the market offers in the future. Polkaswap will also aggregate liquidity from across both DEXs and CEXs, meaning you won’t have to register with multiple exchanges to find certain token pairs or the best trade price.
+
+## Learn More
+
+- [Connect your Wallet to Polkaswap](/polkaswap-connect-wallet)
+- [Swaps on Polkaswap](/swap-polkaswap)

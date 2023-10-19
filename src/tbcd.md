@@ -11,15 +11,14 @@ head:
 
 # Token Bonding Curve Dollar (TBCD)
 
-- Token Bonding Curve Dollars (TBCD) is a new proposed, algorithmic, non-synthetic stablecoin that has its value maintained by the SORA token bonding curve
+- Token Bonding Curve Dollars (TBCD) is a newly proposed, algorithmic, non-synthetic stablecoin that has its value maintained by the SORA token bonding curve
 - TBCD is created to be worth slightly less than $1 when XOR is far lower than the price point on the token bonding curve, reducing sell pressure to XOR when the price of XOR is low
-- TBCD will help to build up reserves in the SORA token bonding curve, while also being used to fund the creation of new goods and services via on-chain referendum decided by all XOR token holders
+- TBCD will help to build up reserves in the SORA token bonding curve, while also being used to fund the creation of new goods and services via an on-chain referendum decided by all XOR token holders
 
 ## Why Implement Token Bonding Curve Dollars (TBCD)
 
-The SORA ecosystem has grown over the years and now there are many
-tokens and [eclectic](https://cerestoken.io)
-[builders](https://adar.com). With growth comes maturity, and SORA has
+The SORA ecosystem has grown over the years, and now there are many
+tokens and [eclectic](https://cerestoken.io) [builders](https://adar.com). With growth comes maturity, and SORA has
 recently been moving towards spinning out XSTUSD, a synthetic
 stablecoin, into the comprehensive [SORA Synthetics (XST) ](xst.md) platform.
 
@@ -76,3 +75,8 @@ selling XOR via a primary market at a premium to the free-floating
 secondary market.
 
 Overall, TBCD is an innovative stablecoin that uses the SORA token bonding curve to maintain its price stability. This is a great development for the cryptocurrency market, as it provides users with a reliable stablecoin that’s backed by the U.S. dollar. Furthermore, the SORA token bonding curve helps increase the liquidity of TBCD, making it easier for users to buy and sell the token.
+
+## Learn More
+
+- [Token Bonding Curve](/tbc.md)
+- [SORA Governance](/sora-governance.md)

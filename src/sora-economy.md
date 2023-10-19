@@ -48,6 +48,8 @@ head:
       content: "@sora_xor"
 ---
 
+# SORA Economy
+
 ## Background
 
 On October 17, 2019, the [SORA](https://sora.org) v1 network launched, issuing approximately 1,618,033,988 XOR. In March of 2020, approximately 350,000 XOR were moved from the SORA v1 network to the Ethereum network and [trading was started on Uniswap](http://sora.exchange). The goal of the initial launch on Uniswap was to perform preliminary price discovery and build the SORA community by incorporating users of the Ethereum network. However, our technology has improved, giving us the possibility to shape a new and more ambitious type of crypto ecosystem. Whereas our medium-term goal remains generating value for our community, our analysis of the SORA economy has **led us to embrace the long-term goal of realizing a supranational world economic system**.
@@ -159,3 +161,8 @@ While the SORA economy is in its infant phase, the token bonding curve plays a c
 ## Towards a New Tomorrow
 
 One of the reasons decentralized P2P economic systems haven't been more widely adopted and lack sophistication is not having access to an elastic supply of capital via a central bank or mutual savings bank. By decentralizing the concept of a central bank, blockchain networks can finally create and allocate capital to fund worthwhile producers as well as needed infrastructure and public goods. With its interoperable technology, SORA can become the decentralized central bank for the world of blockchains, financing the creation of new and exciting applications.
+
+## Learn More
+
+- [SORA Governance](/sora-governance.md)
+- [Token Bonding Curve](/tbc.md)

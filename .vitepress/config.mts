@@ -29,7 +29,6 @@ export default withMermaid(
         pattern: "https://github.com/sora-xor/sora-docs/tree/develop/src/:path",
       },
       siteTitle: false,
-
       socialLinks: [
         { icon: "github", link: "https://github.com/sora-xor/sora-docs" },
       ],
@@ -362,7 +361,6 @@ export default withMermaid(
                       text: "VAL",
                       link: "cn/val",
                     },
-                    
                   ],
                 },
               ],

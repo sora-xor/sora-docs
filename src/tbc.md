@@ -21,7 +21,7 @@ Put simply, the token bonding curve is essentially an infinitely liquid, decentr
 
 Furthermore, because the token bonding curve’s pricing functions slope upwards, the **price increases with the token supply.** Keep in mind that with a token bonding curve, **XOR price and supply are correlated**, and they move accordingly.
 
-<figure><img src=".gitbook/assets/xor-supply-correct(1).png" alt=""><figcaption><p>Price will increase when supply rises and vice versa</p></figcaption></figure>
+<figure><img src=".gitbook/assets/xor-supply-correct.png" alt=""><figcaption><p>Price will increase when supply rises and vice versa</p></figcaption></figure>
 
 Another important implication of this mechanism is that XOR price on the secondary market (Polkaswap, Uniswap, CEXs...) tends to be limited to a certain price range (illustrated as the red triangle in the diagram). In fact, if a user trades XOR outside that range, it creates an **arbitrage opportunity** to buy/sell XOR below/above the token bonding curves prices: **XOR volatility is thus reduced.**
 
@@ -90,3 +90,8 @@ In addition, Parity is also developing a Polkadot <> Kusama bridge. DOT will als
 DOT and KSM tokens held in reserves by the token bonding curve will be used to make a bid for a subsequent parachain slot for the SORA ecosystem.
 
 [**Double rewards**](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8) **will be given to users who buy XOR with KSM and DOT**, as these two currencies are crucial for the SORA network.
+
+## Learn More
+
+- [SORA Economy](/sora-economy.md)
+- [XOR](/xor.md)

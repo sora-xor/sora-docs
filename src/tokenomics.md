@@ -45,7 +45,7 @@ head:
       content: "@sora_xor"
 ---
 
-# Tokenomics
+# SORA Tokenomics
 
 In this section you will find all the information on SORA
 tokenomics. Starting with the Token Bonding curve, each subsection
@@ -67,3 +67,8 @@ through [SORA governance](sora-governance.md).
 - The [Token Bonding Curve Dollar (TBCD)](tbcd.md) is an algorithmic,
   non-synthetic stablecoin that has its value maintained by the SORA
   token bonding curve.
+
+## Learn More
+
+- [SORA Economy](/sora-economy.md)
+- [SORA Academy](/sora-academy.md)

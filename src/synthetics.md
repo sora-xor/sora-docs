@@ -432,3 +432,8 @@ $O_{w/\ fee} = \frac{O}{1 - S_f}$
 $I = \frac{O_{w/\ fee} \times B_p^b}{S_o}$
 
 $F_{XOR} = \frac{O_{w/\ fee} - O}{\overline{B_p^s}}$
+
+## Learn More
+
+- [XST Tokenomics](/xst)
+- [Request Features on SORA](/rfp)
