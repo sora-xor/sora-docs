@@ -160,7 +160,7 @@ On the SORA parachain side, the following components are used:
 
 The Federated Bridge in SORA relies on the following pallets:
 
-- **BridgeDataSigner**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/data-signer)). This pallet is responsible for collecting signatures from different relayers and checks that message is signed by valid peer.
+- **BridgeDataSigner**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/data-signer)). This pallet is responsible for collecting signatures from different relayers and checks that message is signed by a valid peer.
 
 Root extrinsics: `registerNetwork`, `addPeer`, `removePeer`, `submit`.
 Messages: see [`BridgeCall` enum](https://github.com/sora-xor/sora2-common/blob/2f0aeec218e7646c295f371c4f553f4260e59eff/pallets/types/src/substrate.rs#L126)
