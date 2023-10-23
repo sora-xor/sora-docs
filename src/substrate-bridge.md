@@ -207,11 +207,7 @@ By following these steps, cross-chain transfers can be successfully executed, al
 
 #### Other Parachain -> SORA mainnet
 
-Example extrinsic: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.karura-node-1.c2.dev.sora2.soramitsu.co.jp#/extrinsics/decode/0x3600008000407a10f35a00000000000000000000010102006d1f0100e6cacc509b47920b3fe9329224df74640cd6861d40132633aae46c168ab73e4d00
-
-##### Karura Dev -> SORA Mainnet Dev Example
-
-1. Karura: After executing the extrinsic mentioned above, the `xcmpQueue.XcmpMessageSent` event is emitted.
+1. After executing the transaction initiating a XCM message, the `xcmpQueue.XcmpMessageSent` event is emitted.
 
 ![](./assets/xcmMessageSent.png)
 
