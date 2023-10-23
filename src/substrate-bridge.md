@@ -165,7 +165,7 @@ The Federated Bridge in SORA relies on the following pallets:
 Root extrinsics: `registerNetwork`, `addPeer`, `removePeer`, `submit`.
 Messages: see [`BridgeCall` enum](https://github.com/sora-xor/sora2-common/blob/2f0aeec218e7646c295f371c4f553f4260e59eff/pallets/types/src/substrate.rs#L126)
 
-- **MultisigVerifier**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/multisig-verifier)). This independent pallet is used by **SubstrateBridgeInboundChannel** and **BeefyLightClient** for message verification. It is also used by `SubstrateDispatch` to decode and dispatch bridge calls. 
+- **MultisigVerifier**: Developed by SORAMITSU ([source code](https://github.com/sora-xor/sora2-common/tree/develop/pallets/multisig-verifier)). This independent pallet is used by **SubstrateBridgeInboundChannel** and **BeefyLightClient** for message verification. It is also used by `SubstrateDispatch` to decode and dispatch bridge calls.
 
 Root extrinsics: `initialize`, `addPeer`, `removePeer`.
 
