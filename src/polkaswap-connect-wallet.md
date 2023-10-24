@@ -9,7 +9,7 @@ head:
       content: "connect wallet, Polkaswap, SORA network, MetaMask, Polkadot.js, secure connection, trading, liquidity"
 ---
 
-# Connect Wallet
+# Connect Your Wallet to Polkaswap
 
 1. Go to [Polkaswap.io](https://polkaswap.io) and click on the "Connect account" button at the top of the page.
 
@@ -27,4 +27,11 @@ head:
 
 6. Once the connection is complete, you will be able to see your account balance and manage your funds on Polkaswap.
    Congratulations, you have successfully connected your wallet! Now you can stake, provide liquidity, trade, and much more with style and freedom on Polkaswap!
-   Remember to always do your own research before making any financial decisions.
+   Remember to always do your own research before making any financial
+   decisions.
+   
+   ## Learn More
+
+- [Create an Address](/create-an-address.md)
+- [Account Security](/account-security.md)
+
