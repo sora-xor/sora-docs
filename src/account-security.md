@@ -60,6 +60,8 @@ head:
 
 In today's digital age, securing one's digital assets has become paramount. The linchpin of this security often revolves around the management of passphrases, passwords, and other digital keys. Understanding the different storage formats and following best practices can distinguish between secure accounts and potential breaches.
 
+![](.gitbook/assets/sora-account-security.png)
+
 ## Mnemonic, JSON, and Raw Seed: An Overview
 
 - **Mnemonic Passphrases:** These are words that can be used to derive a cryptographic key. They're typically easier to remember than raw cryptographic keys and are often employed by crypto wallets to allow users to recover their accounts.
