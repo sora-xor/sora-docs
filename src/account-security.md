@@ -47,7 +47,8 @@ head:
     - name: twitter:creator
       content: "@sora_xor"
 ---
-# SORA Account Security: How to Manage Passphrases Securely 
+
+# SORA Account Security: How to Manage Passphrases Securely
 
 #### Explore the intricacies of passphrase formats like mnemonics, JSON, and raw seeds. Dive into best practices for safeguarding passwords, utilizing physical and digital storage solutions. Prioritize your digital security today.
 
@@ -95,22 +96,22 @@ In today's digital age, securing one's digital assets has become paramount. The 
 
 ### Password managers
 
-Another popular way to manage passwords is to use password management software. Password managers are invaluable tools in today's digital landscape, streamlining the complex task of handling various passwords. With their help, users only need to remember a single master password, granting them access to a host of unique, secure, and lengthy passwords for different accounts. But despite all the pros of such software, you should always follow the guidelines to ensure the security of all stored passes. 
+Another popular way to manage passwords is to use password management software. Password managers are invaluable tools in today's digital landscape, streamlining the complex task of handling various passwords. With their help, users only need to remember a single master password, granting them access to a host of unique, secure, and lengthy passwords for different accounts. But despite all the pros of such software, you should always follow the guidelines to ensure the security of all stored passes.
 
 Here are key security recommendations:
+
 - **Database Security:** Prioritize the security of the password manager's database to thwart unauthorized access.
 - **Regular Backups:** Schedule consistent backups of the password manager database, ensuring protection against unforeseen data loss or breaches.
 - **Master Password Strength:** Encrypt the database with a robust and unique master password, making unauthorized decryption challenging.
 - **Safe Downloads:** Always download password keeper software from recognized, legitimate sources to avoid inadvertently acquiring malicious software.
 - **Opt for Reputed Software:** Choose password managers that have garnered solid reputations and positive reviews, ensuring both their reliability and their commitment to user security.
 
-
 ### Social Engineering Awareness:
 
-Most likely, brute force will not be how your passphrases are compromised. Scams such as phishing (using fake or too-good-to-be-true offers) are the most effective to separate people from their assets. Scams such as popular NFT mints at a bargain or impersonating online service providers can lead to painful losses. 
+Most likely, brute force will not be how your passphrases are compromised. Scams such as phishing (using fake or too-good-to-be-true offers) are the most effective to separate people from their assets. Scams such as popular NFT mints at a bargain or impersonating online service providers can lead to painful losses.
 It is important to ensure that the links you click in emails or tweets are from verified accounts. Don’t be blinded by ambition.
 
-Likewise, other people may also reach out to you, impersonating wallet providers or token teams requesting your mnemonic. No project or infrastructure will ever need your private key; if anyone asks for it, consider this a red flag. 
+Likewise, other people may also reach out to you, impersonating wallet providers or token teams requesting your mnemonic. No project or infrastructure will ever need your private key; if anyone asks for it, consider this a red flag.
 
 ### Linking to Your Stored Data:
 
@@ -130,6 +131,3 @@ Managing and storing passphrases securely is the cornerstone of digital security
 
 - [Create an Address](/create-an-address..md)
 - [Connect Your Wallet to Polkaswap](/polkaswap-connect-wallet.html.md)
-
-
-

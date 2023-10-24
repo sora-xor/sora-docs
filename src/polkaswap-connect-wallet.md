@@ -29,9 +29,8 @@ head:
    Congratulations, you have successfully connected your wallet! Now you can stake, provide liquidity, trade, and much more with style and freedom on Polkaswap!
    Remember to always do your own research before making any financial
    decisions.
-   
+
    ## Learn More
 
 - [Create an Address](/create-an-address.md)
 - [Account Security](/account-security.md)
-
