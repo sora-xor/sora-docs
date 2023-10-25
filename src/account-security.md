@@ -134,4 +134,4 @@ Always consult with cybersecurity experts when considering a solution for storin
 ## Learn More
 
 - [Create an Address](./create-an-address)
-- [Connect Your Wallet to Polkaswap](/polkaswap-connect-wallet.html.md)
+- [Connect Your Wallet to Polkaswap](/polkaswap-connect-wallet.md)
