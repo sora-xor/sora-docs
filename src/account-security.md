@@ -115,7 +115,7 @@ It is important to ensure that the links you click in emails or tweets are from 
 
 Likewise, other people may also reach out to you, impersonating wallet providers or token teams requesting your mnemonic. No project or infrastructure will ever need your private key; if anyone asks for it, consider this a red flag.
 
-### Linking to Your Stored Data:
+### Linking to Your Stored Data
 
 When creating user interfaces (UIs) or tutorial articles, always link back to the secure storage solution being used. This ensures that users have a direct path to their stored data, reducing the risk of misplacement or accidental deletion.
 
