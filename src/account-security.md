@@ -131,5 +131,5 @@ Managing and storing passphrases securely is the cornerstone of digital security
 
 ## Learn More
 
-- [Create an Address](/create-an-address..md)
+- [Create an Address](./create-an-address)
 - [Connect Your Wallet to Polkaswap](/polkaswap-connect-wallet.html.md)
