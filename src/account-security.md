@@ -78,7 +78,7 @@ In today's digital age, securing one's digital assets has become paramount. The 
 
 - **Two-Factor Authentication (2FA):** This adds an extra layer of security by requiring a second form of verification and a password.
 
-### Physical Storage Options:
+### Physical Storage Options
 
 - **Paper Storage:** Write down your mnemonic or seed phrases on paper and store them in a safe, fireproof, and waterproof location. Always keep multiple copies in different locations.
 
