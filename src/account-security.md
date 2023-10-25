@@ -70,7 +70,7 @@ In today's digital age, securing one's digital assets has become paramount. The 
 
 - **Raw Seed:** The raw seed is a direct representation of a cryptographic key. It is typically a string of letters and numbers. It's the most basic and direct form of a key but also the least human-friendly.
 
-## Best Practices to Store Account Passwords and Information:
+## Best Practices to Store Account Passwords and Information
 
 - **Use Strong, Unique Passwords:** Avoid using the same password for multiple accounts. Make sure they're lengthy, use a mix of characters, numbers, and symbols, and avoid obvious phrases.
 
