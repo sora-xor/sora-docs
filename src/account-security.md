@@ -125,7 +125,9 @@ In the UI itself, a button or link labelled "Access Stored Passphrases" can be a
 
 Managing and storing passphrases securely is the cornerstone of digital security. By understanding the different types of storage formats and following best practices, you can protect your digital assets and enjoy peace of mind. Remember, as technology evolves, it's essential to stay updated with the latest security protocols and methodologies.
 
-**Note: Always consult with cybersecurity experts when considering a solution for storing sensitive information.**
+::: tip
+Always consult with cybersecurity experts when considering a solution for storing sensitive information.
+:::
 
 ---
 
