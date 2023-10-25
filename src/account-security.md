@@ -64,7 +64,7 @@ In today's digital age, securing one's digital assets has become paramount. The 
 
 ## Mnemonic, JSON, and Raw Seed: An Overview
 
-- **Mnemonic Passphrases:** These are words that can be used to derive a cryptographic key. They're typically easier to remember than raw cryptographic keys and are often employed by crypto wallets to allow users to recover their accounts.
+- **Mnemonic Passphrases:** A mnemonic phrase is a collection of words that can be used to derive a cryptographic key. Such phrases are typically easier to remember than raw cryptographic keys and are often employed by crypto wallets to allow users to recover their accounts.
 
 - **JSON Keystores:** A JSON keystore contains an encrypted version of a user's private key. It's accompanied by other data and is formatted as a JSON object. This keystore requires a password to decrypt and access the private key.
 
