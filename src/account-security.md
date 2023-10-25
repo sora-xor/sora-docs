@@ -108,7 +108,7 @@ Here are key security recommendations:
 - **Safe Downloads:** Always download password keeper software from recognized, legitimate sources to avoid inadvertently acquiring malicious software.
 - **Opt for Reputed Software:** Choose password managers that have garnered solid reputations and positive reviews, ensuring both their reliability and their commitment to user security.
 
-### Social Engineering Awareness:
+### Social Engineering Awareness
 
 Most likely, brute force will not be how your passphrases are compromised. Scams such as phishing (using fake or too-good-to-be-true offers) are the most effective to separate people from their assets. Scams such as popular NFT mints at a bargain or impersonating online service providers can lead to painful losses.
 It is important to ensure that the links you click in emails or tweets are from verified accounts. Don’t be blinded by ambition.
