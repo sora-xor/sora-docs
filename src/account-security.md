@@ -52,7 +52,7 @@ head:
 
 Explore the intricacies of passphrase formats like mnemonics, JSON, and raw seeds. Dive into best practices for safeguarding passwords, utilizing physical and digital storage solutions. Prioritize your digital security today.
 
-## TL;DR:
+## TL;DR
 
 - Understand the differences between mnemonic, JSON, and raw seed storage formats.
 - Employ best practices such as using unique passwords, 2FA, and opting for physical and digital encrypted storage methods.
