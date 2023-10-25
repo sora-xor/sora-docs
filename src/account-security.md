@@ -50,7 +50,7 @@ head:
 
 # SORA Account Security: How to Manage Passphrases Securely
 
-#### Explore the intricacies of passphrase formats like mnemonics, JSON, and raw seeds. Dive into best practices for safeguarding passwords, utilizing physical and digital storage solutions. Prioritize your digital security today.
+Explore the intricacies of passphrase formats like mnemonics, JSON, and raw seeds. Dive into best practices for safeguarding passwords, utilizing physical and digital storage solutions. Prioritize your digital security today.
 
 ## TL;DR:
 
