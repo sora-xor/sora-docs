@@ -10,7 +10,7 @@ TBC 是一个智能合约，它接受一个代币作为输入，并输出一个�
 
 此外，由于代币绑定曲线的定价函数呈上升趋势，随着代币供应增加，价格也会上涨。请记住，使用代币绑定曲线时，XOR 的价格和供应是相关的，并且会相应地变动。
 
-<figure><img src="../.gitbook/assets/xor-supply-correct(1).png" alt=""><figcaption><p>Price will increase when supply rises and vice versa</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/xor-supply-correct.png" alt=""><figcaption><p>Price will increase when supply rises and vice versa</p></figcaption></figure>
 
 供应增加时价格会上涨，反之亦然
 
