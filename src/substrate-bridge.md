@@ -244,7 +244,7 @@ Then, submit the transaction and sign on the pop-up using your password. After t
 
 ::: tip
 Although SORA transactions are usually almost instant, cross network transactions will take between 3-4 minutes.
-::: 
+:::
 
 #### SORA <-> Rococo
 
