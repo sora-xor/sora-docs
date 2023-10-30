@@ -219,6 +219,7 @@ The extrinsic to submit is `xcmPallet` then `reserveTransferAssets(dest,benefici
 
 Finally, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `KSM` balance is reduced in Kusama and has increased proportionally in your SORA account. Now let’s test a transaction in the opposite direction;
 Although SORA transactions are usually almost instant, cross network transactions will take between 3-4 minutes.
+
 ##### SORA mainnet -> Kusama
 
 To transfer assets from the SORA network to the Kusama relay chain, you will need XOR and KSM tokens to pay for the transaction fees, similar to before. To fill the call data with information from the figure, follow this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmof3.sora.org#/extrinsics/decode/0x6700010100117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8020301010100796f757257616c6c657441646472657373546f4265456e74657265644865726500008a5d784563010000000000000000). Make sure you modify the recipient as well as the amount to be sent, if needed.
