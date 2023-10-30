@@ -206,6 +206,7 @@ To fill the call data with information from the figure, follow this [link](https
 ![Image: Example of transferring KSM to the Kusama from SORA mainnet](./assets/bridgeTransferKusamaToSora.png)
 
 The extrinsic to submit is `xcmPallet` then `reserveTransferAssets(dest,beneficiary,assets,feeAssetitem)`:
+
 - The dest: is `V3`
   - The `interior:XCMV3Junctions` is `X1`
   - The `Parachain` is `2011`
@@ -218,27 +219,25 @@ The extrinsic to submit is `xcmPallet` then `reserveTransferAssets(dest,benefici
 
 Finally, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `KSM` balance is reduced in Kusama and has increased proportionally in your SORA account. Now let’s test a transaction in the opposite direction;
 
-
 ##### SORA mainnet -> Kusama
-
 
 To transfer assets from SORA to Kusama you will need XOR and KSM tokens to pay for the transaction fees, similar to before. To fill the call data with information from the figure, follow this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmof3.sora.org#/extrinsics/decode/0x6700010100117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8020301010100796f757257616c6c657441646472657373546f4265456e74657265644865726500008a5d784563010000000000000000). Make sure you modify the recipient as well as the amount to be sent, if needed.
 
 ![Image: Example of transferring KSM to the SORA mainnet from Kusama](./assets/bridgeTransferSoraToKusama.png)
 
 The extrinsic to submit is `bridgeProxy` then `burn`:
+
 - The `networkId` is `Sub` since we are doing a transfer to another Substrate-based chain
   - As a `Sub` type choose `Kusama`
   - As an `assetId`, enter the `KSM` token address `0x00117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8`
 - Moving on to the recipient configuration;
-  - Choose `Parachain` 
+  - Choose `Parachain`
   - Select version is `V3`
   - Parent is `1` to target Kusama
 - Enter your Kusama network address as `accountId`
 - Finally, enter the desired `amount` to be sent. You have to add twelve zeroes after the amount. In this case, we are sending `10`, so the input is `1000000000000`
 
 Then, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `KSM` balance is reduced in the SORA network and increased in Kusama.
-
 
 #### SORA <-> Rococo
 
