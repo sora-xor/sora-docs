@@ -1,1 +1,1 @@
-This page was moved to [EVM](../../evm).
+This page was moved to [EVM](../interoperability).
