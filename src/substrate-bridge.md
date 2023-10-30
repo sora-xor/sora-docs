@@ -218,7 +218,9 @@ The extrinsic to submit is `xcmPallet` then `reserveTransferAssets(dest,benefici
   - In the field `Fungible:Compact<128>` add the number of tokens to be transferred. You have to add twelve zeroes after the amount. In this case, we are sending `10`, so the input is `1000000000000`
 
 Finally, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `KSM` balance is reduced in Kusama and has increased proportionally in your SORA account. Now let’s test a transaction in the opposite direction;
+::: tip
 Although SORA transactions are usually almost instant, cross network transactions will take between 3-4 minutes.
+:::
 
 ##### SORA mainnet -> Kusama
 
@@ -240,7 +242,9 @@ The extrinsic to submit is `bridgeProxy` then `burn`:
 
 Then, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `KSM` balance is reduced in the SORA network and increased in Kusama.
 
+::: tip
 Although SORA transactions are usually almost instant, cross network transactions will take between 3-4 minutes.
+::: 
 
 #### SORA <-> Rococo
 
