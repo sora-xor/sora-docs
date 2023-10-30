@@ -173,6 +173,18 @@ Root extrinsics: `initialize`, `addPeer`, `removePeer`.
 
 ## Guides
 
+### Asset Registration
+
+To execute a cross-chain token transfer, a registration process for the desired token is required beforehand. Token registration involves using the root extrinsics `ParachainBridgeApp.registerSidechainAsset` and `ParachainBridgeApp.registerThischainAsset`. For instance, to register a native token on the Rococo network, the following procedure is followed:
+
+![Image: Example of registering a Rococo native token](./assets/sidechain-token-registration.png)
+
+Similarly, to register a native token from another blockchain as transferable through a parachain, also known as whitelisting, the process is as follows:
+
+![Image: Example of registering a native blockchain for transfer via parachain](./assets/thischain-token-registration.png)
+
+These extrinsics send messages to the SORA 2 Parachain, enabling the registration of asset mappings. Without this registration, tokens cannot be transferred through the parachain. Once the token is successfully registered, transfers can be initiated.
+
 ### Transfers
 
 ::: warning
@@ -181,19 +193,66 @@ Only specific XCM messages for/from the corresponding networks have been tested 
 
 :::
 
-#### SORA mainnet -> Relaychain / Other Prachain
+#### SORA <-> Kusama
 
-To execute a cross-chain token transfer, a registration process is required beforehand. Token registration involves using the root extrinsics `ParachainBridgeApp.registerSidechainAsset` and `ParachainBridgeApp.registerThischainAsset`. For instance, to register a native token on the Rococo network, the following procedure is followed:
+This section showcases various scenarios for bidirectional transfers between SORA mainnet and Kusama.
 
-![Image: Example of registering a Rococo native token](./assets/sidechain-token-registration.png)
+##### Kusama -> SORA mainnet
 
-Similarly, to register a native token from another blockchain as transferable through a parachain, the process is as follows:
+To transfer assets from Kusama to the SORA network, additional to the `XOR` for the SORA network transaction, you will need to hold `KSM` tokens to pay for the Kusama network transaction fees.
 
-![Image: Example of registering a native blockchain for transfer via parachain](./assets/thischain-token-registration.png)
+To fill the call data with information from the figure, follow this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x6302030001006d1f0300010100796f757257616c6c657441646472657373546f4265456e7465726564486572650304000000000700743ba40b00000000). Make sure you modify the recipient as well as the amount of tokens to be sent, if needed.
 
-These extrinsics send messages to the SORA 2 Parachain, enabling the registration of asset mappings. Without this registration, tokens cannot be transferred through the parachain.
+![Image: Example of a KSM transfer to the Kusama network from the SORA mainnet](./assets/bridgeTransferKusamaToSora.png)
 
-Once the token is successfully registered, transfers can be initiated. To transfer a token to a relaychain, the extrinsic `ParachainBridgeApp.burn` is used. For instance, to transfer a ROC token to the Rococo relay chain, the following procedure is followed:
+The extrinsic to submit is `xcmPallet` then `reserveTransferAssets(dest,beneficiary,assets,feeAssetitem)`:
+
+- The dest: is `V3`
+  - The `interior:XCMV3Junctions` is `X1`
+  - The `Parachain` is `2011`
+- Then in the next section, `Beneficiary:XCMVersionedMultiLocation` is `V3`
+  - Under `V3:XCMMultilocation` the `interior:XCMV3Junctions` is `X1`
+  - The `X1:XCMV3Junction` is `Accountid32` and in the `id:[u8:32]` section, input your SORA network account address (as the recipient of the to transfer)
+- So far, you now have the sender and the receiver for the transfer, now let’s input the asset.
+  - In `assets`: `XcmVersionedMultiAssets` select `V3`, then click `Add Item`
+  - In the field `Fungible:Compact<128>` add the number of tokens to be transferred. You have to add twelve zeroes after the amount. In this case, we are sending `10`, so the input is `1000000000000`
+
+Finally, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `KSM` balance is reduced in Kusama and has increased proportionally in your SORA account. Now let’s test a transaction in the opposite direction;
+::: tip
+Although SORA transactions are usually almost instant, cross network transactions will take between 3-4 minutes.
+:::
+
+##### SORA mainnet -> Kusama
+
+To transfer assets from the SORA network to the Kusama relay chain, you will need XOR and KSM tokens to pay for the transaction fees, similar to before. To fill the call data with information from the figure, follow this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmof3.sora.org#/extrinsics/decode/0x6700010100117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8020301010100796f757257616c6c657441646472657373546f4265456e74657265644865726500008a5d784563010000000000000000). Make sure you modify the recipient as well as the amount to be sent, if needed.
+
+![Image: Example of a KSM transfer to the SORA mainnet from the Kusama relay chain](./assets/bridgeTransferSoraToKusama.png)
+
+The extrinsic to submit is `bridgeProxy` then `burn`:
+
+- The `networkId` is `Sub` since we are doing a transfer to another Substrate-based chain
+  - As a `Sub` type choose `Kusama`
+  - As an `assetId`, enter the `KSM` token address `0x00117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8`
+- Moving on to the recipient configuration;
+  - Choose `Parachain`
+  - Select version is `V3`
+  - Parent is `1` to target Kusama
+- Enter your Kusama network address as `accountId`
+- Finally, enter the desired `amount` to be sent. You have to add twelve zeroes after the amount. In this case, we are sending `10`, so the input is `1000000000000`
+
+Then, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `KSM` balance is reduced in the SORA network and increased in Kusama.
+
+::: tip
+Although SORA transactions are usually almost instant, cross network transactions will take between 3-4 minutes.
+:::
+
+#### SORA <-> Rococo
+
+This section showcases various scenarios for bidirectional transfers between SORA mainnet and Rococo.
+
+##### SORA mainnet -> Rococo
+
+To transfer a token to a relaychain, the extrinsic `ParachainBridgeApp.burn` is used. For instance, to transfer a ROC token to the Rococo relay chain, the following procedure is followed:
 
 ![Image: Example of transferring ROC to the Rococo relay chain](./assets/token-burn.png)
 
