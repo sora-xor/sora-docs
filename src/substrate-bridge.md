@@ -201,7 +201,7 @@ This section showcases various scenarios for bidirectional transfers between SOR
 
 To transfer assets from Kusama to the SORA network, additional to the `XOR` for the SORA network transaction, you will need to hold `KSM` tokens to pay for the Kusama network transaction fees.
 
-To fill the call data with information from the figure, follow this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x6302030001006d1f0300010100796f757257616c6c657441646472657373546f4265456e7465726564486572650304000000000700743ba40b00000000). Make sure you modify the recipient as well as the amount of tokens to be sent, if needed.
+To fill the call data with information from the figure, follow this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x6302030001006d1f0300010100796f757257616c6c657441646472657373546f4265456e7465726564486572650304000000000b00a0724e180900000000). Make sure you modify the recipient as well as the amount of tokens to be sent, if needed.
 
 ![Image: Example of a KSM transfer to the Kusama network from the SORA mainnet](./assets/bridgeTransferKusamaToSora.png)
 
@@ -224,7 +224,7 @@ Although SORA transactions are usually almost instant, cross network transaction
 
 ##### SORA mainnet -> Kusama
 
-To transfer assets from the SORA network to the Kusama relay chain, you will need XOR and KSM tokens to pay for the transaction fees, similar to before. To fill the call data with information from the figure, follow this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmof3.sora.org#/extrinsics/decode/0x6700010100117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8020301010100796f757257616c6c657441646472657373546f4265456e74657265644865726500008a5d784563010000000000000000). Make sure you modify the recipient as well as the amount to be sent, if needed.
+To transfer assets from the SORA network to the Kusama relay chain, you will need XOR and KSM tokens to pay for the transaction fees, similar to before. To fill the call data with information from the figure, follow this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmof3.sora.org#/extrinsics/decode/0x6700010100117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8020301010100796f757257616c6c657441646472657373546f4265456e7465726564486572650000e8890423c78a0000000000000000). Make sure you modify the recipient as well as the amount to be sent, if needed.
 
 ![Image: Example of a KSM transfer to the SORA mainnet from the Kusama relay chain](./assets/bridgeTransferSoraToKusama.png)
 
