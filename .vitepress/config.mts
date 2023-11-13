@@ -199,35 +199,37 @@ export default withMermaid(
                   ],
                 },
                 {
-                  text: "Interoperability",
+                  text: "Interoperability (HASHI)",
                   link: "interoperability",
                   items: [
                     {
                       text: "EVM",
-                      link: "evm",
                       items: [
                         {
-                          text: "HASHI",
+                          text: "Ethereum",
                           items: [
                             {
                               text: "Adding a Token",
                               link: "adding-tokens-to-hashi-bridge",
                             },
-                            {
-                              text: "Become a Relayer",
-                            },
+    
                             {
                               text: "Fixing a Stuck Transaction",
                               link: "unstuck-bridge-tx",
                             },
                           ],
                         },
-                        { text: "Trustless" },
                       ],
                     },
                     {
                       text: "Substrate",
-                      items: [{ text: "Become a Relayer" }],
+                      link: "substrate-bridge",
+                      items: [
+                        {
+                          text: "Establishing HRMP channel",
+                          link: "establishing-hrmp-channel",
+                        },
+                      ],
                     },
                   ],
                 },
