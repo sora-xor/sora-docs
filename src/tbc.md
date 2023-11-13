@@ -35,7 +35,7 @@ Another important implication of this mechanism is that XOR price on the seconda
 - The SORA v2 monetary system is neither debt-based nor debt-driven, and new tokens are always allocated under democratic supervision, which works to eliminate the unsustainable boom-bust cycles in contemporary economic systems.
 - The current buy/sell-prices offered by the token bonding curve provide support & resistance levels, or a confidence range for the price of XOR in the market, with forward guidance.
 - 20% of the quantity bought from the buy function are reserved for different players in the SORA network:
-  - 1% goes to buy back and burn [VAL](./val)
+  - 1% goes to buyback-and-burn [VAL](./val)
   - 9% use decided by [VAL](./val) holders, but mainly for liquidity provision
   - 0.1% is given to citizens
   - 0.4% is given to stores and shoppers
