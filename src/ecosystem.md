@@ -71,3 +71,8 @@ Wallets.
 Finally, in the Request Features section you will find the guide to
 contribute to SORA network development, as well as how to submit an
 [RFP](rfp.md) with a proposal for new features.
+
+## Learn More
+
+- [SORA Integrated Plan](/integrated-plan)
+- [Request Features on SORA](/rfp)

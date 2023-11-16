@@ -117,3 +117,8 @@ successfully worked on!
 We hope this will motivate you to add your proposals for development and we look forward to all the interesting ideas you, as valuable community and important part of this project, submit in the best interest of the network and its users.
 
 We will continue to fine-tune this process and update the SORA Decentralised Development guide. Please let us know your thoughts about these improvements in the [SORA network community chats on Telegram](https://t.me/sora_xor)!
+
+## Learn More
+
+- [SORA Integrated Plan](/integrated-plan)
+- [SORA Builders Programme](/sora-builders)
