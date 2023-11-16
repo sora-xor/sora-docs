@@ -32,7 +32,7 @@ As you may recall, the [SORA token bonding
 curve](tbc.md) is a smart contract,
 built right into Polkaswap, which mints XOR in exchange for reserve
 assets, and burns XOR to return the reserve assets. There is a margin
-of 20% between buy and sell, which is used for buyingback-and-burning
+of 20% between buy and sell, which is used for buyback-and-burning
 VAL, giving funds for future VAL DAOs, as well as to put into accounts
 that in the future can be used for project funding, and giving
 stipends to SORA citizens.
