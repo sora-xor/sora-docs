@@ -362,7 +362,7 @@ export default withMermaid(
                     },
                     {
                       text: "VAL",
-                      link: "cn/val",                   
+                      link: "cn/val",
 		     },
                     {
                       text: "TBCD",
