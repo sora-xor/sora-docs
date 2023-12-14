@@ -25,7 +25,7 @@ Requirements:
 
 - A SORA account (Follow the [Account Creation
   tutorial](create-an-address.md) if you don't have one)
-- ~610 XOR to pay network and registrar fee
+- ~5600 XOR to pay network and registrar fee
 - 5 XSTUSD as a donation to the community funds
 
 Follow these steps to set up an identity:
@@ -58,7 +58,7 @@ Using the account you wish to verify, go under the Developer tab and follow thes
 
 - Click Extrinsics.
 - Select `Identity` and `requestJudgement`.
-- Under `regIndex`, place `1` (`reg_index` = `0` is no longer active). Registrar `1` has a fee of 500 `XOR`.
+- Under `regIndex`, place `1` (`reg_index` = `0` is no longer active). Registrar `1` has a fee of 5000 `XOR`.
 - Submit the transaction.
 
   <center><img src="/.gitbook/assets/requestJudgement.png" width="600"></center>
