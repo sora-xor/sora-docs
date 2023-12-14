@@ -42,7 +42,7 @@ Another important implication of this mechanism is that XOR price on the seconda
   - 0.5% is used to buyback-and-burn [TBCD](./tbcd)
   - 9% is used for projects
 
-![](<.gitbook/assets/margin-tbc.png>)
+![](.gitbook/assets/margin-tbc.png)
 
 While the SORA economy is in its infant phase, the token bonding curve plays a crucial role in maintaining XOR's store-of-value property. The ability to set confidence ranges of token price movements lowers the psychological boundary towards accepting XOR for payments.
 
