@@ -39,124 +39,75 @@ While order books on decentralized exchanges offer numerous benefits, it's impor
 
 ## Data model
 
-### Main entities
+You can review the list below to gain a deeper understanding of the data models for each component that can be built using this API:
 
-```rust
-OrderBooks = StorageMap<OrderBookId, OrderBook>;
-LimitOrders = StorageDoubleMap<OrderBookId, OrderId, LimitOrder>;
-```
+- [Calls](https://sora-xor.github.io/sora2-network/order_book/pallet/enum.Call.html)
+- [Errors](https://sora-xor.github.io/sora2-network/order_book/pallet/enum.Error.html#variants)
+- [Events](https://sora-xor.github.io/sora2-network/order_book/pallet/enum.Event.html#variants)
+- [Storages](https://sora-xor.github.io/sora2-network/order_book/pallet/index.html#types)
+- [More info](https://sora-xor.github.io/sora2-network/order_book/index.html#reexport.UserOrders)
 
-### Indexes entities
+## Integration Example
 
-```rust
-Bids = StorageDoubleMap<OrderBookId, OrderPrice, PriceOrders>;
-Asks = StorageDoubleMap<OrderBookId, OrderPrice, PriceOrders>; AggregatedBids = StorageMap<OrderBookId, MarketSide>;
-AggregatedAsks = StorageMap<OrderBookId, MarketSide>;
-UserLimitOrders = StorageDoubleMap<AccountId, OrderBookId, UserOrders>;
-```
+Here are code snippets written in multiple languages:
 
-### Order book
 
-```rust
-OrderPrice = Balance; OrderVolume = Balance;
-struct OrderBookId { /// Base asset.
-    pub base: AssetId,
-/// Quote asset. It should be a base asset of DEX.
-    pub quote: AssetId,
+
+::: code-group
+
+```ts [ts]
+
+import { api } from '@sora-substrate/util';
+import { PriceVariant } from '@sora-substrate/liquidity-proxy';
+
+import { delay, withConnectedAccount } from './util';
+
+async function main(): Promise<void> {
+  await withConnectedAccount(async () => {
+    const xor = '0x0200000000000000000000000000000000000000000000000000000000000000';
+    const val = '0x0200040000000000000000000000000000000000000000000000000000000000';
+    const account = 'cnVkoGs3rEMqLqY27c2nfVXJRGdzNJk2ns78DcqtppaSRe8qm';
+
+    const orderBooks = await api.orderBook.getOrderBooks();
+    console.log('orderBooks', orderBooks);
+
+    await api.orderBook.getUserOrderBooks(account);
+
+    api.orderBook.subscribeOnUserLimitOrdersIds(val, xor, account).subscribe((ids) => {
+      console.log('ids', ids);
+    });
+
+    const order = await api.orderBook.getLimitOrder(val, xor, 16);
+    console.log('order', order);
+
+    api.orderBook.subscribeOnAggregatedAsks(val, xor).subscribe((asks) => {
+      console.log('asks', asks);
+    });
+
+    api.orderBook.subscribeOnAggregatedBids(val, xor).subscribe((bids) => {
+      console.log('bids', bids);
+    });
+
+    const price = '1100000000000000000';
+    const amount = '100000000000000000000';
+    const side: PriceVariant = PriceVariant.Buy;
+
+    await api.orderBook.placeLimitOrder(val, xor, price, amount, side);
+
+    await delay(100000);
+  });
 }
+
+main()
+  .catch(console.error)
+  .finally(() => process.exit());
+
 ```
 
-```rust
-struct OrderBook {
-    pub order_book_id: OrderBookId,
-    pub dex_id: DEXId,
-    pub status: OrderBookStatus,
-    pub last_order_id: OrderId,
-    pub tick_size: OrderPrice,
-    pub step_lot_size: OrderVolume, // amount precision pub min_lot_size: OrderVolume,
-    pub max_lot_size: OrderVolume,
-}
-```
+:::
 
-### Limit order
+These code samples demonstrate various functionalities, from managing storage subscriptions to executing extrinsics.
 
-```rust
-struct LimitOrder {
-    pub id: OrderId,
-    pub owner: AccountId, pub side: PriceVariant,
-    /// Price is specified in OrderBookId `quote` asset. /// It should be a base asset of DEX.
-    pub price: OrderPrice,
-    pub original_amount: OrderVolume,
-    /// Amount of OrderBookId `base` asset
-    pub amount: OrderVolume,
-    pub time: Moment,
-    pub lifespan: Moment, }
-
-PriceOrders = Vec<OrderId>
-MarketSide = BTreeMap<OrderPrice, OrderVolume>
-UserOrders = Vec<OrderId>
-```
-
-### Hard-coded limitations
-
-Regular asset
-
-```rust
-tick_size = 0.00001
-step_lot_size = 0.00001
-min_lot_size = 1
-max_lot_size = 100000
-```
-
-NFT asset
-
-```rust
-tick_size = 0.00001
-step_lot_size = 1
-min_lot_size = 1
-max_lot_size = 100000
-```
-
-General
-
-```rust
-MAX_ORDER_LIFETIME = 30 days
-MIN_ORDER_LIFETIME = 1 block
-MAX_PRICE_SHIFT = 50%
-MaxOpenedLimitOrdersPerUser = 1000
-MaxLimitOrdersForPrice = 10000
-MaxSidePriceCount = 100000
-```
-
-### Orderbook statuses
-
-```rust
-pub enum OrderBookStatus {
-    /// All operations are allowed.
-    Trade,
-    /// Users can place and cancel limit order, but trading is forbidden.
-    PlaceAndCancel,
-    /// Users can only cancel their limit orders. Placement and trading are forbidden.
-    OnlyCancel,
-    /// All operations with order book are forbidden. Current limit orders are frozen and users cannot cancel them.
-Stop,
-}
-```
-
-### Order book operations
-
-```rust
-Order Book operations
-• Create Order Book
-• Delete Order Book
-• Update Order Book
-• Change Order Book status • Place limit order
-• Cancel limit order
-```
-
-### Permissions
-
-See this [GH issue for more information](https://github.com/sora-xor/sora2-network/issues/400)
 
 ## Step-by-step instructions
 
