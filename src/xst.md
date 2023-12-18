@@ -15,7 +15,7 @@ SORA Synthetics are tokens pegged to value indices, backed by XST,
 the first SORA Synthetic asset is the DAI-pegged XSTUSD. SORA
 Synthetic XST assets for other major stores of value will be
 available soon as part of the SORA Synthetics update on Polkaswap. XST was [proposed as an
-RFP](https://github.com/sora-xor/rfps/pull/8/files) and is currently live on the SORA network.
+RFP](https://github.com/sora-xor/rfps/pull/8/files) and is currently live on the SORA network. Additionally, you have the option to explore more about the platform overall on a [dedicated page](./synthetics.md).
 
 ## Fisher's Compensated Dollar
 
@@ -73,9 +73,11 @@ Some more interesting details available from the [XSTUSD RFP](https://github.com
 
 The implementation of SORA Synthetics is just the beginning, another interesting implementation tied to this is the [SORA Social Insurance](social-insurance.md).
 
-In the meantime, you can find XSTUSD on [Polkaswap](https://polkaswap.io/). The XST asset id is `0x0200090000000000000000000000000000000000000000000000000000000000`
+In the meantime, you can find XSTUSD on [Polkaswap](https://polkaswap.io/). The XST asset id is `0x0200090000000000000000000000000000000000000000000000000000000000`. You can also access all synthetic assets on Polkaswap by visiting the [wallet page](https://polkaswap.io/#/wallet) and activating a `Show only synthetic tokens` flag in the user interface, similar to what's shown on the screen below:
 
-You can swap XOR to XSTUSD and vice-versa.
+![](/.gitbook/assets/polkaswap-show-only-synthetics.png)
+
+Consequently, you can swap those assets. You can swap XOR to XSTUSD and vice-versa like that:
 
 ![](/.gitbook/assets/xstusd-demo1.png)
 
