@@ -12,29 +12,23 @@ head:
 # Ceres Tools
 
 [Ceres Tools](https://tools.cerestoken.io) is a platform supported by the SORA community which displays data from the Polkaswap DEX. 
-Users are able to track tokens prices, liquidity pairs, pool details, wallets, portfolio, swaps, charts, volumes etc. 
+Users are able to track tokens prices, pairs liquidity, pool details, wallets, portfolio, swaps, charts, volumes etc. 
 The platform is also available in the form of a mobile application for [Android](https://play.google.com/store/apps/details?id=io.cerestoken.tools) and [iOS](https://apps.apple.com/gb/app/ceres-tools/id1590032285).
 
 
 ## Tokens
 
-The prices of tokens listed on Polkaswap, as well as the asset IDs of the
-tokens, are shown in the Tokens section. Additionally, details about token
-locks and token holders are also provided in this section.
+The prices of tokens listed on Polkaswap, their asset IDs, token locks and token holders are shown in the Tokens section.
 
 ## Pairs
 
 Pairs section shows liquidity, 24hr volume and pool details for each pair as
-well as total liquidity and total 24hr volume on Polkaswap. Additionally,
-details about liquidity locks are also provided in this section, 
-users can check Deposit/Withdraw liquidity events for each pair and liquidity history for desired pair.
+well as total liquidity, total 24hr volume on Polkaswap and details about liquidity locks.
+Additionally, in this section, users can check Deposit/Withdraw liquidity events and liquidity changes history for each pair.
 
 ## Farming
 
-Pairs section shows liquidity, 24hr volume and pool details for each pair as
-well as total liquidity and total 24hr volume on Polkaswap. Additionally,
-details about liquidity locks are also provided in this section, 
-users can check Deposit/Withdraw liquidity events for each pair and liquidity history for desired pair.
+Farming section shows details about all farmings and stakings on SORA in one place. Users can check Demeter, Hermes and PSWAP farmings/stakings.
 
 ## Burning Tracker
 
