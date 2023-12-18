@@ -1,0 +1,19 @@
+# Interoperability
+
+This article is about the HASHI bridge, a decentralized two-way bridge connecting SORA and other blockchains (such as Ethereum and Kusama). HASHI means bridge in Japanese, and it is the plumbing that links many different chains, like pipes connecting the world's assets. The initial version of this bridge was a significant component of the plans for the beta launch of the SORA network in Q1 2021.
+
+## History
+
+The SORA blockchain serves as an ecosystem for robust DeFi projects like SORA's decentralized global economic system and [Polkaswap](./polkaswap), a DEX specifically designed for an interoperable future. In line with this vision, we recognize that blockchain maximalism is no longer viable, and we acknowledge the importance of secure, fast, and efficient asset migration between blockchains.
+
+As an initial step towards achieving this, we have developed the source code for Ethereum Bridge. In addition to Ethereum, SORA aims to establish connections with various ecosystems. Being built on Substrate, it is advantageous to utilize the built-in cross-chain transfer capabilities to facilitate communication with projects running on the Polkadot and Kusama ecosystems. To achieve this, the [Substrate bridge](./substrate-bridge) was developed.
+
+With multiple bridges already in operation, it becomes necessary to streamline the bridge interface to ensure consistent software components for cross-chain transfers across different heterogeneous blockchains. As a solution, the HASHI bridge is aggregating several bridge technologies to serve as the gateway between the SORA mainnet and the external world.
+
+The HASHI bridge currently comprises two bridges: the Federated EVM Bridge, and the Federated Substrate Bridge. As [Polkadot's BEEFY](https://wiki.polkadot.network/docs/learn-consensus#bridging-beefy) protocol is currently still in development, HASHI uses a _federated approach_ for now. **Federated bridges** combine aspects of both **trusted** and **trustless** bridges. While **trusted** bridges rely on a central entity or a group of trusted parties to help move assets and data between different blockchains and **trustless** bridges use smart contracts or decentralized protocols to enable cross-chain transfers and avoid the use of intermediaries, **federated bridges** involve a group of trusted **relayers** working together to manage and secure cross-chain transactions.
+
+A federated bridge follows the following workflow; The user initiates a transfer by calling an extrinsic. Upon detecting a new transaction on the source network, each peer signs it with their respective key and registers the signature on the source network. Subsequently, active peers add their signatures to the user's transaction. Once a sufficient number of signatures are gathered, the transaction is forwarded to the target network via relayers. The relayers sign the messages before transmitting them. As a result, only the owner of the peer's private key can initiate this process. The target blockchain then verifies the recipient's compliance with the signature authority based on the consensus mechanism. If the verification is successful, the tokens will be released to the designated transfer agent's address on the new network.
+
+## Security
+
+As all bridges are quite technically complex, teams building on the SORA network may want guarantees that there will not be financial loss resulting from any technical difficulties with the bridge. While this will be explained more in a future article, the SORA Parliament will provide insurance for infrastructure that is deemed systemically important to the ecosystem. [Systemically Important Infrastructure (SII)](./social-insurance) will need to concede governance to the SORA Parliament, but in exchange, the Parliament will commit to socialize any losses, in order to give network participants the confidence to use the SORA network. Details will be laid out in a future article.

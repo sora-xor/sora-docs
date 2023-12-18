@@ -1,3 +1,50 @@
+---
+title: Introduction to SORA - Decentralized Autonomous Economy | SORA Network
+head:
+  - - meta
+    - name: viewport
+      content: width=device-width, initial-scale=1.0
+  - - meta
+    - name: description
+      content: Get introduced to SORA - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the SORA network, XOR token, and key features.
+  - - meta
+    - name: keywords
+      content: SORA, SORA network, XOR token, decentralized autonomous economy, fair financial system, sustainable financial system, key features
+  - - meta
+    - name: author
+      content: SORA network
+  - - meta
+    - property: og:title
+      content: Introduction to SORA - Decentralized Autonomous Economy | SORA network
+  - - meta
+    - property: og:description
+      content: Get introduced to SORA - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the SORA network, XOR token, and key features.
+  - - meta
+    - property: og:type
+      content: website
+  - - meta
+    - property: og:site_name
+      content: SORA network
+  - - meta
+    - property: og:locale
+      content: en_US
+  - - meta
+    - name: twitter:card
+      content: summary
+  - - meta
+    - name: twitter:title
+      content: Introduction to SORA - Decentralized Autonomous Economy | SORA network
+  - - meta
+    - name: twitter:description
+      content: Get introduced to SORA - a decentralized autonomous economy designed for a fair and sustainable financial system. Explore the SORA network, XOR token, and key features.
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
+---
+
 # Introduction
 
 The community envisions a New Economic World Order, one that is truly decentralized and democratic. SORA is building to deliver financial inclusion for all without discrimination and providing a better method to manage day-to-day finances.
@@ -5,10 +52,10 @@ The community envisions a New Economic World Order, one that is truly decentrali
 SORA is an on-chain governance system based around the XOR token that allows producers to make proposals for funding and all token holders make decisions how to allocate XOR so that the best goods and services get created. People who create goods or services should accept XOR for them, thus building the SORA economy.
 
 ::: info
-We believe that inflation is good only if tokens are minted for producing new goods or services.
+We believe in credit creation for producing new goods or services.
 :::
 
-SORA mechanism is based on the **General Theory of macroeconomics**:
+SORA mechanism is based on the **General Quantity Theory (also known as the Disaggregated Quantity Theory of Credit/Money) of macroeconomics**:
 
 <iframe width="100%" height="484" src="https://www.youtube.com/embed/KEfdlctvHH4" title="SORA Economic Forum — KEYNOTE: &#39;Disaggregated Quantity Theory of Credit&#39; by Professor Richard Werner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -42,3 +89,8 @@ purchasing goods and services, and paying taxes, can lead to increased
 economic growth, because increased productive output can be funded.
 
 [Read the entire **SORA whitepaper** by Dr. Makoto Takemiya.](https://sora.org/pub/The-Case-for-XOR.pdf)
+
+## Learn More
+
+- [SORA Economy](/sora-economy.md)
+- [SORA Tokenomics](/tokenomics.md)
