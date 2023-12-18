@@ -9,7 +9,7 @@ head:
       content: "Ceres, Hermes, DeFi, decentralized fund, DAO, governance, Polkaswap, SORA network"
 ---
 
-Hermes is native token of [Hermes DAO](https://hermes-dao.io/). That is a decentralized fund for investments in cryptocurrency assets (tokens, coins, NFTs...)
+Hermes is the native token of [Hermes DAO](https://hermes-dao.io/), a decentralized fund for investments in cryptocurrency assets (tokens, coins, NFTs...)
 managed by the Hermes DAO Parliament and the community. 
 The fund is primarily used for investments in existing crypto projects and projects in early stages.
 It is an ideal balance between a hedge fund and high risk investment venture capital with constant and stable returns. 
@@ -17,5 +17,4 @@ It is an ideal balance between a hedge fund and high risk investment venture cap
 # Hermes DAO Governance
 
 [Hermes DAO Governance](https://hermes-dao.io/governance) platform is a tool for implementing the concept of decentralization in the Hermes DAO. 
-Any user holding Hermes (HMX) tokens above a set limit is able to create a poll. Likewise, each voter who has more than the set minimum 
-amount of Hermes (HMX) tokens, has the same voting power as anyone else.
+Any Hermes (HMX) token holder with more than a set limit will be able to create a poll. Likewise, all voters holding Hermes (HMX) tokens above a set minimum have the same voting power. Each wallet's vote counts as one vote. This form of governance brings a greater degree of democracy.
