@@ -73,11 +73,11 @@ Some more interesting details available from the [XSTUSD RFP](https://github.com
 
 The implementation of SORA Synthetics is just the beginning, another interesting implementation tied to this is the [SORA Social Insurance](social-insurance.md).
 
-In the meantime, you can find XSTUSD on [Polkaswap](https://polkaswap.io/). The XST asset id is `0x0200090000000000000000000000000000000000000000000000000000000000`. You can also access all synthetic assets on Polkaswap by visiting the [wallet page](https://polkaswap.io/#/wallet) and activating a `Show only synthetic tokens` flag in the user interface, similar to what's shown on the screen below:
+In the meantime, you can find XSTUSD on [Polkaswap](https://polkaswap.io/). The XST asset id is `0x0200090000000000000000000000000000000000000000000000000000000000`. You can also access all synthetic assets on Polkaswap by visiting the [wallet page](https://polkaswap.io/#/wallet) and activating the `Show only synthetic tokens` flag in the user interface, as per the screen below:
 
 ![](/.gitbook/assets/polkaswap-show-only-synthetics.png)
 
-Consequently, you can swap those assets. This is how to swap XOR to XSTUSD and vice-versa:
+You can also swap those assets. This is how to swap XOR to XSTUSD and vice-versa:
 
 ![](/.gitbook/assets/xstusd-demo1.png)
 
