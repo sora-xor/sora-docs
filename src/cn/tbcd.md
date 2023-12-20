@@ -14,7 +14,7 @@ head:
 - Token Bonding Curve Dollars (TBCD)是一种新提出的算法稳定币，其价值由SORA代币绑定曲线维持
 - TBCD的设计初衷是在XOR的价格远低于代币绑定曲线上的价格点时，使TBCD的价值略低于1美元，从而在XOR价格低时减少对XOR的抛售压力
 - TBCD将有助于在SORA代币绑定曲线中建立储备，同时也将用于通过由所有XOR代币持有者决定的链上公投来资助新商品和服务的创造
-- 重新铸造的[PSWAP](./pswap)的10%用于回购和销毁TBCD。同样，重新铸造的[VAL](./val)的10%用于回购和销毁TBCD。此外，[TBC保证金](./tbc.md#why-is-the-token-bonding-curve-useful)的0.5%用于回购和销毁TBCD。
+- 重新铸造的PSWAP的10%用于回购和销毁TBCD。同样，重新铸造的[VAL](./val)的10%用于回购和销毁TBCD。此外，[TBC保证金](./tbc.md#why-is-the-token-bonding-curve-useful)的0.5%用于回购和销毁TBCD。
 
 ## 为什么要实施代币绑定曲线美元 (TBCD)
 
