@@ -77,7 +77,7 @@ In the meantime, you can find XSTUSD on [Polkaswap](https://polkaswap.io/). The 
 
 ![](/.gitbook/assets/polkaswap-show-only-synthetics.png)
 
-Consequently, you can swap those assets. You can swap XOR to XSTUSD and vice-versa like that:
+Consequently, you can swap those assets. This is how to swap XOR to XSTUSD and vice-versa:
 
 ![](/.gitbook/assets/xstusd-demo1.png)
 
