@@ -44,7 +44,7 @@ indicators. In the Swaps part of the section, users are able to track swaps
 ## Portfolio
 
 The portfolio feature allows users to track a wallets
-holdings, staking, rewards, liquidity, swaps and transfers. Also users can
+holdings, staking, rewards, liquidity, swaps, and transfers. Users can also
 monitor the movement of the portfolio in the previous 1h, 24h, 7d and
 30d.
 
