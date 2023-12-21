@@ -36,7 +36,7 @@ In this section, users can track PSWAP and VAL burning.
 
 ## Charts & Swaps
 
-In the Charts part of the section, users can track price movement of tokens
+In the Charts part of the section, users can track the token price movement
 listed on Polkaswap as well as doing a Technical Analysis using various
 indicators. In the Swaps part of the section, users are able to track swaps
 (buys and sells) for each token on Ceres Tools.
