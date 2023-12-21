@@ -11,6 +11,6 @@ head:
 
 # Ceres Launchpad
 
-[Ceres Launchpad](https://dapps.cerestoken.io/launchpad) is the first station for new projects on the SORA network. 
+The [Ceres Launchpad](https://dapps.cerestoken.io/launchpad) is the first station for new projects on the SORA network. 
 With Launchpad, new projects can easily launch their tokens on Polkaswap and users will get more security because Ceres Liquidity Locker
 and Ceres Token Locker are integrated into Launchpad.
