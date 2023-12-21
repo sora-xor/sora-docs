@@ -23,7 +23,7 @@ Token prices listed on Polkaswap, their asset IDs, token locks, and token holder
 ## Pairs
 
 The pairs section shows liquidity, 24 hour volume, and pool details for each trading pair as
-well as total liquidity, total 24hr volume on Polkaswap and details about liquidity locks.
+well as total liquidity, total 24-hour volume on Polkaswap, and details about liquidity locks.
 Additionally, in this section, users can check Deposit/Withdraw liquidity events and liquidity changes history for each pair.
 
 ## Farming
