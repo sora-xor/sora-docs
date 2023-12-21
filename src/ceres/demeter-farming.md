@@ -14,5 +14,5 @@ Demeter (DEO) is the native token of the Demeter farming platform and DEO Arena 
 # Demeter Farming
 
 The [Demeter Farming](https://farming.deotoken.io/) platform is the first of its kind on the SORA network. 
-The unique feature of this platform is the user's ability to farm with the same liquidity in multiple pools. 
+This platform's unique feature is giving the user the ability to farm using the same liquidity in multiple pools. 
 The platform also provides Farming-as-a-Service, which means that every project can create its farming/staking pools without coding.
