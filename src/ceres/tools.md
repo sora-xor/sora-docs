@@ -28,7 +28,7 @@ In this section, users can also check Deposit/Withdrawal liquidity events and li
 
 ## Farming
 
-Farming section shows details about all farmings and stakings on SORA in one place. Users can check Demeter, Hermes and PSWAP farmings/stakings.
+The farming section details all farming and staking on SORA in one place. Users can check Demeter, Hermes, and PSWAP farming/staking.
 
 ## Burning Tracker
 
