@@ -46,7 +46,7 @@ indicators. In the Swaps part of the section, users are able to track swaps
 The portfolio feature allows users to track a wallets
 holdings, staking, rewards, liquidity, swaps, and transfers. Users can also
 monitor the portfolio's movement in 1h, 24-hour, 7-day and
-30d.
+30-day intervals.
 
 ## TBC Reserves
 
