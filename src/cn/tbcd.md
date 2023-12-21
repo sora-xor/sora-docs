@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: 代币绑定曲线美元 (TBCD) | SORA 文档
 head:
   - - meta
@@ -8,6 +7,7 @@ head:
   - - meta
     - name: 关键词
       content: TBCD代币，桥接代币，以太坊网络，SORA网络，资产转移，互操作性，跨链交易，流动性，去中心化金融，DeFi
+---
 
 # 代币绑定曲线美元 (TBCD)
 
