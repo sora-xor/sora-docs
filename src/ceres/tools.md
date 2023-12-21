@@ -18,7 +18,7 @@ The platform is also available as a mobile application for the [Android](https:/
 
 ## Tokens
 
-The prices of tokens listed on Polkaswap, their asset IDs, token locks and token holders are shown in the Tokens section.
+Token prices listed on Polkaswap, their asset IDs, token locks, and token holders are displayed in the Tokens section.
 
 ## Pairs
 
