@@ -17,4 +17,4 @@ It is an ideal balance between a hedge fund and high risk investment venture cap
 # Hermes DAO Governance
 
 The [Hermes DAO Governance](https://hermes-dao.io/governance) platform is a tool to implement the concept of decentralization in the Hermes DAO. 
-Any Hermes (HMX) token holder with more than a set limit will be able to create a poll. Likewise, all voters holding Hermes (HMX) tokens above a set minimum have the same voting power. Each wallet's vote counts as one vote. This form of governance brings a greater degree of democracy.
+Any Hermes (HMX) token holder above the set limit of tokens can create a poll. Likewise, all voters holding more Hermes (HMX) tokens than the specified minimum have the same voting power. Each wallet's vote counts as one vote. This form of governance brings a greater degree of democracy.
