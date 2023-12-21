@@ -50,4 +50,4 @@ monitor the portfolio's movement in 1h, 24-hour, 7-day and
 
 ## TBC Reserves
 
-In this section, users can track TBC (Token Bonding Curve) reserves.
+Users can track the SORA TBC (Token Bonding Curve) reserves in this section.
