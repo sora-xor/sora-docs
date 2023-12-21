@@ -12,7 +12,7 @@ head:
 ## Ceres Ecosystem
 
 Ceres is one of the first DeFi service providers in the DotSama ecosystem and the first on the SORA network.
-Ceres provides DeFi services and utilities for the new projects and tokens in the DotSama ecosystem.<br>
+Ceres provides DeFi services and utilities for new projects and tokens in the DotSama ecosystem.<br>
 CERES is a native token of the Ceres ecosystem, where the concepts of burning, airdrops, treasury and governance are in one place.
 
 ## CERES token utility
