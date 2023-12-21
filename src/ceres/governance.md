@@ -12,4 +12,4 @@ head:
 # Ceres Governance platform
 
 The [Ceres Governance platform](https://dapps.cerestoken.io/governance) is an essential step towards decentralization. 
-Ceres token holders are able to influence decisions concerning the project such as proposing or deciding on new feature proposals.
+Ceres token holders can influence decisions concerning the project, such as proposing or implementing new features.
