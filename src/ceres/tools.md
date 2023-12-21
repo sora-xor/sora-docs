@@ -13,7 +13,7 @@ head:
 
 [Ceres Tools](https://tools.cerestoken.io) is a platform supported by the SORA community which displays data from the Polkaswap DEX. 
 Users can track token prices, liquidity pairs and pool details, wallets, portfolios, swaps, charts, volumes, etc. 
-The platform is also available in the form of a mobile application for [Android](https://play.google.com/store/apps/details?id=io.cerestoken.tools) and [iOS](https://apps.apple.com/gb/app/ceres-tools/id1590032285).
+The platform is also available as a mobile application for the [Android](https://play.google.com/store/apps/details?id=io.cerestoken.tools) and [iOS](https://apps.apple.com/gb/app/ceres-tools/id1590032285) operating systems.
 
 
 ## Tokens
