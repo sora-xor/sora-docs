@@ -9,7 +9,7 @@ head:
       content: "Ceres, Hermes, DeFi, decentralized fund, DAO, governance, Polkaswap, SORA network"
 ---
 
-Hermes (HMX) is the native token of [Hermes DAO](https://hermes-dao.io/), a decentralized fund for investments in cryptocurrency assets (tokens, coins, NFTs...)
+Hermes (HMX) is the native token of the [Hermes DAO](https://hermes-dao.io/), a decentralized investment fund for cryptocurrency assets (tokens, coins, NFT, etc.)
 managed by the Hermes DAO Parliament and the community. 
 The fund is primarily used for investments in existing crypto projects and projects in early stages.
 It is an ideal balance between a hedge fund and high risk investment venture capital with constant and stable returns. 
