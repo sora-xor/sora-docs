@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: 代币绑定曲线美元 (TBCD) | SORA 文档
 head:
   - - meta
@@ -7,7 +8,6 @@ head:
   - - meta
     - name: 关键词
       content: TBCD代币，桥接代币，以太坊网络，SORA网络，资产转移，互操作性，跨链交易，流动性，去中心化金融，DeFi
----
 
 # 代币绑定曲线美元 (TBCD)
 
@@ -18,7 +18,7 @@ head:
 
 ## 为什么要实施代币绑定曲线美元 (TBCD)
 
-SORA生态系统多年来不断壮大，如今已有许多代币和[多元化的](https://cerestoken.io) [构建者](https://adar.com)。随着发展，成熟也随之而来，最近，SORA正朝着将合成稳定币XSTUSD分拆出来，形成全面的[SORA合成 XST 平台迈进。
+SORA生态系统多年来不断壮大，如今已有许多代币和[多元化的](https://cerestoken.io) [构建者](https://adar.com)。随着发展，成熟也随之而来，最近，SORA正朝着将合成稳定币XSTUSD分拆出来，形成全面的 SORA合成 (XST)  平台迈进。
 
 然而，我们参与机构项目的许多合作伙伴还没有准备好用SORA网络的原生代币XOR来定价所有东西。相反，他们需要一种代币，可以随需转换为XOR，但又与美元挂钩。
 
