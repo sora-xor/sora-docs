@@ -11,5 +11,5 @@ head:
 
 # Ceres Liquidity Locker
 
-[Ceres Liquidity Locker](https://dapps.cerestoken.io/liquidity_locker) is a decentralized application that brings more transparency and security to the Polkaswap and SORA/Polkadot ecosystem.
+The [Ceres Liquidity Locker](https://dapps.cerestoken.io/liquidity_locker) is a decentralized application that brings more transparency and security to Polkaswap and the SORA and Polkadot ecosystems.
 Project teams are able to lock their tokens liquidity and ensure that it cannot be pulled out for some period giving investors proof of security and seriousness of the project.
