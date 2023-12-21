@@ -34,7 +34,7 @@ The farming section details all farming and staking on SORA in one place. Users 
 
 In this section, users can track PSWAP and VAL burning.
 
-## Charts&Swaps
+## Charts & Swaps
 
 In the Charts part of the section, users can track price movement of tokens
 listed on Polkaswap as well as doing a Technical Analysis using various
