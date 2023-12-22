@@ -9,6 +9,8 @@ head:
       content: "Ceres, DeFi, liquidity locker, airdrops, demeter, hermes, apollo, DotSama, Polkaswap, SORA network"
 ---
 
+# Ceres Ecosystem
+
 ![](../.gitbook/assets/ceres-ecosystem.png)
 
 Ceres is one of the first DeFi service providers in the DotSama ecosystem and the first on the SORA network.
