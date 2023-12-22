@@ -315,7 +315,7 @@ export default withMermaid(
                   ],
                 },
                 {
-                  text: "Ceres Ecosystem",
+                  text: "Ceres",
                   collapsed: false,
                   items: [
                     { text: "Overview", link: "ceres/overview" },
