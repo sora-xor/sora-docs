@@ -9,7 +9,7 @@ head:
       content: "Ceres, Demeter, DeFi, farming, staking, farming-as-a-service, Polkaswap, SORA network"
 ---
 
-# Demeter Farming
+# Demeter (DEO)
 
 Demeter (DEO) is the native token of the Demeter farming platform and DEO Arena Web3 game. In the Ceres ecosystem, Demeter is the first self-purpose airdrop.
 

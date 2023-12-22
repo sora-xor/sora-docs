@@ -9,7 +9,7 @@ head:
       content: "Ceres, DeFi, liquidity locker, airdrops, demeter, hermes, apollo, DotSama, Polkaswap, SORA network"
 ---
 
-# Ceres Ecosystem
+# Ceres Ecosystem Overview
 
 ![](../.gitbook/assets/ceres-ecosystem.png)
 
