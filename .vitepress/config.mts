@@ -63,12 +63,14 @@ export default withMermaid(
           sidebar: [
             {
               text: "Getting Started",
+              collapsed: false,
               items: [
                 { text: "Introduction", link: "introduction" },
                 { text: "SORA Economy", link: "sora-economy" },
                 {
                   text: "Tokenomics",
                   link: "tokenomics",
+                  collapsed: false,
                   items: [
                     {
                       text: "Token Bonding Curve",
@@ -110,6 +112,7 @@ export default withMermaid(
                 {
                   text: "Polkaswap",
                   link: "polkaswap",
+                  collapsed: false,
                   items: [
                     { text: "FAQ", link: "polkaswap/polkaswap-faq" },
                     {
@@ -124,6 +127,7 @@ export default withMermaid(
                 },
                 {
                   text: "SORA Card",
+                  collapsed: false,
                   items: [
                     { text: "SORA Card Introduction", link: "sora-card" },
                     {
@@ -134,6 +138,7 @@ export default withMermaid(
                 },
                 {
                   text: "SORA in Your Pocket",
+                  collapsed: false,
                   items: [
                     { text: "SORA Mobile", link: "mobile" },
                     { text: "Fearless Wallet", link: "fearless" },
@@ -149,7 +154,7 @@ export default withMermaid(
               items: [
                 { text: "Overview", link: "participate" },
                 { text: "Create an Address", link: "create-an-address" },
-		{ text: "Account Security", link: "account-security" },
+                { text: "Account Security", link: "account-security" },
                 { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
                 {
                   text: "Send & Receive",
@@ -157,6 +162,7 @@ export default withMermaid(
                 },
                 {
                   text: "Explore the Ecosystem",
+                  collapsed: false,
                   items: [
                     { text: "Check Supply", link: "check-supply" },
                     { text: "Explore", link: "explore" },
@@ -170,6 +176,7 @@ export default withMermaid(
                 { text: "On-ramp", link: "on-ramp" },
                 {
                   text: "Staking",
+                  collapsed: false,
                   items: [
                     { text: "Demeter Staking", link: "demeter-staking" },
                     {
@@ -185,6 +192,7 @@ export default withMermaid(
 
                 {
                   text: "DEX",
+                  collapsed: false,
                   items: [
                     { text: "Swap", link: "swap" },
                     {
@@ -201,6 +209,7 @@ export default withMermaid(
                 },
                 {
                   text: "Interoperability (HASHI)",
+                  collapsed: false,
                   link: "interoperability",
                   items: [
                     {
@@ -213,7 +222,7 @@ export default withMermaid(
                               text: "Adding a Token",
                               link: "adding-tokens-to-hashi-bridge",
                             },
-    
+
                             {
                               text: "Fixing a Stuck Transaction",
                               link: "unstuck-bridge-tx",
@@ -243,64 +252,101 @@ export default withMermaid(
               ],
             },
             {
-              text: "Polkaswap",
+              text: "Builders",
               items: [
-                { text: "Overview", link: "participate" },
-                { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
                 {
-                  text: "Send & Receive",
-                  link: "send-and-receive-polkaswap",
-                },
-                {
-                  text: "Explore the Ecosystem",
+                  text: "Polkaswap",
+                  collapsed: false,
                   items: [
-                    { text: "Explore", link: "explore-polkaswap" },
-                    { text: "View Statistics", link: "statistics-polkaswap" },
-                  ],
-                },
-                {
-                  text: "Register an Asset",
-                  link: "register-an-asset-polkaswap",
-                },
-                { text: "On-ramp", link: "on-ramp-polkaswap" },
-                {
-                  text: "Staking",
-                  items: [
+                    { text: "Overview", link: "participate" },
+                    { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
                     {
-                      text: "Demeter Staking",
-                      link: "demeter-staking-polkaswap",
-                    },
-                  ],
-                },
-
-                {
-                  text: "DEX",
-                  items: [
-                    { text: "Swap", link: "swap-polkaswap" },
-                    {
-                      text: "Provide Liquidity to XYK Pools",
-                      link: "provide-liquidity-to-xyk-pools-polkaswap",
+                      text: "Send & Receive",
+                      link: "send-and-receive-polkaswap",
                     },
                     {
-                      text: "Advanced Trading",
-                      link: "advanced-trading-polkaswap",
+                      text: "Explore the Ecosystem",
+                      items: [
+                        { text: "Explore", link: "explore-polkaswap" },
+                        { text: "View Statistics", link: "statistics-polkaswap" },
+                      ],
+                    },
+                    {
+                      text: "Register an Asset",
+                      link: "register-an-asset-polkaswap",
+                    },
+                    { text: "On-ramp", link: "on-ramp-polkaswap" },
+                    {
+                      text: "Staking",
+                      items: [
+                        {
+                          text: "Demeter Staking",
+                          link: "demeter-staking-polkaswap",
+                        },
+                      ],
                     },
 
                     {
-                      text: "Other Polkaswap Features",
-                      link: "polkaswap-other-features",
+                      text: "DEX",
+                      items: [
+                        { text: "Swap", link: "swap-polkaswap" },
+                        {
+                          text: "Provide Liquidity to XYK Pools",
+                          link: "provide-liquidity-to-xyk-pools-polkaswap",
+                        },
+                        {
+                          text: "Advanced Trading",
+                          link: "advanced-trading-polkaswap",
+                        },
+
+                        {
+                          text: "Other Polkaswap Features",
+                          link: "polkaswap-other-features",
+                        },
+                      ],
+                    },
+                    { text: "Referral System", link: "referral-polkaswap" },
+                    { text: "NFT", link: "nft-polkaswap" },
+                    { text: "Rewards", link: "rewards-polkaswap" },
+                    {
+                      text: "Nodes Connection",
+                      link: "nodes-connection-polkaswap",
                     },
                   ],
                 },
-                { text: "Referral System", link: "referral-polkaswap" },
-                { text: "NFT", link: "nft-polkaswap" },
-                { text: "Rewards", link: "rewards-polkaswap" },
                 {
-                  text: "Nodes Connection",
-                  link: "nodes-connection-polkaswap",
+                  text: "Ceres",
+                  collapsed: false,
+                  items: [
+                    { text: "Overview", link: "ceres/overview" },
+                    {
+                      text: "Ceres",
+                      items: [
+                        { text: "Ceres Tools", link: "ceres/tools" },
+                        { text: "Liquidity Locker", link: "ceres/liquidity-locker" },
+                        { text: "Token Locker", link: "ceres/token-locker" },
+                        { text: "Governance", link: "ceres/governance" },
+                        { text: "Launchpad", link: "ceres/launchpad" },
+                      ],
+                    },
+                    {
+                      text: "Demeter",
+                      items: [
+                        { text: "Farming", link: "ceres/demeter-farming" },
+                        { text: "DEO Arena", link: "ceres/deo-arena" },
+                      ],
+                    },
+                    {
+                      text: "Hermes",
+                      items: [
+                        { text: "Hermes DAO", link: "ceres/hermes-dao" },
+                      ],
+                    },
+                  ],
                 },
-              ],
+              ]
             },
+
             {
               text: "Build",
               items: [
@@ -363,7 +409,7 @@ export default withMermaid(
                     {
                       text: "VAL",
                       link: "cn/val",
-		    },
+                    },
                     {
                       text: "TBCD",
                       link: "cn/tbcd",
