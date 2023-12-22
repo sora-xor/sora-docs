@@ -302,6 +302,35 @@ export default withMermaid(
               ],
             },
             {
+              text: "Ceres Ecosystem",
+              items: [
+                { text: "Overview", link: "ceres/overview" },
+                {
+                  text: "Ceres",
+                  items: [
+                    { text: "Ceres Tools", link: "ceres/tools" },
+                    { text: "Liquidity Locker", link: "ceres/liquidity-locker" },
+                    { text: "Token Locker", link: "ceres/token-locker" },
+                    { text: "Governance", link: "ceres/governance" },
+                    { text: "Launchpad", link: "ceres/launchpad" },
+                  ],
+                },
+                {
+                  text: "Demeter",
+                  items: [
+                    { text: "Farming", link: "ceres/demeter-farming" },
+                    { text: "DEO Arena", link: "ceres/deo-arena" },
+                  ],
+                },
+                {
+                  text: "Hermes",
+                  items: [
+                    { text: "Hermes DAO", link: "ceres/hermes-dao" },
+                  ],
+                },
+              ],
+            },
+            {
               text: "Build",
               items: [
                 { text: "Introduction", link: "build" },
