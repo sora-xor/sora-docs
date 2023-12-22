@@ -1,5 +1,5 @@
 ---
-title: "Overview | SORA Docs"
+title: "Ceres Ecosystem | SORA Docs"
 head:
   - - meta
     - name: description
@@ -8,8 +8,6 @@ head:
     - name: keywords
       content: "Ceres, DeFi, liquidity locker, airdrops, demeter, hermes, apollo, DotSama, Polkaswap, SORA network"
 ---
-
-## Ceres Ecosystem
 
 ![](../.gitbook/assets/ceres-ecosystem.png)
 
