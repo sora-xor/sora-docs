@@ -26,6 +26,10 @@ More about [SORA tokenomics](https://medium.com/sora-xor/sora-the-new-economic-o
 
 The XOR supply is elastically managed by a [token bonding curve](https://wiki.sora.org/token-bonding-curve) smart contract with buy and sell price functions. This means that as the token supply increases, the price also increases, and vice versa. The price is regulated by the bonding curve, so no extreme fluctuations in the price will be exhibited, but rather a smooth growth or decline.
 
+:::info
+The token bonding curve management assumes the reserves are filled with either ETH, DAI or TBCD. Currently the reserves are not full.
+:::
+
 When the SORA v2 network launched in April 2021, the XOR supply was 350,000 XOR.
 
 ## XOR Token Distribution
