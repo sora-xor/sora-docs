@@ -202,8 +202,8 @@ export default withMermaid(
                     { text: "Advanced Trading", link: "advanced-trading" },
 
                     {
-                      text: "Other Polkaswap Features",
-                      link: "polkaswap-other-features",
+                      text: "Other Polkaswap Settings",
+                      link: "polkaswap-other-settings",
                     },
                   ],
                 },
@@ -300,8 +300,8 @@ export default withMermaid(
                         },
 
                         {
-                          text: "Other Polkaswap Features",
-                          link: "polkaswap-other-features",
+                          text: "Other Polkaswap Settings",
+                          link: "polkaswap-other-settings",
                         },
                       ],
                     },
