@@ -51,5 +51,5 @@ CERES is the native token of the Ceres ecosystem, where the concepts of burning,
 
 ## Learn More
 
-- [Ceres Tools](./ceres/tools.md)
-- [Demeter Farming](./ceres/demeter-farming.md)
+- [Ceres Tools](./tools.md)
+- [Demeter Farming](./demeter-farming.md)
