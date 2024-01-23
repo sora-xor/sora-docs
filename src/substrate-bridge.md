@@ -215,7 +215,7 @@ The extrinsic to submit is `xcmPallet` then `reserveTransferAssets(dest,benefici
   - The `X1:XCMV3Junction` is `Accountid32` and in the `id:[u8:32]` section, input your SORA network account address (as the recipient of the to transfer)
 - So far, you now have the sender and the receiver for the transfer, now let’s input the asset.
   - In `assets`: `XcmVersionedMultiAssets` select `V3`, then click `Add Item`
-  - In the field `Fungible:Compact<128>` add the number of tokens to be transferred. You have to add twelve zeroes after the amount.
+  - In the field `Fungible:Compact<128>` add the number of tokens to be transferred. You have to add ten zeroes after the amount.
 
 Finally, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `DOT` balance is reduced in Kusama and has increased proportionally in your SORA account. Now let’s test a transaction in the opposite direction;
 ::: tip
