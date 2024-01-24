@@ -20,7 +20,7 @@ CERES is the native token of the Ceres ecosystem, where the concepts of burning,
 ## CERES token utility
 
 - [Governance](governance.md) - CERES token holders can influence decisions concerning the project, either by making proposals or deciding on other’s proposals for new features.
-- Airdrops - The goddess would always generously reward her admirers. Every CERES holder ccould get each of three Ceres Airdrop tokens ([Demeter](demeter-farming.md), [Hermes](hermes-dao.md), and Apollo). Each airdrop will have its purpose and will be provided with initial liquidity.
+- Airdrops - The goddess would always generously reward her admirers. Every CERES holder could get each of three Ceres Airdrop tokens ([Demeter](demeter-farming.md), [Hermes](hermes-dao.md), and Apollo). Each airdrop will have its purpose and will be provided with initial liquidity.
 - Treasury - Part of the fees from all platforms in the Ceres ecosystem will be transferred to a public treasury wallet managed by CERES holders using the governance platform.
 - Deflationary - For the goddess to grant all the wishes of her followers, it is necessary to offer an adequate sacrifice. CERES tokens will be burned over time and the supply will be constantly reducing.
 
