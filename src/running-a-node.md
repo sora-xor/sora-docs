@@ -232,6 +232,11 @@ Now your node should sync!
 
 ## Get session keys
 
+::: info
+It is recommended to use the command line to get the session keys, as
+Polkadot.JS sometimes has trouble connecting to the local node.
+:::
+
 ### With polkadot.js app
 
 1. Open [polkadot.js apps](https://polkadot.js.org/apps/#/explorer) and switch to your local node.
@@ -435,4 +440,19 @@ A: _You can add the setting `--in-peers 80` and that should solve the issue, oth
 
 Q: **I have checked all the documentation and my question still has no answer, who else can I ask?**
 
-A: _You can always join the [SORA Devs Telegram community](https://t.me/soradevs) and ask any other questions you may have there, other community members and the admins will be happy to help!_
+A: _You can always join the [SORA Devs Telegram
+community](https://t.me/soradevs) and ask any other questions you may
+have there, other community members and the admins will be happy to
+help!_
+
+Q: **I cannot access the local node from Polkadot.JS to get my session
+keys, what should I do?**
+
+A: _Sometimes Polkadot.JS has trouble connecting to local nodes, in
+that case, we recommend you use the command line instructions to get
+your session keys._
+
+## Learn More
+
+- [SORA Tokenomics](/tokenomics.md)
+- [VAL Token](/val.md)
