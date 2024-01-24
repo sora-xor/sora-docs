@@ -19,4 +19,4 @@ These features include the ability to switch to dark or light mode, select a lan
 <center><img src="/.gitbook/assets/polkaswap-other-features.png" ></center>
 
 You can easily access these features by clicking on the corresponding
-icons in the other settings menu located on the top right corner of the page.
+icons in the other settings menu located in the top right corner of the page.
