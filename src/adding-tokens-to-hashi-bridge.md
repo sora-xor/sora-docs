@@ -26,13 +26,13 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
 ## Registering a SORA asset on the bridge
 
-1. Get the AssetId of the asset you want to add ((which you can find on [Polkaswap.io]([url](https://polkaswap.io)); e.g. `0x000268050a977248b641719592e7a0247ce4741839c83ec6aac6a865d3d0ba2c`).
+1. Get the AssetId of the asset you want to add ((which you can find on [Polkaswap.io](<[url](https://polkaswap.io)>); e.g. `0x000268050a977248b641719592e7a0247ce4741839c83ec6aac6a865d3d0ba2c`).
 
 2. Go to [polkadot{.js}](http://polkadot.js.org/) in the _Governance > Preimages_ section and create a preimage with `ethBridge.addAsset` and the value for the address and bridge network ID of the token to be registered. The parameters are `assetId` and `networkId` (`0` for Ethereum).
 
    ![](.gitbook/assets/add-asset-preimage.png)
 
-3. Copy the preimage hash of the preimage you have just created and submit a proposal in _Governance > Democracy_. Alternatively you can try to reach out to a council member for the Council to directly create a motion to add the asset to the bridge with the preimage you created. This will fast track the process of adding the asset to the bridge. 
+3. Copy the preimage hash of the preimage you have just created and submit a proposal in _Governance > Democracy_. Alternatively you can try to reach out to a council member for the Council to directly create a motion to add the asset to the bridge with the preimage you created. This will fast track the process of adding the asset to the bridge.
 
 4. Once the proposal goes through, acquire the bridge’s peers' signatures via the `ethBridge.getAccountRequests` RPC with your account as the first argument and status `ApprovalsReady`.
 
