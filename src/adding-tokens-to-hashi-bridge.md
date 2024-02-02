@@ -32,7 +32,7 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
    ![](.gitbook/assets/hashi-call-extrinsic.png)
 
-3. Once the proposal goes through, acquire the bridge’s peers' signatures via the `ethBridge.getAccountRequests` RPC with your account as the first argument and status `ApprovalsReady`.
+3. Once the proposal goes through, acquire the authority account requests via the `ethBridge.getAccountRequests` RPC with `cnTQ1kbv7PBNNQrEb1tZpmK7hZUUWqKBpWxmnxL4nczYfYfrh` account, which can be found in `ethBridge.authorityAccount` storage and status filter `ApprovalsReady`.
 
    ![](.gitbook/assets/hashi-acquire-signatures.png)
 
