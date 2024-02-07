@@ -32,7 +32,7 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
    ![](.gitbook/assets/add-asset-preimage.png)
 
-3. Copy the preimage hash of the preimage you have just created and submit a proposal in _Governance > Democracy_. Alternatively you can try to reach out to a council member for the Council to directly create a motion to add the asset to the bridge with the preimage you created. This will fast track the process of adding the asset to the bridge.
+3. Copy the preimage hash of your created preimage and submit a proposal in _Governance > Democracy_. Alternatively, you can reach out to a council member for the Council to directly create a motion to add the asset to the bridge with the preimage you created. This will fast-track the process of adding the asset to the bridge.
 
 4. Once the proposal goes through, acquire the bridge’s peers' signatures via the `ethBridge.getAccountRequests` RPC with your account as the first argument and status `ApprovalsReady`.
 
