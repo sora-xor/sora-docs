@@ -40,7 +40,7 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
 5. The RPC will return a bunch of hashes. These are off-chain request hashes; the last one should be the `OutgoingAddAsset` request. To determine if the asset was added successfully, use the `getRequests` RPC.
 
-6. After your hash is found, use `getApprovedRequests` RPC to get the approvals.
+6. After finding your hash, use the `getApprovedRequests` RPC to get the approvals.
 
 7. Call `addEthSidechainToken` in the bridge's smart contract.
 
