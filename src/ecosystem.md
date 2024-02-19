@@ -55,6 +55,10 @@ Community members and developers are the key stakeholders of SORA,
 therefore feature development is mapped out on the [SORA Integrated Plan](integrated-plan.md), which is open to receive milestone contributions through the RFP
 program.
 
+Additionally to the SORA mainnet, the SORA ecosystem also comprises two parachains that connect to the Kusama and Polkadot ecosystems.
+* The **SORA Kusama parachain** has secured a lease to the Kusama relay chain until the **17th January 2025**
+* The **SORA Polkadot parachain** has secured a lease to the Polkadot relay chain until the **20th November 2025**
+
 ## What You Will Find in This Section
 
 The SORA Integrated Plan as well as its current milestones are hosted
