@@ -10,28 +10,31 @@ head:
 ---
 
 # Check Supply
+
 ::: info
 For new users or users without Polkadot.js experience, it is
-recommended to use the Polkaswap Statistics page. 
+recommended to use the Polkaswap Statistics page.
 :::
+
 ## Via Polkaswap
+
 1. In the [Polkaswap](https://polkaswap.io/) interface, navigate to
    the Statistics section
-   
- ![](/.gitbook/assets/polkaswap-home-stats.png)
-   
+
+![](/.gitbook/assets/polkaswap-home-stats.png)
+
 2. Scroll to the bottom of the page and you will find the Supply
-   section. 
-   
+   section.
+
 ![](/.gitbook/assets/polkaswap-statistics-fees-and-supply.png)
 
 3. To see the supply of other tokens, click on the token name in the
-   supply section and choose the token you would like to query. 
-   
+   supply section and choose the token you would like to query.
+
 ![](/.gitbook/assets/polkaswap-statistics-supply-token-list.png)
 
-
 ## Via Polkadot.js
+
 ::: info
 Please be aware that you would see the **total supply** (this includes locked tokens and the circulating supply) of all tokens in the network and not only the **circulating** supply of the tokens.
 :::
@@ -42,7 +45,6 @@ Please be aware that you would see the **total supply** (this includes locked to
 
 To check the number of tokens on the SORA network, follow this
 procedure:
-
 
 1. Go to [SORA polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc).
 

@@ -10,13 +10,14 @@ head:
 ---
 
 # Check User Balances
+
 This guide will show you how to check your balances using the
 Polkadot.js interface using an RPC call or through the Ceres Tools
-portfolio feature. 
+portfolio feature.
 
 ::: info
 For new users or users without Polkadot.js experience, it is
-recommended to use Ceres Tools. 
+recommended to use Ceres Tools.
 :::
 
 ## Via Polkadot.js UI
@@ -62,15 +63,15 @@ this](check-supply.md#how-to-read-the-results).
 
 1. Go to Ceres Tools and navigate to the [Portfolio
    section](https://tools.cerestoken.io/portfolio)
-   
-  ![](/.gitbook/assets/tools-portfolio-connect-wallet.png)
-  
+
+![](/.gitbook/assets/tools-portfolio-connect-wallet.png)
+
 2. Connect your wallet and you will find information of all your
-     assets including their balances. 
-	 
-  ![](/.gitbook/assets/tools-portfolio.png)
-  
-  ## Learn More
+   assets including their balances.
+
+![](/.gitbook/assets/tools-portfolio.png)
+
+## Learn More
 
 - [Polkaswap Statistics](./statistics-polkaswap.md)
 - [Ceres Tools](./ceres/tools.md)
