@@ -12,7 +12,7 @@ First of all, XOR should be bonded in order to pay fees for setting up the refer
 
 <center><img src="/.gitbook/assets/bond-choose-bond-more.png" width="400"></center>
 
-3. Enter the amount to bond. You can enter any amount, but keep in mind that it should be more than 0.0007 XOR in order to pay a fee for the referral.
+3. Enter the amount to bond. You can enter any amount, but keep in mind that it should be more than the value of a SORA network transaction to pay a fee for the referral.
 
 <center><img src="/.gitbook/assets/bond-enter-amount.png" width="400"></center>
 

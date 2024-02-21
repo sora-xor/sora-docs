@@ -22,7 +22,7 @@
 
 <center><img src="/.gitbook/assets/swap-change-direction.png" width="400"></center>
 
-5. To start the swap, enter the asset amount (source or destination):
+5. To start the swap, enter the asset or fiat amount (source or destination):
 
    <center><img src="/.gitbook/assets/swap-enter-asset-amounts.png" width="400"></center>
 
@@ -43,3 +43,5 @@ You can find the transaction in the **Activity** tab on the **Account** screen:
 <center><img src="/.gitbook/assets/swap-view-activity.png" width="400"></center>
 
 :::
+
+

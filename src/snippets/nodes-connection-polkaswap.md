@@ -1,12 +1,12 @@
-It's really easy to switch between different nodes. You can find the button to switch between nodes in the header.
+It's really easy to switch between different nodes. You can switch nodes on the status footer at the bottom of the screen.
 
-1. Click the switch button:
+1. Click the Node Connected status:
 
    <center><img src="/.gitbook/assets/nodes-switch.png" width="400"></center>
 
-   You will then see the list of nodes that were predefined by the developers.
+   You will then see the node you are connected to.
 
-2. Either select a predefined node or add your own:
+2. Click on Select Network Node to switch the node:
 
    <center><img src="/.gitbook/assets/nodes-select.png" width="400"></center>
 

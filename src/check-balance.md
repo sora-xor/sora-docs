@@ -10,6 +10,14 @@ head:
 ---
 
 # Check User Balances
+This guide will show you how to check your balances using the
+Polkadot.js interface using an RPC call or through the Ceres Tools
+portfolio feature. 
+
+::: info
+For new users or users without Polkadot.js experience, it is
+recommended to use Ceres Tools. 
+:::
 
 ## Via Polkadot.js UI
 
@@ -47,4 +55,22 @@ The letter before XOR means that the number is multiplied by the following amoun
 
 So, in the example above the shown amount is 80.434 mXOR = 0.080434 VAL
 
-For more details on how to read this output, [take a look at this](check-supply.md#how-to-read-the-results).
+For more details on how to read this output, [take a look at
+this](check-supply.md#how-to-read-the-results).
+
+## Via Ceres Tools
+
+1. Go to Ceres Tools and navigate to the [Portfolio
+   section](https://tools.cerestoken.io/portfolio)
+   
+  ![](/.gitbook/assets/tools-portfolio-connect-wallet.png)
+  
+2. Connect your wallet and you will find information of all your
+     assets including their balances. 
+	 
+  ![](/.gitbook/assets/tools-portfolio.png)
+  
+  ## Learn More
+
+- [Polkaswap Statistics](./statistics-polkaswap.md)
+- [Ceres Tools](./ceres/tools.md)

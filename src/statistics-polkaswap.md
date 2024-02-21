@@ -12,3 +12,8 @@ head:
 # Statistics
 
 <!-- @include: /snippets/statistics-polkaswap.md -->
+
+## Learn More
+
+- [Explore Polkaswap](./explore.md)
+- [Check Supply on Polkaswap](./check-supply.md)
