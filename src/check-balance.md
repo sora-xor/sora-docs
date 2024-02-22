@@ -57,7 +57,7 @@ The letter before XOR means that the number is multiplied by the following amoun
 So, in the example above the shown amount is 80.434 mXOR = 0.080434 VAL
 
 For more details on how to read this output, [take a look at
-this](check-supply.md#how-to-read-the-results).
+this guide](check-supply.md#how-to-read-the-results).
 
 ## Via Ceres Tools
 
