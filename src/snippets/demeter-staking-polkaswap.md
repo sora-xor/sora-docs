@@ -81,7 +81,7 @@ staking section will appear as active and will display your APR.
  ![](/.gitbook/assets/polkaswap-staking-active.png)
 
 When you click on the SORA Staking section, you will be able to review
-the statistics of your stake, as well as add and remove stake from
+the statistics of your stake, as well as add and remove the stake from
 your node.
 
  ![](/.gitbook/assets/polkaswap-stake-review.png)
