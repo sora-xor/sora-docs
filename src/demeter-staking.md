@@ -11,6 +11,16 @@ head:
 
 # Staking
 
-## Via Polkaswap
+In Polkaswap you can stake (also known as [nominating
+validators](nominating-validators.md)) as well as provide
+single-sided liquidity using the [Demeter
+Farming](https://farming.deotoken.io/) platform.
+
+## Demeter Staking
 
 <!-- @include: /snippets/demeter-staking-polkaswap.md -->
+
+## Learn More
+
+- [Nominating Validators](./nominating-validators.md)
+- [Staking in Fearless Wallet](./stake-in-fearless-wallet.md)

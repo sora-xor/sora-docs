@@ -15,7 +15,15 @@ Transfers are used to send tokens from one account to another. You can make tran
 
 The transfer logic is implemented in the `assets` pallet. SORA supports multiple assets and every asset can be transferred.
 
-Transferring is a transaction so the network fee must be paid. The fee is calculated in XOR so even if you transfer VAL, PSWAP, or any other token you should have some XOR to cover the fee. The transfer fee in SORA is **0.07 XOR**.
+Transferring is a transaction so the network fee must be paid. The fee
+is calculated in XOR so even if you transfer VAL, PSWAP, or any other
+token you should have some XOR to cover the fee.
+
+::: info
+The fees to make transfers on SORA may vary. Governance proposals are
+often made to adjust transaction fees. The current fee may differ from
+the one shown in the examples.
+:::
 
 ## Practice
 

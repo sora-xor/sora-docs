@@ -14,3 +14,8 @@ head:
 ## Via Polkaswap
 
 <!-- @include: /snippets/explore-polkaswap.md -->
+
+## Learn More
+
+- [Polkaswap Overview](./polkaswap.md)
+- [Polkaswap Statistics](./statistics-polkaswap.md)

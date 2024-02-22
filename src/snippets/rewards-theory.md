@@ -4,7 +4,7 @@ Users are incentivised to provide liquidity, use the SORA network, and support t
 
 Let's describe all the currently available rewards in detail:
 
-- Rewards for **Market Makers**
+- Rewards for **Market Makers** (Inactive)
 - LP **Farming Bonus rewards**
 - Rewards for **buying from the TBC**
 - **LP fees**
@@ -13,9 +13,9 @@ Let's describe all the currently available rewards in detail:
 
 Here is a quick summary of every reward.
 
-#### Rewards for Market Makers
+#### Rewards for Market Makers (Inactive)
 
-Polkaswap is distributing an amount of PSWAP proportional to trade volume to market makers who conduct at least 500 transactions per month, with a per-transaction amount of 1 XOR or more (_excluding transaction costs_).
+Polkaswap was distributing an amount of PSWAP proportional to trade volume to market makers who conducted at least 500 transactions per month, with a per-transaction amount of 1 XOR or more (_excluding transaction costs_).
 
 #### LP Farming Bonus rewards
 
