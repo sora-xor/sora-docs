@@ -76,7 +76,7 @@ remove your stake, or stake more tokens by repeating the above steps.
 ### Reviewing your SORA Stake
 
 The next time you navigate to the Staking tab on Polkaswap, the SORA
-staking section will appear as as active and will display your APR. 
+staking section will appear as active and will display your APR. 
 
  ![](/.gitbook/assets/polkaswap-staking-active.png)
 
