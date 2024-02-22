@@ -96,13 +96,13 @@ XOR to be added then sign the transaction.
 
  ![](/.gitbook/assets/polkaswap-staking-more.png)
  
- To remove some or all of your stake of XOR, click on Remove Stake,
- then select the percentage of your stake to remove. 
+To remove some or all of your stake of XOR, click on Remove Stake,
+then select the percentage of your stake to remove. 
  
- :::info
- The unstaking period is 7 days from when you confirm the transaction
- to remove your stake.
- :::
+:::info
+The unstaking period is 7 days from when you confirm the transaction
+to remove your stake.
+:::
  
  ![](/.gitbook/assets/polkaswap-staking-less.png)
 
