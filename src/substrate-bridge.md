@@ -195,11 +195,11 @@ Only specific XCM messages for/from the corresponding networks have been tested 
 
 #### SORA <-> Polkadot
 
-This section showcases various scenarios for bidirectional transfers between SORA mainnet and Polkadot.
+This section showcases various scenarios for bidirectional transfers between the SORA mainnet and Polkadot.
 
 ##### Polkadot -> SORA mainnet
 
-To transfer assets from Polkadot to the SORA network, additional to the `XOR` for the SORA network transaction, you will need to hold `DOT` tokens to pay for the Kusama network transaction fees.
+To transfer assets from Polkadot to the SORA network, in addition to the `XOR` for the SORA network transaction, you will need to hold `DOT` tokens to pay the Polkadot network transaction fees.
 
 To fill the call data with information from the figure, follow this [link](https://polkadot.js.org/apps/?rpc=wss://rpc.polkadot.io#/extrinsics/decode/0x95028400ccba123cc29c8e6464bb6d5d51236a1d9b4c5b61b86061850a7e85434833203501f683e251cc059cf488abe703192669ba3f6d2440e8fc9740cf85d8f0924a245916133f564d1fe0b248c97ef51008ce52fe1442856b6699283d20b28c5ed3a78f5501350100630203000100a51f0300010100ccba123cc29c8e6464bb6d5d51236a1d9b4c5b61b86061850a7e85434833203503040000000007000c77420300000000). Make sure you modify the recipient as well as the amount of tokens to be sent, if needed.
 
@@ -209,15 +209,15 @@ The extrinsic to submit is `xcmPallet` then `reserveTransferAssets(dest,benefici
 
 - The dest: is `V3`
   - The `interior:XCMV3Junctions` is `X1`
-  - The `Parachain` is `2035`
+  - The `Parachain` is `2025`
 - Then in the next section, `Beneficiary:XCMVersionedMultiLocation` is `V3`
   - Under `V3:XCMMultilocation` the `interior:XCMV3Junctions` is `X1`
-  - The `X1:XCMV3Junction` is `Accountid32` and in the `id:[u8:32]` section, input your SORA network account address (as the recipient of the to transfer)
+  - The `X1:XCMV3Junction` is `Accountid32`, and in the `id:[u8:32]` section, input your SORA network account address (as the recipient of the transfer)
 - So far, you now have the sender and the receiver for the transfer, now let’s input the asset.
   - In `assets`: `XcmVersionedMultiAssets` select `V3`, then click `Add Item`
-  - In the field `Fungible:Compact<128>` add the number of tokens to be transferred. You have to add ten zeroes after the amount.
+  - In the field `Fungible:Compact<128>` add the number of tokens to be transferred. **You have to add ten zeroes after the amount**.
 
-Finally, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `DOT` balance is reduced in Kusama and has increased proportionally in your SORA account. Now let’s test a transaction in the opposite direction;
+Finally, submit the transaction and sign on the pop-up using your password. After the successful transaction, you will notice your `DOT` balance is reduced in Polkadot and has increased proportionally in your SORA account. Now, let’s test a transaction in the opposite direction;
 ::: tip
 Although SORA transactions are usually almost instant, cross network transactions will take between 3-4 minutes.
 :::
@@ -235,12 +235,12 @@ The extrinsic to submit is `bridgeProxy` then `burn`:
   - As an `assetId`, enter the `DOT` token address `0x0003b1dbee890acfb1b3bc12d1bb3b4295f52755423f84d1751b2545cebf000b`
 - Moving on to the recipient configuration;
   - Choose `Parachain`
-  - Select version is `V3`
+  - The version is `V3`
   - Parent is `1` to target Kusama
 - Enter your Kusama network address as `accountId`
-- Finally, enter the desired `amount` to be sent. You have to add eighteen zeroes after the amount.
+- Finally, enter the desired `amount` to be sent. **You have to add eighteen zeroes after the amount**.
 
-Then, submit the transaction and sign on the pop-up using your password. After the transaction is successful, you will notice your `KSM` balance is reduced in the SORA network and increased in Kusama.
+Then, submit the transaction and sign on the pop-up using your password. After the successful transaction, you will notice your `DOT` balance is reduced in the SORA network and increased in Polkadot.
 
 ::: tip
 Although SORA transactions are usually almost instant, cross network transactions will take between 3-4 minutes.
