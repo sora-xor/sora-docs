@@ -12,5 +12,5 @@ The [Polkaswap Statistics](https://polkaswap.io/#/stats) page is a valuable tool
 
 ## Learn More
 
-- [Explore Polkaswap](./explore.md)
-- [Check Supply on Polkaswap](./check-supply.md)
+- [Explore Polkaswap](../snippets/../explore.md)
+- [Check Supply on Polkaswap](../snippets/../check-supply.md)
