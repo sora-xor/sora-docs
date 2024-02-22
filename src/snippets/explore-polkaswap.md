@@ -16,7 +16,7 @@ The ["Explore" page](https://polkaswap.io/#/explore/demeter/farming) in Polkaswa
 
 ![](/.gitbook/assets/polkaswap-explore-tokens.png)
 
-- [Trade:](https://polkaswap.io/#/explore/books) The trade tab displays a list of the available orderbook pairs, including information such as the price, daily percentage and volume, and the total value locked. (*This diagram will be updated as more Orderbook pairs are added*.)  
+- [Trade:](https://polkaswap.io/#/explore/books) The trade tab displays a list of the available orderbook pairs, including information such as the price, daily percentage and volume, and the total value locked.
 
 ![](/.gitbook/assets/polkaswap-explore-books.png)
 
