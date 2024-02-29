@@ -10,6 +10,7 @@ head:
 ---
 
 # Polkaswap Advanced Trading: Order Book
+
 ![](.gitbook/assets/polkaswap-orderbook-tutorial-hero.png)
 
 ## Theory
@@ -33,7 +34,9 @@ For advanced Orderbook functionality as well as how to integrate the SORA Orderb
 ![](.gitbook/assets/polkaswap-orderbook-interface.png)
 
 ### Explore the Interface:
+
 You'll see several key components in the Orderbook interface:
+
 - **The Order Book Widget:** Shows all the aggregated orders for a selected pair.
 - **Charts:** Visual representations of trading activity.
 - **Buy and Sell Widgets:** Where you'll place your orders.
@@ -42,7 +45,9 @@ You'll see several key components in the Orderbook interface:
 - **Understanding Charts:** The chart for the selected pair reflects data related to Order Book trading. It does not aggregate liquidity from swaps.
 
 ### Placing Orders:
+
 Choose the token pair you wish to trade. There are two types of orders:
+
 - **Market Order:** Executes at the latest pair price, similar to a swap.
 
 ![](.gitbook/assets/polkaswap-orderbook-market.png)
@@ -53,21 +58,19 @@ Choose the token pair you wish to trade. There are two types of orders:
 
 4. **Order Cancellation:** You can cancel your order at any time
    without any fees.
-   
-   
 
 5. **Fees on Order Placement:** You will incur a fee when placing an
    order. The fee amount is dependent on the price, similar to current
    swap fees.
-   
+
    ![](.gitbook/assets/polkaswap-orderbook-market-fees.png)
-   
-    ![](.gitbook/assets/polkaswap-orderbook-limit-fees.png)
+
+   ![](.gitbook/assets/polkaswap-orderbook-limit-fees.png)
 
 6. **Executing Trades from the Order Book:** If you want to fill an
    existing order, simply click on it. This action pre-fills the Buy
    and Sell widget, allowing you to execute the trade.
-   
+
    ![](.gitbook/assets/polkaswap-orderbook-execute-trade.png)
 
 That's it! You're now ready to start trading on Polkaswap. Remember, trading involves risks, so understand the process and trade responsibly. Happy trading with Style and Freedom!
@@ -76,5 +79,3 @@ That's it! You're now ready to start trading on Polkaswap. Remember, trading inv
 
 - [Liquidity Operations on Polkaswap](/provide-liquidity-to-xyk-pools-polkaswap)
 - [Swaps on Polkaswap](/swap-polkaswap)
-
-
