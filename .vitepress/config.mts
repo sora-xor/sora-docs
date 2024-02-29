@@ -200,7 +200,10 @@ export default withMermaid(
                       link: "provide-liquidity-to-xyk-pools",
                     },
                     { text: "Advanced Trading", link: "advanced-trading" },
-
+{
+                      text: "Orderbook Trading",
+                      link: "orderbook-trading",
+                    },
                     {
                       text: "Other Polkaswap Settings",
                       link: "polkaswap-other-settings",
