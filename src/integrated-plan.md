@@ -90,9 +90,9 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 
 - **XORless Transactions**: To facilitate the use of the SORA network as the infrastructure backbone of payment systems such as CBDC and others, the ability to make transactions without holding XOR will be implemented. This has already been tested successfully as part of the [Solomon Islands CBDC PoC](https://medium.com/sora-xor/the-sora-network-hosts-the-first-substrate-polkadot-based-cbdc-in-collaboration-with-the-central-6cc78e9b82b8).
 
-- **Cross Chain Swaps and Dynamic Fees**: More information on these features will be availabile soon. 
+- **Cross Chain Swaps and Dynamic Fees**: More information on these features will be availabile soon.
 
-- **Liquid Staking**: This feature will allow SORA network Nominators to access the liquidity they have locked on Validator nodes. 
+- **Liquid Staking**: This feature will allow SORA network Nominators to access the liquidity they have locked on Validator nodes.
 
 ## Web
 
@@ -116,14 +116,13 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 
 - **Validator Staking Web (Complete)**: Nominators can stake on their favorite SORA network Validator from the [Staking tab within the Polkaswap interface](https://polkaswap.io/#/staking/list), this allows for stylish and free nominations and reward claiming without the need to access the Dotapps.io interface, making the process faster and more intuitive.
 
-- **Marketplaces**: With the release of the order book feature, builders can implement their own marketplaces, such as NFT, phygital offerings, and any other retail platform that is not direct p2p transfer. 
+- **Marketplaces**: With the release of the order book feature, builders can implement their own marketplaces, such as NFT, phygital offerings, and any other retail platform that is not direct p2p transfer.
 
-- **Polkaswap Widget**: This feature will allow you to perform DeFi actions on any supported website. More information will be available soon. 
+- **Polkaswap Widget**: This feature will allow you to perform DeFi actions on any supported website. More information will be available soon.
 
 :::info
 For Polkaswap related updates, refer to the [Polkaswap Ecosystem Updates available on Medium](https://medium.com/@polkaswap).
 :::
-
 
 ## Mobile/Other
 
@@ -146,7 +145,7 @@ For Polkaswap related updates, refer to the [Polkaswap Ecosystem Updates availab
 
 - **Hashi Multi-EVM Bridge**: Once the Hashi Substrate bridge is complete, the Multi-EVM bridge will be worked on, to provide on-the-go access to bridge your assets across multiple EVM-based networks.
 
-- **Validator Staking Mobile**: Nominating SORA validators will be even easier when done on your mobile phone. You will be able to manage your stake, claim your rewards and help keep the network secure from the palm of your hands. 
+- **Validator Staking Mobile**: Nominating SORA validators will be even easier when done on your mobile phone. You will be able to manage your stake, claim your rewards and help keep the network secure from the palm of your hands.
 
 ### Further Details
 
