@@ -44,7 +44,7 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 
 **Business** covers things related to collaborations, partnerships, and key features.
 
-- **Curve Gauge (On Hold)**: Having a gauge in the [XSTUSD Curve pool](https://curve.fi/factory/68) to improve liquidity; this greatly incentivizes people to add liquidity to the XSTUST curve pool!
+- **Curve Gauge (On Hold)**: Having a gauge in the [XSTUSD Curve pool](https://curve.fi/factory/68) to improve liquidity; this greatly incentivizes people to add liquidity to the XSTUSD curve pool!
 
 - **Polkaswap as a Service**: Offering Polkaswap’s amazing DEX features to projects in search of boundless, cross-chain liquidity.
 
