@@ -52,10 +52,10 @@ Choose the token pair you wish to trade. There are two types of orders:
 
 ![](.gitbook/assets/polkaswap-orderbook-limit.png)
 
-4. **Order Cancellation:** You can cancel your order at any time
+1. **Order Cancellation:** You can cancel your order at any time
    without any fees.
 
-5. **Fees on Order Placement:** You will incur a fee when placing an
+2. **Fees on Order Placement:** You will incur a fee when placing an
    order. The fee amount depends on the price, similar to current
    swap fees.
 
@@ -63,7 +63,7 @@ Choose the token pair you wish to trade. There are two types of orders:
 
    ![](.gitbook/assets/polkaswap-orderbook-limit-fees.png)
 
-6. **Executing Trades from the Order Book:** If you want to fill an
+3. **Executing Trades from the Order Book:** If you want to fill an
    existing order, simply click on it. This action pre-fills the Buy
    and Sell widget, allowing you to execute the trade.
 
