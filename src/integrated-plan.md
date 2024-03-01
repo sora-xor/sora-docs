@@ -136,8 +136,8 @@ For Polkaswap related updates, refer to the [Polkaswap Ecosystem Updates availab
 
 - **SORA network within Fearless Wallet (Complete)**: This point seems to appear across several tracks. Once the Substrate 4 upgrade is completed, the SORA network will be available in Fearless Wallet along with other Dotsama ecosystem parachains.
 
-- **SORA Card Mobile: Phase 1**: SORA Card is also available within the SORA Mobile app, as a dedicated banking backend to manage your balances and top up your card. The first phase of the SORA Card is specific to onboarding, registration and the KYC process. 
-Phase 2 and Phase 3, which include access to a physical and digital card and a fiat banking suite to manage your assets are in the pipeline.𒉡𒉎𒋼
+- **SORA Card Mobile: Phase 1**: SORA Card is also available within the SORA Mobile app, as a dedicated banking backend to manage your balances and top up your card. The first phase of the SORA Card is specific to onboarding, registration and the KYC process.
+  Phase 2 and Phase 3, which include access to a physical and digital card and a fiat banking suite to manage your assets are in the pipeline.𒉡𒉎𒋼
 - **Demeter Mobile integration**: The Demeter farming platform has been integrated to Polkaswap, the next natural step is for Demeter Farming to be available whenever and wherever, through the SORA wallet app.
 
 - **SORA Typeface expansion**: This should be under the business category, but it isn’t yet. Many Worlds, Many Languages, One Typography. You can find the current [SORA Typeface here](https://fonts.google.com/specimen/SORA).
