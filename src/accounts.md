@@ -23,4 +23,9 @@ It's important to understand that the different formats for different networks a
 
 Most wallets generate a mnemonic phrase for users to back their wallets up and generate a private key from the mnemonic. If you generate a mnemonic, you'll get a 12-word phrase that can be used for restoring the account.
 
+## Learn More
+
+- [Create an Address](/create-an-address.md)
+- [Account Security](/account-security.md)
+
 <!-- TODO: Consider adding more contents from https://medium.com/sora-academy/sora-academy-ddfc86388a2f -->

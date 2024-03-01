@@ -1,6 +1,8 @@
+### Using ETH
+
 Before getting started, make sure that:
 
-- [**Metamask**](https://metamask.io/download.html) is installed in your browser with the Ethereum account that you wish to be using for MoonPay ready and connected, as tokens will be sent first to Ethereum, then to SORA using the HASHI bridge.
+- You have an Ethereum wallet compatible with Wallet Connect or [**Metamask**](https://metamask.io/download.html) installed in your browser with the Ethereum account that you wish to be using for MoonPay ready and connected, as tokens will be sent first to Ethereum, then to SORA using the HASHI bridge.
 - You have enough ETH for the [**HASHI bridge**](https://polkaswap.io/#/bridge) transaction fees on the Ethereum network side.
 - You are aware of [**MoonPay account limits and the KYC process**](https://support.moonpay.com/hc/en-gb/articles/4407710995217-What-are-your-account-limits-).
 
@@ -85,5 +87,17 @@ You can always go back and review any of the HASHI bridge transactions via the [
 You can also view all the purchases via the [Purchase History page](https://polkaswap.io/#/moonpay-history) and access all of your bridge transactions from there.
 
 :::
+
+### Using KSM/DOT
+
+1. The process to onboard into SORA using KSM or DOT tokens is very similar, within the Hashi Bridge interface, click on the cog and choose the network you want to transfer your assets from. You can choose either Kusama or Polkadot.
+
+![](/.gitbook/assets/on-ramp-bridge-select.png)
+
+2. Connect your Kusama or Polkadot account using Polkadot.js or another Polkadot-compatible browser extension such as [Fearless Wallet](https://fearlesswallet.io/) and input the amount of DOT or KSM tokens to send. 
+
+![](/.gitbook/assets/on-ramp-transfer-dot.png)
+
+3. Click **START BRIDGE** and then follow the usual steps for the HASHI bridge to move tokens from Ethereum to SORA. 
 
 In case you experience any issues at all, please join the [SORA Happiness](https://t.me/SORAhappiness) group on Telegram.

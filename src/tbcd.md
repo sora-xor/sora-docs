@@ -40,7 +40,7 @@ stipends to SORA citizens.
 The SORA Token Bonding Curve and uses of the margin between buy and sell
 functions
 ![The SORA Token Bonding Curve and uses of margin between buy and sell
-functions](/.gitbook/assets/flow-of-funds-new.png)
+functions](/.gitbook/assets/margin-tbc.png)
 
 TBCD can only be created and allocated by on-chain governance, which
 means that XOR token holders decide the supply. In this way, TBCD can

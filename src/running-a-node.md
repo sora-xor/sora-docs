@@ -78,7 +78,7 @@ If something went wrong, please visit the [Docker documentation](https://docs.do
 
 ## Get the latest SORA Node version number
 
-Users should use version **1.9.0** for the time being. We will update this article with the latest version after every update.
+Users should use version **3.2.0** for the time being. We will update this article with the latest version after every update.
 
 You should use the latest SORA Node version in order to run a
 node. You can see the latest build number here, and find the last
@@ -95,7 +95,7 @@ Use this version number for further `docker` commands in this guide. The number 
 1. Pull the docker image from the docker repository:
 
    ```bash
-   docker pull sora2/substrate:1.9.0
+   docker pull sora2/substrate:3.2.0
    ```
 
 2. Create a folder for the node configuration:
@@ -123,7 +123,7 @@ Use this version number for further `docker` commands in this guide. The number 
 4. Run the docker image (don’t forget to insert your version below!)
 
    ```bash
-   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v `pwd`:/chain sora2/substrate:1.9.0 --name sora2-node --chain main --base-path /chain --unsafe-ws-external --unsafe-rpc-external --wasm-execution compiled
+   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v `pwd`:/chain sora2/substrate:3.2.0 --name sora2-node --chain main --base-path /chain --unsafe-ws-external --unsafe-rpc-external --wasm-execution compiled
    ```
 
 ### On Windows
@@ -131,7 +131,7 @@ Use this version number for further `docker` commands in this guide. The number 
 1. Pull the docker image from the docker repository:
 
    ```bash
-   docker pull sora2/substrate:1.9.0
+   docker pull sora2/substrate:3.2.0
    ```
 
 2. Create a folder for the node configuration:
@@ -151,7 +151,7 @@ Use this version number for further `docker` commands in this guide. The number 
 4. Run the docker command:
 
    ```bash
-   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v sora2-node:/chain -u 0 sora2/substrate:1.9.0 --name sora2-node --chain main --base-path /chain --unsafe-ws-external --unsafe-rpc-external --wasm-execution compiled
+   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v sora2-node:/chain -u 0 sora2/substrate:3.2.0 --name sora2-node --chain main --base-path /chain --unsafe-ws-external --unsafe-rpc-external --wasm-execution compiled
    ```
 
 5. Now you can connect to your node with [polkadot.js apps](https://polkadot.js.org/apps/#/explorer). Select Local node and click Switch.
@@ -167,7 +167,7 @@ Now your node should sync!
 1. Pull the docker image from the docker repository:
 
    ```bash
-   docker pull sora2/substrate:1.9.0
+   docker pull sora2/substrate:3.2.0
    ```
 
 2. Create a folder for the node configuration
@@ -195,7 +195,7 @@ Now your node should sync!
 4. Run the Docker command:
 
    ```
-   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v `pwd`:/chain sora2/substrate:1.4.5 --name sora2-node --chain main --base-path /chain --validator --rpc-methods Unsafe --rpc-cors all --execution Wasm --wasm-execution compiled
+   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v `pwd`:/chain sora2/substrate:3.2.0 --name sora2-node --chain main --base-path /chain --validator --rpc-methods Unsafe --rpc-cors all --execution Wasm --wasm-execution compiled
    ```
 
    You can add the following flag to enable [Telemetry](https://telemetry.polkadot.io/#list/SORA) for your node
@@ -207,7 +207,7 @@ Now your node should sync!
 1. Pull the docker image from the docker repository
 
    ```
-   docker pull sora2/substrate:1.9.0
+   docker pull sora2/substrate:3.2.0
    ```
 
 2. Create a folder for the node configuration
@@ -227,10 +227,15 @@ Now your node should sync!
 4. Run the Docker command
 
    ```
-   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v `pwd`:/chain sora2/substrate:1.9.0 --name sora2-node --chain main --base-path /chain --validator --rpc-methods Unsafe --rpc-cors all --execution Wasm --wasm-execution compiled
+   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v `pwd`:/chain sora2/substrate:3.2.0 --name sora2-node --chain main --base-path /chain --validator --rpc-methods Unsafe --rpc-cors all --execution Wasm --wasm-execution compiled
    ```
 
 ## Get session keys
+
+::: info
+It is recommended to use the command line to get the session keys, as
+Polkadot.JS sometimes has trouble connecting to the local node.
+:::
 
 ### With polkadot.js app
 
@@ -340,7 +345,7 @@ You can change the name of your node by editing the parameter value of:
 1. Pull the docker image from the docker repository
 
    ```bash
-   docker pull sora2/substrate:1.9.0
+   docker pull sora2/substrate:3.2.0
    ```
 
 2. Create a folder for the node configuration
@@ -368,7 +373,7 @@ You can change the name of your node by editing the parameter value of:
 4. Run the Docker command
 
    ```bash
-   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v `pwd`:/chain sora2/substrate:1.9.0 --name sora2-my-node --chain main --base-path /chain --unsafe-ws-external --pruning archive --unsafe-rpc-external --wasm-execution compiled
+   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v `pwd`:/chain sora2/substrate:3.2.0 --name sora2-my-node --chain main --base-path /chain --unsafe-ws-external --pruning archive --unsafe-rpc-external --wasm-execution compiled
    ```
 
 ### On Windows
@@ -376,7 +381,7 @@ You can change the name of your node by editing the parameter value of:
 1. Pull the docker image from the docker repository
 
    ```bash
-   docker pull sora2/substrate:1.9.0
+   docker pull sora2/substrate:3.2.0
    ```
 
 2. Create a folder for the node configuration:
@@ -396,7 +401,7 @@ You can change the name of your node by editing the parameter value of:
 4. Run the Docker command:
 
    ```bash
-   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v sora2-node:/chain -u 0 sora2/substrate:1.9.0 --name sora2-my-node --chain main --base-path /chain --unsafe-ws-external --pruning archive --unsafe-rpc-external --wasm-execution compiled
+   docker run --rm -p 127.0.0.1:9933:9933 -p 127.0.0.1:9944:9944 -v sora2-node:/chain -u 0 sora2/substrate:3.2.0 --name sora2-my-node --chain main --base-path /chain --unsafe-ws-external --pruning archive --unsafe-rpc-external --wasm-execution compiled
    ```
 
 The node will take some time to sync. The output in logs should look like this:
@@ -435,4 +440,19 @@ A: _You can add the setting `--in-peers 80` and that should solve the issue, oth
 
 Q: **I have checked all the documentation and my question still has no answer, who else can I ask?**
 
-A: _You can always join the [SORA Devs Telegram community](https://t.me/soradevs) and ask any other questions you may have there, other community members and the admins will be happy to help!_
+A: _You can always join the [SORA Devs Telegram
+community](https://t.me/soradevs) and ask any other questions you may
+have there, other community members and the admins will be happy to
+help!_
+
+Q: **I cannot access the local node from Polkadot.JS to get my session
+keys, what should I do?**
+
+A: _Sometimes Polkadot.JS has trouble connecting to local nodes, in
+that case, we recommend you use the command line instructions to get
+your session keys._
+
+## Learn More
+
+- [SORA Tokenomics](/tokenomics.md)
+- [VAL Token](/val.md)
