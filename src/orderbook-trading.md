@@ -34,8 +34,8 @@ This tutorial will walk you through the essential steps for trading on Polkaswap
 You'll see several key components in the Orderbook interface:
 
 - **The Order Book Widget:** Shows all the aggregated orders for a selected pair.
-- **Charts:** Visual representations of trading activity.
-- **Buy and Sell Widgets:** Where you'll place your orders.
+- **Charts:** Shows visual representations of trading activity.
+- **Buy and Sell Widgets:** Shows where you'll place your orders.
 - **History Widget:** Displays your past trading activities.
 - **Market Trades Widget:** Shows all trades for the selected pair.
 - **Understanding Charts:** The chart for the selected pair reflects data related to Order Book trading. It does not aggregate liquidity from swaps.
