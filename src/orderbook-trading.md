@@ -56,7 +56,7 @@ Choose the token pair you wish to trade. There are two types of orders:
    without any fees.
 
 5. **Fees on Order Placement:** You will incur a fee when placing an
-   order. The fee amount is dependent on the price, similar to current
+   order. The fee amount depends on the price, similar to current
    swap fees.
 
    ![](.gitbook/assets/polkaswap-orderbook-market-fees.png)
