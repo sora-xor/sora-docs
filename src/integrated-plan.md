@@ -90,7 +90,7 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 
 - **XORless Transactions**: To facilitate the use of the SORA network as the infrastructure backbone of payment systems such as CBDC and others, the ability to make transactions without holding XOR will be implemented. This has already been tested successfully as part of the [Solomon Islands CBDC PoC](https://medium.com/sora-xor/the-sora-network-hosts-the-first-substrate-polkadot-based-cbdc-in-collaboration-with-the-central-6cc78e9b82b8).
 
-- **Cross Chain Swaps and Dynamic Fees**: More information on these features will be availabile soon.
+- **Cross-сhain Swaps and Dynamic Fees**: More information on these features will be availabile soon.
 
 - **Liquid Staking**: This feature will allow SORA network Nominators to access the liquidity they have locked on Validator nodes.
 
