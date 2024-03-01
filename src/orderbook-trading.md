@@ -19,10 +19,6 @@ An order book is a fundamental component of a decentralized exchange (DEX) that 
 
 This tutorial will walk you through the essential steps for trading on Polkaswap, focusing on connecting your wallet, understanding the interface, and executing trades. Let's get started.
 
-:::info
-For advanced Orderbook functionality as well as how to integrate the SORA Orderbook in your dApp, refer to the [Orderbooks](orderbooks.md) section.
-:::
-
 ## Practice
 
 1. **Connect Your Wallet:** To begin trading, connect your wallet to Polkaswap. This is a crucial step to access your funds and initiate trades.

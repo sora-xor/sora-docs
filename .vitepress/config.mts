@@ -96,6 +96,10 @@ export default withMermaid(
                       text: "TBCD",
                       link: "tbcd",
                     },
+		     {
+                      text: "KEN",
+                      link: "ken",
+                    },
                   ],
                 },
                 { text: "SORA Governance", link: "sora-governance" },
