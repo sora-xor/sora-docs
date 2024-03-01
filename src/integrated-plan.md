@@ -120,7 +120,7 @@ The SORA integrated plan is separated into: **Business**, **Backend**, **Web**, 
 
 - **Polkaswap Widget**: This feature will allow you to perform DeFi actions on any supported website. More information will be available soon.
 
-:::info
+::: info
 For Polkaswap related updates, refer to the [Polkaswap Ecosystem Updates available on Medium](https://medium.com/@polkaswap).
 :::
 
