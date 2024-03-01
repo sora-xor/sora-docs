@@ -144,7 +144,7 @@ For Polkaswap related updates, refer to the [Polkaswap Ecosystem Updates availab
 
 - **Hashi Substrate bridge mobile**: A feature that has been much awaited, adding mobile capabilities to the HASHI bridge will allow users to move their assets across networks from the palm of their hands.
 
-- **Hashi Multi-EVM Bridge**: Once the Hashi Substrate bridge is complete, the Multi-EVM bridge will be worked on, to provide on-the-go access to bridge your assets across multiple EVM-based networks.
+- **Hashi Multi-EVM Bridge**: Now that the Hashi Substrate bridge is complete, the Multi-EVM bridge will be worked on, to provide on-the-go access to bridge your assets across multiple EVM-based networks.
 
 - **Validator Staking Mobile**: Nominating SORA validators will be even easier when done on your mobile phone. You will be able to manage your stake, claim your rewards and help keep the network secure from the palm of your hands.
 
