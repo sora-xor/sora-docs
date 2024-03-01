@@ -96,6 +96,10 @@ export default withMermaid(
                       text: "TBCD",
                       link: "tbcd",
                     },
+		     {
+                      text: "KEN",
+                      link: "ken",
+                    },
                   ],
                 },
                 { text: "SORA Governance", link: "sora-governance" },
@@ -200,7 +204,10 @@ export default withMermaid(
                       link: "provide-liquidity-to-xyk-pools",
                     },
                     { text: "Advanced Trading", link: "advanced-trading" },
-
+{
+                      text: "Orderbook Trading",
+                      link: "orderbook-trading",
+                    },
                     {
                       text: "Other Polkaswap Settings",
                       link: "polkaswap-other-settings",
