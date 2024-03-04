@@ -28,7 +28,12 @@ Maker DAO is the largest DeFi app, with $5.92 Billion in TVL; Maker DAO powers D
 
 With KENSETSU, XOR token holders will be able to vote to create stablecoins pegged to any values available via oracles on the SORA network, such as popular fiat currencies, GOLD, SILVER, and others. As with Maker DAO, users can mint stablecoins by locking up collateral in vaults.
 
-In KENSETSU, there will be two vault types: 1) vaults where users lock up collateral and they can get the collateral back by paying back the minted stablecoins, and 2) vaults where users lock up collateral, but to get it back, they will have to pay the minted stablecoins + a stability fee; these vaults can be liquidated if the value of the underlying collateral goes too low; type-1 vaults cannot be liquidated, but there will be a stability fee as a tax that is taken from the collateral over time, so users won’t ever get their total collateral back. Initial collateral assets are expected to be XOR, TBCD, VAL, PSWAP, ETH, and DAI.
+In KENSETSU, there will be two vault types: 
+1) Vaults where users lock up collateral and they can get the collateral back by paying back the minted stablecoins.
+2) Vaults where users lock up collateral, but to get it back, they will have to pay the minted stablecoins + a stability fee. 
+
+Type-1 vaults cannot be liquidated, but there will be a stability fee as a tax that is taken from the collateral over time, so users won’t ever get their total collateral back. Type-2 vaults can be liquidated if the value of the underlying collateral goes too low.
+Initial collateral assets are expected to be XOR, TBCD, VAL, PSWAP, ETH, and DAI.
 
 The ability to mint stablecoins from collateral is very useful. Still, because there is a stability fee on the vaults, there also a need for the the stablecoins to be liquid and create demand. That’s where KEN comes in.
 
