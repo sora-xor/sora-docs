@@ -38,7 +38,7 @@ In this section, you will discover how to execute different operations associate
 
 ### Operations with orders
 
-We suggest performing order operations such as placing a limit order or canceling a limit order directly in Polkaswap. You can find examples of these actions in a [dedicated guide](./polkaswap-orderbook-trading).
+We suggest performing order operations such as placing a limit order or canceling a limit order directly in Polkaswap. You can find examples of these actions in a [dedicated guide](./polkaswap-order-book-trading).
 
 ### Operations with order books
 
