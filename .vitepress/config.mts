@@ -306,7 +306,7 @@ export default withMermaid(
                         },
                         {
                           text: "Orderbook Trading",
-                          link: "orderbook-trading",
+                          link: "polkaswap-orderbook-trading",
                         },
                         {
                           text: "Advanced Trading",
