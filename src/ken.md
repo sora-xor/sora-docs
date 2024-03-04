@@ -24,8 +24,6 @@ This token was originally proposed in [SORA RFP 60](https://github.com/sora-xor/
 
 ## Kensetsu Introduction
 
-Maker DAO is the largest DeFi app, with $5.92 Billion in TVL; Maker DAO powers DAI, the decentralized dollar-pegged stablecoin. SORA is a new world economic system aimed at high, sustainable growth. Despite SORA’s bold ambitions, it does not have a Maker DAO equivalent on its network. That’s why in 2023, SORA community contributor Satoshi Shibarimoto, proposed KENSETSU as SORA’s version of Maker DAO that not only builds on the successes of the original protocol but also takes advantage of the amazing Polkadot tech.
-
 With KENSETSU, XOR token holders will be able to vote to create stablecoins pegged to any values available via oracles on the SORA network, such as popular fiat currencies, GOLD, SILVER, and others. As with Maker DAO, users can mint stablecoins by locking up collateral in vaults.
 
 In KENSETSU, there will be two vault types:
@@ -40,13 +38,10 @@ The ability to mint stablecoins from collateral is very useful. Still, because t
 
 ## KENONOMICS
 
-KEN is a farming reward token meant to incentivize liquidity for KENSETSU stablecoins. For each stablecoin minted from deposited collateral, 1% extra of the stablecoin will be minted and used to buy back and burn $KEN tokens. 80% of the burned $KEN tokens will be reminted and distributed to Demeter farm for farming rewards on the XOR-KUSD pool on Polkaswap.
+KEN is a farming reward token meant to incentivize liquidity for KENSETSU stablecoins. For each stablecoin minted from deposited collateral, 1% extra of the stablecoin will be minted and used to buy back and burn $KEN tokens. 
+80% of the burned $KEN tokens will be reminted and distributed to Demeter farm for farming rewards on the XOR-KUSD pool on Polkaswap.
 To up the stakes, to get an allocation of the initial KEN supply, you will literally have to burn money.
-
-### Burning Money
-
-As explained in the KENONOMICS, KEN will be strictly deflationary once launched, meaning the supply will only go down. The original allocation of KEN will be the maximum supply, and then it will go down from there. As anons make KENSETSU, the initial allocation follows the _no baby (team), no cry_ principle, which means, in simple terms, that it’s a **fair launch: KEN will only be allocated to accounts on the SORA network that burn (using the `assets.burn` extrinsic) at least 1 million XOR, at a rate of 1 KEN per 1 million XOR burned.** You can only get the initial KEN tokens by burning XOR.
-Holding KEN tokens is the ultimate flex because you have to burn real money to get KEN. Holding KEN is a status symbol that shows how cool you are.
+KEN will be strictly deflationary once launched, meaning the supply will only go down, additionally KEN will only be allocated to accounts on the SORA network that burn (using the `assets.burn` extrinsic) at least 1 million XOR, at a rate of 1 KEN per 1 million XOR burned.** You can only get the initial KEN tokens by burning XOR.
 
 ## How to Burn XOR
 
@@ -70,9 +65,7 @@ For example, if 999,999 XOR are burned, 0 KEN will be given to an account. If 1 
 You can track the burnt XOR on the Polkaswap interface [Kensetsu tab](https://polkaswap.io/#/kensetsu).
 :::
 
-So get out there and enjoy the **Ken**omics **Ken**olution!
-
-> This article was originally published on [Medium](https://medium.com/@shibarimoto/kensetsu-ken-356077ebee78) and written by community member Satoshi Shibarimoto. Some editorial cleanup for clarity aside, the article has been published faithfully to the original. The lyrics to the **Kensetsu Burn** song have been stripped for the sake of maintaining the article on topic.
+> This article was originally published on [Medium](https://medium.com/@shibarimoto/kensetsu-ken-356077ebee78) and written by community member Satoshi Shibarimoto. This entry retains the basic principles of _Kenonomics_.
 
 ## Learn More
 
