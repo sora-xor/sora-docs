@@ -96,6 +96,10 @@ export default withMermaid(
                       text: "TBCD",
                       link: "tbcd",
                     },
+                    {
+                      text: "KEN",
+                      link: "ken",
+                    },
                   ],
                 },
                 { text: "SORA Governance", link: "sora-governance" },
@@ -199,8 +203,8 @@ export default withMermaid(
                       text: "Provide Liquidity to XYK Pools",
                       link: "provide-liquidity-to-xyk-pools",
                     },
+                    { text: "Orderbooks", link: "orderbooks" },
                     { text: "Advanced Trading", link: "advanced-trading" },
-
                     {
                       text: "Other Polkaswap Settings",
                       link: "polkaswap-other-settings",
@@ -259,7 +263,10 @@ export default withMermaid(
                   collapsed: false,
                   items: [
                     { text: "Overview", link: "participate" },
-                    { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
+                    {
+                      text: "Connect Wallet",
+                      link: "polkaswap-connect-wallet",
+                    },
                     {
                       text: "Send & Receive",
                       link: "send-and-receive-polkaswap",
@@ -268,7 +275,10 @@ export default withMermaid(
                       text: "Explore the Ecosystem",
                       items: [
                         { text: "Explore", link: "explore-polkaswap" },
-                        { text: "View Statistics", link: "statistics-polkaswap" },
+                        {
+                          text: "View Statistics",
+                          link: "statistics-polkaswap",
+                        },
                       ],
                     },
                     {
@@ -295,10 +305,13 @@ export default withMermaid(
                           link: "provide-liquidity-to-xyk-pools-polkaswap",
                         },
                         {
+                          text: "Orderbook Trading",
+                          link: "orderbook-trading",
+                        },
+                        {
                           text: "Advanced Trading",
                           link: "advanced-trading-polkaswap",
                         },
-
                         {
                           text: "Other Polkaswap Settings",
                           link: "polkaswap-other-settings",
@@ -323,7 +336,10 @@ export default withMermaid(
                       text: "Ceres",
                       items: [
                         { text: "Ceres Tools", link: "ceres/tools" },
-                        { text: "Liquidity Locker", link: "ceres/liquidity-locker" },
+                        {
+                          text: "Liquidity Locker",
+                          link: "ceres/liquidity-locker",
+                        },
                         { text: "Token Locker", link: "ceres/token-locker" },
                         { text: "Governance", link: "ceres/governance" },
                         { text: "Launchpad", link: "ceres/launchpad" },
@@ -338,13 +354,11 @@ export default withMermaid(
                     },
                     {
                       text: "Hermes",
-                      items: [
-                        { text: "Hermes DAO", link: "ceres/hermes-dao" },
-                      ],
+                      items: [{ text: "Hermes DAO", link: "ceres/hermes-dao" }],
                     },
                   ],
                 },
-              ]
+              ],
             },
 
             {
