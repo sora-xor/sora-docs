@@ -12,7 +12,7 @@ head:
 # Kensetsu KEN
 
 ::: info
-This token was originally proposed as [SORA RFP 60](https://github.com/sora-xor/rfps/issues/60) by Satoshi Shibarimoto.
+This token was originally proposed in [SORA RFP 60](https://github.com/sora-xor/rfps/issues/60) by Satoshi Shibarimoto.
 :::
 
 ## TL;DR
