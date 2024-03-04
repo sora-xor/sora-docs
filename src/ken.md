@@ -36,7 +36,7 @@ The ability to mint stablecoins from collateral is very useful. Still, because t
 
 ## KENONOMICS
 
-KEN is a farming reward token meant to incentivize liquidity for KENSETSU stablecoins. For each stablecoin minted from collateral deposited, 1% extra of the stablecoin will be minted and used to buy back and burn $KEN tokens. 80% of the burned $KEN tokens will be reminted and distributed to Demeter farm for farming rewards on the XOR-KUSD pool on Polkaswap.
+KEN is a farming reward token meant to incentivize liquidity for KENSETSU stablecoins. For each stablecoin minted from deposited collateral, 1% extra of the stablecoin will be minted and used to buy back and burn $KEN tokens. 80% of the burned $KEN tokens will be reminted and distributed to Demeter farm for farming rewards on the XOR-KUSD pool on Polkaswap.
 To up the stakes, to get an allocation of the initial KEN supply, you will literally have to burn money.
 
 ### Burning Money
