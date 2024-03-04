@@ -20,7 +20,7 @@ This token was originally proposed in [SORA RFP 60](https://github.com/sora-xor/
 - All of the initial KEN tokens will be distributed to accounts that burn at least 1 million XOR between blocks 14,464,000 and 14,939,200
 - Burning less than 1 million XOR will yield no KEN tokens
 - 1% of all Kensetsu stablecoins minted will be used to buy back and burn KEN on Polkaswap
-- 80% of burned KEN burned daily will be reminted and be given to Demeter Farm for farming rewards on the XOR-KUSD pool, to incentivize liquidity
+- 80% of KEN burned daily will be reminted and given to Demeter Farm for farming rewards on the XOR-KUSD pool, to incentivize liquidity
 
 ## Kensetsu Introduction
 
