@@ -22,7 +22,6 @@ This token was originally proposed in [SORA RFP 60](https://github.com/sora-xor/
 - 1% of all Kensetsu stablecoins minted will be used to buy back and burn KEN on Polkaswap
 - 80% of burned KEN burned daily will be reminted and be given to Demeter Farm for farming rewards on the XOR-KUSD pool, to incentivize liquidity
 
-
 ## Kensetsu Introduction
 
 Maker DAO is the largest DeFi app, with $5.92 Billion in TVL; Maker DAO powers DAI, the decentralized dollar-pegged stablecoin. SORA is a new world economic system aimed at high, sustainable growth. Despite SORA’s bold ambitions, it does not have a Maker DAO equivalent on its network. That’s why in 2023, SORA community contributor Satoshi Shibarimoto, proposed KENSETSU as SORA’s version of Maker DAO that not only builds on the successes of the original protocol but also takes advantage of the amazing Polkadot tech.
