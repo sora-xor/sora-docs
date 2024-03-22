@@ -64,10 +64,9 @@ account. If 1 million XOR are burned, 1 KEN will be given to an
 account. And if 1.6 million XOR are burned, then 1.6 KEN will be given
 to an account.
 
-
 ::: info
 You can track the burnt XOR on the Polkaswap interface [Kensetsu
-tab](https://polkaswap.io/#/kensetsu). 
+tab](https://polkaswap.io/#/kensetsu).
 KEN reservation through burning XOR ended on the 20th of March, 2024
 :::
 
