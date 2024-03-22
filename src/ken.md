@@ -38,8 +38,8 @@ The ability to mint stablecoins from collateral is very useful. Still, because t
 
 ## KENONOMICS
 
-KEN is a farming reward token meant to incentivize liquidity for KENSETSU stablecoins. For each stablecoin minted from deposited collateral, 1% extra of the stablecoin will be minted and used to buy back and burn $KEN tokens.
-80% of the burned $KEN tokens will be reminted and distributed to Demeter farm for farming rewards on the XOR-KUSD pool on Polkaswap.
+KEN is a farming reward token meant to incentivize liquidity for KENSETSU stablecoins. For each stablecoin minted from deposited collateral, 1% extra of the stablecoin will be minted and used to buy back and burn KEN tokens.
+80% of the burned KEN tokens will be reminted and distributed to Demeter farm for farming rewards on the XOR-KUSD pool on Polkaswap.
 To up the stakes, to get an allocation of the initial KEN supply, you will literally have to burn money.
 KEN will be strictly deflationary once launched, meaning the supply will only go down, additionally KEN will only be allocated to accounts on the SORA network that burn (using the `assets.burn` extrinsic) at least 1 million XOR, at a rate of 1 KEN per 1 million XOR burned. You can only get the initial KEN tokens by burning XOR.
 
@@ -59,10 +59,16 @@ To fill out the form:
 
 All XOR burned by calling the `assets.burn` extrinsic between blocks `14,464,000` and `14,939,200` will be considered in the calculated burned amount. To be eligible for the KEN drop, at least 1 million XOR should be burned by an account. 1 KEN will be given for each million XOR burned.
 
-For example, if 999,999 XOR are burned, 0 KEN will be given to an account. If 1 million XOR are burned, 1 KEN will be given to an account. And if 1.6 million XOR are burned, then 1.6 KEN will be given to an account.
+For example, if 999,999 XOR are burned, 0 KEN will be given to an
+account. If 1 million XOR are burned, 1 KEN will be given to an
+account. And if 1.6 million XOR are burned, then 1.6 KEN will be given
+to an account.
+
 
 ::: info
-You can track the burnt XOR on the Polkaswap interface [Kensetsu tab](https://polkaswap.io/#/kensetsu).
+You can track the burnt XOR on the Polkaswap interface [Kensetsu
+tab](https://polkaswap.io/#/kensetsu). 
+KEN reservation through burning XOR ended on the 20th of March, 2024
 :::
 
 > This article was originally published on [Medium](https://medium.com/@shibarimoto/kensetsu-ken-356077ebee78) and written by community member Satoshi Shibarimoto. This entry retains the basic principles of _Kenonomics_.
