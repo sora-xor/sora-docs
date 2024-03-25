@@ -253,6 +253,7 @@ export default withMermaid(
                 { text: "Rewards", link: "rewards" },
                 { text: "Nodes Connection", link: "nodes-connection" },
                 { text: "Running a Node", link: "running-a-node" },
+		{ text: "Vote in Governance", link: "participate-sora-governance" },
               ],
             },
             {
