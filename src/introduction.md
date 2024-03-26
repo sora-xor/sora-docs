@@ -45,52 +45,39 @@ head:
       content: "@sora_xor"
 ---
 
-# Introduction
+# Introdução
 
-The community envisions a New Economic World Order, one that is truly decentralized and democratic. SORA is building to deliver financial inclusion for all without discrimination and providing a better method to manage day-to-day finances.
+A comunidade prevê uma Nova Ordem Econômica Mundial, verdadeiramente descentralizada e democrática. A SORA está construindo para oferecer inclusão financeira para todos sem discriminação e fornecer um método melhor para administrar as finanças do dia a dia.
 
-SORA is an on-chain governance system based around the XOR token that allows producers to make proposals for funding and all token holders make decisions how to allocate XOR so that the best goods and services get created. People who create goods or services should accept XOR for them, thus building the SORA economy.
+SORA é um sistema de governança on-chain baseado no token XOR que permite aos produtores fazer propostas de financiamento e todos os detentores de tokens tomarem decisões sobre como alocar XOR para que os melhores bens e serviços sejam criados. As pessoas que criam bens ou serviços devem aceitar o XOR para eles, construindo assim a economia SORA.
 
-::: info
-We believe in credit creation for producing new goods or services.
+::: INFORMAÇÕES
+Acreditamos na criação de crédito para a produção de novos bens ou serviços.
 :::
 
-SORA mechanism is based on the **General Quantity Theory (also known as the Disaggregated Quantity Theory of Credit/Money) of macroeconomics**:
+O mecanismo SORA é baseado na **Teoria Geral da Quantidade (também conhecida como Teoria da Quantidade Desagregada de Crédito/Dinheiro) da macroeconomia**:
 
 <iframe width="100%" height="484" src="https://www.youtube.com/embed/KEfdlctvHH4" title="SORA Economic Forum — KEYNOTE: &#39;Disaggregated Quantity Theory of Credit&#39; by Professor Richard Werner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-According to the General Quantity Theory of macroeconomics, a currency could be inflated in three ways:
+De acordo com a Teoria Geral da Quantidade da macroeconomia, uma moeda poderia ser inflacionada de três maneiras:
 
-- for consumption
-- for speculation
-- for production
+- para consumo
+- para especulação
+- para produção
 
-Inflating a currency for consumption or speculation leads to price increases and boom-bust economic cycles. Creating money for production can lead to the economic growth at a predictable rate, advancing human development and technology. SORA tokenomics relies on a [Token Bonding Curve](/tbc) that helps mitigate boom-bust valuations of most cryptocurrencies, and manages the challenges of not having an elastic supply of capital.
+A inflação de uma moeda para consumo ou especulação leva a aumentos de preços e a ciclos econômicos de expansão e recessão. Criar dinheiro para a produção pode levar ao crescimento econômico a um ritmo previsível, promovendo o desenvolvimento humano e a tecnologia. A tokenomics SORA depende de uma [Token Bonding Curve](/tbc) que ajuda a mitigar as avaliações de expansão e queda da maioria das criptomoedas e gerencia os desafios de não ter uma oferta elástica de capital.
 
-## The Case for XOR
+## O caso do XOR
 
-XOR is a supranational currency that has its supply and primary market managed by a computer program that runs on a blockchain. XOR is not controlled by any country, company, or individual, and is thus
-a global economic system designed for the common good of humanity.
+XOR é uma moeda supranacional que tem sua oferta e mercado primário gerenciados por um programa de computador que roda em blockchain. O XOR não é controlado por nenhum país, empresa ou indivíduo e é, portanto, um sistema econômico global concebido para o bem comum da humanidade.
 
-To facilitate economic growth, money must be deployed in an economy
-to create new goods and services. Unlike other cryptocurrencies, such as
-Bitcoin, countries can make proposals to fund productive investments via
-XOR allocated from a fund, or from minting TBCD, which is convertible
-to XOR on the open market, all via an open governance process. This
-means that XOR does not act as a foreign currency that is outside the
-control of democratic governments, but rather can be integrated into the
-domestic economy wherever it is used, to fund nominal GDP growth.
+Para facilitar o crescimento económico, o dinheiro deve ser aplicado numa economia para criar novos bens e serviços. Ao contrário de outras criptomoedas, como o Bitcoin, os países podem fazer propostas para financiar investimentos produtivos através de XOR alocado a partir de um fundo, ou da cunhagem de TBCD, que é convertível em XOR no mercado aberto, tudo através de um processo de governação aberto. Isto significa que o XOR não funciona como uma moeda estrangeira que está fora do controlo dos governos democráticos, mas pode ser integrado na economia nacional onde quer que seja utilizado, para financiar o crescimento nominal do PIB.
 
-Furthermore, XOR is not a debt-based currency, so more egalitarian
-social outcomes can be realized, compared to contemporary economic
-systems, as economic growth is not inhibited to service an ever-growing
-debt. Thus using XOR as legal tender in countries for discharging debts,
-purchasing goods and services, and paying taxes, can lead to increased
-economic growth, because increased productive output can be funded.
+Além disso, o XOR não é uma moeda baseada na dívida, pelo que podem ser alcançados resultados sociais mais igualitários, em comparação com os sistemas económicos contemporâneos, uma vez que o crescimento económico não é inibido para pagar uma dívida cada vez maior. Assim, a utilização do XOR como moeda legal nos países para quitação de dívidas, aquisição de bens e serviços e pagamento de impostos pode levar a um maior crescimento económico, porque o aumento da produção produtiva pode ser financiado.
 
-[Read the entire **SORA whitepaper** by Dr. Makoto Takemiya.](https://sora.org/pub/The-Case-for-XOR.pdf)
+[Leia todo o **whitepaper SORA** do Dr. Makoto Takemiya.](https://sora.org/pub/The-Case-for-XOR.pdf)
 
-## Learn More
+## Saber mais
 
-- [SORA Economy](/sora-economy.md)
-- [SORA Tokenomics](/tokenomics.md)
+- [Economia SORA](/sora-economy.md)
+- [Tokenomia SORA](/tokenomics.md)
