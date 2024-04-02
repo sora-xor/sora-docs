@@ -47,15 +47,6 @@ provided.
 
 ![](/.gitbook/assets/SORADDP.png)
 
-All the RFP should be submitted to [this GitHub repo](https://github.com/sora-xor/rfps) and will be publicly available to everyone
-
-The process is the same for both types of would-be contributors, let’s outline the steps:
-
-1. The individual or team create a draft on GitHub
-2. Users on GitHub debate the RFP and decide whether to implement changes, reject or merge it to the repository.
-3. The RFP is publicly announced on GitHub, along with its respective deadline and development team proposals.
-4. The SORA community votes on-chain whether the RFP should be implemented, and if approved;
-5. Responsible team or individual will work on the code as per their proposals, which will then be released and reviewed by users on GitHub, followed by subsequent runtime implementation and compensation upon merging.
 
 ## Updated SORA and Polkaswap Decentralised Development Tutorial
 
