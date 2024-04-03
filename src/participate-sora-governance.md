@@ -29,7 +29,7 @@ As of the time of writing, you can cast votes with 0.1X conviction, which does n
 
 ![](/.gitbook/assets/participate-sora-governance-expand-referenda.png)
 
-3- To vote on the referenda, click on the vote button. A pop-up will appear with your account information. If you click on the account name, you can cycle through your accounts on the wallet. Pick the one you will use to vote.
+3. To vote on the referenda, click on the vote button. A pop-up will appear with your account information. If you click on the account name, you can cycle through your accounts on the wallet. Pick the one you will use to vote.
 
 ![](/.gitbook/assets/participate-sora-governance-account-selection.png)
 
