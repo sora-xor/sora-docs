@@ -31,7 +31,7 @@ referred to as Primary Wallet or My Wallet).
 
 ![](/.gitbook/assets/on-ramp-wallet-overview.png)
 
-2. After onboarding, in order to be able to buy XOR for the first time, you need to do the following steps:
+After onboarding, in order to be able to buy XOR for the first time, you need to do the following steps:
 
 - Create a Hosted Wallet (_one-time action for the first FIAT deposit_).
 - Deposit EUR funds using a card or SEPA bank transaction.
