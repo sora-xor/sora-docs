@@ -126,7 +126,7 @@ description](https://support.gatehub.net/hc/en-us/articles/360021425773-Exchange
 
 ![](/.gitbook/assets/on-ramp-send-xor-sora.png)
 
-- Click on Send Payment in the wallet interface to send the XOR to
+- Click on `Send Payment` in the wallet interface to send the XOR to
   your SORA Wallet by following the guidelines on the screen. Follow
   this [detailed description](https://support.gatehub.net/hc/en-us/articles/360021425613-Send-cryptocurrencies-from-your-wallet) for more information
 
