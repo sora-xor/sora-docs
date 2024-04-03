@@ -27,7 +27,7 @@ Here is a [detailed description of account creation
 (registration)](https://support.gatehub.net/hc/en-us/articles/360021318533-Register-a-GateHub-Account)
 and a [detailed description of KYC (account verification)](https://support.gatehub.net/hc/en-us/articles/4580394613906-Video-verification-process-for-an-individual-account).
 
-referred to as Primary Wallet or My Wallet).
+Once you pass this process, you will have an XRPL Wallet (also referred to as Primary Wallet or My Wallet).
 
 ![](/.gitbook/assets/on-ramp-wallet-overview.png)
 
@@ -75,22 +75,22 @@ this is how to move it to the Hosted Wallet:
 1.  First, copy the wallet address of your Hosted wallet (a 9 digit
     number).
 
-2.  Then choose `Primary`/`My Wallet` on the top left
+2.  Then choose `Primary`/`My Wallet` on the top left.
 
-3.  Click on `Send Payment`
+3.  Click on `Send Payment`.
 
-4.  Choose `Wallet - Wallet transfer`
+4.  Choose `Wallet - Wallet transfer`.
 
-5.  Enter your password (and 2FA if enabled)
+5.  Enter your password (and 2FA if enabled).
 
 6.  Paste the Hosted Wallet address (the name of your hosted wallet
-    should appear)
+    should appear).
 
-7.  Chose EUR and the appropriate amount
+7.  Chose EUR and the appropriate amount.
 
-8.  Confirm
+8.  Confirm.
 
-9.  After confirmation, funds should appear in your Hosted Wallet in a matter of seconds
+9.  After confirmation, funds should appear in your Hosted Wallet in a matter of seconds.
 
 Take a look at the [detailed
 description](https://support.gatehub.net/hc/en-us/articles/360021425613-Send-cryptocurrencies-from-your-wallet)
