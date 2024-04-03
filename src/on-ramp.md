@@ -33,11 +33,11 @@ referred to as Primary Wallet or My Wallet).
 
 After onboarding, in order to be able to buy XOR for the first time, you need to do the following steps:
 
-- Create a Hosted Wallet (_one-time action for the first FIAT deposit_).
-- Deposit EUR funds using a card or SEPA bank transaction.
-- Set a trustline (_one-time action for the first FIAT deposit_).
-- Buy XOR with EUR / Exchange your EUR to XOR.
-- Send XOR to your SORA wallet
+- [Create a Hosted Wallet](#create-a-hosted-wallet) (_one-time action for the first FIAT deposit_).
+- [Deposit EUR funds](#deposit-eur-funds) using a card or SEPA bank transaction.
+- [Set a trustline](#set-a-trustline) (_one-time action for the first FIAT deposit_).
+- [Buy XOR with EUR / Exchange your EUR to XOR](#exchange-your-eur-to-xor).
+- [Send XOR to your SORA wallet](#send-xor-to-your-sora-wallet)
 
 ### Create a Hosted Wallet
 
