@@ -66,10 +66,10 @@ and make a [SEPA EUR deposit](https://support.gatehub.net/hc/en-us/articles/1380
 
 ::: info
 **Be careful**: Before checking deposit instructions (SEPA or CARD), you
-need to choose “Hosted Wallet” on the left menu. “Hosted Wallet” and
-“Primary/My Wallet” have different message references for SEPA.
+need to choose “Hosted Wallet” on the left menu. `Hosted Wallet` and
+`Primary/My Wallet` have different message references for SEPA.
 :::
-In case your EUR deposit arrives in the Primary/My Wallet section,
+In case your EUR deposit arrives in the `Primary`/`My Wallet` section,
 this is how to move it to the Hosted Wallet:
 
 1.  First, copy the wallet address of your Hosted wallet (a 9 digit
