@@ -57,7 +57,10 @@ If the proposal passes and you vote yes, your funds will lock for the allocated 
 
 In practice, voting for governance referenda on SORA’s parachains is the same. The only difference is that you need to bridge XOR over to the parachains using the HASHI bridge set to Polkadot or Kusama network and switch networks within the Polkadot.js interface.
 
-From the top right corner of the interface, click on the downward arrow > Click on Polkadot/Kusama & Parachains > Scroll down to SORA > Click on Switch.
+1. From the top right corner of the interface, click on the downward arrow.
+2. Click on Polkadot/Kusama & Parachains.
+3. Scroll down to SORA.
+4. Click on Switch.
 
 #### SORA Polkadot
 
