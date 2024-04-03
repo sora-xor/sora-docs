@@ -19,8 +19,9 @@ head:
 
 You can now buy native XOR on Gatehub and send it to your SORA wallet quickly.
 
-1. Go to gatehub.net, create an account and do KYC
-   You should experience a smooth onboarding process.
+### Onboarding
+
+Go to gatehub.net, create an account and do KYC. You should experience a smooth onboarding process. Once you pass this process, you will have an XRPL Wallet (also referred to as Primary Wallet or My Wallet).
 
 Here is a [detailed description of account creation
 (registration)](https://support.gatehub.net/hc/en-us/articles/360021318533-Register-a-GateHub-Account)
