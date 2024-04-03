@@ -51,7 +51,7 @@ If the proposal passes and you vote yes, your funds will lock for the allocated 
 
 ![](/.gitbook/assets/participate-sora-governance-vote-confirmation.png)
 
-6- Your wallet/signer will pop up requesting you to confirm your vote, approve this transaction and once it is confirmed, **congratulations, you have just voted on SORA!**
+6. Your wallet/signer will pop up requesting you to confirm your vote, approve this transaction and once it is confirmed, **congratulations, you have just voted on SORA!**
 
 ### How to vote in the SORA Kusama and SORA Polkadot Parachains
 
