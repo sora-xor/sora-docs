@@ -75,11 +75,11 @@ this is how to move it to the Hosted Wallet:
 1.  First, copy the wallet address of your Hosted wallet (a 9 digit
     number).
 
-2.  Then choose “Primary/My Wallet” on the top left
+2.  Then choose `Primary`/`My Wallet` on the top left
 
-3.  Click on “Send Payment”
+3.  Click on `Send Payment`
 
-4.  Choose “Wallet - Wallet transfer”
+4.  Choose `Wallet - Wallet transfer`
 
 5.  Enter your password (and 2FA if enabled)
 
