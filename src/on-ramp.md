@@ -111,7 +111,7 @@ Here is a [detailed description](https://support.gatehub.net/hc/en-us/articles/3
 
 ### Exchange your EUR to XOR
 
-Once the EUR is received and visible in your Hosted Wallet (received), you can exchange it for XOR under the Exchange tab.
+Once the EUR is received and visible in your Hosted Wallet, you can exchange it for XOR under the Exchange tab.
 
 1. Chose `Hosted Wallet` in the top left corner
 2. Click on `Exchange` in the menu on the left
