@@ -41,7 +41,7 @@ As of the time of writing, you can cast votes with 0.1X conviction, which does n
 You can use funds that have been locked by nominating a validator or are locked in another governance proposal to vote. Once the funds are locked, you must wait a set amount of time before unlocking them in the Polkadot.js interface.
 :::
 
-5- Choose a conviction for your vote; this can go from a 1x voting balance locked for 30 days to a 6x voting balance for 960 days. Finally, vote Aye or Nay on the proposal.
+5. Choose a conviction for your vote; this can go from a 1x voting balance locked for 30 days to a 6x voting balance for 960 days. Finally, vote Aye or Nay on the proposal.
 
 ![](/.gitbook/assets/participate-sora-governance-vote-conviction.png)
 
