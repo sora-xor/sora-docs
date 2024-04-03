@@ -25,7 +25,7 @@ As of the time of writing, you can cast votes with 0.1X conviction, which does n
 
 ![](/.gitbook/assets/participate-sora-governance-overview.png)
 
-2- With XOR in your account, select the democracy referenda you are interested in. You can click the downward arrow to expand the motion details. In some cases, you will find an address linking it to the [SORA Accounting project on Github](https://github.com/orgs/sora-xor/projects/24/views/1) that has an overview and description of the referenda, if it pertains to credit creation on SORA.
+2. With XOR in your account, select the democracy referenda you are interested in. You can click the downward arrow to expand the motion details. In some cases, you will find an address linking it to the [SORA Accounting project on Github](https://github.com/orgs/sora-xor/projects/24/views/1) that has an overview and description of the referenda, if it pertains to credit creation on SORA.
 
 ![](/.gitbook/assets/participate-sora-governance-expand-referenda.png)
 
