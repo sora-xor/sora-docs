@@ -43,16 +43,16 @@ After onboarding, in order to be able to buy XOR for the first time, you need to
 
 The XRPL Wallet (also referred to as Primary Wallet or My Wallet) does not have XOR listed. You will need a Hosted Wallet to access XOR. After your first deposit, you will receive a 10 XRP welcome deposit, covering transaction fees when sending funds. You can not withdraw this welcome deposit.
 
-- In the top left corner of the screen, click on My Wallet (= Primary Wallet).
+1. In the top left corner of the screen, click on My Wallet (= Primary Wallet).
 
 ![](/.gitbook/assets/on-ramp-my-wallet-head.png)
 
-- Click on + Add Wallet.
+2. Click on + Add Wallet.
 
 ![](/.gitbook/assets/on-ramp-add-wallet.png)
 
-- Click on Create Wallet (Hosted).
-- Name your wallet.
+3. Click on Create Wallet (Hosted).
+4. Name your wallet.
 
 [More details are available
 here](https://support.gatehub.net/hc/en-us/articles/360021171254-Create-and-delete-a-wallet)
