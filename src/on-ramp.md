@@ -115,8 +115,8 @@ Once the EUR is received and visible in your Hosted Wallet, you can exchange it 
 
 1. Choose `Hosted Wallet` in the top left corner
 2. Click on `Exchange` in the menu on the left
-3. Chose EUR on the left and XOR on the right of the screen
-4. Chose amount of EUR under `You pay`
+3. Choose EUR on the left and XOR on the right of the screen
+4. Choose amount of EUR under `You pay`
 5. Click on the `Exchange` button on the right side of the screen
 
 Take a look at the [detailed
