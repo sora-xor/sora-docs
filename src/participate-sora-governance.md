@@ -21,7 +21,7 @@ As of the time of writing, you can cast votes with 0.1X conviction, which does n
 
 ## How to vote in SORA Governance
 
-1- To know when a governance referenda is up on SORA for public voting, you can keep an eye out on the [SORA governance interface](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fsora.api.onfinality.io%2Fpublic-ws#/democracy). Additionally, you can also follow the [SORA Governance Notifications channel on Telegram](https://t.me/sora_governance_updates).
+1. To know when a governance referenda is up on SORA for public voting, you can keep an eye out on the [SORA governance interface](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fsora.api.onfinality.io%2Fpublic-ws#/democracy). Additionally, you can also follow the [SORA Governance Notifications channel on Telegram](https://t.me/sora_governance_updates).
 
 ![](/.gitbook/assets/participate-sora-governance-overview.png)
 
