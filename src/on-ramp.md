@@ -27,7 +27,6 @@ Here is a [detailed description of account creation
 (registration)](https://support.gatehub.net/hc/en-us/articles/360021318533-Register-a-GateHub-Account)
 and a [detailed description of KYC (account verification)](https://support.gatehub.net/hc/en-us/articles/4580394613906-Video-verification-process-for-an-individual-account).
 
-
 ![](/.gitbook/assets/on-ramp-wallet-overview.png)
 
 After onboarding, in order to be able to buy XOR for the first time, you need to do the following steps:
