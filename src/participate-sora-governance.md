@@ -33,7 +33,7 @@ As of the time of writing, you can cast votes with 0.1X conviction, which does n
 
 ![](/.gitbook/assets/participate-sora-governance-account-selection.png)
 
-4- After selecting the account, you will see the voting balance which you can use to allocate the weight of your vote. Ensure you have enough balance left unlocked to pay the transaction fees. The vote value field will be automatically populated if you already have XOR balance locked.
+4. After selecting the account, you will see the voting balance which you can use to allocate the weight of your vote. Ensure you have enough balance left unlocked to pay the transaction fees. The vote value field will be automatically populated if you already have XOR balance locked.
 
 ![](/.gitbook/assets/participate-sora-governance-vote-value.png)
 
