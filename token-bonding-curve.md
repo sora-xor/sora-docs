@@ -1,1 +1,0 @@
-Esta página se movió a [economía SORA] (./sora-economy).
