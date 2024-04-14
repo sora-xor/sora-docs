@@ -440,6 +440,347 @@ export default withMermaid(
             // { text: "Ecosystem", link: "ecosystem" },
             // { text: "SORA Economy", link: "participate" },
             // { text: "Build", link: "build" },
+	   es: {
+        label: "Español",
+        lang: "es",
+        themeConfig: {
+          sidebar: [
+            {
+              text: "Empezando en SORA",
+              collapsed: false,
+              items: [
+                { text: "Introducción", link: "introduction" },
+                { text: "Economía de Sora", link: "sora-economy" },
+                {
+                  text: "Tokenomics",
+                  link: "tokenomics",
+                  collapsed: false,
+                  items: [
+                    {
+                      text: "Curva de Vinculación de Tokens",
+                      link: "tbc",
+                    },
+                    {
+                      text: "XOR",
+                      link: "xor",
+                    },
+                    {
+                      text: "VAL",
+                      link: "val",
+                    },
+                    {
+                      text: "PSWAP",
+                      link: "pswap",
+                    },
+                    {
+                      text: "XST",
+                      link: "xst",
+                    },
+                    {
+                      text: "TBCD",
+                      link: "tbcd",
+                    },
+                    {
+                      text: "KEN",
+                      link: "ken",
+                    },
+                  ],
+                },
+                { text: "Gobernanza SORA", link: "sora-governance" },
+                { text: "SORA Academy", link: "sora-academy" },
+                { text: "FAQ", link: "sora-faq" },
+                { text: "Registro de Cambios", link: "changelog" },
+              ],
+            },
+            {
+              text: "Ecosistema",
+              items: [
+                { text: "Descripción General", link: "ecosystem" },
+                { text: "Plan integrado", link: "integrated-plan" },
+                {
+                  text: "Polkaswap",
+                  link: "polkaswap",
+                  collapsed: false,
+                  items: [
+                    { text: "FAQ", link: "polkaswap/polkaswap-faq" },
+                    {
+                      text: "Memorando y Términos del Servicio",
+                      link: "polkaswap/terms",
+                    },
+                    {
+                      text: "Política de Privacidad",
+                      link: "polkaswap/privacy",
+                    },
+                  ],
+                },
+                {
+                  text: "Tarjeta SORA",
+                  collapsed: false,
+                  items: [
+                    { text: "Introducción a la Tarjeta SORA", link: "sora-card" },
+                    {
+                      text: "Tutorial KYC de la tarjeta SORA",
+                      link: "sora-card-kyc-tutorial",
+                    },
+                  ],
+                },
+                {
+                  text: "SORA en tu bolsillo",
+                  collapsed: false,
+                  items: [
+                    { text: "SORA Móvil", link: "mobile" },
+                    { text: "Fearless Wallet", link: "fearless" },
+                  ],
+                },
+                { text: "SORA Sintéticos", link: "synthetics" },
+                { text: "Consenso", link: "consensus" },
+                { text: "Solicitar características", link: "rfp" },
+              ],
+            },
+            {
+              text: "Participa en la Economía SORA",
+              items: [
+                { text: "Descripción general", link: "participate" },
+                { text: "Crear una dirección", link: "create-an-address" },
+                { text: "Seguridad de la cuenta", link: "account-security" },
+                { text: "Conectar billetera", link: "polkaswap-connect-wallet" },
+                {
+                  text: "Enviar recibir",
+                  link: "send-and-receive",
+                },
+                {
+                  text: "Explora el ecosistema",
+                  collapsed: false,
+                  items: [
+                    { text: "Consultar suministro", link: "check-supply" },
+                    { text: "Explorar", link: "explore" },
+                    { text: "Ver estadísticas", link: "statistics" },
+                    { text: "Explorar bloques", link: "explore-blocks" },
+                  ],
+                },
+                { text: "Transferir activos", link: "transfer" },
+                { text: "Consultar saldo", link: "check-balance" },
+                { text: "Registrar un activo", link: "register-an-asset" },
+                { text: "On-ramp", link: "on-ramp" },
+                {
+                  text: "Staking",
+                  collapsed: false,
+                  items: [
+                    { text: "Demeter Staking", link: "demeter-staking" },
+                    {
+                      text: "Staking en Fearless Wallet",
+                      link: "stake-in-fearless-wallet",
+                    },
+                    {
+                      text: "Nominar validadores",
+                      link: "nominating-validators",
+                    },
+                  ],
+                },
+
+                {
+                  text: "DEX",
+                  collapsed: false,
+                  items: [
+                    { text: "Swap", link: "swap" },
+                    {
+                      text: "Proporcionar liquidez en Pools XYK",
+                      link: "provide-liquidity-to-xyk-pools",
+                    },
+                    { text: "Libro de Ordenes", link: "order-books" },
+                    { text: "Comercio avanzado", link: "advanced-trading" },
+                    {
+                      text: "Otras configuraciones de Polkaswap",
+                      link: "polkaswap-other-settings",
+                    },
+                  ],
+                },
+                {
+                  text: "Interoperabilidad (HASHI)",
+                  collapsed: false,
+                  link: "interoperability",
+                  items: [
+                    {
+                      text: "EVM",
+                      items: [
+                        {
+                          text: "Ethereum",
+                          items: [
+                            {
+                              text: "Añadir un Token",
+                              link: "adding-tokens-to-hashi-bridge",
+                            },
+
+                            {
+                              text: "Arreglar una transacción estancada",
+                              link: "unstuck-bridge-tx",
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      text: "Substrate",
+                      link: "substrate-bridge",
+                      items: [
+                        {
+                          text: "Estableciendo el canal HRMP",
+                          link: "establishing-hrmp-channel",
+                        },
+                      ],
+                    },
+                  ],
+                },
+                { text: "Sistema de referidos", link: "/referral" },
+                { text: "NFT", link: "nft" },
+                { text: "Identidad", link: "id" },
+                { text: "Recompensas", link: "rewards" },
+                { text: "Conexión de nodos", link: "nodes-connection" },
+                { text: "Ejecutando un nodo", link: "running-a-node" },
+		{ text: "Voto en Gobernanza", link: "participate-sora-governance" },
+              ],
+            },
+            {
+              text: "Construir la economía SORA",
+              items: [
+                { text: "Introducción", link: "build" },
+                {
+                  text: "Programa de Constructores SORA",
+                  link: "sora-builders",
+                },
+                {
+                  text: "Constructores",
+                  collapsed: false,
+                  items: [
+                      {
+                        text: "Polkaswap",
+                        collapsed: false,
+                        items: [
+                          { text: "Descripción general", link: "participate" },
+                          {
+                            text: "Conectar Billetera",
+                            link: "polkaswap-connect-wallet",
+                          },
+                          {
+                            text: "Enviar recibir",
+                            link: "send-and-receive-polkaswap",
+                          },
+                          {
+                            text: "Explora el ecosistema",
+                            items: [
+                              { text: "Explora", link: "explore-polkaswap" },
+                              {
+                                text: "Visualizar Estadísticas",
+                                link: "statistics-polkaswap",
+                              },
+                            ],
+                          },
+                          {
+                            text: "Registrar un activo",
+                            link: "register-an-asset-polkaswap",
+                          },
+                          { text: "On-ramp", link: "on-ramp-polkaswap" },
+                          {
+                            text: "Staking",
+                            items: [
+                              {
+                                text: "Demeter Staking",
+                                link: "demeter-staking-polkaswap",
+                              },
+                            ],
+                          },
+      
+                          {
+                            text: "DEX",
+                            items: [
+                              { text: "Swap", link: "swap-polkaswap" },
+                              {
+                                text: "Proporcionar liquidez a Pools XYK",
+                                link: "provide-liquidity-to-xyk-pools-polkaswap",
+                              },
+                              {
+                                text: "Negociación del Libro de Ordenes",
+                                link: "polkaswap-order-book-trading",
+                              },
+                              {
+                                text: "Trading avanzado",
+                                link: "advanced-trading-polkaswap",
+                              },
+                              {
+                                text: "Otras configuraciones de Polkaswap",
+                                link: "polkaswap-other-settings",
+                              },
+                            ],
+                          },
+                          { text: "Sistema de referidos", link: "referral-polkaswap" },
+                          { text: "NFT", link: "nft-polkaswap" },
+                          { text: "Recompensas", link: "rewards-polkaswap" },
+                          {
+                            text: "Conexión de nodos",
+                            link: "nodes-connection-polkaswap",
+                          },
+                        ],
+                      },
+                      {
+                        text: "Ceres",
+                        collapsed: false,
+                        items: [
+                          { text: "Descripción general", link: "ceres/overview" },
+                          {
+                            text: "Ceres",
+                            items: [
+                              { text: "Herramientas Ceres", link: "ceres/tools" },
+                              {
+                                text: "Bloqueo de liquidez",
+                                link: "ceres/liquidity-locker",
+                              },
+                              { text: "Bloqueo de tokens", link: "ceres/token-locker" },
+                              { text: "Gobernanza", link: "ceres/governance" },
+                              { text: "Plataforma de lanzamiento", link: "ceres/launchpad" },
+                            ],
+                          },
+                          {
+                            text: "Demeter",
+                            items: [
+                              { text: "Farming", link: "ceres/demeter-farming" },
+                              { text: "DEO Arena", link: "ceres/deo-arena" },
+                            ],
+                          },
+                          {
+                            text: "Hermes",
+                            items: [{ text: "Hermes DAO", link: "ceres/hermes-dao" }],
+                          },
+                        ],
+                      },
+                  ]
+                },
+                {
+                  text: "Seguro social para Infraestructura de Importancia Sistemática",
+                  link: "social-insurance",
+                },
+                { text: "Documentación técnica", link: "technical-stack" },
+                { text: "Pallets", link: "pallets" },
+                { text: "Cuentas", link: "accounts" },
+              ],
+            },
+
+            {
+              text: "Aprende más",
+              items: [
+                {
+                  text: "Enlaces útiles",
+                  link: "useful-links",
+                },
+                {
+                  text: "Blogs de la comunidad",
+                  link: "blogs",
+                },
+                {
+                  text: "Guías para contribuyentes",
+                  link: "contribute",
+                },
+              ],
+            },
           ],
         },
       },
