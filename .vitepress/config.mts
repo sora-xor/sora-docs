@@ -440,7 +440,7 @@ export default withMermaid(
             // { text: "Ecosystem", link: "ecosystem" },
             // { text: "SORA Economy", link: "participate" },
             // { text: "Build", link: "build" },
-	   es: {
+	   ES: {
         label: "Español",
         lang: "es",
         themeConfig: {
