@@ -1,0 +1,3 @@
+El sistema de referencia motiva a los usuarios a involucrar a nuevos usuarios en la economía SORA. Cuando invitas a personas, eres el **recomendador**. Como referente, obtendrá el 10% de las tarifas de la red de su referencia. Un referente puede tener tantas referencias como desee. Cada referido puede tener solo un referente.
+
+El gráfico de referencias se almacena en la cadena, por lo que los usuarios deben pagar tarifas de red para establecer el vínculo entre la referencia y el referente. El referente vincula algo de XOR, y cuando un referido se une a la red utilizando el código del referente, el monto del bono se reduce para poder pagar las tarifas.
