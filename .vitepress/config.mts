@@ -260,10 +260,12 @@ export default withMermaid(
               text: "Build the SORA Economy",
               items: [
                 { text: "Introduction", link: "build" },
-                {
-                  text: "SORA Builders Programme",
-                  link: "sora-builders",
-                },
+                {text: "SORA Builders Programme",
+                  link: "sora-builders"},
+		{text: "Social Insurance for Systematically Important Infrastructure", link: "social-insurance"},
+                { text: "Technical Stack", link: "technical-stack" },
+                { text: "Pallets", link: "pallets" },
+                { text: "Accounts", link: "accounts" },
                 {
                   text: "Builders",
                   collapsed: false,
@@ -369,14 +371,7 @@ export default withMermaid(
                         ],
                       },
                   ]
-                },
-                {
-                  text: "Social Insurance for Systematically Important Infrastructure",
-                  link: "social-insurance",
-                },
-                { text: "Technical Stack", link: "technical-stack" },
-                { text: "Pallets", link: "pallets" },
-                { text: "Accounts", link: "accounts" },
+                },    
               ],
             },
 
