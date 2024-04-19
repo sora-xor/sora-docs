@@ -13,7 +13,7 @@ head:
 
 ## Introduction
 
-Bring your blockchain projects to life with the support of the SORA Builders Programme. Whether starting from scratch or looking to port an existing project, we provide incubation, development support, and, in some cases, financial backing to help your ideas flourish. 
+Bring your blockchain projects to life with the support of the SORA Builders Programme. Whether starting from scratch or looking to port an existing project, we provide incubation, development support, and, in some cases, financial backing to help your ideas flourish.
 
 By building on SORA, you're stepping into a vibrant community eager to
 evolve the world's economic landscape through unique innovations and
@@ -26,8 +26,9 @@ economy's future.
 - **Porting Assistance:** Get mentorship to migrate existing projects to the SORA network.
 - **Financial Backing:** In some cases, receive financial support to
   develop and deploy new projects.
-  
+
 ## What Can You Buidl on SORA?
+
 - Decentralised P2P crypto - FIAT exchange.
 - Stablecoin borrowing.
 - Asset tokenization.
@@ -50,6 +51,5 @@ This section contains information about:
 - [Technical stack](/technical-stack.md): Built on Parity Substrate, the SORA network can be both a standalone chain, as well as Polkadot or Kusama parachains
 - [Consensus](/consensus.md): Nominated Proof of Stake is the
   algorithm used to validate blocks on SORA
-  
 - [Polkaswap](/participate.md) and [Ceres](/ceres/overview.md), the
-    current SORA Builders.
+  current SORA Builders.
