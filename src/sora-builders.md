@@ -39,6 +39,7 @@ The SORA Builders Programme process is divided in four sections, **Application**
 internally and you will be invited to talk to the developers, if it is a match, the process will continue. **48 hr**.
 	
 2. **Review** - A review process with an NDA and Memorandum of Understanding (MoU) to begin building will take place. This will result in a formal agreement to become a SORA Builder. This process takes approximately **one month**.
+
 	
 3. **Preparation** - The builder submits an RFP which contains all the basic information about what is to be built and the milestones of development. An AMA will be held where the SORA community can ask the builders any questions they have regarding the project. If the community is satisfied with the answers, the governance proposal to fund the builders will begin. This process takes approximately **two months**.
 	
@@ -49,6 +50,10 @@ In this phase, the builder will also be expected to get to work producing their 
 - **Milestones**: Funding support provided by the SORA Builders
     Programme is subject to the completion of milestones presented
     within the proposal.
+	
+:::info
+The proposals are reviewed on a case-by-case basis. Subject to agreement and the scope of delivery, funding could happen before, during, or after milestones are delivered, and it is even possible for no funding to be provided.
+:::
 	
 - **Developer Support**: Depending on the milestones, your team can
     request support from the developers to help porting or building
