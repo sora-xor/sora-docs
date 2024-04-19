@@ -23,9 +23,9 @@ economy's future.
 ## What Do You Get?
 
 - **Project Incubation:** Benefit from comprehensive development support and incubation for projects starting from scratch.
-- **Porting Assistance:** Get XOR grants and mentorship to migrate existing projects to the SORA network.
-- **Financial Backing:** In some cases, receive support in XOR for
-  developing and deploying new projects.
+- **Porting Assistance:** Get mentorship to migrate existing projects to the SORA network.
+- **Financial Backing:** In some cases, receive financial support to
+  develop and deploy new projects.
   
 ## What Can You Buidl on SORA?
 - Decentralised P2P crypto - FIAT exchange.
