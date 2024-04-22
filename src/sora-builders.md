@@ -50,9 +50,7 @@ In this phase, the builder will also be expected to get to work producing their 
 The proposals are reviewed on a case-by-case basis. Subject to agreement and the scope of delivery, funding could happen before, during, or after milestones are delivered, and it is even possible for no funding to be provided.
 :::
 
-- **Developer Support**: Depending on the milestones, your team can
-  request support from the developers to help porting or building
-  their project within the SORA network.
+- **Developer Support**: Depending on the milestones, your team can request support from the developers to help porting or building their project within the SORA network.
 
 4. **Launch** Once testing has successfully concluded and the project is LIVE on the SORA network, a business growth strategy will be ideated along with the buidler to make sure their work reaches their target audience.
 
