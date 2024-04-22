@@ -23,8 +23,7 @@ To understand how Parity (Polkadot) networks work, take a look at the [blockchai
 Instead of Smart Contracts, Substrate (Polkadot) uses Pallets. Take a look at how they work and learn how to add one [here](https://docs.substrate.io/tutorials/build-application-logic/add-a-pallet/).
 
 :::info
-Soon support for [Ink! Smart Contracts](https://use.ink/how-it-works)
-will be added to SORA. Stay tuned for more updates.
+Soon support for [Ink! Smart Contracts](https://use.ink/how-it-works) will be added to SORA. Stay tuned for more updates.
 :::
 
 ## Learn More
