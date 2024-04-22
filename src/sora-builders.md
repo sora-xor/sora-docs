@@ -44,9 +44,7 @@ The SORA Builders Programme process is divided in four sections, **Application**
 In this phase, the builder will also be expected to get to work producing their code and subsequently, release it for public testing for the community and contributors to provide feedback and insights on how to improve.
 :::
 
-- **Milestones**: Funding support provided by the SORA Builders
-  Programme is subject to the completion of milestones presented
-  within the proposal.
+- **Milestones**: Funding support provided by the SORA Builders Programme is subject to the completion of milestones presented within the proposal.
 
 :::info
 The proposals are reviewed on a case-by-case basis. Subject to agreement and the scope of delivery, funding could happen before, during, or after milestones are delivered, and it is even possible for no funding to be provided.
