@@ -21,8 +21,7 @@ By building on SORA, you're stepping into a vibrant community eager to evolve th
 
 - **Project Incubation:** Benefit from comprehensive development support and incubation for projects starting from scratch.
 - **Porting Assistance:** Get mentorship to migrate existing projects to the SORA network.
-- **Financial Backing:** In some cases, receive financial support to
-  develop and deploy new projects.
+- **Financial Backing:** In some cases, receive financial support to develop and deploy new projects.
 
 ## What Can You Buidl on SORA?
 
