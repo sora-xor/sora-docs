@@ -15,10 +15,7 @@ head:
 
 Bring your blockchain projects to life with the support of the SORA Builders Programme. Whether starting from scratch or looking to port an existing project, we provide incubation, development support, and, in some cases, financial backing to help your ideas flourish.
 
-By building on SORA, you're stepping into a vibrant community eager to
-evolve the world's economic landscape through unique innovations and
-ideas. Together, we're not just building projects but shaping the
-economy's future.
+By building on SORA, you're stepping into a vibrant community eager to evolve the world's economic landscape through unique innovations and ideas. Together, we're not just building projects but shaping the economy's future.
 
 ## What Do You Get?
 
