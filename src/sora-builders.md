@@ -54,9 +54,7 @@ The proposals are reviewed on a case-by-case basis. Subject to agreement and the
 
 4. **Launch** Once testing has successfully concluded and the project is LIVE on the SORA network, a business growth strategy will be ideated along with the buidler to make sure their work reaches their target audience.
 
-- **Co-Marketing**: Part of the support provided from the SORA
-  Builder's Programme includes amplification of the project in the
-  SORA Ecosystem Updates and on SORA social media channels.
+- **Co-Marketing**: Part of the support provided from the SORA Builder's Programme includes amplification of the project in the SORA Ecosystem Updates and on SORA social media channels.
 
 ### Graduating as a Buidler
 
