@@ -19,8 +19,9 @@ Polkaswap was distributing an amount of PSWAP proportional to trade volume to ma
 
 #### LP Farming Bonus rewards
 
-Polkaswap users will earn PSWAP tokens for providing liquidity in any XOR-paired pool. 
-If you contribute to the XOR-VAL, XOR-PSWAP, XOR-DAI, XOR-ETH, or XOR-DOT pools, your reward is doubled.
+Polkaswap users will earn PSWAP tokens for providing liquidity for at least 3 million (3'000'000) XOR in any XOR-paired pool. Your reward is doubled if you contribute to the XOR-VAL, XOR-PSWAP, XOR-DAI, XOR-ETH, or XOR-DOT pools.
+
+⚠️ Polkaswap users should monitor the status of their liquidity provision, as they will lose the vesting for PSWAP rewards if their LP falls below 3 million XOR.
 
 #### Rewards for buying from the TBC
 
