@@ -13,4 +13,20 @@ head:
 
 The SORA network is built with [Parity Substrate](https://substrate.io/) development framework.
 
-This is a framework for creating blockchains that scale more efficiently than Ethereum, allowing for lower fees. Polkadot is built with Substrate, therefore projects built with Substrate can run natively on Polkadot as Parachains.
+This is a framework for creating blockchains that scale more
+efficiently than Ethereum, allowing for lower fees. Polkadot is built with Substrate, therefore projects built with Substrate can run natively on Polkadot as Parachains.
+
+## Build on SORA
+
+To understand how Parity (Polkadot) networks work, take a look at the [blockchain documentation (https://docs.substrate.io/tutorials/build-a-blockchain/build-local-blockchain/).
+
+Instead of Smart Contracts, Substrate (Polkadot) uses Pallets. Take a look at how they work and learn how to add one [here](https://docs.substrate.io/tutorials/build-application-logic/add-a-pallet/).
+
+:::info
+Soon support for [Ink! Smart Contracts](https://use.ink/how-it-works) will be added to SORA. Stay tuned for more updates.
+:::
+
+## Learn More
+
+- [SORA Decentralised Development Process](/rfp.md)
+- [SORA Builders Programme](/sora-builders.md)
