@@ -76,4 +76,3 @@ KEN reservation through burning XOR ended on the 20th of March, 2024
 
 - [Kensetsu Platform](/kensetsu-vaults.md)
 - [VAL Tokenomics](/val.md)
-
