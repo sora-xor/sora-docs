@@ -19,15 +19,15 @@ Para nuevos usuarios o usuarios sin experiencia en Polkadot.js, se recomienda us
 
 1. En la interfaz de [Polkaswap](https://polkaswap.io/), navega a la sección de Estadísticas.
    
-   ![](/.gitbook/assets/polkaswap-home-stats.png)
+   ![](../.gitbook/assets/polkaswap-home-stats.png)
 
 2. Desplázate hasta el fondo de la página y encontrarás la sección de Oferta.
    
-   ![](/.gitbook/assets/polkaswap-statistics-fees-and-supply.png)
+   ![](../.gitbook/assets/polkaswap-statistics-fees-and-supply.png)
 
 3. Para ver la oferta de otros tokens, haz clic en el nombre del token en la sección de oferta y elige el token que te gustaría consultar.
    
-   ![](/.gitbook/assets/polkaswap-statistics-supply-token-list.png)
+   ![](../.gitbook/assets/polkaswap-statistics-supply-token-list.png)
 
 ## Vía Polkadot.js
 
@@ -45,7 +45,7 @@ Para verificar el número de tokens en la red SORA, sigue este procedimiento:
 
 2. Haz clic en "Desarrollador" y luego en "Llamadas RPC":
 
-   ![](/.gitbook/assets/check-supply-rpc-calls.png)
+   ![](../.gitbook/assets/check-supply-rpc-calls.png)
 
 3. Selecciona **assets → totalSupply(assetId)**.
 4. Rellena _AssetID_ y presiona **"Enviar llamada RPC"**.
@@ -66,13 +66,13 @@ Para verificar el número de tokens en la red SORA, sigue este procedimiento:
    Para más IDs de activos, consulta la [subsección de Tokens de la página Explorar de Polkaswap.io](https://polkaswap.io/#/explore/tokens).
    :::
 
-   ![](/.gitbook/assets/check-supply-fill-in-asset-id.png)
+   ![](../.gitbook/assets/check-supply-fill-in-asset-id.png)
 
    Los resultados se muestran para XOR:
 
    353.0005 kXOR = 353 000.5 XOR (incluyendo XOR en la red Ethereum)
 
-   <center><img src="/.gitbook/assets/check-supply-xor-output.png" width="400"></center>
+   <center><img src="../.gitbook/assets/check-supply-xor-output.png" width="400"></center>
 
 ### Cómo Leer los Resultados
 
@@ -93,25 +93,25 @@ Por ejemplo, una solicitud para el suministro actual de PSWAP muestra:
 
 3.5105 BXOR = 3,510,500,000 PSWAP (600M está circulando y el resto está bloqueado en las cuentas técnicas)
 
-![](/.gitbook/assets/check-supply-pswap-example.png)
+![](../.gitbook/assets/check-supply-pswap-example.png)
 
 #### Ejemplo de Suministro de VAL
 
 70.5077 MXOR = 70,507,700 VAL (VAL en Ethereum está incluido)
 
-![](/.gitbook/assets/check-supply-val-example.png)
+![](../.gitbook/assets/check-supply-val-example.png)
 
 #### Ejemplo de Suministro de ETH
 
 1.7188 kXOR = 1718.8 ETH (ETH en la red SORA)
 
-![](/.gitbook/assets/check-supply-eth-example.png)
+![](../.gitbook/assets/check-supply-eth-example.png)
 
 #### Ejemplo de Suministro de DAI
 
 1.1827 MXOR = 1,182,700 DAI (DAI en la red SORA)
 
-![](/.gitbook/assets/check-supply-dai-example.png)
+![](../.gitbook/assets/check-supply-dai-example.png)
 
 ## Aprender Más
 

@@ -3,7 +3,7 @@ title: Privacidad de Polkaswap | Documentos SORA
 head:
    - - meta
      - name: descripción
-       content: Conozca las características y consideraciones de privacidad de Polkaswap, el intercambio descentralizado en la red SORA. Descubra cómo Polkaswap prioriza la privacidad del usuario, protege la información personal y garantiza transacciones seguras dentro del ecosistema SORA. Explore las medidas de mejora de la privacidad implementadas en Polkaswap para brindar una experiencia comercial segura y confidencial.
+       content: "Conozca las características y consideraciones de privacidad de Polkaswap, el intercambio descentralizado en la red SORA. Descubra cómo Polkaswap prioriza la privacidad del usuario, protege la información personal y garantiza transacciones seguras dentro del ecosistema SORA. Explore las medidas de mejora de la privacidad implementadas en Polkaswap para brindar una experiencia comercial segura y confidencial."
    - - meta
      - name: palabras clave
        content: privacidad de Polkaswap, red SORA, intercambio descentralizado, privacidad del usuario, información personal, transacciones seguras, medidas para mejorar la privacidad

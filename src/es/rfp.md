@@ -26,7 +26,7 @@ head:
 - Debido a que SORA es descentralizada, cualquiera puede participar en el proceso de desarrollo sostenible enviando un RFP para que la comunidad lo vetoe
 - El proceso RFP es rápido e inclusivo, incluso para aquellos con poco conocimiento técnico
 
-  ![](/.gitbook/assets/how-to-rfp.png)
+  ![](../.gitbook/assets/how-to-rfp.png)
 
 Normalmente, dentro de proyectos centralizados, la comunidad presionaría al equipo de desarrolladores constantemente preguntando cuándo, cuándo, cuándo. Esto a su vez serviría como una guía para dicho equipo para orientar su proceso de desarrollo basado en las necesidades y deseos de la comunidad (alineado con su propia agenda).
 
@@ -36,7 +36,7 @@ En un proyecto completamente descentralizado, la comunidad tiene el privilegio y
 
 A partir de julio de 2021, el Proceso de Desarrollo Descentralizado de SORA y Polkaswap ha estado abierto a presentaciones de la comunidad para proponer, de manera no técnica, cambios que les gustaría ver implementados (si son recogidos y codificados es otro asunto). Hay otro aspecto, sin embargo, equipos de desarrolladores que tienen la experiencia para implementar estos cambios también pueden proponerlos, y si son aprobados, su código podría ser incorporado en una actualización de runtime y también serían recompensados por el trabajo proporcionado.
 
-![](/.gitbook/assets/SORADDP.png)
+![](../.gitbook/assets/SORADDP.png)
 
 Todas las RFP deben ser enviadas a [este repositorio de GitHub](https://github.com/sora-xor/rfps) y estarán públicamente disponibles para todos.
 
@@ -76,13 +76,13 @@ Esperamos que esto suene interesante y para motivarte aún más a enviar una sol
 
 2. Comienza un **Nuevo problema**, luego pulsa **Empezar**.
 
-![](/.gitbook/assets/rfp-1.png)
+![](../.gitbook/assets/rfp-1.png)
 
 3. Llena todos los campos como lo harías al enviar una RFP, cada
    campo ahora tendrá pistas sobre qué agregar, en caso de que te atascas en
    cualquier paso.
 
-![](/.gitbook/assets/rfp-2.png)
+![](../.gitbook/assets/rfp-2.png)
 
 4. Una vez que hayas terminado de llenar los campos, pulsa **Enviar nuevo problema** y luego mantente atento a cualquier comentario o preocupación que pueda surgir.
 
@@ -91,7 +91,7 @@ Esperamos que esto suene interesante y para motivarte aún más a enviar una sol
    mejora de la red, puedes proporcionar tu retroalimentación, hacer preguntas y dejar
    comentarios directamente bajo el problema.
 
-![](/.gitbook/assets/rfp-3.png)
+![](../.gitbook/assets/rfp-3.png)
 
 En cuanto a los desarrolladores involucrados, tendrán la opción de cerrar el problema una vez que lo hayan abordado e incluido, de lo contrario, la opción de rechazar la propuesta si está fuera del alcance del desarrollo o no es aceptada por la comunidad.
 
@@ -103,7 +103,7 @@ podrán discutir implementaciones y progresos cómoda y
 fácilmente, así como marcar la propuesta como completa una vez que se haya
 trabajado en ella con éxito.
 
-![](/.gitbook/assets/rfp-4.png)
+![](../.gitbook/assets/rfp-4.png)
 
 Esperamos que esto te motive a agregar tus propuestas de desarrollo y esperamos con interés todas las ideas interesantes que tú, como miembro valioso de la comunidad y parte importante de este proyecto, presentes en el mejor interés de la red y sus usuarios.
 

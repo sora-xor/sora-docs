@@ -40,11 +40,11 @@ Puedes practicar con transferencias usando tokens de prueba en el testnet de SOR
 
 1. Abre el [faucet](https://testfaucet.polkaswap.io/)
 
-<center><img src=".gitbook/assets/transfer-open-faucet.png" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-open-faucet.png" width="400"></center>
 
 2. Introduce tu dirección de SORA, selecciona el token y la cantidad de tokens que necesitas.
 
-<center><img src=".gitbook/assets/transfer-request-testnet-tokens.png" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-request-testnet-tokens.png" width="400"></center>
 
 3. Haz clic en **Enviar testnet VAL (XOR, PSWAP).**
 
@@ -60,29 +60,29 @@ La aplicación web de Polkaswap tiene una cartera que puedes usar para enviar to
 
 1. Abre la sección **Cuenta** y haz clic en el icono de enviar (una flecha cerca del activo)
 
-<center><img src=".gitbook/assets/transfer-click-send.png" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-click-send.png" width="400"></center>
 
 2. Introduce la dirección del destinatario y la cantidad de tokens que te gustaría enviar
 
-   <center><img src=".gitbook/assets/transfer-enter-address.png" width="400"></center>
+   <center><img src="../.gitbook/assets/transfer-enter-address.png" width="400"></center>
 
    Si introduces una dirección que no comienza con `cn`, verás una notificación sobre la conversión de direcciones. <!-- (como se menciona en la sección de prefijo de cuenta de [Cuentas en SORA](/accounts-in-sora.md#converting-the-address-format)). -->
 
-   <center><img src=".gitbook/assets/transfer-notification.png" width="400"></center>
+   <center><img src="../.gitbook/assets/transfer-notification.png" width="400"></center>
 
 3. Haz clic en Enviar y confirma la transacción.
 
-<center><img src=".gitbook/assets/transfer-confirm-transaction.png" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-confirm-transaction.png" width="400"></center>
 
 4. Después de que aparezca la confirmación de la transacción de la extensión de Polkadot.js, introduce tu contraseña y confirma la transacción:
 
-<center><img src=".gitbook/assets/transfer-confirmation-enter-password.png" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-confirmation-enter-password.png" width="400"></center>
 
 ::: tip
 
 Luego puedes encontrar tu transacción en la pestaña de Actividad:
 
-<center><img src=".gitbook/assets/transfer-view-activity.png" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-view-activity.png" width="400"></center>
 
 :::
 
@@ -92,33 +92,33 @@ La aplicación móvil de SORA proporciona una buena experiencia de usuario para 
 
 1. Abre la pantalla de cartera y toca el icono de enviar en la esquina superior derecha.
 
-<center><img src=".gitbook/assets/transfer-mobile-open-wallet.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-open-wallet.jpg" width="400"></center>
 
 2. Selecciona el token a enviar:
 
-<center><img src=".gitbook/assets/transfer-mobile-select-token.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-select-token.jpg" width="400"></center>
 
 3. Introduce la dirección del destinatario:
 
-<center><img src=".gitbook/assets/transfer-mobile-enter-recipient.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-enter-recipient.jpg" width="400"></center>
 
 4. Introduce la cantidad de tokens a enviar:
 
-<center><img src=".gitbook/assets/transfer-mobile-enter-amount-zero.jpg" width="400"> <img src=".gitbook/assets/transfer-mobile-enter-amount-entered.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-enter-amount-zero.jpg" width="400"> <img src="../.gitbook/assets/transfer-mobile-enter-amount-entered.jpg" width="400"></center>
 
 5. Confirma la transacción:
 
-<center><img src=".gitbook/assets/transfer-mobile-confirm.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-confirm.jpg" width="400"></center>
 
 Serás redirigido a la pantalla de Cartera:
 
-<center><img src=".gitbook/assets/transfer-mobile-redirect-to-wallet.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-redirect-to-wallet.jpg" width="400"></center>
 
 ::: tip
 
 Toca en la transacción en el historial para ver los detalles:
 
-<center><img src=".gitbook/assets/transfer-mobile-view-history.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-view-history.jpg" width="400"></center>
 
 :::
 
@@ -128,12 +128,12 @@ Usar un código QR reduce el número de errores y simplifica el proceso de intro
 
 1. Toca en el icono de Escanear en la esquina superior derecha y permite el acceso a la cámara.
 
-<center><img src=".gitbook/assets/transfer-mobile-qr-open.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-qr-open.jpg" width="400"></center>
 
 2. Escanea el código QR y luego introduce la cantidad de tokens que te gustaría enviar.
 
-<!-- Probablemente no sea necesario <center><img src=".gitbook/assets/Screenshot_20210915-101737_Soralution.jpg" width="400"></center> -->
-<center><img src=".gitbook/assets/transfer-mobile-qr-enter-amount.jpg" width="400"></center>
+<!-- Probablemente no sea necesario <center><img src="../.gitbook/assets/Screenshot_20210915-101737_Soralution.jpg" width="400"></center> -->
+<center><img src="../.gitbook/assets/transfer-mobile-qr-enter-amount.jpg" width="400"></center>
 
 #### Recibir Tokens Usando un Código QR
 
@@ -141,12 +141,12 @@ Si deseas recibir tokens usando un código QR:
 
 1. Toca el icono de QR en la esquina superior derecha de la pantalla de cartera:
 
-<center><img src=".gitbook/assets/transfer-mobile-qr-receive.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-qr-receive.jpg" width="400"></center>
 
 2. Selecciona el activo:
 
-<center><img src=".gitbook/assets/transfer-mobile-qr-receive-select-asset.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-qr-receive-select-asset.jpg" width="400"></center>
 
 3. Comparte el QR generado usando el icono de compartir o copiando la imagen:
 
-<center><img src=".gitbook/assets/transfer-mobile-qr-share-qr.jpg" width="400"></center>
+<center><img src="../.gitbook/assets/transfer-mobile-qr-share-qr.jpg" width="400"></center>

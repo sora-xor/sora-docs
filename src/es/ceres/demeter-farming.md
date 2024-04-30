@@ -3,7 +3,7 @@ title: "Agricultura Demeter | Documentos SORA"
 head:
    - - meta
      - name: descripción
-       content: "La plataforma Demeter Farming es la primera de su tipo en la red SORA".
+       content: "La plataforma Demeter Farming es la primera de su tipo en la red SORA"
    - - meta
      - name: palabras clave
        content: "Ceres, Demeter, DeFi, agricultura, apuestas, agricultura como servicio, Polkaswap, red SORA"
@@ -19,4 +19,4 @@ La plataforma [Demeter Farming](https://farming.deotoken.io/) es la primera de s
 La característica única de esta plataforma es brindar al usuario la posibilidad de cultivar utilizando la misma liquidez en múltiples grupos.
 La plataforma también ofrece agricultura como servicio, lo que significa que cada proyecto puede crear grupos de agricultura/estaca sin codificación.
 
-![](../.gitbook/assets/demeter-farming.png)
+![](../../.gitbook/assets/demeter-farming.png)

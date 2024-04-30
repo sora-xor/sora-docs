@@ -19,7 +19,7 @@ cabecera:
 
 Los activos sintéticos son activos ligados a un índice utilizando solo colateral en cadena. [XSTUSD (SORA Synthetic USD) es un gran ejemplo de un activo sintético](https://www.forbes.com/sites/tatianakoffman/2021/11/23/the-rise-of-decentralized-money-on-polkadotnew-algorithmic-stablecoin-launches-on-sora/), ya que está ligado al valor del Dólar Estadounidense, pero actualmente respaldado por la canjeabilidad a XST, lo que significa que puedes obtener el valor nominal de XSTUSD dado en XST recién acuñado.
 
-![XST_platformToken.png](.gitbook/assets/synthetics.png)
+![XST_platformToken.png](../.gitbook/assets/synthetics.png)
 
 Los activos sintéticos son importantes porque los activos que están totalmente colateralizados en cadena, pero están vinculados a índices fuera de cadena, son increíblemente poderosos. Los activos puramente sintéticos se pueden utilizar para representar muchos tipos de valor, como para rastrear las acciones de instrumentos financieros y valores. Ya sea que el índice sea una moneda fiduciaria como el USD, un commodity como el XAU (oro), o un valor como TSLA, tener activos completamente en cadena para representar estos valores permite una multitud de operaciones DeFi componibles mientras es imposible de censurar. ¡Los posibles usos son verdaderamente infinitos, y solo están limitados por la imaginación de los desarrolladores y datos de oráculo confiables!
 

@@ -14,4 +14,4 @@ head:
 La [plataforma Ceres Governance](https://dapps.cerestoken.io/governance) es un paso esencial hacia la descentralización.
 Los poseedores de tokens Ceres pueden influir en las decisiones relativas al proyecto, como proponer o implementar nuevas funciones.
 
-![](../.gitbook/assets/governance.png)
+![](../../.gitbook/assets/governance.png)

@@ -37,7 +37,7 @@ head:
   - - meta
     - name: twitter:description
       content: "Descubre la Tarjeta SORA, una tarjeta de pago versátil diseñada para proporcionar a los usuarios acceso sin interrupciones a sus activos digitales. Aprende sobre las características, beneficios e integración de la Tarjeta SORA dentro del ecosistema SORA, habilitando transacciones seguras y convenientes tanto en línea como fuera de línea."
-
+---
 # Tarjeta SORA
 
 ## Características clave de la Tarjeta SORA

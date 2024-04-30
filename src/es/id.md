@@ -7,13 +7,13 @@ head:
   - - meta
     - name: keywords
       content: SORA, juicio de identidad, solicitar juicio, polkadot.js, identidad en cadena, verificación, fondos de marketing comunitario, Fondos de Marketing Comunitario
-
+---
 # Identidades en Redes Basadas en Substrate
 
 ## TL;DR
 
-- Puedes establecer una identidad en cadena para facilitar que otros reconozcan tu dirección.
-- Como Validador, añade confianza extra a los Nominadores si conocen tu identidad en cadena.
+- Puedes establecer una identidad en cadena para facilitar que otros reconozcan tu dirección
+- Como Validador, añade confianza extra a los Nominadores si conocen tu identidad en cadena
 - Este tutorial te ayudará a configurar una identidad en cadena y solicitar un juicio a tu identidad (como una entidad confiable o verificada en la red SORA)
 
 ## Vía PolkadotJS UI
@@ -32,11 +32,11 @@ Sigue estos pasos para configurar una identidad:
 
 #### 2. Haz clic en el icono del menú hamburguesa en la cuenta para la cual deseas registrar una identidad. Luego selecciona "Establecer identidad en cadena":
 
-  <center><img src="/.gitbook/assets/id-select-menu.png" width="400"></center>
+  <center><img src="../.gitbook/assets/id-select-menu.png" width="400"></center>
 
 #### 3. Registra tu Identidad y haz clic en "Establecer Identidad" cuando termines.
 
-   <center><img src="/.gitbook/assets/id-register-id.png" width="400"></center>
+   <center><img src="../.gitbook/assets/id-register-id.png" width="400"></center>
 
 ::: info
 
@@ -59,7 +59,7 @@ Usando la cuenta que deseas verificar, ve a la pestaña Desarrollador y sigue es
 - En `regIndex`, coloca `1` (`reg_index` = `0` ya no está activo). El registrador `1` tiene una tarifa de 5000 `XOR`.
 - Envía la transacción.
 
-  <center><img src="/.gitbook/assets/requestJudgement.png" width="600"></center>
+  <center><img src="../.gitbook/assets/requestJudgement.png" width="600"></center>
 
 ### 2. Dona a la dirección de los Fondos de Marketing Comunitario.
 
@@ -83,7 +83,7 @@ Puedes cambiar libremente cualquier valor durante el proceso de juicio hasta que
 
 :::
 
-##Aprende más
+## Aprende más
 
 - [Crea una Cuenta en SORA](/create-an-address.md)
 - [Ejecutando un Nodo Sora](/running-a-node.md)

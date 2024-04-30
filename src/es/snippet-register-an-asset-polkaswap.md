@@ -6,15 +6,15 @@ Puede hacer que su token forme parte de la red SORA simplemente agregándolo.
 
 3. Vaya a [Polkaswap.io](https://polkaswap.io/) > "Cuenta" > "Crear token":
 
-    ![](/.gitbook/assets/register-asset-create-token.png)
+    ![](../.gitbook/assets/register-asset-create-token.png)
 
 4. Complete los detalles de su token:
 
-<center><img src="/.gitbook/assets/register-asset-create-token-fill-in.png" width="400"></center>
+<center><img src="../.gitbook/assets/register-asset-create-token-fill-in.png" width="400"></center>
 
 5. Confirme la tarifa de la red y cree el token.
 
-::: información
+::: info
 Tenga en cuenta que agregar token a la red SORA no significa que
 automáticamente se le permitirá ser transferido a través de HASHI
 puente. Para agregar su token al puente HASHI, consulte

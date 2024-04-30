@@ -30,7 +30,7 @@ Subscan solo está disponible para el mainnet de SORA. Esto significa que no pod
 
 Abre [Subscan del mainnet](https://sora.subscan.io/):
 
-![](.gitbook/assets/explore-blocks-open-subscan.png)
+![](../.gitbook/assets/explore-blocks-open-subscan.png)
 
 Aquí verás el panel principal que contiene:
 
@@ -44,30 +44,30 @@ Aquí verás el panel principal que contiene:
 
 Si tienes el hash de la transacción o id puedes encontrarla usando la caja de búsqueda. Solo pega el número de la transacción en la caja de búsqueda y haz clic en Buscar.
 
-![](.gitbook/assets/explore-blocks-search-transaction.png)
+![](../.gitbook/assets/explore-blocks-search-transaction.png)
 
 En la pantalla de Detalles de la Transacción verás toda la información sobre extrínsecas incluyendo parámetros y eventos.
 
-![](.gitbook/assets/explore-blocks-show-details-extrinsics.png)
+![](../.gitbook/assets/explore-blocks-show-details-extrinsics.png)
 
 #### Cómo encontrar una cuenta
 
 Si tienes una dirección de cuenta entonces puedes encontrarla usando la caja de búsqueda. Solo pega o introduce la dirección de la cuenta en la caja de búsqueda y haz clic en Buscar.
 
-![](.gitbook/assets/explore-blocks-search-account.png)
+![](../.gitbook/assets/explore-blocks-search-account.png)
 
 En la vista de detalles de la cuenta, puedes encontrar información sobre el saldo de XOR, transferencias y transacciones que fueron realizadas por la cuenta.
 
-![](.gitbook/assets/explore-blocks-show-account-details.png)
+![](../.gitbook/assets/explore-blocks-show-account-details.png)
 
 #### Transacciones
 
 Las transacciones son la parte más importante del explorador de bloques. Puedes encontrar todas las transacciones en Blockchain, luego selecciona Extrínsecas del menú desplegable.
 
-![](.gitbook/assets/explore-blocks-show-extrinsics.png)
+![](../.gitbook/assets/explore-blocks-show-extrinsics.png)
 
 En la página de lista de extrínsecas puedes encontrar el historial de extrínsecas.
 
-![](.gitbook/assets/explore-blocks-extrinsic-history.png)
+![](../.gitbook/assets/explore-blocks-extrinsic-history.png)
 
 Puedes filtrar una extrínseca por fecha o rango de bloques, por cuenta, módulo y llamada. Es muy útil para ver la actividad de una cuenta o el historial de una operación específica.

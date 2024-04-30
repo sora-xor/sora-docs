@@ -13,7 +13,7 @@ head:
 
 ## Teoría
 
-<!-- @include: /snippets/referral-theory.md -->
+<!-- @include: snippet-referral-theory.md -->
 
 ## Práctica
 
@@ -30,4 +30,4 @@ Recomendamos usar el testnet de SORA para ejercicios prácticos. Aquí están lo
 
 ### Vía Polkaswap
 
-<!-- @include: /snippets/referral-polkaswap.md -->
+<!-- @include: snippet-referral-polkaswap.md -->

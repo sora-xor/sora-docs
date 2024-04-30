@@ -3,7 +3,7 @@ title: "Cuentas en la Red SORA | SORA Docs"
 head:
    - - meta
      - nome: descripción
-       content: "Obtenga información sobre las cuentas en la red SORA y cómo permiten a los usuarios interactuar con la red y administrar sus activos. Explore los diferentes tipos de cuentas, como cuentas de usuario y cuentas del sistema, y comprenda cómo se utilizan para transacciones, apuestas , gobernanza y otras actividades dentro del ecosistema SORA".
+       content: "Obtenga información sobre las cuentas en la red SORA y cómo permiten a los usuarios interactuar con la red y administrar sus activos. Explore los diferentes tipos de cuentas, como cuentas de usuario y cuentas del sistema, y comprenda cómo se utilizan para transacciones, apuestas , gobernanza y otras actividades dentro del ecosistema SORA"
    - - meta
      - name: palabras clave
        content: "cuentas, red SORA, cuentas de usuario, cuentas del sistema, gestión de activos, transacciones, apuestas, gobernanza"

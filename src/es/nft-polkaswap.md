@@ -11,6 +11,6 @@ head:
 
 # NFTs
 
-<!-- @include: /snippets/nft-theory.md -->
+<!-- @include: snippet-nft-theory.md -->
 
-<!-- @include: /snippets/nft-polkaswap.md -->
+<!-- @include: snippet-nft-polkaswap.md -->

@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre Polkaswap | Documentos SORA
 head:
    - - meta
      - name: descripción
-       content: encuentre respuestas a preguntas frecuentes (FAQ) sobre Polkaswap, el intercambio descentralizado en la red SORA. Explore consultas comunes sobre comercio, provisión de liquidez, intercambio de tokens, tarifas y más. Obtenga la información que necesita para mejorar su comprensión y maximizar su experiencia en Polkaswap dentro del ecosistema SORA.
+       content: "encuentre respuestas a preguntas frecuentes (FAQ) sobre Polkaswap, el intercambio descentralizado en la red SORA. Explore consultas comunes sobre comercio, provisión de liquidez, intercambio de tokens, tarifas y más. Obtenga la información que necesita para mejorar su comprensión y maximizar su experiencia en Polkaswap dentro del ecosistema SORA."
    - - meta
      - name: palabras clave
        content: Preguntas frecuentes sobre Polkaswap, red SORA, intercambio descentralizado, comercio, provisión de liquidez, intercambio de tokens, tarifas
@@ -35,7 +35,7 @@ Polkaswap ha trabajado para resolver algunos de los problemas con los DEX basado
 
 Al hacer clic en Intercambiar en la barra de menú, puede elegir entre las funciones SMART y TBC en Polkaswap, como se muestra en la siguiente imagen.
 
-![](/.gitbook/assets/faq-choose-smart-or-tbc-for-swap.jpg)
+![](../../.gitbook/assets/faq-choose-smart-or-tbc-for-swap.jpg)
 
 Usando TBC, su operación se ejecutará en la [curva de vinculación de tokens] (https://wiki.sora.org/token-bonding-curve). La curva de vinculación del token SORA actúa como administrador descentralizado en cadena del token XOR. Funciona tomando activos de reserva y acuñando nuevos XOR, o por el contrario, desmintiendo XOR y liberando activos de reserva. Esta solución a menudo reduce el deslizamiento en grandes operaciones, ya que la curva de vinculación del token aumenta la liquidez del token XOR. Además, existe un incentivo especial cuando un usuario compra XOR recién acuñado en la curva de vinculación de tokens; las recompensas están en PSWAP. Puede leer el artículo completo sobre esta recompensa [aquí](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
@@ -109,5 +109,5 @@ No hay más subastas previstas para los próximos meses. Pronto, los tokens KSM 
 
 ## Aprende más
 
-- [Política de privacidad de Polkaswap](/polkaswap/privacidad)
+- [Política de privacidad de Polkaswap](/polkaswap/privacy)
 - [Términos y condiciones de Polkaswap](/polkaswap/terms)

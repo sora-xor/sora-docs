@@ -9,12 +9,12 @@ head:
         content: "comercio avanzado, red SORA, Polkaswap, órdenes limitadas, órdenes stop-loss, funcionalidades comerciales"
 ---
 
-#Comercio Avanzado
+# Comercio Avanzado
 
-##Teoría
+## Teoría
 
-<!-- @include: /snippets/advanced-trading-theory.md -->
+<!-- @include: snippet-advanced-trading-theory.md -->
 
 ## Práctica
 
-<!-- @include: /snippets/advanced-trading-polkaswap.md -->
+<!-- @include: snippet-advanced-trading-polkaswap.md -->

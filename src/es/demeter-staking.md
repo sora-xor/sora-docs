@@ -3,7 +3,7 @@ title: "Replanteo de Demeter | SORA Docs"
 head:
    - - meta
      - name: descripción
-       content: "Más información sobre cómo apostar en la plataforma Demeter".
+       content: "Más información sobre cómo apostar en la plataforma Demeter"
    - - meta
      - name: palabras clave
        content: "apostar, Demeter, red SORA, beneficios de apostar, ganar recompensas"
@@ -18,7 +18,7 @@ Plataforma agrícola] (https://farming.deotoken.io/).
 
 ## Staking Demeter
 
-<!-- @include: /snippets/demeter-stake-polkaswap.md -->
+<!-- @include: snippet-demeter-stake-polkaswap.md -->
 
 ## Aprende más
 

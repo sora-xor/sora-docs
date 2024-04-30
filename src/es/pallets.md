@@ -1,3 +1,4 @@
+---
 title: "Pallets de SORA | Documentación de SORA"
 head:
   - - meta

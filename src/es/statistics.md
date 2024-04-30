@@ -13,4 +13,4 @@ head:
 
 ## A través de Polkaswap
 
-<!-- @include: /snippets/statistics-polkaswap.md -->
+<!-- @include: snippet-statistics-polkaswap.md -->

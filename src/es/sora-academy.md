@@ -51,7 +51,7 @@ Gracias a la tecnología blockchain, las finanzas se han vuelto más inclusivas 
 
 ## El Gran Libro Contable en el Cielo: Una Introducción a los Activos Blockchain
 
-![](/.gitbook/assets/ledger-sky.png)
+![](../.gitbook/assets/ledger-sky.png)
 
 Intenta imaginar por un momento un libro contable de un contador en el cielo, donde se registran las transacciones entrantes y salientes, y todos pueden ver todas las transacciones registradas. Ahora imagina que, en lugar de un contador, hay una gran cantidad de ellos, todos compitiendo para verificar las transacciones que ocurren en este gran libro. Podrías decir que esto es una blockchain en pocas palabras.
 
@@ -99,7 +99,7 @@ En este punto, es posible que te preguntes dónde se registran todas estas trans
 
 _Con esa pregunta inminente, vamos a sumergirnos en…_
 
-![](/.gitbook/assets/sora_academy.jpg)
+![](../.gitbook/assets/sora_academy.jpg)
 
 ## DeFi y la Academia SORA
 

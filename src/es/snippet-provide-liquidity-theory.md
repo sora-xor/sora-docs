@@ -19,7 +19,7 @@ Las recompensas de bonificación de LP Farming se distribuyen cada seis horas.
 
 Junto con la tarifa de red en XOR, los tres casos requieren una tarifa adicional: tarifa del proveedor de liquidez (tarifa LP). La tarifa LP se utiliza para incentivar a los proveedores de liquidez a suministrar liquidez en fondos de liquidez. Los fondos comunes de liquidez se describen en este [artículo](https://medium.com/polkaswap/polkaswap-pools-48b726cf3a71).
 
-::: información
+::: info
 
 Importante: antes de proporcionar liquidez, lea sobre los [riesgos involucrados aquí] (https://wiki.sora.org/polkaswap/polkaswap-faq#what-are-the-risks-of-providing-liquidity-to-polkaswap).
 

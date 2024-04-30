@@ -15,6 +15,6 @@ En la esquina superior derecha de la página de Polkaswap, encontrarás un conju
 
 Estas características incluyen la capacidad de cambiar al modo oscuro o claro, seleccionar un idioma de una lista de opciones disponibles, habilitar notificaciones del navegador para cambios en el saldo y otras actualizaciones, así como ocultar tus saldos por privacidad.
 
-<center><img src="/.gitbook/assets/polkaswap-other-features.png" ></center>
+<center><img src="../.gitbook/assets/polkaswap-other-features.png" ></center>
 
 Puedes acceder fácilmente a estas características haciendo clic en los iconos correspondientes en el menú de otras configuraciones ubicado en la esquina superior derecha de la página.

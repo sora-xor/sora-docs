@@ -37,7 +37,7 @@ Polkaswap tiene una tarifa de transacción comercial del 0.3% por transacción, 
 
 Además, recompensas especiales para compradores estratégicos de XOR durante el período especial de compra de XOR, recompensas para proveedores de liquidez durante el período inicial de tsunami de liquidez y recompensas para creadores de mercado también se distribuyen como una fracción de la quema diaria (mostrada como la región sombreada **Estrategia de Bonificación con Vesting** en la figura a continuación). Esto garantiza que un suministro repentino de tokens no inundará inmediatamente el mercado y proporciona una guía clara sobre el suministro de tokens en circulación.
 
-<figure><img src=".gitbook/assets/strategic-bonus-vesting-updated.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/strategic-bonus-vesting-updated.png" alt=""><figcaption></figcaption></figure>
 
 **Ejemplo:** Supongamos que la recompra y quema de tarifas de transacción por un día resultaron en 10,000 PSWAP siendo quemados. Si la recompensa diaria es del 80%, entonces se otorgan 8,000 nuevos tokens PSWAP proporcionalmente entre todos los proveedores de liquidez y 1,000 PSWAP tokens se otorgan al Parlamento de SORA y 1,000 PSWAP se distribuyen entre los participantes de los programas de bonificación estratégicos
 

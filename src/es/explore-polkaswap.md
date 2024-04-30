@@ -11,4 +11,4 @@ head:
 
 # Explorar
 
-<!-- @include: /snippets/explore-polkaswap.md -->
+<!-- @include: snippet-explore-polkaswap.md -->

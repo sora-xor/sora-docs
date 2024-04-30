@@ -2,23 +2,23 @@
 
 1. Vaya a [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/s Taking), haga clic en "Red" y luego "Replantear". Asegúrate de estar conectado a la red SORA, deberías ver el logo en la parte superior izquierda.
 
-![](/.gitbook/assets/rewards-view-stake.png)
+![](../.gitbook/assets/rewards-view-staking.png)
 
 2. Haga clic en "Pagos":
 
-    ![](/.gitbook/assets/rewards-view-payouts.png)
+    ![](../.gitbook/assets/rewards-view-payouts.png)
 
     Si hay una recompensa de apuesta que puedes reclamar, deberías verla, como se muestra en la siguiente captura de pantalla:
 
-    ![](/.gitbook/assets/rewards-view-stake-reward.jpg)
+    ![](../.gitbook/assets/rewards-view-staking-reward.jpg)
 
 3. Haga clic en "Pago" y luego siga el flujo propuesto.
 
-![](/.gitbook/assets/rewards-click-payout.jpg)
+![](../.gitbook/assets/rewards-click-payout.jpg)
 
 4. Una vez completado, firme con la extensión según se le solicite.
 
-::: información
+::: info
 Tenga en cuenta que Polkadot.js solo admite un activo para la red, por eso muestra XOR. Sin embargo, en realidad es **VAL**.
 
 :::
