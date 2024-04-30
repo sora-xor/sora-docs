@@ -7,7 +7,7 @@ head:
   - - meta
     - name: keywords
       content: "seguro social, red SORA, redes de seguridad social, compartición de riesgos, sistema financiero inclusivo, sistema financiero sostenible"
-
+---
 # Seguro Social para Infraestructura Sistemáticamente Importante
 
 ## TL;DR

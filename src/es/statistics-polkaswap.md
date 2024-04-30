@@ -11,4 +11,4 @@ head:
 
 # Estadísticas
 
-<!-- @include: /snippets/statistics-polkaswap.md -->
+<!-- @include: snippet-statistics-polkaswap.md -->

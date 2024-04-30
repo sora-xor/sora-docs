@@ -34,7 +34,7 @@ que en el futuro pueden ser utilizadas para financiamiento de proyectos, y otorg
 estipendios a los ciudadanos de SORA.
 
 La Curva de Enlace de Token de SORA y usos del margen entre funciones de compra y venta
-![La Curva de Enlace de Token de SORA y usos del margen entre funciones de compra y venta](/.gitbook/assets/margin-tbc.png)
+![La Curva de Enlace de Token de SORA y usos del margen entre funciones de compra y venta](../.gitbook/assets/margin-tbc.png)
 
 TBCD solo puede ser creado y asignado por gobernanza en cadena, lo
 que significa que los poseedores de tokens XOR deciden el suministro. De esta manera, TBCD puede

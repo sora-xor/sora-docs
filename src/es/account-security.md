@@ -60,7 +60,7 @@ Explora las complejidades de los formatos de frases de paso como mnemónicos, JS
 
 En la era digital actual, proteger los activos digitales se ha vuelto primordial. El eje de esta seguridad a menudo gira en torno a la gestión de frases de contraseña, contraseñas y otras claves digitales. Comprender los diferentes formatos de almacenamiento y seguir las mejores prácticas puede distinguir entre cuentas seguras y posibles infracciones.
 
-![](.gitbook/assets/sora-account-security.png)
+![](../.gitbook/assets/sora-account-security.png)
 
 ## Mnemónico, JSON y Raw Seed: descripción general
 

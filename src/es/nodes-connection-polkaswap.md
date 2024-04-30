@@ -13,7 +13,7 @@ head:
 
 ## Teoría
 
-<!-- @include: /snippets/nodes-connection-theory.md -->
+<!-- @include: snippet-nodes-connection-theory.md -->
 
 ## Práctica
 
@@ -34,4 +34,4 @@ En la sección práctica, estaremos cambiando entre diferentes nodos.
 
 #### Vía Polkaswap
 
-<!-- @include: /snippets/nodes-connection-polkaswap.md -->
+<!-- @include: snippet-nodes-connection-polkaswap.md -->

@@ -14,7 +14,7 @@ Combine esta identificación de parachain con la otra información de la documen
 
 2. Dentro de su parachain, redacte un mensaje XCM que notifique a la cadena de retransmisión sobre la intención de abrir un canal con SORA. Consulte la [documentación oficial](https://docs.substrate.io/reference/how-to-guides/parachains/add-hrmp-channels/) para ver un ejemplo ilustrativo del mensaje XCM.
 
-::: información
+::: info
 
 Es importante reconocer que si su implementación de la lógica del canal HRMP difiere de la paleta estándar `polkadotXcm.send`; debe modificar este paso en consecuencia.
 

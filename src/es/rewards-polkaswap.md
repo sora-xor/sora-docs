@@ -17,7 +17,7 @@ head:
 
 ## Teoría
 
-<!-- @include: /snippets/rewards-theory.md -->
+<!-- @include: snippet-rewards-theory.md -->
 
 ## Práctica
 
@@ -38,11 +38,11 @@ En la sección práctica, te enseñaremos a reclamar tokens usando la interfaz d
 
 #### Via Polkaswap
 
-<!-- @include: /snippets/rewards-polkaswap.md -->
+<!-- @include: snippet-rewards-polkaswap.md -->
 
 ### Reclamando recompensas de VALidador y nominador de SORA
 
 #### Via la UI de polkadot.js
 
-<!-- @include: /snippets/rewards-validator-rewards-polkadjs.md -->
+<!-- @include: snippet-rewards-validator-rewards-polkadjs.md -->
 

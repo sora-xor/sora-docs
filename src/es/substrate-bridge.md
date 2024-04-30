@@ -4,7 +4,7 @@
 
 La interacción de SORA con Polkadot/Kusama y otras cadenas de relevo se visualiza en el siguiente diagrama:
 
-![](./assets/substrate-bridge-components.svg)
+![](../assets/substrate-bridge-components.svg)
 
 <details>
   <summary>Código del diagrama UML</summary>
@@ -178,11 +178,11 @@ Extrínsecos raíz: `initialize`, `addPeer`, `removePeer`.
 
 Para ejecutar una transferencia de tokens entre cadenas, se requiere un proceso de registro para el token deseado de antemano. El registro de tokens implica el uso de los extrínsecos raíz `ParachainBridgeApp.registerSidechainAsset` y `ParachainBridgeApp.registerThischainAsset`. Por ejemplo, para registrar un token nativo en la red Rococo, se sigue el siguiente procedimiento:
 
-![Imagen: Ejemplo de registrar un token nativo de Rococo](./assets/sidechain-token-registration.png)
+![Imagen: Ejemplo de registrar un token nativo de Rococo](../assets/sidechain-token-registration.png)
 
 De manera similar, para registrar un token nativo de otra blockchain como transferible a través de una parachain, también conocido como whitelisting, el proceso es el siguiente:
 
-![Imagen: Ejemplo de registrar una blockchain nativa para transferencia vía parachain](./assets/thischain-token-registration.png)
+![Imagen: Ejemplo de registrar una blockchain nativa para transferencia vía parachain](../assets/thischain-token-registration.png)
 
 Estos extrínsecos envían mensajes a la Parachain SORA 2, habilitando el registro de mapeos de activos. Sin este registro, los tokens no pueden ser transferidos a través de la parachain. Una vez que el token está exitosamente registrado, se pueden iniciar las transferencias.
 
@@ -204,7 +204,7 @@ Para transferir activos desde Polkadot a la red SORA, además del `XOR` para la 
 
 Para llenar los datos de la llamada con información de la figura, sigue este [enlace](https://polkadot.js.org/apps/?rpc=wss://rpc.polkadot.io#/extrinsics/decode/0x95028400ccba123cc29c8e6464bb6d5d51236a1d9b4c5b61b86061850a7e85434833203501f683e251cc059cf488abe703192669ba3f6d2440e8fc9740cf85d8f0924a245916133f564d1fe0b248c97ef51008ce52fe1442856b6699283d20b28c5ed3a78f5501350100630203000100a51f0300010100ccba123cc29c8e6464bb6d5d51236a1d9b4c5b61b86061850a7e85434833203503040000000007000c77420300000000). Asegúrate de modificar el destinatario así como la cantidad de tokens a ser enviados, si es necesario.
 
-![Imagen: Ejemplo de una transferencia de DOT al network Polkadot desde el mainnet de SORA](./assets/bridgeTransferPolkadotToSora.png)
+![Imagen: Ejemplo de una transferencia de DOT al network Polkadot desde el mainnet de SORA](../assets/bridgeTransferPolkadotToSora.png)
 
 El extrínseco a enviar es `xcmPallet` luego `reserveTransferAssets(dest,beneficiary,assets,feeAssetitem)`:
 
@@ -227,7 +227,7 @@ Aunque las transacciones de SORA son usualmente casi instantáneas, las transacc
 
 Para transferir activos desde la red SORA a la relay chain de Polkadot, necesitarás tokens XOR y DOT para pagar las tarifas de la transacción, similar a antes. Para llenar los datos de la llamada con información de la figura, sigue este [enlace](https://cloudflare-ipfs.com/ipns/dotapps.io/?rpc=wss%3A%2F%2Fmof2.sora.org#/extrinsics/decode/0x670001020003b1dbee890acfb1b3bc12d1bb3b4295f52755423f84d1751b2545cebf000b020301010100ccba123cc29c8e6464bb6d5d51236a1d9b4c5b61b86061850a7e854348332035008075199d106b0f0000000000000000). Asegúrate de modificar el destinatario así como la cantidad a ser enviada, si es necesario.
 
-![Imagen: Ejemplo de una transferencia de DOT al mainnet de SORA desde la relay chain de Polkadot](./assets/bridgeTransferSoraToPolkadot.png)
+![Imagen: Ejemplo de una transferencia de DOT al mainnet de SORA desde la relay chain de Polkadot](../assets/bridgeTransferSoraToPolkadot.png)
 
 El extrínseco a enviar es `bridgeProxy` luego `burn`:
 
@@ -257,7 +257,7 @@ Para transferir activos desde Kusama a la red SORA, adicional al `XOR` para la t
 
 Para llenar los datos de la llamada con información de la figura, sigue este [enlace](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/extrinsics/decode/0x6302030001006d1f0300010100796f757257616c6c657441646472657373546f4265456e7465726564486572650304000000000b00a0724e180900000000). Asegúrate de modificar el destinatario así como la cantidad de tokens a ser enviados, si es necesario.
 
-![Imagen: Ejemplo de una transferencia de KSM a la red Kusama desde el mainnet de SORA](./assets/bridgeTransferKusamaToSora.png)
+![Imagen: Ejemplo de una transferencia de KSM a la red Kusama desde el mainnet de SORA](../assets/bridgeTransferKusamaToSora.png)
 
 El extrínseco a enviar es `xcmPallet` luego `reserveTransferAssets(dest,beneficiary,assets,feeAssetitem)`:
 
@@ -280,7 +280,7 @@ Aunque las transacciones de SORA son usualmente casi instantáneas, las transacc
 
 Para transferir activos desde la red de SORA a la cadena de relevo de Kusama, necesitarás tokens XOR y KSM para pagar las tarifas de la transacción, similar a antes. Para completar los datos de la llamada con información de la figura, sigue este [enlace](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmof3.sora.org#/extrinsics/decode/0x6700010100117b0fa73c4672e03a7d9d774e3b3f91beb893e93d9a8d0430295f44225db8020301010100796f757257616c6c657441646472657373546f4265456e7465726564486572650000e8890423c78a0000000000000000). Asegúrate de modificar el destinatario así como la cantidad a enviar, si es necesario.
 
-![Imagen: Ejemplo de una transferencia de KSM al mainnet de SORA desde la cadena de relevo de Kusama](./assets/bridgeTransferSoraToKusama.png)
+![Imagen: Ejemplo de una transferencia de KSM al mainnet de SORA desde la cadena de relevo de Kusama](../assets/bridgeTransferSoraToKusama.png)
 
 La extrínseca a enviar es `bridgeProxy` luego `burn`:
 
@@ -308,11 +308,11 @@ Esta sección muestra varios escenarios para transferencias bidireccionales entr
 
 Para transferir un token a una cadena de relevo, se utiliza la extrínseca `ParachainBridgeApp.burn`. Por ejemplo, para transferir un token ROC a la cadena de relevo Rococo, se sigue el siguiente procedimiento:
 
-![Imagen: Ejemplo de transferencia de ROC a la cadena de relevo Rococo](./assets/token-burn.png)
+![Imagen: Ejemplo de transferencia de ROC a la cadena de relevo Rococo](../assets/token-burn.png)
 
 Para especificar una parachain como destino de la transferencia, se debe realizar la siguiente solicitud:
 
-![Imagen: Ejemplo de indicación de una parachain como objetivo de la transferencia](./assets/transfer-to-parachain.png)
+![Imagen: Ejemplo de indicación de una parachain como objetivo de la transferencia](../assets/transfer-to-parachain.png)
 
 Siguiendo estos pasos, las transferencias entre cadenas pueden ejecutarse con éxito, permitiendo el movimiento sin problemas de tokens entre diferentes cadenas dentro de la red.
 
@@ -322,12 +322,12 @@ Siguiendo estos pasos, las transferencias entre cadenas pueden ejecutarse con é
 
 1. Después de ejecutar la transacción que inicia un mensaje XCM, se emite el evento `xcmpQueue.XcmpMessageSent`.
 
-![](./assets/xcmMessageSent.png)
+![](../assets/xcmMessageSent.png)
 
 2. Después de un cierto período de tiempo y tras la llegada exitosa del mensaje a la Parachain de SORA, se emite el evento `xcmpQueue.Success`. Este evento tendrá el mismo hash de mensaje que se muestra en el ejemplo de (1). Como resultado, será posible encontrar `substrateBridgeOutboundChannel.MessageAccepted` del mismo extrínseco. El evento contendrá el nonce del mensaje, que se pasará al mainnet.
 
-![](./assets/fundsReceivedOnParachain.png)
+![](../assets/fundsReceivedOnParachain.png)
 
 3. La Parachain enruta el mensaje al mainnet. Una vez que llega, se emite el evento `substrateDispatch.MessageDispatched` con el mismo nonce que en (2).
 
-![](./assets/xcmMessageDispatchedOnMainnet.png)
+![](../assets/xcmMessageDispatchedOnMainnet.png)

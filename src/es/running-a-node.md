@@ -84,7 +84,7 @@ Debe utilizar la última versión de SORA Node para ejecutar un
 nodo. Puede ver el último número de compilación aquí y encontrar el último
 versión con el formato `x.y.z`.
 
-![](/.gitbook/assets/running-node-version-tag.png)
+![](../.gitbook/assets/running-node-version-tag.png)
 
 Utilice este número de versión para más comandos `docker` en esta guía. El número de la versión se marcará como **`<versión>`** en los comandos. Tenga en cuenta que deberá ingresar el número de versión **sin los corchetes**.
 
@@ -142,11 +142,11 @@ Utilice este número de versión para más comandos `docker` en esta guía. El n
 
 3. Verifique el acceso a la carpeta creada:
 
-    ![](/.gitbook/assets/running-node-check-access-to-folder.png)
+    ![](../.gitbook/assets/running-node-check-access-to-folder.png)
 
     Todas las casillas de verificación deben estar activadas para el usuario:
 
-    ![](/.gitbook/assets/running-node-check-checkboxes.png)
+    ![](../.gitbook/assets/running-node-check-checkboxes.png)
 
 4. Ejecute el comando del docker:
 
@@ -156,7 +156,7 @@ Utilice este número de versión para más comandos `docker` en esta guía. El n
 
 5. Ahora puede conectarse a su nodo con [aplicaciones polkadot.js] (https://polkadot.js.org/apps/#/explorer). Seleccione Nodo local y haga clic en Cambiar.
 
-   ![](/.gitbook/assets/running-node-connect-custom.png)
+   ![](../.gitbook/assets/running-node-connect-custom.png)
 
 ¡Ahora tu nodo debería sincronizarse!
 
@@ -216,11 +216,11 @@ Utilice este número de versión para más comandos `docker` en esta guía. El n
 
 3. Verifique el acceso a la carpeta:
 
-   ![](/.gitbook/assets/running-node-check-access-to-folder.png)
+   ![](../.gitbook/assets/running-node-check-access-to-folder.png)
 
    All checkboxes should be activated for the user:
 
-   ![](/.gitbook/assets/running-node-check-checkboxes.png)
+   ![](../.gitbook/assets/running-node-check-checkboxes.png)
 
 4. Ejecute el comando Docker
 
@@ -230,7 +230,7 @@ Utilice este número de versión para más comandos `docker` en esta guía. El n
 
 ## Obtener claves de sesión
 
-::: información
+::: info
 Se recomienda utilizar la línea de comando para obtener las claves de sesión, como
 Polkadot.JS a veces tiene problemas para conectarse al nodo local.
 :::
@@ -241,27 +241,27 @@ Polkadot.JS a veces tiene problemas para conectarse al nodo local.
 
 1. Abre [polkadot.js apps](https://polkadot.js.org/apps/#/explorer) y cambia a tu nodo local.
 
-   ![](/.gitbook/assets/running-node-via-polkadot-switch-to-local.png)
+   ![](../.gitbook/assets/running-node-via-polkadot-switch-to-local.png)
 
 2. En la sección de Desarrollo, selecciona Nodo Local _(ws://127.0.0.1:9944)_ y haz clic en _Cambiar_.
 
-   ![](/.gitbook/assets/running-node-via-polkadot-select-local.png)
+   ![](../.gitbook/assets/running-node-via-polkadot-select-local.png)
 
    Ahora puedes ver la pantalla con la información de tu nodo. _(Una vez que tu nodo se haya sincronizado completamente)_
 
-   ![](/.gitbook/assets/running-node-via-polkadot-view-info.png)
+   ![](../.gitbook/assets/running-node-via-polkadot-view-info.png)
 
 3. Navega a _Desarrollador_ → _Llamadas RPC_:
 
-   ![](/.gitbook/assets/running-node-via-polkadot-navigate-to-rpc-calls.png)
+   ![](../.gitbook/assets/running-node-via-polkadot-navigate-to-rpc-calls.png)
 
 4. Selecciona _author_ → _rotateKeys()_:
 
-   ![](/.gitbook/assets/running-node-via-polkadot-select-rotatekeys.png)
+   ![](../.gitbook/assets/running-node-via-polkadot-select-rotatekeys.png)
 
 5. Haz clic en el botón _Enviar llamada RPC_:
 
-   ![](/.gitbook/assets/running-node-via-polkadot-submit-rpc.png)
+   ![](../.gitbook/assets/running-node-via-polkadot-submit-rpc.png)
 
 6. Copia la clave de sesión del resultado. Necesitarás la clave más tarde.
 
@@ -285,29 +285,29 @@ Polkadot.JS a veces tiene problemas para conectarse al nodo local.
 
 1. Primero, debes ir a Cuentas y ya tener una cuenta conectada. Navega a Red → Staking → Acciones de cuenta, y haz clic en _Validador_:
 
-   ![](/.gitbook/assets/running-node-add-validator.png)
+   ![](../.gitbook/assets/running-node-add-validator.png)
 
 2. Selecciona la cuenta de alijo y la cuenta controladora. Se recomienda usar diferentes cuentas para el alijo y el controlador. (En el ejemplo estamos usando PAVEL (EXTENSIÓN))
 
 3. Establece el valor vinculado:
 
-   ![](/.gitbook/assets/running-node-set-bonded-value.png)
+   ![](../.gitbook/assets/running-node-set-bonded-value.png)
 
 4. Establece la clave de sesión (el resultado de la llamada rotateKeys) y la comisión de recompensa:
 
-   ![](/.gitbook/assets/running-node-set-key-reward-commission.png)
+   ![](../.gitbook/assets/running-node-set-key-reward-commission.png)
 
 5. Firma la transacción.
 
-   ![](/.gitbook/assets/running-node-sign-transaction.png)
+   ![](../.gitbook/assets/running-node-sign-transaction.png)
 
 6. Asegúrate de que has sido añadido a los alijos:
 
-   ![](/.gitbook/assets/running-node-check-stashes.png)
+   ![](../.gitbook/assets/running-node-check-stashes.png)
 
 7. Finalmente, espera a la próxima Era.
 
-   ![](/.gitbook/assets/running-node-wait-for-next-era.png)
+   ![](../.gitbook/assets/running-node-wait-for-next-era.png)
 
 Cuando comience la próxima Era, tu validador será añadido.
 
@@ -317,13 +317,13 @@ Cuando comience la próxima Era, tu validador será añadido.
 
    Las aplicaciones de Polkadot.js siempre muestran XOR, porque no admiten múltiples activos. Debería decirse VAL en la captura de pantalla a continuación.
 
-   ![](/.gitbook/assets/running-node-get-payouts.png)
+   ![](../.gitbook/assets/running-node-get-payouts.png)
 
 2. Haz clic en el botón Pagar todo y firma la transacción
 
-   ![](/.gitbook/assets/running-node-payout-all.png)
+   ![](../.gitbook/assets/running-node-payout-all.png)
 
-   ![](/.gitbook/assets/running-node-get-payouts-sign.png)
+   ![](../.gitbook/assets/running-node-get-payouts-sign.png)
 
 Asegúrate de prestar atención ya que la recompensa se compartirá entre el Validador y los Nominadores según la Participación.
 
@@ -391,11 +391,11 @@ Puedes cambiar el nombre de tu nodo editando el valor del parámetro de:
 
 3. Verifique el acceso a la carpeta:
 
-   ![](/.gitbook/assets/running-node-check-access-to-folder.png)
+   ![](../.gitbook/assets/running-node-check-access-to-folder.png)
 
    All checkboxes should be activated for the user:
 
-   ![](/.gitbook/assets/running-node-check-checkboxes.png)
+   ![](../.gitbook/assets/running-node-check-checkboxes.png)
 
 4. Ejecute el comando del docker:
 
@@ -415,7 +415,7 @@ El nodo tardará algún tiempo en sincronizarse. La salida en los registros debe
 
 Puedes conectarte a tu propio nodo con las aplicaciones de Polkadot.js. [Abre las aplicaciones de Polkadot.js](https://polkadot.js.org/apps/) y navega a la sección de Desarrollo en el selector de red.
 
-![](/.gitbook/assets/running-node-connect.png)
+![](../.gitbook/assets/running-node-connect.png)
 
 Si estás ejecutando un nodo en tu máquina local, entonces selecciona Nodo Local y haz clic en Cambiar. De lo contrario, ingresa tu punto final personalizado y guarda.
 

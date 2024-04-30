@@ -77,23 +77,23 @@ B. Para pasar por el **KYC para la Tarjeta SORA,** necesitas preparar los siguie
 A continuación, encontrarás el flujo de registro que inicia el proceso de KYC.
 El proceso de KYC se realiza a través de la integración del software SumSub, que solo divulgará tus datos al socio bancario que revisa tu solicitud.
 
-![](/.gitbook/assets/sc-Details.png)
+![](../.gitbook/assets/sc-Details.png)
 
 1. Para iniciar el proceso de KYC, ingresa tu número de teléfono, luego solicita el código de verificación. Asegúrate de ingresar tu número de teléfono en el formato internacional (comenzando con el código de país).
 
-![](/.gitbook/assets/sc-Enter-Phone.png)
+![](../.gitbook/assets/sc-Enter-Phone.png)
 
 2. Ingresa el código recibido por SMS.
 
-![](/.gitbook/assets/sc-Verify-Phone.png)
+![](../.gitbook/assets/sc-Verify-Phone.png)
 
 3. Después de verificar tu número de teléfono, ingresa tu nombre completo tal como aparece en el documento de identificación oficial que uses para el proceso de KYC.
 
-![](/.gitbook/assets/sc-Enter-Name.png)
+![](../.gitbook/assets/sc-Enter-Name.png)
 
 4. Ingresa tu dirección de correo electrónico y haz clic en el enlace mágico recibido en tu bandeja de entrada. Después de completar la verificación, regresa a la pantalla de KYC de la aplicación.
 
-![](/.gitbook/assets/sc-Enter-Email.png)
+![](../.gitbook/assets/sc-Enter-Email.png)
 
 5. Cada solicitante tiene un crédito de 2 intentos de KYC incluidos en la solicitud. Esto aplica para todos los solicitantes, incluidos los solicitantes con €100 en valor de XOR en su cuenta de SORA y los solicitantes que ordenan la Tarjeta SORA pagando €20.
 
@@ -106,15 +106,15 @@ Para evitar un costo adicional de €3.80 por intento adicional, por favor aseg�
 
 En cualquier caso, **el banco retiene el derecho a la decisión final sobre tu solicitud**.
 
-![](/.gitbook/assets/sc-KYC-Summary.png)
+![](../.gitbook/assets/sc-KYC-Summary.png)
 
 6. Cuando la verificación de tu solicitud sea exitosa, tu IBAN se habilitará en breve (ETA 1 semana), y tu Tarjeta SORA se te enviará una vez que la Fase 2 de la Tarjeta SORA esté activa. (se te enviará un correo electrónico sobre el estado una vez que el envío de la tarjeta física esté disponible).
 
-![](/.gitbook/assets/sc-Verification-successful.png)
+![](../.gitbook/assets/sc-Verification-successful.png)
 
 7. Si tu solicitud es rechazada, verás esta pantalla con la razón del rechazo.
 
-![](/.gitbook/assets/sc-Verification-rejected.png)
+![](../.gitbook/assets/sc-Verification-rejected.png)
 
 Cuando veas esta pantalla, has usado tus intentos complementarios de KYC, y los intentos adicionales tienen un costo de €3.80 por intento. El KYC adicional pagado estará disponible a partir de una futura versión en adelante.
 

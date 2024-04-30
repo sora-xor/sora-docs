@@ -46,23 +46,23 @@ Verifica si tu transacción está realmente atascada o solo está pendiente.
 1. Conéctate a la aplicación Polkadot.js: [https://polkadot.js.org/apps/rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/rpc)
 
 2. Haz clic en "Desarrollador", luego selecciona "Llamadas RPC":
-   ![](/.gitbook/assets/unstucktx-rpc-call.png)
+   ![](../.gitbook/assets/unstucktx-rpc-call.png)
 
 3. Haz clic en “autor”, luego selecciona “Ethbridge”. Por defecto “getAccountRequests(accountId, statusFilter)” debería estar seleccionado, si no, selecciónalo.
-   ![](/.gitbook/assets/unstucktx-ethbridge.png)
+   ![](../.gitbook/assets/unstucktx-ethbridge.png)
 
 4. Asegúrate de que tu cuenta esté seleccionada debajo, haz clic en "incluir opción" y elige "Pendiente", luego envía la llamada RPC
-   ![](/.gitbook/assets/unstucktx-include-option.png)
+   ![](../.gitbook/assets/unstucktx-include-option.png)
 
 Si tu resultado contiene algún hash de transacción, estas AÚN están pendientes y pueden tardar algún tiempo en procesarse. **Si tu resultado se ve como abajo y no produce hashes, entonces tu transacción de puente de SORA ha sido aprobada y deberías continuar a través de la guía para desatascar tu transacción.**
-![](/.gitbook/assets/unstucktx-approved-continue.png)
+![](../.gitbook/assets/unstucktx-approved-continue.png)
 
 ### Paso 2
 
 Encuentra el hash de transacción de tu transacción aprobada (pero atascada).
 
 1. Si continúas desde el paso 1, tu llamada RPC solo necesita un ligero ajuste. Haz clic en “incluir opción” pero esta vez selecciona “Aprobaciones Listas”, luego envía la llamada RPC
-   ![](/.gitbook/assets/unstucktx-approvals-ready.png)
+   ![](../.gitbook/assets/unstucktx-approvals-ready.png)
 
 El resultado es una lista de todas las transacciones de puente de SORA que han sido aprobadas en el lado de SORA. Tu última transacción de puente es la última (desplázate hacia abajo si es necesario). Si has realizado más transacciones de puente SORA>ETH después de la atascada, necesitarás ir desde el fondo hacia arriba de la lista hasta que encuentres tu transacción atascada.
 
@@ -70,7 +70,7 @@ El resultado es una lista de todas las transacciones de puente de SORA que han s
 
 `0x57533dc46a5d257b6dj0nhagb0f8s4dfedfl6cpppcoaidu99dd0sdc4def4g6b`
 
-![](/.gitbook/assets/unstucktx-stuck-tx.png)
+![](../.gitbook/assets/unstucktx-stuck-tx.png)
 
 ### Paso 3
 
@@ -78,14 +78,14 @@ Usa tu hash de transacción para obtener los datos requeridos (prueba) para el p
 
 1. Continuando desde el paso 2, haz clic en “get**Account**Requests(accountId, statusFilter)” y cámbialo a “get**Approved**Requests(requestHashes, networkId)
 
-![](/.gitbook/assets/unstucktx-get-approved-requests.png)
+![](../.gitbook/assets/unstucktx-get-approved-requests.png)
 
 2. Haz clic en “Añadir ítem”.
 3. Pega tu hash de transacción Aprobado del paso 2 en lugar de 0x000…
 4. Haz clic en “Incluir Opción” y deja el id de red como 0.
 5. Envía la llamada RPC:
 
-![](/.gitbook/assets/unstucktx-add-approved-request.png)
+![](../.gitbook/assets/unstucktx-add-approved-request.png)
 
 El resultado es tu “Proof”, contiene todos los datos necesarios para el paso 4.
 
@@ -207,11 +207,11 @@ para pegar.
 
 A continuación se muestra los datos de muestra que verás al abrir el enlace, ten en cuenta que puede que tengas que desplazarte hacia la derecha para ver todo el código, las palabras en verde (por ejemplo, // Dirección del token) son para que sepas qué datos pegar.
 
-![](/.gitbook/assets/unstucktx-link-sample-data.png)
+![](../.gitbook/assets/unstucktx-link-sample-data.png)
 
 A continuación se muestra nuestra prueba de ejemplo del PASO 3 ingresada en el código, nota cómo las comillas deben dejarse en su lugar. Así es como debes pegar tus datos.
 
-![](/.gitbook/assets/unstucktx-paste-data-example.png)
+![](../.gitbook/assets/unstucktx-paste-data-example.png)
 
 5. Haz clic en ejecutar, esto debería abrir tu metamask para que confirmes. Recuerda si el precio del gas es excesivo (cientos de dólares), entonces algunos de los datos están mal. Una vez confirmado, tus XOR deberían llegar a tu cartera. Recuerda agregar la dirección del token a tu cartera si es necesario.
 
@@ -224,11 +224,11 @@ A continuación se muestra nuestra prueba de ejemplo del PASO 3 ingresada en el 
 5. Asegúrate de tener tu dirección de eth y un círculo verde mostrado después de la conexión.
 6. Haz clic en “mintTokensByPeers”
 
-![](/.gitbook/assets/unstucktx-mint-tokens-peers.png)
+![](../.gitbook/assets/unstucktx-mint-tokens-peers.png)
 
 7. Introduce tus datos de prueba en los campos a continuación, esto se basa en nuestro ejemplo de prueba del Paso 3. Así es como debes pegar tus datos. (nota: beneficiary = to)
 
-![](/.gitbook/assets/unstucktx-proof-input.png)
+![](../.gitbook/assets/unstucktx-proof-input.png)
 
 8. Haz clic en "write", esto debería abrir tu metamask para que confirmes. Recuerda que si el precio del gas es excesivamente alto (cientos de dólares), entonces algo en los datos está incorrecto. Una vez confirmado, tu VAL debería llegar a tu billetera. Por favor, recuerda añadir la dirección del token a tu billetera si es necesario.
 
@@ -241,11 +241,11 @@ A continuación se muestra nuestra prueba de ejemplo del PASO 3 ingresada en el 
 5. Asegúrate de que tu dirección de eth aparezca y se muestre un círculo verde después de la conexión
 6. Haz clic en “receiveBySidechainAssetID”
 
-![](/.gitbook/assets/unstucktx-receive-sidechain-asset.png)
+![](../.gitbook/assets/unstucktx-receive-sidechain-asset.png)
 
 7. Introduce tus datos de prueba en los campos a continuación, esto se basa en nuestro ejemplo de prueba del Paso 3. Así es como debes pegar tus datos. (nota: sideChainassetid = dirección del token)
 
-![](/.gitbook/assets/unstucktx-sidechain-input.png)
+![](../.gitbook/assets/unstucktx-sidechain-input.png)
 
 8. Haz clic en "write", esto debería abrir tu metamask para que confirmes. Recuerda que si el precio del gas es excesivamente alto (cientos de dólares), entonces algo en los datos está incorrecto. Una vez confirmado, tu PSWAP debería llegar a tu billetera. Por favor, recuerda añadir la dirección del token a tu billetera si es necesario.
 
@@ -258,11 +258,11 @@ A continuación se muestra nuestra prueba de ejemplo del PASO 3 ingresada en el 
 5. Asegúrate de que tu dirección de eth aparezca y se muestre un círculo verde después de la conexión
 6. Haz clic en “receiveByEthereumAssetAddress”
 
-![](/.gitbook/assets/unstucktx-eth-asset-address.png)
+![](../.gitbook/assets/unstucktx-eth-asset-address.png)
 
 7. Introduce tus datos de prueba en los campos a continuación, esto se basa en nuestro ejemplo de prueba del Paso 3. Así es como debes pegar tus datos.
 
-![](/.gitbook/assets/unstucktx-eth-asset-proof.png)
+![](../.gitbook/assets/unstucktx-eth-asset-proof.png)
 
 8. Haz clic en "write", esto debería abrir tu metamask para que confirmes.
    **Recuerda que si el precio del gas es excesivamente alto (cientos de dólares), entonces algo en los datos está incorrecto.**

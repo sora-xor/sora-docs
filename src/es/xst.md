@@ -64,7 +64,7 @@ en curso. El escenario de implementación incluye la lista blanca de XSTUSD en
 Polkaswap y posteriormente configurar una fuente de liquidez, como se mencionó
 anteriormente, donde el precio que los usuarios pagan nunca se desviaría del precio
 de XOR-DAI.
-![](/.gitbook/assets/xst-buy-sell.png)
+![](../.gitbook/assets/xst-buy-sell.png)
 
 Algunos detalles más interesantes disponibles del [RFP de XSTUSD](https://github.com/sora-xor/rfps/pull/8/files) mencionan: "Si el precio XSTUSD-XOR es menor que DAI-XOR, entonces cuando el usuario está comprando, se acuñará nuevo XOR y se utilizará para llenar el pedido (similar a la curva de bonos de token). Cuando se compra XSTUSD con XOR, entonces se pueden acuñar/desmonetizar nuevos XSTUSD al llenar los pedidos, para mantener el vínculo." Antes de que preguntes cuándo, no hay una respuesta concreta _...por ahora._
 
@@ -72,17 +72,17 @@ La implementación de los Sintéticos de SORA es solo el comienzo, otra implemen
 
 Mientras tanto, puedes encontrar XSTUSD en [Polkaswap](https://polkaswap.io/). El id de activo de XST es `0x0200090000000000000000000000000000000000000000000000000000000000`. También puedes acceder a todos los activos sintéticos en Polkaswap visitando la [página de la cartera](https://polkaswap.io/#/wallet) y activando la bandera `Mostrar solo tokens sintéticos` en la interfaz de usuario, como se muestra en la pantalla a continuación:
 
-![](/.gitbook/assets/polkaswap-show-only-synthetics.png)
+![](../.gitbook/assets/polkaswap-show-only-synthetics.png)
 
 También puedes intercambiar esos activos. Así es como intercambiar XOR por XSTUSD y viceversa:
 
-![](/.gitbook/assets/xstusd-demo1.png)
+![](../.gitbook/assets/xstusd-demo1.png)
 
 Después de hacer clic en SWAP, recibirás un mensaje de confirmación con
 los detalles de la transacción. Haz clic en CONFIRMAR y firma la transacción con
 la extensión del navegador Polkadot.js en la ventana emergente.
 
-![](/.gitbook/assets/xstusd-demo2.png)
+![](../.gitbook/assets/xstusd-demo2.png)
 
 Finalmente, si estás interesado en cómo funciona el sistema RFP de SORA, echa un vistazo a esta guía completa sobre [Propuesta de Nuevas Funcionalidades para Polkaswap y la red SORA](rfp.md).
 

@@ -13,4 +13,4 @@ head:
 
 ## Vía Polkaswap
 
-<!-- @include: /snippets/on-ramp-polkaswap.md -->
+<!-- @include: snippet-on-ramp-polkaswap.md -->

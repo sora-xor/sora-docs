@@ -11,7 +11,7 @@ head:
 
 # Programa de Constructores SORA
 
-![](/.gitbook/assets/sorabuilderseu.png)
+![](../.gitbook/assets/sorabuilderseu.png)
 
 ### Desarrollo Descentralizado en su Máxima Expresión
 

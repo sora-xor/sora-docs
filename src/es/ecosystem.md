@@ -44,7 +44,7 @@ head:
 
 # El Ecosistema SORA
 
-![](.gitbook/assets/SORA-Ecosystem.png)
+![](../.gitbook/assets/SORA-Ecosystem.png)
 
 <center><i>Vista general del Ecosistema SORA, incluyendo parachains y los actuales Constructores SORA</i></center>
 

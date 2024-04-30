@@ -102,7 +102,7 @@ Aquí es donde la investigación de nuestro economista Yamaguchi volvió a dar s
 
 Una [curva de vinculación de tokens](https://medium.com/coinmonks/token-bonding-curves-explained-7a9332198e0e) es un contrato inteligente que toma como entrada algún token y produce un nuevo token. Hay una plétora de posibles variaciones y esta es un área emocionante de investigación, pero en SORA usamos un modelo simple donde hay dos funciones lineales: una función de precio de compra y una función de precio de venta.
 
-![](/.gitbook/assets/Tokenbondingcurve.png)
+![](../.gitbook/assets/Tokenbondingcurve.png)
 
 El suministro de XOR en el mainnet de SORA está respaldado por criptomonedas líquidas aceptables, y cada transacción de red de XOR requiere la quema de una pequeña tarifa, cuya tasa es decidida por la comunidad (por ejemplo, equivalente a 0.01-0.10 USD). Para comprar XOR en la curva de vinculación de tokens, se debe usar una de las monedas aceptables. Los tokens que puedes usar para comprar XOR de la curva de vinculación de tokens son:
 
@@ -122,7 +122,7 @@ La función de precio de compra comienza con un descuento (teniendo en cuenta el
 
 Un nuevo [Parlamento SORA](https://medium.com/sora-xor/the-sora-parliament-af8184dae384) (sistema de gobernanza de sorteo multilateral), proporcionará una metodología para asignar racionalmente estos XOR para crear nuevos bienes y servicios en el ecosistema SORA, de acuerdo con el modelo económico SORA. Todos los XOR que se crean se otorgan gratuitamente al Parlamento SORA, que luego gestiona el suministro de tokens usando la curva de vinculación de tokens; específicamente, la Autoridad de Mercados Financieros, un órgano permanente del Parlamento SORA, será la entidad que compre y venda XOR a través del creador de mercado primario.
 
-![](.gitbook/assets/xormarketmaker.png)
+![](../.gitbook/assets/xormarketmaker.png)
 
 Debido a que **la curva de vinculación de tokens es esencialmente un banco central descentralizado e infinitamente líquido**, el precio no puede subir por encima ni bajar por debajo de las funciones de compra y venta, respectivamente. Esto es especialmente cierto porque el creador de mercado primario de SORA está integrado en Polkaswap y se ejecuta automáticamente cuando está dentro del rango. Además, dado que las funciones de precios de la curva de vinculación de tokens tienen una pendiente ascendente, **el precio aumenta con el suministro de tokens**. Esto otorga las siguientes propiedades:
 
@@ -143,7 +143,7 @@ Características específicas del diseño económico basado en la curva de vincu
 
 Los precios de oferta/demanda en el mercado secundario están limitados en un rango de precios dinámico impuesto por la curva de vinculación de tokens. Por lo tanto, los precios de compra/venta actuales ofrecidos por la curva de vinculación de tokens proporcionan niveles de soporte y resistencia, o el rango de confianza de XOR en el mercado, con orientación futura.
 
-![](.gitbook/assets/xor-supply.png)
+![](../.gitbook/assets/xor-supply.png)
 
 La incertidumbre de precios ha sido una causa mayor de baja adopción de criptomonedas
 para pagos. Sin embargo, con datos de suministro de tokens en tiempo real
@@ -152,11 +152,11 @@ todos los usuarios pueden observar las tendencias actuales relacionadas con el p
 y hacer expectativas informadas sobre los niveles futuros.
 Como se ilustra a continuación, **los precios de compra/venta ofrecidos por la curva de vinculación de tokens y los precios de oferta/demanda en el mercado secundario cambian continuamente** ya que las órdenes de compra/venta cambian continuamente. La observabilidad del suministro de XOR junto con las propiedades de la curva de vinculación de tokens actúan así como una orientación futura incorporada sobre el tipo de cambio de XOR, reduciendo la incertidumbre y mejorando su propiedad de reserva de valor mientras el token está en su nacimiento. Una vez que la economía autónoma basada en XOR madure, el mecanismo de la curva de vinculación de tokens puede ser suavizado o desenganchado, pero esto probablemente será varias décadas en el futuro.
 
-![](.gitbook/assets/money-supply.png)
+![](../.gitbook/assets/money-supply.png)
 
 Mientras la economía SORA está en su fase infantil, la curva de vinculación de tokens juega un papel crucial en mantener la propiedad de reserva de valor de XOR. La capacidad de establecer rangos de confianza de los movimientos de precios de tokens baja la barrera psicológica para aceptar XOR para pagos. Dado que su precio cambia continuamente, la curva de vinculación de tokens NO es un mecanismo de tipo de cambio fijo, aunque su justificación política comparte similitudes con la intervención del mercado FX por parte de los bancos centrales, especialmente en economías en desarrollo.
 
-![](.gitbook/assets/phases.png)
+![](../.gitbook/assets/phases.png)
 
 ## Hacia un Nuevo Mañana
 

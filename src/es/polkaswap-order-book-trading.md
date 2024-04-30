@@ -11,7 +11,7 @@ head:
 
 # Polkaswap Trading Avanzado: Libro de Órdenes
 
-![](.gitbook/assets/polkaswap-orderbook-tutorial-hero.png)
+![](../.gitbook/assets/polkaswap-orderbook-tutorial-hero.png)
 
 ## Teoría
 
@@ -27,7 +27,7 @@ Este tutorial te guiará a través de los pasos esenciales para comerciar en Pol
 
 3. **Navega a la Pestaña de Comercio:** Aquí es donde sucede la acción. Haz clic en la pestaña de Comercio para acceder a la interfaz de trading.
 
-![](.gitbook/assets/polkaswap-orderbook-interface.png)
+![](../.gitbook/assets/polkaswap-orderbook-interface.png)
 
 ### Explora la Interfaz:
 
@@ -46,23 +46,23 @@ Elige el par de tokens que deseas comerciar. Hay dos tipos de órdenes:
 
 - **Orden de Mercado:** Se ejecuta al último precio del par, similar a un swap.
 
-![](.gitbook/assets/polkaswap-orderbook-market.png)
+![](../.gitbook/assets/polkaswap-orderbook-market.png)
 
 - **Orden Límite:** Te permite establecer cualquier precio deseado. Las órdenes se establecen por defecto a un mes y se cancelarán automáticamente después de este período.
 
-![](.gitbook/assets/polkaswap-orderbook-limit.png)
+![](../.gitbook/assets/polkaswap-orderbook-limit.png)
 
 1. **Cancelación de Orden:** Puedes cancelar tu orden en cualquier momento sin ninguna tarifa.
 
 2. **Tarifas al Colocar una Orden:** Incurrirás en una tarifa al colocar una orden. La cantidad de la tarifa depende del precio, similar a las tarifas de swap actuales.
 
-   ![](.gitbook/assets/polkaswap-orderbook-market-fees.png)
+   ![](../.gitbook/assets/polkaswap-orderbook-market-fees.png)
 
-   ![](.gitbook/assets/polkaswap-orderbook-limit-fees.png)
+   ![](../.gitbook/assets/polkaswap-orderbook-limit-fees.png)
 
 3. **Ejecutando Operaciones desde el Libro de Órdenes:** Si deseas llenar una orden existente, simplemente haz clic en ella. Esta acción prellena el widget de Compra y Venta, permitiéndote ejecutar la operación.
 
-   ![](.gitbook/assets/polkaswap-orderbook-execute-trade.png)
+   ![](../.gitbook/assets/polkaswap-orderbook-execute-trade.png)
 
 ¡Eso es todo! Ahora estás listo para comenzar a comerciar en Polkaswap. Recuerda, comerciar implica riesgos, así que entiende el proceso y comercia responsablemente. ¡Feliz trading con Estilo y Libertad
 

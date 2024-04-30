@@ -26,11 +26,11 @@ recomienda utilizar Ceres Tools.
 
 2. Haz clic en **Desarrollador** y luego en **Llamadas RPC**
 
-   ![](.gitbook/assets/check-balance-rpc-calls.jpg)
+   ![](../.gitbook/assets/check-balance-rpc-calls.jpg)
 
 3. Selecciona __activos_ → _freeBalance(accountid,assetid)_.
 
-   ![](.gitbook/assets/check-balance-select.png)
+   ![](../.gitbook/assets/check-balance-select.png)
 
 4. Completa _AssetID_ y presiona _"Enviar llamada RPC"_.
 
@@ -39,7 +39,7 @@ recomienda utilizar Ceres Tools.
    Para más IDs de Activos, consulta la [subsección de Tokens de la página de Explorar de Polkaswap.io](https://polkaswap.io/#/explore/tokens). Puedes encontrar los IDs de los tokens principales en la página [Consultar suministro](check-supply.md).
    :::
 
-   ![](.gitbook/assets/check-balance-fill-in-asset-id.jpg)
+   ![](../.gitbook/assets/check-balance-fill-in-asset-id.jpg)
 
 Este es el resultado esperado. En este caso, se ha consultado la cantidad de VAL (observa el AssetID)
 
@@ -62,12 +62,12 @@ Para más detalles sobre cómo leer este resultado, [consulta esta guía](check-
 
 1. Ve a Ceres Tools y navega a la [sección de Cartera](https://tools.cerestoken.io/portfolio)
 
-![](/.gitbook/assets/tools-portfolio-connect-wallet.png)
+![](../.gitbook/assets/tools-portfolio-connect-wallet.png)
 
 2. Conecta tu billetera y encontrarás información de todos tus
    activos, incluyendo sus saldos.
 
-![](/.gitbook/assets/tools-portfolio.png)
+![](../.gitbook/assets/tools-portfolio.png)
 
 ## Aprender Más
 

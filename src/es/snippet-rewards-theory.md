@@ -1,6 +1,6 @@
 Se incentiva a los usuarios a proporcionar liquidez, utilizar la red SORA y respaldar el conjunto de validadores de la red. Existen diferentes tipos de recompensa según la actividad.
 
-![](/.gitbook/assets/rewards-types.png)
+![](../.gitbook/assets/rewards-types.png)
 
 Describamos en detalle todas las recompensas disponibles actualmente:
 
@@ -44,7 +44,7 @@ El VAL se otorga por día a cada XOR de la instantánea, de una porción restant
 
 Como puede ver, en el lanzamiento, el porcentaje de PSWAP quemado que se asigna como bonificación estratégica es del 0% y aumenta linealmente en 5 años hasta el 55%, y luego se mantendrá constante. El otro PSWAP quemado está reservado para el Parlamento SORA (10%) y como recompensa para los proveedores de liquidez. Esta recompensa es similar a la que se obtiene al proporcionar liquidez en Uniswap, es decir, el 0,3% en cada operación.
 
-<figure><img src="/.gitbook/assets/strategic-bonus-vesting-updated.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/strategic-bonus-vesting-updated.png" alt=""><figcaption></figcaption></figure>
 
 Un ejemplo que puede ser útil para aclarar:
 

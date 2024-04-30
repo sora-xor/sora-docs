@@ -13,9 +13,9 @@ head:
 
 ## Enviar cripto
 
-<!-- @include: /snippets/send-polkaswap.md -->
+<!-- @include: snippet-send-polkaswap.md -->
 
 ## Recibir cripto
 
-<!-- @include: /snippets/receive-polkaswap.md -->
+<!-- @include: snippet-receive-polkaswap.md -->
 

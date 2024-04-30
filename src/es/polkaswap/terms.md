@@ -3,7 +3,7 @@ title: Términos de servicio de Polkaswap | Documentos SORA
 head:
    - - meta
      - name: descripción
-       content: Revise los términos de servicio de Polkaswap, el intercambio descentralizado en la red SORA. Comprenda los términos y condiciones que rigen el uso de Polkaswap, incluidas las responsabilidades, limitaciones, exenciones de responsabilidad y más del usuario. Familiarícese con los términos para garantizar una experiencia segura y que cumpla con las normas mientras opera en Polkaswap dentro del ecosistema SORA.
+       content: "Revise los términos de servicio de Polkaswap, el intercambio descentralizado en la red SORA. Comprenda los términos y condiciones que rigen el uso de Polkaswap, incluidas las responsabilidades, limitaciones, exenciones de responsabilidad y más del usuario. Familiarícese con los términos para garantizar una experiencia segura y que cumpla con las normas mientras opera en Polkaswap dentro del ecosistema SORA."
    - - meta
      - name: palabras clave
        content: términos de servicio de Polkaswap, red SORA, intercambio descentralizado, responsabilidades del usuario, limitaciones, exenciones de responsabilidad, experiencia de cumplimiento

@@ -15,10 +15,10 @@ head:
 
 ### Vía Polkaswap
 
-<!-- @include: /snippets/send-polkaswap.md -->
+<!-- @include: snippet-send-polkaswap.md -->
 
 ## Recibir cripto
 
 ### Vía Polkaswap
 
-<!-- @include: /snippets/receive-polkaswap.md -->
+<!-- @include: snippet-receive-polkaswap.md -->

@@ -13,4 +13,4 @@ head:
 
 Intercambiar tokens significa cambiar de token A a token B. Polkaswap proporciona una interfaz amigable para el usuario para intercambiar tokens.
 
-<!-- @include: /snippets/swap-polkaswap.md -->
+<!-- @include: snippet-swap-polkaswap.md -->

@@ -15,13 +15,13 @@ La [curva de enlace de token](https://medium.com/coinmonks/token-bonding-curves-
 
 Una TBC es un contrato inteligente que toma la entrada de un token y produce un nuevo token. Esto crea una plétora de posibles variaciones para impulsar un área emocionante de investigación, pero en SORA usamos un modelo simple donde hay dos funciones lineales: una Función de **Precio de Compra** y una Función de **Precio de Venta**.
 
-![El mercado primario es la TBC, el secundario es Polkaswap/Uniswap.](<.gitbook/assets/tbc(2).png>)
+![El mercado primario es la TBC, el secundario es Polkaswap/Uniswap.](<../.gitbook/assets/tbc(2).png>)
 
 En términos simples, la curva de enlace de token es esencialmente un banco central descentralizado infinitamente líquido. En cualquier momento, puedes comprar XOR recién acuñado de la curva de enlace de token usando **activos de reserva** específicos, o vender tus tokens XOR (que se queman instantáneamente) por uno de esos activos.
 
 Además, debido a que las funciones de precios de la curva de enlace de token tienen una pendiente ascendente, el **precio aumenta con el suministro del token**. Ten en cuenta que con una curva de enlace de token, **el precio y el suministro de XOR están correlacionados**, y se mueven en consecuencia.
 
-<figure><img src=".gitbook/assets/xor-supply-correct.png" alt=""><figcaption><p>El precio aumentará cuando el suministro suba y viceversa</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/xor-supply-correct.png" alt=""><figcaption><p>El precio aumentará cuando el suministro suba y viceversa</p></figcaption></figure>
 
 Otra implicación importante de este mecanismo es que el precio de XOR en el mercado secundario (Polkaswap, Uniswap, CEXs...) tiende a estar limitado a un cierto rango de precios (ilustrado como el triángulo rojo en el diagrama). De hecho, si un usuario comercia XOR fuera de ese rango, crea una **oportunidad de arbitraje** para comprar/vender XOR por debajo/por encima de los precios de las curvas de enlace de tokens: **la volatilidad de XOR se reduce así**.
 
@@ -42,7 +42,7 @@ Otra implicación importante de este mecanismo es que el precio de XOR en el mer
   - El 0.5% se utiliza para recomprar y quemar [TBCD](./tbcd)
   - El 9% se utiliza para proyectos
 
-![](.gitbook/assets/margin-tbc.png)
+![](../.gitbook/assets/margin-tbc.png)
 
 Mientras la economía de SORA está en su fase inicial, la curva de enlace de token juega un papel crucial en mantener la propiedad de valor de refugio de XOR. La capacidad de establecer rangos de confianza para los movimientos del precio del token reduce la barrera psicológica hacia la aceptación de XOR para pagos.
 
@@ -58,7 +58,7 @@ La Función de Precio de Compra se ha establecido en 900$ en el lanzamiento suav
 
 Este escenario implica que la Función de Precio de Venta de la curva de enlace de token no es un 20% más baja que la Función de Precio de Compra (como debería ser en el **escenario ideal**), sino que es incluso más baja. Hay poca liquidez en las reservas para que vendas tus tokens XOR, y el precio en la Función de Precio de Venta puede ser bajo en comparación con el precio del mercado secundario.
 
-![](<.gitbook/assets/tbc(1).png>)
+![](<../.gitbook/assets/tbc(1).png>)
 
 La Función de Precio de Venta Real aumenta a medida que las reservas aumentan, acercándose a la Función de Precio de Venta Ideal, que es un 20% más baja que la Función de Precio de Compra.
 
@@ -70,7 +70,7 @@ Por eso, construir reservas después del lanzamiento es crucial y **hay un progr
 
 Considerando que las reservas ideales son un objetivo a largo plazo, es importante entender cómo funciona la venta en una curva de enlace de token que no está completamente colateralizada.
 
-![](.gitbook/assets/tbc.png)
+![](../.gitbook/assets/tbc.png)
 
 Como puedes ver, el precio se comporta de manera diferente en el escenario real, donde los usuarios venderán sus tokens a un precio más bajo que en el escenario ideal. Es importante señalar, sin embargo, que cuando las reservas aumentan, la Función de Precio de Venta se acercará cada vez más a la Función de Precio de Venta Ideal, y los usuarios ya tendrán buena liquidez para vender incluso grandes cantidades. Puedes ver un ejemplo detallado de venta con números [aquí](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 

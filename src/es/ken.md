@@ -47,7 +47,7 @@ KEN will be strictly deflationary once launched, meaning the supply will only go
 
 Burning XOR for fun and profit can be done using the nifty dotapps interface. Just click on [this link](https://polkadot.js.org/apps/#/extrinsics) and fill out the form as follows:
 
-![](/.gitbook/assets/ken-burn-extrinsics.png)
+![](../.gitbook/assets/ken-burn-extrinsics.png)
 
 To fill out the form:
 

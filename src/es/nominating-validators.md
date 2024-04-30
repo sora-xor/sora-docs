@@ -37,15 +37,15 @@ Las recompensas por staking **expiran** después de 84 eras. En **SORA**, eso es
 
 1. Ve a SORA[ polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/staking), haz clic en "Red" y luego en "Staking". **Asegúrate de estar conectado a la red SORA**, deberías ver el logo en la parte superior izquierda.
 
-![](.gitbook/assets/polkadotjs-staking-tab.png)
+![](../.gitbook/assets/polkadotjs-staking-tab.png)
 
 2. A continuación, necesitarás crear un nuevo Stash de Nominador. Haz clic en "Secciones de cuenta" y luego en "Nominador", como se muestra en las imágenes a continuación. Asegúrate de leer cuidadosamente la información mostrada.
 
-![](.gitbook/assets/polkadotjs-account-actions.png)
+![](../.gitbook/assets/polkadotjs-account-actions.png)
 
-![](.gitbook/assets/polkadotjs-nominator-button.png)
+![](../.gitbook/assets/polkadotjs-nominator-button.png)
 
-![](.gitbook/assets/polkadotjs-setup-nominator.png)
+![](../.gitbook/assets/polkadotjs-setup-nominator.png)
 
 3. Establece las cuentas de Stash y Controlador.
 
@@ -71,12 +71,12 @@ Es importante nominar a validadores confiables y seguros. La participación de l
 
 :::
 
-![](.gitbook/assets/polkadotjs-setup-nominator-step2.png)
+![](../.gitbook/assets/polkadotjs-setup-nominator-step2.png)
 
 6. Cuando hayas seleccionado los validadores, haz clic en "Vincular y Nominar", "Firmar y Enviar" y luego firma la transacción con la extensión de Polkadot.js, como se muestra en las imágenes a continuación:
 
-![](.gitbook/assets/polkadotjs-bond-and-nomintate-extrinsic.png)
+![](../.gitbook/assets/polkadotjs-bond-and-nomintate-extrinsic.png)
 
-![](.gitbook/assets/polkadotjs-bond-and-nomintate-extrinsic-signing.png)
+![](../.gitbook/assets/polkadotjs-bond-and-nomintate-extrinsic-signing.png)
 
 
