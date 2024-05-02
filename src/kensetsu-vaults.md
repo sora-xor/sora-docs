@@ -53,7 +53,7 @@ How to avoid a vault’s liquidation?
 
 The stability fee that will be charged from these vaults will be used in a stability fund with several purposes:
 
-- **Stabilising KUSD** - By buying back and burning KUSD tokens if the KUSD price goes under $1 (repeg).
+- **Stabilising KUSD** - Maintains the peg stability by covering bad debt.
 - **Incentivization program** - buyback of KEN token and sending KEN token as a reward to XOR-KUSD LP token holders in the Demeter farming platform.
 
 ## Practice
