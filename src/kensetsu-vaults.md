@@ -33,6 +33,8 @@ The Collateral tokens available in Kensetsu are:
 - ETH - `0x0200070000000000000000000000000000000000000000000000000000000000`
 - DAI - `0x0200060000000000000000000000000000000000000000000000000000000000`
 
+- **Deposit collateral** — Users can add collateral to make LTV ratio safer and borrow more.
+
 * **Borrowing** - Users borrow KUSD tokens, which are pegged to value of USD. The amount of tokens available to borrow is calculated based on the risk parameters of the Kensetsu platform.
   Users can borrow tokens in existing vaults if the tokens available to borrow are more than zero.
 
