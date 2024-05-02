@@ -40,6 +40,8 @@ The Collateral tokens available in Kensetsu are:
 
 * **RepayDebt** - Users can repay their borrowed token debt, making the vault healthier and preventing its liquidation. To repay their debt, users must have enough of the borrowed token to repay all fees.
 
+* **Close Vault** - Repays outstanding debt and gets back all deposited collateral. It will fail if the user has not enough KUSD to cover debt. This action destroys CDP.
+
 * **Liquidation** - Liquidation is the process where the vault sells the collateral token. Kensetsu will liquidate some of the collateral tokens until the LTV (loan-to-value) metric becomes less than the liquidation threshold.
 
 ::: info
