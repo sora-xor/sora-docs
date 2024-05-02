@@ -17,6 +17,7 @@ A Vault is the primary entity which operates on the Kensetsu platform. The Vault
 - **Available to borrow** - Indicates how much a user can borrow until their vault becomes liquidated.
 - **LTV (loan-to-value)** - The debt ratio to the collateral value in your vault, calculated as a percentage.
 - **Stability Fee** - An annual fee on the amount drawn from your vault, calculated as a percentage.
+- **Borrow tax** - a tax applied to borrowing amount, it is set as 1%.
 - **Liquidation penalty** - a fee applied if the value of your collateral falls below a certain threshold, prompting the sale of assets to cover debt. This penalty increases debt.
 
 ### Key actions available for Users:
