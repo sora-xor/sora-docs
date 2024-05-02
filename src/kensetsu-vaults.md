@@ -13,6 +13,7 @@ A Vault is the primary entity which operates on the Kensetsu platform. The Vault
 
 - **Collateral token** — A token that operates as collateral in borrowing operations. The Kensetsu platform operates with six key tokens: XOR, VAL, TBCD, PSWAP, ETH, and DAI.
 - **Debt in borrowed token** - This shows the amount of debt that the user borrowed. The Kensetsu platform allows borrowing of KUSD tokens pegged to USD.
+- **Collateral amount** - Displays how much a user has deposited in the collateral token to secure the loan.
 - **Available to borrow** - Indicates how much a user can borrow until their vault becomes liquidated.
 - **LTV (loan-to-value)** - The debt ratio to the collateral value in your vault, calculated as a percentage.
 - **Stability Fee** - An annual fee on the amount drawn from your vault, calculated as a percentage.
