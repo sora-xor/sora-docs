@@ -16,7 +16,7 @@ hero:
 features:
   - title: Empezando
     details: Explora el mundo expansivo de SORA, un sistema único de gobernanza en cadena impulsado por el token XOR, diseñado para facilitar propuestas de financiamiento y asignación de recursos.
-    link: introduction
+    link: /es/introduction
   - title: Ecosistema
     details: Sumérgete en una visión general del plan integrado, familiarízate con los componentes del ecosistema SORA y aprende cómo solicitar características para personalizar tu experiencia.
     link: ecosystem
