@@ -811,6 +811,12 @@ export default withMermaid(
               ],
             },
           ],
+          nav: [
+            { text: "Empezando en SORA", link: "/es/introduction" },
+            { text: "Ecosistema", link: "/es/ecosystem" },
+            { text: "Economía de SORA", link: "/es/participate" },
+            { text: "Construye", link: "/es/build" },
+          ],
         },
       },
     },
