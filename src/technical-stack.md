@@ -18,7 +18,7 @@ efficiently than Ethereum, allowing for lower fees. Polkadot is built with Subst
 
 ## Build on SORA
 
-To understand how Parity (Polkadot) networks work, take a look at the [blockchain documentation (https://docs.substrate.io/tutorials/build-a-blockchain/build-local-blockchain/).
+To understand how Parity (Polkadot) networks work, take a look at the [blockchain documentation](https://docs.substrate.io/tutorials/build-a-blockchain/build-local-blockchain/).
 
 Instead of Smart Contracts, Substrate (Polkadot) uses Pallets. Take a look at how they work and learn how to add one [here](https://docs.substrate.io/tutorials/build-application-logic/add-a-pallet/).
 
