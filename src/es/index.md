@@ -25,5 +25,5 @@ features:
     link: /es/running-a-node
   - title: Construir
     details: El centro de constructores de SORA es tu puerta de entrada para entender el proceso de desarrollo descentralizado, pallets, pila técnica, consenso y cuentas para ponerte al día y ser parte del movimiento de SORA.
-    link: build
+    link: /es/build
 ---
