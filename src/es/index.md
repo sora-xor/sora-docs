@@ -22,7 +22,7 @@ features:
     link: /es/ecosystem
   - title: Participar en la Economía de SORA
     details: Toma un papel activo en la economía de SORA aprendiendo a crear una dirección, ejecutar un nodo, participar en la gobernanza, DeFi y más.
-    link: running-a-node
+    link: /es/running-a-node
   - title: Construir
     details: El centro de constructores de SORA es tu puerta de entrada para entender el proceso de desarrollo descentralizado, pallets, pila técnica, consenso y cuentas para ponerte al día y ser parte del movimiento de SORA.
     link: build
