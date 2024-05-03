@@ -19,7 +19,7 @@ features:
     link: /es/introduction
   - title: Ecosistema
     details: Sumérgete en una visión general del plan integrado, familiarízate con los componentes del ecosistema SORA y aprende cómo solicitar características para personalizar tu experiencia.
-    link: ecosystem
+    link: /es/ecosystem
   - title: Participar en la Economía de SORA
     details: Toma un papel activo en la economía de SORA aprendiendo a crear una dirección, ejecutar un nodo, participar en la gobernanza, DeFi y más.
     link: running-a-node
