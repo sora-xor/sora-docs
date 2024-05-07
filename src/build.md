@@ -11,6 +11,8 @@ head:
 
 # Build on SORA
 
+the SORA wiki can be found at wiki.sora.org
+
 ## Introduction
 
 Bring your blockchain projects to life with the support of the SORA Builders Programme. Whether starting from scratch or looking to port an existing project, we provide incubation, development support, and, in some cases, financial backing to help your ideas flourish.
