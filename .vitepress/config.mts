@@ -206,6 +206,7 @@ export default withMermaid(
                     },
                     { text: "Order Books", link: "order-books" },
                     { text: "Advanced Trading", link: "advanced-trading" },
+		     { text: "Kensetsu Vaults", link: "kensetsu-vaults" },
                     {
                       text: "Other Polkaswap Settings",
                       link: "polkaswap-other-settings",
