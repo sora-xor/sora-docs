@@ -129,7 +129,7 @@ y se habilitará el intercambio de cripto a euro así como un intercambio.
 Si tienes más preguntas o comentarios, por favor
 contacta en los chats de [SORA principal](https://t.me/sora_xor), [Tarjeta
 SORA](https://t.me/soracardofficial) y [Felicidad
-SORA](https://t.me/SORAhappiness)
+SORA](https://t.me/sora_happy)
 
 ## Aprender Más
 

@@ -100,4 +100,4 @@ You can also view all the purchases via the [Purchase History page](https://polk
 
 3. Click **START BRIDGE** and then follow the usual steps for the HASHI bridge to move tokens from Ethereum to SORA. 
 
-In case you experience any issues at all, please join the [SORA Happiness](https://t.me/SORAhappiness) group on Telegram.
+In case you experience any issues at all, please join the [SORA Happiness](https://t.me/sora_happy) group on Telegram.

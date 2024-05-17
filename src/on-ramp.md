@@ -130,7 +130,7 @@ this [detailed description](https://support.gatehub.net/hc/en-us/articles/360021
 
 Buying XOR on Gatehub is simple, but should you face any issues,
 contact the main [SORA Telegram channel](https://t.me/sora_xor) or
-[SORA Support channel](https://t.me/SORAhappiness).
+[SORA Support channel](https://t.me/sora_happy).
 
 ::: tip
 
