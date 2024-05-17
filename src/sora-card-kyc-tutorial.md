@@ -132,7 +132,7 @@ be enabled.
 If you have any further questions or feedback, please reach
 out on the [main SORA](https://t.me/sora_xor), [SORA
 Card](https://t.me/soracardofficial) and [SORA
-Happiness](https://t.me/SORAhappiness) chats
+Happiness](https://t.me/sora_happy) chats
 
 ## Learn More
 
