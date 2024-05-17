@@ -18,7 +18,7 @@ In the future, holders of a certain amount of XOR could become citizens and memb
 XOR is used:
 
 - to add liquidity to pairs on [Polkaswap](https://polkaswap.io/)
-- to become a validator or to [nominate validators](https://wiki.sora.org/guides/how-to-nominate-validators-stake-your-xor) on the SORA network through staking
+- to become a validator or to [nominate validators](https://wiki.sora.org/nominating-validators.html) on the SORA network through staking
 
 More about [SORA tokenomics](https://medium.com/sora-xor/sora-the-new-economic-order-3ec3f0327e5a).
 
