@@ -8,9 +8,11 @@ head:
     - name: keywords
       content: SORA builders, SORA, centralised exchange, polkaswap
 ---
+
 # Palmatrix Overview
 
 ## Introduction
+
 Palmatrix is a product of the Coconut Institute, which focuses on researching and developing innovative business models and decentralized technologies.
 The Coconut Institute aims to help as many people and professionals as
 possible engage with decentralized concepts. Thus, we are bound to curate course learning methods, implement solutions, and test directly
@@ -24,30 +26,31 @@ The Palmatrix vision is to help crypto / digital asset markets grow by assisting
 ![](/.gitbook/assets/palmatrix-logo.png)
 
 Palmatrix submitted [RFP 80](https://github.com/sora-xor/rfps/issues/80) to bridge Polkaswap to the Palmatrix platform and implement connectivity to the Palmabot.
- 
 
 ## Team
+
 The Palmatrix builder team consists of;
 
 - [Janez, Palmatrix
-Co-founder](https://www.linkedin.com/in/kostanjsek/) - 
-**Palma Architecture Design**, Developer.
+  Co-founder](https://www.linkedin.com/in/kostanjsek/) -
+  **Palma Architecture Design**, Developer.
 
-- [Jernej, Palmatrix CEO](http://si.linkedin.com/in/jernejvrcko) - 
-**Project lead**, DevOps.
-  
+- [Jernej, Palmatrix CEO](http://si.linkedin.com/in/jernejvrcko) -
+  **Project lead**, DevOps.
 - [Dorian, Palmatrix CTO](https://www.linkedin.com/in/42dorian/) -
-**Lead Engineer**, Developer.
+  **Lead Engineer**, Developer.
 
 - [Tadej, Palmatrix DLT
-advisor](https://www.linkedin.com/in/tadej-fius/) - 
-**Protocols for optimized DEX-CEX communication**, Developer.
+  advisor](https://www.linkedin.com/in/tadej-fius/) -
+  **Protocols for optimized DEX-CEX communication**, Developer.
 
 ## Open Proposals
+
 The Palmatrix team has submitted the following RFP to become part of the SORA Builders Programme;
+
 - [SORA-Palmatrix Polkaswap-CEX Bridge](https://github.com/sora-xor/rfps/issues/80).
 - [SORA-Palmatrix Polkaswap-CEX Bridge Phase 1: CCXT and Zero Data App Wallet Integration](https://github.com/sora-xor/rfps/issues/85).
-- [SORA-Palmatrix Polkaswap-CEX Bridge Phase 2: Soratrix with CCXT, PalmaExecutor prototype, and PalmaBot SORA Wallet Beta launch](https://github.com/sora-xor/rfps/issues/101). 
+- [SORA-Palmatrix Polkaswap-CEX Bridge Phase 2: Soratrix with CCXT, PalmaExecutor prototype, and PalmaBot SORA Wallet Beta launch](https://github.com/sora-xor/rfps/issues/101).
 
 ## Learn More
 
