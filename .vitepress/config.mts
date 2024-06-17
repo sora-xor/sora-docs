@@ -382,6 +382,15 @@ export default withMermaid(
                         },
                       ],
                     },
+		    {
+                      text: "Palmatrix",
+                      collapsed: false,
+                      items: [
+                        { text: "Overview", link: "palmatrix-overview" },
+                        { text: "PalmaBot", link: "palmatrix-palmabot"
+                        },
+                      ],
+                    },
                   ],
                 },
               ],
