@@ -48,7 +48,9 @@ The five main goals of the PalmaBot are;
 4. Add the staking feature to Palmatrix, PalmaBot, and PalmaExecutor:
 
 - Enable masses of non-tech-savvy users to stake into the SORA liquidity pool and
-- Increase Polkaswap/SORA liquidity by talking to a virtual assistant or using webhook technology.
+- Increase Polkaswap/SORA liquidity and
+- Use the AI-driven virtual private assistant for easy accessability to our products, providing interactive introduction and help right from the start. The virtual assistant can be a tutor, an analysis expert or a risk manager. Customize your Palmabot Trading AI-Agent experience. 
+- Easy connectivity to our API and service endpoints, using webhook technology as well as unified API approach from ccxt library.
 
 5. Implement CeFi widget for the SORA liquidity pool to include CEXs for hedging, also Palma users that are not in the liquidity pool:
 
