@@ -25,7 +25,6 @@ Implement widget for SORA liquidity pool to enable liquidity from CEX markets/Ce
 The five main goals of the PalmaBot are;
 1. Implement Polkaswap public API connector into CCXT open source library, which has great potential on a short-term basis to:
 - Enable any trading tool that uses CCXT to start trading via the SORA network/Polkaswap and
-It is hard to estimate precisely, but for sure, in the next 4-year cycle, we can expect consequently,
 Increased trading volumes as more peers will be trading on Polkaswap with the DEX added to multi-exchange trading environments (such as Palmatrix SOR) and
 Increased funding of liquidity pool.
 2. Integrate SORA Wallet to the Palmatrix platform in the next 12 months:
