@@ -101,6 +101,18 @@ export default withMermaid(
                       text: "KEN",
                       link: "ken",
                     },
+                    {
+                      text: "PUSSY",
+                      link: "pussy",
+                    },
+                    {
+                      text: "KXOR",
+                      link: "kxor",
+                    },
+                    {
+                      text: "KARMA",
+                      link: "karma",
+                    },
                   ],
                 },
                 { text: "SORA Governance", link: "sora-governance" },
