@@ -28,6 +28,7 @@ This feature adds significant liquidity and flexibility for users, allowing them
 When KXOR is minted, it is overcollateralized by 3% to maintain stability and support the ecosystem.
 
 The overcollateralized 3% is distributed as follows:
+
 - 1% goes towards buying back and burning KEN, similar to other Kensetsu assets.
 - 1% is allocated for buying back and burning the Chameleon Token, a new token in the ecosystem.
 - 1% is used to buy back and burn TBCD, further stabilizing the token’s value
