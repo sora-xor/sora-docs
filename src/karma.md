@@ -17,7 +17,7 @@ KARMA is a key SORA ecosystem token, specifically designed to incentivize liquid
 
 The KARMA token is used to provide farming rewards to liquidity providers in the XOR-ETH pool on Polkaswap.
 
-By participating in liquidity provision, users are rewarded with KARMA, encouraging more liquidity in the Chameleon pools.
+By participating in liquidity provision for this pool, users are rewarded with KARMA, encouraging more liquidity in the Chameleon pools.
 
 ## Minting and Burning Mechanism
 
