@@ -3,7 +3,7 @@ title: Kensetsu XOR | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about KENSETSU, Pegged to XOR, swap for ETH in the XOR-ETH pool, buy-back mechanizm, buring KEN, burning TBCD
+      content: Learn about Kensetsu XOR (KXOR), a robust and flexible financial tool, pegged to the price of XOR that supports the growth and stability of the SORA ecosystem.  
   - - meta
     - name: keywords
       content: token burn, Kensetsu, XOR, ETH, KEN, TBCD
