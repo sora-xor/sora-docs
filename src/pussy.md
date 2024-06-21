@@ -17,7 +17,7 @@ The PUSSY token is a dedicated cryptocurrency designed to fund and reward builde
 
 ## Purpose of PUSSY Tokens
 
-The PUSSY token is created specifically to support builders working on productive outputs and projects within the SORA ecosystem.
+The PUSSY token supports builders working on productive outputs and projects within the SORA ecosystem.
 
 It ensures that builders are fairly compensated for their contributions.
 
