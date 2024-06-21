@@ -11,7 +11,7 @@ head:
 
 # Chameleon (KARMA)
 
-KARMA is a key token in the SORA ecosystem, specifically designed to incentivize liquidity providers and support the stability of the Chameleon pools on Polkaswap. Here's a detailed look at how KARMA works.
+KARMA is a key SORA ecosystem token, specifically designed to incentivize liquidity providers and support the stability of the Chameleon pools on Polkaswap. Here's a detailed look at how KARMA works.
 
 ## Purpose and Incentives
 
