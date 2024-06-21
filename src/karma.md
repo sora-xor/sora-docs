@@ -11,7 +11,7 @@ head:
 
 # Chameleon (KARMA)
 
-KARMA is a key SORA ecosystem token, specifically designed to incentivize liquidity providers and support the stability of the Chameleon pools on Polkaswap. Here's a detailed look at how KARMA works.
+KARMA is a crucial SORA ecosystem token created to incentivize liquidity providers and maintain the stability of the Chameleon pools on Polkaswap. By offering KARMA rewards to liquidity providers, the token ensures the health and growth of these pools, thus playing a vital role in promoting liquidity and stability within the SORA ecosystem.
 
 ## Purpose and Incentives
 
@@ -36,10 +36,6 @@ These reminted KARMA tokens are then used as farming rewards for liquidity provi
 KARMA also has a deflationary mechanism. For every 10 million XOR burned, 1 KARMA token is minted.
 
 After this initial minting, the KARMA token becomes deflationary, with 1% of minted KXOR used to buy back and burn KARMA tokens.
-
-## In summary
-
-By incorporating these mechanisms, the KARMA token plays a vital role in promoting liquidity and stability within the SORA ecosystem. Liquidity providers are incentivized with KARMA rewards, ensuring the health and growth of the Chameleon pools on Polkaswap.
 
 ## Learn More
 

@@ -13,7 +13,7 @@ head:
 
 ## Introduction
 
-The PUSSY token is a dedicated cryptocurrency designed to fund and reward builders within the SORA community. Here’s an overview of its purpose and functionality
+The PUSSY token is a dedicated cryptocurrency in the SORA community, aimed at funding and rewarding builders. It plays a crucial role in the ecosystem by ensuring builders are compensated for their efforts and can convert their earnings into a stable and valuable asset.
 
 ## Purpose of PUSSY Tokens
 
@@ -42,10 +42,6 @@ This mechanism provides builders with a stable and valuable asset, enhancing the
 KXOR is minted by locking PUSSY tokens, ensuring that the tokens are put to productive use and helping maintain the stability and value of KXOR.
 
 This system creates a robust financial ecosystem where builders are incentivized to contribute to the community’s growth and development.
-
-## In summary
-
-The PUSSY token is a vital part of our ecosystem, ensuring that builders are rewarded for their hard work and can convert their earnings into a stable, valuable asset.
 
 ## Learn More
 
