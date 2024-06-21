@@ -23,7 +23,7 @@ By participating in liquidity provision for this pool, users are rewarded with K
 
 For each Kensetsu XOR (KXOR) minted from collateralized deposits, an additional 1% of KXOR is minted specifically to buy back and burn KARMA tokens.
 
-This buy-back-and-burn mechanism helps to regulate the supply of KARMA, supporting its value.
+This buy-back-and-burn mechanism helps regulate the KARMA supply, supporting its value.
 
 ## Redistribution and Farming Rewards
 
