@@ -3,7 +3,7 @@ title: Chameleon KARMA | SORA Docs
 head:
   - - meta
     - name: description
-      content: Chameleon pool, liquidity providers in the XOR-ETH pool, buy-back and burn mechanizm, distributed to the Demeter farm, deflationary mechanism
+      content: The KARMA token provides farming rewards to liquidity providers in the XOR-ETH pool on Polkaswap. It is specifically designed to incentivize liquidity providers and support the stability of the Chameleon pools on Polkaswap.
   - - meta
     - name: keywords
       content: token burn, Chameleon, XOR, ETH, Demeter, KXOR
