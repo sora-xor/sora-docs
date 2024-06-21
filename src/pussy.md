@@ -3,7 +3,7 @@ title: PUSSY | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn about PUSSY, reward builders, mint Kensetsu XOR (KXOR)
+      content: Learn about the PUSSY token, a dedicated cryptocurrency designed to fund and reward builders within our community
   - - meta
     - name: keywords
       content: reward, mint, Kensetsu, XOR, KXOR
