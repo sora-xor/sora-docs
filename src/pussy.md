@@ -13,7 +13,7 @@ head:
 
 ## Introduction
 
-The PUSSY token is a dedicated cryptocurrency designed to fund and reward builders within our community. Here’s an overview of its purpose and functionality
+The PUSSY token is a dedicated cryptocurrency designed to fund and reward builders within the SORA community. Here’s an overview of its purpose and functionality
 
 ## Purpose of PUSSY Tokens
 
