@@ -17,7 +17,7 @@ Palmatrix is a product of the Coconut Institute, which focuses on researching an
 The Coconut Institute aims to help as many people, both professionals and non-professionals, as
 possible engage with decentralized concepts. Thus, we are bound to curate course learning methods, implement solutions, and test directly
 in the real world with active users. Partnering up with all levels of
-governmental organizations (edu, ministry, etc.) offers the best
+governmental organizations (education, ministry, etc.) offers the best
 practices from the field, which are also implemented in the financial
 institutional space with Palmatrix technology, e.g., FIMA Crypto (EU, since 2020).
 
