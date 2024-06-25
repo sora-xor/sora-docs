@@ -61,7 +61,7 @@ The five main goals of the PalmaBot are;
 
 - Soon after, the PalmaBot SORA Wallet implementation and other features as per the [Phase 2 RFP](https://github.com/sora-xor/rfps/issues/101) will become available.
 
-The Palmatrix team also hosted an AMA session with the SORA community to answer their pressing questions. You can read it [here](https://medium.com/sora-xor/sora-x-palmatrix-ama-fda509ac2ce8).
+- The Palmatrix team also hosted an AMA session with the SORA community to answer their pressing questions. You can read it [here](https://medium.com/sora-xor/sora-x-palmatrix-ama-fda509ac2ce8).
 
 - The PalmaBot is now available for testing by the SORA community. Here are instructions for accessing and trying it.
 
