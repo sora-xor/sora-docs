@@ -91,9 +91,9 @@ To try out the PalmaBot in Telegram, follow these simple steps;
 - Send XOR - prototype function that sends 10 XOR to PalmaWallet hard-coded, and its purpose is solely to POC local transaction signing and sending it to the network while receiving a response.
 
 ::: warning
-**Do not use prototype-created wallets to send funds. The SEED Phrase
+Do not use prototype-created wallets to send funds. The SEED Phrase
 is exposed due to test reasons, which could compromise the security of
-your funds.**
+your funds.
 :::
 
 ::: info
