@@ -9,7 +9,9 @@ head:
       content: reward, mint, Kensetsu, XOR, KXOR
 ---
 
-# PUSSY :cat:
+# PUSSY
+
+<img src=".gitbook/assets/pussy_image.png" alt="drawing" width="500"/>
 
 ## Introduction
 
