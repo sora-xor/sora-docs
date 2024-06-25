@@ -97,8 +97,8 @@ your funds.
 :::
 
 ::: info
-**We will soon enable a test network to prevent issues with SEED
-phrases. Thank you for understanding.**
+We will soon enable a test network to prevent issues with SEED
+phrases. Thank you for understanding.
 :::
 
 _We invite those interested in the Prototype yet POC version of Palma
