@@ -13,11 +13,11 @@ head:
 
 ### Introduction
 
-The Palmabot is the first deliverable for Palmatrix as a SORA Builder, per the RPF proposing the infrastructure to implement the PalmaBot. This one-of-a-kind virtual assistant lives on Telegram and enables users to trade on 40 crypto exchanges through a single/unified UI. It has been in production since 2018 and is getting AI features implemented as we speak to enable natural language recognition as soon as possible (we are lucky with the AI boom with ChatGPT and OpenAI).
+The Palmabot is the first deliverable for Palmatrix as a SORA Builder, per the RPF proposing the infrastructure to implement the PalmaBot. This one-of-a-kind virtual assistant lives on Telegram and enables users to trade on 40 crypto exchanges through a single/unified UI. It has been in production since 2018 and is getting AI features implemented as we speak to enable natural language recognition as soon as possible.
 
 To achieve this, Palmatrix will;
-Enable access to the SORA liquidity pool for PalmaBot users by implementing it into Palmatrix multi-exchange access and labelling it open-source in the CCXT open-source library. Consequently, add the SORA liquidity pool to our SOR (Smart Order Routing / PalmaExecutor) for our B2C users and add the staking feature to PalmaBot—all labelled open-source.
-Implement widget for SORA liquidity pool to enable liquidity from CEX markets/CeFi while enabling hedging with Palmatrix market-making features—open source.
+- Enable access to the SORA liquidity pool for PalmaBot users by implementing it into Palmatrix multi-exchange access and labelling it open-source in the CCXT open-source library. Consequently, add the SORA liquidity pool to SOR (Smart Order Routing / PalmaExecutor) for B2C users and add the staking feature to PalmaBot—all labelled open-source.
+	- Implement an open-source widget for SORA liquidity pool to enable liquidity from CEX markets/CeFi while enabling hedging with Palmatrix market-making features.
 
 ![](/.gitbook/assets/palmatrix-implementation-overview.png)
 
@@ -26,42 +26,40 @@ Implement widget for SORA liquidity pool to enable liquidity from CEX markets/Ce
 The five main goals of the PalmaBot are;
 
 1. Implement Polkaswap public API connector into CCXT open source library, which has great potential on a short-term basis to:
-
-- Enable any trading tool that uses CCXT to start trading via the SORA network/Polkaswap,
-- It is hard to estimate precisely, but for sure, in the next 4-year cycle, we can expect consequently,
-- Increased trading volumes as more peers will be trading on Polkaswap with the DEX added to multi-exchange trading environments (such as Palmatrix SOR) and
-- Increased funding of liquidity pool.
+	   - Enable any trading tool that uses CCXT to start trading via the SORA network/Polkaswap
+	   - Increase trading volumes as more peers will be trading on Polkaswap with the DEX added to multi-exchange trading environments (such as Palmatrix SOR)
+	   - Increase funding of liquidity pool.
 
 2. Integrate SORA Wallet to the Palmatrix platform in the next 12 months:
 
-- Enable access to Polkaswap/SORA features for PalmaBot users and non-tech-savvy users (masses) in a non-custodial (PalmaBot - B2C) and custodial (Asset Management - B2B) way,
-- Make the SORA wallet accessible to Perception TV users (500 Mio audience reach) and other Palmatrix partners,
-- Open source SORA wallet integration to any web-based protocol (messenger platforms, browser widgets, etc.)
-- Increase participation in the SORA liquidity pool, and
-- Increase trading volumes.
+   - Enable access to Polkaswap/SORA features for PalmaBot users and non-tech-savvy users in a non-custodial (PalmaBot - B2C) and custodial (Asset Management - B2B) way.
+	   - Make the SORA wallet accessible to Perception TV users (500 Mio audience reach) and other Palmatrix partners.
+	   - Provide open-source SORA wallet integration to any web-based protocol (messenger platforms, browser widgets, etc.).
+	   - Increase participation in the SORA liquidity pool.
+	   - Increase trading volumes.
 
 3. Add Polkaswap to Palmatrix SOR/PalmaExecutor (trade execution engine for PalmaBot and Palmatrix multi-exchange layer), which is:
 
-- Increasing liquidity in the SORA/Polkaswap network by enabling trade execution via the SORA network for PalmaBot users and PalmaExecutor partners' users plus Palmatrix institutional clients (B4C) and
-- Increasing trading volumes.
+ - Increasing liquidity in the SORA/Polkaswap network by enabling trade execution via the SORA network for PalmaBot users and PalmaExecutor partners' users plus Palmatrix institutional clients (B4C)
+	   - Increasing trading volumes
 
 4. Add the staking feature to Palmatrix, PalmaBot, and PalmaExecutor:
 
-- Enable masses of non-tech-savvy users to stake into the SORA liquidity pool and
-- Increase Polkaswap/SORA liquidity and
-- Use the AI-driven virtual private assistant for easy accessability to our products, providing interactive introduction and help right from the start. The virtual assistant can be a tutor, an analysis expert or a risk manager. Customize your Palmabot Trading AI-Agent experience.
-- Easy connectivity to our API and service endpoints, using webhook technology as well as unified API approach from ccxt library.
+   - Enable non-tech-savvy users to stake into the SORA liquidity pool
+	   - Increase Polkaswap/SORA liquidity
+	   - Use the AI-driven virtual private assistant for easy accessibility to our products, providing interactive introduction and help right from the start. The virtual assistant can be a tutor, an analysis expert or a risk manager. Customize your Palmabot Trading AI-Agent experience. 
+	   - Provide easy connectivity to our API and service endpoints, using webhook technology as well as unified API approach from ccxt library.
 
 5. Implement CeFi widget for the SORA liquidity pool to include CEXs for hedging, also Palma users that are not in the liquidity pool:
 
-- Enable additional liquidity for Polkaswap by increasing trade success/liquidity in Polkaswap/SORA,
-- Bring more indirect liquidity into the SORA pool by enabling hedging on CEXs.
+ - Enable additional liquidity for Polkaswap by increasing trade success/liquidity in Polkaswap/SORA.
+	   - Bring more indirect liquidity into the SORA pool by enabling hedging on CEXs.
 
 ### Next Steps
 
 - Soon after, the PalmaBot SORA Wallet implementation and other features as per the [Phase 2 RFP](https://github.com/sora-xor/rfps/issues/101) will become available.
 
-- The Palmatrix team also hosted an AMA session with the SORA community to answer their pressing questions. [Read it here](https://medium.com/sora-xor/sora-x-palmatrix-ama-fda509ac2ce8)
+The Palmatrix team also hosted an AMA session with the SORA community to answer their pressing questions. You can read it [here](https://medium.com/sora-xor/sora-x-palmatrix-ama-fda509ac2ce8).
 
 - The PalmaBot is now available for testing by the SORA community. Here are instructions for accessing and trying it.
 
