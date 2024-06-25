@@ -35,7 +35,7 @@ The overcollateralized 3% is distributed as follows:
 
 Builders can lock their PUSSY tokens in a Kensetsu vault to mint KXOR.
 
-This process ensures that PUSSY tokens are used productively and enhances the overall utility of the tokens within the ecosystem.
+This process ensures that tokens are used productively and enhances the overall utility of the tokens within the ecosystem. The asset used currently is the PUSSY token.
 
 ## Learn More
 
