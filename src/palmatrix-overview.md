@@ -14,7 +14,7 @@ head:
 ## Introduction
 
 Palmatrix is a product of the Coconut Institute, which focuses on researching and developing innovative business models and decentralized technologies.
-The Coconut Institute aims to help as many people and professionals as
+The Coconut Institute aims to help as many people, both professionals and non-professionals, as
 possible engage with decentralized concepts. Thus, we are bound to curate course learning methods, implement solutions, and test directly
 in the real world with active users. Partnering up with all levels of
 governmental organizations (edu, ministry, etc.) offers the best
