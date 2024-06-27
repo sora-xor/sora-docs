@@ -33,7 +33,7 @@ These reminted KARMA tokens are then used as farming rewards for liquidity provi
 
 ## Deflationary Aspect
 
-KARMA also has a deflationary mechanism. For every 10 million XOR burned, 1 KARMA token is minted.
+KARMA also has a deflationary mechanism. During the initial mint, which ended on June 6th, for every 10 million XOR burned, 1 KARMA token was minted.
 
 After this initial minting, the KARMA token becomes deflationary, with 1% of minted KXOR used to buy back and burn KARMA tokens.
 
