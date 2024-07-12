@@ -11,9 +11,9 @@ head:
 
 # Token Bonding Curve Dollar (TBCD)
 
-- Token Bonding Curve Dollars (TBCD) is a newly proposed, algorithmic, non-synthetic stablecoin that has its value maintained by the SORA token bonding curve
-- TBCD is created to be worth slightly less than $1 when XOR is far lower than the price point on the token bonding curve, reducing sell pressure to XOR when the price of XOR is low
-- TBCD will help to build up reserves in the SORA token bonding curve, while also being used to fund the creation of new goods and services via an on-chain referendum decided by all XOR token holders
+- Token Bonding Curve Dollars (TBCD) is a proposed, algorithmic, non-synthetic stablecoin that has its value maintained by the SORA token bonding curve.
+- TBCD is created to be worth slightly less than $1 when XOR is far lower than the price point on the token bonding curve, reducing sell pressure to XOR when the price of XOR is low.
+- TBCD will help to build up reserves in the SORA token bonding curve, while also being used to fund the creation of new goods and services via an on-chain referendum decided by all XOR token holders.
 - 10% of the reminted [PSWAP](./pswap) is allocated to buyback-and-burn TBCD. Similarly, 10% of the reminted [VAL](./val) is allocated to buyback-and-burn TBCD.
   Additionally, 0.5% of the [TBC margin](./tbc.md#why-is-the-token-bonding-curve-useful) is directed towards buyback-and-burning of TBCD.
 
@@ -68,7 +68,7 @@ the price for buying.
 
 ## Algorithmic Central Banking
 
-TBCD is a great example showcasing the possibilities of the SORA token bonding curve to create monetary innovation for the SORA economy. TBCD solves both the question of how to fund the SORA economy’s productive expansion (the creation of new goods and services) and how to build up reserves in the token bonding curve to create a backing aimed at increasing the stability of XOR. By minting TBCD via on-chain referendum, builders can get the resources they need to buidl up the SORA economy and platform, while any TBCD they sell to the SORA token bonding curve will be owned by the SORA ecosystem as protocol-owned liquidity.
+TBCD is a great example showcasing the possibilities of the SORA token bonding curve to create monetary innovation for the SORA economy. TBCD solves both the question of how to fund the SORA economy’s productive expansion (the creation of new goods and services) and how to build up reserves in the token bonding curve to create a backing aimed at increasing the stability of XOR. By minting TBCD via on-chain referendum, builders can get the resources they need to build up the SORA economy and platform, while any TBCD they sell to the SORA token bonding curve will be owned by the SORA ecosystem as protocol-owned liquidity.
 
 While not operating at the official token bonding curve price, TBCD
 still acts as a form of “training wheels” for the SORA economy, where
