@@ -58,7 +58,7 @@ jobs:
           commit_user_name: ${{ steps.import-gpg.outputs.git_committer_name }}
           commit_user_email: ${{ steps.import-gpg.outputs.git_committer_email }}
           commit_message: 'Apply formatting changes'
-          commit_options: '-S --amend --no-edit'
+          commit_options: '-S -m'
           branch: ${{ github.head_ref }}
           push_options: '--force'
           skip_fetch: false
