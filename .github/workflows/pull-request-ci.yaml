@@ -47,9 +47,9 @@ jobs:
       - name: "Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_author: "${{ steps.import-gpg.outputs.git_committer_name }} <${{ steps.import-gpg.outputs.git_committer_email }}>"
-          commit_user_name: ${{ steps.import-gpg.outputs.git_committer_name }}
-          commit_user_email: ${{ steps.import-gpg.outputs.git_committer_email }}
+          commit_author: "${{ secrets.GPG_USERNAME }} <${{ secrets.GPG_EMAIL }}>"
+          commit_user_name: ${{ secrets.GPG_USERNAME }}
+          commit_user_email: ${{ secrets.GPG_EMAIL }}
           commit_message: 'Apply formatting changes'
           commit_options: '-S --amend --no-edit'
           branch: ${{ github.head_ref }}
