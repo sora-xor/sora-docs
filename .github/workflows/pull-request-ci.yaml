@@ -51,3 +51,5 @@ jobs:
           commit_message: 'Apply formatting changes'
           commit_options: '-S --amend --no-edit'
           branch: ${{ github.head_ref }}
+          push_options: '--force'
+          skip_fetch: true
