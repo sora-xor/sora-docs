@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - develop
+      - duty/sign-commit
 jobs:
   prettier:
     runs-on: ubuntu-22.04
@@ -44,8 +45,11 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Apply formatting changes
           commit_author: "${{ steps.import-gpg.outputs.name }} <${{ steps.import-gpg.outputs.email }}>"
           commit_user_name: ${{ steps.import-gpg.outputs.name }}
           commit_user_email: ${{ steps.import-gpg.outputs.email }}
+          commit_message: 'Apply formatting changes'
+          commit_options: '-S --amend --no-edit'
           branch: ${{ github.head_ref }}
+          push_options: '--force'
+          skip_fetch: true
