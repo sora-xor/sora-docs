@@ -44,12 +44,19 @@ jobs:
           git_user_signingkey: true
           git_commit_gpgsign: true
 
+      - name: "Configure Git for GPG"
+        run: |
+          git config --global user.signingkey ${{ secrets.GPG_KEY_ID }}
+          git config --global commit.gpgSign true
+          git config --global user.name "${{ secrets.GPG_USERNAME }}"
+          git config --global user.email "${{ secrets.GPG_EMAIL }}"
+
       - name: "Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_author: "${{ secrets.GPG_USERNAME }} <${{ secrets.GPG_EMAIL }}>"
-          commit_user_name: ${{ secrets.GPG_USERNAME }}
-          commit_user_email: ${{ secrets.GPG_EMAIL }}
+          commit_author: "${{ steps.import-gpg.outputs.git_committer_name }} <${{ steps.import-gpg.outputs.git_committer_email }}>"
+          commit_user_name: ${{ steps.import-gpg.outputs.git_committer_name }}
+          commit_user_email: ${{ steps.import-gpg.outputs.git_committer_email }}
           commit_message: 'Apply formatting changes'
           commit_options: '-S --amend --no-edit'
           branch: ${{ github.head_ref }}
