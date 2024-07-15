@@ -39,17 +39,17 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
-          user_name: ${{ secrets.GPG_USERNAME }}
-          email: ${{ secrets.GPG_EMAIL }}
+          git_committer_name: ${{ secrets.GPG_USERNAME }}
+          git_committer_email: ${{ secrets.GPG_EMAIL }}
           git_user_signingkey: true
           git_commit_gpgsign: true
 
       - name: "Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_author: "${{ steps.import-gpg.outputs.name }} <${{ steps.import-gpg.outputs.email }}>"
-          commit_user_name: ${{ steps.import-gpg.outputs.name }}
-          commit_user_email: ${{ steps.import-gpg.outputs.email }}
+          commit_author: "${{ steps.import-gpg.outputs.git_committer_name }} <${{ steps.import-gpg.outputs.git_committer_email }}>"
+          commit_user_name: ${{ steps.import-gpg.outputs.git_committer_name }}
+          commit_user_email: ${{ steps.import-gpg.outputs.git_committer_email }}
           commit_message: 'Apply formatting changes'
           commit_options: '-S --amend --no-edit'
           branch: ${{ github.head_ref }}
