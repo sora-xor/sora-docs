@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - develop
+      - duty/update-pretty
 jobs:
   prettier:
     runs-on: ubuntu-22.04
@@ -26,7 +27,7 @@ jobs:
         run: npm install -g npm@8
 
       - name: Prettify code
-        uses: creyD/prettier_action@v4.2
+        uses: creyD/prettier_action@v4.3
         with:
           prettier_options: --write src/*.md
           only_changed: True
@@ -38,14 +39,19 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          git_committer_name: ${{ secrets.GPG_USERNAME }}
+          git_committer_email: ${{ secrets.GPG_EMAIL }}
           git_user_signingkey: true
           git_commit_gpgsign: true
 
-      - name: Commit changes
+      - name: "Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Apply formatting changes
-          commit_author: "${{ steps.import-gpg.outputs.name }} <${{ steps.import-gpg.outputs.email }}>"
-          commit_user_name: ${{ steps.import-gpg.outputs.name }}
-          commit_user_email: ${{ steps.import-gpg.outputs.email }}
+          commit_author: "${{ steps.import-gpg.outputs.git_committer_name }} <${{ steps.import-gpg.outputs.git_committer_email }}>"
+          commit_user_name: ${{ steps.import-gpg.outputs.git_committer_name }}
+          commit_user_email: ${{ steps.import-gpg.outputs.git_committer_email }}
+          commit_message: 'Apply formatting changes'
+          commit_options: '-S --amend --no-edit'
           branch: ${{ github.head_ref }}
+          push_options: '--force'
+          skip_fetch: false
