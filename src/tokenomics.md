@@ -74,7 +74,6 @@ through [SORA governance](sora-governance.md).
 - The [KEN](ken.md) token is a farming reward token meant to incentivize
   liquidity for KENSETSU stablecoins. This article outlines [Kensetsu assets](kensetsu-vaults.md) and the KEN token.
 
-
 ## Learn More
 
 - [SORA Economy](/sora-economy.md)
