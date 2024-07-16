@@ -11,6 +11,8 @@ head:
 
 # PSWAP
 
+<img src=".gitbook/assets/pswap.svg" alt="drawing" width="500"/>
+
 **PSWAP** is used to reward liquidity providers on [Polkaswap](https://polkaswap.io/).
 
 PSWAP has **decreasing supply**, with tokens burned with every token swap on Polkaswap.

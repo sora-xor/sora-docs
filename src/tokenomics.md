@@ -67,6 +67,13 @@ through [SORA governance](sora-governance.md).
 - The [Token Bonding Curve Dollar (TBCD)](tbcd.md) is an algorithmic,
   non-synthetic stablecoin that has its value maintained by the SORA
   token bonding curve.
+- The [PUSSY](pussy.md) token is a dedicated meme cryptocurrency in the SORA economy aimed
+  at funding and rewarding builders.
+- The [KARMA](karma.md) token is a token to incentivize liquidity
+  providers and maintain the stability of the Chameleon pools on Polkaswap.
+- The [KEN](ken.md) token is a farming reward token meant to incentivize
+  liquidity for KENSETSU stablecoins. This article outlines [Kensetsu assets](kensetsu-vaults.md) and the KEN token.
+
 
 ## Learn More
 
