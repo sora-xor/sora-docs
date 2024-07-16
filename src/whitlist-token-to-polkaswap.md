@@ -13,7 +13,7 @@ head:
 
 Adding tokens to Polkaswap allows users to benefit from all the features of a next-generation, cross-chain liquidity aggregator DEX protocol based on Polkadot, with Parachains and bridges to connect other blockchains.
 
-Whitelist a token to Polkaswap involves several steps:
+Whitelisting a token on Polkaswap involves the following steps:
 
 1. [Open Polkaswap whitelist](#open-polkaswap-whitelist)
 2. [Clone the repository](#clone-the-repository)
