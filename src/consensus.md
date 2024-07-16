@@ -9,9 +9,9 @@ head:
       content: "consensus mechanism, SORA network, agreement, consistency, consensus algorithms, Proof of Stake, PoS, security, decentralization"
 ---
 
-# Consensus   
+# Consensus
 
-The SORA network relies on a **NPoS (Nominated Proof-of-Stake)** mechanism in order to reach and maintain consensus over the chain status.  
+The SORA network relies on a **NPoS (Nominated Proof-of-Stake)** mechanism in order to reach and maintain consensus over the chain status.
 
 There are two main actors: **validators** and **nominators.**
 
