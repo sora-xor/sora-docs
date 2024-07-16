@@ -51,4 +51,5 @@ jobs:
           commit_user_name: ${{ steps.import-gpg.outputs.name }}
           commit_user_email: ${{ steps.import-gpg.outputs.email }}
           commit_options: '-S --amend --no-edit'
+          skip_fetch: false
           branch: ${{ github.head_ref }}
