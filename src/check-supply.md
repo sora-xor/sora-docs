@@ -79,7 +79,7 @@ procedure:
 
    <center><img src="/.gitbook/assets/check-supply-xor-output.png" width="400"></center>
 
-### How to Read the Results   
+### How to Read the Results
 
 In the output, as you see in the picture above, you'll get the amount of the queried asset. Unfortunately, Polkadot.js only supports one asset for the network, XOR. This why it shows the supply in XOR. However, it is actually the asset that you queried: either PSWAP, VAL, ETH, or DAI.
 
