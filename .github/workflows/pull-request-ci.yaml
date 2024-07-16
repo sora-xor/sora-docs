@@ -41,10 +41,12 @@ jobs:
           git_commit_gpgsign: true
           git_config_global: true
 
+      - name: Configure Git to use PAT
+        run: |
+          git config --global url.https://${{ secrets.GH_TOKEN }}@github.com/.insteadOf https://github.com/
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           commit_message: Apply formatting changes
           commit_author: "${{ steps.import-gpg.outputs.name }} <${{ steps.import-gpg.outputs.email }}>"
