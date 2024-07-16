@@ -13,10 +13,10 @@ head:
 
 The SORA network relies on a **NPoS (Nominated Proof-of-Stake)** mechanism in order to reach and maintain consensus over the chain status.
 
-There are two main actors: **validators** and **nominators.**
+There are two main actors: **validators** and **nominators.**  
 
 - **Validators** compete with each other to create new blocks and get rewards. In order to do so, a validator has to enter the validators set, which consists of the 69 validators with the highest stake (this may not always be the case, read about Phragmen to know more about validator selection methods).
-- **Nominators** can increase the validators' stake by delegating their XOR tokens to them.
+- **Nominators** can increase the validators' stake by delegating their XOR tokens to them.  
 
 ## Nominators
 
