@@ -66,7 +66,7 @@ You can also do it via the GitHub interface.
 
 <center><img src=".gitbook/assets/whitelist-polkaswap-propose-changes.png" width="400"></center>
 
-And the community will see your pull request and review it.
+Once this is done, the community will review your pull request.
 
 ## Answer the questions and wait for approval
 
