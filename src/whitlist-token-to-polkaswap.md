@@ -70,4 +70,4 @@ Once this is done, the community will review your pull request.
 
 ## Answer the questions and wait for approval
 
-Please be attentive to your pull request, because the community may have questions and it's better for you to resolve them as much as possible.
+Pay attention to notifications from your pull request. The community may have questions, and you should resolve them as soon as possible.
