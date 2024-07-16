@@ -68,7 +68,7 @@ the price for buying.
 
 ## Algorithmic Central Banking
 
-TBCD was a great example showcasing the possibilities of the SORA token bonding curve to create monetary innovation for the SORA economy. 
+TBCD was a great example showcasing the possibilities of the SORA token bonding curve to create monetary innovation for the SORA economy.
 TBCD sought to solve both the question of how to fund the SORA economy’s productive expansion (the creation of new goods and services) and how to build up reserves in the token bonding curve to create a backing to increase the stability of XOR. By minting TBCD via on-chain referendum, builders could get the resources they need to build up the SORA economy and platform. At the same time, the SORA ecosystem owns any TBCD sold to the SORA token bonding curve as protocol-owned liquidity.
 
 While not operating at the official token bonding curve price, TBCD
