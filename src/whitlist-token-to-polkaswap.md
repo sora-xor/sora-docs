@@ -53,7 +53,7 @@ When editing `whitelist.json`, please add the following necessary information:
     - https://www.base64-image.de/
     - https://base64.guru/converter/encode/image
   - To compress your image to 5 kB for SVG and 8 kB for PNG you can use the next service:
-    - https://www.iloveimg.com/compress-image 
+    - https://www.iloveimg.com/compress-image
 
 ## Create PR request
 
