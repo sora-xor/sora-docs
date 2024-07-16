@@ -47,7 +47,13 @@ When editing `whitelist.json`, please add the following necessary information:
 - `name`: full name of the token. For example, `SORA Validator Token`.
 - `address`: SORA asset ID in the `0x...` format.
 - `decimals`: number of numbers on the right from the decimal point. It can be only 18 for now.
-- `icon`: icon of the token in SVG format.
+- `icon`: icon of the token in SVG or PNG format encoded in base64. The max size for the image for SVG is 5 kB (kilobyte) and for PNG is 8 kB (kilobyte).
+  - Base64 is an affordable way to show your image in Polkaswap. The base 64 looks like `data:image/png;base64,iVBORw0KGgoAAAAN...`.
+  - To convert your image you can use these services:
+    - https://www.base64-image.de/
+    - https://base64.guru/converter/encode/image
+  - To compress your image to 5 kB for SVG and 8 kB for PNG you can use the next service:
+    - https://www.iloveimg.com/compress-image 
 
 ## Create PR request
 
