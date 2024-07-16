@@ -29,7 +29,6 @@ jobs:
       - name: Pull Remote Changes
         run: git pull
 
-
       - name: Prettify code
         uses: creyD/prettier_action@v4.2
         with:
