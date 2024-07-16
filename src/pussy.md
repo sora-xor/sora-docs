@@ -6,7 +6,7 @@ head:
       content: Learn about the PUSSY token, a dedicated cryptocurrency designed to fund and reward builders within our community
   - - meta
     - name: keywords
-      content: reward, mint, Kensetsu, XOR, KXOR  
+      content: reward, mint, Kensetsu, XOR, KXOR
 ---
 
 # PUSSY
