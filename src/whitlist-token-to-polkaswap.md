@@ -9,7 +9,7 @@ head:
       content: adding tokens, Polkaswap, SORA network, listing tokens, requirements, procedures, asset bridging, interoperability, blockchain networks, whitelist
 ---
 
-# Whitelist a Token to Polkaswap
+# Whitelist a Token on Polkaswap
 
 Adding tokens to Polkaswap allows the user to use a next-generation, cross-chain liquidity aggregator DEX protocol for swapping tokens based on the Polkadot (and Kusama) network(s), Parachains, and blockchains connected via bridges.
 
