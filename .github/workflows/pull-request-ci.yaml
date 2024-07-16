@@ -34,13 +34,11 @@ jobs:
       #     github_token: ${{ secrets.GITHUB_TOKEN }}
       #     commit: false
 
+      - name: Install Prettier
+        run: npm install prettier
+
       - name: Prettify code
-        uses: creyD/prettier_action@v4.3
-        with:
-          prettier_options: --write src/*.md
-          only_changed: True
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit: 'false'
+        run: npx prettier --write src/*.md
 
       - name: "Import GPG key"
         id: import-gpg
