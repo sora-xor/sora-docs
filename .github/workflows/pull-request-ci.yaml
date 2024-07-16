@@ -26,13 +26,19 @@ jobs:
       - name: Install global npm package
         run: npm install -g npm@8
 
+      # - name: Prettify code
+      #   uses: creyD/prettier_action@v4.2
+      #   with:
+      #     prettier_options: --write src/*.md
+      #     only_changed: True
+      #     commit: false
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Install Prettier
+        run: npm install prettier
+
       - name: Prettify code
-        uses: creyD/prettier_action@v4.2
-        with:
-          prettier_options: --write src/*.md
-          only_changed: True
-          commit: false
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+        run: npx prettier --write src/*.md
 
       - name: "Import GPG key"
         id: import-gpg
