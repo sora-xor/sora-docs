@@ -18,26 +18,15 @@ jobs:
           ref: ${{ github.head_ref }}
           persist-credentials: false
 
-      - uses: actionsx/prettier@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-        # prettier CLI arguments.
-          args: '--write src/*.md'
+          node-version: '20'
 
-      # - name: Set up Node.js
-      #   uses: actions/setup-node@v2
-      #   with:
-      #     node-version: '20'
-
-      # - name: Install global npm package
-      #   run: npm install -g npm@8
-
-      # - name: Prettify code
-      #   uses: creyD/prettier_action@v4.3
-      #   with:
-      #     prettier_options: --write src/*.md
-      #     only_changed: True
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     commit: false
+      - name: Install global npm package
+        run: npm install -g npm@8
+      - run: npm ci
+      - run: npm run format
 
       - name: "Import GPG key"
         id: import-gpg

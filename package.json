@@ -10,7 +10,8 @@
     "scripts": {
       "docs:dev": "vitepress dev",
       "docs:build": "vitepress build",
-      "docs:preview": "vitepress preview"
+      "docs:preview": "vitepress preview",
+      "format": "prettier --write src/*.md"
     },
     "dependencies": {
       "vercel": "^31.3.1",
