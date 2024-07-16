@@ -40,6 +40,7 @@ jobs:
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
           git_user_signingkey: true
           git_commit_gpgsign: true
+          git_config_global: true
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
