@@ -23,7 +23,7 @@ Whitelisting a token on Polkaswap involves the following steps:
 
 ## Open Polkaswap whitelist
 
-Please open the file `whitelist.json` on GitHub via the link - https://github.com/sora-xor/polkaswap-token-whitelist-config/blob/master/whitelist.json
+Open the file [`whitelist.json`](https://github.com/sora-xor/polkaswap-token-whitelist-config/blob/master/whitelist.json) on GitHub
 
 ## Clone the repository
 
