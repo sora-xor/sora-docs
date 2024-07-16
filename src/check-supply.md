@@ -75,7 +75,7 @@ procedure:
 
    The results are shown for XOR:
 
-   353.0005 kXOR = 353 000.5 XOR (including XOR on the Ethereum network)  
+   353.0005 kXOR = 353 000.5 XOR (including XOR on the Ethereum network)
 
    <center><img src="/.gitbook/assets/check-supply-xor-output.png" width="400"></center>
 
