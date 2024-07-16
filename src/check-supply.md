@@ -83,7 +83,7 @@ procedure:
 
 In the output, as you see in the picture above, you'll get the amount of the queried asset. Unfortunately, Polkadot.js only supports one asset for the network, XOR. This why it shows the supply in XOR. However, it is actually the asset that you queried: either PSWAP, VAL, ETH, or DAI.
 
-The letter before XOR means that the number is multiplied by the following amount:
+The letter before XOR means that the number is multiplied by the following amount:    
 
 | Letter | Multiplier |
 | ------ | ---------- |
