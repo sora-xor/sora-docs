@@ -11,7 +11,7 @@ head:
 
 # XOR (天)
 
-<img src=".gitbook/assets/xor.svg" alt="drawing" width="500"/>
+ <center><img src=".gitbook/assets/xor.svg" width="250"></center>
 
 XOR is the network utility token used for transaction fees (gas). 50% of the fee is burnt, while the other 50% is used for validators. XOR has elastic supply managed by a [token bonding curve](https://medium.com/sora-xor/sora-the-new-economic-order-3ec3f0327e5a).
 

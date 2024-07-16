@@ -11,7 +11,7 @@ head:
 
 # PSWAP
 
-<img src=".gitbook/assets/pswap.svg" alt="drawing" width="500"/>
+ <center><img src=".gitbook/assets/pswap.svg" width="250"></center>
 
 **PSWAP** is used to reward liquidity providers on [Polkaswap](https://polkaswap.io/).
 

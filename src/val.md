@@ -11,7 +11,8 @@ head:
 
 # VAL (≚)
 
-<img src=".gitbook/assets/val.svg" alt="drawing" width="500"/>
+ <center><img src=".gitbook/assets/val.svg" width="250"></center>
+
 
 - VAL is a new token used to reward SORA network validators that secure the network, created by [community governance](https://medium.com/sora-xor/sora-v2-implementation-1febd3260b87); all contracts and executable code were released in a disabled form and could not be used until activation by a community member (by insertion of cryptographic proof of the referendum); now it is fully activated.
 - VAL fully diluted supply is around 100,000,000 (query `tokens.totalIssuance` to get the precise number). Current VAL circulating supply can be checked [here](https://mof.sora.org/qty/val).

@@ -11,7 +11,7 @@ head:
 
 # Kensetsu XOR (KXOR)
 
-<img src=".gitbook/assets/kxor.svg" alt="drawing" width="500"/>
+ <center><img src=".gitbook/assets/kxor.svg" width="250"></center>
 
 Kensetsu XOR (KXOR) is an essential part of the SORA ecosystem, offering a stable and versatile token that supports both users and builders. It serves as a robust financial tool designed to enhance the value of PUSSY tokens for builders and provide a stable asset with diverse swapping options for users, thus fostering the growth and stability of the SORA ecosystem.
 
