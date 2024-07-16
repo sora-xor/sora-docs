@@ -41,7 +41,7 @@ Additionally, you can do it via the GitHub interface:
 
 ## Add the necessary information
 
-During changing `whitelist.json`, please add the necessary information:
+When editing `whitelist.json`, please add the following necessary information:
 
 - `symbol`: the symbol of the token, the short name of the token. For example, `VAL`.
 - `name`: full name of the token. For example, `SORA Validator Token`.
