@@ -29,7 +29,7 @@ Open the file [`whitelist.json`](https://github.com/sora-xor/polkaswap-token-whi
 
 Clone the repository to make changes to `whitelist.json` locally on your computer.
 
-Also, you can do it via the GitHub interface:
+Additionally, you can do it via the GitHub interface:
 
 1. On the right side of the interface click on the button _"Edit this file"_ with the pen icon.
 
