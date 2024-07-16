@@ -53,7 +53,7 @@ procedure:
    ![](/.gitbook/assets/check-supply-rpc-calls.png)
 
 3. Select **assets → totalSupply(assetId)**.
-4. Fill in _AssetID_ and press **"Submit RPC call"**.    
+4. Fill in _AssetID_ and press **"Submit RPC call"**.
 
    ::: details Core asset IDs
 
