@@ -18,13 +18,18 @@ jobs:
           ref: ${{ github.head_ref }}
           persist-credentials: false
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - uses: actionsx/prettier@v2
         with:
-          node-version: '20'
+        # prettier CLI arguments.
+          args: --write src/*.md
 
-      - name: Install global npm package
-        run: npm install -g npm@8
+      # - name: Set up Node.js
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: '20'
+
+      # - name: Install global npm package
+      #   run: npm install -g npm@8
 
       # - name: Prettify code
       #   uses: creyD/prettier_action@v4.3
@@ -33,12 +38,6 @@ jobs:
       #     only_changed: True
       #     github_token: ${{ secrets.GITHUB_TOKEN }}
       #     commit: false
-
-      - name: Install Prettier
-        run: npm install prettier
-
-      - name: Prettify code
-        run: npx prettier --write src/*.md
 
       - name: "Import GPG key"
         id: import-gpg
@@ -54,8 +53,8 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Apply formatting changes
-          commit_author: "${{ secrets.GH_AUTHOR }}} <${{ secrets.GH_EMAIL }}>"
-          commit_user_name: ${{ secrets.GH_AUTHOR }}}
-          commit_user_email: ${{ secrets.GH_EMAIL }}
+          commit_author: "${{ steps.import-gpg.outputs.name }} <${{ steps.import-gpg.outputs.email }}>"
+          commit_user_name: ${{ steps.import-gpg.outputs.name }}
+          commit_user_email: ${{ steps.import-gpg.outputs.email }}
           commit_options: '-S'
           branch: ${{ github.head_ref }}
