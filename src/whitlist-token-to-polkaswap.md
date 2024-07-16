@@ -35,7 +35,7 @@ Additionally, you can do it via the GitHub interface:
 
 ![](.gitbook/assets/whitelist-polkaswap-edit-button.png)
 
-2. On the new screen in the edit mode, please add information about your token. About the necessary please look next point.
+2. Add the information about your token on the new screen in edit mode. Look at the next point for the required information.
 
 ![](.gitbook/assets/whitelist-polkaswap-edit-mode.png)
 
