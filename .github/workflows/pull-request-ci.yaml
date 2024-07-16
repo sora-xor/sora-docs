@@ -43,6 +43,9 @@ jobs:
           git_commit_gpgsign: true
           git_config_global: true
 
+      - name: Pull Remote Changes
+        run: git pull
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -51,5 +54,4 @@ jobs:
           commit_user_name: ${{ steps.import-gpg.outputs.name }}
           commit_user_email: ${{ steps.import-gpg.outputs.email }}
           commit_options: '-S --amend --no-edit'
-          skip_fetch: false
           branch: ${{ github.head_ref }}
