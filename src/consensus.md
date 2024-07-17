@@ -15,7 +15,7 @@ The SORA network relies on a **NPoS (Nominated Proof-of-Stake)** mechanism in or
 NPOS is a variation of the standard Proof of Stake (PoS) model. It involves network participants nominating validators who are responsible for validating transactions and creating new blocks. This method not only reduces the energy consumption drastically compared to PoW but also enhances security and decentralization.
 
 ### Advantages of NPOS:
-Energy Efficiency: Unlike PoW systems, NPOS does not require extensive computational power, making it a more sustainable and environmentally friendly option.
+**Energy Efficiency:** Unlike PoW systems, NPOS does not require extensive computational power, making it a more sustainable and environmentally friendly option.
 Security: The staking and slashing mechanisms make it expensive for anyone to attempt malicious activities, enhancing the overall security of the blockchain.
 Decentralization: NPOS encourages broader participation from the community, leading to a more decentralized network compared to PoW.
 
