@@ -24,7 +24,7 @@ Decentralization: NPOS encourages broader participation from the community, lead
 PoW, exemplified by Bitcoin, requires significant computational effort to mine blocks, leading to higher energy consumption.
 NPOS, in contrast, relies on staking and nominations, drastically reducing energy usage.
 
-NPOS vs. PoS:
+**NPOS vs. PoS:**
 Standard PoS allows all stakeholders to participate in block validation directly.
 NPOS introduces the concept of nominations, adding an extra layer of community involvement and decision-making.
 
