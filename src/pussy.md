@@ -11,7 +11,7 @@ head:
 
 # PUSSY
 
-<img src=".gitbook/assets/pussy_image.png" alt="drawing" width="500"/>
+ <center><img src=".gitbook/assets/pussy.svg" width="250"></center>
 
 ## Introduction
 
