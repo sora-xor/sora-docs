@@ -35,7 +35,7 @@ PoS has validators only, while NPoS splits the roles between validators and nomi
 **Control of stake**
 Validators fully control their staked funds in PoS, but nominators direct some control over validators' stake in NPoS via nominations.
 
-Selection process
+**Selection process**
 PoS relies solely on stake amounts, whereas NPoS weighs both stakes and distributes nominations to elect active validators.
 
 Risk distribution
