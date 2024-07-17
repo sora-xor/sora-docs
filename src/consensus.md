@@ -16,7 +16,7 @@ NPOS is a variation of the standard Proof of Stake (PoS) model. It involves netw
 
 ### Advantages of NPOS:
 **Energy Efficiency:** Unlike PoW systems, NPOS does not require extensive computational power, making it a more sustainable and environmentally friendly option.
-Security: The staking and slashing mechanisms make it expensive for anyone to attempt malicious activities, enhancing the overall security of the blockchain.
+**Security:** The staking and slashing mechanisms make it expensive for anyone to attempt malicious activities, enhancing the overall security of the blockchain.
 Decentralization: NPOS encourages broader participation from the community, leading to a more decentralized network compared to PoW.
 
 ### Comparing NPOS with Other Consensus Mechanisms
