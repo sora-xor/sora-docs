@@ -101,6 +101,18 @@ export default withMermaid(
                       text: "KEN",
                       link: "ken",
                     },
+                    {
+                      text: "PUSSY",
+                      link: "pussy",
+                    },
+                    {
+                      text: "KXOR",
+                      link: "kxor",
+                    },
+                    {
+                      text: "KARMA",
+                      link: "karma",
+                    },
                   ],
                 },
                 { text: "SORA Governance", link: "sora-governance" },
@@ -245,6 +257,10 @@ export default withMermaid(
                           text: "Establishing HRMP channel",
                           link: "establishing-hrmp-channel",
                         },
+                        {
+                          text: "White list new token to Polkaswap",
+                          link: "whitlist-token-to-polkaswap",
+                        },
                       ],
                     },
                   ],
@@ -379,6 +395,15 @@ export default withMermaid(
                           items: [
                             { text: "Hermes DAO", link: "ceres/hermes-dao" },
                           ],
+                        },
+                      ],
+                    },
+		    {
+                      text: "Palmatrix",
+                      collapsed: false,
+                      items: [
+                        { text: "Overview", link: "palmatrix-overview" },
+                        { text: "PalmaBot", link: "palmatrix-palmabot"
                         },
                       ],
                     },

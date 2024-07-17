@@ -49,5 +49,5 @@ This section contains information about:
 - [Technical stack](/technical-stack.md): Built on Parity Substrate, the SORA network can be both a standalone chain, as well as Polkadot or Kusama parachains
 - [Consensus](/consensus.md): Nominated Proof of Stake is the
   algorithm used to validate blocks on SORA
-- [Polkaswap](/participate.md) and [Ceres](/ceres/overview.md), the
-  current SORA Builders.
+- [Polkaswap](/participate.md), [Ceres](/ceres/overview.md), and
+  [Palmatrix](/palmatrix-overview.md) the current SORA Builders.
