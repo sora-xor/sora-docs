@@ -20,7 +20,7 @@ Security: The staking and slashing mechanisms make it expensive for anyone to at
 Decentralization: NPOS encourages broader participation from the community, leading to a more decentralized network compared to PoW.
 
 ### Comparing NPOS with Other Consensus Mechanisms
-NPOS vs. PoW:
+**NPOS vs. PoW:**
 PoW, exemplified by Bitcoin, requires significant computational effort to mine blocks, leading to higher energy consumption.
 NPOS, in contrast, relies on staking and nominations, drastically reducing energy usage.
 
