@@ -12,6 +12,39 @@ head:
 # Consensus
 
 The SORA network relies on a **NPoS (Nominated Proof-of-Stake)** mechanism in order to reach and maintain consensus over the chain status.
+NPOS is a variation of the standard Proof of Stake (PoS) model. It involves network participants nominating validators who are responsible for validating transactions and creating new blocks. This method not only reduces the energy consumption drastically compared to PoW (Proof of Work) but also enhances security and decentralization.
+
+### Advantages of NPOS:
+**Energy Efficiency:** Unlike PoW systems, NPOS does not require extensive computational power, making it a more sustainable and environmentally friendly option.
+**Security:** The staking and slashing mechanisms make it expensive for anyone to attempt malicious activities, enhancing the overall security of the blockchain.
+**Decentralization:** NPOS encourages broader participation from the community, leading to a more decentralized network compared to PoW.
+
+### Comparing NPOS with Other Consensus Mechanisms
+**NPOS vs. PoW:**
+PoW, exemplified by Bitcoin, requires significant computational effort to mine blocks, leading to higher energy consumption.
+NPOS, in contrast, relies on staking and nominations, drastically reducing energy usage.
+
+**NPOS vs. PoS:**
+Standard PoS allows all stakeholders to participate in block validation directly.
+NPOS introduces the concept of nominations, adding an extra layer of community involvement and decision-making.
+
+### Differences between PoS and NPoS:
+**Role separation**
+PoS has validators only, while NPoS splits the roles between validators and nominators.
+
+**Control of stake**
+Validators fully control their staked funds in PoS, but nominators direct some control over validators' stake in NPoS via nominations.
+
+**Selection process**
+PoS relies solely on stake amounts, whereas NPoS weighs both stakes and distributes nominations to elect active validators.
+
+**Risk distribution**
+Validators bear the full burden of slashing penalties in PoS, whereas in NPoS, these penalties are shared between validators and nominators based on their actions.
+
+**Participation**
+Both PoS and NPoS require staking, but only NPoS allows users to participate as non-technical nominators without validator nodes.
+
+To summarise, while PoS focuses only on stake, NPoS introduces the additional dimension of social consensus through nominations to enhance decentralization.
 
 There are two main actors: **validators** and **nominators.**
 
