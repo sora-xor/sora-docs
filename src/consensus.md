@@ -32,7 +32,7 @@ NPOS introduces the concept of nominations, adding an extra layer of community i
 **Role separation**
 PoS has validators only, while NPoS splits the roles between validators and nominators.
 
-Control of stake
+**Control of stake**
 Validators fully control their staked funds in PoS, but nominators direct some control over validators' stake in NPoS via nominations.
 
 Selection process
