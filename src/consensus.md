@@ -29,7 +29,7 @@ Standard PoS allows all stakeholders to participate in block validation directly
 NPOS introduces the concept of nominations, adding an extra layer of community involvement and decision-making.
 
 ### Differences between PoS and NPoS:
-Role separation
+**Role separation**
 PoS has validators only, while NPoS splits the roles between validators and nominators.
 
 Control of stake
