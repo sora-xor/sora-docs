@@ -50,7 +50,14 @@ head:
 
 # SORA Governance
 
-SORA governance is still in development. The current version uses the standard [Polkadot governance implementation](https://wiki.polkadot.network/docs/maintain-guides-democracy).
+SORA governance is still in development. The current version uses
+[Polkadot v1
+Governance](https://wiki.polkadot.network/docs/learn/learn-governance).
+
+::: info
+To vote in SORA governance proposals, follow the [SORA Governance
+Tutorial](participate-sora-governance.md).
+:::
 
 The SORA Parliament is the governance system for the SORA network, its main task is to allocate newly minted XOR to **productive projects**. By combining decentralized governance and capital allocation, the SORA Parliament can create a digital government that can work to make our world, and other worlds better, without intruding on individual liberties.
 

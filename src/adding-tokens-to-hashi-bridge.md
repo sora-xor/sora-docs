@@ -72,7 +72,7 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
 ### Using Etherscan
 
-Access https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602#writeContract and fill in the fields with data from the previous step. Note, that v parameters in signatures should be increased by `27`. That is, if you see `v: 0` and `v: 1`, these parameters should be passed as `[27, 28]`.
+Access https://etherscan.io/address/0x313416870a4da6f12505a550b67bb73c8e21d5d3#writeContract and fill in the fields with data from the previous step. Note, that v parameters in signatures should be increased by `27`. That is, if you see `v: 0` and `v: 1`, these parameters should be passed as `[27, 28]`.
 
 ![](.gitbook/assets/hashi-fill-in-data-using-etherscan.png)
 

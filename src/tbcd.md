@@ -11,6 +11,8 @@ head:
 
 # Token Bonding Curve Dollar (TBCD)
 
+ <center><img src=".gitbook/assets/tbcd.svg" width="250"></center>
+
 - Token Bonding Curve Dollars (TBCD) is a newly proposed, algorithmic, non-synthetic stablecoin that has its value maintained by the SORA token bonding curve
 - TBCD is created to be worth slightly less than $1 when XOR is far lower than the price point on the token bonding curve, reducing sell pressure to XOR when the price of XOR is low
 - TBCD will help to build up reserves in the SORA token bonding curve, while also being used to fund the creation of new goods and services via an on-chain referendum decided by all XOR token holders

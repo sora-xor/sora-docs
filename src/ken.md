@@ -11,6 +11,8 @@ head:
 
 # Kensetsu KEN
 
+ <center><img src=".gitbook/assets/ken.svg" width="250"></center>
+
 ::: info
 This token was originally proposed in [SORA RFP 60](https://github.com/sora-xor/rfps/issues/60) by Satoshi Shibarimoto.
 :::
@@ -74,5 +76,5 @@ KEN reservation through burning XOR ended on the 20th of March, 2024
 
 ## Learn More
 
+- [Kensetsu Platform](/kensetsu-vaults.md)
 - [VAL Tokenomics](/val.md)
-- [Requesting Features on SORA](/rfp.md)

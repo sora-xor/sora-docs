@@ -5,30 +5,52 @@ on:
   push:
     branches:
       - develop
+
 jobs:
   prettier:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: ${{ github.head_ref }}
           persist-credentials: false
 
-      - name: Install npm v8
-        run: npm i -g npm@8
-
-      - name: Prettify code
-        uses: creyD/prettier_action@v4.2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          prettier_options: --write src/*.md
-          only_changed: True
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: '20'
+
+      - name: Install global npm package
+        run: npm install -g npm@8
+
+      - name: Install Prettier
+        run: npm install -g prettier
+      - run: npm ci
+      - run: npm run format
+
+      - name: "Import GPG key"
+        id: import-gpg
+        uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          git_config_global: true
+
+      - name: Configure Git to use PAT
+        run: |
+          git config --global url.https://${{ secrets.GH_TOKEN }}@github.com/.insteadOf https://github.com/
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Apply formatting changes
+          commit_author: "${{ steps.import-gpg.outputs.name }} <${{ steps.import-gpg.outputs.email }}>"
+          commit_user_name: ${{ steps.import-gpg.outputs.name }}
+          commit_user_email: ${{ steps.import-gpg.outputs.email }}
+          commit_options: '-S'
           branch: ${{ github.head_ref }}
