@@ -257,6 +257,10 @@ export default withMermaid(
                           text: "Establishing HRMP channel",
                           link: "establishing-hrmp-channel",
                         },
+                        {
+                          text: "White list new token to Polkaswap",
+                          link: "whitlist-token-to-polkaswap",
+                        },
                       ],
                     },
                   ],
