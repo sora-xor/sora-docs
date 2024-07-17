@@ -41,7 +41,7 @@ PoS relies solely on stake amounts, whereas NPoS weighs both stakes and distribu
 **Risk distribution**
 Validators bear the full burden of slashing penalties in PoS, whereas in NPoS, these penalties are shared between validators and nominators based on their actions.
 
-Participation
+**Participation**
 Both PoS and NPoS require staking, but only NPoS allows users to participate as non-technical nominators without validator nodes.
 
 To sum up, while PoS focuses only on stake, NPoS introduces the additional dimension of social consensus through nominations to enhance decentralization.
