@@ -12,7 +12,7 @@ head:
 # Consensus
 
 The SORA network relies on a **NPoS (Nominated Proof-of-Stake)** mechanism in order to reach and maintain consensus over the chain status.
-NPOS is a variation of the standard Proof of Stake (PoS) model. It involves network participants nominating validators who are responsible for validating transactions and creating new blocks. This method not only reduces the energy consumption drastically compared to PoW but also enhances security and decentralization.
+NPOS is a variation of the standard Proof of Stake (PoS) model. It involves network participants nominating validators who are responsible for validating transactions and creating new blocks. This method not only reduces the energy consumption drastically compared to PoW (Proof of Work) but also enhances security and decentralization.
 
 ### Advantages of NPOS:
 **Energy Efficiency:** Unlike PoW systems, NPOS does not require extensive computational power, making it a more sustainable and environmentally friendly option.
