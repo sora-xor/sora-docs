@@ -945,7 +945,7 @@ export default withMermaid(
                   text: "SORA no seu bolso",
                   collapsed: false,
                   items: [
-                    { text: "SORA Móvel", link: "mobile" },
+                    { text: "SORA Móvel", link: "pt/mobile" },
                     { text: "Fearless Wallet", link: "pt/fearless" },
                   ],
                 },
