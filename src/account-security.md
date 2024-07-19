@@ -3,7 +3,7 @@ title: "SORA Account Security: How to Manage Passphrases Securely | SORA Docs"
 head:
   - - meta
     - name: viewport
-      content: "width=device-width, initial-scale=1.0" 
+      content: "width=device-width, initial-scale=1.0"
   - - meta
     - name: description
       content: "Explore the intricacies of passphrase formats like mnemonics, JSON, and raw seeds. Dive into best practices for safeguarding passwords, utilizing physical and digital storage solutions. Prioritize your digital security today."
