@@ -980,7 +980,7 @@ export default withMermaid(
                 { text: "Registrar um ativo", link: "pt/register-an-asset" },
                 { text: "Rampa de acesso (on-ramp)", link: "pt/on-ramp" },
                 {
-                  text: "Staking (depósito remunerado, uma premiação em moedas digitais emitida como recompensa por ajudar na segurança da rede)",
+                  text: "Staking",
                   collapsed: false,
                   items: [
                     { text: "Demeter Staking (Estaqueamento ou Aposta)", link: "pt/demeter-staking" },
@@ -1050,7 +1050,7 @@ export default withMermaid(
                   ],
                 },
                 { text: "Sistema de referência", link: "pt/referral" },
-                { text: "NFT ou token não fungível (ativo digital único)", link: "pt/nft" },
+                { text: "NFT (ativo digital único)", link: "pt/nft" },
                 { text: "Identidade", link: "pt/id" },
                 { text: "Recompensas", link: "pt/rewards" },
                 { text: "Conexão de nós (Node)", link: "pt/nodes-connection" },
@@ -1170,7 +1170,7 @@ export default withMermaid(
                         {
                           text: "Demeter",
                           items: [
-                            { text: "Farming ou cultivo de rendimento (depósito de ativos para empréstimos em troca de remuneração)", link: "pt/ceres/demeter-farming" },
+                            { text: "Farming", link: "pt/ceres/demeter-farming" },
                             { text: "DEO Arena", link: "pt/ceres/deo-arena" },
                           ],
                         },
