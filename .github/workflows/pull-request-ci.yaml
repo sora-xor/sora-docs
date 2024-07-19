@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - develop
-
 jobs:
   prettier:
     runs-on: ubuntu-22.04
@@ -21,22 +20,20 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'
+          node-version: '14'
 
       - name: Install global npm package
         run: npm install -g npm@8
 
-      - name: Install Prettier
-        run: npm install -g prettier
-      - run: npm ci
-      - run: npm run format
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.2
+        with:
+          prettier_options: --write src/*.md
+          only_changed: True
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Apply formatting changes
-          commit_author: "${{ steps.import-gpg.outputs.name }} <${{ steps.import-gpg.outputs.email }}>"
-          commit_user_name: ${{ steps.import-gpg.outputs.name }}
-          commit_user_email: ${{ steps.import-gpg.outputs.email }}
-          commit_options: '-S'
           branch: ${{ github.head_ref }}
