@@ -11,6 +11,8 @@ head:
 
 # SORA Synthetics
 
+ <center><img src=".gitbook/assets/xst.svg" width="250"></center>
+
 SORA Synthetics are tokens pegged to value indices, backed by XST,
 the first SORA Synthetic asset is the DAI-pegged XSTUSD. SORA
 Synthetic XST assets for other major stores of value will be
