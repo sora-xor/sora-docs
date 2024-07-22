@@ -259,7 +259,7 @@ export default withMermaid(
                         },
                         {
                           text: "White list new token to Polkaswap",
-                          link: "whitlist-token-to-polkaswap",
+                          link: "whitelist-token-to-polkaswap",
                         },
                       ],
                     },
