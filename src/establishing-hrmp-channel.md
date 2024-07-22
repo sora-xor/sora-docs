@@ -3,7 +3,7 @@ title: Establish an HRMP channel | SORA Docs
 head:
   - - meta
     - name: description
-      content: Learn how to establish communication between third-party parachain and the SORA network. 
+      content: Learn how to establish communication between third-party parachain and the SORA network.
   - - meta
     - name: keywords
       content: adding tokens, HRMP channel, SORA network, listing tokens, requirements, procedures, asset bridging, blockchain networks, whitelist
