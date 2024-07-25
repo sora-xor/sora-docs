@@ -36,15 +36,15 @@ Como dito acima, os nomeadores devem selecionar os validadores escolhidos. Os no
 
 Para fornecer alguns validadores de alta qualidade na rede como um bem comum, o Parlamento SORA mantém a seguinte lista de validadores:
 
--cnVqqrLjSGQ7in5j3GVuXjr4b1benhdN72NQnqwzrbWxHWjYZ
--cnVyxUnvsrgtiCEaeHudqGEJuHPspfp89mGghLz21mVqdaQwv
--cnSdNvs39CVRDiFW4pEtaqZWGoSU7B8UkDKjwCb3mX999CsZH
--cnScvgXFLQgeNFoVfMjf2U5MC24CkdRkLTUKbJYefYRwqy3VZ
--cnSgH7nHuiPk5Z2cubwsFZGdmzvzhrgBKgTqLCeR7hyo6dek8
--cnU2w3CPn9narRKeSamHmKBBaSXY949A4udq6APBXNkmnkwsJ
--cnV58Z8zT37K6iUsijRjYHBzk95aTqvLfn3WvvfJcCwFQKHCL
--cnRrijYYHb4fWPuF9MraEvm8nvfztYDxcAZfKfN2AyKLBn81A
--cnUDwD4nPorodyd3inwThA2yBt2dFuHTfnvKowH6dirk47Qqr
+- cnVqqrLjSGQ7in5j3GVuXjr4b1benhdN72NQnqwzrbWxHWjYZ
+- cnVyxUnvsrgtiCEaeHudqGEJuHPspfp89mGghLz21mVqdaQwv
+- cnSdNvs39CVRDiFW4pEtaqZWGoSU7B8UkDKjwCb3mX999CsZH
+- cnScvgXFLQgeNFoVfMjf2U5MC24CkdRkLTUKbJYefYRwqy3VZ
+- cnSgH7nHuiPk5Z2cubwsFZGdmzvzhrgBKgTqLCeR7hyo6dek8
+- cnU2w3CPn9narRKeSamHmKBBaSXY949A4udq6APBXNkmnkwsJ
+- cnV58Z8zT37K6iUsijRjYHBzk95aTqvLfn3WvvfJcCwFQKHCL
+- cnRrijYYHb4fWPuF9MraEvm8nvfztYDxcAZfKfN2AyKLBn81A
+- cnUDwD4nPorodyd3inwThA2yBt2dFuHTfnvKowH6dirk47Qqr
 
 Um aspecto importante a avaliar é a **comissão do validador**. A comissão é a porcentagem da recompensa recebida pelo validador antes que as recompensas sejam distribuídas aos nomeadores. Como nomeador, você pode pensar que a comissão mais baixa é a melhor, mas isso nem sempre é verdade. Os validadores devem ser capazes de operar de forma eficiente para continuar operando de forma sustentável. Os validadores independentes dependem de comissões para cobrir os seus custos, ajudando a manter a rede descentralizada.
 
@@ -52,7 +52,7 @@ Você também deve levar em consideração a **participação** dos validadores.
 
 ### Filtrando Validadores
 
-Na página [Alvos](https://polkadot.js.org/apps/#/stake/targets), você pode [filtrar](https://wiki.polkadot.network/docs/learn-nominator#filter- out -validators-with-indesejable-traits) validadores que possuem características que podem indicar um problema ao nomeá-los. Você pode ativar e desativar esses filtros para ajudar a definir quais validadores você deve nomear. É importante notar que nenhuma destas características é necessariamente “má”; No entanto, dependendo da metodologia de seleção do seu validador, podem ser recursos que você estaria interessado em filtrar.
+Na página [Alvos](https://polkadot.js.org/apps/#/stake/targets), você pode [filtrar](https://wiki.polkadot.network/docs/learn-nominator#filter-out-validators-with-indesejable-traits) validadores que possuem características que podem indicar um problema ao nomeá-los. Você pode ativar e desativar esses filtros para ajudar a definir quais validadores você deve nomear. É importante notar que nenhuma destas características é necessariamente “má”; No entanto, dependendo da metodologia de seleção do seu validador, podem ser recursos que você estaria interessado em filtrar.
 
 <!-- TODO: transform this into a table -->
 
@@ -73,7 +73,7 @@ Os validadores desempenham um papel crucial na rede SORA, pois protegem e descen
 
 Nem todo mundo que se cadastra na rede para se tornar validador necessariamente fará bloqueios. Se a competição for alta e houver mais do que o número máximo de validadores ativos possíveis para uma época, então os validadores com XOR mais alto provavelmente participarão da validação real. Neste caso, a aposta mínima de facto para um validador ativo aumentará automaticamente.
 
-Os validadores são selecionados usando o [Método Phragmen] de Polkadot (https://wiki.polkadot.network/docs/en/learn-phragmen#where-is-the-phragm%C3%A9n-method-used-in-polkadot).
+Os validadores são selecionados usando o [Método Phragmen](https://wiki.polkadot.network/docs/en/learn-phragmen#where-is-the-phragm%C3%A9n-method-used-in-polkadot) de Polkadot.
 
 ### Torne-se um validador SORA
 
@@ -88,7 +88,7 @@ Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz
 Uptime of 99.9%
 ```
 
-Se você estiver interessado em ajudar a garantir o futuro do SORA e do Polkaswap e ganhar recompensas no processo, leia mais sobre [executando um nó SORA Mainnet] (./running-a-node.md).
+Se você estiver interessado em ajudar a garantir o futuro do SORA e do Polkaswap e ganhar recompensas no processo, leia mais sobre [executando um nó SORA Mainnet](/pt/running-a-node.md).
 
 ## Recompensas
 
@@ -100,5 +100,5 @@ Quanto maior o número de transações na rede SORA, maiores serão as recompens
 
 ## Saber mais
 
-- [Nomeando Validadores](/nomeando-validadores)
-- [Execute um nó](/running-a-node)
+- [Nomeando Validadores](/pt/nominating-validators.md)
+- [Execute um nó](/pt/srunning-a-node.md)

@@ -27,7 +27,7 @@ cabeça:
       content: "Documentação SORA"
   - - meta
     - property: og:locale
-      content: "en_US"
+      content: "pt_BR"
   - - meta
     - name: twitter:card
       content: "summary"
@@ -53,11 +53,11 @@ Além de enviar e receber KSM/DOT, os seguintes recursos também são suportados
 
 - **Compre KSM/DOT**: Usando RAMP e Moonpay, você pode comprar KSM/DOT com seu cartão de crédito em apenas algumas etapas fáceis!
 
-::: informações
+::: info
 Para obter mais informações e guias do usuário, visite o [Fearless Wallet Wiki](https://wiki.fearlesswallet.io/).
 :::
 
 ## Aprender mais
 
-- [Academia SORA](/sora-academy)
-- [Aplicativo móvel SORA](/mobile)
+- [Academia SORA](/pt/sora-academy)
+- [Aplicativo móvel SORA](/pt/mobile)

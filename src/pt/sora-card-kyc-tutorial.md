@@ -13,7 +13,7 @@ head:
 
 Embora registrar e passar pelo KYC para o Cartão SORA seja simples, este artigo o ajudará a resolver qualquer dúvida que possa ter.
 
-::: informações
+::: info
 É importante notar que atualmente apenas os residentes da UE são elegíveis para passar pelo processo KYC. Isso mudará em breve.
 :::
 
@@ -34,14 +34,14 @@ Existem dois canais para solicitar um Cartão SORA:
 1. No dApp [polkaswap.io](http://polkaswap.io/)
 2. Através do aplicativo móvel SORA Wallet (disponível no [Google Play](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora&hl=en&gl=US&pli=1 ) e do [Apple App Store](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora&hl=en&gl=US&pli=1))
 
-::: dica
+:::tip
 Se você acabou de baixar a Carteira SORA, salve sua frase-semente com segurança.
 :::
 
 E as três opções para solicitar o Cartão SORA, juntamente com as taxas de cada opção, são:
 
 1. **Se já tem mais de 100€ em valor XOR na sua conta, apostado, ou num pool onde fornece liquidez**: a candidatura com o seu endereço SORA é gratuita;
-2. **Se você deseja comprar XOR para ter o saldo de € 100 para um pedido grátis **, você pode comprar XOR no valor de até € 700 dentro do aplicativo, sendo necessário apenas um soft KYC (detalhes abaixo);
+2. **Se você deseja comprar XOR para ter o saldo de € 100 para um pedido grátis**, você pode comprar XOR no valor de até € 700 dentro do aplicativo, sendo necessário apenas um soft KYC (detalhes abaixo);
 3. **Se não tiver 100€ de XOR e não desejar adquiri-lo**, haverá uma taxa de 20€ para solicitar o Cartão KYC e SORA disponível na segunda fase. Este pagamento pode ser feito com qualquer cartão de débito/crédito Mastercard®, Visa®, Discover®, Diners Club® ou JCB®.
 
 ## 2. Documentos e dados pessoais necessários
@@ -53,7 +53,7 @@ R. Caso você já tenha €100 em XOR na conta, **continue para o ponto B**. Par
 - Endereço de email
 - Nacionalidade
 
-::: informações
+::: info
 Infelizmente, você não poderá acessar este serviço se for de [um desses países](https://x1ex.com/en/countries). Você ainda pode comprar XOR por meios alternativos.
 
 As alternativas atuais são: troca em [polkaswap.io](http://polkaswap.io/) e Uniswap. Além de comprar no [Gate.io](http://gate.io/) e depois fazer a ponte para sua conta SORA em [Polkaswap.io](http://polkaswap.io/).
@@ -67,7 +67,7 @@ B. Para passar pelo **KYC para cartão SORA**, você precisa preparar os seguint
 - **Foto do seu documento de identidade**
 - **Foto do comprovante de endereço**: Um documento oficial (conta de luz, extrato bancário, extrato governamental ou correspondência) que contenha seu nome completo e endereço e não tenha mais de 3 meses.
 - **Endereço residencial**
- ::: informações
+ ::: info
  Infelizmente, você não poderá acessar o serviço se residir em um dos [países desta lista](https://soracard.com/blacklist/).
  :::
 - **Uma Selfie** a ser tirada durante o processo KYC.
@@ -133,5 +133,5 @@ SORA](https://t.me/SORAhappiness)
 
 ## Aprender mais
 
-- [Introdução ao Cartão SORA](/sora-card)
-- [Polkaswap](/polkaswap)
+- [Introdução ao Cartão SORA](/pt/sora-card)
+- [Polkaswap](/pt/polkaswap)

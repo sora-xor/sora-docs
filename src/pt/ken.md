@@ -11,11 +11,15 @@ head:
 
 # Kensetsu KEN
 
-::: Informação
-Este token foi proposto originalmente na [SORA RFP 60](https://github.com/sora-xor/rfps/issues/60) por Satoshi Shibarimoto.
+ <center><img src="/.gitbook/assets/ken.svg" width="250"></center>
+
+:::info
+Este token foi proposto originalmente na [SORA RFP
+60](https://github.com/sora-xor/rfps/issues/60) por Satoshi
+Shibarimoto.
 :::
 
-##TL;DR
+## TL;DR
 
 - Todos os tokens KEN iniciais serão distribuídos para contas que queimarem pelo menos 1 milhão de XOR entre os blocos 14.464.000 e 14.939.200.
 - Queimar menos de 1 milhão de XOR não produzirá tokens KEN
@@ -74,5 +78,5 @@ A reserva KEN por queima de XOR terminou em 20 de março de 2024
 
 ## Saber mais
 
-- [VAL Tokenomics](/val.md)
-- [Solicitação de recurso SORA](/rfp.md)
+- [VAL Tokenomics](/pt/val.md)
+- [Solicitação de recurso SORA](/pt/rfp.md)

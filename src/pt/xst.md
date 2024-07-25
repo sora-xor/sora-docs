@@ -11,19 +11,22 @@ head:
 
 # SORA Sintéticos
 
+ <center><img src="/.gitbook/assets/xst.svg" width="250"></center>
+
+
 SORA Synthetics são tokens vinculados a índices de segurança, apoiados por XST,
 O primeiro ativo sintético da SORA é o XSTUSD indexado ao DAI. Os ativos SORA Synthetic XST para outras reservas importantes de valor estarão disponíveis em breve como parte da atualização SORA Synthetics no Polkaswap. XST foi [proposto como um
-RFP](https://github.com/sora-xor/rfps/pull/8/files) e atualmente está ativo na rede SORA. Além disso, você tem a opção de explorar mais sobre a plataforma em geral em uma [página dedicada](./synthetics.md).
+RFP](https://github.com/sora-xor/rfps/pull/8/files) e atualmente está ativo na rede SORA. Além disso, você tem a opção de explorar mais sobre a plataforma em geral em uma [página dedicada](/pt/synthetics.md).
 
 ## O dólar compensado pela Fisher
 
 **XST** significa **XOR SynThetics** e é o token colateral usado para respaldar ativos sintéticos SORA vinculados a um índice de segurança. Mas _para começar, o que é um ativo sintético ou stablecoin?_
 
-Muito antes de existirem criptomoedas (ou mesmo computadores digitais), [em 1912](https://dspace.gipe.ac.in/xmlui/bitstream/handle/10973/26798/GIPE-093010.pdf?sequence= 3&isAllowed=y) , o economista americano [Irving Fisher](https://en.wikipedia.org/wiki/Irving_Fisher) questionou a instabilidade no poder de compra do dólar americano lastreado em ouro, explicando:
+Muito antes de existirem criptomoedas (ou mesmo computadores digitais), [em 1912](https://dspace.gipe.ac.in/xmlui/bitstream/handle/10973/26798/GIPE-093010.pdf?sequence=3&isAllowed=y) , o economista americano [Irving Fisher](https://en.wikipedia.org/wiki/Irving_Fisher) questionou a instabilidade no poder de compra do dólar americano lastreado em ouro, explicando:
 
 > “_Agora temos um dólar com peso fixo (25,8 grãos), mas com poder de compra variável. Segundo o plano proposto, teríamos um dólar de poder de compra fixo, mas de peso variável”. Isto se tornaria a base para o dólar “compensado”.
 
-Em outras palavras, como o ouro era altamente volátil em termos de poder de compra, em vez de manter o dólar atrelado a uma certa quantidade de ouro, [propôs Fisher](https://www.richmondfed.org/~/media/richmondfedorg /publications/research /economic_quarterly/1993/summer/pdf/patinkin.pdf) que o dólar era apoiado por quantidades variáveis ​​de ouro, mas ligado a um cabaz de bens (um índice). Porém, naquela época, as ideias de Fisher não foram adotadas devido a problemas operacionais e de harmonização da economia da época.
+Em outras palavras, como o ouro era altamente volátil em termos de poder de compra, em vez de manter o dólar atrelado a uma certa quantidade de ouro, [propôs Fisher](https://www.richmondfed.org/~/media/richmondfedorg/publications/research/economic_quarterly/1993/summer/pdf/patinkin.pdf) que o dólar era apoiado por quantidades variáveis ​​de ouro, mas ligado a um cabaz de bens (um índice). Porém, naquela época, as ideias de Fisher não foram adotadas devido a problemas operacionais e de harmonização da economia da época.
 
 Com o advento dos sistemas criptoeconômicos em blockchains, os princípios do dólar "compensado", a fundação de Fisher, poderiam finalmente ser traduzidos para o reino da criptoeconomia e receber uma nova vida como parte de um sistema criptoeconômico: "um token baseado em blockchain pode ser criado como um derivado de outro, destinado a manter uma unidade de valor estável”. A SORA Synthetics implementa este conceito e _de certa forma, você poderia dizer que Irving Fisher é o pai da SORA Synthetics_.
 
@@ -100,5 +103,5 @@ Takemiya, M. (2019). SORA: Uma Economia Autônoma Descentralizada. Conferência 
 
 ## Aprender mais
 
-- [Sintéticos SORA](/synthetics.md)
-- [Economia SORA](/sora-economy.md)
+- [Sintéticos SORA](/pt/synthetics.md)
+- [Economia SORA](/pt/sora-economy.md)

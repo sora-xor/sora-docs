@@ -16,7 +16,7 @@ head:
 
 # Account Creation
 
-Here we provide you with instruction on account creation:
+Here we provide you with instructions for account creation:
 
 - [via polkadot.js browser plugin](#via-polkadotjs-browser-plugin)
 - [via polkadot.js application](#via-polkadotjs-app-ui)

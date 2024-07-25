@@ -60,7 +60,7 @@ Explore as complexidades dos formatos de senha, como mnemônicos, JSON e semente
 
 Na era digital de hoje, proteger os ativos digitais tornou-se fundamental. O ponto crucial dessa segurança geralmente gira em torno do gerenciamento de senhas, senhas e outras chaves digitais. Compreender os diferentes formatos de armazenamento e seguir as práticas recomendadas pode distinguir entre contas seguras e possíveis violações.
 
-![](.gitbook/assets/sora-account-security.png)
+![](/.gitbook/assets/sora-account-security.png)
 
 ## Mnemônico, JSON e Raw Seed: Visão geral
 
@@ -125,7 +125,7 @@ Na própria interface do usuário, um botão ou link chamado "Acessar senhas arm
 
 Gerenciar e armazenar senhas com segurança é a base da segurança digital. Ao compreender os diferentes tipos de formatos de armazenamento e seguir as práticas recomendadas, você pode proteger seus ativos digitais e desfrutar de tranquilidade. Lembre-se, à medida que a tecnologia evolui, é essencial manter-se atualizado com os mais recentes protocolos e metodologias de segurança.
 
-::: dica
+:::tip
 Sempre consulte especialistas em segurança cibernética ao considerar uma solução para armazenar informações confidenciais.
 :::
 

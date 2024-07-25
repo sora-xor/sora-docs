@@ -53,7 +53,7 @@ The SORA network ([Polkaswap](https://polkaswap.io/) included) is built with [Su
 
 ## How can I support SORA in the parachain auctions?
 
-SORA won the 24th Kusama parachain auction for the 25th lease (February 22nd, 2022 - Jan 31st, 2023) on the 6th of February, 2022. The details can be found [here](https://wiki.sora.org/sora-kusama-parachain-crowdloan).
+SORA won the 24th Kusama parachain auction for the 25th lease (February 22nd, 2022 - Jan 31st, 2023) on the 6th of February, 2022.
 
 After the slot on the Kusama network is secured, users can support the funding of the auctions in the following years by buying XOR with DOT and KSM from the token bonding curve. By doing so, you'll increase the reserves of the token bonding curve and they will be used to make a bid in the auctions. Furthermore, there is a special reward in PSWAP when buying with DOT and KSM, this reward is higher when there are fewer reserves, and will decrease as they accumulate. You can read the full article about the incentive program [here](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
@@ -69,7 +69,7 @@ All citizens have an equal chance of being selected, have equal voting power, an
 
 Yes, on [Polkaswap.io](https://polkaswap.io/#/swap) you can buy tokens using Moonpay and X1.
 With X1 you can buy SORA-native XOR.
-On Moonpay, currently only ETH and DAI are available as tokens, you can read more about how to do so in this [tutorial](https://wiki.sora.org/guides/how-to-buy-tokens-using-moonpay-with-your-credit-card).
+On Moonpay, currently only ETH and DAI are available as tokens, you can read more about how to do so in the  [on ramp ](on-ramp.md) section.
 
 ## What is an asset ID (address)?
 

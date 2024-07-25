@@ -37,8 +37,9 @@ head:
   - - meta
     - name: twitter:description
       content: "Descubra o Cartão SORA, um cartão de pagamento versátil projetado para fornecer aos usuários acesso contínuo aos seus ativos digitais. Aprenda sobre os recursos, benefícios e integração do Cartão SORA dentro do ecossistema SORA, permitindo transações seguras e convenientes tanto online quanto offline."
+---
 
-# Tarjeta SORA
+# Cartão SORA
 
 ## Principais recursos do cartão SORA
 
@@ -114,5 +115,5 @@ Para mais informações, visite [soracard.com](https://soracard.com/).
 
 ## Aprender mais
 
-- [Tutorial do cartão SORA KYC](/sora-card-kyc-tutorial)
-- [SORA Móvel](/móvel)
+- [Tutorial do cartão SORA KYC](/pt/sora-card-kyc-tutorial)
+- [SORA Móvel](/pt/mobile)

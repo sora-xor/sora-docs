@@ -95,12 +95,12 @@ Polkaswap é um DAO e, portanto, descentralizado, mas se você tiver alguma dúv
 
 O Responsável pelo Tratamento, o Processador de Dados e o Encarregado da Proteção de Dados são:
 
-(“Bioma Polka”)
+(“Polka Biome”)
 
 1º andar, Columbus Center, P.O. Box 2283, Road Town, Tortola, Ilhas Virgens Britânicas
 
 E-mail: [jihoon@tutanota.de](mailto:jihoon@tutanota.de)
 
-Se você tiver alguma dúvida ou sugestão sobre nossa Política de Privacidade, sinta-se à vontade para entrar em contato com a comunidade em [https://t.me/polkaswap](https://t.me/polkaswap) ou envie um e-mail para [jihoon @ tutanota.de] (e-mail para: jihoon@tutanota.de).
+Se você tiver alguma dúvida ou sugestão sobre nossa Política de Privacidade, sinta-se à vontade para entrar em contato com a comunidade em [https://t.me/polkaswap](https://t.me/polkaswap) ou envie um e-mail para [jihoon @ tutanota.de](mailto:jihoon@tutanota.de).
 
 Se você for um titular de dados cujos dados são processados ​​pela Polka Biome, você também poderá ter o direito de apresentar uma reclamação junto a um regulador de proteção de dados em um ou mais estados membros da União Europeia. Você pode encontrar uma lista de autoridades de proteção de dados na Europa aqui: [https://edpb.europa.eu/about-edpb/board/members_en](https://edpb.europa.eu/about-edpb/board/members_en )

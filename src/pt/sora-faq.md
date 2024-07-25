@@ -53,7 +53,7 @@ A rede SORA ([Polkaswap](https://polkaswap.io/) incluída) é construída com [S
 
 ## Como posso apoiar a SORA em leilões de parachain?
 
-SORA venceu o 24º leilão de parachain Kusama para o 25º arrendamento (22 de fevereiro de 2022 - 31 de janeiro de 2023) em 6 de fevereiro de 2022. Detalhes podem ser encontrados [aqui] (https://wiki.sora. org/sora-kusama- empréstimo coletivo parachain).
+SORA venceu o 24º leilão de parachain Kusama para o 25º arrendamento (22 de fevereiro de 2022 - 31 de janeiro de 2023) em 6 de fevereiro de 2022.
 
 Depois que o espaço na rede Kusama for garantido, os usuários poderão apoiar o financiamento de leilões nos próximos anos, comprando XOR com DOT e KSM da curva de token bonding. Ao fazer isso, você aumentará as reservas da curva de token bonding e estas serão usadas para licitar nos leilões. Além disso, existe uma recompensa especial no PSWAP ao comprar com DOT e KSM, esta recompensa é maior quando há menos reservas, e diminuirá à medida que se acumulam. Você pode ler o artigo completo sobre o programa de incentivos [aqui](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
@@ -69,7 +69,7 @@ Todos os cidadãos têm as mesmas hipóteses de serem seleccionados, têm igual 
 
 Sim, em [Polkaswap.io](https://polkaswap.io/#/swap) você pode comprar tokens usando Moonpay e X1.
 Com o X1 você pode comprar XOR nativo SORA.
-No Moonpay, atualmente apenas ETH e DAI estão disponíveis como tokens, você pode ler mais sobre como fazer isso neste [tutorial](https://wiki.sora.org/guides/how-to-buy-tokens-using- moonpay-com -seu-cartão de crédito).
+No Moonpay, atualmente apenas ETH e DAI estão disponíveis como tokens, você pode ler mais sobre como fazer isso na [na seção de rampa](/pt/on-ramp.md).
 
 ## O que é um ID de ativo (endereço)?
 
@@ -112,17 +112,17 @@ Ao observar os principais titulares do [Subscan](https://sora.subscan.io/account
 
 Validadores são nós que foram selecionados para produzir blocos. Os validadores são uma parte central da rede SORA porque têm de aceitar ou rejeitar blocos de transações. A eleição dos validadores é realizada através do [Método Phragmèn](https://wiki.polkadot.network/docs/en/learn-phragmen), o mesmo utilizado por Polkadot e Kusama. Considerando que executar um nó validador exige esforço, ele não ficará sem recompensa. Aqueles que executam nós validadores receberão recompensas na forma de tokens VAL, com base na quantidade de VAL queimada no último dia.
 
-Você pode ler mais [aqui](/consensus).
+Você pode ler mais [aqui](/pt/consensus.md).
 
 ## O que é um nomeador?
 
 Um nominador é um usuário normal que publica uma lista de candidatos a validadores confiáveis ​​e coloca uma quantidade de XOR em jogo para apoiá-los (o conceito de piquetagem). Contanto que um nominador apoie os candidatos validadores com boas práticas de segurança, seu staking será de baixo risco. As recompensas do Nominator estão em VAL e são baseadas na quantidade de VAL queimada durante o dia. Você pode ler mais sobre o token VAL e recompensas de staking [aqui](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8).
 
-Você também pode [leia mais aqui](/consensus).
+Você também pode [leia mais aqui](/pt/consensus.md).
 
 Para aprender como apostar seu XOR, confira o tutorial dedicado.
 
 ## Saber mais
 
-- [XOR](/xor.md)
-- [Economia SORA](/sora-economy.md)
+- [XOR](/pt/xor.md)
+- [Economia SORA](/pt/sora-economy.md)

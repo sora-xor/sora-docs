@@ -1,24 +1,24 @@
 ---
-title: "Introdução ao SORA - Economia Autônoma Descentralizada | Rede SORA"
+title: Introdução ao SORA - Economia Autônoma Descentralizada | Rede SORA
 head:
   - - meta
     - name: viewport
       content: width=device-width, initial-scale=1.0
   - - meta
     - name: description
-      content: "Conheça a SORA, uma economia autônoma descentralizada projetada para um sistema financeiro justo e sustentável. Explore a rede SORA, o token XOR e os principais recursos."
+      content: Conheça a SORA, uma economia autônoma descentralizada projetada para um sistema financeiro justo e sustentável. Explore a rede SORA, o token XOR e os principais recursos.
   - - meta
     - name: keywords
-      content: "SORA, rede SORA, token XOR, economia autônoma descentralizada, sistema financeiro justo, sistema financeiro sustentável, características principais"
+      content: SORA, rede SORA, token XOR, economia autônoma descentralizada, sistema financeiro justo, sistema financeiro sustentável, características principais
   - - meta
     - name: author
-      content: Rede SORA
+      content: SORA network
   - - meta
     - property: og:title
-      content: "Introdução ao SORA - Economia Autônoma Descentralizada | Rede SORA"
+      content: Introdução ao SORA - Economia Autônoma Descentralizada | Rede SORA
   - - meta
     - property: og:description
-      content: "Conheça a SORA, uma economia autônoma descentralizada projetada para um sistema financeiro justo e sustentável. Explore a rede SORA, o token XOR e os principais recursos."
+      content: Conheça a SORA, uma economia autônoma descentralizada projetada para um sistema financeiro justo e sustentável. Explore a rede SORA, o token XOR e os principais recursos.
   - - meta
     - property: og:type
       content: website
@@ -27,16 +27,16 @@ head:
       content: Rede SORA
   - - meta
     - property: og:locale
-      content: en_US
+      content: pt_BR
   - - meta
     - name: twitter:card
       content: summary
   - - meta
     - name: twitter:title
-      content: "Introdução ao SORA - Economia Autônoma Descentralizada | Rede SORA"
+      content: Introdução ao SORA - Economia Autônoma Descentralizada | Rede SORA
   - - meta
     - name: twitter:description
-      content: "Conheça a SORA, uma economia autônoma descentralizada projetada para um sistema financeiro justo e sustentável. Explore a rede SORA, o token XOR e os principais recursos."
+      content: Conheça a SORA, uma economia autônoma descentralizada projetada para um sistema financeiro justo e sustentável. Explore a rede SORA, o token XOR e os principais recursos.
   - - meta
     - name: twitter:site
       content: "@sora_xor"
@@ -47,17 +47,19 @@ head:
 
 # Introdução
 
-A comunidade prevê uma Nova Ordem Económica Mundial, verdadeiramente descentralizada e democrática. O SORA está sendo construído para oferecer inclusão financeira para todos sem discriminação e fornecer um método melhor de gerenciamento das finanças diárias.
+A comunidade prevê uma Nova Ordem Económica Mundial, verdadeiramente descentralizada e democrática. O SORA está sendo construído para oferecer inclusão financeira para todos sem discriminação e fornecer um método melhor de gerenciamento das finanças diária.
 
 SORA é um sistema de governança on-chain baseado no token XOR que permite aos produtores fazer propostas de financiamento e todos os detentores de tokens tomarem decisões sobre como alocar XOR para que os melhores bens e serviços sejam criados. As pessoas que criam bens ou serviços devem aceitar o XOR para eles, construindo assim a economia SORA.
 
-::: informações
+::: info
+
 Acreditamos na criação de crédito para produzir novos bens ou serviços.
+
 :::
 
 O mecanismo SORA é baseado na **Teoria Geral da Quantidade (também conhecida como Teoria da Quantidade Desagregada de Crédito/Dinheiro) da macroeconomia**:
 
-<iframe width="100%" height="484" src="https://www.youtube.com/embed/KEfdlctvHH4" title="Fórum Econômico SORA - KEYNOTE: 'Teoria Desagregada da Quantidade de Crédito' pelo Professor Richard Werner " frameborder = "0" permitir = "acelerômetro; gravação na área de transferência;
+<iframe width="100%" height="484" src="https://www.youtube.com/embed/KEfdlctvHH4" title="Fórum Econômico SORA - KEYNOTE: 'Teoria Desagregada da Quantidade de Crédito' pelo Professor Richard Werner " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 De acordo com a Teoria Geral da Quantidade da macroeconomia, uma moeda poderia ser inflacionada de três maneiras:
 
@@ -79,6 +81,5 @@ Além disso, o XOR não é uma moeda baseada na dívida, pelo que podem ser alca
 
 ## Aprender mais
 
-- [Economia SORA](/sora-economy.md)
-- [SORA Tokenomics](/tokenomics.md)
-
+- [Economia SORA](/pt/sora-economy.md)
+- [SORA Tokenomics](/pt/tokenomics.md)

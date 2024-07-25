@@ -28,7 +28,7 @@ head:
       content: rede SORA
   - - meta
     - property: og:locale
-      content: en_US
+      content: pt_BR
   - - meta
     - name: twitter:card
       content: summary
@@ -48,24 +48,26 @@ head:
 
 # SORA Tokenomics
 
-Nesta seção você encontrará todas as informações sobre a tokenomics SORA. Começando com a Curva de Token Binding, cada subseção
-cobrirá os principais tokens da [economia SORA](sora-economy.md). É importante lembrar que o token [XOR](xor.md) não segue a tokenomia convencional de fornecimento limitado; em vez disso, seu fornecimento é
-elástico, vinculado à [Token Binding Curve (TBC)](tbc.md) e gerenciado
-através da [governança SORA](sora-governance.md).
+Nesta seção você encontrará todas as informações sobre a tokenomics
+SORA. Começando com a Curva de Token Binding, cada subseção cobrirá os
+principais tokens da [economia SORA](/pt/sora-economy.md). É importante
+lembrar que o token [XOR](/pt/xor.md) não segue a tokenomia convencional
+de fornecimento limitado; em vez disso, seu fornecimento é elástico,
+vinculado à [Token Binding Curve (TBC)](/pt/tbc.md) e gerenciado através da [governança SORA](/pt/sora-governance.md).
 
-- A [Token Binding Curve (TBC)](tbc.md) é o contrato inteligente que
+- A [Token Bonding Curve (TBC)](/pt/tbc.md) é o contrato inteligente que
  gerencia a oferta XOR de forma racional, sem intervenção
  dos humanos.
-- [XOR](xor.md) é o token de utilidade de rede usado para taxas de transação (gás).
-- [VAL](val.md) é o token concedido aos validadores para garantir a
+- [XOR](/pt/xor.md) é o token de utilidade de rede usado para taxas de transação (gás).
+- [VAL](/pt/val.md) é o token concedido aos validadores para garantir a
  Rede SORA.
-- [PSWAP](pswap.md) é o token de recompensa LP para provedores de liquidez em
+- [PSWAP](/pt/pswap.md) é o token de recompensa LP para provedores de liquidez em
  [Polkaswap](https://polkaswap.io/) e é gravado a cada transação.
-- [XST](xst.md) é o _token de plataforma_ usado como ativo colateral para a criação da SORA Synthetics.
-- O [Token Bond Curve Dollar (TBCD)](tbcd.md) é uma stablecoin algorítmica,
+- [XST](/pt/xst.md) é o _token de plataforma_ usado como ativo colateral para a criação da SORA Synthetics.
+- O [Token Bond Curve Dollar (TBCD)](/pt/tbcd.md) é uma stablecoin algorítmica,
  não sintético cujo valor é mantido pela curva de ligação do token SORA.
 
 ## Aprender mais
 
-- [Economia SORA](/sora-economy.md)
-- [Academia SORA](/sora-academy.md)
+- [Economia SORA](/pt/sora-economy.md)
+- [Academia SORA](/pt/sora-academy.md)

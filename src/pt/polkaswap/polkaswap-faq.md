@@ -27,7 +27,7 @@ Os provedores de liquidez podem ser qualquer pessoa que possa fornecer valores i
 
 Os pools de liquidez no Polkaswap funcionam de forma muito semelhante a outros DEXs. As taxas são pagas em XOR; Eles são automaticamente convertidos para PSWAP e depois gravados. Uma porcentagem do valor queimado é então reembolsada e entregue aos provedores de liquidez. As recompensas PSWAP começam no lançamento com 100% dos tokens queimados e chegam a 35% ao longo de cinco anos.
 
-##Qual a diferença entre o Polkaswap e outros DEXs, como o Uniswap?
+## Qual a diferença entre o Polkaswap e outros DEXs, como o Uniswap?
 
 Polkaswap trabalhou para resolver alguns dos problemas com DEXs baseados em Ethereum. Construído no Substrate, o Polkaswap oferece custos de transação mais baixos e transações mais rápidas. Polkaswap também oferece trocas entre as redes Ethereum, Polkadot e Kusama, e mais pontes estão sendo desenvolvidas. Além disso, com sua tecnologia de agregação de liquidez, Polkaswap permitirá a negociação com múltiplas fontes de liquidez sob um algoritmo personalizado de agregação de liquidez. O algoritmo de agregação de liquidez pode agregar liquidez de várias fontes. As fontes de liquidez podem assumir a forma de AMM DEX, carteiras de pedidos ou qualquer outro algoritmo. Em última análise, isto ajuda a garantir que os utilizadores encontrem o melhor valor para as suas negociações.
 
@@ -47,13 +47,13 @@ Para cada transação no Polkaswap deverá ser paga uma taxa de 0,3% em XOR. Nã
 
 Você pode aprender mais sobre a recompensa do provedor de liquidez [aqui](https://medium.com/polkaswap/introtaining-polkaswap-6f1db4003747) e sobre o prêmio de bônus estratégico na seção "Recompensas de bônus PSWAP" do Wiki.
 
-##Quando posso negociar DOT e KSM no Polkaswap?
+## Quando posso negociar DOT e KSM no Polkaswap?
 
 A rede SORA lançou seu crowdloan em janeiro de 2022. Depois que o espaço for garantido, levará mais tempo para transportar os tokens KSM e Parachains para a Rede SORA e Polkaswap.
 
 A Parity está atualmente desenvolvendo uma ponte Polkadot <> Kusama que trará o DOT para a rede Kusama (incluindo Parachains).
 
-Em última análise, o objetivo é garantir uma vaga no Polkadot também. A estratégia é gerar reservas de DOT e KSM usando as funcionalidades exclusivas da [curva de ligação de token](https://wiki.sora.org/token-bonding-curve#token-bonding-curve-and-parachain -auctions ).
+Em última análise, o objetivo é garantir uma vaga no Polkadot também. A estratégia é gerar reservas de DOT e KSM usando as funcionalidades exclusivas da [curva de ligação de token](/pt/tbc.html#curva-de-vinculacao-de-token-e-leiloes-de-parachain).
 
 ## Preciso de XOR para negociar Polkaswap?
 
@@ -71,15 +71,15 @@ A perda impermanente ocorre quando os preços do token que foi depositado no poo
 
 Você está fornecendo liquidez ao par XOR-DAI. No momento em que você entra no pool, 1 XOR = 100 DAI, então você fornece ao pool 1 XOR e 100 DAI. Polkaswap exige que os dois ativos depositados mantenham uma proporção de 1:1. Agora imagine que o pool total contém 10 XOR e 1.000 DAI, o que vale US$ 2.000. Isso significa que você tem uma participação de 10% no pool.
 
-Se o preço de 1 XOR atingir 400 DAI, para manter o equilíbrio de uma proporção de 1:1, o fundo total passaria a ser 5 XOR e 2000 DAI, conforme a fórmula [_x\*y=k_](https : //uniswap .org/docs/v2/protocol-overview/how-uniswap-works/). Se você decidir sacar fundos durante esse período, você ainda retirará 10% do pool, pois essa é a sua parte, dos quais 0,5 XOR e 200 DAI (10% do pool) são retirados, o que equivale a US$ 400 (excluindo negociação tarifas). .
+Se o preço de 1 XOR atingir 400 DAI, para manter o equilíbrio de uma proporção de 1:1, o fundo total passaria a ser 5 XOR e 2000 DAI, conforme a fórmula [_x\*y=k_](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/). Se você decidir sacar fundos durante esse período, você ainda retirará 10% do pool, pois essa é a sua parte, dos quais 0,5 XOR e 200 DAI (10% do pool) são retirados, o que equivale a US$ 400 (excluindo negociação tarifas). .
 
 Mas se você tivesse mantido 1 XOR e 100 DAI em vez de depositar em um pool, teria US$ 500 em ativos em vez de sacar US$ 400. Isso é o que chamamos de perda impermanente.
 
-Você pode [veja aqui] (https://www.youtube.com/watch?v=8XJ1MSTEuU0) para uma explicação em vídeo mais aprofundada.
+Você pode [veja aqui](https://www.youtube.com/watch?v=8XJ1MSTEuU0) para uma explicação em vídeo mais aprofundada.
 
-Observe que os efeitos das perdas não permanentes são mitigados pelas taxas de 0,3% pagas em cada negociação e pelo [primeiro programa estratégico](https://medium.com/polkaswap/pswap-rewards-1- polkaswap-liquidity- recompensa- agricultura-3e045d71509).
+Observe que os efeitos das perdas não permanentes são mitigados pelas taxas de 0,3% pagas em cada negociação e pelo [primeiro programa estratégico](https://medium.com/polkaswap/pswap-rewards-1-polkaswap-liquidity-recompensa-agricultura-3e045d71509).
 
-##Como posso ganhar tokens PSWAP?
+## Como posso ganhar tokens PSWAP?
 
 Os pools de liquidez no Polkaswap funcionam de forma muito semelhante a outros DEXs. As taxas são pagas em XOR; Eles são automaticamente convertidos para PSWAP e depois gravados. Uma porcentagem do valor queimado é então reembolsada e entregue aos provedores de liquidez.
 
@@ -89,7 +89,7 @@ Existem três maneiras principais de ganhar PSWAP:
 
 2. A segunda maneira de ganhar PSWAP é comprar XOR com ETH, DAI, DOT ou KSM da curva de indexação de token. Comprar XOR com ETH, DAI, DOT ou KSM ajudaria a expandir o ecossistema SORA, garantiria a curva de indexação e, no caso de DOT e KSM, ajudaria a SORA a garantir espaços de parachain para as cadeias Polkadot e Kusama, respectivamente. 2,5 bilhões de tokens PSWAP foram alocados como recompensas para compradores XOR.
 
- Se você estiver interessado na matemática por trás da curva de ligação de token, leia os detalhes [aqui](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve- 70fab4c3f1b8 ) .
+ Se você estiver interessado na matemática por trás da curva de ligação de token, leia os detalhes [aqui](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8 ) .
 
 3. A terceira maneira de ganhar tokens PSWAP é por meio de descontos de criação de mercado no Polkaswap. 4 milhões de PSWAP (200 mil por mês) serão reservados proporcionalmente para formadores de mercado que tenham pelo menos 500 mil transações com média de pelo menos 1 XOR em cada transação. Você pode ler os detalhes [aqui](https://medium.com/polkaswap/pswap-rewards-part-3-polkaswap-market-making-rebates-1856f62ccfaa).
 
@@ -109,5 +109,5 @@ Não há mais leilões previstos para os próximos meses. Em breve, os tokens KS
 
 ## Saber mais
 
-- [Política de Privacidade do Polkaswap](/polkaswap/privacy)
-- [Termos e Condições do Polkaswap](/polkaswap/terms)
+- [Política de Privacidade do Polkaswap](/pt/polkaswap/privacy)
+- [Termos e Condições do Polkaswap](/pt/polkaswap/terms)

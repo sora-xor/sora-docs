@@ -11,10 +11,10 @@ head:
 
 # Aplicativo móvel SORA
 
-SORA Wallet é um aplicativo exclusivo que você pode baixar no [Android](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora) e [iOS](https:// apps.apple.com/us/app/sora-dae/id1457566711).
+SORA Wallet é um aplicativo exclusivo que você pode baixar no [Android](https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora) e [iOS](https://apps.apple.com/us/app/sora-dae/id1457566711).
 
 ## Aprender mais
 
-- [Participar da Economia SORA](/participar)
-- [Crie uma conta SORA](/crie-um-endereço)
+- [Participar da Economia SORA](/pt/participate)
+- [Crie uma conta SORA](/pt/create-an-address)
 

@@ -48,7 +48,7 @@ head:
       content: "@sora_xor"
 ---
 
-#SORAEconomia
+# SORAEconomia
 
 ## Fundo
 
@@ -92,9 +92,9 @@ bens e serviços que consomem esse novo poder de compra.**
 No entanto, para as transacções financeiras, não estão a ser criados ou
 serviços com o novo dinheiro colocado em circulação, então
 Isto provoca um aumento nos preços dos activos para compensar (o que não é o que você deseja no seu sistema económico).
-Além disso, também é importante compreender a importância da expansão de M para a produção de novos bens e serviços. Como [Shimomura escreveu longamente](https://www.jstage.jst.go.jp/article/economics1950/11/3-4/11_3-4_1/_article/-char/ja/) e Kurihara destilou para um simples, [modelo de programação linear](https://books.google.co.jp/books?id=RVtGAQAAQBAJ&pg=PA60&lpg=PA60&dq=Japan%E2%80%99s+Credit-Supported+Growth+and+Linear+Programming&source= bl&ots =dNNHw-QyMh&sig=ACfU3U0gv9WNMZbWJBlfDf7AL5PY7aZzTQ&hl=ja&sa=X&ved=2ahUKEwjV8rf2qfHoAhUQx4sBHf2cBaEQ6AEwAHoECAwQKw#v=onepage&q=Japão%E2%80%99s% 20Credit-S upported%20Growth%20and%20Linear%20Programming&f=false), expandindo a quantidade de dinheiro para novos bens e serviços Expande a produção económica porque os recursos latentes (especialmente os recursos humanos) são mobilizados e os recursos existentes são melhorados através da criação de novo capital para a produção.
+Além disso, também é importante compreender a importância da expansão de M para a produção de novos bens e serviços. Como [Shimomura escreveu longamente](https://www.jstage.jst.go.jp/article/economics1950/11/3-4/11_3-4_1/_article/-char/ja/) e Kurihara destilou para um simples, [modelo de programação linear](https://books.google.co.jp/books?id=RVtGAQAAQBAJ&pg=PA60&lpg=PA60&dq=Japan%E2%80%99s+Credit-Supported+Growth+and+Linear+Programming&source=bl&ots=dNNHw-QyMh&sig=ACfU3U0gv9WNMZbWJBlfDf7AL5PY7aZzTQ&hl=ja&sa=X&ved=2ahUKEwjV8rf2qfHoAhUQx4sBHf2cBaEQ6AEwAHoECAwQKw#v=onepage&q=Japão%E2%80%99s%20Credit-Supported%20Growth%20and%20Linear%20Programming&f=false), expandindo a quantidade de dinheiro para novos bens e serviços Expande a produção económica porque os recursos latentes (especialmente os recursos humanos) são mobilizados e os recursos existentes são melhorados através da criação de novo capital para a produção.
 
-**O que tudo isso significa é que para que a SORA se torne uma economia descentralizada de sucesso, devemos criar explicitamente novos tokens para criar novos bens (como [vinho](https://www.drinknoir.com)) ou serviços (como [um DEX verdadeiramente impressionante](https://polkaswap.io)).** Embora esse sempre tenha sido nosso objetivo, na v1 da economia SORA havia um problema de liquidez, então a inicialização do sistema econômico foi lenta e um novo modelo foi precisava ter garantias (ou _[orientação futura](https://www.federalreserve.gov/faqs/what-is-forward-guidance-how-is-it-used-in-the -federal-reserve-monetary- policy.htm)_) sobre a liquidez e o preço do XOR para que os projetos possam usar o token com sucesso.
+**O que tudo isso significa é que para que a SORA se torne uma economia descentralizada de sucesso, devemos criar explicitamente novos tokens para criar novos bens (como [vinho](https://www.drinknoir.com)) ou serviços (como [um DEX verdadeiramente impressionante](https://polkaswap.io)).** Embora esse sempre tenha sido nosso objetivo, na v1 da economia SORA havia um problema de liquidez, então a inicialização do sistema econômico foi lenta e um novo modelo foi precisava ter garantias (ou _[orientação futura](https://www.federalreserve.gov/faqs/what-is-forward-guidance-how-is-it-used-in-the-federal-reserve-monetary-policy.htm)_) sobre a liquidez e o preço do XOR para que os projetos possam usar o token com sucesso.
 
 Foi aqui que a pesquisa do nosso economista Yamaguchi voltou a ser concretizada, já que em 2018 ele sugeriu que usássemos uma **curva de títulos de token** para gerenciar de forma autônoma a emissão e demissão de XOR na economia. Por outras palavras, encontrámos uma forma de gerir racionalmente o fornecimento de tokens, sem intervenção humana, o que criará um sistema que evita os problemas de expansão e queda das economias tradicionais e a economia deflacionária de muitas criptomoedas.
 
@@ -118,11 +118,11 @@ O fornecimento de Para comprar XOR na curva de indexação de token, uma das moe
 
 A curva de indexação de token é construída diretamente em [Polkaswap.io](https://polkaswap.io) de forma que se o preço do mercado secundário XOR for excedido para um dos pares de negociação acima, a curva de indexação de token A indexação de token será executada automaticamente para que o novo XOR seja colocado em circulação, 20% da moeda de compra será colocada em um fundo para recomprar e queimar a curva de token bonding. Como as reservas estão em múltiplas moedas, as versões futuras do sistema deverão fornecer formas de equilibrar as reservas cambiais para fornecer liquidez em vários tokens. A forte integração do modelo econômico da SORA com o Polkaswap permitirá que este processo seja automatizado em algum momento no futuro.
 
-A função de preço de compra começa com um desconto (levando em consideração o preço inicial do VAL no lançamento da mainnet) ao preço do XOR no Uniswap no lançamento. A função de preço de compra usa um oráculo para determinar o preço atual que o XOR deveria ter em relação a uma moeda fiduciária. A função preço de venda, por sua vez, é 20% inferior à função preço de compra. A margem de 20% entre as funções de compra e venda tem diferentes utilizações, que são explicadas detalhadamente em um artigo sobre [SORA VAL Validator Rewards](https://medium.com/sora-xor/sora-validator-rewards -419320e22df8).
+A função de preço de compra começa com um desconto (levando em consideração o preço inicial do VAL no lançamento da mainnet) ao preço do XOR no Uniswap no lançamento. A função de preço de compra usa um oráculo para determinar o preço atual que o XOR deveria ter em relação a uma moeda fiduciária. A função preço de venda, por sua vez, é 20% inferior à função preço de compra. A margem de 20% entre as funções de compra e venda tem diferentes utilizações, que são explicadas detalhadamente em um artigo sobre [SORA VAL Validator Rewards](https://medium.com/sora-xor/sora-validator-rewards-419320e22df8).
 
 Um novo [Parlamento SORA](https://medium.com/sora-xor/the-sora-parliament-af8184dae384) (sistema de governança de loteria multilateral) fornecerá uma metodologia para alocar racionalmente esses XORs para criar novos bens e serviços em o ecossistema SORA, de acordo com o modelo económico SORA. Todos os XORs criados são fornecidos gratuitamente ao Parlamento SORA, que então gerencia o fornecimento de tokens usando a curva de indexação de tokens; Especificamente, a Autoridade dos Mercados Financeiros, um órgão permanente do Parlamento SORA, será a entidade que compra e vende XOR através do principal criador de mercado.
 
-![](.gitbook/assets/xormarketmaker.png)
+![](/.gitbook/assets/xormarketmaker.png)
 
 Como **a curva de indexação de tokens é essencialmente um banco central descentralizado e infinitamente líquido**, o preço não pode subir acima ou cair abaixo das funções de compra e venda, respectivamente. Isso é especialmente verdadeiro porque o principal criador de mercado do SORA está integrado ao Polkaswap e é executado automaticamente quando está dentro do alcance. Além disso, como as funções de preço da curva de indexação de tokens são ascendentes, **o preço aumenta com a oferta de tokens**. Isso fornece as seguintes propriedades:
 
@@ -143,7 +143,7 @@ Características específicas do desenho econômico baseado na curva de ligaçã
 
 Os preços de compra/venda no mercado secundário são limitados em uma faixa dinâmica de preços imposta pela curva de indexação de tokens. Portanto, os preços atuais de compra/venda oferecidos pela curva de indexação de token fornecem níveis de suporte e resistência, ou a faixa de confiança do XOR no mercado, com orientação futura.
 
-![](.gitbook/assets/xor-supply.png)
+![](/.gitbook/assets/xor-supply.png)
 
 A incerteza de preços tem sido uma das principais causas da baixa adoção de criptomoedas
 para pagamentos. No entanto, com dados de fornecimento de tokens em tempo real
@@ -152,11 +152,11 @@ todos os usuários podem observar as tendências atuais relacionadas ao preço d
 e fazer expectativas informadas sobre os níveis futuros.
 Conforme ilustrado abaixo, **os preços de compra/venda oferecidos pela curva de indexação de token e os preços de compra/venda no mercado secundário mudam continuamente** à medida que as ordens de compra/venda mudam continuamente. A observabilidade da oferta de XOR, juntamente com as propriedades da curva de indexação do token, atuam, portanto, como uma orientação futura integrada sobre a taxa de câmbio do XOR, reduzindo a incerteza e melhorando sua propriedade de reserva de valor enquanto o token está em seu nascimento. Assim que a economia autônoma baseada em XOR amadurecer, o mecanismo da curva de indexação de tokens poderá ser suavizado ou desacoplado, mas isso provavelmente ocorrerá várias décadas no futuro.
 
-![](.gitbook/assets/money-supply.png)
+![](/.gitbook/assets/money-supply.png)
 
 Embora a economia SORA esteja em sua fase infantil, a curva de ligação de tokens desempenha um papel crucial na manutenção da propriedade de reserva de valor do XOR. A capacidade de estabelecer faixas de confiança dos movimentos de preços simbólicos reduz a barreira psicológica à aceitação de XOR para pagamentos. Uma vez que o seu preço muda continuamente, a curva de indexação simbólica NÃO é um mecanismo de taxa de câmbio fixa, embora a sua justificação política partilhe semelhanças com a intervenção no mercado cambial por parte dos bancos centrais, especialmente nas economias em desenvolvimento.
 
-![](.gitbook/assets/phases.png)
+![](/.gitbook/assets/phases.png)
 
 ## Rumo a um novo amanhã
 
@@ -164,5 +164,5 @@ Uma das razões pelas quais os sistemas económicos descentralizados P2P não fo
 
 ## Aprender mais
 
-- [Governança SORA](/sora-governance.md)
-- [Curva de ligação de token](/tbc.md)
+- [Governança SORA](/pt/sora-governance.md)
+- [Curva de ligação de token](/pt/tbc.md)

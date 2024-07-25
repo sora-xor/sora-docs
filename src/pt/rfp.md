@@ -106,5 +106,5 @@ Continuaremos a refinar este processo e a atualizar o guia de Desenvolvimento De
 
 ## Aprender Mais
 
-- [Plan Integrado de SORA](/integrated-plan)
-- [Programa de Constructores de SORA](/sora-builders)
+- [Plan Integrado de SORA](/pt/integrated-plan.md)
+- [Programa de Constructores de SORA](/pt/sora-builders.md)

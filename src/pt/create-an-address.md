@@ -1,12 +1,12 @@
 ---
-title: "Criar um endereço na rede SORA | Documentação SORA"
+title: Criar um endereço na rede SORA | Documentação SORA
 head:
   - - meta
     - name: description
-      content: “Aprenda como criar um endereço na rede SORA e comece a interagir com o ecossistema SORA. Descubra os passos para gerar um novo endereço, a importância da segurança do endereço e como utilizar seu endereço para diversas atividades dentro da rede SORA.
+      content: Aprenda como criar um endereço na rede SORA e comece a interagir com o ecossistema SORA. Descubra os passos para gerar um novo endereço, a importância da segurança do endereço e como utilizar seu endereço para diversas atividades dentro da rede SORA.
   - - meta
     - name: keywords
-      content: "criar um endereço, rede SORA, geração de endereços, segurança de endereços"
+      content: criar um endereço, rede SORA, geração de endereços, segurança de endereços
 ---
 
 <!-- TODO:
@@ -18,11 +18,11 @@ head:
 
 Aqui fornecemos instruções sobre como criar contas:
 
-- [via plug-in do navegador polkadot.js](#via-polkadotjs-browser-plugin)
-- [via aplicativo polkadot.js](#via-polkadotjs-app-ui)
-- [via aplicativo móvel SORA](#via-sora-mobile-application)
+- [via plug-in do navegador polkadot.js](#atraves-do-plug-in-do-navegador-polkadot-js)
+- [via aplicativo polkadot.js](#via-interface-do-aplicativo-polkadot-js)
+- [via aplicativo móvel SORA](#atraves-do-aplicativo-movel-sora)
 
-::: dica
+::: tip
 
 Recomendamos usar o testnet SORA para exercícios práticos. Aqui estão os links da Testnet:
 
@@ -35,7 +35,7 @@ Recomendamos usar o testnet SORA para exercícios práticos. Aqui estão os link
 
 No exercício prático, uma conta deverá ser criada de 3 formas diferentes. Seja qual for a forma que você escolher, você terá o mesmo resultado após importar uma conta para outras plataformas. Um lindo vídeo tutorial:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RdJ6yFFl06k" title="Criação de conta SORA" frameborder="0" permit="accelerometer; autoplay; clipboard - escrever; mídia criptografada;
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RdJ6yFFl06k" title="SORA account creation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Através do plug-in do navegador polkadot.js
 
@@ -73,7 +73,7 @@ Use um navegador Chrome ou Firefox.
 
  Bom trabalho! Agora você tem um endereço com o prefixo `cn`
 
- ![](.gitbook/assets/create-address-cn-prefix.png)
+ ![](/.gitbook/assets/create-address-cn-prefix.png)
 
 ## Via interface do aplicativo polkadot.js
 
@@ -81,31 +81,31 @@ Use um navegador Chrome ou Firefox.
 
  Se você já instalou o complemento do navegador Polkadot, ele solicitará permissão para sincronizar dados. Você pode fazer isso, pois facilitará o gerenciamento da conta.
 
- ![](.gitbook/assets/create-address-app-authorize.png)
+ ![](/.gitbook/assets/create-address-app-authorize.png)
 
 2. Abra a página [Contas](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.stage.sora2.soramitsu.co.jp#/accounts).
 
  Se você permitir a sincronização do plug-in do navegador Polkadot, suas contas aparecerão no aplicativo Polkadot.js:
 
- ![](.gitbook/assets/create-address-app-synced.png)
+ ![](/.gitbook/assets/create-address-app-synced.png)
 
  Você pode criar uma nova conta.
 
 3. Clique em "Adicionar conta":
 
- ![](.gitbook/assets/create-address-app-add-account.png)
+ ![](/.gitbook/assets/create-address-app-add-account.png)
 
 4. Salve a frase mnemônica, **tenha certeza de mantê-la segura e não compartilhá-la**. Confirme que você salvou o mnemônico e clique em “Avançar”:
 
- ![](.gitbook/assets/create-address-app-mnemonic.png)
+ ![](/.gitbook/assets/create-address-app-mnemonic.png)
 
 5. Digite um nome e senha para a conta e clique em "Avançar":
 
- ![](.gitbook/assets/create-address-app-name-password.png)
+ ![](/.gitbook/assets/create-address-app-name-password.png)
 
 6. Após a confirmação clique em salvar.
 
- ![](.gitbook/assets/create-address-app-save.png)
+ ![](/.gitbook/assets/create-address-app-save.png)
 
 ## Via interface do aplicativo polkadot.js
 
@@ -113,35 +113,35 @@ Use um navegador Chrome ou Firefox.
 
  Se você já instalou o complemento do navegador Polkadot, será solicitada permissão para sincronizar dados. Recomenda-se fazê-lo, pois facilitará o gerenciamento da conta:
 
- ![](.gitbook/assets/create-address-app-authorize.png)
+ ![](/.gitbook/assets/create-address-app-authorize.png)
 
 2. Acesse a página [Contas](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.stage.sora2.soramitsu.co.jp#/accounts).
 
  Se você permitir a sincronização do plug-in do navegador Polkadot, suas contas aparecerão no aplicativo Polkadot.js:
 
- ![](.gitbook/assets/create-address-app-synced.png)
+ ![](/.gitbook/assets/create-address-app-synced.png)
 
  Você pode criar uma nova conta.
 
 3. Clique em "Adicionar conta":
 
- ![](.gitbook/assets/create-address-app-add-account.png)
+ ![](/.gitbook/assets/create-address-app-add-account.png)
 
 4. Salve a frase mnemônica, certifique-se de mantê-la segura e não a compartilhe. Confirme que você salvou o mnemônico e clique em “Avançar”:
 
- ![](.gitbook/assets/create-address-app-mnemonic.png)
+ ![](/.gitbook/assets/create-address-app-mnemonic.png)
 
 5. Digite um nome e senha para a conta e clique em "Avançar":
 
- ![](.gitbook/assets/create-address-app-name-password.png)
+ ![](/.gitbook/assets/create-address-app-name-password.png)
 
 6. Após a confirmação, clique em “Salvar”:
 
- ![](.gitbook/assets/create-address-app-save.png)
+ ![](/.gitbook/assets/create-address-app-save.png)
 
 Agora você tem duas contas. Um foi injetado a partir do plugin do navegador Polkadot e o segundo foi criado no aplicativo Polkadot.js:
 
-![](.gitbook/assets/create-address-app-view-accounts.png)
+![](/.gitbook/assets/create-address-app-view-accounts.png)
 
 ## Através do aplicativo móvel SORA
 
@@ -159,19 +159,19 @@ Ao instalar o aplicativo, você poderá criar uma conta.
 
 1. Abra o aplicativo. Existem duas opções: **Criar conta** e **Importar conta**:
 
- ![](.gitbook/assets/create-address-sora-options.png)
+ ![](/.gitbook/assets/create-address-sora-options.png)
 
 2. Para este exercício, toque em **Criar conta**:
 
- ![](.gitbook/assets/create-address-sora-create.png)
+ ![](/.gitbook/assets/create-address-sora-create.png)
 
 3. Insira um nome de conta. Pode ser qualquer corrente. Então é hora de continuar.
 
- ![](.gitbook/assets/create-address-sora-enter-name.png)
+ ![](/.gitbook/assets/create-address-sora-enter-name.png)
 
 4. Será exibida a tela com a frase mnemônica. Mantenha a frase mnemônica em um lugar secreto ou lembre-se dela.
 
- ::: dica
+ :::tip
 
  A frase mnemônica é a única forma de recuperar a conta em caso de troca de celular, logout do aplicativo ou outros casos de emergência.
 
@@ -179,15 +179,15 @@ Ao instalar o aplicativo, você poderá criar uma conta.
 
  Você pode confirmar o mnemônico ou pular o processo. Basta tocar nas palavras na parte superior da tela na ordem correta. A palavra tocada será exibida na parte inferior da tela.
 
- ![](.gitbook/assets/create-address-sora-confirm-mnemonic.png)
+ ![](/.gitbook/assets/create-address-sora-confirm-mnemonic.png)
 
 5. Insira e confirme um código PIN de sua escolha.
 
- ![](.gitbook/assets/create-address-sora-enter-pin.png)
+ ![](/.gitbook/assets/create-address-sora-enter-pin.png)
 
 6. Você também pode permitir que o aplicativo use autenticação biométrica. E por fim, você terá acesso à carteira.
 
- ![](.gitbook/assets/create-address-sora-biometry-auth.png)
+ ![](/.gitbook/assets/create-address-sora-biometry-auth.png)
 
 #### Restaurar conta do mnemônico em diferentes aplicativos
 
@@ -201,44 +201,44 @@ Você pode restaurar a conta no plugin do navegador Polkadot.
 
 1. Clique no sinal ➕ e clique em **Importar conta de seed pré-existente**:
 
- ![](.gitbook/assets/restore-account-import.png)
+ ![](/.gitbook/assets/restore-account-import.png)
 
 2. Em seguida, insira a frase mnemônica e clique em **Avançar**:
 
- ![](.gitbook/assets/restore-account-enter-mnemonic.png)
+ ![](/.gitbook/assets/restore-account-enter-mnemonic.png)
 
 3. Em seguida, insira o nome da conta, defina uma senha e prossiga.
 
- ![](.gitbook/assets/restore-account-setup.png)
+ ![](/.gitbook/assets/restore-account-setup.png)
 
 Ótimo, você acabou de restaurar sua conta!
 
-![](.gitbook/assets/restore-account-restored.png)
+![](/.gitbook/assets/restore-account-restored.png)
 
 O processo é o mesmo para o aplicativo móvel:
 
 1. Abra o aplicativo móvel e toque em **Importar conta**.
 
- ![](.gitbook/assets/restore-account-sora-import.png)
+ ![](/.gitbook/assets/restore-account-sora-import.png)
 
 2. Insira o nome da conta e a frase mnemônica.
 
- ![](.gitbook/assets/restore-account-sora-enter-mnemonic.png)
+ ![](/.gitbook/assets/restore-account-sora-enter-mnemonic.png)
 
 3. Em seguida, defina e confirme um código PIN.
 
- ![](.gitbook/assets/restore-account-sora-enter-pin.png)
+ ![](/.gitbook/assets/restore-account-sora-enter-pin.png)
 
 4. Depois disso, você terá acesso à conta.
 
- ![](.gitbook/assets/restore-account-biometry-auth.png)
+ ![](/.gitbook/assets/restore-account-biometry-auth.png)
 
 #### Converter formato de endereço
 
 Conforme mencionado anteriormente, as redes Substrate usam diferentes prefixos de endereço para gerar endereços. No entanto, o par de chaves é o mesmo. Se você criar uma conta, mas obtiver o endereço sem o prefixo `cn`, poderá convertê-lo usando o [conversor de endereço Subscan](https://sora.subscan.io/tools/ss58_transform).
 
-![](.gitbook/assets/convert-address-subscan-converter.png)
+![](/.gitbook/assets/convert-address-subscan-converter.png)
 
 Basta inserir seu endereço e clicar em **Transformar**. Você pode especificar o tipo de saída. Por padrão, a ferramenta Subscan converterá o endereço para todos os formatos de rede suportados.
 
-![](.gitbook/assets/convert-address-transform.png)
+![](/.gitbook/assets/convert-address-transform.png)

@@ -27,7 +27,7 @@ head:
       content: Red SORA
   - - meta
     - property: og:locale
-      content: en_US
+      content: es_es
   - - meta
     - name: twitter:card
       content: summary
@@ -65,7 +65,11 @@ Según la Teoría General de la Cantidad de la macroeconomía, una moneda podrí
 - para especulación
 - para producción
 
-Inflar una moneda para consumo o especulación conduce a aumentos de precios y ciclos económicos de auge y caída. Crear dinero para producción puede llevar al crecimiento económico a una tasa predecible, avanzando en el desarrollo humano y la tecnología. La tokenómica de SORA se basa en una [Curva de Vinculación de Tokens](/tbc) que ayuda a mitigar las valoraciones de auge y caída de la mayoría de las criptomonedas, y maneja los desafíos de no tener un suministro elástico de capital.
+Inflar una moneda para consumo o especulación conduce a aumentos de
+precios y ciclos económicos de auge y caída. Crear dinero para
+producción puede llevar al crecimiento económico a una tasa
+predecible, avanzando en el desarrollo humano y la tecnología. La
+tokenómica de SORA se basa en una [Curva de Enlace de Tokens](/es/tbc) que ayuda a mitigar las valoraciones de auge y caída de la mayoría de las criptomonedas, y maneja los desafíos de no tener un suministro elástico de capital.
 
 ## El Caso de XOR
 
@@ -79,6 +83,6 @@ Además, XOR no es una moneda basada en deuda, por lo que se pueden lograr resul
 
 ## Aprender Más
 
-- [Economía de SORA](/sora-economy.md)
-- [Tokenómica de SORA](/tokenomics.md)
+- [Economía de SORA](/es/sora-economy.md)
+- [Tokenómica de SORA](/es/tokenomics.md)
 

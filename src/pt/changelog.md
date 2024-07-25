@@ -27,7 +27,7 @@ head:
       content: "Documentação SORA"
   - - meta
     - property: og:locale
-      content: "en_US"
+      content: "pt_BR"
   - - meta
     - name: twitter:card
       content: "summary"
@@ -47,7 +47,7 @@ head:
 
 # Registro de Desenvolvimento de Rede SORA
 
-A rede SORA e os construtores SORA estão trabalhando constantemente para melhorar a rede e adicionar mais recursos e estabilidade. Nesta página você encontrará os changelogs de cada versão SORA, incluindo o SORA Blockchain, a SORA Mobile Wallet e [participantes do Programa Builders](sora-builders.md).
+A rede SORA e os construtores SORA estão trabalhando constantemente para melhorar a rede e adicionar mais recursos e estabilidade. Nesta página você encontrará os changelogs de cada versão SORA, incluindo o SORA Blockchain, a SORA Mobile Wallet e [participantes do Programa Builders](/pt/sora-builders.md).
 
 ## Blockchain SORA
 
@@ -76,5 +76,5 @@ A rede SORA e os construtores SORA estão trabalhando constantemente para melhor
 
 ## Aprender mais
 
-- [Plano Integrado SORA](/integrated-plan.md)
-- [Solicitar recursos no SORA](/rfp.md)
+- [Plano Integrado SORA](/pt/integrated-plan.md)
+- [Solicitar recursos no SORA](/pt/rfp.md)

@@ -30,7 +30,7 @@ head:
       content: "Documentos de SORA"
   - - meta
     - property: og:locale
-      content: "en_US"
+      content: "pt_BR"
   - - meta
     - name: twitter:card
       content: "summary"
@@ -48,7 +48,7 @@ head:
       content: "@sora_xor"
 ---
 
-#SORA Governança
+# SORA Governança
 
 A governação SORA ainda está em desenvolvimento. A versão atual usa a implementação de governança padrão [Polkadot](https://wiki.polkadot.network/docs/maintain-guides-democracy).
 
@@ -64,5 +64,5 @@ Consulte [este artigo no Medium](https://medium.com/sora-xor/the-sora-parliament
 
 ## Aprender mais
 
-- [XOR](/xor.md)
-- [Solicitar recursos no SORA](/rfp.md)
+- [XOR](/pt/xor.md)
+- [Solicitar recursos no SORA](/pt/rfp.md)

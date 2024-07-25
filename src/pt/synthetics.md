@@ -1,7 +1,6 @@
-
 ---
-titulo: “SORA Sintéticos explicou. Como funcionam os ativos sintéticos SORA"
-cabecera:
+title: “SORA Sintéticos explicou. Como funcionam os ativos sintéticos SORA"
+head:
   - - meta
     - nombre: descripcion
       contenido: “Mergulhe na documentação SORA Synthetics - Um guia completo para criar e gerenciar testes sintéticos. Aumente o desempenho e a confiabilidade do seu aplicativo. Este guia fornece um passo a passo detalhado para projetar, implementar e monitorar testes sintéticos para obter o desempenho ideal do aplicativo. Explore exemplos de código, estratégias e práticas recomendadas para aproveitar ao máximo os recursos de monitoramento sintético do SORA"
@@ -9,7 +8,7 @@ cabecera:
     - nombre: palavras chave
       contenido: “Sintéticos SORA, ativos sintéticos, desempenho de aplicativos, exemplos de código, mecanismo de taxas dinâmicas, mecanismo de backstop, preço mínimo, governança on-chain, limite de negociação, pools de liquidez, índices totalmente garantidos, on-chain, off-chain, operações DeFi, censura dados resistentes, oracleizados, XSTUSD, comunidade, token especializado, garantia, ecossistema SORA, melhores práticas, monitoramento sintético, plataforma SORA, otimização de desempenho"
   - - link
-    - rel: folha_de_estilo
+    - rel: stylesheet
       href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
 ---
 
@@ -17,9 +16,9 @@ cabecera:
 
 ## O que são ativos sintéticos?
 
-Ativos sintéticos são ativos vinculados a um índice usando apenas garantias em cadeia. [XSTUSD (SORA Synthetic USD) é um ótimo exemplo de ativo sintético](https://www.forbes.com/sites/tatianakoffman/2021/11/23/the-rise-of-decentralized-money-on-polkadotnew -algorithmic-stablecoin-launches-on-sora/), pois está atrelado ao valor do dólar americano, mas atualmente respaldado pela possibilidade de resgate para
+Ativos sintéticos são ativos vinculados a um índice usando apenas garantias em cadeia. [XSTUSD (SORA Synthetic USD) é um ótimo exemplo de ativo sintético](https://www.forbes.com/sites/tatianakoffman/2021/11/23/the-rise-of-decentralized-money-on-polkadotnew-algorithmic-stablecoin-launches-on-sora/), pois está atrelado ao valor do dólar americano, mas atualmente respaldado pela possibilidade de resgate para
 
-![XST_platformToken.png](.gitbook/assets/synthetics.png)
+![XST_platformToken.png](/.gitbook/assets/synthetics.png)
 
 Os ativos sintéticos são importantes porque os ativos totalmente garantidos na rede, mas vinculados a índices fora da rede, são incrivelmente poderosos. Ativos puramente sintéticos podem ser usados ​​para representar muitos tipos de valor, como para rastrear ações de instrumentos financeiros e títulos. Quer o índice seja uma moeda fiduciária como o dólar americano, uma mercadoria como o XAU (ouro) ou um título como o TSLA, ter ativos totalmente em cadeia para representar esses títulos permite uma infinidade de operações DeFi combináveis, ao mesmo tempo que é impossível de censurar. Os usos possíveis são verdadeiramente infinitos e limitados apenas pela imaginação dos desenvolvedores e pelos dados oracle confiáveis!
 
@@ -48,11 +47,11 @@ SORA está recebendo dados oracleizados para habilitar praticamente qualquer ati
 
 ## **Histórias de usuários**
 
-### User Story 1: Negociação de ativos sintéticos para diversificação
+### História do usuário 1: Negociação de ativos sintéticos para diversificação
 
 Como investidor, quero negociar ativos sintéticos numa bolsa descentralizada (DEX) para poder diversificar a minha carteira e obter exposição a uma vasta gama de ativos sem deter diretamente os ativos subjacentes. Quero poder negociar vários ativos sintéticos que representem diferentes criptomoedas, ações e mercadorias para reduzir o risco e maximizar os retornos potenciais.
 
-### User Story 2: Cobertura da volatilidade do mercado com ativos sintéticos
+### User Story História do usuário 2: Cobertura da volatilidade do mercado com ativos sintéticos
 
 Como trader, preciso poder usar ativos sintéticos em uma DEX para me proteger contra a volatilidade do mercado. Ao negociar derivados sintéticos que acompanham os movimentos de preços de ativos específicos, posso proteger as minhas posições de perdas potenciais e gerir o risco de forma eficaz, mesmo durante condições de mercado turbulentas.
 
@@ -60,7 +59,7 @@ Como trader, preciso poder usar ativos sintéticos em uma DEX para me proteger c
 
 Como trader de alto risco, quero aproveitar os ativos sintéticos em uma DEX para ampliar meus lucros potenciais com movimentos de preços de curto prazo. Ao negociar derivados sintéticos com alavancagem, posso ampliar os meus lucros sem deter grandes quantidades de garantias, o que me permite participar em oportunidades especulativas com maior flexibilidade financeira.
 
-### User Story 4: Acessando ativos tradicionais em uma DEX com ativos sintéticos
+### História do usuário 4: Acessando ativos tradicionais em uma DEX com ativos sintéticos
 
 Como investidor em criptografia, desejo obter exposição a ativos tradicionais, como ações, índices e moedas fiduciárias, por meio de ativos sintéticos em um DEX. Desta forma, posso aceder e negociar nos mercados tradicionais de forma descentralizada, diretamente da minha carteira de criptomoedas, sem necessidade de passar por intermediários financeiros tradicionais.
 
@@ -89,9 +88,9 @@ As operações que excedem esse limite causarão uma mensagem de erro.
 
 ## Extrínseco
 
-<!-- TODOS consideram consultar a documentação RUST gerada em vez de descrever todos os parâmetros extrínsecos aqui -->
+<!-- TODO consider referencing the generated RUST documentation instead of describing all the extrinsic parameters here -->
 
-<!-- ALL Considere substituir diagramas de sequência por diagramas de atividades -->
+<!-- TODO Give thought to substituting the sequence diagrams with the activity diagrams -->
 
 ## Extrínseco
 
@@ -258,26 +257,27 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    participant L as Proxy de Liquidez
-    participant X as Plataforma XST
-    participant O as Proxy de Oráculo
-    L->>X: Cotar ativos X-Y
-    break El O ID DEX não é Polkaswap (0) ou nenhum dos ativos são ativos de base sintéticos ou o ativo alvo não está habilitado como sintético
-        X-->>L: Não pode ser trocado
+    participant L as Liquidity Proxy
+    participant X as XST Platform
+    participant O as Oracle Proxy
+    L->>X: Quote assets X-Y
+    break DEX Id is not Polkaswap (0) or none of the assets is synthetic base asset or target asset is not enabled as synthetic
+        X-->>L: Can't exchange
+
     end
-    Note over X,L: Suponiendo que el activo X es un activo sintético <br/> y el activo Y es un activo base sintético
-    Note over X: Cálculo do valor cotado
+    Note over X,L: Assuming asset X is synthetic asset <br/> and asset Y is synthetic base asset
+    Note over X: Quote amount calculation
     activate X
-    X->>O: Obtener tasa del símbolo de oráculo vinculado a X
-    O-->>X: Taxa de símbolo
-    break Ocorreu um erro ao calcular o preço
-    X-->>L: Falha no cálculo do preço
+    X->>O: Get rate of oracle symbol linked to X
+    O-->>X: Symbol rate
+    break An error occurred while calculating the price
+        X-->>L: Price Calculation Failed
     end
-    break Os limites de slippage não foram atingidos durante a execução da transação.
-    X-->>L: Limite de escorregamento excedido
+    break Limits for slippage has not been met during transaction execution.
+        X-->>L: SlippageLimitExceeded
     end
-    desativar
-    X-->>L: Valor cotado do ativo
+    deactivate X
+    X-->>L: Asset X quote amount
 ```
 
 ### Troca de ativos sintéticos
@@ -319,7 +319,6 @@ sequenceDiagram
 ## Mecanismo de reserva
 
 O mecanismo de fallback na plataforma XST garante a desativação oportuna de símbolos obsoletos.
-
 ```mermaid
 sequenceDiagram
     actor R as Relayer
@@ -338,7 +337,7 @@ sequenceDiagram
     end
 ```
 
-##Mecanismo de taxa dinâmica
+## Mecanismo de taxa dinâmica
 
 ### Notação
 
@@ -437,5 +436,5 @@ $F_{XOR} = \frac{O_{c/\ taxa} - O}{\overline{B_p^s}}$
 
 ## Aprender mais
 
-- [Tokenomia XST](/xst)
-- [Solicitar recursos no SORA](/rfp)
+- [Tokenomia XST](/pt/xst.md)
+- [Solicitar recursos no SORA](/pt/rfp.md)
