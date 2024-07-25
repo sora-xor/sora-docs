@@ -9,7 +9,7 @@ head:
       content: "construir na rede SORA, aplicativos descentralizados, dApps, infraestrutura, desenvolvedores, ferramentas, recursos, documentação"
 ---
 
-#Construir em SORA
+# Construir em SORA
 
 A Rede SORA está buscando ativamente novos construtores para aproveitar as vantagens da tecnologia e governança de ponta disponíveis na rede.
 

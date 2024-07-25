@@ -9,9 +9,9 @@ head:
         content: "negociação avançada, rede SORA, Polkaswap, ordens de limite, ordens de stop-loss, funcionalidades de negociação"
 ---
 
-#AdvancedTrade
+# AdvancedTrade
 
-##Teoria
+## Teoria
 
 <!-- @include: /snippets/advanced-trading-theory.md -->
 
