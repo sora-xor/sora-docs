@@ -47,7 +47,6 @@ provided.
 
 ![](/.gitbook/assets/SORADDP.png)
 
-
 ## Updated SORA and Polkaswap Decentralised Development Tutorial
 
 For those who are not experienced in GitHub, but consider that their (non-spam) submission could be valuable, here is a quick walkthrough to get you started:

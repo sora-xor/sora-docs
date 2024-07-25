@@ -1,3 +1,14 @@
+---
+title: Establish an HRMP channel | SORA Docs
+head:
+  - - meta
+    - name: description
+      content: Learn how to establish communication between third-party parachain and the SORA network.
+  - - meta
+    - name: keywords
+      content: adding tokens, HRMP channel, SORA network, listing tokens, requirements, procedures, asset bridging, blockchain networks, whitelist
+---
+
 # Establish an HRMP channel
 
 To establish communication between your parachain and SORA, you must create HRMP channels that go through the Relay Chain to transfer messages between parachains.
@@ -32,4 +43,6 @@ The steps here mirror those from the preceding sub-section. For steps (1) and (2
 
 Upon successful execution of this process, your parachain will be set up to receive messages from the SORA parachain.
 
-We will still need to register the assets to be transferred from one chain to another. On your parachain, you will need to register the SORA assets. On the SORA Mainnet, we will need to register your assets.
+## Last step
+
+We will need to register the assets for transfer between chains. On your parachain, you'll need to register the SORA assets. Conversely, on the SORA Mainnet, we will handle the registration of your assets, or you can do it yourself. This guide provides steps [to whitelist your assets on Polkaswap](/whitelist-token-to-polkaswap.md).
