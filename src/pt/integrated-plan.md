@@ -58,7 +58,7 @@ O plano integrado da SORA é dividido em: **Business**, **Backend**, **Web** e *
 
 - **Ativos do mundo real**: SORA incluirá RWA como ativos negociáveis ​​dentro da rede.
 
-##Processo interno
+## rocesso interno
 
 **Backend** cobre a tecnologia relacionada à rede SORA.
 - **SORA Parachain em Kusama (Full)**: Isto cobre o trabalho necessário para produzir blocos do espaço de parachain Kusama que ganhamos, o que já está feito!

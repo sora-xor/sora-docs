@@ -1,3 +1,4 @@
+---
 title: "Paletes SORA | Documentação SORA"
 head:
   - - meta
@@ -7,8 +8,6 @@ head:
     - name: keywords
       content: "Paletes SORA, rede SORA, sistema de execução, componentes modulares, governança, piquetagem, tesouraria, identidade, aplicações blockchain, customização, extensibilidade"
 ---
-
-# Pallets
 
 # Paletes
 

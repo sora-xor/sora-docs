@@ -7,6 +7,7 @@ head:
   - - meta
     - name: keywords
       content: SORA, julgamento de identidade, julgamento de solicitação, polkadot.js, identidade na rede, verificação, fundos de marketing comunitário, fundos de marketing comunitário
+---
 
 # Identidades em redes baseadas em substrato
 

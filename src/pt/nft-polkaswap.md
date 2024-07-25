@@ -9,7 +9,7 @@ head:
       content: "NFTs, Tokens Não Fungíveis, rede SORA, colecionáveis ​​digitais, arte, ativos exclusivos, cunhagem, negociação, exposição, ecossistema NFT, comunidade NFT"
 ---
 
-#NFTs
+# NFTs
 
 <!-- @include: /snippets/nft-theory.md -->
 
