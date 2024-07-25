@@ -64,54 +64,6 @@ A Função Preço de Venda Real aumenta à medida que as reservas aumentam, apro
 
 A Função Preço de Compra é a mesma nos dois cenários, Real e Ideal.
 
-Portanto, construir reservas após o lançamento é crucial e **há um programa especial de incentivo no PSWAP (25% do fornecimento total de PSWAP) para usuários que compram XOR recém-criado no TBC.** Você pode ler os detalhes [aqui](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-b
-Em termos simples, a curva de token bonding é essencialmente um banco central descentralizado com liquidez infinita. A qualquer momento, você pode comprar XOR recém-criado da curva de títulos de token usando **ativos de reserva** específicos ou vender seus tokens XOR (que queimam instantaneamente) por um desses ativos.
-
-Além disso, como as funções de preço da curva de ligação do token são inclinadas para cima, o **preço aumenta com a oferta do token**. Observe que com uma curva de token bonding, **o preço e a oferta XOR estão correlacionados** e se movem de acordo.
-
-<figure><img src="/.gitbook/assets/xor-supply-correct.png" alt=""><figcaption><p>O preço aumentará quando a oferta aumentar e vice-versa</p></figcaption></figure>
-
-Outra implicação importante deste mecanismo é que o preço do XOR no mercado secundário (Polkaswap, Uniswap, CEXs...) tende a ser limitado a uma determinada faixa de preço (ilustrada como o triângulo vermelho no diagrama). Na verdade, se um usuário negociar XOR fora dessa faixa, ele criará uma **oportunidade de arbitragem** para comprar/vender redução desta forma.
-
-## Por que a curva de vinculação de token é útil?
-
-- **Gerenciamento Autônomo do Fornecimento de Tokens para Corresponder à Demanda (Fornecimento Elástico)**. A curva de token bonding introduz e remove o XOR de circulação para atender à demanda do mercado. Isto garante o crescimento econômico sustentável e a estabilidade de preços da economia simbólica, uma vez que o sistema pode adaptar-se às novas necessidades.
-- **Liquidez Profunda e Imediata**. O contrato de curva de títulos é a contraparte da transação e sempre mantém reservas de recompra suficientes (_leia mais sobre isso abaixo no parágrafo “Cenários Ideais e Reais”_).
-- Mitiga as influências da inflação do mercado e ataques de crash/manipulação.
-- A política monetária descentralizada da XOR oferece proteção contra abusos por parte das autoridades e total transparência para os utilizadores.
-- A reserva de recompra no mercado primário limita a capacidade dos governos ou dos vendedores a descoberto de manipular o mercado.
-- O sistema monetário do SORA v2 não é baseado em dívida nem impulsionado pela dívida, e os novos tokens são sempre atribuídos sob supervisão democrática, ajudando a eliminar ciclos insustentáveis ​​de expansão e recessão nos sistemas econômicos contemporâneos.
-- Os preços atuais de compra/venda oferecidos pela curva token bonding fornecem níveis de suporte e resistência, ou uma faixa de confiança para o preço do XOR no mercado, com orientação futura.
-- 20% do valor adquirido na função de compras é reservado aos diferentes atores da rede SORA:
-  - 1% vai para recompra e queima de [VAL](/pt/val)
-  - 9% da sua utilização é decidida pelos titulares de [VAL](/pt/val), principalmente para cedência de liquidez
-  - 0,1% é dado aos cidadãos
-  - 0,4% é dado a lojas e compradores
-  - 0,5% é usado para recomprar e queimar [TBCD](/pt/tbcd)
-  - 9% é usado para projetos
-
-![](/.gitbook/assets/margin-tbc.png)
-
-Embora a economia SORA esteja em sua fase inicial, a curva de ligação de tokens desempenha um papel crucial na manutenção da propriedade de valor de refúgio seguro do XOR. A capacidade de definir faixas de confiança para movimentos de preços simbólicos reduz a barreira psicológica para a aceitação de XOR para pagamentos.
-
-É importante notar que **a curva de token bonding não garante a estabilidade de preços XOR**, mas sim uma medida de previsibilidade de preços [orientada para o futuro](https://www.ecb.europa.eu/explainers/tell-me/html/what-is-forward_guidance.en.html).
-
-## Cenários ideais e reais
-
-Agora nos concentramos nas **reservas**, que desempenham um papel crucial no mecanismo TBC.
-
-No lançamento da rede SORA v2, já existirão 350.000 XOR. Isso significa que a curva de ligação do token SORA terá uma obrigação não financiada de 350.000 XOR no valor DAI, 350.000 XOR no valor ETH, 350.000 no valor VAL e 350.000 XOR no valor PSWAP. Este é o **cenário real**.
-
-A função de preço de compra foi definida como $ 900 no lançamento suave, sua equação é _y = mx + b, onde b:=634$_ e a inclinação _m := 1/1337._
-
-Este cenário implica que a função de preço de venda da curva de ligação do token não é 20% inferior à função de preço de compra (como deveria ser no **cenário ideal**), mas é ainda mais baixa. Há pouca liquidez nas reservas para você vender seus tokens XOR, e o preço na Função Preço de Venda pode ser baixo comparado ao preço do mercado secundário.
-
-![](/.gitbook/assets/tbc(1).png)
-
-A Função Preço de Venda Real aumenta à medida que as reservas aumentam, aproximando-se da Função Preço de Venda Ideal, que é 20% inferior à Função Preço de Compra.
-
-A Função Preço de Compra é a mesma nos dois cenários, Real e Ideal.
-
 Portanto, construir reservas após o lançamento é crucial e **há um programa especial de incentivo no PSWAP (25% do fornecimento total de PSWAP) para usuários que compram XOR recém-criado no TBC.** Você pode ler os detalhes [aqui](https://medium.com/polkaswap/pswap-rewards-part-2-the-sora-token-bonding-curve-70fab4c3f1b8).
 
 ## Venda no ambiente real

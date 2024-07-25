@@ -73,7 +73,7 @@ usar, nesta seção você pode encontrar informações sobre carteiras
 
 Finalmente, na seção Recursos de solicitação você encontrará o guia para
 contribuir para o desenvolvimento da rede SORA, bem como apresentar uma
-[RFP](rfp.md) com proposta de novas funcionalidades.
+[RFP](/pt/rfp.md) com proposta de novas funcionalidades.
 
 ## Saber mais
 
