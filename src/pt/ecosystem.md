@@ -3,7 +3,7 @@ title: Ecossistema SORA - Sistema Econômico Descentralizado | Documentação SO
 head:
   - - meta
       name: viewport
-      content: "width=device-width, initial-scale=1.0"
+      content: width=device-width, initial-scale=1.0
   - - meta
       name: description
       content: Explore o ecossistema SORA – um sistema econômico descentralizado que compreende a rede SORA, Polkaswap, o token XOR e muito mais. Aprenda sobre os componentes interconectados e recursos inovadores que impulsionam a visão da SORA para um sistema financeiro justo e sustentável.
@@ -64,12 +64,12 @@ Além da rede principal SORA, o ecossistema SORA também compreende dois paracha
 O Plano Integrado SORA, bem como os seus marcos atuais, estão alojados
 aqui. Você também encontrará informações sobre
 [Polkaswap](https://polkaswap.io/), como o [Memorando e
-T&C](polkaswap/termos) e a [política de privacidade do Polkaswap](polkaswap/privacidade).
+T&C](/pt/polkaswap/terms) e a [política de privacidade do Polkaswap](/pt/polkaswap/privacy).
 
-Informações sobre [SORA Synthetics](xst.md) e [SORA Card](sora-card.md) também estão disponíveis
+Informações sobre [SORA Synthetics](/pt/xst.md) e [SORA Card](/pt/sora-card.md) também estão disponíveis
 aqui. Uma parte importante do ecossistema SORA são as carteiras que você pode
-usar, nesta seção você pode encontrar informações sobre carteiras [SORA](mobile.md)
-e [Fearless](fearless.md).
+usar, nesta seção você pode encontrar informações sobre carteiras
+[SORA](/pt/mobile.md) e [Fearless](/pt/fearless.md).
 
 Finalmente, na seção Recursos de solicitação você encontrará o guia para
 contribuir para o desenvolvimento da rede SORA, bem como apresentar uma
