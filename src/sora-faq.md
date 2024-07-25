@@ -69,7 +69,7 @@ All citizens have an equal chance of being selected, have equal voting power, an
 
 Yes, on [Polkaswap.io](https://polkaswap.io/#/swap) you can buy tokens using Moonpay and X1.
 With X1 you can buy SORA-native XOR.
-On Moonpay, currently only ETH and DAI are available as tokens, you can read more about how to do so in the  [on ramp ](on-ramp.md) section.
+On Moonpay, currently only ETH and DAI are available as tokens, you can read more about how to do so in the [on ramp ](on-ramp.md) section.
 
 ## What is an asset ID (address)?
 
