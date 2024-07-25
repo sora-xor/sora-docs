@@ -3,7 +3,7 @@ title: Criar um endereço na rede SORA | Documentação SORA
 head:
   - - meta
     - name: description
-      content: Aprenda como criar um endereço na rede SORA e comece a interagir com o ecossistema SORA. Descubra os passos para gerar um novo endereço, a importância da segurança do endereço e como utilizar seu endereço para diversas atividades dentro da rede SORA.
+      content: "Aprenda como criar um endereço na rede SORA e comece a interagir com o ecossistema SORA. Descubra os passos para gerar um novo endereço, a importância da segurança do endereço e como utilizar seu endereço para diversas atividades dentro da rede SORA."
   - - meta
     - name: keywords
       content: criar um endereço, rede SORA, geração de endereços, segurança de endereços

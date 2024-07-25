@@ -879,7 +879,7 @@ export default withMermaid(
                     },
                     {
                       text: "XST",
-                      link: "pt/xst",
+                      link: "/pt/xst",
                     },
                     {
                       text: "TBCD",
