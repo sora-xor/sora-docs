@@ -1,48 +1,48 @@
 ---
-title: "Ecossistema SORA - Sistema Econômico Descentralizado | Documentação SORA"
+title: Ecossistema SORA - Sistema Econômico Descentralizado | Documentação SORA
 head:
   - - meta
       name: viewport
       content: "width=device-width, initial-scale=1.0"
   - - meta
       name: description
-      content: "Explore o ecossistema SORA – um sistema econômico descentralizado que compreende a rede SORA, Polkaswap, o token XOR e muito mais. Aprenda sobre os componentes interconectados e recursos inovadores que impulsionam a visão da SORA para um sistema financeiro justo e sustentável."
+      content: Explore o ecossistema SORA – um sistema econômico descentralizado que compreende a rede SORA, Polkaswap, o token XOR e muito mais. Aprenda sobre os componentes interconectados e recursos inovadores que impulsionam a visão da SORA para um sistema financeiro justo e sustentável.
   - - meta
       name: keywords
-      content: "Ecossistema SORA, rede SORA, Polkaswap, token XOR, sistema econômico descentralizado, sistema financeiro justo, sistema financeiro sustentável"
+      content: Ecossistema SORA, rede SORA, Polkaswap, token XOR, sistema econômico descentralizado, sistema financeiro justo, sistema financeiro sustentável.
   - - meta
       name: author
-      content: "Rede SORA"
+      content: Rede SORA
   - - meta
       property: og:title
-      content: "Ecossistema SORA - Sistema Econômico Descentralizado | Documentação SORA"
+      content: Ecossistema SORA - Sistema Econômico Descentralizado | Documentação SORA
   - - meta
       property: og:description
-      content: "Explore o ecossistema SORA – um sistema econômico descentralizado que compreende a rede SORA, Polkaswap, o token XOR e muito mais. Aprenda sobre os componentes interconectados e recursos inovadores que impulsionam a visão da SORA para um sistema financeiro justo e sustentável."
+      content: Explore o ecossistema SORA – um sistema econômico descentralizado que compreende a rede SORA, Polkaswap, o token XOR e muito mais. Aprenda sobre os componentes interconectados e recursos inovadores que impulsionam a visão da SORA para um sistema financeiro justo e sustentável.
   - - meta
       property: og:type
-      content: "website"
+      content: website
   - - meta
       property: og:site_name
-      content: "Documentação SORA"
+      content: Documentação SORA
   - - meta
       property: og:locale
-      content: "pt_BR"
+      content: pt_BR
   - - meta
       name: twitter:card
-      content: "summary"
+      content: summary
   - - meta
       name: twitter:title
-      content: "Ecossistema SORA - Sistema Econômico Descentralizado | Documentação SORA"
+      content: Ecossistema SORA - Sistema Econômico Descentralizado | Documentação SORA
   - - meta
       name: twitter:description
-      content: "Explore o ecossistema SORA – um sistema econômico descentralizado que compreende a rede SORA, Polkaswap, o token XOR e muito mais. Aprenda sobre os componentes interconectados e recursos inovadores que impulsionam a visão da SORA para um sistema financeiro justo e sustentável."
+      content: Explore o ecossistema SORA – um sistema econômico descentralizado que compreende a rede SORA, Polkaswap, o token XOR e muito mais. Aprenda sobre os componentes interconectados e recursos inovadores que impulsionam a visão da SORA para um sistema financeiro justo e sustentável.
   - - meta
       name: twitter:site
-      content: "@sora_xor"
+      content: @sora_xor
   - - meta
       name: twitter:creator
-      content: "@sora_xor"
+      content: @sora_xor
 ---
 
 # O ecossistema SORA
