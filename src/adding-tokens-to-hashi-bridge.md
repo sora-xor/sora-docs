@@ -36,7 +36,7 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
 4. You should get the authorityAccount for the Bridge
 
- ![](.gitbook/assets/hashi-acquire-authority-account.png)
+![](.gitbook/assets/hashi-acquire-authority-account.png)
 
 5. Once the proposal goes through, acquire the signatures of the bridge’s peers via the `ethBridge.getAccountRequests` RPC with your account as the first argument and status `ApprovalsReady`.
 
