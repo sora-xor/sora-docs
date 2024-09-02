@@ -218,7 +218,12 @@ export default withMermaid(
                     },
                     { text: "Order Books", link: "order-books" },
                     { text: "Advanced Trading", link: "advanced-trading" },
-		     { text: "Kensetsu Vaults", link: "kensetsu-vaults" },
+		                { text: "Kensetsu", link: "kensetsu" },
+                    { text: "Kensetsu. Create Vaults", link: "kensetsu-vaults" },
+                    { text: "Kensetsu. Add collateral", link: "kensetsu-add-collateral" },
+                    { text: "Kensetsu. Borrow more", link: "kensetsu-borrow-more" },
+                    { text: "Kensetsu. Repay debt", link: "kensetsu-repay-debt" },
+                    { text: "Kensetsu. Liquidation", link: "kensetsu-liquidation" },
                     {
                       text: "Other Polkaswap Settings",
                       link: "polkaswap-other-settings",
