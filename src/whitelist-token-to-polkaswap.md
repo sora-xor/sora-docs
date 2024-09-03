@@ -6,7 +6,7 @@ head:
       content: Learn how to add tokens to the Polkaswap on the SORA network. Discover the step-by-step process of listing new tokens on Polkaswap, including the requirements, procedures, and considerations for adding tokens.
   - - meta
     - name: keywords
-      content: adding tokens, Polkaswap, SORA network, listing tokens, requirements, procedures, asset bridging, interoperability, blockchain networks, whitelist
+      content: adding tokens, Polkaswap, SORA network, listing tokens, requirements, procedures, asset bridging, interoperability, blockchain networks, whitelist, create token
 ---
 
 # Whitelist a Token on Polkaswap
