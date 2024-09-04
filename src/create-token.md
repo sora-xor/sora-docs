@@ -12,6 +12,7 @@ head:
 # How to Create a Token on the SORA Network
 
 ## TL;DR
+
 - This guide provides a step-by-step process for creating tokens on the SORA network, ensuring a smooth and straightforward experience.
 - As a decentralized network, SORA invites everyone to participate in the growth of the new economy, and creating a new token is one of the many ways to get involved.
 
@@ -28,12 +29,13 @@ Open the Account page from the menu on the right. In the top-right corner of the
 ![](./assets/account-button-create.jpg)
 
 A new panel will appear where you can select your token and enter the required information. Fill in the following details:
+
 - `Token Symbol`: A unique identifier for the token, which can be between 1 and 7 characters.
 - `Token Name`: The name of the token, which can be between 1 and 33 characters.
 - `Token Supply`: The total number of tokens you will receive upon creation.
 
 ::: info
- If you want the option to mint more tokens in the future, enable the **Extensible Supply** toggle. Otherwise, leave it turned off.
+If you want the option to mint more tokens in the future, enable the **Extensible Supply** toggle. Otherwise, leave it turned off.
 :::
 
 ![](./assets/create-token.jpg)
