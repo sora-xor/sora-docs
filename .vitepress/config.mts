@@ -164,6 +164,7 @@ export default withMermaid(
                 { text: "SORA Synthetics", link: "synthetics" },
                 { text: "Consensus", link: "consensus" },
                 { text: "Request Features", link: "rfp" },
+                { text: "Create token in SORA", link: "create-token" },
               ],
             },
             {
