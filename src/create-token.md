@@ -6,7 +6,7 @@ head:
       content: Explore the process of creating a token on the SORA network. Learn how community members can create a new token and contribute to the development of the SORA ecosystem by submitting their ideas and collaborating with the SORA team.
   - - meta
     - name: keywords
-      content: adding tokens, Polkaswap, SORA network, listing tokens, requirements, procedures, blockchain networks, whitelist, create token, create a new token
+      content: adding tokens, Polkaswap, SORA network, listing tokens, requirements, procedures, blockchain networks, whitelist, create token, create a new token, register a new token
 ---
 
 # How to Create a Token on the SORA Network
@@ -21,6 +21,8 @@ head:
 Before creating a new token, you need to connect your crypto wallet with Polkaswap. Please follow the instructions on this page: [Connect Your Wallet to Polkaswap](./polkaswap-connect-wallet.md)
 
 Alternatively, you can create an account and wallet on the SORA network using your Google account. Instructions for this process are available here: [Connect With Google](./polkaswap-connect-with-google.md)
+
+We recommend to add XOR to the account to pay the fee for token creation. For that, you can [move either XOR or another ERC-20 token](https://wiki.sora.org/guides/how-to-transfer-from-ethereum-mainnet-to-sora-v2-hashi-bridge), such as ETH or DAI, that you can then exchange to XOR on [Polkaswap](https://polkaswap.io/#/swap).
 
 ## Create a New Token
 
@@ -61,6 +63,14 @@ Note: Initially, your token might display a question mark instead of an icon, an
 ## Next Steps
 
 After creating your new token on the SORA network, you need to add it to Polkaswap. For detailed instructions, please refer to this page: [Whitelist a Token on Polkaswap](./whitelist-token-to-polkaswap.md)
+
+::: info
+Please note that adding token to SORA network does not mean that it
+will automatically be allowed to be transferred through the HASHI
+bridge. To add your token to the HASHI bridge, please, check out
+[Adding a Token to the HASHI Bridge](../snippets/../adding-tokens-to-hashi-bridge).
+:::
+
 
 ## Learn More
 
