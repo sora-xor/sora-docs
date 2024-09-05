@@ -71,7 +71,6 @@ bridge. To add your token to the HASHI bridge, please, check out
 [Adding a Token to the HASHI Bridge](../snippets/../adding-tokens-to-hashi-bridge).
 :::
 
-
 ## Learn More
 
 - [Whitelist a Token on Polkaswap](./whitelist-token-to-polkaswap.md)
