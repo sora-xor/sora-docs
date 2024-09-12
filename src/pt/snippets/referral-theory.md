@@ -1,0 +1,3 @@
+O sistema de referência motiva os usuários a envolver novos usuários na economia SORA. Quando você convida pessoas, você é o **referenciador**. Como indicado, você ganhará 10% das taxas de rede do seu indicado. Um referenciador pode ter quantas referências você desejar. Cada referência pode ter apenas um referenciador.
+
+O gráfico do referenciador é armazenado na cadeia, portanto, os usuários precisam pagar taxas de rede para estabelecer o link entre o referenciador e o referenciador. O referenciador vincula algum XOR, e quando um indicado entra na rede usando o código do referenciador, o valor do bônus é reduzido para poder pagar as taxas.
