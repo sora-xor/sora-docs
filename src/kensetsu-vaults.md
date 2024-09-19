@@ -66,10 +66,6 @@ The stability fee that will be charged from these vaults will be used in a stabi
 
 ![](/.gitbook/assets/ken-vaults-intro.png)
 
-::: info
-Kensetsu has not been released on the mainnet yet. You can test the features on the [Polkaswap Testnet](https://test.polkaswap.io/#/vaults/).
-:::
-
 ![](/.gitbook/assets/ken-vaults-borrow.png)
 
 The vault creation interface has several input fields:
@@ -101,10 +97,6 @@ These are the parameters visible on the Open Position interface:
 4. If you're ready to borrow, click **Open Vault**. Then, check the details carefully, and if everything is okay, confirm and sign the transaction.
 
 Congratulations, you have successfully set up your Kensetsu vault.
-
-:::info
-The images provided in this tutorial correspond to the Kensetsu Testnet and may be subject to change once released on the mainnet.
-:::
 
 ## Learn More
 

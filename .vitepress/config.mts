@@ -188,7 +188,7 @@ export default withMermaid(
                 },
                 { text: "Transfer Assets", link: "transfer" },
                 { text: "Check Balance", link: "check-balance" },
-                { text: "Register an Asset", link: "register-an-asset" },
+                { text: "Create token in SORA", link: "create-token" },
                 { text: "On-ramp", link: "on-ramp" },
                 {
                   text: "Staking",

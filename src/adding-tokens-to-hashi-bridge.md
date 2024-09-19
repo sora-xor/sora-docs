@@ -34,15 +34,19 @@ Refer to [Registration](/register-an-asset.md) for the instructions on registeri
 
 3. Copy the preimage hash of your created preimage and submit a proposal in _Governance > Democracy_. Alternatively, you can reach out to a council member for the Council to directly create a motion to add the asset to the bridge with the preimage you created. This will fast-track the process of adding the asset to the bridge.
 
-4. Once the proposal goes through, acquire the signatures of the bridge’s peers via the `ethBridge.getAccountRequests` RPC with your account as the first argument and status `ApprovalsReady`.
+4. You should get the authorityAccount for the Bridge
+
+![](.gitbook/assets/hashi-acquire-authority-account.png)
+
+5. Once the proposal goes through, acquire the signatures of the bridge’s peers via the `ethBridge.getAccountRequests` RPC with your account as the first argument and status `ApprovalsReady`.
 
    ![](.gitbook/assets/hashi-acquire-signatures.png)
 
-5. The RPC will return a bunch of hashes. These are off-chain request hashes; the last one should be the `OutgoingAddAsset` request. To determine if the asset was added successfully, use the `getRequests` RPC.
+6. The RPC will return a bunch of hashes. These are off-chain request hashes; the last one should be the `OutgoingAddAsset` request. To determine if the asset was added successfully, use the `getRequests` RPC.
 
-6. After finding your hash, use the `getApprovedRequests` RPC to get the approvals.
+7. After finding your hash, use the `getApprovedRequests` RPC to get the approvals.
 
-7. Call `addEthSidechainToken` in the bridge's smart contract.
+8. Call `addEthSidechainToken` in the bridge's smart contract.
 
 ### Using Remix
 
