@@ -1,7 +1,6 @@
 import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 import markdownItKatex from "markdown-it-katex";
-import { DefaultTheme } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
