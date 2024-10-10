@@ -94,7 +94,7 @@ Use a Chrome or Firefox browser.
 
   <center><img src="/.gitbook/assets/create-address-app-synced.png" width="600"></center>
 
-   You can create a new account.
+You can create a new account.
 
 3. Click Add account:
 
