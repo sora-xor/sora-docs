@@ -60,9 +60,6 @@ app.
    chose to connect a SORA account, you have the option to create a
    new account directly in the interface or import an existing account
    with your mnemonic phrase or a json file.
-   <<<<<<< HEAD
-
-=======
 
 ::: info
 Follow the [Create an Address
@@ -70,8 +67,7 @@ flow](/create-an-address.md#via-polkaswap-telegram-application) if you
 do not have a SORA address yet, or [restore an existing address](create-an-address.md#restoring-account-from-mnemonic-in-different-applications) if you already have one.
 :::
 
-> > > > > > > a9099bd (add an account update)
-> > > > > > > ![](.gitbook/assets/connect-with-sora-tg.png)
+![](.gitbook/assets/connect-with-sora-tg.png)
 
 ![](.gitbook/assets/import-sora-tg.png)
 
