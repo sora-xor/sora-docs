@@ -12,7 +12,8 @@ head:
 # Connect With Google
 
 Connecting to [Polkaswap.io](https://polkaswap.io/#/wallet) has never been easier. Use a Google login to access your SORA account with style and freedom.
-This feature would be of most interest to people who are new at DeFi and blockchain accounts.
+This feature would be of most interest to people who are new at DeFi
+and blockchain accounts.
 ::: warning
 Never share your personal account information with anyone.
 :::
@@ -46,7 +47,10 @@ Never share your personal account information with anyone.
 7. Give your account a name and password, then confirm the password. You can also export a JSON file at this point. **If you toggle the JSON file for the account restoration option, Polkaswap will download your account’s JSON file to your computer or device.**
 
 ::: info
-You can use the JSON file to import an account on Polkaswap or another wallet.
+You can use the JSON file to import an account on  [Polkaswap.io](https://polkaswap.io/#/wallet) or the
+[Polkaswap Telegram app](https://t.me/polkaswap_io_bot). For more
+information visit the [Connect Wallet
+page](/polkaswap-connect-wallet.md) page.
 :::
 
 ![](.gitbook/assets/google-login-8.png)
@@ -81,6 +85,12 @@ To access Polkaswap using this account, click on the account’s name, then inpu
 5. After you input your account password, it will be available to select within the “Connect With Google” screen.
 
 ![](.gitbook/assets/google-importing-5.png)
+
+::: info
+You can connect your Google account to the  [Polkaswap Telegram
+app](https://t.me/polkaswap_io_bot). For more information visit the
+[Connect Wallet page](/polkaswap-connect-wallet.md).
+:::
 
 ## Making Transactions with a Google Account
 
