@@ -33,7 +33,7 @@ app.
    asking you to confirm the connection to Polkaswap. Click "Confirm"
    to proceed.
 5. If you chose Wallet Connect, a popup with a QR code will appear for
-   you to scan with your mobile wallet, otherwise you can copy the link. 
+   you to scan with your mobile wallet, otherwise you can copy the link.
 
 ![](.gitbook/assets/use-wallet-connect.png)
 
@@ -43,24 +43,24 @@ app.
 
 7. Once the connection is complete, you will be able to see your
    account balance and manage your funds on Polkaswap.
-   
+
 ## Polkaswap Telegram App
 
 1. Access the [Polkaswap Telegram app](https://t.me/polkaswap_io_bot) and
-launch the bot. 
+   launch the bot.
 
 ![](.gitbook/assets/connect-wallet-tg.png)
 
 2. Click on the wallet icon on the top right or the connect account
    button on the main screen.
-   
+
 ![](.gitbook/assets/connect-account-tg.png)
 
 3. You can either connect a SORA account or use Wallet Connect. If you
    chose to connect a SORA account, you have the option to create a
    new account directly in the interface or import an existing account
    with your mnemonic phrase or a json file.
-   
+
 ![](.gitbook/assets/connect-with-sora-tg.png)
 
 ![](.gitbook/assets/import-sora-tg.png)
@@ -68,9 +68,9 @@ launch the bot.
 4. If you choose to use Wallet Connect, the interface is very similar
    to the web app, where you can scan the QR or copy the code for your
    wallet.
-   
+
 ![](.gitbook/assets/connect-with-wc-tg.png)
-   
+
 Congratulations, you have successfully connected your wallet! Now you can stake, provide liquidity, trade, and much more with style and freedom on Polkaswap!
 
 _Remember to always do your own research before making any financial decisions._
