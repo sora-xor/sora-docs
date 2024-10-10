@@ -21,6 +21,7 @@ Here we provide you with instruction on account creation:
 - [via polkadot.js browser plugin](#via-polkadotjs-browser-plugin)
 - [via polkadot.js application](#via-polkadotjs-app-ui)
 - [via SORA mobile application](#via-sora-mobile-application)
+- [via Polkaswap Telegram application](#via-polkaswap-telegram-application)
 
 ::: tip
 
@@ -156,8 +157,51 @@ When you install the application you'll be able to create an account.
 6. You can also allow the application to use biometry auth. And finally, you'll get access to the wallet.
 
    ![](.gitbook/assets/create-address-sora-biometry-auth.png)
+   
+   
+## Via Polkaswap Telegram Application
 
-#### Restoring account from mnemonic in different applications
+You can create an account on SORA with Style and Freedom using the
+[Polkaswap Telegram app](https://t.me/polkaswap_io_bot). 
+
+1. Follow the
+[connect wallet
+flow](/polkaswap-connect-wallet.md#polkaswap-telegram-app) until the
+SORA account options. 
+
+![](.gitbook/assets/connect-with-sora-tg.png)
+
+2. Pick the create account section. 
+::: tip
+Have a pen and paper handy to save the mnemonic phrase somewhere
+safe. Ideally keep it offline.
+:::
+
+![](.gitbook/assets/create-address-sora-tg-passphrase.png)
+
+3. After writing down your mnemonic or copying it, click next step and
+   input the phrase to confirm. (_You can also chose to skip this
+   option, the outcome is the same_)
+   
+![](.gitbook/assets/create-address-sora-tg-confirm.png)
+
+
+4. Then, give your account a name and set a unique password. You can
+   also toggle the switch to allow JSON export to restore your
+   account. Fill in the information and finally click/tap create account.
+::: info
+If you chose to enable JSON exports, make sure you keep your JSON file
+   safe and do not share it with anyone.
+:::
+
+![](.gitbook/assets/create-address-sora-tg-details.png)
+
+5. After creating your account, you will be able to use it immediately
+   on the Polkaswap Telegram application!
+   
+![](.gitbook/assets/create-address-sora-tg-success.png)
+
+### Restoring account from mnemonic in different applications
 
 The only way to restore the account in all applications is a mnemonic passphrase. The Polkadot.js browser plugin supports more options, however, the mobile application only supports a mnemonic passphrase. You can use a mnemonic passphrase from the mobile application in order to get access to [polkaswap.io](http://polkaswap.io) or [test.polkaswap.io](http://test.polkaswap.io) and vice-versa.
 
@@ -200,6 +244,22 @@ The process is the same for the mobile application:
 4. After that, you'll get access to the account.
 
    ![](.gitbook/assets/restore-account-biometry-auth.png)
+   
+To restore an account using the Telegram App, the process is very
+ easy.
+ 
+1. In the Connect with SORA Wallet section, click Import Account
+
+![](.gitbook/assets/connect-with-sora-tg.png)
+
+2. Input your mnemonic phrase or draag&drop/choose a JSON account file.
+
+![](.gitbook/assets/restore-account-tg-import.png)
+
+3. Give you account a name and password, then tap
+   import. Congratulations, you have restored your account.
+   
+![](.gitbook/assets/restore-account-tg-rename.png)
 
 #### Converting the address format
 
