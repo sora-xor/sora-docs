@@ -86,19 +86,19 @@ Use a Chrome or Firefox browser.
 
    If you've already installed the Polkadot browser plugin, it will request authorization to sync data. You can do it, as it will make account management easier.
 
-  ![](.gitbook/assets/create-address-app-authorize.png)
+![](.gitbook/assets/create-address-app-authorize.png)
 
 2. Open the [Accounts](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.stage.sora2.soramitsu.co.jp#/accounts) page.
 
    If you allow the Polkadot browser plugin to sync, then your accounts will appear in the Polkadot.js app.
 
-  ![](.gitbook/assets/create-address-app-synced.png)
+![](.gitbook/assets/create-address-app-synced.png)
 
 You can create a new account.
 
 3. Click Add account:
 
-  ![](.gitbook/assets/create-address-app-add-account.png)
+![](.gitbook/assets/create-address-app-add-account.png)
 
 4. Save the mnemonic phrase, **make sure to keep it safe, and don't share it**. Confirm that you've saved the mnemonic and click Next.
 
@@ -106,11 +106,11 @@ You can create a new account.
 
 5. Enter a name and a password for the account, then click Next.
 
-  ![](.gitbook/assets/create-address-app-name-password.png)
+![](.gitbook/assets/create-address-app-name-password.png)
 
 6. After the confirmation click Save.
 
-  ![](.gitbook/assets/create-address-app-save.png)
+![](.gitbook/assets/create-address-app-save.png)
 
 Now you have two accounts. One was injected from the Polkadot browser plugin and the second one was created in the Polkadot js app.
 
@@ -136,11 +136,11 @@ When you install the application you'll be able to create an account.
 
 2. For this exercise, tap on **Create account**:
 
-    ![](.gitbook/assets/create-address-sora-create.png)
+   ![](.gitbook/assets/create-address-sora-create.png)
 
 3. Enter an account name. It may be any string. Then tap continue.
 
-    ![](.gitbook/assets/create-address-sora-enter-name.png)
+   ![](.gitbook/assets/create-address-sora-enter-name.png)
 
 4. The screen with the passphrase will be shown. Save the passphrase in a secret place or remember it.
 
@@ -152,15 +152,15 @@ When you install the application you'll be able to create an account.
 
    You can confirm the mnemonic or skip the process. Just tap the words at the top of the screen in the right order. The tapped word will be shown on the bottom of the screen.
 
-    ![](.gitbook/assets/create-address-sora-confirm-mnemonic.png)
+   ![](.gitbook/assets/create-address-sora-confirm-mnemonic.png)
 
 5. Enter and confirm a PIN code of your choice.
 
-    ![](.gitbook/assets/create-address-sora-enter-pin.png)
+   ![](.gitbook/assets/create-address-sora-enter-pin.png)
 
 6. You can also allow the application to use biometry auth. And finally, you'll get access to the wallet.
 
-    ![](.gitbook/assets/create-address-sora-biometry-auth.png)
+   ![](.gitbook/assets/create-address-sora-biometry-auth.png)
 
 ## Via Polkaswap Telegram Application
 
@@ -172,7 +172,7 @@ You can create an account on SORA with Style and Freedom using the
    flow](/polkaswap-connect-wallet.md#polkaswap-telegram-app) until the
    SORA account options.
 
-    ![](.gitbook/assets/connect-with-sora-tg.png)
+   ![](.gitbook/assets/connect-with-sora-tg.png)
 
 2. Pick the create account section.
    ::: tip
@@ -186,7 +186,7 @@ You can create an account on SORA with Style and Freedom using the
    input the phrase to confirm. (_You can also chose to skip this
    option, the outcome is the same_)
 
-    ![](.gitbook/assets/create-address-sora-tg-confirm.png)
+   ![](.gitbook/assets/create-address-sora-tg-confirm.png)
 
 4. Then, give your account a name and set a unique password. You can
    also toggle the switch to allow JSON export to restore your
@@ -227,25 +227,25 @@ You can restore the account in the Polkadot browser plugin.
 
 Great, you've just restored your account!
 
-   ![](.gitbook/assets/restore-account-restored.png)
+![](.gitbook/assets/restore-account-restored.png)
 
 The process is the same for the mobile application:
 
 1. Open the mobile application and tap on **Import account.**
 
-    ![](.gitbook/assets/restore-account-sora-import.png)
+   ![](.gitbook/assets/restore-account-sora-import.png)
 
 2. Enter the account name and passphrase.
 
-    ![](.gitbook/assets/restore-account-sora-enter-mnemonic.png)
+   ![](.gitbook/assets/restore-account-sora-enter-mnemonic.png)
 
 3. Then set up and confirm a PIN code.
 
-    ![](.gitbook/assets/restore-account-sora-enter-pin.png)
+   ![](.gitbook/assets/restore-account-sora-enter-pin.png)
 
 4. After that, you'll get access to the account.
 
-     ![](.gitbook/assets/restore-account-biometry-auth.png)
+   ![](.gitbook/assets/restore-account-biometry-auth.png)
 
 To restore an account using the Telegram App, the process is very
 easy.
@@ -256,19 +256,19 @@ easy.
 
 2. Input your mnemonic phrase or draag&drop/choose a JSON account file.
 
-    ![](.gitbook/assets/restore-account-tg-import.png)
+   ![](.gitbook/assets/restore-account-tg-import.png)
 
 3. Give you account a name and password, then tap
    import. Congratulations, you have restored your account.
 
-    ![](.gitbook/assets/restore-account-tg-rename.png)
+   ![](.gitbook/assets/restore-account-tg-rename.png)
 
 ## Converting the address format
 
 As mentioned before, Substrate networks use different address prefixes for generating addresses. However, the key pair is the same. If you create an account, but get the address without the `cn` prefix, then you can convert it using the [Subscan address converter](https://sora.subscan.io/tools/ss58_transform).
 
-   ![](.gitbook/assets/convert-address-subscan-converter.png)
+![](.gitbook/assets/convert-address-subscan-converter.png)
 
 Just enter your address and click **Transform**. You can specify the output type. By default, the Subscan tool will convert the address to all supported network formats.
 
-   ![](.gitbook/assets/convert-address-transform.png)
+![](.gitbook/assets/convert-address-transform.png)
