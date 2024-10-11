@@ -21,7 +21,7 @@ Here we provide you with instruction on account creation:
 - [via polkadot.js browser plugin](#via-polkadotjs-browser-plugin)
 - [via polkadot.js application](#via-polkadotjs-app-ui)
 - [via SORA mobile application](#via-sora-mobile-application)
-- [via Polkaswap Telegram 
+- [via Polkaswap Telegram
   application](#via-polkaswap-telegram-application)
 
 ::: tip

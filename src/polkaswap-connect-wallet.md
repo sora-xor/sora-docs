@@ -20,13 +20,13 @@ app.
 
 1. Go to [Polkaswap.io](https://polkaswap.io) and click on the "Connect account" button at the top of the page.
 
-    ![](.gitbook/assets/connect-wallet.png)
+   ![](.gitbook/assets/connect-wallet.png)
 
 2. You will see a list of supported wallet options to connect,
    including an account created on [Google](/polkaswap-connect-with-google.md), [Fearless Wallet](https://fearlesswallet.io),
    Polkadot.js, Subwallet, and Talisman, as well as Wallet Connect.
 
-    ![](.gitbook/assets/choose-wallet-to-connect.png)
+   ![](.gitbook/assets/choose-wallet-to-connect.png)
 
 3. Select the wallet extension installed on your browser. For example, if you are using Fearless Wallet, click on the Fearless Wallet option.
 4. A pop-up window will appear from your selected wallet extension,
@@ -35,11 +35,11 @@ app.
 5. If you chose Wallet Connect, a popup with a QR code will appear for
    you to scan with your mobile wallet, otherwise you can copy the link.
 
-    ![](.gitbook/assets/use-wallet-connect.png)
+   ![](.gitbook/assets/use-wallet-connect.png)
 
 6. After the connection has been established, you will see a list of your available accounts displayed on the Polkaswap page. Choose the account you want to use and click on it.
 
-    ![](.gitbook/assets/select-an-account.png)
+   ![](.gitbook/assets/select-an-account.png)
 
 7. Once the connection is complete, you will be able to see your
    account balance and manage your funds on Polkaswap.
@@ -49,12 +49,12 @@ app.
 1. Access the [Polkaswap Telegram app](https://t.me/polkaswap_io_bot/app) and
    launch the bot.
 
-    ![](.gitbook/assets/connect-wallet-tg.png)
+   ![](.gitbook/assets/connect-wallet-tg.png)
 
 2. Click on the wallet icon on the top right or the connect account
    button on the main screen.
 
-    ![](.gitbook/assets/connect-account-tg.png)
+   ![](.gitbook/assets/connect-account-tg.png)
 
 3. You can either connect a SORA account or use Wallet Connect. If you
    chose to connect a SORA account, you have the option to create a
@@ -67,9 +67,9 @@ flow](/create-an-address.md#via-polkaswap-telegram-application) if you
 do not have a SORA address yet, or [restore an existing address](create-an-address.md#restoring-account-from-mnemonic-in-different-applications) if you already have one.
 :::
 
-   ![](.gitbook/assets/connect-with-sora-tg.png)
+![](.gitbook/assets/connect-with-sora-tg.png)
 
-   ![](.gitbook/assets/import-sora-tg.png)
+![](.gitbook/assets/import-sora-tg.png)
 
 4. If you choose to use Wallet Connect, the interface is very similar
    to the web app, where you can scan the QR or copy the code for your
