@@ -21,7 +21,7 @@ Here we provide you with instruction on account creation:
 - [via polkadot.js browser plugin](#via-polkadotjs-browser-plugin)
 - [via polkadot.js application](#via-polkadotjs-app-ui)
 - [via SORA mobile application](#via-sora-mobile-application)
-- [via Polkaswap Telegram
+- [via Polkaswap Telegram 
   application](#via-polkaswap-telegram-application)
 
 ::: tip
@@ -165,7 +165,7 @@ When you install the application you'll be able to create an account.
 ## Via Polkaswap Telegram Application
 
 You can create an account on SORA with Style and Freedom using the
-[Polkaswap Telegram app](https://t.me/polkaswap_io_bot).
+[Polkaswap Telegram app](https://t.me/polkaswap_io_bot/app).
 
 1. Follow the
    [connect wallet

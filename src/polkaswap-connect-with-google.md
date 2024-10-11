@@ -48,7 +48,7 @@ Never share your personal account information with anyone.
 
 ::: info
 You can use the JSON file to import an account on [Polkaswap.io](https://polkaswap.io/#/wallet) or the
-[Polkaswap Telegram app](https://t.me/polkaswap_io_bot). For more
+[Polkaswap Telegram app](https://t.me/polkaswap_io_bot/app). For more
 information visit the [Connect Wallet
 page](/polkaswap-connect-wallet.md) page.
 :::
