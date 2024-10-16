@@ -173,6 +173,7 @@ export default withMermaid(
                 { text: "Create an Address", link: "create-an-address" },
                 { text: "Account Security", link: "account-security" },
                 { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
+		{ text: "Connect with Google", link: "polkaswap-connect-with-google" },
                 {
                   text: "Send & Receive",
                   link: "send-and-receive",
