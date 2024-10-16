@@ -120,14 +120,14 @@ This option is only available to toggle if you're connected through a
 Google account.
 :::
 
-1. Navigate to the settings cog within the account view. 
+1. Navigate to the settings cog within the account view.
 
 ![](.gitbook/assets/google-password-confirmation-1.png)
 
 2. Toggle the **second** Disable Password Confirmation switch and
    select how long you want to disable the confirmation for, then
    input your wallet password to confirm.
-   
+
 ![](.gitbook/assets/google-password-confirmation-2.png)
 
 ![](.gitbook/assets/google-password-confirmation-3.png)
@@ -142,11 +142,10 @@ with access to your device could accidentally trigger a transaction.
 
 :::info
 If you are not logged in with a Google account, this option will not
-be available. 
+be available.
 
 ![](.gitbook/assets/google-password-confirmation-unavailable.png)
 :::
-
 
 ## Learn More
 
