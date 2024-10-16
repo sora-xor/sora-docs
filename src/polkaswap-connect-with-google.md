@@ -106,7 +106,9 @@ After your Google account has been selected as the active account, your balances
 
 ![](.gitbook/assets/google-transaction-3.png)
 
+:::info
 The same will apply to liquidity provision transactions, both double (_pooling_) and single-sided (_staking_)—as well as Bridge transactions and claiming rewards.
+:::
 
 ## Learn More
 

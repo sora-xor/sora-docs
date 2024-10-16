@@ -24,7 +24,7 @@ app.
 
 2. You will see a list of supported wallet options to connect,
    including an account created on [Google](/polkaswap-connect-with-google.md), [Fearless Wallet](https://fearlesswallet.io),
-   Polkadot.js, Subwallet, and Talisman, as well as Wallet Connect.
+   Polkadot.js, as well as Wallet Connect for other compatible wallets.
 
    ![](.gitbook/assets/choose-wallet-to-connect.png)
 
