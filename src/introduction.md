@@ -47,7 +47,7 @@ head:
 
 # Introduction
 
-The community envisions a New Economic World Order, one that is truly decentralized and democratic. SORA is building to deliver financial inclusion for all without discrimination and providing a better method to manage day-to-day finances.
+The community envisions a New Economic World Order. One that is truly decentralized and democratic... SORA is building to deliver financial inclusion for all without discrimination and providing a better method to manage day-to-day finances.
 
 SORA is an on-chain governance system based around the XOR token that allows producers to make proposals for funding and all token holders make decisions how to allocate XOR so that the best goods and services get created. People who create goods or services should accept XOR for them, thus building the SORA economy.
 
