@@ -12,7 +12,8 @@ head:
 # Connect With Google
 
 Connecting to [Polkaswap.io](https://polkaswap.io/#/wallet) has never been easier. Use a Google login to access your SORA account with style and freedom.
-This feature would be of most interest to people who are new at DeFi and blockchain accounts.
+This feature would be of most interest to people who are new at DeFi
+and blockchain accounts.
 ::: warning
 Never share your personal account information with anyone.
 :::
@@ -46,7 +47,10 @@ Never share your personal account information with anyone.
 7. Give your account a name and password, then confirm the password. You can also export a JSON file at this point. **If you toggle the JSON file for the account restoration option, Polkaswap will download your account’s JSON file to your computer or device.**
 
 ::: info
-You can use the JSON file to import an account on Polkaswap or another wallet.
+You can use the JSON file to import an account on [Polkaswap.io](https://polkaswap.io/#/wallet) or the
+[Polkaswap Telegram app](https://t.me/polkaswap_io_bot/app). For more
+information visit the [Connect Wallet
+page](/polkaswap-connect-wallet.md) page.
 :::
 
 ![](.gitbook/assets/google-login-8.png)
@@ -82,6 +86,12 @@ To access Polkaswap using this account, click on the account’s name, then inpu
 
 ![](.gitbook/assets/google-importing-5.png)
 
+::: info
+You can connect your Google account to the [Polkaswap Telegram
+app](https://t.me/polkaswap_io_bot). For more information visit the
+[Connect Wallet page](/polkaswap-connect-wallet.md).
+:::
+
 ## Making Transactions with a Google Account
 
 After your Google account has been selected as the active account, your balances will be available in the Wallet view.
@@ -96,7 +106,46 @@ After your Google account has been selected as the active account, your balances
 
 ![](.gitbook/assets/google-transaction-3.png)
 
+:::info
 The same will apply to liquidity provision transactions, both double (_pooling_) and single-sided (_staking_)—as well as Bridge transactions and claiming rewards.
+:::
+
+### Toggle Password Confirmations
+
+Google account users can toggle whether they want to disable password
+confirmations during every transaction. Here is how to do it:
+
+:::info
+This option is only available to toggle if you're connected through a
+Google account.
+:::
+
+1. Navigate to the settings cog within the account view.
+
+![](.gitbook/assets/google-password-confirmation-1.png)
+
+2. Toggle the **second** Disable Password Confirmation switch and
+   select how long you want to disable the confirmation for, then
+   input your wallet password to confirm.
+
+![](.gitbook/assets/google-password-confirmation-2.png)
+
+![](.gitbook/assets/google-password-confirmation-3.png)
+
+3. Congratulations, you have successfully toggled password
+   confirmation for your Google account.
+
+:::info
+Be especially careful when toggling password confirmation, as anyone
+with access to your device could accidentally trigger a transaction.
+:::
+
+:::info
+If you are not logged in with a Google account, this option will not
+be available.
+
+![](.gitbook/assets/google-password-confirmation-unavailable.png)
+:::
 
 ## Learn More
 
