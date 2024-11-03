@@ -13,7 +13,7 @@ head:
 
 Vesting is a method used in cryptocurrency projects to gradually release tokens over a specific period rather than distributing them all at once. Vesting is commonly applied to tokens allocated to project teams, early investors, and contributors, with the goal of encouraging long-term commitment and reducing the risk of sudden large sell-offs that could destabilize the token’s value.
 
-For more details, see[Vesting tokens in SORA](/vesting-tokens.md)
+For more details, see[Vesting tokens in SORA](vesting-tokens.md)
 
 ## Vesting in Polkaswap
 
@@ -24,7 +24,7 @@ In Polkaswap, you can enable token vesting when sending tokens. Open the _Send T
 
 ![](.gitbook/assets/vesting-polkaswap-send.png)
 
-Below this section, you’ll see the _Network Fee_, which varies based on the total amount of tokens to be vested.
+Below this section, you’ll see the _Network Fee_, which varies based on the percent of tokens to be vested.
 
 Once you’re ready, click _Send_. You’ll be directed to a confirmation page to review the vesting transaction details.
 
@@ -38,4 +38,4 @@ The recipient will see the locked tokens in their wallet. According to the vesti
 
 ## Learn More
 
-- [Vesting tokens in SORA](/vesting-tokens.md)
+- [Vesting tokens in SORA](vesting-tokens.md)

@@ -65,7 +65,7 @@ Using the _vestedTransfer_ extrinsic with _LinearVestingSchedule_ enables the di
 Parameters:
 
 - **assetId**: The code of the token.
-- **start**: The current block number on the SORA blockchain.
+- **start**: The number of block in the SORA blockchain.
 - **period**: Unlock intervals for tokens in recipient wallets, measured in blocks.
 - **periodCount**: The number of periods, calculated as a percentage of the total amount (divide 100% by the number of periods).
 - **perPeriod**: The amount of tokens to distribute per period, calculated as the initial amount multiplied by the vesting percentage.
@@ -88,8 +88,8 @@ Parameters:
 
 ## Vesting tokens in Polkaswap
 
-You can also access vesting functionality through Polkaswap. Simply open the "Send Token" feature and toggle on _Enable Token Vesting_. More details are available on the [Vesting tokens in Polkaswap](/vesting-tokens-polkaswap.md) page.
+You can also access vesting functionality through Polkaswap. Simply open the "Send Token" feature and toggle on _Enable Token Vesting_. More details are available on the [Vesting tokens in Polkaswap](vesting-tokens-polkaswap.md) page.
 
 ## Learn More
 
-- [Vesting tokens in Polkaswap](/vesting-tokens-polkaswap.md)
+- [Vesting tokens in Polkaswap](vesting-tokens-polkaswap.md)
