@@ -79,7 +79,7 @@ The _vestedTransfer_ extrinsic with _LinearPendingVestingSchedule_ allows for de
 
 Parameters:
 
-- **assetId**: The code of the token.
+- **assetId**: The token address.
 - **managerId**: The ID of the entity that will initiate vesting via the unlock_pending_schedule_by_manager() extrinsic.
 - **period**: Unlock intervals for tokens in recipient wallets, measured in blocks.
 - **periodCount**: The number of periods, calculated as a percentage of the total amount.
