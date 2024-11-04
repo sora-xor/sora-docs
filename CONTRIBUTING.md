@@ -30,7 +30,7 @@ To build documentation locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    https://github.com/sora-xor/sora-docs.git
+    git clone https://github.com/sora-xor/sora-docs.git
     ```
 
 2. Install the dependencies:
