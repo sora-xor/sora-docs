@@ -24,7 +24,7 @@ VXOR, or SORA Vested XOR, is a new token designed to foster productive economic 
 
 ![](.gitbook/assets/sora_vxor_infinite_loop.png)
 
-# In Summary
+## In Summary
 
 VXOR is a vested token with a buy-back-and-burn mechanism designed to support SORA’s economic vision. It offers an innovative way for both individual participants and XOR-integrated nations to contribute to, and benefit from, the growth of the SORA ecosystem.
 
