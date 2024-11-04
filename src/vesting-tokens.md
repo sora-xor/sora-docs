@@ -65,7 +65,7 @@ Using the _vestedTransfer_ extrinsic with _LinearVestingSchedule_ enables the di
 Parameters:
 
 - **assetId**: The token address.
-- **start**: The number of block in the SORA blockchain.
+- **start**: The block number in the SORA blockchain.
 - **period**: Unlock intervals for tokens in recipient wallets, measured in blocks.
 - **periodCount**: The number of periods, calculated as a percentage of the total amount (divide 100% by the number of periods).
 - **perPeriod**: The amount of tokens to distribute per period, calculated as the initial amount multiplied by the vesting percentage.
