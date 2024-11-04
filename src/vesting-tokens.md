@@ -88,7 +88,7 @@ Parameters:
 
 ## Vesting tokens in Polkaswap
 
-You can also access vesting functionality through Polkaswap. Simply open the "Send Token" feature and toggle on _Enable Token Vesting_. More details are available on the [Vesting tokens in Polkaswap](vesting-tokens-polkaswap.md) page.
+You can also access vesting functionality through Polkaswap. Open the "Send Token" feature and toggle _Enable Token Vesting_. More details are available on the [Vesting tokens in Polkaswap](vesting-tokens-polkaswap.md) page.
 
 ## Learn More
 
