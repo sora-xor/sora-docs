@@ -62,7 +62,7 @@ Updating the picture ....
 
 <!------- ![](<.gitbook/assets/tbc(1).png>)----->
 
-The Actual Sell-Price Function increases as the reserves increase, approaching the Ideal Sell-Price Function, which is 40% lower than the Buy-Price Function.
+The Actual Sell-Price Function increases as the reserves increase, approaching the Ideal Sell-Price Function, which is 20% lower than the Buy-Price Function.
 
 The Buy-Price Function is the same in both the Actual and Ideal scenarios.
 
