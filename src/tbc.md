@@ -34,10 +34,14 @@ Another important implication of this mechanism is that XOR price on the seconda
 - Primary market buy-back reserve limits the ability of governments or short-sellers to manipulate the market.
 - The SORA v2 monetary system is neither debt-based nor debt-driven, and new tokens are always allocated under democratic supervision, which works to eliminate the unsustainable boom-bust cycles in contemporary economic systems.
 - The current buy/sell-prices offered by the token bonding curve provide support & resistance levels, or a confidence range for the price of XOR in the market, with forward guidance.
-- 20% of the quantity bought from the buy function are reserved for different players in the SORA network:
-  - 20% goes to Bay Back and Burn of KUSD
+- 40% of the quantity bought from the buy function are reserved for different players in the SORA network:
+  - 39% goes to buyback-and-burn of KUSD
+  - 1% is used to buyback-and-burn [TBCD](./tbcd)
 
+Updating the picture ....
+<!----- 
 ![](.gitbook/assets/margin-tbc.png)
+----->
 
 While the SORA economy is in its infant phase, the token bonding curve plays a crucial role in maintaining XOR's store-of-value property. The ability to set confidence ranges of token price movements lowers the psychological boundary towards accepting XOR for payments.
 
@@ -51,11 +55,12 @@ At the launch of the SORA v2 network, 350,000 XOR will already be in existence. 
 
 The Buy-Price Function has been set at 900$ at Soft launch, its equation is _y = mx + b, where b:=634$_ and the slope _m := 1/1337._
 
-This scenario implies that the Sell-Price Function of the token bonding curve is not 20% lower than the Buy-Price Function (as it should be in the **ideal scenario**), but it is even lower. There is little liquidity in the reserves for you to sell your XOR tokens, and the price on the Sell-Price Function may be low compared to the secondary market price.
+This scenario implies that the Sell-Price Function of the token bonding curve is not 40% lower than the Buy-Price Function (as it should be in the **ideal scenario**), but it is even lower. There is little liquidity in the reserves for you to sell your XOR tokens, and the price on the Sell-Price Function may be low compared to the secondary market price.
 
-![](<.gitbook/assets/tbc(1).png>)
+Updating the picture ....
+<!------- ![](<.gitbook/assets/tbc(1).png>)----->
 
-The Actual Sell-Price Function increases as the reserves increase, approaching the Ideal Sell-Price Function, which is 20% lower than the Buy-Price Function.
+The Actual Sell-Price Function increases as the reserves increase, approaching the Ideal Sell-Price Function, which is 40% lower than the Buy-Price Function.
 
 The Buy-Price Function is the same in both the Actual and Ideal scenarios.
 
