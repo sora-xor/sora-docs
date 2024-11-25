@@ -56,7 +56,7 @@ At the launch of the SORA v2 network, 350,000 XOR will already be in existence. 
 
 The Buy-Price Function has been set at 900$ at Soft launch, its equation is _y = mx + b, where b:=634$_ and the slope _m := 1/1337._
 
-This scenario implies that the Sell-Price Function of the token bonding curve is not 40% lower than the Buy-Price Function (as it should be in the **ideal scenario**), but it is even lower. There is little liquidity in the reserves for you to sell your XOR tokens, and the price on the Sell-Price Function may be low compared to the secondary market price.
+This scenario implies that the Sell-Price Function of the token bonding curve is not 20% lower than the Buy-Price Function (as it should be in the **ideal scenario**), but it is even lower. There is little liquidity in the reserves for you to sell your XOR tokens, and the price on the Sell-Price Function may be low compared to the secondary market price.
 
 Updating the picture ....
 
