@@ -1,15 +1,15 @@
 ---
-title: SORA VXOR Token | SORA Docs
+title: SORA Kensetsu USD Token | SORA Docs
 head:
   - - meta
     - name: description
-      content: VXOR, or SORA Vested XOR, is a token that promotes long-term commitment and economic expansion within the SORA ecosystem. By leveraging a buy-back-and-burn mechanism, VXOR rewards stakers and liquidity providers based on positive price trends, aligning incentives with ecosystem growth. Additionally, SORAized countries can receive VXOR to support economic development through on-chain governance.
+      content: KUSD, or SORA Kensetsu USD, is an over-collateralized, algorithmically governed stablecoin built on the SORA network. It is designed to maintain a stable value by locking collateral in individual vaults, similar to the MakerDAO model, and implements a multi-phase governance and functionality framework..
   - - meta
     - name: keywords
-      content: SORA VXOR token, SORA network, liquidity providing, decentralized economy, vesting, vested token, buy-back-and-burn mechanism
+      content: SORA KUSD token, SORA network, Kensetsu platform, decentralized economy, over-collateralized, stablecoin, MakerDAO, DAI
 ---
 
-# VXOR Token Overview
+# Kensetsu Token Overview
 
 <center><img src=".gitbook/assets/vxor.svg" width="250"></center>
 
