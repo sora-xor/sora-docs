@@ -36,11 +36,8 @@ Another important implication of this mechanism is that XOR price on the seconda
 - The current buy/sell-prices offered by the token bonding curve provide support & resistance levels, or a confidence range for the price of XOR in the market, with forward guidance.
 - 20% of the quantity bought from the buy function goes to buyback-and-burn of KUSD
 
-Updating the picture ....
+![](.gitbook/assets/margin-tbc-v2.png)
 
-<!-----
-![](.gitbook/assets/margin-tbc.png)
------>
 
 While the SORA economy is in its infant phase, the token bonding curve plays a crucial role in maintaining XOR's store-of-value property. The ability to set confidence ranges of token price movements lowers the psychological boundary towards accepting XOR for payments.
 
