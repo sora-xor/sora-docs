@@ -29,7 +29,7 @@ However, many of the partners we engage with for institutional projects are not 
 
 TBCD (**T**oken **B**onding **C**urve **D**ollars) aims to fill this void by being a token that is convertible to XOR, as a reserve asset of the SORA token bonding curve, while also being worth $1, because the token bonding curve always treats TBCD as having the value of $1 USD.
 
-To support the price of TBCD, 1% of network of all transactions inside SORA is going to buyback-and-burning TBCD. 39% is going to buyback-and-burning KUSD
+To support the price of TBCD, 0.5% of all transactions within the SORA network will be allocated for the buyback and burning of TBCD, 19.5% for the buyback and burning of KUSD, 10% for referral rewards for newcomers, 20% for burning XOR, and 50% for the buyback and burning of VAL.
 
 Update picture ...
 
