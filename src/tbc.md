@@ -56,9 +56,7 @@ The Buy-Price Function has been set at 900$ at Soft launch, its equation is _y =
 
 This scenario implies that the Sell-Price Function of the token bonding curve is not 20% lower than the Buy-Price Function (as it should be in the **ideal scenario**), but it is even lower. There is little liquidity in the reserves for you to sell your XOR tokens, and the price on the Sell-Price Function may be low compared to the secondary market price.
 
-Updating the picture ....
-
-<!------- ![](<.gitbook/assets/tbc(1).png>)----->
+![](<.gitbook/assets/tbc(1).png>)
 
 The Actual Sell-Price Function increases as the reserves increase, approaching the Ideal Sell-Price Function, which is 20% lower than the Buy-Price Function.
 
