@@ -38,7 +38,6 @@ Another important implication of this mechanism is that XOR price on the seconda
 
 ![](.gitbook/assets/margin-tbc-v2.png)
 
-
 While the SORA economy is in its infant phase, the token bonding curve plays a crucial role in maintaining XOR's store-of-value property. The ability to set confidence ranges of token price movements lowers the psychological boundary towards accepting XOR for payments.
 
 It is important to note that **the token bonding curve does not guarantee XOR's price stability,** but rather a measure of [forward-guided](https://www.ecb.europa.eu/explainers/tell-me/html/what-is-forward_guidance.en.html) price predictability.
