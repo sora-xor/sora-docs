@@ -32,6 +32,7 @@ TBCD (**T**oken **B**onding **C**urve **D**ollars) aims to fill this void by bei
 To support the price of TBCD, 1% of network of all transactions inside SORA is going to buyback-and-burning TBCD. 39% is going to buyback-and-burning KUSD
 
 Update picture ...
+
 <!----![The SORA Token Bonding Curve and uses of margin between buy and sell functions](/.gitbook/assets/margin-tbc.png)---->
 
 TBCD can only be created and allocated by on-chain governance, which means that XOR token holders decide the supply. In this way, TBCD can contribute to the productive economy of SORA because builders can be funded in TBCD, which can lead to more uses for SORA ecosystem tokens.
