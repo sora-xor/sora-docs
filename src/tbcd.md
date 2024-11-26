@@ -16,8 +16,7 @@ head:
 - Token Bonding Curve Dollars (TBCD) is an algorithmic, non-synthetic stablecoin whose value is maintained by the SORA token bonding curve.
 - TBCD is created to be worth slightly less than $1 when XOR is far lower than the price point on the token bonding curve, reducing sell pressure to XOR when the price of XOR is low.
 - TBCD helped build up reserves in the SORA token bonding curve, while also used to fund the creation of new goods and services via an on-chain referendum decided by all XOR token holders.
-- 10% of the reminted [PSWAP](./pswap) is allocated to buyback-and-burn TBCD. Similarly, 10% of the reminted [VAL](./val) is allocated to buyback-and-burn TBCD.
-  Additionally, 0.5% of the [TBC margin](./tbc.md#why-is-the-token-bonding-curve-useful) is directed towards buyback-and-burning of TBCD.
+- 1% of the Network fee is directed towards buyback-and-burning of TBCD.
 
 ## Why Implement Token Bonding Curve Dollars (TBCD)
 
@@ -30,43 +29,17 @@ However, many of the partners we engage with for institutional projects are not 
 
 TBCD (**T**oken **B**onding **C**urve **D**ollars) aims to fill this void by being a token that is convertible to XOR, as a reserve asset of the SORA token bonding curve, while also being worth $1, because the token bonding curve always treats TBCD as having the value of $1 USD.
 
-As you may recall, the [SORA token bonding
-curve](tbc.md) is a smart contract,
-built right into Polkaswap, which mints XOR in exchange for reserve
-assets, and burns XOR to return the reserve assets. There is a margin
-of 20% between buy and sell, which is used for buyback-and-burning
-VAL, giving funds for future VAL DAOs, as well as to put into accounts
-that in the future can be used for project funding, and giving
-stipends to SORA citizens.
+To support the price of TBCD, 0.5% of all transactions within the SORA network will be allocated for the buyback and burning of TBCD, 19.5% for the buyback and burning of KUSD, 10% for referral rewards for newcomers, 20% for burning XOR, and 50% for the buyback and burning of VAL.
 
-The SORA Token Bonding Curve and uses of the margin between buy and sell
-functions
-![The SORA Token Bonding Curve and uses of margin between buy and sell
-functions](/.gitbook/assets/margin-tbc.png)
+![](.gitbook/assets/sora-network-transaction-fee.png)
 
-TBCD can only be created and allocated by on-chain governance, which
-means that XOR token holders decide the supply. In this way, TBCD can
-contribute to the productive economy of SORA because builders can be
-funded in TBCD, which can lead to more uses for SORA ecosystem
-tokens.
+TBCD can only be created and allocated by on-chain governance, which means that XOR token holders decide the supply. In this way, TBCD can contribute to the productive economy of SORA because builders can be funded in TBCD, which can lead to more uses for SORA ecosystem tokens.
 XOR is not diluted in purchasing power, because any minting of XOR is done only by giving TBCD to the token bonding curve, so TBCD becomes an asset that balances out any XOR put into circulation; in fact, the token bonding curve over-collateralizes, since there is a 20% margin between buy and sell, and part of that margin is XOR that goes into funds that are not currently distributed and put into circulation.
 
-Because the SORA token is going to target a price point of around
-$600, this means that TBCD will have little utility if XOR costs $600,
-while the secondary market price is so much lower.
-To make TBCD useful, instead of using the ~$600 price point, it will
-be able to buy XOR from the TBC at the current market price + $1. This
-is still higher than the market price, which will incentivize people
-to avoid dumping TBCD for XOR when the XOR price is low (because they
-won’t get a full $1 of value). For example, if XOR is $3 then TBCD
-holders can buy XOR from the token bonding curve for a 33% premium,
-which is not very appealing, but if XOR is at $100, then TBCD holders
-can buy XOR for just $101, which is a negligible premium.
+Because the SORA token is going to target a price point of around $600, this means that TBCD will have little utility if XOR costs $600, while the secondary market price is so much lower. To make TBCD useful, instead of using the ~$600 price point, it will be able to buy XOR from the TBC at the current market price + $1. This is still higher than the market price, which will incentivize people to avoid dumping TBCD for XOR when the XOR price is low (because they won’t get a full $1 of value). For example, if XOR is $3 then TBCD holders can buy XOR from the token bonding curve for a 33% premium, which is not very appealing, but if XOR is at $100, then TBCD holders can buy XOR for just $101, which is a negligible premium.
 Eventually the premium can go away entirely, when XOR is at the nominal token bonding curve price.
 
-As with other token bonding curve reserve assets, the sell price of
-XOR for TBCD from the SORA token bonding curve will be 20% less than
-the price for buying.
+As with other token bonding curve reserve assets, the sell price of XOR for TBCD from the SORA token bonding curve will be 20% less than the price for buying.
 
 ## Algorithmic Central Banking
 

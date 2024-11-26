@@ -34,15 +34,9 @@ Another important implication of this mechanism is that XOR price on the seconda
 - Primary market buy-back reserve limits the ability of governments or short-sellers to manipulate the market.
 - The SORA v2 monetary system is neither debt-based nor debt-driven, and new tokens are always allocated under democratic supervision, which works to eliminate the unsustainable boom-bust cycles in contemporary economic systems.
 - The current buy/sell-prices offered by the token bonding curve provide support & resistance levels, or a confidence range for the price of XOR in the market, with forward guidance.
-- 20% of the quantity bought from the buy function are reserved for different players in the SORA network:
-  - 1% goes to buyback-and-burn [VAL](./val)
-  - 9% use is decided by [VAL](./val) holders, but mainly for liquidity provision
-  - 0.1% is given to citizens
-  - 0.4% is given to stores and shoppers
-  - 0.5% is used to buyback-and-burn [TBCD](./tbcd)
-  - 9% is used for projects
+- 20% of the quantity bought from the buy function goes to buyback-and-burn of KUSD
 
-![](.gitbook/assets/margin-tbc.png)
+![](.gitbook/assets/margin-tbc-v2.png)
 
 While the SORA economy is in its infant phase, the token bonding curve plays a crucial role in maintaining XOR's store-of-value property. The ability to set confidence ranges of token price movements lowers the psychological boundary towards accepting XOR for payments.
 
