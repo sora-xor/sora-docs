@@ -76,7 +76,7 @@ to find more about the Parliament and the governance bodies.
 As mentioned above, the Polkadot v1 Governance is used and the current
 SORA Council uses the Polkadot.JS interface. This section will cover
 what the different governance features are and how to create a motion
-in SORA v2. 
+in SORA v2.
 
 ### SORA Council
 
@@ -84,7 +84,7 @@ The SORA council can be found in the Council section of the Governace
 drop down menu in
 [Polkadot.js](https://polkadot.js.org/apps/#/council). The main
 council interface will have the names of current members as well as
-runner-up candidates. 
+runner-up candidates.
 
 ![](/.gitbook/assets/sora-governance-council.png)
 
@@ -93,28 +93,29 @@ runner-up candidates.
 Governance proposals in SORA begin as council motions. There are two
 ways to make a motion, by proposing the motion directly or proposing
 an external, by using a preimage hash that has been created
-already. This tutorial will show you how to make both. 
+already. This tutorial will show you how to make both.
 
 ![](/.gitbook/assets/sora-governance-council-motion.png)
 
 ##### Propose Motion
 
 This button allows you to create any governance motion from all the
-available options. 
+available options.
 
 ::: info
 Only an account within the Council members can create a Council motion
 :::
 
 In this case, the motion to be proposed is to mint an amount of tokens
-to a given address. To do that; 
+to a given address. To do that;
+
 - Click on propose motion, then in the
-proposal section select `assets` and from the option section choose
-`updateBalance`this will add the option to add an address from your
-address book or you can input the address manually. 
+  proposal section select `assets` and from the option section choose
+  `updateBalance`this will add the option to add an address from your
+  address book or you can input the address manually.
 
 - Then add the currency ID (you can find this in Polkaswap within the
-[Explore Tokens section](https://polkaswap.io/#/explore/token). 
+  [Explore Tokens section](https://polkaswap.io/#/explore/token).
 
 - Finally, add the amount in 10^18 precision of tokens to be sent (the number of tokens followed by 18 zeroes).
 
@@ -143,7 +144,7 @@ cannot propose it in the Council.
 Now that you have your preimage, copy the hash and back in the Motions
 subsection of the Council option in the Governance dropdown in
 [Polkadot.js](https://polkadot.js.org/apps/#/council) select Propose
-External. 
+External.
 
 The pop up will ask you for the preimage hash and length. Paste the
 hash and the length will populate automatically. Click propose and
