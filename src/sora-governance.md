@@ -86,7 +86,7 @@ drop down menu in
 council interface will have the names of current members as well as
 runner-up candidates.
 
-![](/.gitbook/assets/sora-governance-council.png)
+![](.gitbook/assets/sora-governance-council.png)
 
 #### SORA Council Motions
 
@@ -95,7 +95,7 @@ ways to make a motion, by proposing the motion directly or proposing
 an external, by using a preimage hash that has been created
 already. This tutorial will show you how to make both.
 
-![](/.gitbook/assets/sora-governance-council-motion.png)
+![](.gitbook/assets/sora-governance-council-motion.png)
 
 ##### Propose Motion
 
@@ -119,7 +119,7 @@ to a given address. To do that;
 
 - Finally, add the amount in 10^18 precision of tokens to be sent (the number of tokens followed by 18 zeroes).
 
-![](/.gitbook/assets/sora-governance-council-propose.png)
+![](.gitbook/assets/sora-governance-council-propose.png)
 
 After you click propose, and confirm the transaction, it will generate
 a preimage. You need this to create your motion.
@@ -137,7 +137,7 @@ Anyone can create a preimage from the preimage section, but you
 cannot propose it in the Council.
 :::
 
-![](/.gitbook/assets/sora-governance-council-preimage.png)
+![](.gitbook/assets/sora-governance-council-preimage.png)
 
 ##### Propose External
 
@@ -151,7 +151,7 @@ hash and the length will populate automatically. Click propose and
 confirm the transaction. Congratulations, you have created a Council
 Motion.
 
-![](/.gitbook/assets/sora-governance-council-external.png)
+![](.gitbook/assets/sora-governance-council-external.png)
 
 All that is left is for the Council to vote on it, then, if approved
 it will become a Democracy Referenda that the entire community can
