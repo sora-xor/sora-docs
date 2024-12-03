@@ -93,10 +93,10 @@ runner-up candidates.
 Governance proposals in SORA begin as council motions. There are two
 ways to make a motion, by proposing the motion directly or proposing
 an external, by using a [preimage](#preimages) hash that has been created
-already. 
+already.
 This tutorial will show you how to make a preimage to
 [increase network fees](#increase-network-fees) and [mint
-tokens](#mint-tokens). Then, it will cover [submitting the preimage for council vote](#propose-external). 
+tokens](#mint-tokens). Then, it will cover [submitting the preimage for council vote](#propose-external).
 
 ![](.gitbook/assets/sora-governance-council-motion.png)
 
@@ -107,7 +107,7 @@ available options.
 
 ::: info
 Only an account within the Council members can create a Council
-motion. Users can create motions, but it will take 45 days to enact. 
+motion. Users can create motions, but it will take 45 days to enact.
 :::
 
 ###### Increase Network Fees
@@ -117,14 +117,13 @@ transaction. To do that;
 
 - Click on propose motion, then in the proposal section select
   `xorFee`and from the option choose `updateMultiplier(new
-  Multiplier)`this will add the option to input a fee multiplier
+Multiplier)`this will add the option to input a fee multiplier
   amount in numbers. In this case we have added
   `134400000000000000000000000`
-  
+
   ::: info
   The multiplier depends on the current price of XOR.
   :::
-
 
 ![](.gitbook/assets/sora-governance-council-fee-multiply.png)
 
