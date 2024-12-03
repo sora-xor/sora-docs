@@ -92,8 +92,11 @@ runner-up candidates.
 
 Governance proposals in SORA begin as council motions. There are two
 ways to make a motion, by proposing the motion directly or proposing
-an external, by using a preimage hash that has been created
-already. This tutorial will show you how to make both.
+an external, by using a [preimage](#preimages) hash that has been created
+already. 
+This tutorial will show you how to make a preimage to
+[increase network fees](#increase-network-fees) and [mint
+tokens](#mint-tokens). Then, it will cover [submitting the preimage for council vote](#propose-external). 
 
 ![](.gitbook/assets/sora-governance-council-motion.png)
 
@@ -103,8 +106,32 @@ This button allows you to create any governance motion from all the
 available options.
 
 ::: info
-Only an account within the Council members can create a Council motion
+Only an account within the Council members can create a Council
+motion. Users can create motions, but it will take 45 days to enact. 
 :::
+
+###### Increase Network Fees
+
+The network fees must be increased to match the set amount of ¢20 per
+transaction. To do that;
+
+- Click on propose motion, then in the proposal section select
+  `xorFee`and from the option choose `updateMultiplier(new
+  Multiplier)`this will add the option to input a fee multiplier
+  amount in numbers. In this case we have added
+  `134400000000000000000000000`
+  
+  ::: info
+  The multiplier depends on the current price of XOR.
+  :::
+
+
+![](.gitbook/assets/sora-governance-council-fee-multiply.png)
+
+After you click propose, and confirm the transaction, it will generate
+a [preimage](#preimages). You need this to create your motion.
+
+###### Mint Tokens
 
 In this case, the motion to be proposed is to mint an amount of tokens
 to a given address. To do that;
@@ -122,7 +149,7 @@ to a given address. To do that;
 ![](.gitbook/assets/sora-governance-council-propose.png)
 
 After you click propose, and confirm the transaction, it will generate
-a preimage. You need this to create your motion.
+a [preimage](#preimages). You need this to create your motion.
 
 ###### Preimages
 
@@ -133,7 +160,7 @@ drop dowm menu in
 [Polkadot.js](https://polkadot.js.org/apps/#/preimages)
 
 :::info
-Anyone can create a preimage from the preimage section, but you
+Anyone can create a preimage from the [preimage](https://polkadot.js.org/apps/#/preimages). section, but you
 cannot propose it in the Council.
 :::
 
