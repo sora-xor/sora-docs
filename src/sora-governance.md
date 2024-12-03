@@ -112,41 +112,41 @@ motion. Users can create motions, but it will take 45 days to enact.
 
 ###### Increase Network Fees
 
-  ::: info
-  The network fee multiplier depends on the current price of XOR. Fees
-  must be increased to match the set amount of ¢20 per transaction.
-  :::
+::: info
+The network fee multiplier depends on the current price of XOR. Fees
+must be increased to match the set amount of ¢20 per transaction.
+:::
 
 To increase SORA network fees;
 
 - Find out what the current network fee is. To do that navigate to the
   Developer tab, then Chain State drop down. For the selected state
   query pick `xorFee`and make sure the multiplier is set to
-  `multiplier():u128`. Click on the + sign to query. 
-  
-   ![](.gitbook/assets/sora-governance-council-fee-multiply.png)
-   
+  `multiplier():u128`. Click on the + sign to query.
+
+  ![](.gitbook/assets/sora-governance-council-fee-multiply.png)
+
 - Now that we know the current fee multiplier is
   `67,200,000,000,000,000,000,000,000` it is time to make the proposal
   to double the fee.
-  
 - Navigate to the Governance tab, the Council, then Motions and click on propose motion, then in the proposal section select
   `xorFee`and from the option choose `updateMultiplier(new
 Multiplier)`this will add the option to input a fee multiplier
   amount in numbers. In this case we have added
-<<<<<<< HEAD
+  <<<<<<< HEAD
   `134400000000000000000000000`
 
   ::: info
   The multiplier depends on the current price of XOR.
   :::
 
-![](.gitbook/assets/sora-governance-council-fee-multiply.png)
-=======
-  `134400000000000000000000000`as it is double the current fee.
+# ![](.gitbook/assets/sora-governance-council-fee-multiply.png)
 
- ![](.gitbook/assets/sora-governance-council-fee-multiply.png)
->>>>>>> 2ab052d (added fee calculation info)
+`134400000000000000000000000`as it is double the current fee.
+
+![](.gitbook/assets/sora-governance-council-fee-multiply.png)
+
+> > > > > > > 2ab052d (added fee calculation info)
 
 After you click propose, and confirm the transaction, it will generate
 a [preimage](#preimages). You need this to create your motion.
