@@ -31,7 +31,7 @@ The PSWAP rewards to be earned are calculated exponentially as a function of cur
 
 #### LP Fees
 
-The first way to earn PSWAP rewards on Polkaswap is to provide liquidity on the DEX with XOR and any other token. Liquidity providers get 0.3% of each swap in fees so that they will earn PSWAP for providing liquidity to the pool. Then more users trade, the more liquidity providers get.
+The first way to earn PSWAP rewards on Polkaswap is to provide liquidity on the DEX with XOR and any other token. Liquidity providers get 0.6% of each swap in fees so that they will earn PSWAP for providing liquidity to the pool. Then more users trade, the more liquidity providers get.
 
 #### Vesting VAL for XOR erc-20 holders
 
