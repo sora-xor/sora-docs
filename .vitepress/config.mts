@@ -114,6 +114,10 @@ export default withMermaid(
                       link: "karma",
                     },
                     {
+                      text: "KUSD",
+                      link: "kusd",
+                    },
+                    {
                       text: "VXOR",
                       link: "vxor",
                     },
