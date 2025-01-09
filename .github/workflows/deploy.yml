@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop
+      - f33r0-patch-1
 jobs:
   deploy:
     runs-on: ubuntu-latest
