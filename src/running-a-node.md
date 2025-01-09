@@ -432,7 +432,7 @@ A: _You can exchange tokens for XOR on [*Polkaswap*](https://polkaswap.io), or t
 
 Q: **What is the minimum stake of XOR needed to run a node?**
 
-A: _While no minimum amount is needed to run the node, the amount of stake required (between self-staking and nominations) to be in the active validator set will vary. You can look at the current [amount staked on SORA nodes here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.mof.sora.org#/legacy-staking)_  
+A: _While no minimum amount is needed to run the node, the amount of stake required (between self-staking and nominations) to be in the active validator set will vary. You can look at the current [amount staked on SORA nodes here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.mof.sora.org#/legacy-staking)_
 
 Q: **Where can I see my node in telemetry?**
 
@@ -459,7 +459,7 @@ your session keys._
 Q: **I see that the Docker version is higher than recommended in the guide. Which is the correct node version to use?**
 
 A: _There are constant updates to the node version. However, it is not necessary to update your node to the latest version unless the developers specify it. In that case, it will be announced on SORA socials, and the node version will be updated in this article._
- 
+
 ## Learn More
 
 - [SORA Tokenomics](/tokenomics.md)
