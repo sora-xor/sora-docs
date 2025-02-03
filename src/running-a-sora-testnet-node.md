@@ -18,7 +18,7 @@ The SORA v3 Testnet is based on the [Hyperledger Iroha](https://docs.iroha.tech/
 You will need:
 
 - A machine with Linux, Windows, or macOS
-- A static publicly accessible IP address with an open `1337` port
+- A static publicly accessible IP address
 - [Docker](https://docs.docker.com/get-docker/) (preferably the latest version). Follow the installation guide for your operating system.
 - At least 128 MB RAM dedicated to a single node container.
 - At least 4GB free space for a single node container.
@@ -123,17 +123,15 @@ Ensure that your machine or server has a static, publicly accessible IP address.
 
 #### 3.2. Configure Port Access
 
-Ensure that port `1337` is open on your firewall, or add the necessary rules in your provider’s security group settings to allow inbound traffic.
+- Open port `1337` to allow inbound traffic from any nodes.
+- Open port `8080` to allow inbound traffic from your client.
 
 #### 3.3. Specify Your Keys in the Docker Compose Configuration
 
 Edit the previously downloaded `docker-compose.volunteer.yml` file and update the following environment variables:
 
 ```yml
-# For the attached client
-ACCOUNT_PUBLIC_KEY: <your_public_key>
-ACCOUNT_PRIVATE_KEY: <your_private_key>
-# For the peer
+# PEER CONFIG
 PUBLIC_KEY: <your_public_key>
 PRIVATE_KEY: <your_private_key>
 P2P_PUBLIC_ADDRESS: <your_advertised_host>:1337
@@ -171,6 +169,24 @@ If the peer list is empty, your node may not be registered, or there might be ne
 :::
 
 ## Perform Transactions via Your Node
+
+### 0. Prepare Your Client
+
+To interact with your node, set up a client.
+Download the `docker-compose.volunteer.client.yml` [configuration file](https://github.com/hyperledger-iroha/iroha/raw/refs/heads/testnet/2.0.0-rc.1/defaults/docker-compose.volunteer.client.yml) and update the following environment variables:
+
+```yml
+# CLIENT CONFIG OVERRIDE
+TORII_URL: <your_host>:8080
+ACCOUNT_PUBLIC_KEY: <your_public_key>
+ACCOUNT_PRIVATE_KEY: <your_private_key>
+```
+
+Next, run the following command to start a container:
+
+```bash
+docker compose -f docker-compose.volunteer.client.yml up -d
+```
 
 ### 1. Send and Inspect a Mock Transaction
 
