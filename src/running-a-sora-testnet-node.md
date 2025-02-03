@@ -18,7 +18,7 @@ The SORA v3 Testnet is based on the [Hyperledger Iroha](https://docs.iroha.tech/
 You will need:
 
 - A machine with Linux, Windows, or macOS
-- A static publicly accessible IP address with open `1337` port 
+- A static publicly accessible IP address with an open `1337` port
 - [Docker](https://docs.docker.com/get-docker/) (preferably the latest version). Follow the installation guide for your operating system.
 - At least 128 MB RAM dedicated to a single node container.
 - At least 4GB free space for a single node container.
@@ -29,7 +29,7 @@ To check that Docker is installed, run the `docker --version` command in your te
 Docker version 27.5.1, build 9f9e405
 ```
 
-Check the container with the `docker run hello-world` command in terminal. If everything works fine, Docker will pull the hello-world image and run it.
+Check the container with the `docker run hello-world` command in the terminal. If everything works fine, Docker will pull the hello-world image and run it.
 
 ::: details Expand to see the `docker run hello-world` output
 
@@ -69,7 +69,7 @@ For more examples and ideas, visit:
 
 :::
 
-If something went wrong, please visit the [Docker documentation](https://docs.docker.com/). You can also download Docker from here:
+If something goes wrong, please visit the [Docker documentation](https://docs.docker.com/). You can also download Docker from here:
 
 - [macOS](https://docs.docker.com/desktop/setup/install/mac-install/)
 - [Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
@@ -81,7 +81,7 @@ If something went wrong, please visit the [Docker documentation](https://docs.do
 
 Download the `docker-compose.volunteer.yml` [configuration file](https://github.com/hyperledger-iroha/iroha/raw/refs/heads/testnet/2.0.0-rc.1/defaults/docker-compose.volunteer.yml) from the Iroha repository.
 
-Navigate to the folder where you placed the file in your command line.
+You can just navigate to the folder where you placed the file in your command line.
 
 ### 2. Generate Your Key Pair and Declare the Public Key
 
@@ -105,8 +105,8 @@ Keep your **private key** securely recorded and confidential.
 
 ::: tip Note
 
-For testnet purposes you'll be using the same key pair for the node and account both. In production environments, always use separate key pairs.
-    
+For testnet purposes, you'll use the same key pair for both the node and account. In production environments, always use separate key pairs.
+
 :::
 
 ### 3. Launch Your Node
@@ -135,7 +135,7 @@ P2P_PUBLIC_ADDRESS: <your_advertised_host>:1337
 
 #### 3.4. Start the Docker Container
 
-From the folder containing the `docker-compose.volunteer.yml` file run the following command to launch your node:
+From the folder containing the `docker-compose.volunteer.yml` file, run the following command to launch your node:
 
 ```bash
 docker compose -f docker-compose.volunteer.yml up -d
@@ -151,7 +151,7 @@ docker compose -f docker-compose.volunteer.yml up -d
 
 ### 4. Check the Node Status
 
-Once your the administrators register your node, verify its status using one of these commands:
+Once the administrators register your node, verify its status using one of these commands:
 
 ```bash
 curl <your_host>:8080/status
@@ -291,7 +291,6 @@ iroha asset get --id "rose##<your_public_key>@wonderland"
 ```
 
 For further information, consult the `iroha` [command-line tool help](https://github.com/hyperledger-iroha/iroha/blob/testnet/2.0.0-rc.1/crates/iroha_cli/CommandLineHelp.md).
-
 
 ## Learn More
 
