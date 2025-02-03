@@ -105,7 +105,7 @@ Keep your **private key** securely recorded and confidential.
 
 ::: tip Note
 
-For testnet purposes, you'll use the same key pair for both the node and account. In production environments, always use separate key pairs.
+For testnet purposes, you'll use the same key pair for both the node and the account. In production environments, always use separate key pairs.
 
 :::
 
@@ -113,7 +113,7 @@ For testnet purposes, you'll use the same key pair for both the node and account
 
 #### 3.1. Ensure a Static IP Address
 
-Confirm that your machine or server is assigned a static, publicly accessible IP address. Most cloud providers enable this by default.
+Ensure that your machine or server has a static, publicly accessible IP address. Most cloud providers assign one by default.
 
 #### 3.2. Configure Port Access
 
@@ -121,7 +121,7 @@ Ensure that port `1337` is open on your firewall, or add the necessary rules in 
 
 #### 3.3. Specify Your Keys in the Docker Compose Configuration
 
-Edit the previously downloaded `docker-compose.volunteer.yml` file as follows:
+Edit the previously downloaded `docker-compose.volunteer.yml` file and update the following environment variables:
 
 ```yml
 # For the attached client
@@ -151,7 +151,7 @@ docker compose -f docker-compose.volunteer.yml up -d
 
 ### 4. Check the Node Status
 
-Once the administrators register your node, verify its status using one of these commands:
+Once the administrators register your node, verify its status using one of the following commands:
 
 ```bash
 curl <your_host>:8080/status
@@ -196,7 +196,7 @@ In another instance of an attached shell, send a mock transaction:
 
 ```bash
 cd /config
-iroha transaction ping --msg "This is an extraordinary mock transaction"
+iroha transaction ping --msg "This is a mock transaction"
 ```
 
 **Example output:**
@@ -211,7 +211,7 @@ If the account is not found, your account may not be registered. Troubleshoot wi
 
 :::
 
-If the transaction listener is running, you should see a report of the approved transaction:
+If the transaction listener is running, you should see a confirmation that the transaction has been approved:
 
 ```json
 {
@@ -243,7 +243,7 @@ iroha transaction get --hash "23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8
     "version": "1",
     "content": {
       ...
-      "msg": "This is an extraordinary mock transaction"
+      "msg": "This is a mock transaction"
       ...
     }
   },
@@ -253,7 +253,7 @@ iroha transaction get --hash "23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8
 
 ### 3. Transfer Assets
 
-By default, your account should have 100 `rose` assets as an airdrop. Verify this with the following query:
+By default, your account receives an initial airdrop of 100 `rose` assets. Verify this with the following query:
 
 ```bash
 cd /config
@@ -275,7 +275,7 @@ To transfer some roses to another account, use the following command and confirm
 
 ```bash
 cd /config
-iroha asset transfer --id "rose##<your_public_key>@wonderland" --to "<friend_public_key>@wonderland" --quantity 0.4
+iroha asset transfer --id "rose##<your_public_key>@wonderland" --to "<another_public_key>@wonderland" --quantity 0.4
 iroha asset get --id "rose##<your_public_key>@wonderland"
 ```
 
