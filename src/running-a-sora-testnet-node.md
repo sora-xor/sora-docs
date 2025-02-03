@@ -188,13 +188,24 @@ Next, run the following command to start a container:
 docker compose -f docker-compose.volunteer.client.yml up -d
 ```
 
+**Example output:**
+
+```log
+[+] Running 1/1>docker compose -f docker-compose.volunteer.client.yml up -d
+ ✔ Container defaults-clients-1  Started
+```
+
+Note the container name: in this example it is `defaults-clients-1`. On your set up it may be different. You need it for the following steps.
+
 ### 2. Send and Inspect a Mock Transaction
 
 To listen for incoming transactions, attach a shell to the running container:
 
 ```bash
-docker exec -it defaults-clients-1 bash
+docker exec -it <container_name> bash
 ```
+
+Where <container_name> is the name your client container was assigned on step 1.
 
 And once you're in the container's shell, run:
 
