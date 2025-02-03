@@ -193,7 +193,7 @@ docker compose -f docker-compose.volunteer.client.yml up -d
 To listen for incoming transactions, attach a shell to the running container:
 
 ```bash
-docker exec -it defaults-irohad-1 bash
+docker exec -it defaults-clients-1 bash
 ```
 
 And once you're in the container's shell, run:
@@ -208,7 +208,7 @@ This will create a transaction listener.
 **Example output:**
 
 ```bash
-C:\Users\user>docker exec -it defaults-irohad-1 bash
+C:\Users\user>docker exec -it defaults-clients-1 bash
 iroha@263a8e4bbbd1:/$ cd /config
 iroha@263a8e4bbbd1:/config$ iroha events transaction
 Listening to events with filter: Pipeline(Transaction(TransactionEventFilter { hash: None, block_height: None, status: None }))
