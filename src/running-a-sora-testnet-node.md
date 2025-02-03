@@ -109,6 +109,12 @@ For testnet purposes, you'll use the same key pair for both the node and the acc
 
 :::
 
+::: tip Note
+
+In production environments, operating your own node is not necessarily required; you can interact with public endpoints instead.
+
+:::
+
 ### 3. Launch Your Node
 
 #### 3.1. Ensure a Static IP Address
