@@ -18,7 +18,7 @@ The SORA v3 Testnet is based on the [Hyperledger Iroha](https://docs.iroha.tech/
 You will need:
 
 - A machine with Linux, Windows, or macOS
-- A static publicly accessible IP address with an open `1337` port
+- A static publicly accessible IP address
 - [Docker](https://docs.docker.com/get-docker/) (preferably the latest version). Follow the installation guide for your operating system.
 - At least 128 MB RAM dedicated to a single node container.
 - At least 4GB free space for a single node container.
@@ -105,7 +105,13 @@ Keep your **private key** securely recorded and confidential.
 
 ::: tip Note
 
-For testnet purposes, you'll use the same key pair for both the node and account. In production environments, always use separate key pairs.
+For testnet purposes, you'll use the same key pair for both the node and the account. In production environments, always use separate key pairs.
+
+:::
+
+::: tip Note
+
+In production environments, operating your own node is not necessarily required; you can interact with public endpoints instead.
 
 :::
 
@@ -113,21 +119,19 @@ For testnet purposes, you'll use the same key pair for both the node and account
 
 #### 3.1. Ensure a Static IP Address
 
-Confirm that your machine or server is assigned a static, publicly accessible IP address. Most cloud providers enable this by default.
+Ensure that your machine or server has a static, publicly accessible IP address. Most cloud providers assign one by default.
 
 #### 3.2. Configure Port Access
 
-Ensure that port `1337` is open on your firewall, or add the necessary rules in your provider’s security group settings to allow inbound traffic.
+- Open port `1337` to allow inbound traffic from any nodes.
+- Open port `8080` to allow inbound traffic from your client.
 
 #### 3.3. Specify Your Keys in the Docker Compose Configuration
 
-Edit the previously downloaded `docker-compose.volunteer.yml` file as follows:
+Edit the previously downloaded `docker-compose.volunteer.yml` file and update the following environment variables:
 
 ```yml
-# For the attached client
-ACCOUNT_PUBLIC_KEY: <your_public_key>
-ACCOUNT_PRIVATE_KEY: <your_private_key>
-# For the peer
+# PEER CONFIG
 PUBLIC_KEY: <your_public_key>
 PRIVATE_KEY: <your_private_key>
 P2P_PUBLIC_ADDRESS: <your_advertised_host>:1337
@@ -145,13 +149,13 @@ docker compose -f docker-compose.volunteer.yml up -d
 
 ```log
 [+] Running 2/2>docker compose -f docker-compose.volunteer.yml up -d
- ✔ Network downloads_default     Created                             0.1s
- ✔ Container downloads-irohad-1  Started
+ ✔ Network defaults_default     Created                             0.1s
+ ✔ Container defaults-irohad-1  Started
 ```
 
 ### 4. Check the Node Status
 
-Once the administrators register your node, verify its status using one of these commands:
+Once the administrators register your node, verify its status using one of the following commands:
 
 ```bash
 curl <your_host>:8080/status
@@ -166,13 +170,42 @@ If the peer list is empty, your node may not be registered, or there might be ne
 
 ## Perform Transactions via Your Node
 
-### 1. Send and Inspect a Mock Transaction
+### 1. Prepare Your Client
+
+To interact with your node, set up a client.
+Download the `docker-compose.volunteer.client.yml` [configuration file](https://github.com/hyperledger-iroha/iroha/raw/refs/heads/testnet/2.0.0-rc.1/defaults/docker-compose.volunteer.client.yml) and update the following environment variables:
+
+```yml
+# CLIENT CONFIG OVERRIDE
+TORII_URL: <your_host>:8080
+ACCOUNT_PUBLIC_KEY: <your_public_key>
+ACCOUNT_PRIVATE_KEY: <your_private_key>
+```
+
+Next, run the following command to start a container:
+
+```bash
+docker compose -f docker-compose.volunteer.client.yml up -d
+```
+
+**Example output:**
+
+```log
+[+] Running 1/1>docker compose -f docker-compose.volunteer.client.yml up -d
+ ✔ Container defaults-clients-1  Started
+```
+
+Note the container name: in this example it is `defaults-clients-1`. On your set up it may be different. You need it for the following steps.
+
+### 2. Send and Inspect a Mock Transaction
 
 To listen for incoming transactions, attach a shell to the running container:
 
 ```bash
-docker exec -it downloads-irohad-1 bash
+docker exec -it <container_name> bash
 ```
+
+Where <container_name> is the name your client container was assigned on step 1.
 
 And once you're in the container's shell, run:
 
@@ -186,7 +219,7 @@ This will create a transaction listener.
 **Example output:**
 
 ```bash
-C:\Users\user>docker exec -it downloads-irohad-1 bash
+C:\Users\user>docker exec -it defaults-clients-1 bash
 iroha@263a8e4bbbd1:/$ cd /config
 iroha@263a8e4bbbd1:/config$ iroha events transaction
 Listening to events with filter: Pipeline(Transaction(TransactionEventFilter { hash: None, block_height: None, status: None }))
@@ -196,7 +229,7 @@ In another instance of an attached shell, send a mock transaction:
 
 ```bash
 cd /config
-iroha transaction ping --msg "This is an extraordinary mock transaction"
+iroha transaction ping --msg "This is a mock transaction"
 ```
 
 **Example output:**
@@ -211,7 +244,7 @@ If the account is not found, your account may not be registered. Troubleshoot wi
 
 :::
 
-If the transaction listener is running, you should see a report of the approved transaction:
+If the transaction listener is running, you should see a confirmation that the transaction has been approved:
 
 ```json
 {
@@ -225,7 +258,7 @@ If the transaction listener is running, you should see a report of the approved 
 }
 ```
 
-### 2. Query Transaction Details
+### 3. Query Transaction Details
 
 Retrieve the details of a specific transaction using its hash:
 
@@ -243,7 +276,7 @@ iroha transaction get --hash "23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8
     "version": "1",
     "content": {
       ...
-      "msg": "This is an extraordinary mock transaction"
+      "msg": "This is a mock transaction"
       ...
     }
   },
@@ -251,9 +284,9 @@ iroha transaction get --hash "23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8
 }
 ```
 
-### 3. Transfer Assets
+### 4. Transfer Assets
 
-By default, your account should have 100 `rose` assets as an airdrop. Verify this with the following query:
+By default, your account receives an initial airdrop of 100 `rose` assets. Verify this with the following query:
 
 ```bash
 cd /config
@@ -275,7 +308,7 @@ To transfer some roses to another account, use the following command and confirm
 
 ```bash
 cd /config
-iroha asset transfer --id "rose##<your_public_key>@wonderland" --to "<friend_public_key>@wonderland" --quantity 0.4
+iroha asset transfer --id "rose##<your_public_key>@wonderland" --to "<another_public_key>@wonderland" --quantity 0.4
 iroha asset get --id "rose##<your_public_key>@wonderland"
 ```
 
