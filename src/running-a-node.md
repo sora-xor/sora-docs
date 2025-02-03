@@ -464,3 +464,4 @@ A: _There are constant updates to the node version. However, it is not necessary
 
 - [SORA Tokenomics](/tokenomics.md)
 - [VAL Token](/val.md)
+- [Running a SORA v3 Testnet Node](./running-a-sora-testnet-node.md)
