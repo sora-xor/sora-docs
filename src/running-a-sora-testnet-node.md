@@ -170,7 +170,7 @@ If the peer list is empty, your node may not be registered, or there might be ne
 
 ## Perform Transactions via Your Node
 
-### 0. Prepare Your Client
+### 1. Prepare Your Client
 
 To interact with your node, set up a client.
 Download the `docker-compose.volunteer.client.yml` [configuration file](https://github.com/hyperledger-iroha/iroha/raw/refs/heads/testnet/2.0.0-rc.1/defaults/docker-compose.volunteer.client.yml) and update the following environment variables:
@@ -188,7 +188,7 @@ Next, run the following command to start a container:
 docker compose -f docker-compose.volunteer.client.yml up -d
 ```
 
-### 1. Send and Inspect a Mock Transaction
+### 2. Send and Inspect a Mock Transaction
 
 To listen for incoming transactions, attach a shell to the running container:
 
@@ -247,7 +247,7 @@ If the transaction listener is running, you should see a confirmation that the t
 }
 ```
 
-### 2. Query Transaction Details
+### 3. Query Transaction Details
 
 Retrieve the details of a specific transaction using its hash:
 
@@ -273,7 +273,7 @@ iroha transaction get --hash "23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8
 }
 ```
 
-### 3. Transfer Assets
+### 4. Transfer Assets
 
 By default, your account receives an initial airdrop of 100 `rose` assets. Verify this with the following query:
 
