@@ -18,7 +18,7 @@ The SORA v3 Testnet is based on the [Hyperledger Iroha](https://docs.iroha.tech/
 You will need:
 
 - A machine with Linux, Windows, or macOS
-- A static publicly accessible IP address with an open `1337` port 
+- A static publicly accessible IP address with an open `1337` port
 - [Docker](https://docs.docker.com/get-docker/) (preferably the latest version). Follow the installation guide for your operating system.
 - At least 128 MB RAM dedicated to a single node container.
 - At least 4GB free space for a single node container.
@@ -106,7 +106,7 @@ Keep your **private key** securely recorded and confidential.
 ::: tip Note
 
 For testnet purposes, you'll use the same key pair for both the node and account. In production environments, always use separate key pairs.
-    
+
 :::
 
 ### 3. Launch Your Node
@@ -291,7 +291,6 @@ iroha asset get --id "rose##<your_public_key>@wonderland"
 ```
 
 For further information, consult the `iroha` [command-line tool help](https://github.com/hyperledger-iroha/iroha/blob/testnet/2.0.0-rc.1/crates/iroha_cli/CommandLineHelp.md).
-
 
 ## Learn More
 
