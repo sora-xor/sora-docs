@@ -1,9 +1,9 @@
 ---
-title: "Running a Node on the SORA v3 Testnet | SORA Docs"
+title: "Running a SORA v3 Testnet Node | SORA Docs"
 head:
   - - meta
     - name: description
-      content: "Learn how to run a node on the SORA v3 Testnet and participate in the testing of new features."
+      content: "Learn how to run a node on the SORA v3 Testnet and participate in testing new features."
   - - meta
     - name: keywords
       content: "running a node, SORA network, node setup, testnet"
@@ -81,7 +81,7 @@ If something went wrong, please visit the [Docker documentation](https://docs.do
 
 Download the `docker-compose.volunteer.yml` [configuration file](https://github.com/hyperledger-iroha/iroha/raw/refs/heads/testnet/2.0.0-rc.1/defaults/docker-compose.volunteer.yml) from the Iroha repository.
 
-In your command line navigate to the folder you placed the file into.
+Navigate to the folder where you placed the file in your command line.
 
 ### 2. Generate Your Key Pair and Declare the Public Key
 
@@ -149,7 +149,7 @@ docker compose -f docker-compose.volunteer.yml up -d
  ✔ Container downloads-irohad-1  Started
 ```
 
-### 4. Check Node Status
+### 4. Check the Node Status
 
 Once your the administrators register your node, verify its status using one of these commands:
 
@@ -227,7 +227,7 @@ If the transaction listener is running, you should see a report of the approved 
 
 ### 2. Query Transaction Details
 
-Retrieve details of a specific transaction using its hash:
+Retrieve the details of a specific transaction using its hash:
 
 ```bash
 cd /config

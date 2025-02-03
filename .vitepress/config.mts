@@ -280,7 +280,7 @@ export default withMermaid(
                 { text: "Rewards", link: "rewards" },
                 { text: "Nodes Connection", link: "nodes-connection" },
                 { text: "Running a Node", link: "running-a-node" },
-                { text: "Running a Testnet Node", link: "running-a-sora-testnet-node" },
+                { text: "Running a SORA v3 Testnet Node", link: "running-a-sora-testnet-node" },
                 {
                   text: "Vote in Governance",
                   link: "participate-sora-governance",
