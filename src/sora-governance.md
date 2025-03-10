@@ -129,14 +129,14 @@ To increase SORA network fees;
 - Now that we know the current fee multiplier is
   `67,200,000,000,000,000,000,000,000` it is time to make the proposal
   to double the fee.
-- Navigate to the Governance tab, the Council, then Motions and click on propose motion, then in the proposal section select
+- Navigate to the Governance tab, the Council, then Preimages and click on Add Preimage, then in the proposal section, select
   `xorFee`and from the option choose `updateMultiplier(new
 Multiplier)`this will add the option to input a fee multiplier
   amount in numbers. In this case we have added `134400000000000000000000000`as it is double the current fee.
 
 ![](.gitbook/assets/sora-governance-council-fee-multiply.png)
 
-After you click propose, and confirm the transaction, it will generate
+After you click propose and confirm the transaction, it will generate
 a [preimage](#preimages). You need this to create your motion.
 
 ###### Mint Tokens
