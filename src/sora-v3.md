@@ -47,8 +47,7 @@ At the same time, countries worldwide have been debasing their currencies by exp
 
 Because of the state of the world and the needs that people all over the world have, SORA v3 must be able to provide adequate funding for producers to target high GDP growth in the SORA economy while also limiting the increase of token supply expansion, given the meta-narrative that has caused people to be fearful of inflation.
 
-Builders in the SORA ecosystem under the v3 tokenomics will still get paid for their work, but not in XOR. Instead, they will be paid in stable tokens such as [KUSD](./kusd.md), although the final tokenomics are still under research.  
-
+Builders in the SORA ecosystem under the v3 tokenomics will still get paid for their work, but not in XOR. Instead, they will be paid in stable tokens such as [KUSD](./kusd.md), although the final tokenomics are still under research.
 
 Keep in mind that increasing the amount of goods and services in an economy is crucial, by definition, to expand the GDP. Therefore, any viable economic system needs to keep in mind ΔMV=ΔPY (_take a look at the [SORAnomics](./sora-economy.md#soranomics) if this is unclear_) and understand that **you need an expansion of purchasing power for production to create more goods/services**. SORA v3 tokenomics follows the [General Quantity Theory of Money (Disaggregated Quantity Theory of Money)](https://cyberleninka.ru/article/n/banks-and-economic-growth-the-general-theory-in-a-basic-disequilibrium-model-with-five-rationing-regimes) so our economy can expand sustainably and reliably, which will enable us to accomplish our goal of creating a new economic order for the world that enables collaboration instead of exploitation and competition. _We will all own XOR, and we will be happy._
 
@@ -87,11 +86,12 @@ Yes, it’s a long-term play, but creating a new world economy that isn’t base
 
 ![](/.gitbook/assets/sora-v3-5.png)
 
-In the SORA economy, XOR is the predictable monetary base. VAL and PSWAP are on top of the XOR monetary base, incentivizing validators and liquidity providers. 
-Finally, KUSD is on top of the pyramid, the all-seeing eye of the monetary system, reaching out into the existing dollarized world economy. Transaction fees propagate through the SORA economy, like blood pumping, burning some XOR, swapping through VAL and PSWAP, buying back, and burning TBCD and KUSD. 
+In the SORA economy, XOR is the predictable monetary base. VAL and PSWAP are on top of the XOR monetary base, incentivizing validators and liquidity providers.
+Finally, KUSD is on top of the pyramid, the all-seeing eye of the monetary system, reaching out into the existing dollarized world economy. Transaction fees propagate through the SORA economy, like blood pumping, burning some XOR, swapping through VAL and PSWAP, buying back, and burning TBCD and KUSD.
 Like a fine tapestry woven to perfection, each layer of the economy is thus encouraged to build value for the SORA economy by contributing their work and ideas so that by working together, the entire SORA ecosystem will flourish.
 
 Within the latest iteration of the SORA economy and including a robust buy-back-and-burn mechanism, the breakdown of transaction fees is as follows;
+
 - 50% to buyback and burn [VAL](./val.md)
 - 20% for burning [XOR](./xor.md)
 - 10% for [Referral Awards for newcomers](./referral.md)
