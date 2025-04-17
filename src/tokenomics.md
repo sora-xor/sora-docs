@@ -63,12 +63,13 @@ through [SORA governance](/sora-governance.md).
   SORA network.
 - [PSWAP](/pswap.md) is the LP reward token for liquidity providers on
   [Polkaswap](https://polkaswap.io/) and is burnt with every transaction.
-- [XST](/xst.md) is the _platform token_ used as the collateral asset for the creation of SORA Synthetics.
+- [KUSD](/kusd.md) is a stable asset in the SORA Economy aimed at
+  funding and rewarding builders.
 - The [Token Bonding Curve Dollar (TBCD)](/tbcd.md) is an algorithmic,
   non-synthetic stablecoin that has its value maintained by the SORA
   token bonding curve.
-- The [PUSSY](/pussy.md) token is a dedicated meme cryptocurrency in the SORA economy aimed
-  at funding and rewarding builders.
+- The [PUSSY](/pussy.md) token is a dedicated meme cryptocurrency in
+  the SORA economy.
 - The [KEN](/ken.md) token is a farming reward token meant to incentivize
   liquidity for KENSETSU stablecoins. This article outlines [Kensetsu assets](/kensetsu-vaults.md) and the KEN token.
 

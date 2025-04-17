@@ -47,13 +47,10 @@ At the same time, countries worldwide have been debasing their currencies by exp
 
 Because of the state of the world and the needs that people all over the world have, SORA v3 must be able to provide adequate funding for producers to target high GDP growth in the SORA economy while also limiting the increase of token supply expansion, given the meta-narrative that has caused people to be fearful of inflation.
 
-Builders in the SORA ecosystem under the v3 tokenomics will still get paid for their work, but not in XOR. Instead, they will be paid in tokens (probably changing monthly or quarterly) that will be accepted as collateral to create Kensetsu XOR, a stablecoin pegged to the value of XOR. Kensetsu XOR will have the liquidity builders need because it will be usable as if it were real XOR in Chameleon pools (initially XOR-ETH only and configurable by on-chain governance). LPs of Chameleon pools will farm KARMA tokens to encourage Chameleon pool liquidity, as explained in a [recent article by Satoshi Shibarimoto](https://medium.com/@shibarimoto/earn-karma-with-a-sora-chameleon-01b25c12fd49).
+Builders in the SORA ecosystem under the v3 tokenomics will still get paid for their work, but not in XOR. Instead, they will be paid in stable tokens such as [KUSD](./kusd.md), although the final tokenomics are still under research.  
 
-::: info
-The Chameleon Pool model is no longer active.
-:::
 
-Keep in mind that increasing the amount of goods and services in an economy is crucial, by definition, to expand the GDP. Therefore, any viable economic system needs to keep in mind ΔMV=ΔPY and understand that **you need an expansion of purchasing power for production to create more goods/services**. SORA v3 tokenomics follows the [General Quantity Theory of Money (Disaggregated Quantity Theory of Money)](https://cyberleninka.ru/article/n/banks-and-economic-growth-the-general-theory-in-a-basic-disequilibrium-model-with-five-rationing-regimes) so our economy can expand sustainably and reliably, which will enable us to accomplish our goal of creating a new economic order for the world that enables collaboration instead of exploitation and competition. _We will all own XOR, and we will be happy._
+Keep in mind that increasing the amount of goods and services in an economy is crucial, by definition, to expand the GDP. Therefore, any viable economic system needs to keep in mind ΔMV=ΔPY (_take a look at the [SORAnomics](./sora-economy.md#soranomics) if this is unclear_) and understand that **you need an expansion of purchasing power for production to create more goods/services**. SORA v3 tokenomics follows the [General Quantity Theory of Money (Disaggregated Quantity Theory of Money)](https://cyberleninka.ru/article/n/banks-and-economic-growth-the-general-theory-in-a-basic-disequilibrium-model-with-five-rationing-regimes) so our economy can expand sustainably and reliably, which will enable us to accomplish our goal of creating a new economic order for the world that enables collaboration instead of exploitation and competition. _We will all own XOR, and we will be happy._
 
 ### Second Iteration
 
@@ -65,9 +62,9 @@ However, given the low liquidity for Kensetsu assets up until now, especially KU
 
 #### BUIDLing NEO
 
-Creating financial software demands the highest quality code and repeatable processes; otherwise, it cannot be reliably used. Teams that BUIDL in the SORA ecosystem are expected to deliver the best results and have consistently proven themselves. However, professional teams cannot be expected to work for free, nor should they. Because we are still in the BUIDL phase of creating the SORA economic system, we should pay teams that work in the SORA ecosystem in a unit of account that is readily understandable, namely w.r.t. dollars (USD, also known as _cuck bucks_).
+Creating financial software demands the highest quality code and repeatable processes; otherwise, it cannot be reliably used. Teams that BUIDL in the SORA ecosystem are expected to deliver the best results and have consistently proven themselves. However, professional teams cannot be expected to work for free, nor should they. Because we are still in the _BUIDL_ (build) phase of creating the SORA economic system, we should pay teams that work in the SORA ecosystem in a unit of account that is readily understandable, namely w.r.t. dollars (USD, also known as _cuck bucks_).
 
-So, as part of the improvements to SORA on our journey to v3, KUSD is now proposed to be used to pay builders. To create the necessary KUSD and have it maintain its peg, it is important to use only hard collateral (not soft cats😿). For now, this means using TBCD as collateral. Even though we will need to mint **a lot of TBCD (one hundred billion to be exact)** to lock in Kensetsu vaults to mint KUSD, these TBCD won’t actually be converted to XOR, so it won’t affect the XOR token supply. It is just important to have secure collateral in Kensetsu vaults to build up confidence in the system.
+So, as part of the improvements to SORA on our journey to v3, KUSD is now proposed to be used to pay builders. To create the necessary KUSD and have it maintain its peg, it is important to use only hard collateral (not soft cats😿).
 
 To maintain the peg of KUSD to cuck bucks, it is proposed that the SORA ecosystem use a TBCD treasury to buy back and burn KUSD whenever it goes below the peg. This can increase the XOR supply in the short term, but in the future, when there is more demand for KUSD, and the ecosystem has been built up (which can only be done by maintaining the peg), this TBCD will all be burned through a buy-back-and-burn mechanism (a portion of transaction fees), which will also burn the XOR created (XOR is backed by TBCD, so burning TBCD will also burn XOR—it’s a 2-for-1).
 
@@ -84,9 +81,24 @@ However, this can be a costly way to obtain funds if a very large bonus has to b
 
 #### The Vision for SORA V3
 
-We can build a sustainable and self-reinforcing economy by using buy-back-and-burn mechanisms (a portion of the VAL and PSWAP re-mint to go to burning KUSD, while still keeping VAL and PSWAP strictly deflationary, as well as a portion of the XOR network fees paid with each transaction) to help KUSD maintain its peg, with a large TBCD treasury to cover any gaps, with an additional mechanism to buy-back-and-burn TBCD (10% of the remint of VAL and PSWAP—which captures both the use and volume of activity on the network). Through this process, we can create a powerful vortex that will eventually lead to the burning of a large amount of the XOR supply while still creating conditions for financing new output in the SORA economy. Yes, it’s a long-term play, but creating a new world economy that isn’t based on debt and enslavement will take time and have a never-ending share of sceptics and critics.
+We can build a sustainable and self-reinforcing economy by using buy-back-and-burn mechanisms. Through this process, we can create a powerful vortex that will eventually lead to the burning of a large amount of the XOR supply while still creating conditions for financing new output in the SORA economy, as documented below in the transaction fee breakdown.
 
-In the SORA economy, XOR is the predictable monetary base. VAL and PSWAP are on top of the XOR monetary base, incentivizing validators and liquidity providers. Finally, KUSD is on top of the pyramid, the all-seeing eye of the monetary system, reaching out into the existing dollarized world economy. Transaction fees propagate through the SORA economy, like blood pumping, burning some XOR, swapping through VAL and PSWAP, buying back, and burning TBCD and KUSD. Like a fine tapestry woven to perfection, each layer of the economy is thus encouraged to build value for the SORA economy by contributing their work and ideas so that by working together, the entire SORA ecosystem will flourish.
+Yes, it’s a long-term play, but creating a new world economy that isn’t based on debt and enslavement will take time and have a never-ending share of sceptics and critics.
+
+![](/.gitbook/assets/sora-v3-5.png)
+
+In the SORA economy, XOR is the predictable monetary base. VAL and PSWAP are on top of the XOR monetary base, incentivizing validators and liquidity providers. 
+Finally, KUSD is on top of the pyramid, the all-seeing eye of the monetary system, reaching out into the existing dollarized world economy. Transaction fees propagate through the SORA economy, like blood pumping, burning some XOR, swapping through VAL and PSWAP, buying back, and burning TBCD and KUSD. 
+Like a fine tapestry woven to perfection, each layer of the economy is thus encouraged to build value for the SORA economy by contributing their work and ideas so that by working together, the entire SORA ecosystem will flourish.
+
+Within the latest iteration of the SORA economy and including a robust buy-back-and-burn mechanism, the breakdown of transaction fees is as follows;
+- 50% to buyback and burn [VAL](./val.md)
+- 20% for burning [XOR](./xor.md)
+- 10% for [Referral Awards for newcomers](./referral.md)
+- 19.5% to buyback and burn [KUSD](./kusd.md)
+- 0.5% to buyback and burn [TBCD](./tbcd.md)
+
+![](.gitbook/assets/sora-network-transaction-fee.png)
 
 A stable, native and decentralized USD stablecoin will allow builders and community projects to deploy projects with a stable unit of account. Marketplaces and purchases of goods and services will enable real economic activity in the SORA ecosystem and beyond.
 
