@@ -33,7 +33,7 @@ Built on [Hyperledger Iroha 2](https://www.lfdecentralizedtrust.org/blog/announc
 
 ## SORA V3 Tokenomics
 
-The SORA V3 tokenomics were defined over two iterations. The first called for a suspension of TBCD minting while production was funded through the now defunct VXOR token. The second and current iteration uses the KUSD Dollar-pegged synthetic asset to fund production, while implementing buyback and burn of this asset within network transactions. Below is a detailed overview of both iterations.
+The SORA V3 tokenomics were defined over two iterations. The first called for a suspension of [TBCD](./tbcd.md) minting while production was funded through the now defunct VXOR token. The second and current iteration uses the [KUSD](./kusd.md) Dollar-pegged synthetic asset to fund production, while implementing buyback and burn of this asset within network transactions. Below is a detailed overview of both iterations.
 
 ### First Iteration
 
