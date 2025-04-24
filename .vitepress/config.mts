@@ -106,25 +106,14 @@ export default withMermaid(
                       link: "pussy",
                     },
                     {
-                      text: "KXOR",
-                      link: "kxor",
-                    },
-                    {
-                      text: "KARMA",
-                      link: "karma",
-                    },
-                    {
                       text: "KUSD",
                       link: "kusd",
-                    },
-                    {
-                      text: "VXOR",
-                      link: "vxor",
                     },
                   ],
                 },
                 { text: "SORA Governance", link: "sora-governance" },
                 { text: "SORA Academy", link: "sora-academy" },
+		{ text: "SORA V3", link: "sora-v3" },
                 { text: "FAQ", link: "sora-faq" },
                 { text: "Changelog", link: "changelog" },
               ],
