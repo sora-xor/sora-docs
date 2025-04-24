@@ -48,4 +48,4 @@ This system creates a robust financial ecosystem where builders are incentivized
 ## Learn More
 
 - [Kensetsu Platform](/kensetsu-vaults.md)
-- [Kensetsu KXOR](/kxor.md)
+- [Kensetsu USD](/kusd.md)
