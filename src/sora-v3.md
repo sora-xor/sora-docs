@@ -45,6 +45,8 @@ In SORA v2, the SORA (XOR) token (the main token on the network, used to pay gas
 
 At the same time, countries worldwide have been debasing their currencies by expanding their monetary bases for non-productive uses. While not directly related to SORA, this is an important narrative for billions of people, and (perhaps intentionally), many people became scared of any expansion in currency supplies, even for productive uses. This meta-narrative has important implications for SORA because we have to work within the confines of the grand narrative created globally, as we are, as of yet, too small to direct it ourselves.
 
+### Second Iteration
+
 Because of the state of the world and the needs that people all over the world have, SORA v3 must be able to provide adequate funding for producers to target high GDP growth in the SORA economy while also limiting the increase of token supply expansion, given the meta-narrative that has caused people to be fearful of inflation.
 
 Builders in the SORA ecosystem under the v3 tokenomics will still get paid for their work, but not in XOR. Instead, they will be paid in stable tokens such as [KUSD](./kusd.md), although the final tokenomics are still under research.
