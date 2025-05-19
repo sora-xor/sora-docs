@@ -170,11 +170,9 @@ export default withMermaid(
                 { text: "Create an Address", link: "create-an-address" },
                 { text: "Account Security", link: "account-security" },
                 { text: "Connect Wallet", link: "polkaswap-connect-wallet" },
-		        { text: "Connect with Google", link: "polkaswap-connect-with-google" },
-                {
-                  text: "Send & Receive",
-                  link: "send-and-receive",
-                },
+		{ text: "Multi-Signature Account", link: "multisig-account" },
+		{ text: "Connect with Google", link: "polkaswap-connect-with-google" },
+                { text: "Send & Receive", link: "send-and-receive", },
                 {
                   text: "Explore the Ecosystem",
                   collapsed: false,
@@ -299,8 +297,9 @@ export default withMermaid(
                       items: [
                         { text: "Overview", link: "participate" },
                         { text: "Connect Wallet", link: "polkaswap-connect-wallet", },
-			            { text: "Connect with Google", link: "polkaswap-connect-with-google" },
-			            { text: "Send & Receive", link: "send-and-receive-polkaswap", },
+			{ text: "Connect with Google", link: "polkaswap-connect-with-google" },
+			{ text: "Multi-Signature Account", link: "multisig-account" },
+			{ text: "Send & Receive", link: "send-and-receive-polkaswap", },
                         {
                           text: "Explore the Ecosystem",
                           items: [

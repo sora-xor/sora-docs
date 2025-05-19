@@ -17,6 +17,7 @@ here you will find some practical and technical information to help you take par
 ## Practical
 
 - [How to create an account in SORA](create-an-address.md)
+- [How to create and use a Multi-Signature account](multisig-account.md)
 - [How to transfer](transfer.md) and [register](register-an-asset.md) assets
 - How to check [supply](check-supply.md) and [balance](check-balance.md)
 - How to [swap tokens](swap.md), [provide liquidity](provide-liquidity-to-xyk-pools.md)
