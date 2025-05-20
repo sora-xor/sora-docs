@@ -272,3 +272,8 @@ As mentioned before, Substrate networks use different address prefixes for gener
 Just enter your address and click **Transform**. You can specify the output type. By default, the Subscan tool will convert the address to all supported network formats.
 
 ![](.gitbook/assets/convert-address-transform.png)
+
+## Learn More
+
+- [XOR](/xor.md)
+- [Multisignature Account in SORA](/multisig-account.md)
