@@ -267,7 +267,13 @@ export default withMermaid(
                 { text: "Rewards", link: "rewards" },
                 { text: "Nodes Connection", link: "nodes-connection" },
                 { text: "Running a Node", link: "running-a-node" },
-                { text: "Running a SORA v3 Testnet Node", link: "running-a-sora-testnet-node" },
+               { text: "Running a SORA v3 Testnet Node",
+  collapsed: false,
+  items: [
+    { text: "Running on Docker", link: "running-a-sora-testnet-node" },
+    { text: "Running on Bare Metal", link: "sora-testnet-node-bare-metal" }
+  ],
+},,
                 {
                   text: "Vote in Governance",
                   link: "participate-sora-governance",
