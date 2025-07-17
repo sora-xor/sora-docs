@@ -83,7 +83,6 @@ Access https://etherscan.io/address/0x313416870a4da6f12505a550b67bb73c8e21d5d3#w
 ## Registering an ERC-20 token in Ethereum and its mapping with a SORA asset
 
 1. Get all the necessary information about the token:
-
    - Address (e.g. `0xdac17f958d2ee523a2206206994597c13d831ec7`)
    - Symbol (e.g. `USDT`)
    - Name (e.g. Tether `USD`)
