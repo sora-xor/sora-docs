@@ -8,6 +8,7 @@ head:
     - name: keywords
       content: "running a node, bare metal, SORA network, node setup, testnet"
 ---
+
 # How to Run a SORA v3 Testnet Node on Bare Metal
 
 This guide walks you through running a **SORA v3 testnet node** using **Hyperledger Iroha v2.0.0-rc.1** on **bare metal** (no Docker). It includes step-by-step instructions for building, configuring, starting your node, and performing transactions.
@@ -222,7 +223,7 @@ iroha asset transfer   --id "rose##${ACCOUNT_PUBLIC_KEY}@wonderland"   --to "<re
 - Generate dedicated keys
 - Point P2P public address to your actual IP
 - Ensure ports 1337, 8080, and 8180 are open
-- Join the testnet by registering your node on the  [SORA Devs](https://t.me/soradevs) chat.
+- Join the testnet by registering your node on the [SORA Devs](https://t.me/soradevs) chat.
 
 ---
 
