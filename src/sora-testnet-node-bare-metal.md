@@ -23,7 +23,7 @@ error-prone, particularly for exotic systems (Windows).
 ::: info
 
 For this chapter, we assume you have learned about
-[management](/guide/configure/peer-management.md) in Iroha 2. Here we offer
+[management](https://docs.iroha.tech/guide/configure/peer-management.html) in Iroha 2. Here we offer
 you instructions to run Iroha on bare metal without going into details
 about various configuration options available.
 
@@ -344,7 +344,7 @@ ports need to be adjusted so there are no collisions. See the
 
 ## Deploy a minimal BFT network
 
-Both of the following approaches could be messy and error-prone, which is why the [Launch Iroha 2](/get-started/launch-iroha-2) tutorial suggests using the `docker compose` command.
+Both of the following approaches could be messy and error-prone, which is why the [Launch Iroha 2](https://docs.iroha.tech/get-started/launch-iroha-2.html) tutorial suggests using the `docker compose` command.
 However, this brings you closer to the experience of actually maintaining a functional Iroha peer.
 
 ### Using Environment Variables
@@ -370,7 +370,7 @@ that `Control + Shift + V` is the appropriate `paste` shortcut.
 
 Also note that we asked this peer to `--submit` or `--submit-genesis`. This
 means that in the initial network topology, this peer is the
-[leader](/reference/glossary.md#leader). At least one peer (usually the first)
+[leader](https://docs.iroha.tech/reference/glossary.html#leader). At least one peer (usually the first)
 needs to be the leader in the initial topology.
 
 Now you should do the same for the other four peers. Be mindful not to mix
@@ -405,7 +405,7 @@ $ iroha --submit-genesis
 
 We effectively asked this peer to `--submit` or `--submit-genesis` in the
 initial, or _bootstrap_, network. This means that in the initial network
-topology, this peer is the [leader](/reference/glossary.md#leader).
+topology, this peer is the [leader](https://docs.iroha.tech/reference/glossary.html#leader).
 
 ::: info Note
 
