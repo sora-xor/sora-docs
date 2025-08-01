@@ -4,24 +4,33 @@ head:
   - - meta
     - name: description
       content: "Learn how to run a node on the SORA v3 Testnet and participate in testing new features."
-  - - meta
-    - name: keywords
-      content: "running a node, SORA network, node setup, testnet"
+outline: [2, 3]
 ---
 
-# How to Run a SORA v3 Testnet Node
+# Running a SORA v3 Testnet Node
 
-The SORA v3 Testnet is based on the [Hyperledger Iroha](https://docs.iroha.tech/) framework. The following guide will teach you how to run a node (in Iroha terms, a peer) and perform basic actions such as queries and transactions on the testnet.
+The SORA v3 Testnet is based on the [Hyperledger Iroha](https://docs.iroha.tech/) distributed ledger. The following guide explains how to run a node (a _peer_, in Iroha terms) and perform basic actions such as queries and transactions on the testnet.
 
 ## Prerequisites
 
 You will need:
 
-- A machine with Linux, Windows, or macOS
+- A machine with Linux or macOS (Windows support is not warranted)
 - A static publicly accessible IP address
-- [Docker](https://docs.docker.com/get-docker/) (preferably the latest version). Follow the installation guide for your operating system.
-- At least 128 MB RAM dedicated to a single node container.
-- At least 4GB free space for a single node container.
+- At least 128 MB RAM and 4 GB of free disk space.
+
+## Run a Node
+
+### 1. Install
+
+This guide covers two ways of running Iroha and its utilities:
+
+1. [Containers via Docker/Podman](#docker). **Pros:** cross-platform, closer to production setup, no environment setup required, using pre-built published images; **cons:** heavier.
+2. [Bare-metal](#bare-metal). **Pros:** runs directly on your system without virtualisation, lighter, shorter commands, building from source; **cons:** requires setting up Rust, building from source.
+
+#### Docker/Podman {#docker}
+
+Follow the [installation guide](https://docs.docker.com/get-docker/) for your operating system.
 
 To check that Docker is installed, run the `docker --version` command in your terminal. You will get an output like this:
 
@@ -34,11 +43,6 @@ Check the container with the `docker run hello-world` command in the terminal. I
 ::: details Expand to see the `docker run hello-world` output
 
 ```
-C:\Users\user>docker run hello-world
-docker: error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": EOF.
-See 'docker run --help'.
-
-C:\Users\user>docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
 e6590344b1a5: Download complete
@@ -69,28 +73,80 @@ For more examples and ideas, visit:
 
 :::
 
-If something goes wrong, please visit the [Docker documentation](https://docs.docker.com/). You can also download Docker from here:
+::: tip Podman
 
-- [macOS](https://docs.docker.com/desktop/setup/install/mac-install/)
-- [Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
-- [Linux](https://docs.docker.com/desktop/setup/install/linux/)
+[Podman](https://podman.io/) is a daemonless container engine fully compatible with Docker[^1]. It has an advantage of having less headaches with installation and management than Docker.
 
-## Run a Node
+You can install Podman and simply replace ~~`docker`~~ with `podman` everywhere in this guide, for example:
 
-### 1. Download the Configuration File
-
-Download the `docker-compose.volunteer.yml` [configuration file](https://github.com/hyperledger-iroha/iroha/raw/refs/heads/testnet/2.0.0-rc.1/defaults/docker-compose.volunteer.yml) from the Iroha repository.
-
-You can just navigate to the folder where you placed the file in your command line.
-
-### 2. Generate Your Key Pair and Declare the Public Key
-
-To generate a unique key pair, download and run the utility tool:
-
-```bash
-docker pull hyperledger/iroha:testnet-2.0.0-rc.1
-docker run hyperledger/iroha:testnet-2.0.0-rc.1 kagami crypto
+```diff
+- docker run -it hyperledger/iroha:testnet-2.0.0-rc.1 kagami crypto
++ podman run -it hyperledger/iroha:testnet-2.0.0-rc.1 kagami crypto
 ```
+
+:::
+
+[^1]: At least in the scope of this guide.
+
+#### Bare-Metal {#bare-metal}
+
+<!-- TODO: specify minimal Rust version required -->
+
+Prerequisites:
+
+- Linux or macOS
+- [Rust installed](https://www.rust-lang.org/tools/install). Minimal required Rust version: 1.77+
+- [Git](https://git-scm.com) installed
+
+We will be building the necessary binaries from source: `irohad` (the node itself), `iroha` (the client to interact with `irohad`), and `kagami` (tool to generate keys).
+
+Run this `cargo install` command to build and install the binaries in your system directly from the GitHub repository:
+
+```sh
+cargo install --git https://github.com/hyperledger-iroha/iroha.git \
+    --rev v2.0.0-rc.1.5 --locked \
+    irohad iroha_cli iroha_kagami
+```
+
+::: tip
+
+You can also build the binaries by cloning the repo manually. See the full [Working with Iroha Binaries guide](https://docs.iroha.tech/reference/binaries.html#source).
+
+:::
+
+Verify installation:
+
+```shell
+irohad --version
+iroha --version
+kagami --version
+```
+
+**Expected output:**
+
+<!-- TODO: replace with rc.1 -->
+
+```
+irohad version=2.0.0-rc.1.5 git_commit_sha=4c21e6b cargo_features=default,iroha_telemetry,schema_endpoint,telemetry
+iroha version=2.0.0-rc.1.5 git_commit_sha=4c21e6b
+kagami 2.0.0-rc.1.5
+```
+
+### 2. Generate and Submit Keys
+
+To generate a unique key pair, you can use `kagami crypto`:
+
+::: code-group
+
+```sh [Docker]
+docker run -it hyperledger/iroha:testnet-2.0.0-rc.1 kagami crypto
+```
+
+```sh [Bare-metal]
+kagami crypto
+```
+
+:::
 
 **Example output:**
 
@@ -99,148 +155,174 @@ Public key (multihash): "ed0120CAA7C95F78150097932C3E1C62B89D73007C5F30D5907DD0F
 Private key (multihash): "8026205F4FD09D9F9C390B9E3B0DB7CFA3E8B8D567707227E549519CC0C170D87447B9"
 ```
 
-Go to the [SORA Devs](https://t.me/soradevs) Telegram group, ask to be added to the **Testnet chat** and share your **public key** in that group. The testnet administrators will register your **node** and **account** in the testnet.
+Go to the [SORA Devs Telegram group](https://t.me/soradevs), ask to be added to the **Testnet chat**, and share your **public key** (NOT the _private_ one!) in that chat. The testnet administrators will register your node and account[^2] in the testnet with the given public key.
 
-Keep your **private key** securely recorded and confidential.
+<!-- TODO: support footnotes -->
 
-::: tip Note
+[^2]: The account will be registered under the `wonderland` domain and have ID `<your public key>@wonderland`.
 
 For testnet purposes, you'll use the same key pair for both the node and the account. In production environments, always use separate key pairs.
 
-:::
+::: danger
 
-::: tip Note
-
-In production environments, operating your own node is not necessarily required; you can interact with public endpoints instead.
+Keep your _private key_ securely recorded and confidential.
 
 :::
 
-### 3. Launch Your Node
+### 3. Prepare Configuration
 
-#### 3.1. Ensure a Static IP Address
+This guide assumes you will create a directory `~/sora3-testnet` and place configuration files there: `node.toml` (for `irohad`) and `client.toml` (for `iroha`).
 
-Ensure that your machine or server has a static, publicly accessible IP address. Most cloud providers assign one by default.
+In `node.toml`, replace `public_key` and `private_key` with your keys. Set `network.public_address` with your machine's public IP address.
 
-#### 3.2. Configure Port Access
+In `client.toml`, replace `account.public_key` and `account.private_key` with your keys. You can also override `torii_url` with your machine's public IP address (as full URL, e.g. `http://<your ip>:8080`) to re-use the client configuration from outside of the machine the node is running on.
 
-- Open port `1337` to allow inbound traffic from any nodes.
-- Open port `8080` to allow inbound traffic from your client.
+::: code-group
 
-#### 3.3. Specify Your Keys in the Docker Compose Configuration
+```toml [node.toml]
+chain = "00000000-0000-0000-0000-000000000000"
 
-Edit the previously downloaded `docker-compose.volunteer.yml` file and update the following environment variables:
+# TODO: replace with your keys
+public_key = ""
+private_key = ""
 
-```yml
-# PEER CONFIG
-PUBLIC_KEY: <your_public_key>
-PRIVATE_KEY: <your_private_key>
-P2P_PUBLIC_ADDRESS: <your_advertised_host>:1337
+# NOTE: this is a publicly available Fujiwara node
+#       to which your node will connect first
+trusted_peers = ["ed012082528CCC8727333530C8F6F19F70C23882DEB1BF2BA3BE4A6654C7E8A91A7731@fujiwara.sora.org:1337"]
+
+[genesis]
+public_key = "ed01204164BF554923ECE1FD412D241036D863A6AE430476C898248B8237D77534CFC4"
+
+[torii]
+address = "0.0.0.0:8080"
+
+[network]
+address = "0.0.0.0:1337"
+# TODO: replace with your peer's advertised global address
+public_address = "255.255.255.255:1337"
 ```
 
-#### 3.4. Start the Docker Container
+```toml [client.toml]
+chain = "00000000-0000-0000-0000-000000000000"
 
-From the folder containing the `docker-compose.volunteer.yml` file, run the following command to launch your node:
+# NOTE: you can also replace `0.0.0.0` with your public address
+#       and make requests from outside the server
+torii_url = "http://0.0.0.0:8080"
 
-```bash
-docker compose -f docker-compose.volunteer.yml up -d
+[account]
+# NOTE: admins register your account under the `wonderland` domain by default
+domain = "wonderland"
+
+# TODO: replace with your keys
+public_key = ""
+private_key = ""
 ```
-
-**Example output:**
-
-```log
-[+] Running 2/2>docker compose -f docker-compose.volunteer.yml up -d
- ✔ Network defaults_default     Created                             0.1s
- ✔ Container defaults-irohad-1  Started
-```
-
-### 4. Check the Node Status
-
-Once the administrators register your node, verify its status using one of the following commands:
-
-```bash
-curl <your_host>:8080/status
-curl <your_host>:8080/peers
-```
-
-::: tip Note
-
-If the peer list is empty, your node may not be registered, or there might be network issues. Troubleshoot with testnet admins.
 
 :::
 
-## Perform Transactions via Your Node
+::: tip Firewall check
 
-### 1. Prepare Your Client
+For `network.public_address`, ensure that this address and port are accessible from outside your local network (e.g., port-forwarded if behind NAT).
 
-To interact with your node, set up a client.
-Download the `docker-compose.volunteer.client.yml` [configuration file](https://github.com/hyperledger-iroha/iroha/raw/refs/heads/testnet/2.0.0-rc.1/defaults/docker-compose.volunteer.client.yml) and update the following environment variables:
+:::
 
-```yml
-# CLIENT CONFIG OVERRIDE
-TORII_URL: <your_host>:8080
-ACCOUNT_PUBLIC_KEY: <your_public_key>
-ACCOUNT_PRIVATE_KEY: <your_private_key>
+### 4. Start Iroha Peer
+
+::: code-group
+
+```sh [Docker]
+docker run \
+  --volume ~/sora3-testnet/:/config \
+  -it hyperledger/iroha:testnet-2.0.0-rc.1 \
+  irohad --config /config/node.toml
 ```
 
-Next, run the following command to start a container:
-
-```bash
-docker compose -f docker-compose.volunteer.client.yml up -d
+```sh [Bare-metal]
+irohad --config ~/sora3-testnet/node.toml
 ```
+
+:::
+
+You may initially see some errors; they should resolve automatically once the node begins syncing with peers.
+
+Confirm that it works on the machine:
+
+```sh
+curl localhost:8080/status
+curl localhost:8080/peers
+```
+
+::: info Troubleshooting
+
+If the peer list is empty, your node may not be registered. You can troubleshoot this with testnet admins.,
+
+There also could be network issues (e.g. firewall). You can check whether your machine is accessible by the public address you've specified in the configuration by executing this from outside the machine where `irohad` runs. This will make sure that your Iroha peer is accessible by the rest of the network as well.
+
+For example:
+
+```sh
+curl <your public address>:8080/status
+```
+
+:::
+
+## Interact with the Network
+
+### 1. Send and Inspect a Sample Transaction
+
+First, create a transaction listener:
+
+::: code-group
+
+```sh [Docker]
+docker run \
+  --volume ~/sora3-testnet/:/config \
+  -it hyperledger/iroha:testnet-2.0.0-rc.1 \
+  iroha --config /config/client.toml events transaction
+
+```
+
+```sh [Bare-metal]
+iroha --config ~/sora3-testnet/client.toml events transaction
+```
+
+:::
 
 **Example output:**
 
-```log
-[+] Running 1/1>docker compose -f docker-compose.volunteer.client.yml up -d
- ✔ Container defaults-clients-1  Started
 ```
-
-Note the container name: in this example it is `defaults-clients-1`. On your set up it may be different. You need it for the following steps.
-
-### 2. Send and Inspect a Mock Transaction
-
-To listen for incoming transactions, attach a shell to the running container:
-
-```bash
-docker exec -it <container_name> bash
-```
-
-Where <container_name> is the name your client container was assigned on step 1.
-
-And once you're in the container's shell, run:
-
-```bash
-cd /config
-iroha events transaction
-```
-
-This will create a transaction listener.
-
-**Example output:**
-
-```bash
-C:\Users\user>docker exec -it defaults-clients-1 bash
-iroha@263a8e4bbbd1:/$ cd /config
-iroha@263a8e4bbbd1:/config$ iroha events transaction
 Listening to events with filter: Pipeline(Transaction(TransactionEventFilter { hash: None, block_height: None, status: None }))
 ```
 
-In another instance of an attached shell, send a mock transaction:
+In a new terminal session, submit a sample transaction:
 
-```bash
-cd /config
-iroha transaction ping --msg "This is a mock transaction"
+::: code-group
+
+```sh [Docker]
+docker run \
+  --volume ~/sora3-testnet/:/config \
+  -it hyperledger/iroha:testnet-2.0.0-rc.1 \
+  iroha --config /config/client.toml \
+    transaction ping --msg "Hello SORA!"
+
 ```
 
-**Example output:**
+```sh [Bare-metal]
+iroha --config ~/sora3-testnet/client.toml \
+    transaction ping --msg "Hello SORA!"
+```
+
+:::
+
+If successful, this will print the transaction hash:
 
 ```json
 "23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8676120C919DE67"
 ```
 
-::: tip Note
+::: info
 
-If the account is not found, your account may not be registered. Troubleshoot with testnet admins.
+If you get an error that your account is not found, your account may not be registered. Troubleshoot with testnet admins.
 
 :::
 
@@ -258,14 +340,26 @@ If the transaction listener is running, you should see a confirmation that the t
 }
 ```
 
-### 3. Query Transaction Details
+### 2. Query Transaction Details
 
 Retrieve the details of a specific transaction using its hash:
 
-```bash
-cd /config
-iroha transaction get --hash "23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8676120C919DE67"
+::: code-group
+
+```sh [Docker]
+docker run \
+  --volume ~/sora3-testnet/:/config \
+  -it hyperledger/iroha:testnet-2.0.0-rc.1 \
+  iroha --config /config/client.toml transaction get \
+    --hash 23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8676120C919DE67
 ```
+
+```sh [Bare-metal]
+iroha --config ~/sora3-testnet/client.toml transaction get \
+  --hash 23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8676120C919DE67
+```
+
+:::
 
 **Example output:**
 
@@ -276,7 +370,7 @@ iroha transaction get --hash "23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8
     "version": "1",
     "content": {
       ...
-      "msg": "This is a mock transaction"
+      "msg": "Hello SORA!"
       ...
     }
   },
@@ -284,14 +378,26 @@ iroha transaction get --hash "23EC79207A5573333057A4836533A72ED015AADE4DABC00CA8
 }
 ```
 
-### 4. Transfer Assets
+### 3. Transfer Assets
 
 By default, your account receives an initial airdrop of 100 `rose` assets. Verify this with the following query:
 
-```bash
-cd /config
-iroha asset get --id "rose##<your_public_key>@wonderland"
+::: code-group
+
+```sh [Docker]
+docker run \
+  --volume ~/sora3-testnet/:/config \
+  -it hyperledger/iroha:testnet-2.0.0-rc.1 \
+  iroha --config /config/client.toml \
+    asset get --id "rose##<your_public_key>@wonderland"
 ```
+
+```sh [Bare-metal]
+iroha --config ~/sora3-testnet/client.toml \
+    asset get --id "rose##<your_public_key>@wonderland"
+```
+
+:::
 
 **Example output:**
 
@@ -306,11 +412,34 @@ iroha asset get --id "rose##<your_public_key>@wonderland"
 
 To transfer some roses to another account, use the following command and confirm the balance update:
 
-```bash
-cd /config
-iroha asset transfer --id "rose##<your_public_key>@wonderland" --to "<another_public_key>@wonderland" --quantity 0.4
-iroha asset get --id "rose##<your_public_key>@wonderland"
+::: code-group
+
+```sh [Docker]
+# tip: You may want to launch an interactive shell inside the container for convenience
+docker run --volume ~/sora3-testnet/:/config \
+  -it hyperledger/iroha:testnet-2.0.0-rc.1 \
+  /bin/bash
+
+iroha --config /config/client.toml asset transfer \
+    --id "rose##<your_public_key>@wonderland" \
+    --to "<another_public_key>@wonderland" \
+    --quantity 0.4
+
+iroha --config /config/client.toml asset get \
+  --id "rose##<your_public_key>@wonderland"
 ```
+
+```sh [Bare-metal]
+iroha --config ~/sora3-testnet/client.toml asset transfer
+    --id "rose##<your_public_key>@wonderland" \
+    --to "<another_public_key>@wonderland" \
+    --quantity 0.4
+
+iroha --config ~/sora3-testnet/client.toml asset get \
+  --id "rose##<your_public_key>@wonderland"
+```
+
+:::
 
 **Example output:**
 
@@ -325,7 +454,108 @@ iroha asset get --id "rose##<your_public_key>@wonderland"
 
 For further information, consult the `iroha` [command-line tool help](https://github.com/hyperledger-iroha/iroha/blob/testnet/2.0.0-rc.1/crates/iroha_cli/CommandLineHelp.md).
 
+## Bonus: Easy Scripting with Deno and Iroha JavaScript SDK
+
+::: tip
+
+This is optional and is relevant for scripting/automation.
+
+:::
+
+With [Deno](https://deno.com), the next generation JavaScript runtime, and Iroha JavaScript SDK it is straightforward to write simple or complex JavaScript/TypeScript logic to interact with Iroha **using just a single file** and no extra configuration. The SDK provides full typing and IDE completion.
+
+Prerequisites:
+
+- [Deno installed](https://deno.com/)
+
+Copy the following sample script to `~/sora3-testnet/test.ts`, replacing the key pair with yours and optionally setting your node's public address:
+
+```ts
+import * as types from "jsr:@iroha/core@0.3.1/data-model";
+import { Client } from "jsr:@iroha/client@0.3.0";
+
+const key = types.KeyPair.fromParts(
+  // TODO: put your keys here
+  types.PublicKey.fromMultihash(
+    "ed0120CAA7C95F78150097932C3E1C62B89D73007C5F30D5907DD0FBE7EA09AF6658E2",
+  ),
+  types.PrivateKey.fromMultihash(
+    "8026205F4FD09D9F9C390B9E3B0DB7CFA3E8B8D567707227E549519CC0C170D87447B9",
+  ),
+);
+
+const client = new Client({
+  chain: "00000000-0000-0000-0000-000000000000",
+  // NOTE: you can replace this with your node's public address
+  toriiBaseURL: new URL(`http://fujiwara.sora.org/v5`),
+  authority: new types.AccountId(
+    key.publicKey(),
+    new types.DomainId("wonderland"),
+  ),
+  authorityPrivateKey: key.privateKey(),
+});
+
+console.log("Health:", await client.api.health());
+
+const events = await client.events({
+  filters: [
+    types.EventFilterBox.Pipeline.Transaction({
+      hash: null,
+      blockHeight: null,
+      status: null,
+    }),
+  ],
+});
+
+events.ee.on("event", (event) => console.log("event", event));
+console.log("Established events stream");
+
+const tx = client.transaction(
+  types.Executable.Instructions([
+    types.InstructionBox.Log({
+      level: types.Level.INFO,
+      msg: "Hello SORA from Deno!",
+    }),
+  ]),
+);
+
+console.log("Submitting tx with hash:", tx.hash.payload.hex());
+await tx.submit({ verify: true });
+```
+
+This script initializes a client instance, checks node's health, establishes events WebSocket connection, and submits a sample transaction.
+
+Run:
+
+```bash
+deno run --allow-env --allow-net ~/sora3-testnet/test.ts
+```
+
+**Example output:**
+
+```
+Health: { kind: "healthy" }
+Established events stream
+Submitting tx with hash: 2314b0fc95397ae95a5e17b2b4e9ba14e0f51cf92fc573fbd81a881f23ac3c4d
+event {
+  kind: "Pipeline",
+  value: {
+    kind: "Transaction",
+    value: { hash: Hash {}, blockHeight: null, status: { kind: "Queued" } }
+  }
+}
+```
+
+See more examples and detailed API documentation at https://jsr.io/@iroha/client@0.3.0 and https://jsr.io/@iroha/core@0.3.1
+
+## Real-World Deployment Checklist
+
+- Store your private keys securely (use password managers or hardware tokens).
+- Configure Iroha to run as a background service (e.g., systemd), or as part of a containerized setup.
+- Monitor logs and peer connectivity regularly.
+
 ## Learn More
 
 - [SORA Tokenomics](/tokenomics.md)
 - [Social Insurance for Systematically Important Infrastructure](./social-insurance.md)
+- [Hyperledger Iroha 2 Docs](https://docs.iroha.tech)
