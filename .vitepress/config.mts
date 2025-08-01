@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 import markdownItKatex from "markdown-it-katex";
 import { DefaultTheme } from "vitepress";
+import { footnote as markdownItFootnote } from "@mdit/plugin-footnote"
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
@@ -53,7 +54,7 @@ export default withMermaid(
     ignoreDeadLinks: [/^https?:\/\/localhost/, /snippets\//],
     markdown: {
       config: (md) => {
-        md.use(markdownItKatex);
+        md.use(markdownItKatex).use(markdownItFootnote);
       },
     },
     locales: {
