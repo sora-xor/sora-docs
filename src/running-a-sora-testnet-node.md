@@ -466,7 +466,7 @@ With [Deno](https://deno.com), the next generation JavaScript runtime, and Iroha
 
 Prerequisites:
 
-- [Deno installed](https://deno.com/)
+- [Deno installed](https://deno.com/) (version 2+)
 
 Copy the following sample script to `~/sora3-testnet/test.ts`, replacing the key pair with yours and optionally setting your node's public address:
 
