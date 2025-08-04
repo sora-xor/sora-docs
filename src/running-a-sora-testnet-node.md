@@ -550,7 +550,7 @@ See more examples and detailed API documentation at https://jsr.io/@iroha/client
 
 ## Real-World Deployment Checklist
 
-- Store your private keys securely (use password managers or hardware tokens).
+- Store your private keys securely. You can learn more in the [Public Key Cryptography](https://docs.iroha.tech/guide/security/public-key-cryptography) guide.
 - Configure Iroha to run as a background service (e.g., systemd), or as part of a containerized setup.
 - Monitor logs and peer connectivity regularly.
 
