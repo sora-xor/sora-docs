@@ -77,7 +77,7 @@ For more examples and ideas, visit:
 
 [Podman](https://podman.io/) is a daemonless container engine fully compatible with Docker[^1]. It has an advantage of having less headaches with installation and management than Docker.
 
-You can install Podman and simply replace ~~`docker`~~ with `podman` everywhere in this guide, for example:
+You can install Podman and simply replace `docker` with `podman` everywhere in this guide, for example:
 
 ```diff
 - docker run -it hyperledger/iroha:testnet-2.0.0-rc.1 kagami crypto
