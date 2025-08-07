@@ -103,7 +103,8 @@ We will be building the necessary binaries from source: `irohad` (the node itsel
 Run this `cargo install` command to build and install the binaries in your system directly from the GitHub repository:
 
 ```sh
-cargo install --git https://github.com/hyperledger-iroha/iroha.git \
+RUSTFLAGS="-Aunused" cargo install \
+    --git https://github.com/hyperledger-iroha/iroha.git \
     --rev v2.0.0-rc.1.5 --locked \
     irohad iroha_cli iroha_kagami
 ```
