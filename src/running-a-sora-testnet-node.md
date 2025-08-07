@@ -172,7 +172,7 @@ Keep your _private key_ securely recorded and confidential.
 
 ### 3. Prepare Configuration
 
-This guide assumes you will create a directory  called `~/sora3-testnet` and place configuration files there: `node.toml` (for `irohad`) and `client.toml` (for `iroha`):
+This guide assumes you will create a directory called `~/sora3-testnet` and place configuration files there: `node.toml` (for `irohad`) and `client.toml` (for `iroha`):
 
 ```
 mkdir ~/sora3-testnet
