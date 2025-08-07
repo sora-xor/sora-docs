@@ -172,11 +172,26 @@ Keep your _private key_ securely recorded and confidential.
 
 ### 3. Prepare Configuration
 
-This guide assumes you will create a directory `~/sora3-testnet` and place configuration files there: `node.toml` (for `irohad`) and `client.toml` (for `iroha`).
+This guide assumes you will create a directory  called `~/sora3-testnet` and place configuration files there: `node.toml` (for `irohad`) and `client.toml` (for `iroha`):
 
-In `node.toml`, replace `public_key` and `private_key` with your keys. Set `network.public_address` with your machine's public IP address.
+```
+mkdir ~/sora3-testnet
+cd ~/sora3-testnet
+touch node.toml
+touch client.toml
+```
 
-In `client.toml`, replace `account.public_key` and `account.private_key` with your keys. You can also override `torii_url` with your machine's public IP address (as full URL, e.g. `http://<your ip>:8080`) to re-use the client configuration from outside of the machine the node is running on.
+::: tip For users unfamiliar with terminal
+
+If you are not comfortable working with files from terminal, consider using an IDE like [VSCode](https://code.visualstudio.com/).
+
+In it, you can click **File** → **Open Folder...**, navigate to your home directory (`~`, e.g. `/Users/<username>` on Mac), create a new directory named `sora3-testnet`, and create files in the **File Explorer**.
+
+You can create any other directory anywhere else on your computer &mdash; just remember to reference it throughout the guide instead of `~/sora3-testnet`.
+
+:::
+
+Write the following content to each file:
 
 ::: code-group
 
@@ -220,6 +235,10 @@ private_key = ""
 ```
 
 :::
+
+In `node.toml`, replace `public_key` and `private_key` with your keys. Set `network.public_address` with your machine's public IP address.
+
+In `client.toml`, replace `account.public_key` and `account.private_key` with your keys. You can also override `torii_url` with your machine's public IP address (as full URL, e.g. `http://<your ip>:8080`) to re-use the client configuration from outside of the machine the node is running on.
 
 ::: tip Firewall check
 
