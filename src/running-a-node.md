@@ -81,7 +81,7 @@ If something went wrong, please visit the [Docker documentation](https://docs.do
 Users should use version **4.6.0** for the time being. We will update this article with the latest version after every update.
 
 You should use the latest SORA Node version in order to run a
-node. You can see the latest build number here, and find the last
+node. You can see the latest build number [here](https://hub.docker.com/r/sora2/substrate/tags), and find the last
 version with the`x.y.z` format.
 
 ![](/.gitbook/assets/running-node-version-tag.png)
