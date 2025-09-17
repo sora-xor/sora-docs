@@ -46,3 +46,27 @@ To build documentation locally, follow these steps:
     ```
 
 Once you've started the development server, you can view the documentation site in your browser by navigating to http://localhost:5173.
+
+## Troubleshooting
+
+If you encounter an error like "Cannot find module '@rollup/rollup-&lt;platform&gt;'":
+
+- Clean install:
+  - Remove existing modules and lockfile:
+    ```bash
+    rm -rf node_modules package-lock.json
+    npm install
+    ```
+  - If it still fails, force Rollup to use the JS implementation:
+    ```bash
+    ROLLUP_USE_NODE_JS_IMPLEMENTATION=1 npm install
+    ROLLUP_USE_NODE_JS_IMPLEMENTATION=1 npm run docs:dev
+    ```
+
+On CI/Vercel, set the environment variable `ROLLUP_USE_NODE_JS_IMPLEMENTATION=1` and use the build command:
+
+```bash
+npm run build
+```
+
+The static output will be in `.vitepress/dist`.

@@ -4,4 +4,6 @@ A central repository that contains documentation for [SORA](https://sora.org/). 
 
 Check out the [contribution guidelines](CONTRIBUTING.md) if you are interested in contributing to SORA documentation.
 
+For AI agents and automation, see the [Agents Guide](AGENTS.md) for project context, build/deploy steps, and authoring conventions.
+
 <!-- TODO: Add a link to the documentation once it's live -->
