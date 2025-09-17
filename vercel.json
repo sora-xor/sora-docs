@@ -1,5 +1,14 @@
 {
-    "rewrites": [
-      { "source": "/sora-docs/(.*)", "destination": "/$1" }
-    ]
-  }
+  "buildCommand": "npm run build",
+  "installCommand": "npm install --include=dev",
+  "outputDirectory": ".vitepress/dist",
+  "build": {
+    "env": {
+      "ROLLUP_USE_NODE_JS_IMPLEMENTATION": "1",
+      "NPM_CONFIG_PRODUCTION": "false"
+    }
+  },
+  "rewrites": [
+    { "source": "/sora-docs/(.*)", "destination": "/$1" }
+  ]
+}
