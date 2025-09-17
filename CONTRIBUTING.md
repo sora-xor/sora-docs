@@ -49,7 +49,7 @@ Once you've started the development server, you can view the documentation site 
 
 ## Troubleshooting
 
-If you encounter an error like "Cannot find module '@rollup/rollup-<platform>'":
+If you encounter an error like "Cannot find module '@rollup/rollup-&lt;platform&gt;'":
 
 - Clean install:
   - Remove existing modules and lockfile:
