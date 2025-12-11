@@ -58,7 +58,13 @@ program.
 Additionally to the SORA mainnet, the SORA ecosystem also comprises two parachains that connect to the Kusama and Polkadot ecosystems.
 
 - The **SORA Kusama parachain** has secured a lease to the Kusama relay chain until the **17th January 2025**
-- The **SORA Polkadot parachain** has secured a lease to the Polkadot relay chain until the **20th November 2025**
+- The **SORA Polkadot parachain** has secured a lease to the Polkadot
+  relay chain until the **20th November 2025**
+  
+- The SORA Ecosystem recently expanded to include **SORA Nexus (SORA v3)**; 
+[SORA Nexus](/sora-v3.md) introduces a unified, infinitely scalable
+blockchain architecture designed to support both decentralized applications and
+institutional-grade systems. 
 
 ## What You Will Find in This Section
 
@@ -67,7 +73,7 @@ here. You will also find information on
 [Polkaswap](https://polkaswap.io/), such as the [Memorandum and
 T&C's](polkaswap/terms) and the [Polkaswap privacy policy](polkaswap/privacy).
 
-Information on the [SORA Synthetics](xst.md) and [SORA Card](sora-card.md) are also available
+Information on [SORA Card](sora-card.md) is also available
 here. An important part of the SORA ecosystem are the wallets you can
 use, in this section you can find information on the [SORA](mobile.md)
 and [Fearless](fearless.md)

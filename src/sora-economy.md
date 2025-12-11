@@ -106,14 +106,10 @@ A [token bonding curve](https://medium.com/coinmonks/token-bonding-curves-explai
 
 XOR supply in the SORA mainnet is backed by acceptable liquid cryptocurrencies, and each network transaction of XOR requires the burning of a small fee, whose rate is decided by the community (e.g., 0.01-0.10 USD equivalent). To buy XOR on the token bonding curve, one of the acceptable currencies must be used. The tokens that you can use to buy XOR from the token bonding curve are:
 
-- DOT (once we get a Polkadot parachain and the Substrate bridge connected to it)
-- KSM (once we get the Substrate bridge connected to our Kusama parachain)
-- BTC (in the future)
 - ETH
 - DAI
 - VAL
 - PSWAP
-- XST
 - TBCD
 
 The token bonding curve is built directly into [Polkaswap.io](https://polkaswap.io) such that if the secondary market price of XOR is exceeded for one of the above trading pairs, the token bonding curve will automatically be executed so that new XOR will be put into circulation, 20% of the buying currency will be put into a pool to buyback-and-burn XOR, and 80% of the buying currency will go to reserves, held by the token bonding curve. As reserves are in multiple currencies, future releases of the system should provide ways to balance between the currency reserves to provide liquidity in various tokens. The close integration of the SORA economic model with Polkaswap will allow this process to be automated at some point in the future.
@@ -161,6 +157,86 @@ While the SORA economy is in its infant phase, the token bonding curve plays a c
 ## Towards a New Tomorrow
 
 One of the reasons decentralized P2P economic systems haven't been more widely adopted and lack sophistication is not having access to an elastic supply of capital via a central bank or mutual savings bank. By decentralizing the concept of a central bank, blockchain networks can finally create and allocate capital to fund worthwhile producers as well as needed infrastructure and public goods. With its interoperable technology, SORA can become the decentralized central bank for the world of blockchains, financing the creation of new and exciting applications.
+
+![](.gitbook/assets/sora-nexus1.png)
+
+## SORA Nexus and the SORA Economy
+
+As the SORA economy evolves toward a supranational, decentralized economic system, its monetary design (XOR, bonding curves, buy-back-and-burn mechanisms, and KUSD-based funding) is being anchored to a more capable technical foundation: **[SORA Nexus (SORA v3)](/sora-v3.md)**. 
+SORA Nexus is a single logical ledger built on **Hyperledger Iroha 3**, combining deterministic execution, sovereign data spaces, and horizontally scalable lanes into one coherent network.
+
+Where earlier phases of SORA focused on tokenomics and liquidity engineering (SORAnomics, token bonding curve, and NEO), SORA Nexus provides the **infrastructure layer** that allows these ideas to scale globally, interact with CBDCs and institutions, and remain auditable under strict regulatory and technical requirements.
+
+### Deterministic Infrastructure for SORAnomics
+
+The SORA economy assumes that capital can be allocated rationally and transparently to productive uses. SORA Nexus reinforces this by introducing the **Iroha Virtual Machine (IVM)**, a purpose-built deterministic runtime that executes smart contracts (Kotodama bytecode) with fixed semantics and no hidden side effects. This removes many sources of non-determinism and “black box” behavior seen in generic VMs and ensures that economic logic behaves identically across all validators, regardless of hardware.  
+
+Because all state transitions are expressed as Iroha Special Instructions (ISIs) and serialized via **Norito**, the monetary operations of the SORA economy—fee collection, buy-back-and-burn logic, treasury actions, or Kensetsu (KUSD) flows—can be implemented as auditable, reproducible programs on SORA Nexus. This gives SORAnomics a **verifiable execution layer** that matches its emphasis on rational, model-driven policy.
+
+### XOR as the Universal Settlement Asset in SORA Nexus
+
+Within SORA Nexus, **XOR** is the native economic primitive used for:
+
+- Network fees and transaction costs  
+- Validator and data-availability attester rewards  
+- Governance bonds and proposal deposits  
+
+All of these are denominated in XOR, meaning that validators, provers, and governance actors are compensated using the same asset that underpins the SORA economy. 
+This design aligns with earlier SORA monetary theory:
+
+- XOR continues to function as the **predictable monetary base**, while other assets (e.g., VAL, PSWAP, KUSD, TBCD, CBDCs) sit “above” it in the economic stack.  
+- Fee flows and on-chain logic in Nexus can be configured to implement **buy-back-and-burn** patterns, channeling part of network activity into XOR deflation, consistent with the long-term goal of creating a sustainable and self-reinforcing economic loop.
+
+If a data space introduces a sovereign asset (such as a CBDC or government bond token), it can still use XOR as the settlement currency for fees and staking, preserving a unified incentive layer while allowing each domain to maintain its own monetary unit. 
+
+### Data Spaces, Monetary Sovereignty, and Policy
+
+SORA Nexus introduces **data spaces (DS)** as first-class partitions of the ledger. Each data space can:
+
+- Define its own admission rules, privacy guarantees, and compliance policies  
+- Host public, private, or consortium-style economic activity  
+- Produce its own state roots, proofs, and data-availability artifacts, which are merged into the global ledger  
+
+This model maps naturally onto the SORA economic vision:
+
+- **SORA-wide public data spaces** can host open DeFi, Polkaswap-style markets, and community projects that use XOR, VAL, PSWAP, or KUSD.  
+- **Regulated or sovereign data spaces** can host CBDCs, savings bonds, or national programs that align with SORAnomics but require strict privacy or jurisdiction-specific constraints.
+
+Because all data spaces live under one ledger, cross-domain interactions (for example, a CBDC from a private data space used as collateral in a public DeFi protocol) can be implemented **without cross-chain bridges**, subject to the relevant policies. This keeps SORA’s long-term goal of a supranational system compatible with real-world sovereignty and regulation.
+
+### Lanes, Fairness, and Predictable Economic Capacity
+
+To support a growing economy, SORA Nexus scales via **parallel lanes** and a **merge ledger**. Each lane processes a subset of data spaces and transactions, then the merge layer orders lane block “tips” into a single canonical chain.  
+
+Key properties relevant to the SORA economy:
+
+- **1-second finality targets** and bounded commit windows make XOR-based payments and DeFi interactions usable for real-world commerce.  
+
+- **Start-Time Fair Queuing (SFQ)** and **transfer-equivalent unit (TEU)** budgets allocate lane capacity across data spaces in a predictable way, allowing economic actors to reason about transaction inclusion and fee pressure rather than relying on ad hoc L1/L2 congestion dynamics.  
+
+- **Lane fusion and split** mechanisms let the network reduce latency under low load and scale out when demand increases, without changing the observable behavior of the ledger or fragmenting liquidity.  
+
+This means that as the SORA economy grows—from early builders paid in KUSD to large-scale CBDC flows and tokenized real-world assets—it can stay on **one ledger**, gaining the benefits of composability and shared liquidity.
+
+![](.gitbook/assets/sora-nexus2.png)
+
+### Privacy, Compliance, and the New Economic Order
+
+SORAnomics emphasizes productive credit creation and real-economic growth, not speculative bubbles. SORA Nexus adds cryptographic and operational tools that make this vision compatible with **regulation and institutional oversight**:
+
+- **FASTPQ zk-STARK proofs** allow a data space to prove that its balance sheet and transaction rules are respected (e.g., no unauthorized token creation, no double-spends), without revealing individual transaction details.  
+
+- A dedicated **data-availability layer** (erasure-coded shards plus sampling and certificates) ensures that blocks are reconstructable and auditable, while keeping private payloads local to their data space.  
+
+- Governance via the **SORA Parliament** controls parameter sets, runtime upgrades, and data space creation, with all changes recorded on-chain and backed by XOR bonds. 
+
+Together, these features make it possible to express SORA’s **New Economic Order**—elastic yet disciplined monetary expansion, productive credit allocation, and long-term buy-back-and-burn mechanisms—on an infrastructure that is suitable for central banks, public markets, and permissionless DeFi at the same time.
+
+### Further Reading
+
+For a detailed technical and economic description of SORA Nexus and how it underpins the SORA economy:
+
+<a href="https://sora.org/sora_nexus_whitepaper.pdf" target="_blank" rel="noopener">SORA Nexus Whitepaper </a> 
 
 ## Learn More
 
