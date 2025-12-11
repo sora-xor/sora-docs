@@ -95,12 +95,12 @@ economic growth, because increased productive output can be funded.
 [SORA Nexus (SORA v3) ](/sora-v3.md) expands the broader SORA ecosystem by introducing
 a unified, infinitely scalable blockchain architecture designed to
 support both decentralized applications and institutional-grade
-systems. 
+systems.
 
 Powered by Hyperledger Iroha 3, SORA Nexus provides deterministic
 smart contract execution through the IVM, sovereign data spaces for
 jurisdictional or application-specific privacy, and horizontally
-scalable lanes that maintain global composability under a single ledger. 
+scalable lanes that maintain global composability under a single ledger.
 
 With features such as zk-STARK–based FASTPQ proofs, audit-ready
 privacy, and governance-driven, forkless upgrades, SORA Nexus is

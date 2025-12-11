@@ -60,11 +60,10 @@ Additionally to the SORA mainnet, the SORA ecosystem also comprises two parachai
 - The **SORA Kusama parachain** has secured a lease to the Kusama relay chain until the **17th January 2025**
 - The **SORA Polkadot parachain** has secured a lease to the Polkadot
   relay chain until the **20th November 2025**
-  
-- The SORA Ecosystem recently expanded to include **SORA Nexus (SORA v3)**; 
-[SORA Nexus](/sora-v3.md) introduces a unified, infinitely scalable
-blockchain architecture designed to support both decentralized applications and
-institutional-grade systems. 
+- The SORA Ecosystem recently expanded to include **SORA Nexus (SORA v3)**;
+  [SORA Nexus](/sora-v3.md) introduces a unified, infinitely scalable
+  blockchain architecture designed to support both decentralized applications and
+  institutional-grade systems.
 
 ## What You Will Find in This Section
 
