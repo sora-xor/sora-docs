@@ -224,7 +224,7 @@ Below is our example proof from STEP 3 entered into the code, note how the quote
 
 ##### VAL
 
-1. Open https://etherscan.io/address/0xd1eeb2f30016fffd746233ee12c486e7ca8efef1
+1. Open [https://etherscan.io/address/0xd1eeb2f30016fffd746233ee12c486e7ca8efef1](https://etherscan.io/address/0xd1eeb2f30016fffd746233ee12c486e7ca8efef1)
 2. Click “Contract”
 3. Click “Write as Proxy”
 4. Click “Connect Web 3”.
@@ -241,7 +241,7 @@ Below is our example proof from STEP 3 entered into the code, note how the quote
 
 ##### PSWAP & CERES
 
-1. Open https://etherscan.io/address/0x1485e9852ac841b52ed44d573036429504f4f602
+1. Open [https://etherscan.io/address/0x313416870a4da6f12505a550b67bb73c8e21d5d3](https://etherscan.io/address/0x313416870a4da6f12505a550b67bb73c8e21d5d3)
 2. Click “Contract”
 3. Click “Write Contract”
 4. Click “Connect Web 3”
