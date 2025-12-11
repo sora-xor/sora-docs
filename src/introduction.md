@@ -90,7 +90,30 @@ economic growth, because increased productive output can be funded.
 
 [Read the entire **SORA whitepaper** by Dr. Makoto Takemiya.](https://sora.org/pub/The-Case-for-XOR.pdf)
 
+## SORA Nexus
+
+[SORA Nexus (SORA v3) ](/sora-v3.md) expands the broader SORA ecosystem by introducing
+a unified, infinitely scalable blockchain architecture designed to
+support both decentralized applications and institutional-grade
+systems.
+
+Powered by Hyperledger Iroha 3, SORA Nexus provides deterministic
+smart contract execution through the IVM, sovereign data spaces for
+jurisdictional or application-specific privacy, and horizontally
+scalable lanes that maintain global composability under a single ledger.
+
+With features such as zk-STARK–based FASTPQ proofs, audit-ready
+privacy, and governance-driven, forkless upgrades, SORA Nexus is
+engineered to serve as the long-term foundation for DeFi, enterprises,
+and CBDCs. As development progresses, it complements the existing SORA
+network and parachains by offering a next-generation platform capable
+of hosting diverse financial use cases within one coherent,
+interoperable infrastructure.
+
+<a href="https://sora.org/sora_nexus_whitepaper.pdf" target="_blank"
+rel="noopener">Read the SORA Nexus Whitepaper.</a>
+
 ## Learn More
 
 - [SORA Economy](/sora-economy.md)
-- [SORA Tokenomics](/tokenomics.md)
+- [SORA Nexus (V3) ](/sora-v3.md)

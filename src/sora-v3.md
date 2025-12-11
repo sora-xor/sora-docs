@@ -1,128 +1,361 @@
 ---
-title: "SORA V3 | SORA Docs"
+title: "SORA Nexus - Unified, Infinitely Scalable Blockchain Network | SORA Docs"
 head:
   - - meta
+    - name: viewport
+      content: "width=device-width, initial-scale=1.0"
+  - - meta
     - name: description
-      content: "Here you will find a comprehensive coverage of the SORA V3 upgrade. The SORA V3 hubchain, the Fujiwara testnet and both iterations of the upgraded tokenomics are also covered."
+      content: "Discover SORA Nexus (SORA v3), an infinitely scalable, unified blockchain network powered by Hyperledger Iroha 3. Learn how deterministic execution, data spaces, parallel lanes, and FASTPQ zk-proofs create a single universal ledger for DeFi, enterprises, and CBDCs."
   - - meta
     - name: keywords
-      content: "build on SORA network, decentralized applications, dApps, infrastructure, developers, tools, resources, documentation"
+      content: "SORA Nexus, SORA v3, Hyperledger Iroha 3, deterministic VM, IVM, data spaces, parallel lanes, universal ledger, scalable blockchain, CBDC platform, DeFi infrastructure, zk-STARK FASTPQ, SORA network, XOR token"
+  - - meta
+    - name: author
+      content: "SORA Network"
+  - - meta
+    - property: og:title
+      content: "SORA Nexus - Unified, Infinitely Scalable Blockchain Network | SORA Docs"
+  - - meta
+    - property: og:description
+      content: "Explore SORA Nexus—an infinitely scalable blockchain network unifying DeFi, enterprises, and CBDCs. Powered by Hyperledger Iroha 3, featuring deterministic execution, data spaces, parallel lanes, and FASTPQ zk-proofs."
+  - - meta
+    - property: og:type
+      content: "website"
+  - - meta
+    - property: og:site_name
+      content: "SORA Docs"
+  - - meta
+    - name: twitter:card
+      content: "summary"
+  - - meta
+    - name: twitter:title
+      content: "SORA Nexus - Unified, Infinitely Scalable Blockchain Network | SORA Docs"
+  - - meta
+    - name: twitter:description
+      content: "Learn how SORA Nexus unifies global finance with a scalable blockchain featuring deterministic execution, sovereign data spaces, horizontal lanes, and post-quantum zk-proofs."
+  - - meta
+    - name: twitter:site
+      content: "@sora_xor"
+  - - meta
+    - name: twitter:creator
+      content: "@sora_xor"
 ---
 
-# SORA V3
+# SORA Nexus
 
-![](/.gitbook/assets/sora-v3-1.png)
+A comprehensive overview of **SORA Nexus (SORA v3)** — an infinitely
+scalable, multi-domain blockchain network built on **Hyperledger Iroha
+3**, designed to unify global finance, DeFi, and institutional systems
+under **one universal ledger**.
 
-## Introduction
+- SORA Nexus is a single, scalable ledger built on Hyperledger Iroha 3 that unifies public, private, DeFi, CBDC, and enterprise domains through sovereign data spaces and deterministic IVM execution.
 
-The SORA platform seeks to bring broad social benefits to its users through cutting-edge technology and the robust flexibility that only a blockchain like Hyperledger Iroha 2 can provide. A promising pool of projects, including the aforementioned SORA decentralized economy, is already underway to take advantage of Iroha 2's capabilities. These include central bank digital currencies, savings bonds, and other innovative NGO programs aimed at social development.
+- It scales horizontally with parallel lanes, a merge ledger, and a robust data availability + FASTPQ zk-proof system that ensures privacy, correctness, and auditability.
 
-## The SORA V3 Hubchain
+- XOR powers fees, staking, and governance, enabling forkless upgrades and aligned incentives across a global, shared economic infrastructure.
 
-At the core of this network upgrade lies the SORA v3 Hub Chain, an infrastructure that:
+![](.gitbook/assets/sora-nexus1.png)
 
-- **Enables seamless collaboration**: Bridging permissioned and decentralized systems for cost reduction and mutual benefit.
-- **Enhances resilience**: De-correlates CBDCs and other Government-issued digital assets from political and economic instability, providing a stable, supranational platform for global transactions.
-- **Supports economic sovereignty**: Balances the role of nation states in managing their domains with the freedom of borderless financial activities.
+## Overview
 
-The SORA v3 Hub Chain will enable anyone, including central banks, to be able to create their own assets on the global SORA v3 platform. For those wanting greater privacy, they can process transactions in a private subnet they control, without sacrificing the security or interoperability of a supranational, decentralized blockchain.
+### What Is SORA Nexus?
 
-![](/.gitbook/assets/sora-v3-hub-chain-cbdc.png)
+**SORA Nexus** is the single logical ledger of the SORA ecosystem. It is powered by **Hyperledger Iroha 3** and is engineered to replace fragmented L1s, L2s, appchains, and private ledgers with **one network composed of many sovereign data spaces**.
 
-Built on [Hyperledger Iroha 2](https://www.lfdecentralizedtrust.org/blog/announcing-hyperledger-iroha-2), the SORA v3 Hub Chain empowers nations, institutions, and individuals by providing a solid infrastructure base to create a robust and inclusive financial system, bringing the best of blockchain technology under one network.
+At a high level, SORA Nexus combines:
 
-## SORA V3 Tokenomics
+- A custom deterministic virtual machine (**IVM**)
+- Sovereign, policy-driven **data spaces**
+- Horizontally scalable **parallel lanes** with a **merge ledger**
+- A dedicated **data availability and storage layer**
+- zk-STARK–based **FASTPQ proofs** for conservation, policy, and privacy
+- XOR-denominated fees, staking, and governance
+- On-chain configuration and upgrades via the **SORA Parliament**
 
-The SORA V3 tokenomics were defined over two iterations. The first called for a suspension of [TBCD](./tbcd.md) minting while production was funded through the now defunct VXOR token. The second and current iteration uses the [KUSD](./kusd.md) Dollar-pegged synthetic asset to fund production, while implementing buyback and burn of this asset within network transactions. Below is a detailed overview of both iterations.
+SORA Nexus is intended to be the **“end of history”** for blockchain
+infrastructure: once this architecture is in place, new jurisdictions
+and higher throughput are added by configuration, not by launching new
+chains. It is an infrastructure capable of hosting the full spectrum of financial activity, from DeFi to CBDCs.
 
-### First Iteration
+### Why SORA Nexus
 
-![](/.gitbook/assets/sora-v3-2.png)
+Current blockchain and DLT deployments face persistent limitations:
 
-Economies are like organisms; they are functioning, living entities and must constantly grow and evolve to stay alive. This means that money, the lifeblood of an economy, needs to provide sufficient nourishment to producers while also not increasing beyond the size needed to sustain health.
+- Fragmentation into many incompatible networks
+- Non-deterministic execution and difficult audits
+- Trade-offs between privacy and global composability
+- Reliance on risky cross-chain bridges for interoperability
+- Unpredictable performance and weak data availability guarantees
 
-In SORA v2, the SORA (XOR) token (the main token on the network, used to pay gas fees) had an elastic supply managed by a token bonding curve. The theory behind this was sound — to manage the token supply to meet the economy's needs. However, without sufficient reserves, the SORA v2 economy experienced liquidity shortages.
+SORA Nexus addresses these by operating as **one ledger with many data spaces**, each with its own policy and privacy rules, but all sharing:
 
-At the same time, countries worldwide have been debasing their currencies by expanding their monetary bases for non-productive uses. While not directly related to SORA, this is an important narrative for billions of people, and (perhaps intentionally), many people became scared of any expansion in currency supplies, even for productive uses. This meta-narrative has important implications for SORA because we have to work within the confines of the grand narrative created globally, as we are, as of yet, too small to direct it ourselves.
+- A common execution model (IVM)
+- A unified consensus and finality pipeline
+- Shared data-availability and proof systems
+- A single native economic asset (XOR)
 
-### Second Iteration
+![](.gitbook/assets/sora-nexus2.png)
 
-Because of the state of the world and the needs that people all over the world have, SORA v3 must be able to provide adequate funding for producers to target high GDP growth in the SORA economy while also limiting the increase of token supply expansion, given the meta-narrative that has caused people to be fearful of inflation.
+### SORA Nexus Whitepaper
 
-Builders in the SORA ecosystem under the v3 tokenomics will still get paid for their work, but not in XOR. Instead, they will be paid in stable tokens such as [KUSD](./kusd.md), although the final tokenomics are still under research.
+Full technical details are available in the <a href="https://sora.org/sora_nexus_whitepaper.pdf" target="_blank" rel="noopener">SORA Nexus Whitepaper </a>.
 
-Keep in mind that increasing the amount of goods and services in an economy is crucial, by definition, to expand the GDP. Therefore, any viable economic system needs to keep in mind ΔMV=ΔPY (_take a look at the [SORAnomics](./sora-economy.md#soranomics) for more information_) and understand that **you need an expansion of purchasing power for production to create more goods/services**. SORA v3 tokenomics follows the [General Quantity Theory of Money (Disaggregated Quantity Theory of Money)](https://cyberleninka.ru/article/n/banks-and-economic-growth-the-general-theory-in-a-basic-disequilibrium-model-with-five-rationing-regimes) so our economy can expand sustainably and reliably, which will enable us to accomplish our goal of creating a new economic order for the world that enables collaboration instead of exploitation and competition. _We will all own XOR, and we will be happy._
+## Unified Architecture: One Network, Many Data Spaces
 
-![](/.gitbook/assets/sora-v3-3.png)
+### What Are Data Spaces
 
-Given the current state of the world, like it or not, even cryptoland is dollarized. That means SORA must also provide access to tokens at par with the dollar if we want to increase market share. Fortunately, _Kensetsu_ (SORA’s version of MakerDAO) is a natural way for us to provide this access to our users.
+In SORA Nexus, **data spaces (DS)** are first-class partitions of the ledger. Each data space:
 
-However, given the low liquidity for Kensetsu assets up until now, especially KUSD, there haven’t been any good options for SORA users to access stable USD values. So, to build the SORA economy into one that is useful in daily life, we, as an ecosystem, should work to maintain the peg of at least KUSD so that there is reliable liquidity for a token with dollar value, which is the current world standard (until XOR takes over).
+- Defines explicit **privacy, routing, and compliance policies**
+- Can be **public**, **private**, or **consortium** in nature
+- Has its own validator/attester set and admission rules
+- Produces cryptographic artifacts (state roots, DA commitments, proof hashes) that are included in the global ledger
 
-#### BUIDLing NEO
+Data spaces allow CBDCs, capital markets, and open DeFi to coexist on the same network while remaining policy-isolated where required.
 
-Creating financial software demands the highest quality code and repeatable processes; otherwise, it cannot be reliably used. Teams that BUIDL in the SORA ecosystem are expected to deliver the best results and have consistently proven themselves. However, professional teams cannot be expected to work for free, nor should they. Because we are still in the _BUIDL_ (build) phase of creating the SORA economic system, we should pay teams that work in the SORA ecosystem in a unit of account that is readily understandable, namely w.r.t. dollars (USD, also known as _cuck bucks_).
+### Public vs Private Data Spaces
 
-So, as part of the improvements to SORA on our journey to v3, KUSD is now proposed to be used to pay builders. To create the necessary KUSD and have it maintain its peg, it is important to use only hard collateral (not soft cats😿).
+- **Public data spaces**
+  - Open participation
+  - In-slot data availability sampling
+  - Certificates signed by an attester set (e.g., Ed25519 plus reserved fields for post-quantum extensions)
 
-To maintain the peg of KUSD to cuck bucks, it is proposed that the SORA ecosystem use a TBCD treasury to buy back and burn KUSD whenever it goes below the peg. This can increase the XOR supply in the short term, but in the future, when there is more demand for KUSD, and the ecosystem has been built up (which can only be done by maintaining the peg), this TBCD will all be burned through a buy-back-and-burn mechanism (a portion of transaction fees), which will also burn the XOR created (XOR is backed by TBCD, so burning TBCD will also burn XOR—it’s a 2-for-1).
+- **Private data spaces**
+  - Permissioned participation
+  - Data and proofs confined to authorized parties
+  - Attestation certificates signed with post-quantum schemes (e.g., ML-DSA-87), including validator-set metadata and compliance hooks
 
-#### Increasing Output While Deflating XOR
+In both cases, the rest of the network only needs the **fingerprints and proofs** of each data space’s state transitions, not the raw data itself.
 
-There are two principles of economics to keep in mind when creating an economic system:
+### Composability Across Sovereign Domains
 
-1. the principle of economic growth (ΔMV=PΔY)
-2. the principle of elasticity
+Because all data spaces are anchored in the same ledger:
 
-Regarding the first, you need to increase purchasing power for economic expansion. Otherwise, there will be crowding out of uses for existing money. Consider a simple example of a small economy with just three people, each having 2 XOR. In this simple economy, there are only 6 XOR, and if you want to build, let’s say, a bridge that costs 2 XOR to build, then that 2 XOR has to come from among the three people in the economy. So, to build the bridge without expanding the purchasing power in the economy, you need to convince people to give up their XOR, potentially promising some large bonus in the future (security).
+- Assets and accounts can be referenced across data spaces using stable pointers.
+- Cross-space operations (e.g. using a CBDC as DeFi collateral) can be executed **atomically**, assuming policy permits it.
+- No external cross-chain bridges are required; cross-domain logic is enforced by IVM and the global consensus.
 
-However, this can be a costly way to obtain funds if a very large bonus has to be paid to convince people to give up their XOR. So another option is to inject more XOR into the economy to build the bridge but then charge some fees to use the bridge to withdraw and burn that XOR later in the future. In addition to lowering the cost of infrastructure development, this simple example also highlights the principle of how the elasticity of purchasing power can be used to provide for production without crowding out other uses of money in an economy, as the original three people in the example can use their funds for different uses, like investing in opportunities that will generate even more wealth in the economy.
+This allows **sovereign monetary domains** and **open crypto markets** to share liquidity and state, while respecting jurisdiction-specific rules.
 
-#### The Vision for SORA V3
+## Deterministic Execution: The Iroha Virtual Machine
 
-We can build a sustainable and self-reinforcing economy by using buy-back-and-burn mechanisms. Through this process, we can create a powerful vortex that will eventually lead to the burning of a large amount of the XOR supply while still creating conditions for financing new output in the SORA economy, as documented below in the transaction fee breakdown.
+### What Is the IVM?
 
-Yes, it’s a long-term play, but creating a new world economy that isn’t based on debt and enslavement will take time and have a never-ending share of sceptics and critics.
+The **Iroha Virtual Machine (IVM)** is a custom, deterministic execution environment designed specifically for SORA Nexus. Smart contracts are written in **Kotodama** and compiled to IVM bytecode.
 
-![](/.gitbook/assets/sora-v3-5.png)
+Key properties:
 
-In the SORA economy, XOR is the predictable monetary base. VAL is on top of the XOR monetary base, incentivizing validators and liquidity providers.
-Finally, KUSD is on top of the pyramid, the all-seeing eye of the monetary system, reaching out into the existing dollarized world economy. Transaction fees propagate through the SORA economy, like blood pumping, burning some XOR, swapping through VAL and PSWAP, buying back, and burning TBCD and KUSD.
-Like a fine tapestry woven to perfection, each layer of the economy is thus encouraged to build value for the SORA economy by contributing their work and ideas so that by working together, the entire SORA ecosystem will flourish.
+- **Pointer-ABI and fixed types** for assets, accounts, and memory
+- **Register-based architecture** with bounded, 64-bit arithmetic
+- **Explicit, versioned syscalls** to host functions
+- No floating-point arithmetic, no unbounded loops that break determinism
+- No reentrancy and no hidden stateful precompiles
 
-Within the latest iteration of the SORA economy and including a robust buy-back-and-burn mechanism, the breakdown of transaction fees is as follows;
+All contract inputs and outputs are encoded in **Norito**, Iroha’s canonical serialization format.
 
-- 50% to buyback and burn [VAL](./val.md)
-- 20% for burning [XOR](./xor.md)
-- 10% for [Referral Awards for newcomers](./referral.md)
-- 19.5% to buyback and burn [KUSD](./kusd.md)
-- 0.5% to buyback and burn [TBCD](./tbcd.md)
+### Why Determinism Matters
 
-![](.gitbook/assets/sora-network-transaction-fee.png)
+IVM is designed so that:
 
-A stable, native and decentralized USD stablecoin will allow builders and community projects to deploy projects with a stable unit of account. Marketplaces and purchases of goods and services will enable real economic activity in the SORA ecosystem and beyond.
+- The same transaction, given the same state, always produces the same result.
+- Execution is independent of hardware, OS, or node vendor.
+- Consensus nodes can reason about gas and resource usage predictably.
 
-## The Fujiwara Testnet
+This eliminates many sources of failure common in generic VMs (e.g., EVM):
 
-![](/.gitbook/assets/sora-v3-4.png)
+- Reentrancy traps and unexpected call graphs
+- Implementation-specific precompiles
+- Diverging behavior on different hardware or runtimes
 
-The SORA ecosystem continues to evolve with the launch of the Fujiwara (藤原) testnet, a crucial milestone in the journey toward SORA v3. Named after the influential Fujiwara family, which shaped Japan’s Heian period (794–1185) through strategic foresight and cultural refinement, this testnet represents the same values of adaptability, endurance, and innovation.
+### Auditable and Upgradeable
 
-### **The Legacy of** 藤原・**Fujiwara**
+IVM execution is tightly integrated with proofs and auditability:
 
-The Fujiwara family rose to prominence in 7th-century Japan, dominating the Imperial court through strategic alliances and governance. Acting as regents (摂政 (Sesshō) and 関白 (Kampaku)), they became the archetypal 公家 (kuge) family, shaping Japan’s cultural and political landscape for centuries. Their legacy inspires the name of the first of many testnets on our Way to SORA v3.
+- Execution traces and register/memory commitments can be Merkle-ized.
+- Transactions can produce receipts that are later used in **FASTPQ** proofs.
+- The syscall surface and ABI tables are versioned and anchored in on-chain configuration.
 
-### **Why the Fujiwara Testnet Matters**
+Runtime upgrades (new IVM versions, new syscalls, or new Kotodama features) are activated via governance at specific slots, without forking the chain or breaking prior contracts.
 
-The [**Fujiwara testnet**](https://wiki.sora.org/running-a-sora-testnet-node.html) is the first testnet for SORA v3 and is a sandbox for experimenting with the key features of SORA v3, including:
+## Horizontal Scalability: Lanes and Merge Ledger
 
-- **Decentralized Finance (DeFi)**: Enabling efficient and secure cross-border transactions.
-- **Governance Participation**: Allowing users to actively shape the ecosystem's future by implementing [the SORA Parliament](https://medium.com/sora-xor/the-sora-parliament-af8184dae384).
-- **Network Stability**: As a newly developed public blockchain feature, the Fujiwara testnet will provide valuable insights about this innovative feature, as Iroha-based networks have been private infrastructure.
+### Parallel Lanes Explained
 
-By fostering decentralized collaboration, the Fujiwara testnet will lay the groundwork for a financial ecosystem that thrives beyond geographical and political limitations.
+SORA Nexus scales throughput via **lanes**:
+
+- Each lane runs its own instance of the consensus pipeline over a subset of data-space workloads.
+- Lanes produce blocks containing data-space artifacts and proofs.
+- Lanes are independent for safety; they never rewrite one another’s history.
+
+### The Merge Ledger
+
+A lightweight **merge ledger** periodically combines the tips of all lanes into a single canonical block sequence:
+
+- Lane blocks are referenced in merge blocks.
+- The merge committee signs a merge quorum certificate (QC).
+- From the outside, the network appears as **one chain** with a single ordered history, even though many lane blocks are produced in parallel.
+
+This preserves:
+
+- Global atomicity
+- Unified history
+- Single-headed finality
+
+### Elastic Lanes and Scheduling
+
+Lanes are **elastic**:
+
+- Under low load, they can **fuse** into a single lane to reduce latency and resource usage.
+- Under high load, they can **split** into multiple lanes to increase throughput.
+
+Scheduling across data spaces and transactions uses mechanisms like:
+
+- **Start-Time Fair Queuing (SFQ)**
+- **Transfer-equivalent unit (TEU) budgets** per data space and lane
+- Deterministic commit windows (typically two slots)
+
+These guarantee that each data space receives a predictable share of block capacity and that transaction inclusion is bounded in time.
+
+### Consensus and Performance
+
+Consensus is provided by a modernized **SUMERAGI** BFT pipeline:
+
+- Deterministic leader rotation and pipelined voting
+- No empty blocks; blocks are produced only when there are transactions
+- Target **sub-second to ~1-second finality** under normal conditions
+- Support for both classical and post-quantum signature schemes for QCs
+
+This architecture allows throughput to scale towards tens of thousands of TPS while preserving a single, globally composable ledger.
+
+## Privacy, Proofs, and Data Availability
+
+### Data Availability Layer
+
+Execution on IVM is coupled to a dedicated **data availability (DA)** and storage layer:
+
+- **Kura** handles block storage; **WSV** maintains the working state view.
+- Blocks and artifacts can be **erasure-coded** in two dimensions, spreading shards across nodes.
+- DA sampling lets verifiers check that enough shares exist to reconstruct data if required.
+
+Public data spaces use open sampling; private data spaces use controlled distribution and commitments to signal availability without revealing contents.
+
+### FASTPQ: zk-STARK-Based Proofs
+
+**FASTPQ** is Nexus’s proof system for:
+
+- Conservation of value and non-inflationary constraints
+- Policy and compliance rules inside data spaces
+- Confidential transaction logic where required
+
+FASTPQ is a **zk-STARK** system:
+
+- Transparent (no trusted setup)
+- Hash-based (e.g., Poseidon2) and post-quantum secure
+- Capable of generating large numbers of proofs per second
+- Proofs verify in **under 100 ms** on consumer hardware
+
+The same AIR/FRI framework can operate in:
+
+- **Audit modes**, where zero-knowledge blinding is off and only correctness is proven.
+- **Privacy modes**, where witnesses are hidden but all constraints are still enforced.
+
+### Confidentiality with Integrity
+
+Combining DA with FASTPQ yields:
+
+- **Strong guarantees** that all data needed for verification exists and is correct.
+- The ability for private domains (e.g. CBDCs, dark books) to prove they obey rules without exposing underlying books.
+- A path for regulators and auditors to obtain cryptographic assurance instead of relying on off-chain attestations.
+
+## Governance, Configuration, and Evolution
+
+### Iroha Configuration and Governance Surfaces
+
+All critical behavior of SORA Nexus is defined via on-chain configuration, primarily in the **`iroha_config`** registry. Governed parameters include:
+
+- Cryptographic primitives and hash choices
+- IVM syscall lists and pointer-ABI tables
+- Data-space definitions and admission policies
+- Lane counts, TEU budgets, and DA limits
+- Fee schedules and reward distributions
+
+Modifications to this configuration occur via the **SORA Parliament** governance process and are bound to specific enactment slots.
+
+### XOR-Backed Governance
+
+The **XOR token** underpins governance:
+
+- Proposals carry **XOR bonds** to discourage spam and malicious changes.
+- Voting and participation rights are tied to XOR holdings (with additional bodies and councils defined by the Parliament model).
+- Enacted proposals, votes, and tallies are all recorded as Norito artifacts, making governance fully auditable.
+
+### Forkless Runtime Upgrades
+
+Runtime upgrades (e.g. new IVM builds, new Kotodama runtime versions, or changes in consensus parameters) follow a standard flow:
+
+1. Proposal with an upgrade manifest and XOR bond
+2. Voting and tallying
+3. If passed, activation at a scheduled slot across all lanes
+
+State is preserved; nodes update binaries and configuration but remain on the same chain—no forks, no split communities.
+
+## Real-World Applications
+
+### CBDCs and Sovereign Money
+
+SORA Nexus is explicitly designed for **national-scale digital currencies and financial market infrastructures**:
+
+- Private data spaces for issuance, KYC/AML-constrained wallets, and wholesale rails
+- Public or semi-public data spaces for retail-level programmability and integration with DeFi
+- Integration paths for standards like **ISO 20022**
+- FASTPQ-backed proofs for monetary correctness and balance-sheet integrity
+
+The design builds on experience from:
+
+- **Bakong**, Cambodia’s national payment system, which has processed well over one hundred billion USD equivalent in annual volume
+- Multiple CBDC pilots and PoCs in other jurisdictions using prior Iroha versions
+
+### DeFi and Open Finance
+
+In open, public data spaces, SORA Nexus can host:
+
+- DEXs and RFQ-style marketplaces
+- Lending and borrowing protocols
+- Stablecoins and synthetic assets
+- Tokenized real-world assets and NFTs
+
+These can directly interact with assets from regulated domains—such as CBDCs or tokenized bonds—subject to the policies of those data spaces. This preserves **composability** while respecting regulatory constraints.
+
+### Enterprise, Markets, and Cross-Border Finance
+
+SORA Nexus provides:
+
+- **Gateways** that turn state proofs and transactions into formats consumable by other ledgers or traditional systems (e.g., ISO 20022 messages, proof-of-state attestations).
+- A foundation for tokenized securities, bond markets, and cross-border corridors where settlement happens on Nexus, but integration with existing institutions remains smooth.
+- The ability to co-locate **enterprise consortia**, **public DeFi**, and **government rails** on one infrastructure, removing the need for bespoke chains for each use case.
+
+## To Summarise
+
+SORA Nexus defines a coherent architecture for a **single, global, infinitely scalable ledger**:
+
+- **IVM** guarantees deterministic, auditable execution.
+- **Data spaces** provide sovereignty and policy isolation without sacrificing composability.
+- **Lanes and the merge ledger** deliver horizontal scalability while preserving a single canonical history.
+- **FASTPQ** and the DA layer ensure privacy, conservation, and compliance are cryptographically enforced.
+- **XOR-based governance and economics** align incentives for validators, builders, and users.
+
+With these components, SORA Nexus is positioned to carry CBDCs, capital markets, and open, permissionless innovation on a single ledger—moving the SORA vision of **“One World, One Economy, One Ledger”** from theory into practice.
+
+> SORA Nexus. No other blockchain is needed.
+
+![](.gitbook/assets/sora-nexus3.png)
+
+## References
+
+- [SORA Nexus Whitepaper (PDF)](https://sora.org/sora_nexus_whitepaper.pdf)
 
 ## Learn More
 
-- [Running a SORA V3 Testnet Node](/running-a-sora-testnet-node.md)
-- [SORA Economy](/sora-economy.md)
+- [SORA Integrated Plan](/integrated-plan)
+- [Request Features on SORA](/rfp)
