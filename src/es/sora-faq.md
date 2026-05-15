@@ -77,7 +77,7 @@ El ID de activo (dirección) es un identificador único de activo en la red SORA
 
 ## Cómo Funcionan las Direcciones en la Red SORA
 
-Si has usado la red SORA o Polkaswap, probablemente hayas notado que generalmente las direcciones comienzan con 5, pero en SORAscan tienes que ingresar una dirección que comience con `cn`. Entonces, ¿cómo funciona?
+Si has usado la red SORA o Polkaswap, probablemente hayas notado que generalmente las direcciones comienzan con 5, pero en [SoraMetrics](https://sorametrics.org/sorav2) debes ingresar una dirección que comience con `cn`. Entonces, ¿cómo funciona?
 
 El formato de dirección utilizado en cadenas basadas en Substrate es [SS58](<https://github.com/paritytech/substrate/wiki/External-Address-Format-(SS58)>), y cada cadena puede seleccionar su propio prefijo, generando diferentes direcciones. Aquí hay un ejemplo:
 
@@ -93,15 +93,15 @@ Puedes leer más [aquí](https://wiki.polkadot.network/docs/en/learn-accounts).
 
 ## ¿Quiénes son los Mayores Poseedores de XOR?
 
-Cuando se observan los principales tenedores en [Subscan](https://sora.subscan.io/account), varias de esas direcciones son cuentas técnicas que apoyan toda la red. Aquí hay una tabla con las cuentas técnicas que tienen XOR: Se han añadido direcciones adicionales correspondientes a las cuentas de recompensas de Polkaswap. Esta lista recibirá actualizaciones continuas para asegurar su precisión.
+Cuando se observan los [principales tenedores de XOR en SoraMetrics](https://sorametrics.org/sorav2?tab=holders), varias de esas direcciones son cuentas técnicas que apoyan toda la red. Aquí hay una tabla con las cuentas técnicas que tienen XOR: Se han añadido direcciones adicionales correspondientes a las cuentas de recompensas de Polkaswap. Esta lista recibirá actualizaciones continuas para asegurar su precisión.
 
 | Dirección                                                                                                                              | Rol                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------| ----------------------------------------------------- |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7m6B1ToDe2qJbdz7aQw8F3W1CK](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7m6B1ToDe2qJbdz7aQw8F3W1CK)​ | **Contrato inteligente del puente de Ethereum**       |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7o32AxA6oQU4AzkUMnmMwM6Tk7](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7o32AxA6oQU4AzkUMnmMwM6Tk7)​ | **Piscina XOR-PSWAP**                                 |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7f4sMKaWQF583on92JL48B9kjq](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7f4sMKaWQF583on92JL48B9kjq)​ | **Piscina XOR-VAL**                                   |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7fuxWZxsAP6HA1UauiMxyJ4Wmp](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7fuxWZxsAP6HA1UauiMxyJ4Wmp)​ | **Piscina XOR-DAI**                                   |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7jT6zmAjZB72t6j7HHmgtiMKgB](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7jT6zmAjZB72t6j7HHmgtiMKgB)​ | **Piscina XOR-ETH**                                   |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7m6B1ToDe2qJbdz7aQw8F3W1CK](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7m6B1ToDe2qJbdz7aQw8F3W1CK)​ | **Contrato inteligente del puente de Ethereum**       |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7o32AxA6oQU4AzkUMnmMwM6Tk7](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7o32AxA6oQU4AzkUMnmMwM6Tk7)​ | **Piscina XOR-PSWAP**                                 |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7f4sMKaWQF583on92JL48B9kjq](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7f4sMKaWQF583on92JL48B9kjq)​ | **Piscina XOR-VAL**                                   |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7fuxWZxsAP6HA1UauiMxyJ4Wmp](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7fuxWZxsAP6HA1UauiMxyJ4Wmp)​ | **Piscina XOR-DAI**                                   |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7jT6zmAjZB72t6j7HHmgtiMKgB](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7jT6zmAjZB72t6j7HHmgtiMKgB)​ | **Piscina XOR-ETH**                                   |
 | cnTQ1kbv7PBNNQrEb1tZpmK7easBTbiFMQUUwfLf9LX66ND8u                                                                                      | **Recompensas TBC**                                   |
 | cnTQ1kbv7PBNNQrEb1tZpmK7fJT4Awahg1d8aoYoGGv2ATz7m                                                                                      | **Recompensas del Creador de Mercado**                |
 | cnTQ1kbv7PBNNQrEb1tZpmK7kr72qNfcUDvqPxUdw4h2A5axX                                                                                      | **Recompensas de Farming**                            |

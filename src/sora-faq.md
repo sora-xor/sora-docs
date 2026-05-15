@@ -77,7 +77,7 @@ Asset ID (address) is a unique asset identifier on the SORA network (like a cont
 
 ## How do Addresses Work on the SORA network
 
-If you have used SORA network or Polkaswap, you probably have noticed that generally addresses start with 5, but in SORAscan you have to input an address that starts with `cn`. So how does it work?
+If you have used SORA network or Polkaswap, you probably have noticed that generally addresses start with 5, but in [SoraMetrics](https://sorametrics.org/sorav2) you should input an address that starts with `cn`. So how does it work?
 
 The address format used in Substrate-based chains is [SS58](<https://github.com/paritytech/substrate/wiki/External-Address-Format-(SS58)>), and each chain can select its own prefix, generating different addresses. Here's an example:
 
@@ -93,20 +93,20 @@ You can read more [here](https://wiki.polkadot.network/docs/en/learn-accounts).
 
 ## Who are the biggest XOR Holders? <a href="#who-are-the-biggest-xor-holders" id="who-are-the-biggest-xor-holders"></a>
 
-When looking at the top holders on [Subscan](https://sora.subscan.io/account), several of those addresses are technical accounts supporting the whole network. Here is a table with the technical accounts holding XOR: Additional addresses have been added corresponding to Polkaswap reward accounts. This list will be receiving ongoing updates to ensure accuracy.
+When looking at the [top XOR holders on SoraMetrics](https://sorametrics.org/sorav2?tab=holders), several of those addresses are technical accounts supporting the whole network. Here is a table with the technical accounts holding XOR: Additional addresses have been added corresponding to Polkaswap reward accounts. This list will be receiving ongoing updates to ensure accuracy.
 
-| Address                                                                                                                                   | Role                                           |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7m6B1ToDe2qJbdz7aQw8F3W1CK ](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7m6B1ToDe2qJbdz7aQw8F3W1CK)​ | **Smart contract of the Ethereum bridge**      |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7o32AxA6oQU4AzkUMnmMwM6Tk7](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7o32AxA6oQU4AzkUMnmMwM6Tk7)​  | **XOR-PSWAP pool**                             |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7f4sMKaWQF583on92JL48B9kjq ](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7f4sMKaWQF583on92JL48B9kjq)​ | **XOR-VAL pool**                               |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7fuxWZxsAP6HA1UauiMxyJ4Wmp ](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7fuxWZxsAP6HA1UauiMxyJ4Wmp)​ | **XOR-DAI pool**                               |
-| ​[cnTQ1kbv7PBNNQrEb1tZpmK7jT6zmAjZB72t6j7HHmgtiMKgB ](https://sora.subscan.io/account/cnTQ1kbv7PBNNQrEb1tZpmK7jT6zmAjZB72t6j7HHmgtiMKgB)​ | **XOR-ETH pool**                               |
-| cnTQ1kbv7PBNNQrEb1tZpmK7easBTbiFMQUUwfLf9LX66ND8u                                                                                         | **TBC Rewards**                                |
-| cnTQ1kbv7PBNNQrEb1tZpmK7fJT4Awahg1d8aoYoGGv2ATz7m                                                                                         | **Market Maker Rewards**                       |
-| cnTQ1kbv7PBNNQrEb1tZpmK7kr72qNfcUDvqPxUdw4h2A5axX                                                                                         | **Farming Rewards**                            |
-| cnTQ1kbv7PBNNQrEb1tZpmK7iW5aLF24hi1k1H4t3L49TzhPe                                                                                         | **Pre-Launch PSWAP and VAL Reserve Account**   |
-| cnTQ1kbv7PBNNQrEb1tZpmK7ftiv4yCCpUQy1J2y7Y54Taiaw                                                                                         | **PSWAP Distribution for Liquidity Providers** |
+| Address                                                                                                                                                      | Role                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7m6B1ToDe2qJbdz7aQw8F3W1CK ](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7m6B1ToDe2qJbdz7aQw8F3W1CK)​ | **Smart contract of the Ethereum bridge**      |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7o32AxA6oQU4AzkUMnmMwM6Tk7](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7o32AxA6oQU4AzkUMnmMwM6Tk7)​  | **XOR-PSWAP pool**                             |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7f4sMKaWQF583on92JL48B9kjq ](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7f4sMKaWQF583on92JL48B9kjq)​ | **XOR-VAL pool**                               |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7fuxWZxsAP6HA1UauiMxyJ4Wmp ](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7fuxWZxsAP6HA1UauiMxyJ4Wmp)​ | **XOR-DAI pool**                               |
+| ​[cnTQ1kbv7PBNNQrEb1tZpmK7jT6zmAjZB72t6j7HHmgtiMKgB ](https://sorametrics.org/sorav2?tab=balance&address=cnTQ1kbv7PBNNQrEb1tZpmK7jT6zmAjZB72t6j7HHmgtiMKgB)​ | **XOR-ETH pool**                               |
+| cnTQ1kbv7PBNNQrEb1tZpmK7easBTbiFMQUUwfLf9LX66ND8u                                                                                                            | **TBC Rewards**                                |
+| cnTQ1kbv7PBNNQrEb1tZpmK7fJT4Awahg1d8aoYoGGv2ATz7m                                                                                                            | **Market Maker Rewards**                       |
+| cnTQ1kbv7PBNNQrEb1tZpmK7kr72qNfcUDvqPxUdw4h2A5axX                                                                                                            | **Farming Rewards**                            |
+| cnTQ1kbv7PBNNQrEb1tZpmK7iW5aLF24hi1k1H4t3L49TzhPe                                                                                                            | **Pre-Launch PSWAP and VAL Reserve Account**   |
+| cnTQ1kbv7PBNNQrEb1tZpmK7ftiv4yCCpUQy1J2y7Y54Taiaw                                                                                                            | **PSWAP Distribution for Liquidity Providers** |
 
 ​
 

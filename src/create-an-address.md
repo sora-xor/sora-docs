@@ -263,15 +263,11 @@ easy.
 
    ![](.gitbook/assets/restore-account-tg-rename.png)
 
-## Converting the address format
+## Using the SORA address format
 
-As mentioned before, Substrate networks use different address prefixes for generating addresses. However, the key pair is the same. If you create an account, but get the address without the `cn` prefix, then you can convert it using the [Subscan address converter](https://sora.subscan.io/tools/ss58_transform).
+As mentioned before, Substrate networks use different address prefixes for generating addresses. However, the key pair is the same. If you create an account but get the address without the `cn` prefix, switch the account or network display to SORA in your wallet and copy the SORA SS58 address.
 
-![](.gitbook/assets/convert-address-subscan-converter.png)
-
-Just enter your address and click **Transform**. You can specify the output type. By default, the Subscan tool will convert the address to all supported network formats.
-
-![](.gitbook/assets/convert-address-transform.png)
+You can then check the public address in [SoraMetrics](https://sorametrics.org/sorav2). Never paste your seed phrase, private key, or JSON keystore password into any explorer or analytics site.
 
 ## Learn More
 
