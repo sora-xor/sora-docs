@@ -15,7 +15,7 @@ Un **explorador de bloques** es una herramienta que se utiliza para ver todas la
 
 En otras palabras, un explorador de bloques es un navegador de blockchain en línea que revela los datos de bloques y transacciones individuales. Con esta herramienta, podemos monitorear historiales de transacciones y saldos de direcciones.
 
-El mainnet de SORA actualmente implementa el explorador de bloques [Subscan](https://sora.subscan.io/). El explorador de bloques de la red SORA está respaldado por el equipo de Subscan.
+El mainnet de SORA usa el [panel SORA v2 de SoraMetrics](https://sorametrics.org/sorav2) como explorador de bloques y fuente de analítica on-chain.
 
 Puedes encontrar cualquier información que necesites sobre:
 
@@ -26,48 +26,31 @@ Puedes encontrar cualquier información que necesites sobre:
 
 ## Práctica
 
-Subscan solo está disponible para el mainnet de SORA. Esto significa que no podrás encontrar transacciones realizadas en el testnet en Subscan.
+Usa SoraMetrics para consultar datos del mainnet de SORA v2.
 
-Abre [Subscan del mainnet](https://sora.subscan.io/):
-
-![](../.gitbook/assets/explore-blocks-open-subscan.png)
+Abre el [panel SORA v2 en SoraMetrics](https://sorametrics.org/sorav2):
 
 Aquí verás el panel principal que contiene:
 
-- Caja de búsqueda. Úsala para buscar por cuenta, transacción, id de bloque o número.
+- Caja de búsqueda. Úsala para buscar por cuenta, hash de transacción, número de bloque o ID de extrínseca.
 - Estadísticas de la red
-- Asignación de XOR
-- Lista de los últimos bloques
-- Lista de las últimas extrínsecas
+- Bloques y actividad de red en vivo
+- Transferencias, extrínsecas, titulares, validadores y datos de liquidez
 
 #### Cómo encontrar una transacción
 
-Si tienes el hash de la transacción o id puedes encontrarla usando la caja de búsqueda. Solo pega el número de la transacción en la caja de búsqueda y haz clic en Buscar.
+Si tienes el hash de la transacción o el ID de la extrínseca, usa la caja de búsqueda de SoraMetrics. También puedes abrir la vista de [Extrínsecas](https://sorametrics.org/sorav2?tab=extrinsics) y filtrar por bloque, pallet, método, estado o fecha.
 
-![](../.gitbook/assets/explore-blocks-search-transaction.png)
-
-En la pantalla de Detalles de la Transacción verás toda la información sobre extrínsecas incluyendo parámetros y eventos.
-
-![](../.gitbook/assets/explore-blocks-show-details-extrinsics.png)
+La vista de detalles de la extrínseca muestra parámetros, eventos, estado e información del bloque relacionado.
 
 #### Cómo encontrar una cuenta
 
-Si tienes una dirección de cuenta entonces puedes encontrarla usando la caja de búsqueda. Solo pega o introduce la dirección de la cuenta en la caja de búsqueda y haz clic en Buscar.
+Si tienes una dirección de cuenta, pégala en la caja de búsqueda de SoraMetrics. También puedes abrir una cuenta directamente con `https://sorametrics.org/sorav2?tab=balance&address=<address>`.
 
-![](../.gitbook/assets/explore-blocks-search-account.png)
-
-En la vista de detalles de la cuenta, puedes encontrar información sobre el saldo de XOR, transferencias y transacciones que fueron realizadas por la cuenta.
-
-![](../.gitbook/assets/explore-blocks-show-account-details.png)
+En la vista de detalles de la wallet, puedes encontrar saldos, transferencias, swaps, actividad de puentes, liquidez, staking y extrínsecas de la cuenta.
 
 #### Transacciones
 
-Las transacciones son la parte más importante del explorador de bloques. Puedes encontrar todas las transacciones en Blockchain, luego selecciona Extrínsecas del menú desplegable.
-
-![](../.gitbook/assets/explore-blocks-show-extrinsics.png)
-
-En la página de lista de extrínsecas puedes encontrar el historial de extrínsecas.
-
-![](../.gitbook/assets/explore-blocks-extrinsic-history.png)
+Las transacciones son la parte más importante del explorador de bloques. Abre la vista de [Extrínsecas](https://sorametrics.org/sorav2?tab=extrinsics) para consultar el historial de extrínsecas.
 
 Puedes filtrar una extrínseca por fecha o rango de bloques, por cuenta, módulo y llamada. Es muy útil para ver la actividad de una cuenta o el historial de una operación específica.

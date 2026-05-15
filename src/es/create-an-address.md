@@ -233,13 +233,8 @@ El proceso es el mismo para la aplicación móvil:
 
    ![](../.gitbook/assets/restore-account-biometry-auth.png)
 
-#### Convertir el formato de dirección
+#### Usar el formato de dirección de SORA
 
-Como se mencionó antes, las redes Substrate usan diferentes prefijos de dirección para generar direcciones. Sin embargo, el par de claves es el mismo. Si creas una cuenta, pero obtienes la dirección sin el prefijo `cn`, entonces puedes convertirla usando el [convertidor de direcciones Subscan](https://sora.subscan.io/tools/ss58_transform).
+Como se mencionó antes, las redes Substrate usan diferentes prefijos de dirección para generar direcciones. Sin embargo, el par de claves es el mismo. Si creas una cuenta, pero obtienes la dirección sin el prefijo `cn`, cambia la visualización de cuenta o red a SORA en tu wallet y copia la dirección SS58 de SORA.
 
-![](../.gitbook/assets/convert-address-subscan-converter.png)
-
-Simplemente ingresa tu dirección y haz clic en **Transformar**. Puedes especificar el tipo de salida. Por defecto, la herramienta Subscan convertirá la dirección a todos los formatos de red compatibles.
-
-![](../.gitbook/assets/convert-address-transform.png)
-
+Luego puedes consultar la dirección pública en [SoraMetrics](https://sorametrics.org/sorav2). Nunca pegues tu frase semilla, clave privada o contraseña del keystore JSON en ningún explorador o sitio de analítica.

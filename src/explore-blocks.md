@@ -15,7 +15,7 @@ A **block explorer** is a tool that is used to view all blockchain transactions 
 
 In other words, a block explorer is an online blockchain browser that reveals the data of individual blocks and transactions. With this tool, we can monitor transaction histories and balances of addresses.
 
-The SORA mainnet currently implements the [Subscan](https://sora.subscan.io/) block explorer. The SORA network block explorer is supported by the Subscan team.
+The SORA mainnet uses the [SoraMetrics SORA v2 dashboard](https://sorametrics.org/sorav2) for block explorer and on-chain analytics data.
 
 You can find any information that you need on:
 
@@ -26,48 +26,31 @@ You can find any information that you need on:
 
 ## Practice
 
-Subscan is only available for the SORA mainnet. This means that you will not be able to find transactions made on the testnet in Subscan.
+Use SoraMetrics for SORA v2 mainnet data.
 
-Open [mainnet Subscan](https://sora.subscan.io/):
-
-![](.gitbook/assets/explore-blocks-open-subscan.png)
+Open the [SORA v2 dashboard on SoraMetrics](https://sorametrics.org/sorav2):
 
 Here you will see the main dashboard that contains:
 
-- Search box. Use it to search via account, transaction, block id, or number.
+- Search box. Use it to search by account, transaction hash, block number, or extrinsic ID.
 - Network statistics
-- XOR allocation
-- The list of latest blocks
-- The list of latest extrinsics
+- Live blocks and network activity
+- Transfers, extrinsics, holders, validators, and liquidity data
 
 #### How to find a transaction
 
-If you have the transaction hash or id you can find it using the search box. Just paste the transaction number into the search box and click Search.
+If you have the transaction hash or extrinsic ID, use the search box on SoraMetrics. You can also open the [Extrinsics](https://sorametrics.org/sorav2?tab=extrinsics) view and filter by block, pallet, method, status, or date.
 
-![](.gitbook/assets/explore-blocks-search-transaction.png)
-
-On the Transaction details screen you will see all the information about extrinsics including parameters and events.
-
-![](.gitbook/assets/explore-blocks-show-details-extrinsics.png)
+The extrinsic details view shows parameters, events, status, and related block information.
 
 #### How to find an account
 
-If you have an account address then you can find it using the search box. Just paste or enter the account address into the search box and click Search.
+If you have an account address, paste it into the SoraMetrics search box. You can also open an account directly by using `https://sorametrics.org/sorav2?tab=balance&address=<address>`.
 
-![](.gitbook/assets/explore-blocks-search-account.png)
-
-On the account details view, you can find information about the XOR balance, transfers and transactions that were made by the account.
-
-![](.gitbook/assets/explore-blocks-show-account-details.png)
+On the wallet details view, you can find balances, transfers, swaps, bridge activity, liquidity, staking, and extrinsics for the account.
 
 #### Transactions
 
-Transactions are the most important part of the block explorer. You can find all the transactions in Blockchain, then select Extrinsics from the drop-down menu.
-
-![](.gitbook/assets/explore-blocks-show-extrinsics.png)
-
-On the extrinsic list page you can find the extrinsic history.
-
-![](.gitbook/assets/explore-blocks-extrinsic-history.png)
+Transactions are the most important part of the block explorer. Open the [Extrinsics](https://sorametrics.org/sorav2?tab=extrinsics) view to browse extrinsic history.
 
 You can filter an extrinsic by date or block range, by account, module, and call. It is very useful for viewing account activity or the history of a specific operation.
