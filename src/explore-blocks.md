@@ -30,24 +30,34 @@ Use SoraMetrics for SORA v2 mainnet data.
 
 Open the [SORA v2 dashboard on SoraMetrics](https://sorametrics.org/sorav2):
 
-Here you will see the main dashboard that contains:
+![SoraMetrics SORA v2 extrinsics view](.gitbook/assets/explore-blocks-sorametrics-extrinsics.png)
 
-- Search box. Use it to search by account, transaction hash, block number, or extrinsic ID.
-- Network statistics
-- Live blocks and network activity
-- Transfers, extrinsics, holders, validators, and liquidity data
+Here you will see the SoraMetrics interface, which contains:
+
+- Global search. Use it to search by account, transaction hash, block number, or extrinsic ID.
+- Current block, era, and epoch details
+- Network statistics and live on-chain activity
+- Transfers, extrinsics, holders, validators, liquidity, and bridge data
 
 #### How to find a transaction
 
 If you have the transaction hash or extrinsic ID, use the search box on SoraMetrics. You can also open the [Extrinsics](https://sorametrics.org/sorav2?tab=extrinsics) view and filter by block, pallet, method, status, or date.
 
+![Search for an extrinsic in SoraMetrics](.gitbook/assets/explore-blocks-sorametrics-search-transaction.png)
+
 The extrinsic details view shows parameters, events, status, and related block information.
+
+![SoraMetrics extrinsic details panel](.gitbook/assets/explore-blocks-sorametrics-extrinsic-details.png)
 
 #### How to find an account
 
 If you have an account address, paste it into the SoraMetrics search box. You can also open an account directly by using `https://sorametrics.org/sorav2?tab=balance&address=<address>`.
 
+![Search for an account in SoraMetrics](.gitbook/assets/explore-blocks-sorametrics-search-account.png)
+
 On the wallet details view, you can find balances, transfers, swaps, bridge activity, liquidity, staking, and extrinsics for the account.
+
+![SoraMetrics wallet details view](.gitbook/assets/explore-blocks-sorametrics-account-details.png)
 
 #### Transactions
 

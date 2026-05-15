@@ -30,24 +30,34 @@ Usa SoraMetrics para consultar datos del mainnet de SORA v2.
 
 Abre el [panel SORA v2 en SoraMetrics](https://sorametrics.org/sorav2):
 
-Aquí verás el panel principal que contiene:
+![Vista de extrínsecas de SoraMetrics SORA v2](../.gitbook/assets/explore-blocks-sorametrics-extrinsics.png)
 
-- Caja de búsqueda. Úsala para buscar por cuenta, hash de transacción, número de bloque o ID de extrínseca.
-- Estadísticas de la red
-- Bloques y actividad de red en vivo
-- Transferencias, extrínsecas, titulares, validadores y datos de liquidez
+Aquí verás la interfaz de SoraMetrics, que contiene:
+
+- Búsqueda global. Úsala para buscar por cuenta, hash de transacción, número de bloque o ID de extrínseca.
+- Detalles del bloque actual, era y época
+- Estadísticas de red y actividad on-chain en vivo
+- Transferencias, extrínsecas, titulares, validadores, liquidez y datos de puentes
 
 #### Cómo encontrar una transacción
 
 Si tienes el hash de la transacción o el ID de la extrínseca, usa la caja de búsqueda de SoraMetrics. También puedes abrir la vista de [Extrínsecas](https://sorametrics.org/sorav2?tab=extrinsics) y filtrar por bloque, pallet, método, estado o fecha.
 
+![Búsqueda de una extrínseca en SoraMetrics](../.gitbook/assets/explore-blocks-sorametrics-search-transaction.png)
+
 La vista de detalles de la extrínseca muestra parámetros, eventos, estado e información del bloque relacionado.
+
+![Panel de detalles de una extrínseca en SoraMetrics](../.gitbook/assets/explore-blocks-sorametrics-extrinsic-details.png)
 
 #### Cómo encontrar una cuenta
 
 Si tienes una dirección de cuenta, pégala en la caja de búsqueda de SoraMetrics. También puedes abrir una cuenta directamente con `https://sorametrics.org/sorav2?tab=balance&address=<address>`.
 
+![Búsqueda de una cuenta en SoraMetrics](../.gitbook/assets/explore-blocks-sorametrics-search-account.png)
+
 En la vista de detalles de la wallet, puedes encontrar saldos, transferencias, swaps, actividad de puentes, liquidez, staking y extrínsecas de la cuenta.
+
+![Vista de detalles de una wallet en SoraMetrics](../.gitbook/assets/explore-blocks-sorametrics-account-details.png)
 
 #### Transacciones
 
