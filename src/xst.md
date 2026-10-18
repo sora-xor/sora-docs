@@ -60,7 +60,7 @@ SORA Synthetics do not require overcollateralization and users of SORA Synthetic
 
 Normally, algorithmic stablecoins derive their value from smart contracts linked to oracles that determine current prices, however, XSTUSD's value is currently derived from the price of XOR-DAI.
 
-## How Is This Implemented?
+## How Is This Implemented? {#how-is-it-implemented}
 
 XST implementation is quite an exciting topic, however, it isn't
 complete yet. The RFP proposing the implementation of XSTUSD has been
